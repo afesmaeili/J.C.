@@ -56,6 +56,36 @@ folder is retained only as a compatible URL for generated Markdown downloads;
 the website calls each daily entry a **report**. Edit `content/`, because builds
 overwrite the generated downloads and HTML.
 
+## Dates and public writing
+
+Use the arXiv listing date for the paper selection, rather than the date on
+which the chat report was generated. The site uses the UTC listing-day
+convention: a Thursday-evening Eastern announcement appears under Friday.
+Check submission histories and the announcement schedule, and use an actual
+listing record when available; moderation can delay an announcement.
+Do not treat submission dates and announcement dates as interchangeable.
+
+The original 12–13 September selections are consolidated into 10 September
+(2 papers) and 11 September (11 papers), with each arXiv ID included once.
+The [date audit](docs/date-audit-2026-09-10-11.md) records the sources and basis
+for this grouping. News retained from the weekend has explicit 12 and
+13 September headings; the withdrawn SVOM trigger includes the 14 September
+correction. Old page links route to the corresponding paper or news section.
+
+Keep each report's description statistical. Distinguish the number of
+**selected papers** from the number of **new primary submissions in the full
+listings**. For selection counts, count each paper once by its primary arXiv
+category. Do not derive arXiv categories from the site's topic tags, count
+cross-listings twice, invent missing totals, or imply the selection is the
+entire daily listing. `statistics` metadata records the count basis.
+
+Write for a public reader: omit conversational introductions, personal
+reading advice, chat history, and subjective filler. Replace relative phrases
+such as “today,” “yesterday,” and “this morning” with exact dates where the
+chronology matters. Keep scientific findings, caveats, equations, corrections,
+and direct source links. Preserve announcement dates separately from dates of
+later news or follow-up observations.
+
 ## Website appearance
 
 - Page layout and navigation: [`scripts/build_archive.py`](scripts/build_archive.py)

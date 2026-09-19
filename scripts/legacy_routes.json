@@ -1,0 +1,53 @@
+{
+  "2026/09/12/index.html": {
+    "default": "2026/09/11/index.html",
+    "fragments": {
+      "main": "2026/09/11/index.html",
+      "arxiv-highlights": "2026/09/11/index.html",
+      "paper-2609-10931": "2026/09/11/index.html#paper-2609-10931",
+      "1-icecube-neutrino-point-source-searches-in-the-direction-of-the-km3net-ultra-high-energy-event": "2026/09/11/index.html#paper-2609-10931",
+      "paper-2609-10176": "2026/09/10/index.html#paper-2609-10176",
+      "2-extended-gamma-ray-emission-in-the-vicinity-of-westerlund-1-and-kes-41-seen-by-fermi-lat": "2026/09/10/index.html#paper-2609-10176",
+      "paper-2609-11833": "2026/09/11/index.html#paper-2609-11833",
+      "3-solar-neutrino-constraints-on-inelastic-dark-matter-scattering-in-light-of-recent-lux-zeplin-observations": "2026/09/11/index.html#paper-2609-11833",
+      "paper-2609-10784": "2026/09/11/index.html#paper-2609-10784",
+      "4-low-mass-magnetic-monopoles-in-the-galaxy-simulations-and-comparison-with-ultra-high-energy-cosmic-ray-data": "2026/09/11/index.html#paper-2609-10784",
+      "paper-2609-10690": "2026/09/11/index.html#paper-2609-10690",
+      "5-eft-approaches-to-sommerfeld-enhancement-and-bound-states-in-singular-potentials": "2026/09/11/index.html#paper-2609-10690",
+      "paper-2609-10674": "2026/09/11/index.html#paper-2609-10674",
+      "6-re-examining-the-sensitivity-of-jwst-to-decaying-axion-dark-matter": "2026/09/11/index.html#paper-2609-10674",
+      "paper-2609-10671": "2026/09/11/index.html#paper-2609-10671",
+      "7-ultralight-axial-dark-matter": "2026/09/11/index.html#paper-2609-10671",
+      "paper-2609-11511": "2026/09/11/index.html#paper-2609-11511",
+      "8-cosmological-evolution-of-primordial-black-holes-uvir-decoupling-and-the-km3net-220-pev-neutrino-anomaly": "2026/09/11/index.html#paper-2609-11511",
+      "other-screened-work": "2026/09/11/index.html",
+      "verified-science-news": "2026/09/11/index.html#science-news-12-september-2026",
+      "a-genuinely-new-population-of-hypersoft-x-ray-sources": "2026/09/11/index.html#science-news-12-september-2026",
+      "magnetars-may-constitute-roughly-half-of-isolated-neutron-star-birthspopulation": "2026/09/11/index.html#science-news-12-september-2026",
+      "icecube-no-significant-neutrino-signal-from-a-sample-of-89-tidal-disruption-events": "2026/09/11/index.html#science-news-12-september-2026",
+      "multimessenger-alert-monitor": "2026/09/11/index.html#science-news-12-september-2026"
+    }
+  },
+  "2026/09/13/index.html": {
+    "default": "2026/09/11/index.html",
+    "fragments": {
+      "main": "2026/09/11/index.html",
+      "arxiv-highlights": "2026/09/11/index.html",
+      "paper-2609-10668": "2026/09/11/index.html#paper-2609-10668",
+      "1-the-dark-dimension-and-majorana-neutrinos": "2026/09/11/index.html#paper-2609-10668",
+      "paper-2609-10636": "2026/09/10/index.html#paper-2609-10636",
+      "2-nonthermal-solar-stalling-of-an-inelastic-scalar-signal-in-xenon": "2026/09/10/index.html#paper-2609-10636",
+      "paper-2609-10694": "2026/09/11/index.html#paper-2609-10694",
+      "3-strong-black-hole-natal-kicks-in-magnetized-accretion-powered-explosions": "2026/09/11/index.html#paper-2609-10694",
+      "paper-2609-10736": "2026/09/11/index.html#paper-2609-10736",
+      "4-teglon-a-pixel-level-pipeline-for-galaxy-informed-gravitational-wave-follow-up-planning-and-efficiency-analysis": "2026/09/11/index.html#paper-2609-10736",
+      "paper-2609-11885": "2026/09/11/index.html#paper-2609-11885",
+      "5-hierarchical-population-inference-with-normalizing-flows-for-binary-black-holes": "2026/09/11/index.html#paper-2609-11885",
+      "verified-science-news": "2026/09/11/index.html#science-news-13-september-2026",
+      "fresh-transient-alert-grb-260913a-detected-by-svom-this-morning": "2026/09/11/index.html#science-news-13-september-2026",
+      "alice-sees-a-saturation-like-suppression-of-journalmath33token-production-at-subnucleonic-scales": "2026/09/11/index.html#science-news-13-september-2026",
+      "transient-watch-sn-2026aaiv-in-ngc-7331": "2026/09/11/index.html#science-news-13-september-2026",
+      "nothing-sufficiently-important-today-in-these-categories": "2026/09/11/index.html#science-news-13-september-2026"
+    }
+  }
+}
