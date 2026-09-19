@@ -39,7 +39,7 @@
       const heading = el('h2', ''); const link = el('a', '', p.title); link.href = p.path; heading.append(link); article.append(heading);
       article.append(el('p', '', p.teaser));
       article.append(el('div', 'meta', `${p.authors} · arXiv:${p.arxiv}`));
-      const meta = el('div', 'meta', `Edition: ${p.editionDate} · ${p.tags.join(' / ')}`); article.append(meta); output.append(article);
+      const meta = el('div', 'meta', `Report: ${p.reportDate} · ${p.tags.join(' / ')}`); article.append(meta); output.append(article);
     }
     if (!matches.length) {
       const box = el('div', 'empty'); box.append(el('h2', '', 'No matching papers yet'));

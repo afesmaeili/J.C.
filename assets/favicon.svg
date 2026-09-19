@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>J.C.</title>
+  <rect width="64" height="64" rx="8" fill="#111f3a"/>
+  <text x="32" y="42" text-anchor="middle" font-family="Georgia,serif" font-size="31" font-weight="bold" fill="white">J.C.</text>
+  <path d="M9 53h46" stroke="#7998ff" stroke-width="4"/>
+</svg>
