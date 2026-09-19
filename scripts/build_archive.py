@@ -8,6 +8,7 @@ import zipfile
 import sys
 from collections import defaultdict
 from datetime import date
+from hashlib import sha256
 from pathlib import Path
 from urllib.parse import quote
 sys.path.insert(0, str(Path(__file__).resolve().parent / "vendor"))
@@ -16,6 +17,8 @@ from latex2mathml.converter import convert as render_math
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT
+# A fresh icon URL prevents browsers from reusing an older monogram.
+FAVICON_VERSION = sha256((ROOT / 'assets/favicon.svg').read_bytes()).hexdigest()[:12]
 public_paths = {Path('assets') / name for name in ('site.css', 'site.js', 'favicon.svg')}
 entries = []
 for source in sorted((ROOT / 'content').glob('*.md'), reverse=True):
@@ -60,7 +63,7 @@ def shell(current, title, content, active='latest', description='Amir’s daily 
     rail_links = ''.join(f'<a class="{"active" if active==key else ""}" href="{url(path)}"'+(' aria-current="page"' if active==key else '')+f'>{icon(i)}{label}</a>' for key,label,path,i in nav)
     top_links = ''.join(f'<a href="{url(path)}"'+(' aria-current="page"' if active==key else '')+f'>{label}</a>' for key,label,path in [('latest','Latest',latest['path']),('archive','Archive','archive/index.html'),('search','Search','search.html')])
     text = f'''<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)} · Daily Physics Journal Club</title><meta name="description" content="{esc(description)}"><meta name="color-scheme" content="light dark"><meta name="theme-color" content="#111f3a"><link rel="icon" type="image/svg+xml" href="{url('assets/favicon.svg')}"><script>try{{document.documentElement.dataset.theme=localStorage.getItem('physics-journal-theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light')}}catch{{document.documentElement.dataset.theme='light'}}</script><link rel="stylesheet" href="{url('assets/site.css')}"></head>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)} · Daily Physics Journal Club</title><meta name="description" content="{esc(description)}"><meta name="color-scheme" content="light dark"><meta name="theme-color" content="#111f3a"><link rel="icon" type="image/svg+xml" href="{url('assets/favicon.svg')}?v={FAVICON_VERSION}"><script>try{{document.documentElement.dataset.theme=localStorage.getItem('physics-journal-theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light')}}catch{{document.documentElement.dataset.theme='light'}}</script><link rel="stylesheet" href="{url('assets/site.css')}"></head>
 <body><a class="skip" href="#main">Skip to content</a><header class="masthead"><div class="mast-inner"><a class="brand" href="{url('index.html')}"><span class="monogram" aria-hidden="true">J.C.</span><span><span class="brand-name">Daily Physics Journal Club</span><span class="brand-caption">Amir’s reading archive</span></span></a><nav class="topnav" aria-label="Main navigation">{top_links}<button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">{icon('moon')}<span>Dark</span></button></nav></div></header>
 <details class="mobile-archive"><summary>Browse by date</summary><a href="{url('archive/index.html')}">All reports</a><a href="{url(latest['date'][:4]+'/index.html')}">{latest['date'][:4]}</a><a href="{url(latest['date'][:7].replace('-','/')+'/index.html')}">{date.fromisoformat(latest['date']).strftime('%B %Y')}</a></details>
 <div class="layout"><aside class="sidebar" aria-label="Archive navigation"><div class="rail-title">Your journal</div><nav class="rail-links">{rail_links}</nav><div class="rail-title">Browse by date</div>{archive_rail(current)}<div class="rail-bottom">{count_label(len(entries),'report')} · {count_label(sum(len(e['papers']) for e in entries),'paper')}<a href="{url('downloads/physics-journal-club.zip')}" download>Download HTML archive ↓</a></div></aside><main class="main" id="main">{content}<footer class="footer"><span>Daily Physics Journal Club</span><a href="{url('downloads/physics-journal-club.zip')}" download>Offline archive ↓</a></footer></main></div>{extra}<script src="{url('assets/site.js')}" defer></script></body></html>'''
