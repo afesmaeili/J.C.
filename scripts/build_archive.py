@@ -32,7 +32,7 @@ for source in sorted((ROOT / 'content').glob('*.md'), reverse=True):
     entries.append(e)
 assert entries, 'At least one report is required'
 latest = entries[0]
-all_topics = ['Neutrinos', 'Cosmic rays', 'Gamma rays', 'Multimessenger', 'Oscillations', 'Dark matter', 'BSM']
+all_topics = ['Neutrinos', 'Cosmic rays', 'Gamma rays', 'Multimessenger', 'Oscillations', 'Dark matter', 'BSM', 'Particle physics']
 esc = lambda x: html.escape(str(x), quote=True)
 def longdate(s): return date.fromisoformat(s).strftime('%d %B %Y').lstrip('0')
 def shortdate(s): return date.fromisoformat(s).strftime('%d %b %Y').lstrip('0')
