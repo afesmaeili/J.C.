@@ -37,6 +37,10 @@ esc = lambda x: html.escape(str(x), quote=True)
 def longdate(s): return date.fromisoformat(s).strftime('%d %B %Y').lstrip('0')
 def shortdate(s): return date.fromisoformat(s).strftime('%d %b %Y').lstrip('0')
 def count_label(n, noun): return f'{n} {noun}' + ('' if n == 1 else 's')
+def report_count_label(e):
+    if not e['papers'] and e.get('news_count'):
+        return count_label(e['news_count'], 'news section')
+    return count_label(len(e['papers']), 'paper')
 def rel(current, target): return os.path.relpath(target, str(Path(current).parent)).replace(os.sep, '/')
 def slug(s): return re.sub(r'[^a-z0-9]+', '-', s.lower()).strip('-')
 def icon(name):
@@ -106,12 +110,16 @@ def breadcrumbs(current, e):
     y,m,_ = e['date'].split('-')
     return f'<nav class="crumbs" aria-label="Breadcrumb"><a href="{rel(current,"archive/index.html")}">Archive</a><span>/</span><a href="{rel(current,y+"/index.html")}">{y}</a><span>/</span><a href="{rel(current,y+"/"+m+"/index.html")}">{date.fromisoformat(e["date"]).strftime("%B")}</a><span>/</span><span>{int(e["date"][8:])}</span></nav>'
 
-# Home: immediately surface the latest reading and the actual paper selection.
+# Home: surface the latest paper selection or the full news-only report.
 current = 'index.html'
 home = header(current,latest,True)
 home += f'<div class="notice">{esc(latest["scope"])}</div><div class="report-actions"><a class="button" href="{latest["path"]}">Read this report <span aria-hidden="true">→</span></a><a class="button secondary" href="archive/index.html">Browse the archive</a></div>'
-home += f'<div class="section-line"><h2>In this report</h2><span>{count_label(len(latest["papers"]),"paper")}</span></div>'
-home += ''.join(paper_row(current,latest,p,i) for i,p in enumerate(latest['papers'],1))
+home += f'<div class="section-line"><h2>In this report</h2><span>{report_count_label(latest)}</span></div>'
+if latest['papers']:
+    home += ''.join(paper_row(current,latest,p,i) for i,p in enumerate(latest['papers'],1))
+else:
+    body, _ = markdown(latest)
+    home += f'<article class="prose">{body}</article>'
 shell(current,'Latest report',home,description=latest['description'])
 
 # A permanent, fully rendered page for every day. No client-side router or network fetch required.
@@ -141,7 +149,7 @@ def archive_page(current,title,subset,crumb=''):
             name=date(int(year),int(month),1).strftime('%B')
             content+=f'<h3 class="month-heading"><a href="{rel(current,year+"/"+month+"/index.html")}">{name} →</a></h3>'
             for e in reports:
-                content+=f'<a class="archive-row" href="{rel(current,e["path"])}"><div class="date-block">{int(e["date"][8:])}<span>{name[:3]}</span></div><div><span class="paper-label">{esc(e["kind"])}</span><h3>{longdate(e["date"])}</h3><p>{count_label(len(e["papers"]),"paper")} · {esc(" / ".join(e["topics"]))}</p></div><span class="arrow" aria-hidden="true">→</span></a>'
+                content+=f'<a class="archive-row" href="{rel(current,e["path"])}"><div class="date-block">{int(e["date"][8:])}<span>{name[:3]}</span></div><div><span class="paper-label">{esc(e["kind"])}</span><h3>{longdate(e["date"])}</h3><p>{report_count_label(e)} · {esc(" / ".join(e["topics"]))}</p></div><span class="arrow" aria-hidden="true">→</span></a>'
         content+='</section>'
     shell(current,title,content,'archive')
 archive_page('archive/index.html','The archive',entries)

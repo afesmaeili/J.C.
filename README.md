@@ -56,6 +56,12 @@ folder is retained only as a compatible URL for generated Markdown downloads;
 the website calls each daily entry a **report**. Edit `content/`, because builds
 overwrite the generated downloads and HTML.
 
+For a news-only update, use the requested news-report date, set `kind` to
+`Science news`, keep `papers` empty, and set `news_count` to the number of
+news subsections. Include only the verified science-news body, with its source
+links and equations. The homepage displays that body, and archive rows show
+the news-section count. News updates do not add entries to the paper search.
+
 ## Dates and public writing
 
 Use the arXiv listing date for the paper selection, rather than the date on
