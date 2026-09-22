@@ -97,7 +97,7 @@ def markdown(e):
         return f'JOURNALMATH{len(formulas)-1}TOKEN'
     body = re.sub(r'\\\[(.*?)\\\]|\\\((.*?)\\\)', math_replace, e['body'], flags=re.S)
     body = re.sub(r'<!-- paper:([a-z0-9-]+) -->', r'<div class="paper-anchor" id="\1"></div>', body)
-    body = re.sub(r'^(#{3,4}) ', lambda m: m.group(1)[1:]+' ', body, flags=re.M)
+    body = re.sub(r'^(#{3,5}) ', lambda m: m.group(1)[1:]+' ', body, flags=re.M)
     renderer = md_renderer.Markdown(extensions=['extra', 'sane_lists', 'toc'], extension_configs={'toc': {'toc_depth': '2-2'}})
     result = renderer.convert(body)
     headings = [(h['id'], html.unescape(re.sub('<[^>]+>', '', h['name']))) for h in renderer.toc_tokens]
