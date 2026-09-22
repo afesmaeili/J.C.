@@ -1,5 +1,5 @@
 # J.C.
-Astroparticle Journal Club
+Daily AstroParticle Physics Journal Club
 
 ## Edit a report or history section
 
