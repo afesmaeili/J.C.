@@ -115,9 +115,9 @@ def breadcrumbs(current, e):
 current = 'index.html'
 home = f'''<section class="home-intro" aria-labelledby="home-title">
 <span class="eyebrow">Research · Literature · Science news</span>
-<h1 id="home-title">A daily guide to astroparticle physics.</h1>
-<p class="deck">Daily AstroParticle Physics Journal Club is a public reading guide to new research on neutrinos, cosmic rays, high-energy photons, dark matter, and compact objects, alongside relevant developments in particle physics and cosmology.</p>
-<p class="home-lead">Each dated report brings selected papers together with their scientific context, key results, and limitations. It is a starting point for reading, discussion, and following the literature.</p>
+<h1 id="home-title">A daily guide to astroparticle physics literature</h1>
+<p class="deck">This daily journal club brings together interesting arXiv papers in astroparticle physics and noteworthy scientific news.</p>
+<p class="home-lead">Explore the daily reports for concise summaries, context from the literature, and ideas for further reading and discussion.</p>
 <div class="report-actions"><a class="button" href="{latest['path']}">Read the latest report <span aria-hidden="true">→</span></a><a class="button secondary" href="archive/index.html">Browse the archive</a></div>
 <p class="latest-date">Latest report: <time datetime="{latest['date']}">{longdate(latest['date'])}</time></p>
 </section>
@@ -143,7 +143,7 @@ home = f'''<section class="home-intro" aria-labelledby="home-title">
 <button class="button" type="submit">Continue to GitHub <span aria-hidden="true">↗</span></button>
 </form>
 </section>'''
-shell(current,'Home',home,active='home',description='A public guide to astroparticle physics: selected research papers, literature context, and verified science news. Browse daily reports and share suggestions.')
+shell(current,'Home',home,active='home',description='A daily guide to astroparticle physics literature, featuring selected arXiv papers, scientific context, and verified science news.')
 
 # A permanent, fully rendered page for every day. No client-side router or network fetch required.
 for idx,e in enumerate(entries):
