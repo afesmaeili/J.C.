@@ -19,7 +19,7 @@ content unless a separate change is requested.
 
 The build reads the same report body for the dated page, full-text search,
 Markdown download, and offline archive. Assessments have no separate copy in
-the source metadata. Paper `teaser` fields control the short homepage excerpts.
+the source metadata. Paper `teaser` fields control the short search excerpts.
 
 After editing, rebuild with Python 3.10 or newer:
 
@@ -55,7 +55,8 @@ repository. A report appearing in the conversation does not update this site.
    Reports from earlier dates retain their content until deliberately edited.
 5. Rebuild, check the pages, search, and downloads, then commit and push.
 
-The latest date becomes the homepage automatically. The existing `editions/`
+The homepage introduces the journal club; its latest-report link and date update
+automatically. The existing `editions/`
 folder is retained only as a compatible URL for generated Markdown downloads;
 the website calls each daily entry a **report**. Edit `content/`, because builds
 overwrite the generated downloads and HTML.
@@ -63,7 +64,7 @@ overwrite the generated downloads and HTML.
 For a news-only update, use the requested news-report date, set `kind` to
 `Science news`, keep `papers` empty, and set `news_count` to the number of
 news subsections. Include only the verified science-news body, with its source
-links and equations. The homepage displays that body, and archive rows show
+links and equations. The dated page displays that body, and archive rows show
 the news-section count. News updates do not add entries to the paper search.
 
 ## Dates and public writing
@@ -95,6 +96,20 @@ such as “today,” “yesterday,” and “this morning” with exact dates wh
 chronology matters. Keep scientific findings, caveats, equations, corrections,
 and direct source links. Preserve announcement dates separately from dates of
 later news or follow-up observations.
+
+## Homepage and reader feedback
+
+The homepage introduction and feedback form are in the home section of
+`scripts/build_archive.py`. Edit this source and rebuild; `index.html` is generated.
+The introduction remains the homepage when a new daily report is added.
+
+Reader suggestions use the repository's public GitHub Issues. The form opens
+GitHub with the reader's title and text filled in, where they sign in, review,
+and submit the issue themselves. It works without JavaScript and requires no
+server or credentials in the website. The form explains that feedback is public
+and that a GitHub account is required. It does not submit an issue on its own.
+
+Read and respond to feedback at <https://github.com/afesmaeili/J.C./issues>.
 
 ## Website appearance
 

@@ -19,6 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT
 # A fresh icon URL prevents browsers from reusing an older monogram.
 FAVICON_VERSION = sha256((ROOT / 'assets/favicon.svg').read_bytes()).hexdigest()[:12]
+STYLE_VERSION = sha256((ROOT / 'assets/site.css').read_bytes()).hexdigest()[:12]
 public_paths = {Path('assets') / name for name in ('site.css', 'site.js', 'favicon.svg')}
 entries = []
 for source in sorted((ROOT / 'content').glob('*.md'), reverse=True):
@@ -44,7 +45,7 @@ def report_count_label(e):
 def rel(current, target): return os.path.relpath(target, str(Path(current).parent)).replace(os.sep, '/')
 def slug(s): return re.sub(r'[^a-z0-9]+', '-', s.lower()).strip('-')
 def icon(name):
-    paths = {'search':'<circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/>', 'moon':'<path d="M20 14A8 8 0 0 1 10 4a8 8 0 1 0 10 10Z"/>', 'book':'<path d="M3 4h6a4 4 0 0 1 3 1.5A4 4 0 0 1 15 4h6v15h-6a4 4 0 0 0-3 1.5A4 4 0 0 0 9 19H3Z"/><path d="M12 6v14"/>', 'archive':'<rect x="3" y="4" width="18" height="4" rx="1"/><path d="M5 8v12h14V8M9 12h6"/>'}
+    paths = {'home':'<path d="m3 10 9-7 9 7M5 9v12h14V9M9 21v-8h6v8"/>', 'search':'<circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/>', 'moon':'<path d="M20 14A8 8 0 0 1 10 4a8 8 0 1 0 10 10Z"/>', 'book':'<path d="M3 4h6a4 4 0 0 1 3 1.5A4 4 0 0 1 15 4h6v15h-6a4 4 0 0 0-3 1.5A4 4 0 0 0 9 19H3Z"/><path d="M12 6v14"/>', 'archive':'<rect x="3" y="4" width="18" height="4" rx="1"/><path d="M5 8v12h14V8M9 12h6"/>'}
     return f'<svg viewBox="0 0 24 24" aria-hidden="true">{paths[name]}</svg>'
 def topic_links(current, topics):
     return '<div class="chips">' + ''.join(f'<a class="chip" href="{rel(current,"search.html")}?topic={quote(t)}">{esc(t)}</a>' for t in topics) + '</div>'
@@ -63,11 +64,11 @@ def archive_rail(current):
     return ''.join(parts)
 def shell(current, title, content, active='latest', description='Astroparticle physics papers and science news.', extra=''):
     url = lambda target: rel(current, target)
-    nav = [('latest','Latest report',latest['path'],'book'),('archive','Archive','archive/index.html','archive'),('search','Search papers','search.html','search')]
+    nav = [('home','Home','index.html','home'),('latest','Latest report',latest['path'],'book'),('archive','Archive','archive/index.html','archive'),('search','Search papers','search.html','search')]
     rail_links = ''.join(f'<a class="{"active" if active==key else ""}" href="{url(path)}"'+(' aria-current="page"' if active==key else '')+f'>{icon(i)}{label}</a>' for key,label,path,i in nav)
-    top_links = ''.join(f'<a href="{url(path)}"'+(' aria-current="page"' if active==key else '')+f'>{label}</a>' for key,label,path in [('latest','Latest',latest['path']),('archive','Archive','archive/index.html'),('search','Search','search.html')])
+    top_links = ''.join(f'<a href="{url(path)}"'+(' aria-current="page"' if active==key else '')+f'>{label}</a>' for key,label,path in [('home','Home','index.html'),('latest','Latest',latest['path']),('archive','Archive','archive/index.html'),('search','Search','search.html')])
     text = f'''<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)} · Daily AstroParticle Physics Journal Club</title><meta name="description" content="{esc(description)}"><meta name="color-scheme" content="light dark"><meta name="theme-color" content="#111f3a"><link rel="icon" type="image/svg+xml" href="{url('assets/favicon.svg')}?v={FAVICON_VERSION}"><script>try{{document.documentElement.dataset.theme=localStorage.getItem('physics-journal-theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light')}}catch{{document.documentElement.dataset.theme='light'}}</script><link rel="stylesheet" href="{url('assets/site.css')}"></head>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)} · Daily AstroParticle Physics Journal Club</title><meta name="description" content="{esc(description)}"><meta name="color-scheme" content="light dark"><meta name="theme-color" content="#111f3a"><link rel="icon" type="image/svg+xml" href="{url('assets/favicon.svg')}?v={FAVICON_VERSION}"><script>try{{document.documentElement.dataset.theme=localStorage.getItem('physics-journal-theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light')}}catch{{document.documentElement.dataset.theme='light'}}</script><link rel="stylesheet" href="{url('assets/site.css')}?v={STYLE_VERSION}"></head>
 <body><a class="skip" href="#main">Skip to content</a><header class="masthead"><div class="mast-inner"><a class="brand" href="{url('index.html')}"><span class="monogram" aria-hidden="true">J.C.</span><span><span class="brand-name">Daily AstroParticle Physics Journal Club</span><span class="brand-caption">Astroparticle physics</span></span></a><nav class="topnav" aria-label="Main navigation">{top_links}<button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">{icon('moon')}<span>Dark</span></button></nav></div></header>
 <details class="mobile-archive"><summary>Browse by date</summary><a href="{url('archive/index.html')}">All reports</a><a href="{url(latest['date'][:4]+'/index.html')}">{latest['date'][:4]}</a><a href="{url(latest['date'][:7].replace('-','/')+'/index.html')}">{date.fromisoformat(latest['date']).strftime('%B %Y')}</a></details>
 <div class="layout"><aside class="sidebar" aria-label="Archive navigation"><div class="rail-title">Journal Club</div><nav class="rail-links">{rail_links}</nav><div class="rail-title">Browse by date</div>{archive_rail(current)}<div class="rail-bottom">{count_label(len(entries),'report')} · {count_label(sum(len(e['papers']) for e in entries),'paper')}<a href="{url('downloads/physics-journal-club.zip')}" download>Download HTML archive ↓</a></div></aside><main class="main" id="main">{content}<footer class="footer"><span>Daily AstroParticle Physics Journal Club</span><a href="{url('downloads/physics-journal-club.zip')}" download>Offline archive ↓</a></footer></main></div>{extra}<script src="{url('assets/site.js')}" defer></script></body></html>'''
@@ -110,17 +111,39 @@ def breadcrumbs(current, e):
     y,m,_ = e['date'].split('-')
     return f'<nav class="crumbs" aria-label="Breadcrumb"><a href="{rel(current,"archive/index.html")}">Archive</a><span>/</span><a href="{rel(current,y+"/index.html")}">{y}</a><span>/</span><a href="{rel(current,y+"/"+m+"/index.html")}">{date.fromisoformat(e["date"]).strftime("%B")}</a><span>/</span><span>{int(e["date"][8:])}</span></nav>'
 
-# Home: surface the latest paper selection or the full news-only report.
+# Home: introduce the journal and give readers a route to reports and feedback.
 current = 'index.html'
-home = header(current,latest,True)
-home += f'<div class="notice">{esc(latest["scope"])}</div><div class="report-actions"><a class="button" href="{latest["path"]}">Read this report <span aria-hidden="true">→</span></a><a class="button secondary" href="archive/index.html">Browse the archive</a></div>'
-home += f'<div class="section-line"><h2>In this report</h2><span>{report_count_label(latest)}</span></div>'
-if latest['papers']:
-    home += ''.join(paper_row(current,latest,p,i) for i,p in enumerate(latest['papers'],1))
-else:
-    body, _ = markdown(latest)
-    home += f'<article class="prose">{body}</article>'
-shell(current,'Latest report',home,description=latest['description'])
+home = f'''<section class="home-intro" aria-labelledby="home-title">
+<span class="eyebrow">Research · Literature · Science news</span>
+<h1 id="home-title">A daily guide to astroparticle physics.</h1>
+<p class="deck">Daily AstroParticle Physics Journal Club is a public reading guide to new research on neutrinos, cosmic rays, high-energy photons, dark matter, and compact objects, alongside relevant developments in particle physics and cosmology.</p>
+<p class="home-lead">Each dated report brings selected papers together with their scientific context, key results, and limitations. It is a starting point for reading, discussion, and following the literature.</p>
+<div class="report-actions"><a class="button" href="{latest['path']}">Read the latest report <span aria-hidden="true">→</span></a><a class="button secondary" href="archive/index.html">Browse the archive</a></div>
+<p class="latest-date">Latest report: <time datetime="{latest['date']}">{longdate(latest['date'])}</time></p>
+</section>
+<section class="home-section" aria-labelledby="contents-title">
+<h2 id="contents-title">What you will find</h2>
+<div class="home-features">
+<div><span class="feature-number" aria-hidden="true">01</span><h3>Selected research</h3><p>ArXiv highlights include paper links, authors, concise explanations, and important equations or measurements. Shorter notes cover additional papers when relevant.</p></div>
+<div><span class="feature-number" aria-hidden="true">02</span><h3>History</h3><p>Literature comparisons explain what earlier studies established, what a new paper adds or challenges, and which uncertainties remain. References connect the discussion to the original work.</p></div>
+<div><span class="feature-number" aria-hidden="true">03</span><h3>Verified science news</h3><p>Updates cover experiments, observatories, discoveries, and mission milestones, with source links and event dates. Preliminary findings and unconfirmed associations are identified as such.</p></div>
+</div>
+</section>
+<section class="home-section home-reading" aria-labelledby="reading-title">
+<div><h2 id="reading-title">Reading the reports</h2><p>Reports are organized by date. The opening statistics distinguish the selected papers from the new submissions in the full arXiv listings. Star ratings highlight reading priority; the summaries retain the scientific caveats.</p><p>On days without new arXiv announcements, an entry may contain science news only.</p></div>
+<div><h3>Explore the collection</h3><p><a href="search.html">Search papers</a> by title, author, arXiv ID, topic, or words in the reading notes. Use the <a href="archive/index.html">archive</a> to browse earlier dates.</p><p>Each report can be downloaded as Markdown or printed to PDF. The <a href="downloads/physics-journal-club.zip" download>HTML archive</a> provides an offline copy of the collection.</p></div>
+</section>
+<section class="home-section feedback-section" aria-labelledby="feedback-title">
+<div class="feedback-intro"><span class="eyebrow">Reader suggestions</span><h2 id="feedback-title">Help improve the journal club</h2><p>Suggest a topic, a feature, or a clearer way to present the science. Corrections and missing references are welcome.</p><a class="text-link" href="https://github.com/afesmaeili/J.C./issues" target="_blank" rel="noopener noreferrer">View reader feedback on GitHub ↗</a></div>
+<form class="feedback-form" action="https://github.com/afesmaeili/J.C./issues/new" method="get" target="_blank" rel="noopener noreferrer" accept-charset="UTF-8" aria-labelledby="feedback-title" aria-describedby="feedback-note">
+<label for="feedback-title-input">Suggestion title</label><input id="feedback-title-input" name="title" type="text" maxlength="80" required placeholder="A topic or improvement you would like to see">
+<label for="feedback-body">Your suggestion</label><textarea id="feedback-body" name="body" rows="6" maxlength="800" required aria-describedby="feedback-length feedback-note" placeholder="What could be added or improved, and how would it help?"></textarea>
+<p id="feedback-length" class="field-hint">Up to 800 characters. You can add more detail on GitHub.</p>
+<p id="feedback-note" class="feedback-note">Suggestions are public and require a GitHub account. You can review and edit your text on GitHub before posting.</p>
+<button class="button" type="submit">Continue to GitHub <span aria-hidden="true">↗</span></button>
+</form>
+</section>'''
+shell(current,'Home',home,active='home',description='A public guide to astroparticle physics: selected research papers, literature context, and verified science news. Browse daily reports and share suggestions.')
 
 # A permanent, fully rendered page for every day. No client-side router or network fetch required.
 for idx,e in enumerate(entries):
@@ -197,5 +220,5 @@ with zipfile.ZipFile(zip_path,'w',zipfile.ZIP_DEFLATED) as z:
                 z.writestr(str(p.relative_to(OUT)), offline)
             else:
                 z.write(p,p.relative_to(OUT))
-    z.writestr('READ-ME.txt','Open index.html after extracting this ZIP. Pages, search, styles, and equations work offline. External paper links require internet. To refresh this snapshot, download the archive again from the hosted site.\n')
+    z.writestr('READ-ME.txt','Open index.html after extracting this ZIP. Pages, search, styles, and equations work offline. External paper links and reader feedback on GitHub require internet. To refresh this snapshot, download the archive again from the hosted site.\n')
 print(f'Rendered {len(entries)} report(s), {len(search_index)} papers, and {sum(p.suffix == ".html" for p in public_paths)} HTML pages.')
