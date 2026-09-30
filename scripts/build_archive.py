@@ -116,8 +116,8 @@ current = 'index.html'
 home = f'''<section class="home-intro" aria-labelledby="home-title">
 <span class="eyebrow">Research · Literature · Science news</span>
 <h1 id="home-title">A daily guide to astroparticle physics literature</h1>
-<p class="deck">This daily journal club brings together interesting arXiv papers in astroparticle physics and noteworthy scientific news.</p>
-<p class="home-lead">Explore the daily reports for concise summaries, context from the literature, and ideas for further reading and discussion.</p>
+<p class="deck">This daily journal club, created by AmirFarzan Esmaeili, brings together interesting arXiv papers in astroparticle physics and noteworthy scientific news.</p>
+<p class="home-lead">The daily reports are prepared and updated by ChatGPT, offering concise summaries, context from the literature, and ideas for further reading and discussion.</p>
 <div class="report-actions"><a class="button" href="{latest['path']}">Read the latest report <span aria-hidden="true">→</span></a><a class="button secondary" href="archive/index.html">Browse the archive</a></div>
 <p class="latest-date">Latest report: <time datetime="{latest['date']}">{longdate(latest['date'])}</time></p>
 </section>
