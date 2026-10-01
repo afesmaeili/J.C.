@@ -67,6 +67,27 @@ news subsections. Include only the verified science-news body, with its source
 links and equations. The dated page displays that body, and archive rows show
 the news-section count. News updates do not add entries to the paper search.
 
+## Science Radar
+
+**Science Radar** begins with the 1 October 2026 report. The source conversation
+called that first installment "Gossips"; use **Science Radar** on the public
+website from its first appearance onward.
+
+Preserve this section alongside the arXiv highlights and verified physics news
+when importing future reports. Use `### Science Radar` for its section heading,
+`####` for individual stories, and `science_radar_count` in the JSON metadata
+for the number of stories. It covers notable discoveries, new research, and
+scientific debates across mathematics, AI, biology, genetics, geology, medicine,
+and other disciplines. Retain direct references, publication dates, evidence
+status, and limitations. Present disputed claims and competing interpretations
+neutrally; distinguish preprints and preliminary results from established findings.
+
+The homepage prominently introduces Science Radar, gives its start date, and
+automatically links to the newest report containing that heading. Reports with
+the section also receive a direct jump button, including on mobile. Archive
+rows show the Science Radar story count. These stories stay separate from the
+arXiv paper-search records.
+
 ## Dates and public writing
 
 Use the arXiv listing date for the paper selection, rather than the date on

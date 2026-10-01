@@ -33,6 +33,7 @@ for source in sorted((ROOT / 'content').glob('*.md'), reverse=True):
     entries.append(e)
 assert entries, 'At least one report is required'
 latest = entries[0]
+radar_entries = [e for e in entries if re.search(r'^### Science Radar\s*$', e['body'], re.M)]
 all_topics = ['Neutrinos', 'Cosmic rays', 'Gamma rays', 'X rays', 'Compact objects', 'Multimessenger', 'Oscillations', 'Dark matter', 'BSM', 'Particle physics']
 esc = lambda x: html.escape(str(x), quote=True)
 def longdate(s): return date.fromisoformat(s).strftime('%d %B %Y').lstrip('0')
@@ -40,8 +41,13 @@ def shortdate(s): return date.fromisoformat(s).strftime('%d %b %Y').lstrip('0')
 def count_label(n, noun): return f'{n} {noun}' + ('' if n == 1 else 's')
 def report_count_label(e):
     if not e['papers'] and e.get('news_count'):
-        return count_label(e['news_count'], 'news section')
-    return count_label(len(e['papers']), 'paper')
+        label = count_label(e['news_count'], 'news section')
+    else:
+        label = count_label(len(e['papers']), 'paper')
+    if e.get('science_radar_count'):
+        n = e['science_radar_count']
+        label += f' · Science Radar: {n} ' + ('story' if n == 1 else 'stories')
+    return label
 def rel(current, target): return os.path.relpath(target, str(Path(current).parent)).replace(os.sep, '/')
 def slug(s): return re.sub(r'[^a-z0-9]+', '-', s.lower()).strip('-')
 def icon(name):
@@ -113,6 +119,16 @@ def breadcrumbs(current, e):
 
 # Home: introduce the journal and give readers a route to reports and feedback.
 current = 'index.html'
+radar_feature = ''
+if radar_entries:
+    radar_latest = radar_entries[0]
+    radar_feature = f'''<section class="radar-feature" aria-labelledby="radar-title">
+<div><span class="eyebrow">Beyond astroparticle physics · Since <time datetime="2026-10-01">1 October 2026</time></span>
+<h2 id="radar-title">Science Radar</h2>
+<p>A regular look across science at remarkable discoveries, new ideas, and scientific debates—from mathematics and AI to biology, genetics, geology, and medicine.</p>
+<p>Each story links to its sources and distinguishes established findings from preliminary claims. Where interpretations differ, the coverage presents the evidence and competing views neutrally.</p></div>
+<div class="radar-action"><a class="button" href="{radar_latest['path']}#science-radar">Explore Science Radar <span aria-hidden="true">→</span></a><p>Latest: <time datetime="{radar_latest['date']}">{longdate(radar_latest['date'])}</time></p></div>
+</section>'''
 home = f'''<section class="home-intro" aria-labelledby="home-title">
 <span class="eyebrow">Research · Literature · Science news</span>
 <h1 id="home-title">A daily guide to astroparticle physics literature</h1>
@@ -121,6 +137,7 @@ home = f'''<section class="home-intro" aria-labelledby="home-title">
 <div class="report-actions"><a class="button" href="{latest['path']}">Read the latest report <span aria-hidden="true">→</span></a><a class="button secondary" href="archive/index.html">Browse the archive</a></div>
 <p class="latest-date">Latest report: <time datetime="{latest['date']}">{longdate(latest['date'])}</time></p>
 </section>
+{radar_feature}
 <section class="home-section" aria-labelledby="contents-title">
 <h2 id="contents-title">What you will find</h2>
 <div class="home-features">
@@ -143,14 +160,15 @@ home = f'''<section class="home-intro" aria-labelledby="home-title">
 <button class="button" type="submit">Continue to GitHub <span aria-hidden="true">↗</span></button>
 </form>
 </section>'''
-shell(current,'Home',home,active='home',description='A daily guide to astroparticle physics literature, featuring selected arXiv papers, scientific context, and verified science news.')
+shell(current,'Home',home,active='home',description='A daily guide to astroparticle physics literature, featuring selected arXiv papers, scientific context, verified news, and Science Radar across the sciences.')
 
 # A permanent, fully rendered page for every day. No client-side router or network fetch required.
 for idx,e in enumerate(entries):
     current = e['path']; body, headings = markdown(e)
     toc = '<aside class="toc" aria-label="In this report"><div class="eyebrow">In this report</div>'+''.join(f'<a href="#{anchor}">{esc(title)}</a>' for anchor,title in headings)+'</aside>'
     content = breadcrumbs(current,e)+header(current,e)
-    content += f'<div class="notice">{esc(e["scope"])}</div><div class="report-actions"><button type="button" class="button secondary" data-print>Print / save PDF</button><a class="button secondary" href="{rel(current,"editions/"+e["date"]+".md")}" download>Download Markdown ↓</a></div>'
+    radar_jump = '<a class="button" href="#science-radar">Science Radar <span aria-hidden="true">↓</span></a>' if e in radar_entries else ''
+    content += f'<div class="notice">{esc(e["scope"])}</div><div class="report-actions">{radar_jump}<button type="button" class="button secondary" data-print>Print / save PDF</button><a class="button secondary" href="{rel(current,"editions/"+e["date"]+".md")}" download>Download Markdown ↓</a></div>'
     if e.get('correction'):
         content += f'<aside class="notice"><strong>Later correction:</strong> {esc(e["correction"])} <a href="{rel(current, "2026/09/14/index.html")}#verified-science-news">Read the 14 September update →</a></aside>'
     content += f'<div class="reading-layout"><article class="prose">{body}</article>{toc}</div>'

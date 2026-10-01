@@ -20,6 +20,17 @@
 .home-lead{max-width:740px;color:var(--muted)}
 .latest-date{font-size:.85rem;color:var(--muted);margin:0}
 .latest-date time{color:var(--ink)}
+.radar-feature{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:2rem;background:var(--tint);border:1px solid var(--rule);border-left:4px solid var(--blue);padding:2rem;margin:0 0 2.2rem;border-radius:3px}
+.radar-feature .eyebrow{color:var(--blue);line-height:1.8}
+.radar-feature h2{font-size:2.3rem;margin:.7rem 0 1rem}
+.radar-feature p{max-width:700px;color:var(--muted)}
+.radar-feature p:last-child{margin-bottom:0}
+.radar-action{min-width:0}.radar-action .button{white-space:nowrap}
+.radar-action p{font-size:.8rem;margin:.7rem 0 0;text-align:center}
+.prose h2#science-radar{border-top:3px solid var(--blue);color:var(--blue)}
+@media(max-width:1100px){.radar-feature{grid-template-columns:1fr;gap:1.1rem}.radar-action p{text-align:left}}
+@media(max-width:760px){.radar-feature{padding:1.3rem;margin-bottom:1.7rem}.radar-feature h2{font-size:2rem}.radar-feature .eyebrow{font-size:.68rem}.radar-action .button{white-space:normal}}
+@media print{.radar-feature{display:block;background:none;border-color:#777;break-inside:avoid}.radar-action{display:none}}
 .home-section{border-top:1px solid var(--rule);padding:2.2rem 0}
 .home-section h2{font-size:1.9rem;margin-bottom:1.35rem}
 .home-section h3{font-size:1.4rem;line-height:1.25;margin-bottom:.8rem}
