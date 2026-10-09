@@ -118,6 +118,12 @@ chronology matters. Keep scientific findings, caveats, equations, corrections,
 and direct source links. Preserve announcement dates separately from dates of
 later news or follow-up observations.
 
+Omit general notices that no new result appeared in a topic, that no story
+passed a selection threshold, or that an already-covered result is not repeated.
+Use the introduction for selection statistics. Omit sections with no substantive
+content. Retain scientific null results, observation-specific non-detections,
+and limitations that help readers interpret a paper or a reported event.
+
 ## Homepage and reader feedback
 
 The homepage introduction and feedback form are in the home section of
