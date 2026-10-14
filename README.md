@@ -38,11 +38,22 @@ then wait for the repository's Pages deployment to finish before refreshing.
 
 ## Add the next daily report
 
-The reports come from the “Schedule Physics Journal Club” conversation.
-There is currently no automatic connection between that conversation and this
-repository. A report appearing in the conversation does not update this site.
+From 14 October 2026, a new Daily Physics Journal Club task is configured to
+prepare the report in its current conversation and publish it to this repository.
+The connected GitHub App was installed on 14 October to provide repository
+access for publishing. The recurring task starts at **08:00 Europe/Berlin**,
+beginning 15 October, with daylight-saving
+changes handled by that timezone. The previous conversation's task is paused.
+The 14 October report was prepared manually as the first report of this workflow.
 
-1. Obtain the complete report for the intended date from that conversation.
+The scheduled task must run the build and publish the generated files; the
+website itself does not read conversations. It must verify the Pages deployment
+and state any publishing failure in the chat instead of claiming success.
+The source and editorial checks are documented in
+[`docs/daily-workflow.md`](docs/daily-workflow.md).
+
+1. Prepare the complete report for the intended listing date, or obtain the
+   complete report from the current Journal Club conversation.
 2. Add `content/YYYY-MM-DD.md`, following an existing file's JSON front matter
    and Markdown structure. Set `date`, `kind`, `description`, `scope`, `topics`,
    and `papers`. Daily titles and issue numbers are not used.
