@@ -38,6 +38,14 @@ then wait for the repository's Pages deployment to finish before refreshing.
 
 ## Add the next daily report
 
+From **12 November 2026**, the combined task is split into three focused tasks:
+arXiv papers, astrophysical alerts, and science news. Each starts on weekdays at
+**08:00 Europe/Berlin**. They save independent parts; the last finishing task
+assembles and publishes one complete dated report. Follow
+[`docs/split-workflow.md`](docs/split-workflow.md) for the handoff, concurrency,
+coverage audit and recovery rules. This supersedes the single-task delivery
+workflow below while preserving the scientific and website requirements.
+
 From 14 October 2026, a new Daily Physics Journal Club task is configured to
 prepare the report in its current conversation and publish it to this repository.
 The connected GitHub App was installed on 14 October to provide repository

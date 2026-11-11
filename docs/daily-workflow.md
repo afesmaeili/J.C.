@@ -1,5 +1,10 @@
 # Daily Journal Club workflow
 
+**Update effective 12 November 2026:** use the three-task research and publication
+protocol in [split-workflow.md](split-workflow.md). It supersedes the original
+combined-task scheduling and chat delivery paragraphs below. The scientific
+standards and website validation requirements remain in force.
+
 Effective 14 October 2026. The recurring task starts daily at 08:00
 **Europe/Berlin**, including daylight-saving transitions. Research and
 publication take place after the task starts. The first recurring run is
