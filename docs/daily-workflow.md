@@ -22,6 +22,12 @@ deployment; a configured connection alone is not evidence of publication.
   and cosmology, with priority for cosmic rays, multimessenger astronomy,
   gamma rays, neutrinos and oscillation phenomenology. Deduplicate cross-lists
   and check earlier reports before selecting an item.
+- Daily paper selection targets first announcements in that day's UTC arXiv
+  batch. Exclude replacements and older papers newly cross-listed that day.
+  A cross-listed entry is eligible only if its first announcement belongs to
+  the same batch; count it once by primary category. Prioritize scientific
+  relevance over a numerical quota. Earlier literature belongs in History,
+  unless an explicit request calls for a separate update or historical study.
 - On days without new arXiv announcements, say that accurately in the chat;
   publish useful news or explicitly labeled follow-ups without inventing a
   fresh paper batch. Do not relabel old submissions as new discoveries.

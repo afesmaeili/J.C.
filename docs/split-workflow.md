@@ -13,6 +13,10 @@ section in its chat. The website retains one daily report with the existing desi
   disposition and brief reason, distinguishing screening from full-text review.
   Include substantive History for every selected paper. Explicitly account for
   unreviewed high-priority candidates rather than silently dropping them.
+  The daily selection is restricted to papers first announced in that UTC
+  batch: omit replacements and older cross-listings. Verify a cross-listed
+  paper's first announcement before including it, and deduplicate by arXiv ID.
+  Earlier work supplies History comparisons, not additional daily highlights.
 - `alerts`: astrophysical event alerts, follow-ups, corrections and retractions.
   Own GCN, ATel, neutrino, gamma-ray, GW, X-ray and cosmic-ray event coverage.
 - `news`: non-alert field news plus Science Radar across the sciences. Own
