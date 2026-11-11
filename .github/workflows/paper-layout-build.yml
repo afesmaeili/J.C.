@@ -1,0 +1,61 @@
+name: Build paper presentation
+on:
+  push:
+    branches: [paper-layout-20261111]
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: paper-layout-20261111
+          fetch-depth: 0
+      - name: Test and rebuild archive
+        run: |
+          python3 -m unittest discover -s scripts -p 'test_*.py'
+          python3 scripts/build_archive.py
+          python3 - <<'PY'
+          import json,re,zipfile
+          from pathlib import Path
+          from html.parser import HTMLParser
+          class Page(HTMLParser):
+              def __init__(self): super().__init__();self.ids=[];self.papers=[];self.titles=0
+              def handle_starttag(self,tag,attrs):
+                  a=dict(attrs)
+                  if 'id' in a:self.ids.append(a['id'])
+                  if tag=='details' and a.get('class')=='paper-entry':
+                      self.papers.append(a['id'])
+                      assert 'open' not in a
+                  if a.get('class')=='paper-title':self.titles+=1
+          total=0
+          for p in Path('content').glob('*.md'):
+              _,f,b=re.split(r'^---[ \t]*$',p.read_text(),maxsplit=2,flags=re.M)
+              m=json.loads(f);page=Path(m['date'].replace('-','/'))/'index.html'
+              text=page.read_text();parsed=Page();parsed.feed(text)
+              assert set(parsed.papers)==set(x['id'] for x in m['papers'])
+              assert parsed.titles==len(m['papers'])
+              assert len(parsed.ids)==len(set(parsed.ids))
+              assert 'Retrospective expansion' not in text and 'Added retrospectively' not in text
+              assert (Path('editions')/p.name).read_bytes()==p.read_bytes()
+              total+=len(m['papers'])
+          with zipfile.ZipFile('downloads/physics-journal-club.zip') as z:
+              assert z.testzip() is None
+              assert z.read('editions/2026-11-02.md')==Path('content/2026-11-02.md').read_bytes()
+              assert z.read('assets/site.js')==Path('assets/site.js').read_bytes()
+              assert z.read('2026/11/02/index.html').count(b'<details class="paper-entry"')==25
+          assert total==296
+          print('Verified 51 reports, 296 bibliographies, stable anchors, full Markdown and offline archive.')
+          PY
+      - name: Save rebuilt files on preparation branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm .github/workflows/paper-layout-build.yml
+          git add -A
+          git commit -m "Rebuild archive with expandable paper studies"
+          git push origin HEAD:paper-layout-20261111

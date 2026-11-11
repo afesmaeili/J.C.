@@ -14,12 +14,14 @@ from urllib.parse import quote
 sys.path.insert(0, str(Path(__file__).resolve().parent / "vendor"))
 import markdown as md_renderer
 from latex2mathml.converter import convert as render_math
+from paper_layout import collapsible_papers
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT
 # A fresh icon URL prevents browsers from reusing an older monogram.
 FAVICON_VERSION = sha256((ROOT / 'assets/favicon.svg').read_bytes()).hexdigest()[:12]
 STYLE_VERSION = sha256((ROOT / 'assets/site.css').read_bytes()).hexdigest()[:12]
+SCRIPT_VERSION = sha256((ROOT / 'assets/site.js').read_bytes()).hexdigest()[:12]
 public_paths = {Path('assets') / name for name in ('site.css', 'site.js', 'favicon.svg')}
 entries = []
 for source in sorted((ROOT / 'content').glob('*.md'), reverse=True):
@@ -40,14 +42,15 @@ def longdate(s): return date.fromisoformat(s).strftime('%d %B %Y').lstrip('0')
 def shortdate(s): return date.fromisoformat(s).strftime('%d %b %Y').lstrip('0')
 def count_label(n, noun): return f'{n} {noun}' + ('' if n == 1 else 's')
 def report_count_label(e):
-    if not e['papers'] and e.get('news_count'):
-        label = count_label(e['news_count'], 'news section')
-    else:
-        label = count_label(len(e['papers']), 'paper')
+    labels = []
+    if e['papers']:
+        labels.append(count_label(len(e['papers']), 'selected paper'))
+    if e.get('news_count'):
+        labels.append(count_label(e['news_count'], 'science-news story').replace('storys', 'stories'))
     if e.get('science_radar_count'):
         n = e['science_radar_count']
-        label += f' · Science Radar: {n} ' + ('story' if n == 1 else 'stories')
-    return label
+        labels.append(f'Science Radar: {n} ' + ('story' if n == 1 else 'stories'))
+    return ' · '.join(labels)
 def rel(current, target): return os.path.relpath(target, str(Path(current).parent)).replace(os.sep, '/')
 def slug(s): return re.sub(r'[^a-z0-9]+', '-', s.lower()).strip('-')
 def icon(name):
@@ -77,13 +80,13 @@ def shell(current, title, content, active='latest', description='Astroparticle p
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)} · Daily AstroParticle Physics Journal Club</title><meta name="description" content="{esc(description)}"><meta name="color-scheme" content="light dark"><meta name="theme-color" content="#111f3a"><link rel="icon" type="image/svg+xml" href="{url('assets/favicon.svg')}?v={FAVICON_VERSION}"><script>try{{document.documentElement.dataset.theme=localStorage.getItem('physics-journal-theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light')}}catch{{document.documentElement.dataset.theme='light'}}</script><link rel="stylesheet" href="{url('assets/site.css')}?v={STYLE_VERSION}"></head>
 <body><a class="skip" href="#main">Skip to content</a><header class="masthead"><div class="mast-inner"><a class="brand" href="{url('index.html')}"><span class="monogram" aria-hidden="true">J.C.</span><span><span class="brand-name">Daily AstroParticle Physics Journal Club</span><span class="brand-caption">Astroparticle physics</span></span></a><nav class="topnav" aria-label="Main navigation">{top_links}<button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">{icon('moon')}<span>Dark</span></button></nav></div></header>
 <details class="mobile-archive"><summary>Browse by date</summary><a href="{url('archive/index.html')}">All reports</a><a href="{url(latest['date'][:4]+'/index.html')}">{latest['date'][:4]}</a><a href="{url(latest['date'][:7].replace('-','/')+'/index.html')}">{date.fromisoformat(latest['date']).strftime('%B %Y')}</a></details>
-<div class="layout"><aside class="sidebar" aria-label="Archive navigation"><div class="rail-title">Journal Club</div><nav class="rail-links">{rail_links}</nav><div class="rail-title">Browse by date</div>{archive_rail(current)}<div class="rail-bottom">{count_label(len(entries),'report')} · {count_label(sum(len(e['papers']) for e in entries),'paper')}<a href="{url('downloads/physics-journal-club.zip')}" download>Download HTML archive ↓</a></div></aside><main class="main" id="main">{content}<footer class="footer"><span>Daily AstroParticle Physics Journal Club</span><a href="{url('downloads/physics-journal-club.zip')}" download>Offline archive ↓</a></footer></main></div>{extra}<script src="{url('assets/site.js')}" defer></script></body></html>'''
+<div class="layout"><aside class="sidebar" aria-label="Archive navigation"><div class="rail-title">Journal Club</div><nav class="rail-links">{rail_links}</nav><div class="rail-title">Browse by date</div>{archive_rail(current)}<div class="rail-bottom">{count_label(len(entries),'report')} · {count_label(sum(len(e['papers']) for e in entries),'paper')}<a href="{url('downloads/physics-journal-club.zip')}" download>Download HTML archive ↓</a></div></aside><main class="main" id="main">{content}<footer class="footer"><span>Daily AstroParticle Physics Journal Club</span><a href="{url('downloads/physics-journal-club.zip')}" download>Offline archive ↓</a></footer></main></div>{extra}<script src="{url('assets/site.js')}?v={SCRIPT_VERSION}" defer></script></body></html>'''
     write(current, text)
 def write(path, text):
     p = OUT / path; p.parent.mkdir(parents=True, exist_ok=True); p.write_text(text)
     public_paths.add(Path(path))
 def header(current,e,home=False):
-    return f'''<div class="dateline"><span class="eyebrow">{esc(e['kind'])}</span></div><div class="report-header"><div><h1><time datetime="{e['date']}">{longdate(e['date'])}</time></h1><p class="deck">{esc(e['description'])}</p>{topic_links(current,e['topics'])}</div></div>'''
+    return f'''<div class="dateline"><span class="eyebrow">{esc(e['kind'])}</span></div><div class="report-header"><div><h1><time datetime="{e['date']}">{longdate(e['date'])}</time></h1><p class="deck">{esc(report_count_label(e))}</p></div></div>'''
 def paper_row(current,e,p,i):
     return f'''<article class="paper-row"><span class="num" aria-hidden="true">{i:02d}</span><div><span class="paper-label">{esc(p['label'])}</span><h3><a href="{rel(current,e['path'])}#{p['id']}">{esc(p['title'])}</a></h3><div class="meta">{esc(p['authors'])}</div><p class="teaser">{esc(p['teaser'])}</p></div><div class="paper-side"><span class="chip">{esc(p['tags'][0])}</span><a href="https://arxiv.org/abs/{p['arxiv']}" target="_blank" rel="noopener noreferrer">arXiv:{p['arxiv']} ↗</a><a href="{rel(current,e['path'])}#{p['id']}">Read summary →</a></div></article>'''
 def inline(s):
@@ -112,7 +115,7 @@ def markdown(e):
         token=f'JOURNALMATH{i}TOKEN'
         result=result.replace('<p>'+token+'</p>',formula).replace(token,formula)
     assert 'JOURNALMATH' not in result
-    return result, headings
+    return collapsible_papers(result, e['papers']), headings
 def breadcrumbs(current, e):
     y,m,_ = e['date'].split('-')
     return f'<nav class="crumbs" aria-label="Breadcrumb"><a href="{rel(current,"archive/index.html")}">Archive</a><span>/</span><a href="{rel(current,y+"/index.html")}">{y}</a><span>/</span><a href="{rel(current,y+"/"+m+"/index.html")}">{date.fromisoformat(e["date"]).strftime("%B")}</a><span>/</span><span>{int(e["date"][8:])}</span></nav>'
@@ -133,7 +136,7 @@ home = f'''<section class="home-intro" aria-labelledby="home-title">
 <span class="eyebrow">Research · Literature · Science news</span>
 <h1 id="home-title">A daily guide to astroparticle physics literature</h1>
 <p class="deck">This daily journal club, created by AmirFarzan Esmaeili, brings together interesting arXiv papers in astroparticle physics and noteworthy scientific news.</p>
-<p class="home-lead">The daily reports are prepared and updated by ChatGPT, offering concise summaries, context from the literature, and ideas for further reading and discussion.</p>
+<p class="home-lead">Research summaries prepared with ChatGPT examine methods, quantitative results, limitations and context from earlier literature.</p>
 <div class="report-actions"><a class="button" href="{latest['path']}">Read the latest report <span aria-hidden="true">→</span></a><a class="button secondary" href="archive/index.html">Browse the archive</a></div>
 <p class="latest-date">Latest report: <time datetime="{latest['date']}">{longdate(latest['date'])}</time></p>
 </section>
@@ -147,8 +150,8 @@ home = f'''<section class="home-intro" aria-labelledby="home-title">
 </div>
 </section>
 <section class="home-section home-reading" aria-labelledby="reading-title">
-<div><h2 id="reading-title">How the journal is prepared</h2><p>Each daily report opens with the number of new primary submissions in the dated arXiv listings for astro-ph, hep-ph, hep-ex, hep-th, gr-qc, nucl-ex and nucl-th. Cross-lists and replacements are excluded from those totals; selected-paper counts elsewhere describe the editorial selection. The astro-ph total includes all six subcategories, with HE and CO shown separately when available.</p><p>Listing dates follow arXiv's UTC convention and differ from submission, event and publication dates. Papers are deduplicated across categories and earlier reports. Selected studies discuss methods, results, limitations and earlier literature under History; measurements, limits, forecasts and models are distinguished.</p><p>Alert reports group follow-ups and corrections by event, and distinguish candidates from confirmed counterparts. News and Science Radar use primary research or authoritative announcements. No new batch means no new-paper claim; significant weekend developments enter Monday's news.</p><p>Edition-specific source-check cutoffs, historical coverage notes, dated listing sources and retrieval limits remain in each downloadable Markdown file's metadata. A short section does not prove that every source was quiet, and screening a listing is distinct from reading every paper in full. Retrospective additions are dated explicitly.</p></div>
-<div><h3>Explore the collection</h3><p><a href="search.html">Search papers</a> by title, author, arXiv ID, topic, or words in the reading notes. Use the <a href="archive/index.html">archive</a> to browse earlier dates.</p><p>Each report can be downloaded as Markdown or printed to PDF. The <a href="downloads/physics-journal-club.zip" download>HTML archive</a> provides an offline copy of the collection.</p></div>
+<div><h2 id="reading-title">How the journal is prepared</h2><p>Each daily report opens with the number of new primary submissions in the dated arXiv listings for astro-ph, hep-ph, hep-ex, hep-th, gr-qc, nucl-ex and nucl-th. Cross-lists and replacements are excluded from those totals; selected-paper counts elsewhere describe the editorial selection. The astro-ph total includes all six subcategories, with HE and CO shown separately when available.</p><p>Listing dates follow arXiv's UTC convention and differ from submission, event and publication dates. Papers are deduplicated across categories and earlier reports. Selected studies discuss methods, results, limitations and earlier literature under History; measurements, limits, forecasts and models are distinguished.</p><p>Alert reports group follow-ups and corrections by event, and distinguish candidates from confirmed counterparts. News and Science Radar use primary research or authoritative announcements. No new batch means no new-paper claim; significant weekend developments enter Monday's news.</p><p>Edition-specific source-check cutoffs, historical coverage notes, dated listing sources and retrieval limits remain in each downloadable Markdown file's metadata. A short section does not prove that every source was quiet, and screening a listing is distinct from reading every paper in full. Editorial dates and revision records are retained in the source metadata.</p></div>
+<div><h3>Explore the collection</h3><p><a href="search.html">Search papers</a> by title, author, arXiv ID, topic, or words in the reading notes. Use the <a href="archive/index.html">archive</a> to browse earlier dates.</p><p>Select a paper title to expand its summary and History. Each report can be downloaded as Markdown or printed in full to PDF. The <a href="downloads/physics-journal-club.zip" download>HTML archive</a> provides an offline copy of the collection.</p></div>
 </section>
 <section class="home-section feedback-section" aria-labelledby="feedback-title">
 <div class="feedback-intro"><span class="eyebrow">Reader suggestions</span><h2 id="feedback-title">Help improve the journal club</h2><p>Suggest a topic, a feature, or a clearer way to present the science. Corrections and missing references are welcome.</p><a class="text-link" href="https://github.com/afesmaeili/J.C./issues" target="_blank" rel="noopener noreferrer">View reader feedback on GitHub ↗</a></div>

@@ -82,3 +82,21 @@ Begin each public daily report with one sentence giving the verified number of *
 The arxiv handoff must include `listing_statistics`: `date`, `basis: "new_primary_submissions"`, a `counts` mapping containing all seven categories, dated primary `sources`, and `verified_at`. Optional `astro_subcategories` records verified primary-category breakdowns. The assembler validates the date and count types.
 
 Do not repeat the multi-paragraph source-check/date-control/partial-coverage preamble on each public page. General methodology appears on the homepage. Keep exact cutoffs, source URLs, date distinctions, actual screening scope and specific retrieval gaps in `source_audit` metadata (and each task's coverage field). Keep scientifically material limitations beside the affected paper or news story. A missing source must never be described as verified absence of news. Preserve historical audit information when simplifying an existing opening; do not erase it.
+
+
+## Public paper presentation
+
+Public report pages use neutral editorial prose. Begin with the verified category
+listing totals, then the selected papers. Do not display production notes such as
+"retrospective expansion", "added on [review date]", "revised edition", or a
+conversation about what was originally included. Keep editorial revision dates
+and change history in source_audit metadata; retain actual submission, version,
+publication and observation dates beside the scientific content. Scientific
+corrections and limitations remain explicit.
+
+Each paper is rendered as an initially collapsed entry showing its bibliographic
+title and authors. Opening the entry reveals its complete study and History.
+Continue writing ordinary Markdown with the existing paper anchors and metadata;
+the build supplies the disclosure markup. Preserve deep links, full-text search,
+complete Markdown downloads and full-content printing. Do not write HTML details
+elements or manual expand/collapse instructions into the report source.
