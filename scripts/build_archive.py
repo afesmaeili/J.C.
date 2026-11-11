@@ -147,7 +147,7 @@ home = f'''<section class="home-intro" aria-labelledby="home-title">
 </div>
 </section>
 <section class="home-section home-reading" aria-labelledby="reading-title">
-<div><h2 id="reading-title">Reading the reports</h2><p>Reports are organized by date. The opening statistics distinguish the selected papers from the new submissions in the full arXiv listings. Star ratings highlight reading priority; the summaries retain the scientific caveats.</p><p>On days without new arXiv announcements, an entry may contain science news only.</p></div>
+<div><h2 id="reading-title">How the journal is prepared</h2><p>Each daily report opens with the number of new primary submissions in the dated arXiv listings for astro-ph, hep-ph, hep-ex, hep-th, gr-qc, nucl-ex and nucl-th. Cross-lists and replacements are excluded from those totals; selected-paper counts elsewhere describe the editorial selection. The astro-ph total includes all six subcategories, with HE and CO shown separately when available.</p><p>Listing dates follow arXiv's UTC convention and differ from submission, event and publication dates. Papers are deduplicated across categories and earlier reports. Selected studies discuss methods, results, limitations and earlier literature under History; measurements, limits, forecasts and models are distinguished.</p><p>Alert reports group follow-ups and corrections by event, and distinguish candidates from confirmed counterparts. News and Science Radar use primary research or authoritative announcements. No new batch means no new-paper claim; significant weekend developments enter Monday's news.</p><p>Edition-specific source-check cutoffs, historical coverage notes, dated listing sources and retrieval limits remain in each downloadable Markdown file's metadata. A short section does not prove that every source was quiet, and screening a listing is distinct from reading every paper in full. Retrospective additions are dated explicitly.</p></div>
 <div><h3>Explore the collection</h3><p><a href="search.html">Search papers</a> by title, author, arXiv ID, topic, or words in the reading notes. Use the <a href="archive/index.html">archive</a> to browse earlier dates.</p><p>Each report can be downloaded as Markdown or printed to PDF. The <a href="downloads/physics-journal-club.zip" download>HTML archive</a> provides an offline copy of the collection.</p></div>
 </section>
 <section class="home-section feedback-section" aria-labelledby="feedback-title">
@@ -168,7 +168,7 @@ for idx,e in enumerate(entries):
     toc = '<aside class="toc" aria-label="In this report"><div class="eyebrow">In this report</div>'+''.join(f'<a href="#{anchor}">{esc(title)}</a>' for anchor,title in headings)+'</aside>'
     content = breadcrumbs(current,e)+header(current,e)
     radar_jump = '<a class="button" href="#science-radar">Science Radar <span aria-hidden="true">↓</span></a>' if e in radar_entries else ''
-    content += f'<div class="notice">{esc(e["scope"])}</div><div class="report-actions">{radar_jump}<button type="button" class="button secondary" data-print>Print / save PDF</button><a class="button secondary" href="{rel(current,"editions/"+e["date"]+".md")}" download>Download Markdown ↓</a></div>'
+    content += f'<div class="report-actions">{radar_jump}<button type="button" class="button secondary" data-print>Print / save PDF</button><a class="button secondary" href="{rel(current,"editions/"+e["date"]+".md")}" download>Download Markdown ↓</a></div>'
     if e.get('correction'):
         content += f'<aside class="notice"><strong>Later correction:</strong> {esc(e["correction"])} <a href="{rel(current, "2026/09/14/index.html")}#verified-science-news">Read the 14 September update →</a></aside>'
     content += f'<div class="reading-layout"><article class="prose">{body}</article>{toc}</div>'
@@ -178,7 +178,7 @@ for idx,e in enumerate(entries):
     if idx>0: pagination.append(f'<a href="{rel(current,entries[idx-1]["path"])}">{longdate(entries[idx-1]["date"])} →</a>')
     content += '<nav class="day-pagination" aria-label="Report navigation">'+''.join(pagination)+'</nav>'
     shell(current,longdate(e['date']),content,active='latest' if idx == 0 else 'archive',description=e['description'])
-    write('editions/'+e['date']+'.md', '# Daily AstroParticle Physics Journal Club — '+longdate(e['date'])+'\n\n'+e['description']+'\n\n'+re.sub(r'<!-- paper:[a-z0-9-]+ -->\n\n', '', e['body'])+'\n')
+    write('editions/'+e['date']+'.md', e['raw'])
 
 def archive_page(current,title,subset,crumb=''):
     content = crumb+f'<span class="eyebrow">The collection</span><h1 style="margin-top:.7rem">{esc(title)}</h1><p class="archive-intro">{count_label(len(subset),"report")} · Browse the journal by year, month, and day.</p>'

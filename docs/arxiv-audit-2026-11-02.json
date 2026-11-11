@@ -1,0 +1,1804 @@
+{
+  "date": "2026-11-02",
+  "review_date": "2026-11-11",
+  "listing_counts": {
+    "date": "2026-11-02",
+    "basis": "new_primary_submissions",
+    "counts": {
+      "astro-ph": 79,
+      "hep-ph": 22,
+      "hep-ex": 4,
+      "hep-th": 23,
+      "gr-qc": 21,
+      "nucl-ex": 1,
+      "nucl-th": 7
+    },
+    "sources": {
+      "astro-ph": "https://arxiv.org/catchup/astro-ph/2026-11-02?abs=True",
+      "hep-ph": "https://arxiv.org/catchup/hep-ph/2026-11-02?abs=True",
+      "hep-ex": "https://arxiv.org/catchup/hep-ex/2026-11-02?abs=True",
+      "hep-th": "https://arxiv.org/catchup/hep-th/2026-11-02?abs=True",
+      "gr-qc": "https://arxiv.org/catchup/gr-qc/2026-11-02?abs=True",
+      "nucl-ex": "https://arxiv.org/catchup/nucl-ex/2026-11-02?abs=True",
+      "nucl-th": "https://arxiv.org/catchup/nucl-th/2026-11-02?abs=True"
+    },
+    "verified_at": "2026-11-11T14:17:48.803156+00:00",
+    "excluded": "Cross-lists and replacements; each paper counted by primary category only.",
+    "astro_subcategories": {
+      "astro-ph.IM": 9,
+      "astro-ph.SR": 8,
+      "astro-ph.GA": 27,
+      "astro-ph.CO": 14,
+      "astro-ph.HE": 17,
+      "astro-ph.EP": 4
+    }
+  },
+  "added_papers": [
+    "2610.40766",
+    "2610.40770",
+    "2610.40781",
+    "2610.40785",
+    "2610.40793",
+    "2610.40866",
+    "2610.40895",
+    "2610.40907",
+    "2610.40911",
+    "2610.40912",
+    "2610.40958",
+    "2610.41739",
+    "2610.41749",
+    "2610.41775",
+    "2610.41842",
+    "2610.41846",
+    "2610.40925",
+    "2610.40774",
+    "2610.41229",
+    "2610.41119",
+    "2610.41473",
+    "2610.42056",
+    "2610.40787"
+  ],
+  "original_papers": [
+    "2610.41163",
+    "2610.40782"
+  ],
+  "already_reviewed_on_2026_11_03": [
+    "2610.41476"
+  ],
+  "coverage": "Dated new and cross-listed titles screened across seven archives, with priority abstracts and replacement titles checked. Selected additions received full-text methods/results/figure and limitations review plus independent historical literature checks. Not every screened paper was read in full. News was preserved, not retrospectively refreshed.",
+  "screened_entries": {
+    "2610.40685": {
+      "id": "2610.40685",
+      "kind": "New",
+      "primary_category": "astro-ph.IM",
+      "title": "Agentic Systems for Calibrating Cosmological Simulations"
+    },
+    "2610.40741": {
+      "id": "2610.40741",
+      "kind": "New",
+      "primary_category": "astro-ph.SR",
+      "title": "Likely Metal Scarring in the Magnetic White Dwarf LHS 2534"
+    },
+    "2610.40765": {
+      "id": "2610.40765",
+      "kind": "New",
+      "primary_category": "astro-ph.GA",
+      "title": "SEAMLESS Survey: A Closer Look at Seven Local Volume Dwarf Galaxies in Diverse Environments"
+    },
+    "2610.40766": {
+      "id": "2610.40766",
+      "kind": "Cross",
+      "primary_category": "astro-ph.CO",
+      "title": "Hints of self-interacting dark matter from strong gravitational lensing"
+    },
+    "2610.40767": {
+      "id": "2610.40767",
+      "kind": "New",
+      "primary_category": "astro-ph.GA",
+      "title": "Chaos and loss: reevaluating the loss-cone formalism in the context of chaotic diving orbits in flattened potentials"
+    },
+    "2610.40770": {
+      "id": "2610.40770",
+      "kind": "New",
+      "primary_category": "astro-ph.CO",
+      "title": "When precise inference is wrong: Diagnosing model misspecification with applications to cosmic dawn and reionisation"
+    },
+    "2610.40774": {
+      "id": "2610.40774",
+      "kind": "Cross",
+      "primary_category": "astro-ph.HE",
+      "title": "Surprisingly normal? GW241011 and GW241110 in the context of hierarchical merger classification"
+    },
+    "2610.40782": {
+      "id": "2610.40782",
+      "kind": "New",
+      "primary_category": "astro-ph.HE",
+      "title": "Missing Mergers: On the Unexpected Delay-Time Distribution of Binary Neutron Star Mergers"
+    },
+    "2610.40784": {
+      "id": "2610.40784",
+      "kind": "New",
+      "primary_category": "astro-ph.GA",
+      "title": "Bridging Scales: Multi-Zone GRMHD-Informed Anisotropic AGN Feedback in Galaxies"
+    },
+    "2610.40785": {
+      "id": "2610.40785",
+      "kind": "New",
+      "primary_category": "astro-ph.CO",
+      "title": "Model-independent and reconstruction-free evidence for cosmic acceleration from DESI baryon acoustic oscillations"
+    },
+    "2610.40787": {
+      "id": "2610.40787",
+      "kind": "New",
+      "primary_category": "astro-ph.HE",
+      "title": "Cosmic merger rates and population evolution of binary black hole mergers in AGN disks"
+    },
+    "2610.40788": {
+      "id": "2610.40788",
+      "kind": "New",
+      "primary_category": "astro-ph.GA",
+      "title": "How to feed your dragon: the role of turbulence in AGN activity"
+    },
+    "2610.40789": {
+      "id": "2610.40789",
+      "kind": "New",
+      "primary_category": "astro-ph.GA",
+      "title": "Learning Galaxy Kinematics from Spatially Unresolved Spectra"
+    },
+    "2610.40790": {
+      "id": "2610.40790",
+      "kind": "New",
+      "primary_category": "astro-ph.GA",
+      "title": "The assembly of dusty galaxies at $z \\geq 4$: grain growth and the evolutionary origin of the dust-to-stellar-mass scatter"
+    },
+    "2610.40792": {
+      "id": "2610.40792",
+      "kind": "New",
+      "primary_category": "astro-ph.GA",
+      "title": "Kinematic Decomposition of the BCG and ICL in Abell S1063 and MACS J1206"
+    },
+    "2610.40796": {
+      "id": "2610.40796",
+      "kind": "New",
+      "primary_category": "astro-ph.GA",
+      "title": "NGDEEP: Anchoring the $0.5 < z < 3.5$ Star-Forming Main Sequence at Low Stellar Masses with Ultradeep JWST/NIRISS WFSS"
+    },
+    "2610.40846": {
+      "id": "2610.40846",
+      "kind": "New",
+      "primary_category": "astro-ph.CO",
+      "title": "From Quantum Field Fluctuations to High-Redshift AGN: Semiclassical Origins of Halo Mass Function Constraints in the JWST Era"
+    },
+    "2610.40875": {
+      "id": "2610.40875",
+      "kind": "New",
+      "primary_category": "astro-ph.CO",
+      "title": "FOMO-Z. Optimal galaxy classification, photometric redshifts, and reconstruction of population distributions"
+    },
+    "2610.40907": {
+      "id": "2610.40907",
+      "kind": "Cross",
+      "primary_category": "astro-ph.HE",
+      "title": "The Importance of Curium-250 to the $γ$-Ray Signature of $r$-Process Remnants"
+    },
+    "2610.40937": {
+      "id": "2610.40937",
+      "kind": "New",
+      "primary_category": "astro-ph.GA",
+      "title": "The Size-Mass Relation and Inside-Out Quenching of Massive Quiescent Galaxies at $2<z<3$ with JWST PRIMER and MINERVA"
+    },
+    "2610.40958": {
+      "id": "2610.40958",
+      "kind": "New",
+      "primary_category": "astro-ph.HE",
+      "title": "Optimizing Prompt Radio Counterpart Searches for Gravitational-Wave Events with the Deep Synoptic Array"
+    },
+    "2610.40964": {
+      "id": "2610.40964",
+      "kind": "New",
+      "primary_category": "astro-ph.EP",
+      "title": "Completeness and dynamical stability in exoplanet occurrence rates"
+    },
+    "2610.41005": {
+      "id": "2610.41005",
+      "kind": "New",
+      "primary_category": "astro-ph.HE",
+      "title": "GRB 241113B: the first SVOM and EP gamma-ray burst A soft GRB likely seen on-axis, from soft X-rays to gamma-rays"
+    },
+    "2610.41052": {
+      "id": "2610.41052",
+      "kind": "New",
+      "primary_category": "astro-ph.IM",
+      "title": "Machine Learning Sensor Fusion for Water Vapor Radiometry based Tropospheric Delay Calibration"
+    },
+    "2610.41071": {
+      "id": "2610.41071",
+      "kind": "New",
+      "primary_category": "astro-ph.IM",
+      "title": "An Assessment of Water Vapor Radiometry Landscape in ngVLA Context"
+    },
+    "2610.41077": {
+      "id": "2610.41077",
+      "kind": "New",
+      "primary_category": "astro-ph.CO",
+      "title": "Vacuum Phase Transition and Decay to Cross the Phantom Divide"
+    },
+    "2610.41092": {
+      "id": "2610.41092",
+      "kind": "New",
+      "primary_category": "astro-ph.IM",
+      "title": "Spectral Information Content of Diffraction-Limited Images"
+    },
+    "2610.41119": {
+      "id": "2610.41119",
+      "kind": "New",
+      "primary_category": "astro-ph.HE",
+      "title": "MAGIKS: Multimodal Alignment and Gravitational-Wave-Conditioned Interaction for Kilonova Search"
+    },
+    "2610.41163": {
+      "id": "2610.41163",
+      "kind": "New",
+      "primary_category": "astro-ph.HE",
+      "title": "HAWC, Fermi-LAT and Chandra Detections of High Energy Particles in the S106 Star Forming Region"
+    },
+    "2610.41242": {
+      "id": "2610.41242",
+      "kind": "New",
+      "primary_category": "astro-ph.HE",
+      "title": "Effect of quark-hadron phase transitions on the neutron star mass distribution"
+    },
+    "2610.41252": {
+      "id": "2610.41252",
+      "kind": "New",
+      "primary_category": "astro-ph.CO",
+      "title": "The Effect of Large Apertures on Atmospheric Noise Spectra for Millimeter-wave Telescopes"
+    },
+    "2610.41343": {
+      "id": "2610.41343",
+      "kind": "New",
+      "primary_category": "astro-ph.SR",
+      "title": "Spectroscopic observations of periodic bursty ejections during a dome-spire-shaped jet"
+    },
+    "2610.41355": {
+      "id": "2610.41355",
+      "kind": "New",
+      "primary_category": "astro-ph.GA",
+      "title": "Stellar Bars Reshape the Spatial Distribution of UV-bright Clumps in Nearby Galaxies"
+    },
+    "2610.41376": {
+      "id": "2610.41376",
+      "kind": "New",
+      "primary_category": "astro-ph.SR",
+      "title": "Relative Influence of Coronal Properties of CME in their Evolution and Geo-effectiveness"
+    },
+    "2610.41395": {
+      "id": "2610.41395",
+      "kind": "New",
+      "primary_category": "astro-ph.GA",
+      "title": "Kinematic Map of the Galactic Bulge Using HST Proper Motions"
+    },
+    "2610.41427": {
+      "id": "2610.41427",
+      "kind": "New",
+      "primary_category": "astro-ph.GA",
+      "title": "Resolving the Complex Line-Locking Structure in Quasar J004613+010425 with VLT/X-shooter Spectroscopy"
+    },
+    "2610.41452": {
+      "id": "2610.41452",
+      "kind": "New",
+      "primary_category": "astro-ph.SR",
+      "title": "Identifying a High-confidence Candidate of Stellar Coronal Mass Ejection on an M~dwarf"
+    },
+    "2610.41476": {
+      "id": "2610.41476",
+      "kind": "New",
+      "primary_category": "astro-ph.HE",
+      "title": "Enhanced Detectability of Very-High-Energy Gamma Rays from Off-Axis Short Gamma-Ray Bursts: Impacts of Structured Jets and External Inverse-Compton Scattering"
+    },
+    "2610.41481": {
+      "id": "2610.41481",
+      "kind": "New",
+      "primary_category": "astro-ph.IM",
+      "title": "Cryogenic Optical Characteristics of S-FPL51 and S-LAH71: Refractive index, Transmission and Thermal expansion"
+    },
+    "2610.41489": {
+      "id": "2610.41489",
+      "kind": "New",
+      "primary_category": "astro-ph.GA",
+      "title": "OASIS I: Spectroscopy of Mini-Quenched and Lulling Galaxies Constrains the Quiet Side of Bursty Star Formation at z > 4"
+    },
+    "2610.41490": {
+      "id": "2610.41490",
+      "kind": "New",
+      "primary_category": "astro-ph.GA",
+      "title": "OASIS II: The Ionized Gas Traces Feedback-Driven Declines into the Quiet Side of Bursty Star Formation at z > 4"
+    },
+    "2610.41491": {
+      "id": "2610.41491",
+      "kind": "New",
+      "primary_category": "astro-ph.GA",
+      "title": "OASIS III: Bursty star formation drives observed galaxy sizes at $z\\geq4$"
+    },
+    "2610.41493": {
+      "id": "2610.41493",
+      "kind": "New",
+      "primary_category": "astro-ph.GA",
+      "title": "As a matter of reconstruction -- varying the magnetic Prandtl number in implicit large eddy simulations"
+    },
+    "2610.41509": {
+      "id": "2610.41509",
+      "kind": "New",
+      "primary_category": "astro-ph.HE",
+      "title": "Disk-Corona Energy Balance Evolves with Flux State in the Quasar PDS 456"
+    },
+    "2610.41522": {
+      "id": "2610.41522",
+      "kind": "New",
+      "primary_category": "astro-ph.GA",
+      "title": "Dark Halos, Intermediate-Mass BH and Nuclear Stellar Clusters in Dwarf Spheroidals"
+    },
+    "2610.41535": {
+      "id": "2610.41535",
+      "kind": "New",
+      "primary_category": "astro-ph.IM",
+      "title": "Demographics and growth of the astronomy and astrophysics community"
+    },
+    "2610.41557": {
+      "id": "2610.41557",
+      "kind": "New",
+      "primary_category": "astro-ph.GA",
+      "title": "The JWST/PASSAGE Survey: Metallicity Radial Gradients in Emission-Line Galaxy Pairs at Cosmic Noon with NIRISS"
+    },
+    "2610.41584": {
+      "id": "2610.41584",
+      "kind": "New",
+      "primary_category": "astro-ph.GA",
+      "title": "Co-evolution of AGN and Host Galaxies across Cosmic Time Using JWST data"
+    },
+    "2610.41586": {
+      "id": "2610.41586",
+      "kind": "New",
+      "primary_category": "astro-ph.IM",
+      "title": "HWP-synchronous signal induced by misalignment of the sapphire crystal axis"
+    },
+    "2610.41594": {
+      "id": "2610.41594",
+      "kind": "New",
+      "primary_category": "astro-ph.GA",
+      "title": "The Broad-Line Region Size-Luminosity Relation in AGN Constrained by the Viewing Angle with the FRADO Model"
+    },
+    "2610.41621": {
+      "id": "2610.41621",
+      "kind": "New",
+      "primary_category": "astro-ph.EP",
+      "title": "From Anoxic to Oxic Earth: Detectability of Atmospheric Biosignatures across Stellar Hosts with ELT/ANDES"
+    },
+    "2610.41681": {
+      "id": "2610.41681",
+      "kind": "New",
+      "primary_category": "astro-ph.GA",
+      "title": "The Evolution of the Circumgalactic Medium after a starburst in DESI Post-Starburst Galaxies"
+    },
+    "2610.41729": {
+      "id": "2610.41729",
+      "kind": "New",
+      "primary_category": "astro-ph.HE",
+      "title": "SN 2025dys: A luminous supernova explosion from a partially stripped helium star"
+    },
+    "2610.41731": {
+      "id": "2610.41731",
+      "kind": "New",
+      "primary_category": "astro-ph.GA",
+      "title": "The Pristine Survey. XXX. Mapping substructures in the inner and outer halo with blue horizontal branch stars"
+    },
+    "2610.41734": {
+      "id": "2610.41734",
+      "kind": "New",
+      "primary_category": "astro-ph.HE",
+      "title": "Long-term variability of the 35-day cycle in Her X-1"
+    },
+    "2610.41739": {
+      "id": "2610.41739",
+      "kind": "New",
+      "primary_category": "astro-ph.HE",
+      "title": "Gamma-Ray Emission from LS 5039: A 30-500 GeV Excess and Phase-Resolved Broadband Spectral Modeling"
+    },
+    "2610.41749": {
+      "id": "2610.41749",
+      "kind": "New",
+      "primary_category": "astro-ph.SR",
+      "title": "Inferring dominant acceleration mechanisms using the longitudinal spread of solar particle intensities: 28 May 2021 event"
+    },
+    "2610.41773": {
+      "id": "2610.41773",
+      "kind": "New",
+      "primary_category": "astro-ph.SR",
+      "title": "Decay of space plasma turbulence downstream of bow shocks: MMS magnetosheath unbiased campaign observations"
+    },
+    "2610.41775": {
+      "id": "2610.41775",
+      "kind": "New",
+      "primary_category": "astro-ph.IM",
+      "title": "First Light with the Dark100 Array of PANOSETI Telescopes at Palomar Observatory"
+    },
+    "2610.41796": {
+      "id": "2610.41796",
+      "kind": "New",
+      "primary_category": "astro-ph.CO",
+      "title": "The Dynamical Mass Profiles of Galaxy Groups - Application to IllustrisTNG-300"
+    },
+    "2610.41823": {
+      "id": "2610.41823",
+      "kind": "Cross",
+      "primary_category": "astro-ph.CO",
+      "title": "Primordial black holes and gravitational waves from aligned axion inflation"
+    },
+    "2610.41842": {
+      "id": "2610.41842",
+      "kind": "New",
+      "primary_category": "astro-ph.GA",
+      "title": "The multiple origins of spurs in stellar streams: a challenge for dark matter diagnostics"
+    },
+    "2610.41846": {
+      "id": "2610.41846",
+      "kind": "Cross",
+      "primary_category": "astro-ph.HE",
+      "title": "A multi-wavelength view of PSR J0437-4715 with NICER and other missions: Radius measurements from far-ultraviolet to hard X-ray pulse profile modeling"
+    },
+    "2610.41847": {
+      "id": "2610.41847",
+      "kind": "New",
+      "primary_category": "astro-ph.GA",
+      "title": "Bar likelihood in local galaxies: the joint role of stellar mass, morphology and environment"
+    },
+    "2610.41876": {
+      "id": "2610.41876",
+      "kind": "New",
+      "primary_category": "astro-ph.GA",
+      "title": "Collisional excitation of HMgC$_3$N by He: rate coefficients and astrophysical implications"
+    },
+    "2610.41880": {
+      "id": "2610.41880",
+      "kind": "New",
+      "primary_category": "astro-ph.SR",
+      "title": "The Unusual X-ray Spectrum of R Mon"
+    },
+    "2610.41895": {
+      "id": "2610.41895",
+      "kind": "New",
+      "primary_category": "astro-ph.GA",
+      "title": "The 943 MHz radio-SFR relation of nearby galaxies observed with ASKAP"
+    },
+    "2610.41914": {
+      "id": "2610.41914",
+      "kind": "Cross",
+      "primary_category": "astro-ph.CO",
+      "title": "Two-loop matter power spectrum from FFTLog and kite integrals"
+    },
+    "2610.41921": {
+      "id": "2610.41921",
+      "kind": "New",
+      "primary_category": "astro-ph.GA",
+      "title": "Stellar Kinematics and Molecular Gas toward NGC 6357: An Overlooked Earlier Stellar Generation"
+    },
+    "2610.41923": {
+      "id": "2610.41923",
+      "kind": "New",
+      "primary_category": "astro-ph.SR",
+      "title": "Current Sheets and Magnetic Reconnection statistics by Solar Orbiter at few to tens of Ion Inertial Lengths I: Energy Dissipation"
+    },
+    "2610.41934": {
+      "id": "2610.41934",
+      "kind": "New",
+      "primary_category": "astro-ph.IM",
+      "title": "An exploration of in-band spectral index techniques for extended radio sources with EMU"
+    },
+    "2610.41940": {
+      "id": "2610.41940",
+      "kind": "New",
+      "primary_category": "astro-ph.CO",
+      "title": "Cosmology with post-EoR 21 cm Intensity Mapping surveys: power spectrum measurements in the last decade"
+    },
+    "2610.41948": {
+      "id": "2610.41948",
+      "kind": "New",
+      "primary_category": "astro-ph.HE",
+      "title": "Formation of Micron-sized Presolar Graphite Grains in Low-energy Supernova Ejecta"
+    },
+    "2610.42009": {
+      "id": "2610.42009",
+      "kind": "New",
+      "primary_category": "astro-ph.EP",
+      "title": "A CNN search for ultra-short-period planets in TESS: blends among real false positives and an independent validation of TOI-6662 b"
+    },
+    "2610.42035": {
+      "id": "2610.42035",
+      "kind": "New",
+      "primary_category": "astro-ph.EP",
+      "title": "Distinguishing N$_2$-Dominated from O$_2$-Dominated Atmospheres on Terrestrial Exoplanets with Reflected-Light Spectroscopy"
+    },
+    "2610.42044": {
+      "id": "2610.42044",
+      "kind": "Cross",
+      "primary_category": "astro-ph.CO",
+      "title": "Elastic boundaries in Stochastic Inflation"
+    },
+    "2610.42056": {
+      "id": "2610.42056",
+      "kind": "New",
+      "primary_category": "astro-ph.CO",
+      "title": "Tests of equivalence principle violation in doubly coupled dark energy"
+    },
+    "2610.42132": {
+      "id": "2610.42132",
+      "kind": "New",
+      "primary_category": "astro-ph.HE",
+      "title": "Nova V1674 Her as a fast magnetic rotator"
+    },
+    "2610.42151": {
+      "id": "2610.42151",
+      "kind": "New",
+      "primary_category": "astro-ph.CO",
+      "title": "Model-Independent Assessments of Tidal Alignment and Density-Weighting Dependence in Galaxy Intrinsic Alignments"
+    },
+    "2610.40354": {
+      "id": "2610.40354",
+      "kind": "Cross",
+      "primary_category": "hep-ph",
+      "title": "Two-peak gravitational wave spectra from supercooled two-field phase transitions"
+    },
+    "2610.40669": {
+      "id": "2610.40669",
+      "kind": "New",
+      "primary_category": "gr-qc",
+      "title": "Gravitational Lensing Signatures of a Black Hole in Mimetic Euler-Heisenberg theory"
+    },
+    "2610.40775": {
+      "id": "2610.40775",
+      "kind": "Cross",
+      "primary_category": "hep-ph",
+      "title": "On the Role of Gravity in Supercooled Phase Transitions"
+    },
+    "2610.40781": {
+      "id": "2610.40781",
+      "kind": "New",
+      "primary_category": "gr-qc",
+      "title": "Leaking Sound Waves: Gravitational Waves From Dark Sectors Weakly Coupled to the Standard Model"
+    },
+    "2610.40795": {
+      "id": "2610.40795",
+      "kind": "New",
+      "primary_category": "gr-qc",
+      "title": "Effects of Eddington-inspired Born-Infeld Gravity on Black Hole Accretion"
+    },
+    "2610.40892": {
+      "id": "2610.40892",
+      "kind": "Cross",
+      "primary_category": null,
+      "title": "Stress-enhanced diffusion in Yukawa crystals"
+    },
+    "2610.40895": {
+      "id": "2610.40895",
+      "kind": "New",
+      "primary_category": "hep-ph",
+      "title": "Stars Can Quench Superradiance Around Supermassive Black Holes"
+    },
+    "2610.40925": {
+      "id": "2610.40925",
+      "kind": "Cross",
+      "primary_category": null,
+      "title": "Equipartition between Alfvénic turbulence and energetic ions as the origin of the -5 common spectrum in the heliosphere"
+    },
+    "2610.41082": {
+      "id": "2610.41082",
+      "kind": "Cross",
+      "primary_category": "hep-ph",
+      "title": "Two-Fluid Radial Stability of Dark-Matter-Admixed Compact Objects: Dark Compact Planets, Dark White Dwarfs, Dark Neutron Stars, and Dark Oysters"
+    },
+    "2610.41229": {
+      "id": "2610.41229",
+      "kind": "New",
+      "primary_category": "gr-qc",
+      "title": "More Eccentric, Not Always Less Detectable: High Mass Holds Its Ground, Low Mass Loses Reach"
+    },
+    "2610.41412": {
+      "id": "2610.41412",
+      "kind": "Cross",
+      "primary_category": null,
+      "title": "Conceptual Design of a Compact Magnetic Spectrometer for Space Radiation Measurement"
+    },
+    "2610.41636": {
+      "id": "2610.41636",
+      "kind": "New",
+      "primary_category": "hep-th",
+      "title": "New Effects in Multifield Cosmology Coupled to the Gauss-Bonnet Term"
+    },
+    "2610.41780": {
+      "id": "2610.41780",
+      "kind": "New",
+      "primary_category": "gr-qc",
+      "title": "From thermogravity to thermocosmology with a running non-conservation scale"
+    },
+    "2610.41953": {
+      "id": "2610.41953",
+      "kind": "Cross",
+      "primary_category": "hep-ph",
+      "title": "Topological Multi-Natural Inflation"
+    },
+    "2505.03873": {
+      "id": "2505.03873",
+      "kind": "Replacement",
+      "primary_category": "astro-ph.GA",
+      "title": "SAPPHIRES: Extremely Metal-Poor Galaxy Candidates with $12+{\\rm log(O/H)}<7.0$ at $z\\sim5-7$ from Deep JWST/NIRCam Grism Observations"
+    },
+    "2509.04073": {
+      "id": "2509.04073",
+      "kind": "Replacement",
+      "primary_category": "astro-ph.CO",
+      "title": "ZTF SNe Ia DR2: Towards cosmology-grade ZTF supernova light curves using scene modeling photometry"
+    },
+    "2509.09133": {
+      "id": "2509.09133",
+      "kind": "Replacement",
+      "primary_category": "astro-ph.HE",
+      "title": "Reprocessing of X-rays emission in Ultra-Luminous X-ray sources"
+    },
+    "2511.03195": {
+      "id": "2511.03195",
+      "kind": "Replacement",
+      "primary_category": "astro-ph.GA",
+      "title": "The Multiphase Circumgalactic Medium of DESI Emission-Line Galaxies at z~1.5"
+    },
+    "2511.20751": {
+      "id": "2511.20751",
+      "kind": "Replacement",
+      "primary_category": "astro-ph.GA",
+      "title": "ECOGAL I. Project design and the first catalogue"
+    },
+    "2601.20045": {
+      "id": "2601.20045",
+      "kind": "Replacement",
+      "primary_category": "astro-ph.GA",
+      "title": "GLIMPSE-DDT spectroscopic properties of faint-end galaxies at $z\\sim6$: Towards first metal enrichment, dust production, and ionizing photon production"
+    },
+    "2603.10200": {
+      "id": "2603.10200",
+      "kind": "Replacement",
+      "primary_category": "astro-ph.HE",
+      "title": "The Geometric Crisis in Cygnus~X-3: Limitations of Wind-Fed Accretion and the Case for Roche-Lobe Overflow"
+    },
+    "2603.20171": {
+      "id": "2603.20171",
+      "kind": "Replacement",
+      "primary_category": "astro-ph.GA",
+      "title": "VINTERGATAN-GM: long-lived satellite planes induced by a massive GSE-like merger"
+    },
+    "2603.21845": {
+      "id": "2603.21845",
+      "kind": "Replacement",
+      "primary_category": "astro-ph.HE",
+      "title": "The pulsar population of Omega Centauri: New TRAPUM searches, timing, and cluster dynamics with MeerKAT and Parkes"
+    },
+    "2604.04867": {
+      "id": "2604.04867",
+      "kind": "Replacement",
+      "primary_category": "astro-ph.CO",
+      "title": "Measurement of the galaxy-velocity power spectrum of DESI tracers with the kinematic Sunyaev-Zeldovich effect using DESI DR2 and ACT DR6"
+    },
+    "2606.17039": {
+      "id": "2606.17039",
+      "kind": "Replacement",
+      "primary_category": "astro-ph.HE",
+      "title": "Curvature-Radiation Geometries Across the Second CHIME/FRB Fast Radio Burst Population"
+    },
+    "2606.28590": {
+      "id": "2606.28590",
+      "kind": "Replacement",
+      "primary_category": "astro-ph.GA",
+      "title": "Interaction-induced star formation boosts stellar mass assembly in $z\\sim5$ galaxies"
+    },
+    "2607.07777": {
+      "id": "2607.07777",
+      "kind": "Replacement",
+      "primary_category": "astro-ph.CO",
+      "title": "The Status of Single Scalar Field Dark Energy"
+    },
+    "2607.08264": {
+      "id": "2607.08264",
+      "kind": "Replacement",
+      "primary_category": "astro-ph.GA",
+      "title": "Subaru meets JWST: A Direct Measurement of Ly$\\boldsymbolα$ Escape Fraction at $\\boldsymbol{z\\simeq6.2}$ with Dual Narrow-Band Imaging"
+    },
+    "2607.08286": {
+      "id": "2607.08286",
+      "kind": "Replacement",
+      "primary_category": "astro-ph.CO",
+      "title": "Lambda as a Probe of Lensing Consistency"
+    },
+    "2607.08820": {
+      "id": "2607.08820",
+      "kind": "Replacement",
+      "primary_category": "astro-ph.GA",
+      "title": "What becomes of JWST/NIRCam-selected high-redshift massive galaxies?"
+    },
+    "2607.10637": {
+      "id": "2607.10637",
+      "kind": "Replacement",
+      "primary_category": "astro-ph.IM",
+      "title": "Corrected detector-level reconstruction of inclined radio air showers from trigger-level ADC waveforms"
+    },
+    "2607.14235": {
+      "id": "2607.14235",
+      "kind": "Replacement",
+      "primary_category": "astro-ph.HE",
+      "title": "Ultra-long simulations of collisionless relativistic shocks in front-comoving frame: evidence for a steady state and its properties"
+    },
+    "2607.19329": {
+      "id": "2607.19329",
+      "kind": "Replacement",
+      "primary_category": "astro-ph.HE",
+      "title": "Gravitational-Wave Sky Mapping with Pulsar Timing Arrays: The Full Earth-Pulsar Response and Resolution Operational Regimes"
+    },
+    "2607.24713": {
+      "id": "2607.24713",
+      "kind": "Replacement",
+      "primary_category": "astro-ph.SR",
+      "title": "Supergranulation as a Tracer of Solar-Cycle Variability"
+    },
+    "2607.26822": {
+      "id": "2607.26822",
+      "kind": "Replacement",
+      "primary_category": "astro-ph.IM",
+      "title": "Optimizing the extraction of information from redshift probability distribution functions"
+    },
+    "2608.04088": {
+      "id": "2608.04088",
+      "kind": "Replacement",
+      "primary_category": "astro-ph.GA",
+      "title": "Column-density estimation from the equivalent widths of absorption doublets"
+    },
+    "2608.15240": {
+      "id": "2608.15240",
+      "kind": "Replacement",
+      "primary_category": "astro-ph.CO",
+      "title": "Prospects for Direct Detection of Ultralight Dark Matter candidates in deci-Hz Band with IndIGO-D"
+    },
+    "2609.12015": {
+      "id": "2609.12015",
+      "kind": "Replacement",
+      "primary_category": "astro-ph.IM",
+      "title": "A Framework for Evaluating Forward Contamination Risk for Bio-ISRU Microorganisms"
+    },
+    "2609.12998": {
+      "id": "2609.12998",
+      "kind": "Replacement",
+      "primary_category": "astro-ph.HE",
+      "title": "An efficient approach to resistive GRMHD simulations of binary neutron star mergers"
+    },
+    "2609.37188": {
+      "id": "2609.37188",
+      "kind": "Replacement",
+      "primary_category": "astro-ph.GA",
+      "title": "MEGATRON: Dwarf Galaxy Quenching in the Epoch of Reionization"
+    },
+    "2610.38699": {
+      "id": "2610.38699",
+      "kind": "Replacement",
+      "primary_category": "astro-ph.GA",
+      "title": "On The Scaling Relations Between Black Holes And The Galaxy/Bulge Mass And Their Connections With The Black Hole Occupation Fraction"
+    },
+    "2610.38973": {
+      "id": "2610.38973",
+      "kind": "Replacement",
+      "primary_category": "astro-ph.CO",
+      "title": "Running cosmological constant in light of recent CMB-BAO data"
+    },
+    "2610.39629": {
+      "id": "2610.39629",
+      "kind": "Replacement",
+      "primary_category": "astro-ph.GA",
+      "title": "Hoag-type Galaxies: A Photometric Study of the Cores and Rings of Thirty Systems from the DESI Legacy Survey"
+    },
+    "2208.01640": {
+      "id": "2208.01640",
+      "kind": "Replacement",
+      "primary_category": "hep-ph",
+      "title": "Searching for Ultra-Light Axions with Twisted Cavity Resonators of Anyon Rotational Symmetry with Bulk Modes of Non-Zero Helicity"
+    },
+    "2506.03271": {
+      "id": "2506.03271",
+      "kind": "Replacement",
+      "primary_category": "hep-ph",
+      "title": "Local-equilibrium theory of neutrino oscillations"
+    },
+    "2509.09892": {
+      "id": "2509.09892",
+      "kind": "Replacement",
+      "primary_category": null,
+      "title": "What do the fundamental constants of physics tell us about life?"
+    },
+    "2602.11085": {
+      "id": "2602.11085",
+      "kind": "Replacement",
+      "primary_category": "hep-ph",
+      "title": "Sterile neutrino dark matter in conformal Majoron models"
+    },
+    "2604.18553": {
+      "id": "2604.18553",
+      "kind": "Replacement",
+      "primary_category": null,
+      "title": "On the curlometer measurement of field-aligned and perpendicular currents in low Earth orbit: Swarm observations and whole geospace simulations"
+    },
+    "2607.09369": {
+      "id": "2607.09369",
+      "kind": "Replacement",
+      "primary_category": "nucl-th",
+      "title": "Bayesian inference of the dense matter equation of state built upon extended Skyrme interactions: A generalization"
+    },
+    "2607.26101": {
+      "id": "2607.26101",
+      "kind": "Replacement",
+      "primary_category": "gr-qc",
+      "title": "Early- and late-time constraints on Wald-Gauss-Bonnet topological dark energy and implications for the $H_0$ and $S_8$ tensions"
+    },
+    "2607.26619": {
+      "id": "2607.26619",
+      "kind": "Replacement",
+      "primary_category": "gr-qc",
+      "title": "Bayesian nonparametric estimation of correlated gravitational wave detector network noise using matrix-gamma process priors"
+    },
+    "2608.28309": {
+      "id": "2608.28309",
+      "kind": "Replacement",
+      "primary_category": null,
+      "title": "Solar Magnetic Configuration Control over Radiation Belt Electrons"
+    },
+    "2609.12986": {
+      "id": "2609.12986",
+      "kind": "Replacement",
+      "primary_category": "gr-qc",
+      "title": "cWB-space: A time-frequency unmodelled transient-search pipeline for LISA"
+    },
+    "2609.18337": {
+      "id": "2609.18337",
+      "kind": "Replacement",
+      "primary_category": "gr-qc",
+      "title": "Searching for gravitational wave echo with group equivariant neural posterior estimation"
+    },
+    "2610.40793": {
+      "id": "2610.40793",
+      "kind": "New",
+      "primary_category": "hep-ph",
+      "title": "Layered Wire-Grid Haloscope for Millielectronvolt Axions and Dark Photons"
+    },
+    "2610.40821": {
+      "id": "2610.40821",
+      "kind": "New",
+      "primary_category": "hep-ph",
+      "title": "The Yottascale at Tera-$Z$: Petascale SUSY?"
+    },
+    "2610.40823": {
+      "id": "2610.40823",
+      "kind": "New",
+      "primary_category": "hep-ph",
+      "title": "The signature-changing soft-gluon term as a possible source of non-planar $ζ_2$ terms at small $x$ in the non-singlet quark-plus-antiquark splitting function"
+    },
+    "2610.40866": {
+      "id": "2610.40866",
+      "kind": "New",
+      "primary_category": "hep-ph",
+      "title": "Phenomenological Chiral Effective Field Theory for Neutrino Event Generators"
+    },
+    "2610.40877": {
+      "id": "2610.40877",
+      "kind": "Cross",
+      "primary_category": "hep-ph",
+      "title": "A systematic study of hydrodynamic attractors in periodically driven systems at weak and strong couplings"
+    },
+    "2610.40879": {
+      "id": "2610.40879",
+      "kind": "New",
+      "primary_category": "hep-ph",
+      "title": "Transverse momentum correlations and QED effects in TMD determinations"
+    },
+    "2610.40967": {
+      "id": "2610.40967",
+      "kind": "New",
+      "primary_category": "hep-ph",
+      "title": "Separating Fermion and Gauge Resonances with Species-Dependent Lightcones in Warped Geometry"
+    },
+    "2610.41020": {
+      "id": "2610.41020",
+      "kind": "Cross",
+      "primary_category": "hep-ph",
+      "title": "Two gluon fusion into a $π^0$, $η$, or $η'$ in a relatively weak magnetic field"
+    },
+    "2610.41066": {
+      "id": "2610.41066",
+      "kind": "Cross",
+      "primary_category": "hep-ph",
+      "title": "Deconfinement in weak electric and magnetic fields"
+    },
+    "2610.41078": {
+      "id": "2610.41078",
+      "kind": "Cross",
+      "primary_category": "hep-ph",
+      "title": "Pure annihilation decay $B_c^+ \\to ST$ with improved perturbative QCD formalism"
+    },
+    "2610.41175": {
+      "id": "2610.41175",
+      "kind": "New",
+      "primary_category": "hep-ph",
+      "title": "Toward a Three-Body Holonomy Standard Model"
+    },
+    "2610.41208": {
+      "id": "2610.41208",
+      "kind": "New",
+      "primary_category": "hep-ph",
+      "title": "Nonthermal coalescence parameter of light nuclei production in pp collisions at LHC energies"
+    },
+    "2610.41339": {
+      "id": "2610.41339",
+      "kind": "New",
+      "primary_category": "hep-ph",
+      "title": "Updated $Σ_{c}$ excitation spectrum including the $2P$- and $1F$-wave fine structures"
+    },
+    "2610.41504": {
+      "id": "2610.41504",
+      "kind": "Cross",
+      "primary_category": "hep-ph",
+      "title": "Quantum Popcorn: the shape of a phase transition bubble"
+    },
+    "2610.41533": {
+      "id": "2610.41533",
+      "kind": "Cross",
+      "primary_category": "hep-ph",
+      "title": "Hadronic Molecules: Theory"
+    },
+    "2610.41575": {
+      "id": "2610.41575",
+      "kind": "Cross",
+      "primary_category": "hep-ph",
+      "title": "Phase transition dynamics of Abelian-Higgs vortices in the oscillating axion background"
+    },
+    "2610.41872": {
+      "id": "2610.41872",
+      "kind": "New",
+      "primary_category": "hep-ph",
+      "title": "Numerical evaluation of one-loop integrals using quadrature rules"
+    },
+    "2610.42062": {
+      "id": "2610.42062",
+      "kind": "New",
+      "primary_category": "hep-ph",
+      "title": "Two-loop integrals for $t\\bar{t}γ$ production at hadron colliders in the leading-colour approximation"
+    },
+    "2610.40724": {
+      "id": "2610.40724",
+      "kind": "New",
+      "primary_category": "nucl-th",
+      "title": "Nuclear-geometry-tagging events in high-energy Ne--Ne collisions"
+    },
+    "2610.40749": {
+      "id": "2610.40749",
+      "kind": "New",
+      "primary_category": "hep-ex",
+      "title": "Combinatorial Residual Network: a decay-chain-aware classifier without explicit jet assignment"
+    },
+    "2610.40779": {
+      "id": "2610.40779",
+      "kind": "New",
+      "primary_category": "hep-th",
+      "title": "Monopole-Fermion Scattering from Twisted Conformal Boundary States"
+    },
+    "2610.40912": {
+      "id": "2610.40912",
+      "kind": "New",
+      "primary_category": "nucl-th",
+      "title": "Incorporating deep neural networks into lepton-nucleus interaction modeling"
+    },
+    "2610.41473": {
+      "id": "2610.41473",
+      "kind": "New",
+      "primary_category": "gr-qc",
+      "title": "Probing dark sector with decihertz gravitational wave observations of compact binary inspirals in IndIGO-D"
+    },
+    "2610.41623": {
+      "id": "2610.41623",
+      "kind": "Cross",
+      "primary_category": null,
+      "title": "An approximate separation of the electron and positron degrees of freedom in the Dirac-Heisenberg-Wigner formalism"
+    },
+    "2610.41767": {
+      "id": "2610.41767",
+      "kind": "New",
+      "primary_category": "nucl-th",
+      "title": "Color transparency effects on the deuteron spin observables in the hard $pd \\to ppn$ reaction"
+    },
+    "2610.41960": {
+      "id": "2610.41960",
+      "kind": "New",
+      "primary_category": "gr-qc",
+      "title": "Neutrino Oscillation in a Static Dihole Geometry"
+    },
+    "2610.42020": {
+      "id": "2610.42020",
+      "kind": "Cross",
+      "primary_category": "hep-th",
+      "title": "Bootstrapping a Higher-Derivative Cosmological Collider: Borel-Laplace Resummation and Stokes Phenomena"
+    },
+    "2610.42037": {
+      "id": "2610.42037",
+      "kind": "Cross",
+      "primary_category": "hep-lat",
+      "title": "Meson spectroscopy from lattice QCD"
+    },
+    "2610.42103": {
+      "id": "2610.42103",
+      "kind": "Cross",
+      "primary_category": null,
+      "title": "Charge Pumping Leptogenesis from the Symmetric Mass Generation Phase on a Four-Leg Ladder Lattice"
+    },
+    "2610.42143": {
+      "id": "2610.42143",
+      "kind": "New",
+      "primary_category": "hep-ex",
+      "title": "A first look at strange-quark polarization in top-quark decays with CMS Open Data"
+    },
+    "2411.19196": {
+      "id": "2411.19196",
+      "kind": "Replacement",
+      "primary_category": "hep-ph",
+      "title": "Dark axion portal at $Z$ boson factories"
+    },
+    "2508.09579": {
+      "id": "2508.09579",
+      "kind": "Replacement",
+      "primary_category": "hep-ph",
+      "title": "Neutrino mass predictions with metaheuristic optimization under $A_4$ modular symmetry"
+    },
+    "2509.11906": {
+      "id": "2509.11906",
+      "kind": "Replacement",
+      "primary_category": "hep-ph",
+      "title": "Enhanced Cosmic-Ray Cooling in AGN from Dark Matter Deep Inelastic Scattering"
+    },
+    "2512.18866": {
+      "id": "2512.18866",
+      "kind": "Replacement",
+      "primary_category": "hep-ph",
+      "title": "Partial Next-to-Next-to-Leading-Order Corrections to the $B \\to π$ Form Factors from Light-Cone Sum Rules"
+    },
+    "2603.28805": {
+      "id": "2603.28805",
+      "kind": "Replacement",
+      "primary_category": "hep-ph",
+      "title": "Determining G with Laser Spectroscopy to 38 ppb"
+    },
+    "2605.07095": {
+      "id": "2605.07095",
+      "kind": "Replacement",
+      "primary_category": "hep-ph",
+      "title": "Baryon Bethe-Salpeter Equation in Minkowski-Space QCD$_2$"
+    },
+    "2605.12373": {
+      "id": "2605.12373",
+      "kind": "Replacement",
+      "primary_category": "hep-ph",
+      "title": "Quasi Parton Distribution Functions in Covariant Quark Models"
+    },
+    "2606.07225": {
+      "id": "2606.07225",
+      "kind": "Replacement",
+      "primary_category": "hep-ph",
+      "title": "Simultaneous Dalitz-plot decomposition of the $e^+ e^- \\to J/ψ\\, π\\, π\\, (K \\bar{K})$ processes in the 4.13-4.36 GeV region using dispersive final-state interactions"
+    },
+    "2606.21152": {
+      "id": "2606.21152",
+      "kind": "Replacement",
+      "primary_category": "hep-ph",
+      "title": "Spin correlations and quantum entanglement in $γγ\\to t\\bar t$ at polarized photon colliders with NLO QCD corrections"
+    },
+    "2607.07305": {
+      "id": "2607.07305",
+      "kind": "Replacement",
+      "primary_category": "hep-ph",
+      "title": "Gravitational form factors of the pion in light-front holographic QCD"
+    },
+    "2607.22744": {
+      "id": "2607.22744",
+      "kind": "Replacement",
+      "primary_category": "hep-ph",
+      "title": "Application of flavor moonshine"
+    },
+    "2607.23737": {
+      "id": "2607.23737",
+      "kind": "Replacement",
+      "primary_category": "hep-ph",
+      "title": "Radiative decays of $J/ψ,\\,ψ(2S)\\rightarrowγη^{(\\prime)}$ in perturbative QCD with relativistic corrections"
+    },
+    "2608.01272": {
+      "id": "2608.01272",
+      "kind": "Replacement",
+      "primary_category": "hep-ph",
+      "title": "Properties of the $D_{s0}^*(2317)^\\pm$ in hot and dense nuclear matter"
+    },
+    "2609.01285": {
+      "id": "2609.01285",
+      "kind": "Replacement",
+      "primary_category": "hep-ph",
+      "title": "Addendum: Production of $π^{+} π^{-}$ pairs in diffractive photon-proton and in proton-proton collisions revisited, in particular concerning the Drell-Söding contribution"
+    },
+    "2610.25154": {
+      "id": "2610.25154",
+      "kind": "Replacement",
+      "primary_category": "hep-ph",
+      "title": "Probing the Energy Evolution and Hadronic Cascade Time Dependence of Forward-Backward Multiplicity Correlations in pp Collisions at $\\sqrt{s} = 0.9$--$13.6$ TeV with AMPT"
+    },
+    "2610.27308": {
+      "id": "2610.27308",
+      "kind": "Replacement",
+      "primary_category": "hep-ph",
+      "title": "Double diffraction production for dipole-dipole scattering at high energies"
+    },
+    "2610.37922": {
+      "id": "2610.37922",
+      "kind": "Replacement",
+      "primary_category": "hep-ph",
+      "title": "Meson-baryon final-state interactions in the $ψ(3686)\\to pK^-K_S^0\\barΞ^0$ decay"
+    },
+    "2610.39215": {
+      "id": "2610.39215",
+      "kind": "Replacement",
+      "primary_category": "hep-ph",
+      "title": "Nucleon Wave Functions from QCD Vacuum Topology"
+    },
+    "2512.18393": {
+      "id": "2512.18393",
+      "kind": "Replacement",
+      "primary_category": "hep-lat",
+      "title": "The chiral phase transition in the 3D Columbia plot - a scalable HPC workflow"
+    },
+    "2605.28996": {
+      "id": "2605.28996",
+      "kind": "Replacement",
+      "primary_category": "nlin.CD",
+      "title": "Nonlinear Dynamics of Rapidly Driven Systems"
+    },
+    "2606.10668": {
+      "id": "2606.10668",
+      "kind": "Replacement",
+      "primary_category": "hep-ex",
+      "title": "$Λ$(1520) as a probe of resonance-driven deuteron formation at the LHC"
+    },
+    "2610.04909": {
+      "id": "2610.04909",
+      "kind": "Replacement",
+      "primary_category": "hep-th",
+      "title": "The Phenomenology of the Dark Dimension and Non-Supersymmetric Strings"
+    },
+    "2610.15644": {
+      "id": "2610.15644",
+      "kind": "Replacement",
+      "primary_category": "hep-th",
+      "title": "New topological phase transitions in $κ$-deformed $ϕ^4$ lattice models"
+    },
+    "2610.22224": {
+      "id": "2610.22224",
+      "kind": "Replacement",
+      "primary_category": "hep-lat",
+      "title": "The hadronic-vacuum-polarization contribution to the muon anomalous magnetic moment in isospin-symmetric lattice QCD with twisted-mass fermions"
+    },
+    "2610.31345": {
+      "id": "2610.31345",
+      "kind": "Replacement",
+      "primary_category": "hep-th",
+      "title": "Unitarity Methods for Magnus Amplitudes"
+    },
+    "2610.39757": {
+      "id": "2610.39757",
+      "kind": "Replacement",
+      "primary_category": "gr-qc",
+      "title": "HWF Analysis of TRN Black Holes"
+    },
+    "2610.40220": {
+      "id": "2610.40220",
+      "kind": "Replacement",
+      "primary_category": "hep-lat",
+      "title": "Complex potential and the thermal width of quarkonium in quark-gluon plasma"
+    },
+    "2610.40911": {
+      "id": "2610.40911",
+      "kind": "New",
+      "primary_category": "hep-ex",
+      "title": "Search for long-lived heavy neutral leptons in signatures with one prompt muon and a secondary vertex formed by two non-prompt muons in proton-proton collisions at $\\sqrt{s}$ = 13 and 13.6 TeV"
+    },
+    "2610.41889": {
+      "id": "2610.41889",
+      "kind": "New",
+      "primary_category": "hep-ex",
+      "title": "Reconstruct everything everywhere all at once: An end-to-end model for future colliders"
+    },
+    "2610.41894": {
+      "id": "2610.41894",
+      "kind": "Cross",
+      "primary_category": null,
+      "title": "Calorimetry as inference: the information content of particle showers and the limits of energy measurement"
+    },
+    "2610.41916": {
+      "id": "2610.41916",
+      "kind": "Cross",
+      "primary_category": null,
+      "title": "Challenges in the verification of MOSAIX ASIC for ALICE ITS3"
+    },
+    "2610.38406": {
+      "id": "2610.38406",
+      "kind": "Replacement",
+      "primary_category": "hep-ex",
+      "title": "Amplitude analysis of the charmed baryon decay Lambda_c+ to p K_S^0 pi0"
+    },
+    "2605.24116": {
+      "id": "2605.24116",
+      "kind": "Replacement",
+      "primary_category": null,
+      "title": "Photon Calibration Techniques for High Resolution Cryogenic Detectors"
+    },
+    "2610.40763": {
+      "id": "2610.40763",
+      "kind": "New",
+      "primary_category": "hep-th",
+      "title": "Quantum Cosmology at the Cusp"
+    },
+    "2610.40764": {
+      "id": "2610.40764",
+      "kind": "New",
+      "primary_category": "hep-th",
+      "title": "Guaranteed Slater Conditions for the Numerical Conformal Bootstrap: Fixing Instabilities in SDPB, Navigator Methods, and Skydiving"
+    },
+    "2610.40769": {
+      "id": "2610.40769",
+      "kind": "Cross",
+      "primary_category": "hep-th",
+      "title": "The running of Weyl gauged gravity: asymptotic freedom, its obstruction, and a way out"
+    },
+    "2610.40772": {
+      "id": "2610.40772",
+      "kind": "New",
+      "primary_category": "hep-th",
+      "title": "DiscKosky: Efficient Genealogical Constraints from Sector-By-Sector Critical Point Counting"
+    },
+    "2610.40773": {
+      "id": "2610.40773",
+      "kind": "New",
+      "primary_category": "hep-th",
+      "title": "Giant Gravitons in AdS$_5\\times$SE$_5$ and the Superconformal Index of Toric Quiver Gauge Theories"
+    },
+    "2610.40777": {
+      "id": "2610.40777",
+      "kind": "New",
+      "primary_category": "hep-th",
+      "title": "On Boundary State Screening via Solitons"
+    },
+    "2610.40778": {
+      "id": "2610.40778",
+      "kind": "New",
+      "primary_category": "hep-th",
+      "title": "Conformal boundaries and the photon sphere of AdS black holes"
+    },
+    "2610.40783": {
+      "id": "2610.40783",
+      "kind": "Cross",
+      "primary_category": "hep-th",
+      "title": "Umbilic Observatories"
+    },
+    "2610.40818": {
+      "id": "2610.40818",
+      "kind": "New",
+      "primary_category": "hep-th",
+      "title": "All Symmetries and Boundaries of the Two-Dimensional Free Scalar from Continuous Flat-Gauging"
+    },
+    "2610.40874": {
+      "id": "2610.40874",
+      "kind": "New",
+      "primary_category": "hep-th",
+      "title": "Proof of the entropic $c$-theorem"
+    },
+    "2610.40878": {
+      "id": "2610.40878",
+      "kind": "New",
+      "primary_category": "hep-th",
+      "title": "Hilbert space in the flat limit of AdS/CFT. II. Massless particles"
+    },
+    "2610.40908": {
+      "id": "2610.40908",
+      "kind": "Cross",
+      "primary_category": "hep-th",
+      "title": "Facets of Gravity: A journey exploring spacetime from Planckian to cosmological scales"
+    },
+    "2610.41058": {
+      "id": "2610.41058",
+      "kind": "New",
+      "primary_category": "hep-th",
+      "title": "$h/2e$ Flux Trapping without Superconductivity"
+    },
+    "2610.41138": {
+      "id": "2610.41138",
+      "kind": "Cross",
+      "primary_category": "hep-th",
+      "title": "Induced Lorentzian geometry from the fermionic quantum metric"
+    },
+    "2610.41189": {
+      "id": "2610.41189",
+      "kind": "New",
+      "primary_category": "hep-th",
+      "title": "Reconstructing Meson Parton Distributions from Mellin Moments with Artificial Neural Networks"
+    },
+    "2610.41240": {
+      "id": "2610.41240",
+      "kind": "Cross",
+      "primary_category": "hep-th",
+      "title": "Longitudinal electric corner modes in continuum quantum gauge theory with matter"
+    },
+    "2610.41247": {
+      "id": "2610.41247",
+      "kind": "New",
+      "primary_category": "hep-th",
+      "title": "Gravitational Memory from AdS States in the Flat-Space Limit"
+    },
+    "2610.41281": {
+      "id": "2610.41281",
+      "kind": "New",
+      "primary_category": "hep-th",
+      "title": "Light-Transformed Carrollian OPEs and the Four-Gluon Spectral Bootstrap"
+    },
+    "2610.41582": {
+      "id": "2610.41582",
+      "kind": "Cross",
+      "primary_category": "hep-th",
+      "title": "A Common Type II Origin of Galilean and Carroll Superstrings"
+    },
+    "2610.42057": {
+      "id": "2610.42057",
+      "kind": "Cross",
+      "primary_category": "hep-th",
+      "title": "Far-Zone Gravitational Interactions at the Sixth Post-Newtonian Order"
+    },
+    "2608.23878": {
+      "id": "2608.23878",
+      "kind": "Cross",
+      "primary_category": "gr-qc",
+      "title": "Amplification of metric perturbations by extremal horizons"
+    },
+    "2609.31444": {
+      "id": "2609.31444",
+      "kind": "Cross",
+      "primary_category": "gr-qc",
+      "title": "Teleparallel Renormalization of Gravitational Action"
+    },
+    "2610.38738": {
+      "id": "2610.38738",
+      "kind": "Cross",
+      "primary_category": "gr-qc",
+      "title": "Gravitational field of spinors with torsion and matter$-$antimatter asymmetry"
+    },
+    "2610.40780": {
+      "id": "2610.40780",
+      "kind": "New",
+      "primary_category": "gr-qc",
+      "title": "Separation of variables for massive spin-2 fields on the Kerr black hole"
+    },
+    "2610.40791": {
+      "id": "2610.40791",
+      "kind": "New",
+      "primary_category": "gr-qc",
+      "title": "Relating approaches to interacting quantum clocks and systems"
+    },
+    "2610.40843": {
+      "id": "2610.40843",
+      "kind": "New",
+      "primary_category": "gr-qc",
+      "title": "Bounds on the minimum orbital period of general static spherical black holes: a sharp upper bound and a conditional lower bound"
+    },
+    "2610.40862": {
+      "id": "2610.40862",
+      "kind": "Cross",
+      "primary_category": null,
+      "title": "Theory of Convective Diffusion"
+    },
+    "2610.41150": {
+      "id": "2610.41150",
+      "kind": "Cross",
+      "primary_category": "math.RT",
+      "title": "Smith Algebra from $\\mathfrak{sl}_2$ Tensor Product Branching via the Mickelsson-Zhelobenko Algebra"
+    },
+    "2610.41233": {
+      "id": "2610.41233",
+      "kind": "Cross",
+      "primary_category": "math.SG",
+      "title": "Orientations for skein-valued curve counting"
+    },
+    "2610.41438": {
+      "id": "2610.41438",
+      "kind": "Cross",
+      "primary_category": "math-ph",
+      "title": "Root-of-unity limit of the $A_{n-1}$ lens elliptic gamma function solution of the star-star relation"
+    },
+    "2610.41777": {
+      "id": "2610.41777",
+      "kind": "New",
+      "primary_category": "gr-qc",
+      "title": "Homogeneous Spectral Freedom and Hadamard Consistency of Perturbative Green Functions"
+    },
+    "2610.41867": {
+      "id": "2610.41867",
+      "kind": "Cross",
+      "primary_category": "math.DG",
+      "title": "The twistor construction of toric gravitational instantons"
+    },
+    "2610.42007": {
+      "id": "2610.42007",
+      "kind": "Cross",
+      "primary_category": null,
+      "title": "Anomalies of TQFTs coupled to parameter spaces and constraints on ground-state degeneracies"
+    },
+    "2610.42134": {
+      "id": "2610.42134",
+      "kind": "Cross",
+      "primary_category": "math-ph",
+      "title": "Baker--Akhiezer sections from Higgs bundles and Landau levels in hyperbolic band theory"
+    },
+    "2404.03599": {
+      "id": "2404.03599",
+      "kind": "Replacement",
+      "primary_category": "hep-th",
+      "title": "A mini-course on Generalized Symmetries and a relation to Cobordisms and K-theory"
+    },
+    "2510.24833": {
+      "id": "2510.24833",
+      "kind": "Replacement",
+      "primary_category": "hep-th",
+      "title": "Gravitational dressing: from the crossed product to more general algebraic and mathematical structure"
+    },
+    "2601.03353": {
+      "id": "2601.03353",
+      "kind": "Replacement",
+      "primary_category": "hep-th",
+      "title": "Black hole thermodynamics at null infinity. Part 1: Dual Generalized Second Law"
+    },
+    "2601.03356": {
+      "id": "2601.03356",
+      "kind": "Replacement",
+      "primary_category": "hep-th",
+      "title": "Black hole thermodynamics at null infinity. Part 2: Open systems, Markovian dynamics and work extraction from non-rotating black holes"
+    },
+    "2602.16840": {
+      "id": "2602.16840",
+      "kind": "Replacement",
+      "primary_category": "hep-th",
+      "title": "On the Cosmological Constant in Pre-geometric Gravity"
+    },
+    "2604.09126": {
+      "id": "2604.09126",
+      "kind": "Replacement",
+      "primary_category": "hep-th",
+      "title": "Lattice Realizations of Flat Gauging and T-duality Defects at Any Radius"
+    },
+    "2606.12172": {
+      "id": "2606.12172",
+      "kind": "Replacement",
+      "primary_category": "hep-th",
+      "title": "$T\\overline{T}$ correlators from tensionless strings"
+    },
+    "2607.01327": {
+      "id": "2607.01327",
+      "kind": "Replacement",
+      "primary_category": "hep-th",
+      "title": "Algorithmic Dualization of Unitary Circular Quivers"
+    },
+    "2607.26868": {
+      "id": "2607.26868",
+      "kind": "Replacement",
+      "primary_category": "hep-th",
+      "title": "World-Line Actions in Weyl Geometry"
+    },
+    "2608.04665": {
+      "id": "2608.04665",
+      "kind": "Replacement",
+      "primary_category": "hep-th",
+      "title": "Wavefunctions of AdS$_3$ Universes and $T\\bar{T}$-deformed Torus Partition Functions"
+    },
+    "2608.10840": {
+      "id": "2608.10840",
+      "kind": "Replacement",
+      "primary_category": "hep-th",
+      "title": "Monodromy defects in ABJM theory and integrability"
+    },
+    "2609.02437": {
+      "id": "2609.02437",
+      "kind": "Replacement",
+      "primary_category": "hep-th",
+      "title": "An Infinite Family of Non-Rational VOAs from Strongly Coupled 4d Higgsless SCFTs"
+    },
+    "2609.30362": {
+      "id": "2609.30362",
+      "kind": "Replacement",
+      "primary_category": "hep-th",
+      "title": "Informational and algebraic renormalization group"
+    },
+    "2610.20340": {
+      "id": "2610.20340",
+      "kind": "Replacement",
+      "primary_category": "hep-th",
+      "title": "Black hole cohomologies in N=4 SYM"
+    },
+    "2610.26218": {
+      "id": "2610.26218",
+      "kind": "Replacement",
+      "primary_category": "hep-th",
+      "title": "Boundary preparation of strong Mpemba states in holography"
+    },
+    "2610.26735": {
+      "id": "2610.26735",
+      "kind": "Replacement",
+      "primary_category": "hep-th",
+      "title": "Large-Level Limit of Doubled Chern-Simons Theory Part I: Regular Sector, Boundaries and Interfaces"
+    },
+    "2610.31699": {
+      "id": "2610.31699",
+      "kind": "Replacement",
+      "primary_category": "hep-th",
+      "title": "Kasner Exponents from the Bouncing Singularity"
+    },
+    "2610.33972": {
+      "id": "2610.33972",
+      "kind": "Replacement",
+      "primary_category": "hep-th",
+      "title": "Revisiting monodromy defects in $\\text{O}(N)$ conformal field theories"
+    },
+    "2610.38473": {
+      "id": "2610.38473",
+      "kind": "Replacement",
+      "primary_category": "hep-th",
+      "title": "The Topological String on the Quintic to Genus 83 and the Rank-Two D4-D2-D0 Indices"
+    },
+    "2603.28624": {
+      "id": "2603.28624",
+      "kind": "Replacement",
+      "primary_category": "quant-ph",
+      "title": "Quantum Riemannian Hamiltonian Descent"
+    },
+    "2604.09545": {
+      "id": "2604.09545",
+      "kind": "Replacement",
+      "primary_category": "gr-qc",
+      "title": "Black Hole Dynamics at Fifth Post-Newtonian Order"
+    },
+    "2605.06633": {
+      "id": "2605.06633",
+      "kind": "Replacement",
+      "primary_category": "quant-ph",
+      "title": "Interpretable Machine Learning for Building Analytic Quantum Circuits: the Case of Diagonal Operators"
+    },
+    "2605.22329": {
+      "id": "2605.22329",
+      "kind": "Replacement",
+      "primary_category": "gr-qc",
+      "title": "Vector modes in Type 3 New GR"
+    },
+    "2607.21697": {
+      "id": "2607.21697",
+      "kind": "Replacement",
+      "primary_category": "quant-ph",
+      "title": "Non-Clifford quantum cellular automata from invertible topological quantum field theories"
+    },
+    "2610.33883": {
+      "id": "2610.33883",
+      "kind": "Replacement",
+      "primary_category": "gr-qc",
+      "title": "Massive Scalar Quasinormal Modes and Quasibound States of Charged Black Holes with Logarithmic corrections"
+    },
+    "2610.40711": {
+      "id": "2610.40711",
+      "kind": "New",
+      "primary_category": "gr-qc",
+      "title": "Thin-shell wormholes from magnetic black holes in exponential electrodynamics"
+    },
+    "2610.40715": {
+      "id": "2610.40715",
+      "kind": "New",
+      "primary_category": "gr-qc",
+      "title": "Strong-deflection scaling in nearly symmetric thin-shell wormholes"
+    },
+    "2610.40853": {
+      "id": "2610.40853",
+      "kind": "New",
+      "primary_category": "gr-qc",
+      "title": "Global and asymptotic properties of self-gravitating nonlinear sigma models"
+    },
+    "2610.41036": {
+      "id": "2610.41036",
+      "kind": "New",
+      "primary_category": "gr-qc",
+      "title": "Dynamics of spinning test particles in the innermost stable circular orbit of an approximate Kerr-like spacetime with mass quadrupole"
+    },
+    "2610.41505": {
+      "id": "2610.41505",
+      "kind": "New",
+      "primary_category": "gr-qc",
+      "title": "Probing Realistic Neutron Star Equations of State via the Chameleon Mechanism"
+    },
+    "2610.41585": {
+      "id": "2610.41585",
+      "kind": "New",
+      "primary_category": "gr-qc",
+      "title": "Novel thermodynamic topological subclass from inverse-temperature asymptotics"
+    },
+    "2610.41922": {
+      "id": "2610.41922",
+      "kind": "New",
+      "primary_category": "gr-qc",
+      "title": "Finite-Depth Null Capture and Mass-History Sensitivity in Vaidya Spacetime"
+    },
+    "2610.41972": {
+      "id": "2610.41972",
+      "kind": "New",
+      "primary_category": "gr-qc",
+      "title": "Scattering of massless scalar waves by higher-dimensional regular black holes in general relativity coupled to nonlinear electrodynamics"
+    },
+    "2610.42051": {
+      "id": "2610.42051",
+      "kind": "New",
+      "primary_category": "gr-qc",
+      "title": "A Charged Compact Star Solution for a Conducting Sphere"
+    },
+    "2610.42091": {
+      "id": "2610.42091",
+      "kind": "New",
+      "primary_category": "gr-qc",
+      "title": "Hyperbolic scaling of the small-exponent limit in magnetic nonlinear electrodynamics"
+    },
+    "2610.39243": {
+      "id": "2610.39243",
+      "kind": "Cross",
+      "primary_category": "hep-th",
+      "title": "Schwinger--Keldysh worldline effective field theory for quantum black holes: dissipation, noise and decoherence"
+    },
+    "2610.41875": {
+      "id": "2610.41875",
+      "kind": "Cross",
+      "primary_category": "math.DG",
+      "title": "On the Geroch conjecture for toric gravitational instantons"
+    },
+    "2610.41964": {
+      "id": "2610.41964",
+      "kind": "Cross",
+      "primary_category": "quant-ph",
+      "title": "No generalised contextuality from the vacuum"
+    },
+    "2412.04302": {
+      "id": "2412.04302",
+      "kind": "Replacement",
+      "primary_category": "gr-qc",
+      "title": "Constraining polymerized black holes with quasi-circular extreme mass-ratio inspirals"
+    },
+    "2509.24835": {
+      "id": "2509.24835",
+      "kind": "Replacement",
+      "primary_category": "gr-qc",
+      "title": "Constraints on quantum Oppenheimer-Snyder black holes with eccentric extreme mass-ratio inspirals"
+    },
+    "2512.17208": {
+      "id": "2512.17208",
+      "kind": "Replacement",
+      "primary_category": "gr-qc",
+      "title": "Quasinormal modes of thick branes in $f(R)$ gravity"
+    },
+    "2603.04712": {
+      "id": "2603.04712",
+      "kind": "Replacement",
+      "primary_category": "gr-qc",
+      "title": "Emergent inflation in fractional cosmology"
+    },
+    "2604.19577": {
+      "id": "2604.19577",
+      "kind": "Replacement",
+      "primary_category": "gr-qc",
+      "title": "Quasinormal modes of charged covariant effective black holes with a cosmological constant"
+    },
+    "2605.09426": {
+      "id": "2605.09426",
+      "kind": "Replacement",
+      "primary_category": "gr-qc",
+      "title": "Resonant transmission of scalar waves through rotating traversable wormhole"
+    },
+    "2609.25112": {
+      "id": "2609.25112",
+      "kind": "Replacement",
+      "primary_category": "gr-qc",
+      "title": "A Primer on Spacetime Singularities II: Spatially Homogeneous Cosmologies"
+    },
+    "2406.10027": {
+      "id": "2406.10027",
+      "kind": "Replacement",
+      "primary_category": null,
+      "title": "Resonant analogue configurations in atomic condensates"
+    },
+    "2610.35183": {
+      "id": "2610.35183",
+      "kind": "Replacement",
+      "primary_category": "quant-ph",
+      "title": "Complete characterization of internal-external entanglement trade-offs in two-mode Gaussian states"
+    },
+    "2610.41607": {
+      "id": "2610.41607",
+      "kind": "Cross",
+      "primary_category": "nucl-ex",
+      "title": "Characterizing $\\pT$-differential Radial-Flow Fluctuations in Au+Au Collisions at FAIR with a Multi-Phase Transport Model"
+    },
+    "2610.42015": {
+      "id": "2610.42015",
+      "kind": "New",
+      "primary_category": "nucl-th",
+      "title": "Algebraic models of alpha-cluster nuclei"
+    },
+    "2610.42113": {
+      "id": "2610.42113",
+      "kind": "Cross",
+      "primary_category": null,
+      "title": "Magnetic Johnson noise from arbitrarily shaped conductors: experimental validation of the fluctuation-dissipation finite-element method"
+    },
+    "2606.09920": {
+      "id": "2606.09920",
+      "kind": "Replacement",
+      "primary_category": null,
+      "title": "Absolute intensity measurement of pulsed muon beams using in-beam activation"
+    },
+    "2610.40909": {
+      "id": "2610.40909",
+      "kind": "New",
+      "primary_category": "nucl-th",
+      "title": "Relativistic viscous hydrodynamics in the Density Frame for heavy-ion collisions"
+    },
+    "2610.41293": {
+      "id": "2610.41293",
+      "kind": "New",
+      "primary_category": "nucl-th",
+      "title": "Is XTE J1814-338 a dark matter-admixed neutron star?"
+    },
+    "2610.41386": {
+      "id": "2610.41386",
+      "kind": "New",
+      "primary_category": "nucl-th",
+      "title": "The role of spin polarization in event-by-event fluctuations"
+    }
+  },
+  "history_references": [
+    "https://arxiv.org/abs/1105.3838v2",
+    "https://arxiv.org/abs/1602.03831",
+    "https://arxiv.org/abs/1705.02290v2",
+    "https://arxiv.org/abs/1802.04722",
+    "https://arxiv.org/abs/1804.03208",
+    "https://arxiv.org/abs/1807.02527",
+    "https://arxiv.org/abs/1811.03631",
+    "https://arxiv.org/abs/1902.04029",
+    "https://arxiv.org/abs/1904.11872v2",
+    "https://arxiv.org/abs/1905.05089",
+    "https://arxiv.org/abs/1909.10040",
+    "https://arxiv.org/abs/2012.06611",
+    "https://arxiv.org/abs/2210.01356",
+    "https://arxiv.org/abs/2210.17433",
+    "https://arxiv.org/abs/2309.16383",
+    "https://arxiv.org/abs/2312.17298",
+    "https://arxiv.org/abs/2402.15066",
+    "https://arxiv.org/abs/2402.18658",
+    "https://arxiv.org/abs/2405.04186",
+    "https://arxiv.org/abs/2407.06789",
+    "https://arxiv.org/abs/2412.08627",
+    "https://arxiv.org/abs/2503.04916",
+    "https://arxiv.org/abs/2503.13650v1",
+    "https://arxiv.org/abs/2503.20947v2",
+    "https://arxiv.org/abs/2605.02219",
+    "https://arxiv.org/abs/2609.35974v2",
+    "https://arxiv.org/abs/hep-ph/0701149v2"
+  ]
+}

@@ -7,6 +7,7 @@ from hashlib import sha256
 import json
 from pathlib import Path
 import re
+from listing_statistics import listing_sentence
 
 PARTS = ("arxiv", "alerts", "news")
 SECTIONS = ("ArXiv Highlights", "Science News", "Science Radar")
@@ -59,11 +60,12 @@ def assemble(root, edition):
     news_count = sum(p["news_count"] for p in parts.values())
     radar_count = parts["news"]["science_radar_count"]
     partial = [name for name, p in parts.items() if p["status"] == "partial"]
-    intro = [f"**Report date: {edition} (Europe/Berlin).**"]
-    if partial:
-        intro.append("**Partial coverage:** " + ", ".join(partial) + ". See the coverage notes below.")
-    for name, p in parts.items():
-        intro.append(f"**{name.capitalize()} source-check cutoff: {p['cutoff']}.** {p['coverage']}")
+    listing = parts["arxiv"].get("listing_statistics")
+    if listing:
+        assert listing["date"] == edition, "Listing date differs from edition"
+        intro = [listing_sentence(listing)]
+    else:
+        intro = [f"**arXiv · {edition}:** daily listing totals could not be verified."]
     metadata = {
         "date": edition, "kind": "Daily report",
         "description": f"{len(papers)} selected papers · {news_count} science-news stories · {radar_count} Science Radar stories" + (" · Partial coverage" if partial else ""),
@@ -74,6 +76,9 @@ def assemble(root, edition):
                        "counts": counts, "selected_papers_by_primary_category": counts,
                        "provenance": "Unique selected papers, not whole-list totals."},
         "source_parts_sha256": hashes,
+        "listing_statistics": listing,
+        "source_audit": {name: {key: p[key] for key in ("cutoff", "status", "coverage")}
+                         for name, p in parts.items()},
     }
     output = "---\n" + json.dumps(metadata, indent=2, ensure_ascii=False) + "\n---\n\n"
     output += "\n\n".join(intro)
