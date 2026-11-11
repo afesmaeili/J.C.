@@ -100,3 +100,12 @@ This protocol does not guarantee scheduling, task completion or platform uptime.
 The three recurring tasks should remain enabled after a successful edition.
 Do not create extra scheduled tasks during their runs. No additional GitHub cron
 or fourth research/publishing automation is needed.
+
+
+## Daily opening and listing totals — 11 November 2026
+
+Begin each public daily report with one sentence giving the verified number of **new primary submissions** in that UTC arXiv listing for astro-ph, hep-ph, hep-ex, hep-th, gr-qc, nucl-ex and nucl-th. Exclude cross-lists and replacements; include HE/CO subcounts where verified. These are listing totals, separate from selected-paper statistics. Use dated catchup pages, not a mutable /new URL. If the counts cannot be checked, state that briefly rather than substituting selection counts or inventing zeroes.
+
+The arxiv handoff must include `listing_statistics`: `date`, `basis: "new_primary_submissions"`, a `counts` mapping containing all seven categories, dated primary `sources`, and `verified_at`. Optional `astro_subcategories` records verified primary-category breakdowns. The assembler validates the date and count types.
+
+Do not repeat the multi-paragraph source-check/date-control/partial-coverage preamble on each public page. General methodology appears on the homepage. Keep exact cutoffs, source URLs, date distinctions, actual screening scope and specific retrieval gaps in `source_audit` metadata (and each task's coverage field). Keep scientifically material limitations beside the affected paper or news story. A missing source must never be described as verified absence of news. Preserve historical audit information when simplifying an existing opening; do not erase it.

@@ -1,0 +1,413 @@
+[
+  {
+    "arxiv": "2610.40766",
+    "heading": "Quasar lenses favor collapsed SIDM halos—but not a unique particle model",
+    "label": "Lensing inference and particle-model interpretation",
+    "tags": [
+      "Dark matter",
+      "Gravitational lensing"
+    ],
+    "text": "The paper interprets **29 quadruply imaged quasars** using gravothermal collapse in self-interacting dark matter (SIDM). Both long- and short-mean-free-path heat conduction are included: very strong scattering can slow collapse rather than accelerate it indefinitely. The example particle model contains symmetric Dirac dark matter and a light scalar mediator.\n\nThe relevant statistic is the viscosity cross section, \\(\\sigma_V=(3/2)\\int\\sin^2\\theta\\,(d\\sigma/d\\Omega)d\\Omega\\), averaged over the relevant particle populations, and \\(\\sigma_{10}=\\sigma_V(10\\,\\mathrm{km\\,s^{-1}})/m_\\chi\\). Two halo prescriptions peak near **1,000 and 200 cm² g⁻¹**; they differ in subhalo abundance, inner slope and tidal enhancement. With **αχ fixed to 10⁻³**, likelihood features favor **mχ ≈ 20–80 GeV** and **mφ below 20 MeV**. These are conditional preferred regions, not standalone confidence bounds.\n\nThe **8:1–24:1 Bayes factors** compare specified collapsed-halo scenarios with their CDM reference. They do not independently exclude CDM, and the underlying lensing data are reused from a companion analysis. Cluster-scale scattering penalties and thermal-relic/kinetic-decoupling requirements are imposed inputs. Halo evolution and abundance assumptions remain decisive; the figures demonstrate this dependence rather than a unique particle solution.",
+    "history": "Gravothermal SIDM can first form cores and later dense collapsed centers. The direct observational predecessor is the [companion lensing analysis, 2609.35974v2](https://arxiv.org/abs/2609.35974v2), not an independent second data set.\n\nIndependent constraints deserve comparison. [Andrade et al., 2012.06611](https://arxiv.org/abs/2012.06611), inferred **σ/m < 0.13 cm² g⁻¹ at 95% confidence** from eight cluster lenses at characteristic relative speed about **1,458 km s⁻¹**, conditional on their cluster-evolution model. [Ando et al., 2503.13650v1](https://arxiv.org/abs/2503.13650v1), used eight classical and 23 ultrafaint dwarfs, Jeans modeling and SIDM subhalo evolution. With a log-uniform cross-section normalization prior, their 95th-percentile limits on **σ₀/m** are **0.8 cm² g⁻¹ at fixed turnover speed w = 10 km s⁻¹**, or **0.04 cm² g⁻¹ for velocity-independent scattering**; a high-cross-section mode can reappear for smaller w. Those normalization definitions, velocity dependences and galaxy-formation assumptions differ from σ₁₀ here. Potential dwarf-scale tension remains important, but a universal improvement factor or model-independent exclusion would be unjustified.",
+    "primary_category": "astro-ph.CO",
+    "submission": "2026-10-29T18:00:06Z",
+    "version": "v1",
+    "listing_date": "2026-11-02",
+    "review_date": "2026-11-11",
+    "status": "Preprint submitted to Physical Review Letters."
+  },
+  {
+    "arxiv": "2610.40770",
+    "heading": "When a good 21-cm fit is a bad astrophysical model",
+    "label": "Statistical diagnostic tested on forecasts and galaxy data",
+    "tags": [
+      "Cosmology",
+      "21-cm cosmology",
+      "Statistical methods"
+    ],
+    "text": "Breitman tests whether disagreement between subsets of data can reveal missing astrophysics despite an acceptable overall fit. The mock signal includes atomic- and molecular-cooling galaxies; an intentionally incomplete 21cmEMU inference model includes only the former. Bayesian suspiciousness removes an information-volume term from the evidence ratio: \\(\\log S=\\log R-(D_A+D_B-D_{AB})\\), with D the posterior-to-prior Kullback–Leibler divergence.\n\nFor a **1,080-hour SKA mock**, the incomplete model fits the power spectrum while shifting the logarithmic X-ray luminosity per star-formation rate from injected **40.5 to approximately 41.5**, and the escape-fraction slope from **0 to −0.5**. A representative **log S = −7.45** is more extreme than all **150 calibration mocks**, giving a calibrated lower significance of **2.72σ**; stronger extrapolations depend on distributional assumptions. In another test, suspiciousness flags **48/50** misspecified fits at a 5% threshold, compared with **15/50** for the chosen χ² diagnostic.\n\nSplitting JWST luminosity functions below and above **z = 10** yields roughly **5σ** tension within the restricted galaxy model and Gaussian calibration, falling to **2.1σ** after doubling high-redshift errors. This is not a ΛCDM falsification. Cosmic variance, interlopers, Eddington bias, emulator error and partition selection matter. The relevant setup fixes **σ₈ = 0.8118** and samples astrophysical parameters with stated uniform or informative priors. HERA upper limits offer much weaker consistency discrimination.",
+    "history": "[Handley and Lemos, 1902.04029](https://arxiv.org/abs/1902.04029), introduced suspiciousness to reduce arbitrary prior-volume dependence in Bayesian consistency tests. It is not a posterior probability that a model is true. Its invariance to prior-width changes assumes that those changes leave the posteriors essentially unchanged. The advance here is controlled calibration for 21-cm model misspecification and a galaxy-data application, not a new statistic. The false-alarm interpretation remains conditional on the simulated model and tested partition; searching many partitions creates an additional selection issue.",
+    "primary_category": "astro-ph.CO",
+    "submission": "2026-10-29T18:00:08Z",
+    "version": "v1",
+    "listing_date": "2026-11-02",
+    "review_date": "2026-11-11",
+    "status": "Preprint; no journal reference was shown on the checked version record."
+  },
+  {
+    "arxiv": "2610.40781",
+    "heading": "Hidden-sector sound waves can transfer their energy to visible matter",
+    "label": "Phenomenological gravitational-wave prediction",
+    "tags": [
+      "Gravitational waves",
+      "Dark sectors",
+      "Phase transitions"
+    ],
+    "text": "The usual acoustic gravitational-wave calculation treats the fluid excited by a first-order transition as effectively isolated. This work couples two ultrarelativistic fluids through an energy-momentum exchange current. For common temperature and sound speed squared **1/3**, the relative velocity decays while the total-fluid mode survives. The assumed interaction time is longer than bubble growth but can be shorter than the acoustic-source lifetime.\n\nThe unequal-time gravitational-wave source acquires factors \\(F(\\tau)=[1+(w_v/w_d)e^{-2\\Gamma\\Delta\\tau}]/[1+w_v/w_d]\\), with w the enthalpy density and Γ the interaction rate. For benchmark dark transition strength **0.1**, wall speed **0.9c**, visible/dark enthalpy ratio **10**, and **Γ/H = 100**, the peak power can fall to about **4%** of the isolated-fluid result for acoustic lifetime **0.1 H⁻¹**; a lifetime of **0.01 H⁻¹** gives a ratio around **0.3**. These are model examples, not measured suppression or confidence limits.\n\nThe infrared **k³** behavior survives, but the spectral modification is not generally one constant rescaling. Γ remains phenomenological. No full nonlinear two-fluid transition simulation or model-independent portal-coupling bound is supplied; a particle model must also explain why its interactions did not already change bubble growth.",
+    "history": "The [sound-shell model of Hindmarsh and Hijazi, 1909.10040](https://arxiv.org/abs/1909.10040), derives acoustic spectra from velocity correlations and bubble-scale flow profiles, controlled by transition strength, wall speed and bubble separation. Its limitations from nonlinear evolution and particular flow regimes were already recognized. The new ingredient is post-transition energy exchange between fluids. This modifies the isolated-source assumption, rather than invalidating acoustic production or establishing the same suppression for every hidden-sector transition.",
+    "primary_category": "gr-qc",
+    "submission": "2026-10-29T18:00:10Z",
+    "version": "v1",
+    "listing_date": "2026-11-02",
+    "review_date": "2026-11-11",
+    "status": "Preprint; no journal reference was shown on the checked version record."
+  },
+  {
+    "arxiv": "2610.40785",
+    "heading": "DESI BAO tests acceleration without an absolute ruler calibration",
+    "label": "Kinematic observational tests",
+    "tags": [
+      "Cosmology",
+      "Dark energy",
+      "BAO"
+    ],
+    "text": "The authors construct three inequalities that a never-accelerating universe must obey, using **DESI DR2 BAO** and FLRW geometry without calibrating the absolute sound horizon or imposing a dark-energy equation of state. One involves \\(S_F=(1+z)\\ln(1+z)-F_{\\rm AP}\\), where positive values violate the corresponding flat-universe non-acceleration inequality. Others compare distances across redshifts, with the BGS measurement as a low-redshift reference.\n\nFor anisotropic bins around **z = 0.510, 0.706 and 0.934**, the three constructions give maximum-bin significances **2.39σ, 3.04σ and 4.06σ** after the stated three-bin correction; average-based versions give **2.19σ, 2.85σ and 3.22σ**. These share data and must not be combined as independent discoveries. Scanning **|Ωk| ≤ 1** leaves two tests near **2.4–3.5σ** over the explored cases; that scan is not Bayesian curvature marginalization.\n\nThis is kinematic evidence for acceleration under geometric assumptions, not a measurement of its physical cause. FLRW distance relations and a common BAO ruler still enter. Removing an absolute r_d or H₀ calibration does not remove all early-universe, geometry or observational-systematics assumptions.",
+    "history": "[Sutherland's cosmic speed-trap, 1105.3838v2](https://arxiv.org/abs/1105.3838v2), already used BAO distance ratios and one-sided inequalities to test acceleration with limited dependence on gravity and the absolute ruler scale. The present advance is the DESI DR2 implementation, complementary statistics and explicit redshift-bin and curvature checks. Its correlated tests strengthen the assessment of one physical question; they should not be advertised as three independent confirmations or the first model-light BAO acceleration test.",
+    "primary_category": "astro-ph.CO",
+    "submission": "2026-10-29T18:00:13Z",
+    "version": "v1",
+    "listing_date": "2026-11-02",
+    "review_date": "2026-11-11",
+    "status": "Preprint; no journal reference was shown on the checked version record."
+  },
+  {
+    "arxiv": "2610.40793",
+    "heading": "MADGRID: a plasma haloscope aimed at meV dark matter",
+    "label": "Instrument concept and sensitivity forecast",
+    "tags": [
+      "Axions",
+      "Dark photons",
+      "Dark matter instrumentation"
+    ],
+    "text": "MADGRID proposes stacked copper-wire grids that convert axions or dark photons into electromagnetic power, combining a dispersive wire-medium response with discrete Maxwell solutions and extraction through the stack's end face. Five cartridges with approximately **8–15 grids** span **0.25–8 meV**. The projections assume **0.1 m²** aperture, **10 T** for axions, **0.1 K**, local dark-matter density **0.4 GeV cm⁻³**, and the candidate comprising all local dark matter.\n\nFor **one live year per octave** and local **S/N = 5**, an illustrative **1 meV** threshold is **g_aγ ≈ 1.3 × 10⁻¹³ GeV⁻¹**, or dark-photon mixing **χ ≈ 3.4 × 10⁻¹⁶** with random-polarization factor 1/3. These are forecasts, not 95% confidence exclusions. The kinetic-inductance option assumes **NEP = 6 × 10⁻¹⁹ W Hz⁻¹/²**. A more ambitious photon-counter option assumes **50% efficiency**, **1 mHz dark counts per channel**, and 100 or 400 channels; it forecasts KSVZ coverage over roughly **0.8–3.9 meV**, and DFSZ over **0.8–1.2 meV**.\n\nThe combined magnet, detector, terahertz material response and cryogenic performance have not been demonstrated here. Coupling losses and adopted aperture efficiency around **0.65** directly affect reach. This is a technically specified proposal, not an operating dark-matter search.",
+    "history": "[Lawson et al., 1904.11872v2](https://arxiv.org/abs/1904.11872v2), established tunable wire-plasma haloscopes, with illustrative coverage at **35–400 μeV**. MADGRID develops a layered finite geometry and a higher-mass reach. Independently, [CAST, 1705.02290v2](https://arxiv.org/abs/1705.02290v2), measured **g_aγ < 6.6 × 10⁻¹¹ GeV⁻¹ at 95% confidence for m_a ≲ 0.02 eV** using solar axions. CAST does not require axions to make up Galactic dark matter, whereas this forecast does. Their numerical difference is therefore neither an achieved improvement nor an assumption-matched comparison. QCD-axion lines are theoretical benchmarks, not observed confidence regions.",
+    "primary_category": "hep-ph",
+    "submission": "2026-10-29T18:00:25Z",
+    "version": "v1",
+    "listing_date": "2026-11-02",
+    "review_date": "2026-11-11",
+    "status": "Preprint; no journal reference was shown on the checked version record."
+  },
+  {
+    "arxiv": "2610.40866",
+    "heading": "Automating coherent pion production for neutrino generators",
+    "label": "Interaction-model and software development",
+    "tags": [
+      "Neutrinos",
+      "Neutrino interactions",
+      "Event generators"
+    ],
+    "text": "This work exports chiral-theory amplitudes through **FeynRules/UFO to Sherpa/Comix** and connects them to **Achilles**, combining coherent Δ and nonresonant Born contributions with spectral-function initial states and nuclear final-state interactions. It addresses interaction modeling needed by oscillation experiments, but is a tree-level phenomenological implementation rather than a complete EFT truncation-error calculation.\n\nResonance conventions matter strongly. With a constant Δ pole width, free-nucleon cross sections for **W < 1.4 GeV** overshoot reference data by about **80%, 50% and 15%** in the three displayed charge channels. A running width proportional to \\((k/k_0)^3m_\\Delta/W\\), together with a revised Breit–Wigner parametrization, improves agreement. The illustrated nuclear excesses change from about **50% to 5–10% for T2K**, and **60–70% to 10–20% for MicroBooNE**.\n\nThose improved running-width results use reweighting: they are not yet a complete implemented generator feature. The axial normalization changes from **C₅ᴬ(0) = 1.27** to **1.18** in the revised treatment. Unitarization, higher resonances, two-body and medium effects remain unresolved. Better agreement in these samples does not establish full phase-space validity or a measured reduction in oscillation-parameter bias.",
+    "history": "[Hernández, Nieves and Valverde, hep-ph/0701149v2](https://arxiv.org/abs/hep-ph/0701149v2), already included coherent Δ-pole and chiral-background amplitudes and showed their impact on extracting the axial transition form factor from ANL data. Interference is established physics, not the novelty. The advance is the automated amplitude-to-nuclear-generator workflow and demonstrations of sensitivity to width conventions. C₅ᴬ values must be compared within their fitted amplitude and resonance prescriptions, rather than as independently measured constants.",
+    "primary_category": "hep-ph",
+    "submission": "2026-10-29T18:41:31Z",
+    "version": "v1",
+    "listing_date": "2026-11-02",
+    "review_date": "2026-11-11",
+    "status": "Preprint; no journal reference was shown on the checked version record."
+  },
+  {
+    "arxiv": "2610.40895",
+    "heading": "How orbiting stars erode superradiant boson clouds",
+    "label": "Theoretical environment calculation",
+    "tags": [
+      "Ultralight dark matter",
+      "Black holes",
+      "Superradiance"
+    ],
+    "text": "The authors calculate stellar perturbations that transfer bosons from gravitationally bound cloud states into continuum states. They combine hydrogenic wavefunctions, relativistic growth rates and orbital averages, with evolution \\(\\dot M_c/M_c=\\tau_{\\rm sr}^{-1}-\\tau_{\\rm loss}^{-1}\\). A Sgr A*-like benchmark fixes **M = 4 × 10⁶ M⊙** and spin **0.9**; the latter is not an observed spin determination.\n\nGravitational encounters generally do not quench cloud growth in the studied stellar populations. For **α = GMμ = 0.45** in natural units, an illustrative 433 state has loss/growth-time ratio about **2**, halving net growth; a 322 case has a ratio near **8**, slowing growth by roughly **13%**. Encounters may still dominate over gravitational-wave depletion after saturation.\n\nQuadratic matter couplings make stars more effective scatterers. The convention is \\(-d_Nm_N\\phi^2\\bar NN/(2M_{\\rm Pl}^2)\\), with positive d_N for the repulsive case studied. Threshold statements such as negligible effects below **d_N ≈ 900** for one cusp or **50** for a mass-segregated cusp are conditional benchmarks, not observational bounds. Stellar distributions, orbital geometry, omitted bound-to-bound mixing and cloud self-interactions limit extrapolation. The analysis does not deliver one environment-independent corrected superradiance exclusion.",
+    "history": "[Baumann, Chia and Porto, 1804.03208](https://arxiv.org/abs/1804.03208), established tidal mixing and resonant cloud depletion in binaries. Environmental disruption is thus a known issue. The new calculation isolates bound-to-continuum ionization by a stellar population and adds quadratic matter interactions. A loss process that beats late-time gravitational-wave emission need not outrun initial superradiant growth; those comparisons have different implications for spin constraints.",
+    "primary_category": "hep-ph",
+    "submission": "2026-10-29T19:17:01Z",
+    "version": "v1",
+    "listing_date": "2026-11-02",
+    "review_date": "2026-11-11",
+    "status": "Preprint; no journal reference was shown on the checked version record."
+  },
+  {
+    "arxiv": "2610.40907",
+    "heading": "Curium-250 as a gamma-ray beacon of old merger remnants",
+    "label": "Nuclear-network and emission forecast",
+    "tags": [
+      "r-process",
+      "Gamma rays",
+      "Neutron-star mergers"
+    ],
+    "text": "The paper follows long-lived r-process ejecta with **15,625 PRISM trajectories**, varying density, expansion time and electron fraction with specified mass, fission and de-excitation models. It includes prompt fission photons and radioactive daughters, asking which isotopes remain bright thousands of years after a merger.\n\n**²⁵⁰Cm** has adopted spontaneous-fission partial half-life **11,300 ± 500 years** and inferred total half-life about **8,300 years**, including competing branches; some branch inputs are estimates rather than measurements. Its mass fraction is about **0.35%** in a standard example and reaches **2%** within the grid. In an illustrative composition its fission products supply over half the **0.2–5 MeV** flux for approximately **2,200–22,000 years**, peaking near **67%**. The predicted spectrum includes potentially useful daughter features such as **1,079 keV ²⁴⁶ᵐAm**.\n\nDetectability examples use **2 × 10⁻⁴ M⊙ of ²⁵⁰Cm at 1 kpc**. That yield and a corresponding nearby remnant are not observed. Fission yields, neutron-rich nuclei, isomers and the merger ejecta distribution remain major uncertainties. Instrument comparisons are forecasts, not a detection or a measured Galactic merger rate.",
+    "history": "[Korobkin et al., 1905.05089](https://arxiv.org/abs/1905.05089), already calculated gamma-ray signatures of fresh ejecta and old Galactic merger remnants, emphasizing nuclear-yield uncertainty. The strategy therefore predates this paper. The addition is a potentially important long-lived fission contribution and its daughter emission, which can change the useful isotope and age windows. It does not remove actinide-production uncertainties or guarantee an observable remnant within a kiloparsec.",
+    "primary_category": "astro-ph.HE",
+    "submission": "2026-10-29T19:27:38Z",
+    "version": "v1",
+    "listing_date": "2026-11-02",
+    "review_date": "2026-11-11",
+    "status": "Preprint; no journal reference was shown on the checked version record."
+  },
+  {
+    "arxiv": "2610.40911",
+    "heading": "CMS searches farther from the beam line for long-lived heavy neutrinos",
+    "label": "Collider exclusion analysis",
+    "tags": [
+      "Heavy neutral leptons",
+      "Neutrinos",
+      "BSM"
+    ],
+    "text": "CMS targets \\(W\\to\\mu N\\), followed by a displaced \\(N\\to\\mu\\mu\\nu\\) decay, using **138 fb⁻¹ at 13 TeV (2016–2018)** and **34.6 fb⁻¹ at 13.6 TeV (2022)**. Two displaced standalone muons without tracker requirements extend the useful transverse decay radius to approximately **50–400 cm**. The interpretation assumes a **Majorana** heavy neutral lepton with **mass 1–5 GeV**, mixing only with muon neutrinos; electron and tau mixings are fixed to zero.\n\nAn ABCD construction estimates instrumental backgrounds from data, with transfer factors and uncertainties propagated through the signal-region bins. The observed sample shows no significant excess. Profile-likelihood **CLs limits at 95% confidence** exclude regions in the mass–\\(|V_{\\mu N}|^2\\) plane, rather than supplying one mass-independent mixing bound. The expected sensitivity improves over earlier CMS searches over roughly **2.5–4.2 GeV**; this does not establish a global observed record throughout that interval.\n\nThe result is particularly sensitive to lifetime and detector acceptance. Changing flavor admixtures, whether N is Majorana or Dirac, or the decay model changes both production and branching/lifetime relationships. The figures' exclusion contours should therefore be used with their specified assumptions, not quoted as generic bounds on every sterile-neutrino model.",
+    "history": "[CMS, 2402.18658](https://arxiv.org/abs/2402.18658), previously searched for HNL decays through showers in the muon system. Its pure-muon **Majorana** interpretation reached **|VμN|² = 5.0 × 10⁻⁶ at mN = 2.8 GeV**, at **95% confidence**. The often nearby quoted **4.6 × 10⁻⁶ at 3.3 GeV** belongs to its **Dirac** interpretation and must not be substituted. Beam-dump constraints are particularly relevant at lower masses, while collider strategies sample different lifetimes and final states. The new displaced-dimuon reconstruction fills a complementary acceptance region. A single improvement factor would hide those differences and the mass dependence of the observed contours.",
+    "primary_category": "hep-ex",
+    "submission": "2026-10-29T19:30:10Z",
+    "version": "v1",
+    "listing_date": "2026-11-02",
+    "review_date": "2026-11-11",
+    "status": "Preprint submitted to JHEP."
+  },
+  {
+    "arxiv": "2610.40912",
+    "heading": "A learned inclusive carbon cross section does not determine exclusive final states",
+    "label": "Neural-network and event-generator method",
+    "tags": [
+      "Neutrino interactions",
+      "Nuclear physics",
+      "Machine learning"
+    ],
+    "text": "The authors connect an empirical electron–carbon deep-neural-network cross section to **NuWro/eWro** event generation. A **50-network bootstrap ensemble** describes inclusive data; quasielastic, meson-exchange-current and pion components are assigned using generator fractions \\(f_c=\\sigma_c^{MC}/\\sum_c\\sigma_c^{MC}\\), so that \\(\\sigma_c^{new}=f_c\\sigma_{\\rm DNN}\\). This preserves the generator's exclusive decomposition rather than learning that decomposition from inclusive data.\n\nThe intended domain extends from energy transfer **ω > 26 MeV** through the right half-width of the Δ region, with training coverage reaching **Q² = 10 GeV²**; deep-inelastic scattering is not modeled. SLAC comparisons within training are useful closure checks. More diagnostic are independent **CLAS measurements at beam energy 1.159 GeV and angle 37.5°**: discrepancies remain around **15% in the quasielastic region** and **30% near the Δ**. In the illustrated zero-pion reconstructed-energy distribution, deficits are about **20% at the peak** and **45% in a tail**; the Δ-associated discrepancy can remain near **40%**.\n\nThe procedure provides a controlled way to propagate inclusive empirical information into simulations, but cannot determine unseen channel composition or final-state interactions uniquely. Electron scattering also does not fix the neutrino axial response. The reported bootstrap spread is not a complete uncertainty on neutrino energy reconstruction or oscillation parameters.",
+    "history": "[Kowal et al., 2312.17298](https://arxiv.org/abs/2312.17298), already developed the empirical carbon cross-section network and compared bootstrap and dropout uncertainties. The advance here is its coupling to exclusive event generation and the resulting reconstruction tests. The history matters because inclusive agreement was the starting point, not a new demonstration that every generated channel is correct. Independent exclusive data expose precisely the assumptions that an inclusive fit cannot identify.",
+    "primary_category": "nucl-th",
+    "submission": "2026-10-29T19:30:25Z",
+    "version": "v1",
+    "listing_date": "2026-11-02",
+    "review_date": "2026-11-11",
+    "status": "Preprint; no journal reference was shown on the checked version record."
+  },
+  {
+    "arxiv": "2610.40958",
+    "heading": "Steering a radio array toward mergers before coalescence",
+    "label": "Observing-strategy simulation and hardware demonstration",
+    "tags": [
+      "Multimessenger",
+      "Gravitational waves",
+      "Fast radio bursts"
+    ],
+    "text": "The study tests prompt radio follow-up with a rapidly steerable DSA system. It simulates an O5-like **HLVA** network, binary neutron stars within **250 Mpc** and selected neutron-star–black-hole systems within **400 Mpc**, comparing peak-probability pointing with reinforcement learning as early-warning maps evolve. The nominal field is **18 deg²**, minimum elevation **20°**, and slew speed **1.5° s⁻¹**; the observing window spans roughly **60 seconds before to 20 seconds after merger**.\n\nPeak-probability pointing performs as well as reinforcement learning for most cases. A classifier routes only about **2%** of events to a learned strategy; the quoted **3.15% improvement** applies to that selected subset, not the full population. About **37%** of the simulated events are above the horizon. Conditional neutron-star-binary acquisition is around **90%** for the zero-error pointing case and **75%** with the modeled Gaussian pointing error. Acquisition of the true position is not detection of a radio counterpart.\n\nA **12 June 2026** two-antenna prototype exercise tests preplanned tracking, including winds around **8 m s⁻¹**, delays up to roughly **1 s** and an initial pointing error around **1°**. It is not a real merger-alert detection. A projected **20 mJy ms** fluence threshold at **700–1,025 MHz** depends on the future signal-processing chain, gain and interference environment. The simulation's requirement for complete early-warning sequences also favors relatively detectable events.",
+    "history": "[Tian et al., 2309.16383](https://arxiv.org/abs/2309.16383), already investigated prompt merger-radio searches with MWA subarrays, exploiting wide fields and dispersive delay. Counterpart existence, beaming and viewing angle remain uncertain independently of telescope pointing. This paper adds a DSA-specific fast-steering strategy and an early hardware demonstration. Its positional-acquisition fractions cannot be translated into a counterpart yield without an emission population model.",
+    "primary_category": "astro-ph.HE",
+    "submission": "2026-10-29T20:37:22Z",
+    "version": "v1",
+    "listing_date": "2026-11-02",
+    "review_date": "2026-11-11",
+    "status": "Accepted for publication in The Astrophysical Journal, according to the arXiv record."
+  },
+  {
+    "arxiv": "2610.41739",
+    "heading": "LS 5039 has an extra GeV component—but the proton model faces an energy-budget problem",
+    "label": "Gamma-ray analysis and competing emission models",
+    "tags": [
+      "Gamma rays",
+      "Cosmic rays",
+      "Particle acceleration"
+    ],
+    "text": "Using **17.3 years of Fermi-LAT data**, from **4 August 2008 to 25 November 2025**, the authors fit **0.1–500 GeV** emission from LS 5039 and combine it with phase-resolved HESS and HAWC spectra. Adding a log-parabola to a broken power law gives **ΔTS = 72.34**, interpreted as **7.90σ** using the adopted three-parameter χ² prescription. This is a local, model-conditional extra-component significance—not evidence for hadrons at 7.9σ.\n\nThe physical fits assume a one-zone pulsar-wind-shock geometry, distance **2.5 kpc**, inclination **60°**, a **1.4 M⊙** compact object and spin-down power **2 × 10³⁶ erg s⁻¹**. Representative fields are **2–4.5 G**, electron cutoffs **28–41 TeV**, and proton maximum energy **0.346 PeV**. The hybrid model is favored over the tested leptonic model by **ΔBIC = 10.8** in superior conjunction and **4.27** in inferior conjunction, yet reduced χ² values remain about **2.96 and 2.78**.\n\nA decisive caveat is energetics: fitted proton reservoirs and short escape times imply powers around **2.08 × 10³⁹** and **5.99 × 10³⁹ erg s⁻¹**, roughly **1,000–3,000 times** the assumed spin-down power. The model also underpredicts X rays. Noncontemporaneous phase-folded data, excluded upper limits and a restrictive one-zone geometry further weaken a unique interpretation. The spectral feature is interesting; a physically self-consistent hadronic explanation is not established.",
+    "history": "[HAWC, 2503.20947v2](https://arxiv.org/abs/2503.20947v2), had already found orbital modulation over **2–118 TeV** at **4.7σ** in **2,859 days** and evidence of emission extending to very high energies; the modulation above **100 TeV** was only **2.2σ**. Such photons motivate extreme particle acceleration but do not alone distinguish electrons from protons. The new LAT analysis addresses the GeV bridge and phase-resolved modeling. Its formal preference between two tested spectra does not solve the pre-existing leptonic/hadronic degeneracy, especially when the favored proton model exceeds its own power budget.",
+    "primary_category": "astro-ph.HE",
+    "submission": "2026-10-30T13:47:48Z",
+    "version": "v1",
+    "listing_date": "2026-11-02",
+    "review_date": "2026-11-11",
+    "status": "Preprint; no journal reference was shown on the checked version record."
+  },
+  {
+    "arxiv": "2610.41749",
+    "heading": "A multi-spacecraft SEP event separates electron and proton transport",
+    "label": "Heliospheric particle observations and transport modeling",
+    "tags": [
+      "Particle acceleration",
+      "Cosmic rays",
+      "Solar energetic particles"
+    ],
+    "text": "This is a new analysis of the **28 May 2021** solar energetic-particle event, not an event that occurred in November 2026. The associated **C9.4 flare at N18W67 began at 22:19 UTC**. Five spacecraft at four longitudinal viewpoints—Parker Solar Probe, Solar Orbiter, STEREO-A and near-Earth instruments—provide cross-calibrated particle measurements, with radial scaling between roughly **0.69 and 1 au**.\n\nFifteen-minute Gaussian longitude fits show a relatively stable **∼0.1 MeV electron** distribution centered near **51°**, with width about **34°**, while **14 and 32 MeV protons** broaden and shift westward. For 14 MeV protons the fitted width changes from **32.4° ± 12° to 40.8° ± 1.9°** between **03:00 and 12:00 UTC on 29 May**. Contaminated electron data after 08:00 and insufficiently sampled proton intervals are treated separately.\n\nA two-dimensional transport model can reproduce the proton trend using finite injection, convection and perpendicular diffusion: representative 14 MeV mean free paths are **λ∥ = 3.03 au** and **λ⊥ = 0.005 λ∥**. These are fitted model choices, not universal turbulence measurements. A shock-related proton contribution is favored, but four-viewpoint Gaussian fitting, assumed Parker Solar Probe cross-calibration and the absence of a comprehensive anisotropy fit leave injection–transport degeneracies.",
+    "history": "[Dresing et al., 1802.04722](https://arxiv.org/abs/1802.04722), studied the **26 December 2013** event with multi-spacecraft, time-dependent longitudinal distributions and long-lasting anisotropies. They already found that different particle species and energies need not fill interplanetary space identically, considering shock acceleration and trapping in interacting CMEs. The present event adds more favorable spacecraft coverage and a quantitative transport comparison. A westward-moving fitted center is therefore not, by itself, a unique signature of one acceleration mechanism.",
+    "primary_category": "astro-ph.SR",
+    "submission": "2026-10-30T13:52:40Z",
+    "version": "v1",
+    "listing_date": "2026-11-02",
+    "review_date": "2026-11-11",
+    "status": "Preprint; no journal reference was shown on the checked version record."
+  },
+  {
+    "arxiv": "2610.41775",
+    "heading": "Dark100 is a promising array under commissioning—not a Crab detection yet",
+    "label": "Gamma-ray instrument commissioning report",
+    "tags": [
+      "Gamma rays",
+      "Instrumentation"
+    ],
+    "text": "Dark100 develops a seven-telescope optical air-shower array using **0.46 m Fresnel lenses**, **1,024 SiPM pixels per telescope**, roughly **0.32° pixels** and a **10° × 10°** field. Four units had been installed by **December 2025**, but the outlying unit was not part of the three-telescope coincidence configuration in the reported initial observations.\n\nApproximately **50 hours of Crab observations in January 2026** yield **2.03σ**, which is not a source detection. The paper discusses focus and gain-calibration issues that limit that commissioning data set. For a future seven-telescope configuration, simulations forecast angular resolution around **0.12° above 100 TeV** and collection area near **0.3 km² before gamma/hadron selection**.\n\nThe distinction between pre-selection collection area and final sensitivity is essential: background rejection, effective exposure and reconstruction performance still determine whether a source is detectable. The report is a proceedings contribution associated with **Gamma 2026, 31 August–4 September**, rather than a new November observing campaign or a demonstrated final sensitivity curve.",
+    "history": "The related [PANOSETI air-shower demonstration, 2210.01356](https://arxiv.org/abs/2210.01356), reported **6.2 hours** of joint observations with VERITAS on **7 November 2021**, including **10,540 coincident showers** and three VERITAS-identified gamma rays at approximately **15, 36 and 51 TeV**. Thus compact Fresnel/SiPM telescopes already had an air-shower proof of concept. Dark100 advances the array implementation and commissioning, but its 2.03σ Crab excess does not constitute a new established gamma-ray detection.",
+    "primary_category": "astro-ph.IM",
+    "submission": "2026-10-30T14:15:02Z",
+    "version": "v1",
+    "listing_date": "2026-11-02",
+    "review_date": "2026-11-11",
+    "status": "Gamma 2026 conference proceedings contribution."
+  },
+  {
+    "arxiv": "2610.41842",
+    "heading": "Stellar-stream spurs are not unique dark-subhalo fingerprints",
+    "label": "Controlled dynamical simulations",
+    "tags": [
+      "Dark matter",
+      "Stellar streams",
+      "Galactic dynamics"
+    ],
+    "text": "The study compares stream morphology for **36 star clusters evolved for 5 Gyr** in four Galactic environments: an axisymmetric baseline, a **1:10 merger**, a rotating bar and a dark-subhalo population. The subhalo setup places **10% of the dark matter mass** in **10⁵–10⁹ M⊙ Plummer subhalos**, with mass function proportional to **M⁻¹·⁹**. The bar example extends to **8 kpc** and slows from about **27 to 17 km s⁻¹ kpc⁻¹**.\n\nSpur-like features occur in roughly **50% of merger**, **25% of barred** and **28% of subhalo** simulations. These fractions describe the chosen simulation ensemble; they are not posterior probabilities that an observed spur was made by a merger, bar or dark subhalo. The bar effects are particularly relevant to streams with pericenters below approximately **11 kpc**.\n\nThe phase-space comparisons suggest that line-of-sight velocities and along-stream proper motions can help distinguish histories, but no actual GD-1 likelihood fit or dark-matter cross-section/mass bound is derived. Giant molecular clouds, spiral structure and other perturbers are omitted, the subhalos are Plummer rather than NFW systems, and the modeled cluster/stream histories are restricted. Morphology alone is therefore an incomplete inverse problem.",
+    "history": "[Bonaca et al., 1811.03631](https://arxiv.org/abs/1811.03631), modeled GD-1's gap and spur with a dense perturber. Its acceptable perturber regions are conditional on that encounter model, not a model-independent posterior proving a dark subhalo. The new controlled comparison demonstrates alternative spur-producing environments and motivates additional kinematic information. It does not disprove the specific GD-1 encounter interpretation or establish that all observed spurs have non-dark-matter origins.",
+    "primary_category": "astro-ph.GA",
+    "submission": "2026-10-30T14:58:34Z",
+    "version": "v1",
+    "listing_date": "2026-11-02",
+    "review_date": "2026-11-11",
+    "status": "Preprint; no journal reference was shown on the checked version record."
+  },
+  {
+    "arxiv": "2610.41846",
+    "heading": "PSR J0437−4715: a narrower radius conditional on a richer emission model",
+    "label": "Joint neutron-star mass–radius inference",
+    "tags": [
+      "Neutron stars",
+      "Dense matter",
+      "X rays"
+    ],
+    "text": "The analysis combines **2.56 Ms of NICER data from 2017–2023**, **113 ks of XMM-Newton data from 2009**, **221 ks of NuSTAR data from 2014–2015**, and **14,150 s of HST/STIS ultraviolet observations from 2001**. XPSI models hydrogen-atmosphere hot spots, a partially ionized warm stellar surface and a pulsed power-law component. Ultraviolet emission supplies information on apparent emitting area, complementing the pulse-profile compactness constraint.\n\nWith radio priors **M = 1.418 ± 0.044 M⊙**, **d = 156.98 ± 0.15 pc** and a tightly constrained inclination, a radius prior uniform over **4.43–16 km**, and sampled absorption, reddening and calibration nuisance parameters, the preferred model gives **M = 1.377 (+0.038/−0.034) M⊙** and equatorial radius **R = 11.35 (+0.40/−0.39) km**, at **68% posterior credibility**.\n\nThe smaller error bar is conditional on the surface/emission family and informative external constraints. A simpler spot model gives a smaller radius and poor residuals; the richer model has a large evidence advantage, but the warm-temperature parameter reaches a boundary, lowering that boundary produces problematic multimodality, and a more flexible model did not converge. Removing the mass prior can drive the fit toward its lower mass boundary. The result is not a fully model-marginalized neutron-star radius uncertainty.",
+    "history": "[Choudhury et al., 2407.06789](https://arxiv.org/abs/2407.06789), obtained **R = 11.36 (+0.95/−0.63) km at 68% credibility** using NICER and radio information. The new central value agrees closely; the principal change is narrower conditional uncertainty from extra spectral bands and a revised emission model. Because data, priors and surface assumptions differ, the reduction should not be treated as a universal precision improvement independent of modeling. The joint paper itself exposes the remaining surface-temperature and geometry sensitivities.",
+    "primary_category": "astro-ph.HE",
+    "submission": "2026-10-30T15:01:07Z",
+    "version": "v1",
+    "listing_date": "2026-11-02",
+    "review_date": "2026-11-11",
+    "status": "Preprint submitted to The Astrophysical Journal Letters."
+  },
+  {
+    "arxiv": "2610.40925",
+    "heading": "A proposed equipartition origin for suprathermal ion tails",
+    "label": "Analytic acceleration model with observational comparisons",
+    "tags": [
+      "Particle acceleration",
+      "Plasma turbulence",
+      "Cosmic rays"
+    ],
+    "text": "Strong Alfvénic turbulence is modeled scale by scale with a parallel magnetic spectrum proportional to **k∥⁻²**. Cyclotron resonance connects a particle speed to a turbulent scale, while the accessible pitch-angle cone changes with speed. Equating energy in resonant fluctuations and suprathermal particles yields a phase-space distribution \\(F(v)=B_0^2/(16\\pi^3m_i v^5)\\), or an energy intensity proportional to **B₀² T⁻³ᐟ²**. The normalization includes order-unity modeling choices; this is not an exact universal coefficient.\n\nThe authors compare the prediction with digitized **ACE observations on 12 August and 25 October 2001**, and Voyager measurements. Ratios of measured to predicted intensity span roughly **0.6 and 1.4** in the August examples and **0.5 and 4.5** in October. For Voyager, the predicted intensity at **1 MeV** changes from about **0.98** to **2.5 (cm² sr s MeV)⁻¹** as the adopted field rises from **1.5 to 2.4 μG**, whereas the fitted observed values are about **2.1 and 1.15**. The opposite temporal trend is an important limitation, potentially involving escape.\n\nThis is a physically motivated normalization argument across varied environments, not a statistical demonstration of a universal acceleration law. Quiet-time tails can be orders of magnitude lower, multiple ion species complicate the shared energy budget, and escape and time dependence are not fully closed. Nothing here establishes extrapolation to UHECR acceleration.",
+    "history": "[Boldyrev et al., 2605.02219](https://arxiv.org/abs/2605.02219), already developed a scale-by-scale turbulent/particle balance producing the corresponding suprathermal power-law behavior. The present paper sharpens the magnetic-field-dependent normalization and observational comparison. The longstanding empirical power-law tail is the baseline to explain, not a newly discovered population. Agreement within factors of order unity in selected active intervals is encouraging, while the Voyager trend and quiet intervals show why a full transport and multi-species energy treatment remains necessary.",
+    "primary_category": "physics.plasm-ph",
+    "submission": "2026-10-29T19:50:26Z",
+    "version": "v1",
+    "listing_date": "2026-11-02",
+    "review_date": "2026-11-11",
+    "status": "Preprint; no journal reference was shown on the checked version record."
+  },
+  {
+    "arxiv": "2610.40774",
+    "heading": "Which black-hole mergers can be identified as hierarchical?",
+    "label": "Population classification and injection study",
+    "tags": [
+      "Gravitational waves",
+      "Black-hole populations"
+    ],
+    "text": "The paper asks whether gravitational-wave spin measurements can identify black holes made in an earlier merger. It uses cluster population simulations, a grid of binary injections and O4-like parameter estimation. The grid spans detector-frame primary masses **10–120 M⊙**, mass ratios **0.25–1**, varying spin tilt, inclinations and **S/N = 12 or 30**. The representative primary spin is **0.7** and secondary spin zero.\n\nWithin **755 simulated detected events**, a classification using precession alone selects **182 (24%)** at the adopted **ln likelihood-ratio > 3** threshold; combining effective aligned spin and precession selects **265 (35%)**. These fractions are conditional on the cluster population, assumed low first-generation natal spins and detection/measurement model. The likelihood-ratio threshold is not a posterior probability of hierarchical origin. A test with 1,000 modeled first-generation events produces no threshold-crossing cases, which does not establish zero false positives in nature.\n\nApplying the classifier to the examined GWTC-5 sample produces candidates, but classifications depend on waveform treatment. For example, GW241011's precession-only statistic changes across waveform/posterior combinations. Mass ratio, inclination and signal strength affect identifiability; primary mass alone is not a clean independent discriminator. High natal spins in first-generation systems or a different formation channel can mimic the diagnostic.",
+    "history": "[Payne, Kremer and Zevin, “Spin Doctors,” 2402.15066](https://arxiv.org/abs/2402.15066), already investigated hierarchical-merger classification through precession, obtaining weak/strong identification fractions around **8%/2%** for their O3 setup. The new work expands the injection mapping and combines spin information under an O4 population/detector model. Comparing 24% directly with 8% as a universal improvement factor would ignore changed assumptions. The advance is a conditional selection-function study, not definitive formation-channel assignments for individual observed binaries.",
+    "primary_category": "astro-ph.HE",
+    "submission": "2026-10-29T18:00:09Z",
+    "version": "v1",
+    "listing_date": "2026-11-02",
+    "review_date": "2026-11-11",
+    "status": "Preprint; no journal reference was shown on the checked version record."
+  },
+  {
+    "arxiv": "2610.41229",
+    "heading": "Circular-template searches can retain surprising sensitivity to eccentric mergers",
+    "label": "Search-pipeline injection study",
+    "tags": [
+      "Gravitational waves",
+      "Eccentric binaries",
+      "Search methods"
+    ],
+    "text": "Eccentric **TEOBResumS-Dalí** injections are passed through the quasicircular **GstLAL** bank in real O3 H1/L1 data, with eccentricity defined at **15 Hz** and explored up to **0.99**. Campaigns include fixed **30+30 M⊙** and **12+12 M⊙** systems and a broader chirp-mass/spin/inclination sample. The adopted recovery threshold is false-alarm rate **12.1 yr⁻¹**, approximately one per 30 days; it is not a high-confidence discovery threshold.\n\nFor chirp mass **30.44–40.44 M⊙**, sensitive-distance changes remain below roughly **20%** over much of **e ≤ 0.9**. Lower chirp-mass bins fare worse: distance falls around **50%** in **10.44–20.44 M⊙**, and **40%** in **20.44–30.44 M⊙**, near **e = 0.75**. Highly inclined, highly eccentric systems are important exceptions even at high mass.\n\nA same-parameter waveform overlap can exaggerate losses because a search bank recovers signals at different template parameters and because short high-mass signals interact differently with the consistency test. Nevertheless, equal-mass/aligned-spin assumptions, one data interval, the permissive FAR threshold and limited numerical-relativity validation at extreme eccentricity prevent blanket claims that circular searches are insensitive to eccentricity or fully complete for it.",
+    "history": "[Gadre et al., 2405.04186](https://arxiv.org/abs/2405.04186), compared O3 PyCBC and coherent WaveBurst recovery with SEOBNRv4EHM injections, finding about **10–20% sensitive-volume losses above e₁₀Hz ≈ 0.2** in the explored range and advantages for unmodeled searches in heavier systems. The new results concern another pipeline, waveform family, eccentricity reference frequency, parameter distribution and higher-e range. Differences are not automatically a contradiction or an improvement factor. Both establish that pipeline-level recovery is more informative than a single overlap calculation.",
+    "primary_category": "gr-qc",
+    "submission": "2026-10-30T04:06:12Z",
+    "version": "v1",
+    "listing_date": "2026-11-02",
+    "review_date": "2026-11-11",
+    "status": "Preprint; no journal reference was shown on the checked version record."
+  },
+  {
+    "arxiv": "2610.41119",
+    "heading": "MAGIKS uses gravitational-wave context to rank kilonova candidates",
+    "label": "Multimessenger machine-learning forecast",
+    "tags": [
+      "Multimessenger",
+      "Kilonovae",
+      "Machine learning"
+    ],
+    "text": "MAGIKS combines simulated gravitational-wave maps and source information with irregular Rubin-like optical light curves. It uses O5a-like detector noise, POSSIS/SFHo-based kilonova models, observing-strategy simulations and ELAsTiCC contaminants. A sky-map encoder, light-curve encoder and attention-based fusion are trained with event-disjoint samples: **21,890 positive and 19,814 negative training/validation examples**, versus **1,843 positive and 2,158 negative test examples**.\n\nIn artificial galleries containing exactly one counterpart among **5,000** sky/time-compatible candidates, top-rank recovery is **39.8%**, compared with **4.8%** for optical information alone, **0.2%** for the sky map alone and **3.8%** for the adapted Fink baseline; top-ten recovery reaches **66.6%**. These are benchmark retrieval fractions, not live-stream purity. The reported **94.2% binary accuracy** uses an artificial class mixture. A GW170817 exercise assumes counterfactual Rubin observations; it is not a new retrospective observational identification.\n\nThe inputs include injected inclination information. Perturbing it by about **±20°** is a useful robustness test but does not substitute for a real, correlated inclination posterior. Training and testing within closely related ejecta-model families, Gaussian detector noise, contamination choices and absence of a live alert-stream demonstration limit generalization. Physical GW conditioning is promising, but must be tested with operational latency and out-of-distribution contaminants.",
+    "history": "[Biswas et al., 2210.17433](https://arxiv.org/abs/2210.17433), developed simulated-light-curve features and random-forest filtering for the Fink kilonova module, which was already operating on real ZTF alerts and producing candidates for follow-up. Thus machine-assisted fast-transient selection predates MAGIKS. The new contribution is fusion of GW physical and spatial context with optical time series. The adapted Fink benchmark does not by itself establish superiority to the live broker under its own observing conditions or selection objectives.",
+    "primary_category": "astro-ph.HE",
+    "submission": "2026-10-30T01:19:55Z",
+    "version": "v1",
+    "listing_date": "2026-11-02",
+    "review_date": "2026-11-11",
+    "status": "Preprint; no journal reference was shown on the checked version record."
+  },
+  {
+    "arxiv": "2610.41473",
+    "heading": "IndIGO dark-force precision is a conditional forecast, not a new exclusion",
+    "label": "Proposed-detector Bayesian forecast",
+    "tags": [
+      "Dark sectors",
+      "Gravitational waves",
+      "Neutron stars"
+    ],
+    "text": "The model gives neutron stars effective dark charges, parametrized by \\(\\alpha=(\\hbar c/G)(q_1/m_1)(q_2/m_2)\\), \\(\\gamma=(\\hbar c/G)(q_1/m_1-q_2/m_2)^2\\), and \\(\\mu=G(m_1+m_2)m_A/(\\hbar c)\\). A perturbative, long-range inspiral waveform includes dark-force and radiation effects, matched across mediator-emission thresholds. The proposed heliocentric decihertz IndIGO detector is assumed to observe a GW170817-like binary for **three months over 0.364–10 Hz**, at **40.4 Mpc** and **S/N ≈ 77.9**.\n\nFor the nonzero injection **α = 0.035, γ = 4.1 × 10⁻⁴, μ = 5 × 10⁻⁵**, the reported mediator energy is **m_Ac² = [2.42 (+0.0000208/−0.0000209)] × 10⁻¹⁵ eV**, at **90% credibility**. That strikingly small interval is local precision around an injected signal, not an observed mass or an upper limit. The uniform priors are narrowly centered on the injection: approximately **α ± 1.5 × 10⁻⁴**, **γ ± 5 × 10⁻⁷**, and **μ ± 1.5 × 10⁻⁸**. Distance, sky position and spins are sampled, but this is not a broad global discovery search.\n\nFor a GR injection the mediator mass is unconstrained, and weak-coupling examples also lose identifiability. Threshold modeling, the perturbative waveform domain and astrophysical formation of sufficiently charged stars require validation. Abrupt emission-threshold approximations could contain more apparent information than a refined physical transition.",
+    "history": "[Owen et al., 2503.04916](https://arxiv.org/abs/2503.04916), developed the related waveform treatment and confronted ground-based neutron-star-containing events. Its restrictions on mediator parameters include waveform-validity conditions, which must not be reclassified as observational exclusions. The present paper extrapolates to a proposed lower-frequency detector and a nonzero injected signal; its local precision cannot be divided by a ground-based upper bound to claim an experimental improvement.\n\n[Kopp et al., 1807.02527](https://arxiv.org/abs/1807.02527), independently examined how neutron stars could acquire dark charges and showed that ordinary halo capture can make effects extremely small, while more exotic formation scenarios allow larger ones. The benchmark charge is therefore a physical assumption to justify, not a measured or automatically viable population property.",
+    "primary_category": "gr-qc",
+    "submission": "2026-10-30T09:24:16Z",
+    "version": "v1",
+    "listing_date": "2026-11-02",
+    "review_date": "2026-11-11",
+    "status": "Preprint; no journal reference was shown on the checked version record."
+  },
+  {
+    "arxiv": "2610.42056",
+    "heading": "Galaxy dipoles probe dark-sector forces—but coupling degeneracies dominate",
+    "label": "Large-scale-structure forecast",
+    "tags": [
+      "Cosmology",
+      "Dark energy",
+      "Equivalence principle"
+    ],
+    "text": "The model combines a universal scalar–gravity coupling with a distinct dark-matter coupling, \\(f_1=e^{-2Q\\phi}\\) and \\(f_2=e^{2Q_{\\rm dm}\\phi}\\), defining \\(\\beta=-\\sqrt6 Q/2\\) and \\(\\beta_{\\rm dm}=-\\sqrt6 Q_{\\rm dm}/2\\). Dark-sector nonuniversality can violate the equivalence principle; the universal coupling alone does not. The proposed observable uses the relativistic imaginary cross-spectrum of bright and faint galaxies to compare their motion and gravitational redshift.\n\nAn **SKA2 forecast over z = 0.2–0.8** uses six redshift bins, a freely sampled matter spectrum in **12 bins over k = 0.01–0.12 h Mpc⁻¹**, and fitted bias/damping terms. It assumes a **1% Gaussian distance prior**, fixed evolution bias and accurately known magnification effects. At fiducial **βdm = 0.2, β = 0.1**, allowing both couplings gives marginalized **1σ uncertainties σ(βdm) ≈ 0.26 and σ(β) ≈ 0.43**. In the simpler dark-coupling-only model with the universal coupling fixed to zero, **σ(βdm) ≈ 0.044**, or **22%** relative precision.\n\nThe large degradation is the scientific point: a precise projected observable need not yield a precise unique coupling. These are Fisher forecasts around specified models, not new experimental bounds. The chosen coupling benchmark can conflict with constraints on a coupling assumed constant throughout cosmic history; the paper's late-time setting and growth/quasistatic approximations must be kept explicit.",
+    "history": "[Castello et al., 2412.08627](https://arxiv.org/abs/2412.08627), already introduced a multitracer, model-light equivalence-principle statistic and forecast redshift-dependent SKA2 precision around **7–25%**. The new work projects such information onto a doubly coupled dark-energy model, exposing parameter degeneracy. It does not invent the relativistic-dipole test or supersede laboratory and cosmological equivalence-principle limits that constrain different species, scales and time dependences.",
+    "primary_category": "astro-ph.CO",
+    "submission": "2026-10-30T17:18:53Z",
+    "version": "v1",
+    "listing_date": "2026-11-02",
+    "review_date": "2026-11-11",
+    "status": "Preprint; no journal reference was shown on the checked version record."
+  },
+  {
+    "arxiv": "2610.40787",
+    "heading": "AGN-disk mergers connected to the evolving cosmic AGN population",
+    "label": "Population synthesis and detection-rate forecast",
+    "tags": [
+      "Black-hole populations",
+      "Gravitational waves",
+      "AGN"
+    ],
+    "text": "ARISE connects FastClusterAGN calculations of capture, migration, gas hardening, encounters and hierarchical mergers to evolving AGN abundances and supermassive-black-hole populations. Disk examples span central masses **10⁵–10⁹ M⊙**, Eddington ratios **10⁻³–10**, and viscosity parameters **α = 0.01 or 0.1**, with alternative disk/cluster and high-redshift population prescriptions.\n\nAt **z = 0.2**, representative merger-rate ranges are **12–37** or **0.5–6 Gpc⁻³ yr⁻¹** across different model families. These are between-model spreads, not statistical confidence intervals. Rate peaks shift from around **z = 1.8** in a conservative abundance model to **3.3 or 3.9** in alternative growth histories; one model remains high to **z ≈ 10**.\n\nFor a **10 km triangular Einstein Telescope**, **85% duty cycle** and **S/N > 12**, forecasts reach approximately **0.9–1.6 × 10⁵ detections yr⁻¹** for α = 0.01 and **1.1–2.3 × 10⁴ yr⁻¹** for α = 0.1. These large rates depend on disk lifetimes, replenishment, migration/hardening prescriptions and high-redshift AGN demographics. Low-viscosity models can overproduce the allowed overall rate. The paper's redshift-integrated AGN fractions are not detector-weighted observed branching fractions; luminosity-selected AGN-association bounds cannot be applied indiscriminately to every modeled AGN.",
+    "history": "[Bartos et al., 1602.03831](https://arxiv.org/abs/1602.03831), already showed how dense AGN disks can accelerate mergers of pre-existing stellar-mass black-hole binaries and discussed uncertain electromagnetic counterparts. The contribution here is the explicit connection between local disk dynamics and cosmic AGN/black-hole evolution, rather than the original proposal of an AGN merger channel. The very broad forecast range demonstrates how much the cosmological extrapolation depends on disk physics and population history. Neither present GW data nor these simulations establish a unique AGN contribution.",
+    "primary_category": "astro-ph.HE",
+    "submission": "2026-10-29T18:00:14Z",
+    "version": "v1",
+    "listing_date": "2026-11-02",
+    "review_date": "2026-11-11",
+    "status": "Preprint; no journal reference was shown on the checked version record."
+  }
+]

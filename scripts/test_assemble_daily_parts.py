@@ -75,5 +75,32 @@ class AssemblyTests(unittest.TestCase):
         self.assertEqual(target.read_text(), original)
 
 
+    def test_listing_totals_are_not_selection_counts(self):
+        self.parts["arxiv"]["listing_statistics"] = {
+            "date": self.day, "basis": "new_primary_submissions",
+            "counts": {"astro-ph": 79, "hep-ph": 22, "hep-ex": 4, "hep-th": 23,
+                       "gr-qc": 21, "nucl-ex": 1, "nucl-th": 7},
+            "sources": {"astro-ph": "https://arxiv.org/catchup/astro-ph/"+self.day}}
+        for name in self.parts:
+            self.save(name)
+        target, _ = assemble(self.root, self.day)
+        text = target.read_text()
+        metadata = json.loads(text.split("---")[1])
+        body = text.split("---", 2)[2]
+        self.assertIn("astro-ph: 79", body)
+        self.assertEqual(metadata["statistics"]["counts"], {})
+        self.assertNotIn("source-check cutoff", body)
+        self.assertEqual(metadata["source_audit"]["alerts"]["status"], "complete")
+
+    def test_wrong_listing_day_is_rejected(self):
+        self.parts["arxiv"]["listing_statistics"] = {
+            "date": "2026-11-11", "basis": "new_primary_submissions",
+            "counts": {}, "sources": {"astro-ph": "https://arxiv.org"}}
+        for name in self.parts:
+            self.save(name)
+        with self.assertRaisesRegex(AssertionError, "Listing date"):
+            assemble(self.root, self.day)
+
+
 if __name__ == "__main__":
     unittest.main()

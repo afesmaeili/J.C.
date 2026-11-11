@@ -13,6 +13,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: nov2-audit-recovery-20261111
+          fetch-depth: 0
       - name: Check recovery inputs
         run: |
           test -f scripts/recover_nov2_audit.py
@@ -28,7 +29,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          rm .github/workflows/nov2-audit-recovery.yml
+          rm .github/workflows/nov2-audit-recovery.yml scripts/recover_nov2_audit.py scripts/validate_nov2_audit.py docs/nov2-additions.json
           git add -A
           git commit -m "Build and validate November 2 audit and archive listing statistics"
           git push origin HEAD:nov2-audit-recovery-20261111
