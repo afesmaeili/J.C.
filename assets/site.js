@@ -15,6 +15,48 @@
     syncThemeButton();
   });
   document.querySelector('[data-print]')?.addEventListener('click', () => window.print());
+  const papers = [...document.querySelectorAll('details.paper-entry')];
+  const paperControls = document.querySelector('.paper-controls');
+  if (paperControls) paperControls.hidden = false;
+  document.querySelector('[data-papers-expand]')?.addEventListener('click', () => {
+    papers.forEach(paper => { paper.open = true; });
+  });
+  document.querySelector('[data-papers-collapse]')?.addEventListener('click', () => {
+    papers.forEach(paper => { paper.open = false; });
+  });
+  function revealLinkedPaper() {
+    let id;
+    try { id = decodeURIComponent(location.hash.slice(1)); } catch { return; }
+    const target = id && document.getElementById(id);
+    const paper = target && target.closest('details.paper-entry');
+    if (paper && !paper.open) {
+      paper.open = true;
+      requestAnimationFrame(() => target.scrollIntoView({block: 'start', behavior: 'instant'}));
+    }
+  }
+  revealLinkedPaper();
+  window.addEventListener('hashchange', revealLinkedPaper);
+  // A link to the current fragment must also reopen a manually closed paper.
+  document.addEventListener('click', event => {
+    const link = event.target.closest('a[href]');
+    if (!link) return;
+    const destination = new URL(link.href, location.href);
+    if (destination.origin === location.origin && destination.pathname === location.pathname &&
+        destination.hash && destination.hash === location.hash) {
+      revealLinkedPaper();
+    }
+  });
+  let beforePrint = null;
+  window.addEventListener('beforeprint', () => {
+    if (beforePrint) return;
+    beforePrint = papers.map(paper => paper.open);
+    papers.forEach(paper => { paper.open = true; });
+  });
+  window.addEventListener('afterprint', () => {
+    if (!beforePrint) return;
+    papers.forEach((paper, index) => { paper.open = beforePrint[index]; });
+    beforePrint = null;
+  });
   const input = document.getElementById('search-input');
   if (!input) return;
   const data = window.JOURNAL_INDEX || [];
