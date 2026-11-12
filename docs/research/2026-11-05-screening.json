@@ -1,0 +1,1331 @@
+{
+  "listing_date": "2026-11-05",
+  "checked_at": "2026-11-12T00:00:02.990949+00:00",
+  "scope": "First-announced papers in the 5 November 2026 UTC arXiv batch. Titles screened across 170 new primary submissions in seven fields, with targeted abstract screening and 15 additional full-text studies. One selected quant-ph paper is a same-day first announcement verified in its primary listing; it is outside the seven-field total. Existing three studies and original news/radar retained. News cutoff remains 5 November 2026 06:59 UTC; this paper review does not update the news window.",
+  "counts": {
+    "astro-ph": 93,
+    "hep-ph": 26,
+    "hep-ex": 2,
+    "hep-th": 20,
+    "gr-qc": 22,
+    "nucl-ex": 2,
+    "nucl-th": 5
+  },
+  "astro_subcategories": {
+    "astro-ph.IM": 12,
+    "astro-ph.SR": 11,
+    "astro-ph.HE": 16,
+    "astro-ph.GA": 35,
+    "astro-ph.CO": 12,
+    "astro-ph.EP": 7
+  },
+  "sources": {
+    "astro-ph": "https://arxiv.org/catchup/astro-ph/2026-11-05?abs=True",
+    "hep-ph": "https://arxiv.org/catchup/hep-ph/2026-11-05?abs=True",
+    "hep-ex": "https://arxiv.org/catchup/hep-ex/2026-11-05?abs=True",
+    "hep-th": "https://arxiv.org/catchup/hep-th/2026-11-05?abs=True",
+    "gr-qc": "https://arxiv.org/catchup/gr-qc/2026-11-05?abs=True",
+    "nucl-ex": "https://arxiv.org/catchup/nucl-ex/2026-11-05?abs=True",
+    "nucl-th": "https://arxiv.org/catchup/nucl-th/2026-11-05?abs=True"
+  },
+  "selected_studies": 18,
+  "added_full_text_studies": 15,
+  "retained_studies": 3,
+  "excluded": "Replacements and older papers appearing as new cross-lists. References in History do not count as new papers.",
+  "listing_sha256": {
+    "astro-ph": "52927fd52059f51234dd30ce59ca3c73b041b9d8578d00b296cf16cf65e60ce5",
+    "hep-ph": "67189da467c39a24391b5c617d3c95ecd9b9479ac891fb8d09ee4da00559bdff",
+    "hep-ex": "22b1493e6e2b3a851cfc40de63ea9482cf0098b2bec47d76d9b5e68f22e09ec4",
+    "hep-th": "482b842f73126764669433b0103277a519edde30fdcf27654c5b306ba924d477",
+    "gr-qc": "45a970e3d07fe424129dd46f3a6d701968793d01c813f41a2a6512b561d106e4",
+    "nucl-ex": "c3fbba8ee7f20fdeedd7cb7bcb24fd35ff65d2667c34ef0724bfb237e47e1038",
+    "nucl-th": "292a249edcefd058133867dbbd724cb426a7a552c2c540d1b840a1752f485d32"
+  },
+  "papers": [
+    {
+      "arxiv": "2611.05434",
+      "primary_category": "astro-ph.IM",
+      "title": "From Early Concepts to Lunar Hypertelescopes Roadmap for Next-Generation Optical Astronomy on the Moon",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05435",
+      "primary_category": "astro-ph.IM",
+      "title": "From Earth's Harshest Landscapes to Lunar Horizons: Engineering NEA Telescopes for Extreme Environments",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05438",
+      "primary_category": "astro-ph.IM",
+      "title": "HLA-Net: A Physics-Guided Skeleton-Based Framework for Automatic Gravitational Arc Detection in Astronomical Images",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05447",
+      "primary_category": "astro-ph.IM",
+      "title": "The PAU Survey: Self-supervised image denoising for flux-preserving photometry",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05455",
+      "primary_category": "astro-ph.SR",
+      "title": "Brewing another binary in the Teapot: Nandou=Phi Sagittarii",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05461",
+      "primary_category": "astro-ph.HE",
+      "title": "Characterizing Gravitational Wave Electromagnetic Counterparts with the Schmidt Observatory System",
+      "disposition": "full_text_study_added",
+      "version": "v1",
+      "submission_history": "Submission history From: Keerthi Kunnumkai [ view email ] [v1] Tue, 3 Nov 2026 18:58:41 UTC (5,487 KB)",
+      "full_text": "https://arxiv.org/pdf/2611.05461v1",
+      "history_references": [
+        "https://arxiv.org/abs/2411.13673",
+        "https://arxiv.org/abs/2202.01786"
+      ]
+    },
+    {
+      "arxiv": "2611.05467",
+      "primary_category": "astro-ph.GA",
+      "title": "How sky subtraction scales affect Intracluster light measurements",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05468",
+      "primary_category": "astro-ph.GA",
+      "title": "CosmoVerse Data Challenge: How Tip of the Red Giant Branch Analysis Choices Shape the Inferred Hubble Constant",
+      "disposition": "candidate_abstract_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05470",
+      "primary_category": "astro-ph.GA",
+      "title": "Searching for Signatures of i-process Nucleosynthesis in Metal-Rich, Lead-rich Barium Stars",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05474",
+      "primary_category": "astro-ph.GA",
+      "title": "Dynamics of self-gravitating halos with decaying dark matter",
+      "disposition": "full_text_study_added",
+      "version": "v1",
+      "submission_history": "Submission history From: Anna Bencke [ view email ] [v1] Tue, 3 Nov 2026 19:00:02 UTC (4,969 KB)",
+      "full_text": "https://arxiv.org/pdf/2611.05474v1",
+      "history_references": [
+        "https://arxiv.org/abs/1003.0419",
+        "https://arxiv.org/abs/2501.12636"
+      ]
+    },
+    {
+      "arxiv": "2611.05476",
+      "primary_category": "astro-ph.CO",
+      "title": "CHEX-MATE: Density profile reconstruction in galaxy clusters",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05482",
+      "primary_category": "astro-ph.GA",
+      "title": "Euclid. Predicting scaling relations for emission-line galaxies using simulated data",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05484",
+      "primary_category": "astro-ph.GA",
+      "title": "Euclid: Forecasting the number counts of bright line emitters in the Euclid Wide Survey and Euclid Deep fields",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05486",
+      "primary_category": "astro-ph.GA",
+      "title": "The M87 Black Hole Mass from JWST and Keck Stellar Kinematics Spanning 10 pc to 10 kpc",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05487",
+      "primary_category": "astro-ph.GA",
+      "title": "A pocket of oxygen in a near-pristine galaxy at z=4.2: chemical inhomogeneity at 10-parsec scales in LAP2",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05493",
+      "primary_category": "astro-ph.GA",
+      "title": "She Sees Shells by the Stellar Shore: A Kinematic View of NGC 253's Stellar Halo",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05496",
+      "primary_category": "astro-ph.GA",
+      "title": "ReveaLLAGN 2: Exploring the Nuclear Gas and Stellar Kinematics of Nearby LLAGNs with JWST/NIRSpec IFU",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05504",
+      "primary_category": "astro-ph.CO",
+      "title": "Gravitational waves flooding the Universe after wall domination",
+      "disposition": "candidate_abstract_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05510",
+      "primary_category": "astro-ph.IM",
+      "title": "Fast and accurate false-alarm probabilities for linear detection statistics in Poisson noise",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05518",
+      "primary_category": "astro-ph.GA",
+      "title": "DESI DR2 Results III: The Mass of the Milky Way",
+      "disposition": "existing_study_retained"
+    },
+    {
+      "arxiv": "2611.05519",
+      "primary_category": "astro-ph.GA",
+      "title": "Mock catalogues for the DESI DR2 Milky Way mass modeling effort",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05520",
+      "primary_category": "astro-ph.GA",
+      "title": "Constraining the Milky Way Mass profile with data driven distribution function using DESI DR2 halo stars",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05521",
+      "primary_category": "astro-ph.GA",
+      "title": "A distribution-function estimate of the Milky Way mass profile from outer halo stars in DESI DR2",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05535",
+      "primary_category": "astro-ph.EP",
+      "title": "On the Detectability of Compact Multi-Planet Systems via Gravitational Microlensing",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05536",
+      "primary_category": "astro-ph.GA",
+      "title": "Identifying Compact Object Candidates using Gaia DR3 Astrometric Accelerations and Jerks",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05547",
+      "primary_category": "astro-ph.GA",
+      "title": "Revisiting the Stellar-Dynamical Mass of the Central Black Hole in NGC 3227",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05560",
+      "primary_category": "astro-ph.CO",
+      "title": "An obstruction to cosmic acceleration from shift-symmetric dark sector interactions",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05566",
+      "primary_category": "astro-ph.CO",
+      "title": "PrimordialPy: A Python library for single-field inflation, primordial black holes, and scalar-induced gravitational waves",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05589",
+      "primary_category": "astro-ph.GA",
+      "title": "The impact of Population III stars on the elemental enrichment of ultra-faint galaxies in the FIRE-3 zoom-in simulations",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05657",
+      "primary_category": "astro-ph.HE",
+      "title": "One gravitational function across matter phases: compatibility and interface constraints in static $f(R,T)$ gravity",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05674",
+      "primary_category": "astro-ph.SR",
+      "title": "The spatial structure of solar magnetoconvection at scales up to $60$~Mm",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05694",
+      "primary_category": "astro-ph.HE",
+      "title": "A high-frequency turnover in the persistent radio source of FRB20201124A",
+      "disposition": "full_text_study_added",
+      "version": "v1",
+      "submission_history": "Submission history From: Gabriele Bruni [ view email ] [v1] Tue, 3 Nov 2026 22:22:19 UTC (880 KB)",
+      "full_text": "https://arxiv.org/pdf/2611.05694v1",
+      "history_references": [
+        "https://arxiv.org/abs/2312.15296",
+        "https://arxiv.org/abs/2504.01125"
+      ]
+    },
+    {
+      "arxiv": "2611.05718",
+      "primary_category": "astro-ph.CO",
+      "title": "Observational Test of the Maximum-Entropy Conjecture for Black-Hole Mergers with GW250114",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05727",
+      "primary_category": "astro-ph.EP",
+      "title": "Constraining Ganymede's Interior Structure and Bulk Composition from Its Present-Day Magnetic Field Strength",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05740",
+      "primary_category": "astro-ph.EP",
+      "title": "The impact of M dwarf stellar convection on exoplanetary atmospheric signatures. A 3D radiation-hydrodynamics simulation analysis for high-resolution spectroscopy",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05760",
+      "primary_category": "astro-ph.SR",
+      "title": "How fast is the fastest-rotating O-type star in the Galaxy?",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05783",
+      "primary_category": "astro-ph.HE",
+      "title": "Insights on the mass composition of ultrahigh-energy cosmic rays from small-scale anisotropy with large-scale structure simulations",
+      "disposition": "existing_study_retained"
+    },
+    {
+      "arxiv": "2611.05790",
+      "primary_category": "astro-ph.HE",
+      "title": "Unsupervised Neural Operators for Rotating Relativistic Stars: High-Fidelity Equation of State Inference and Pulsar Spin Evolution at Scale",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05808",
+      "primary_category": "astro-ph.HE",
+      "title": "A Laplace-Transform Green's Function for Two-Zone Diffusion with Energy Losses: Application to the Geminga Pulsar Halo",
+      "disposition": "full_text_study_added",
+      "version": "v1",
+      "submission_history": "Submission history From: Furong Li [ view email ] [v1] Wed, 4 Nov 2026 01:34:00 UTC (1,227 KB)",
+      "full_text": "https://arxiv.org/pdf/2611.05808v1",
+      "history_references": [
+        "https://arxiv.org/abs/1803.02640",
+        "https://arxiv.org/abs/1808.02445"
+      ]
+    },
+    {
+      "arxiv": "2611.05833",
+      "primary_category": "astro-ph.SR",
+      "title": "Photometric Study of a Distant SU UMa-type Dwarf Nova KSP-OT-201803a",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05864",
+      "primary_category": "astro-ph.IM",
+      "title": "Polarimetry with the Giant Magellan Telescope: A Scientific Justification & Technical Requirements Document",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05875",
+      "primary_category": "astro-ph.GA",
+      "title": "Mock CSST NUV-NIR imaging of TNG50 galaxies with resolved stellar populations",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05880",
+      "primary_category": "astro-ph.HE",
+      "title": "The kinematic Kelvin-Helmholtz instability-driven dynamo: implications for merging compact objects",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05881",
+      "primary_category": "astro-ph.SR",
+      "title": "Frequent Optical Flares in an M-type Detached Eclipsing Binary TIC 349005337",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05902",
+      "primary_category": "astro-ph.SR",
+      "title": "Collective Characterization of Polar Crown Filament Eruptions",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05934",
+      "primary_category": "astro-ph.SR",
+      "title": "Tiny Quiet-Sun EUV Ejections Revealed by High-resolution Multiwavelength Observations",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05947",
+      "primary_category": "astro-ph.CO",
+      "title": "Gravitational-Wave Microlensing as a Probe of Compact Object Population",
+      "disposition": "candidate_abstract_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05948",
+      "primary_category": "astro-ph.HE",
+      "title": "Longitudinal-field particle acceleration in channels generated by strong electromagnetic waves in pair plasma",
+      "disposition": "full_text_study_added",
+      "version": "v1",
+      "submission_history": "Submission history From: Kavin Tangtartharakul [ view email ] [v1] Wed, 4 Nov 2026 04:39:47 UTC (8,436 KB)",
+      "full_text": "https://arxiv.org/pdf/2611.05948v1",
+      "history_references": [
+        "https://arxiv.org/abs/2509.06230",
+        "https://arxiv.org/abs/2210.08754"
+      ]
+    },
+    {
+      "arxiv": "2611.05963",
+      "primary_category": "astro-ph.EP",
+      "title": "Orbital Architecture of Super-Earth-Cold-Jupiter Systems from Transit Duration Ratios",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05995",
+      "primary_category": "astro-ph.SR",
+      "title": "Spectroscopic diagnostics of coronal fan loops using EIS/Hinode and AIA/SDO",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06026",
+      "primary_category": "astro-ph.GA",
+      "title": "Spectroscopy-informed Deep Learning Searches for Photometric Little Red Dots in JWST Surveys",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06150",
+      "primary_category": "astro-ph.GA",
+      "title": "Aperture-dependent [O III] profile variability: Clues to the nature of double-peaked narrow emission lines",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06152",
+      "primary_category": "astro-ph.IM",
+      "title": "Pushing the frontiers of low-frequency radio astronomy: An ultra-deep sub-arcsecond LOFAR image of ELAIS-N1",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06190",
+      "primary_category": "astro-ph.GA",
+      "title": "Evolutionary Map of the Universe (EMU): Selection of active galactic nuclei and star-formation emission with machine-learning techniques",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06232",
+      "primary_category": "astro-ph.EP",
+      "title": "Orientation of the spin axes of large Kuiper belt bodies as an indicator of the mechanism of their origin",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06249",
+      "primary_category": "astro-ph.HE",
+      "title": "Optical linear polarization of the Be--X-ray pulsar binary LS V +44 17",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06264",
+      "primary_category": "astro-ph.GA",
+      "title": "A brief overview of the baryon cycle in galaxies",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06284",
+      "primary_category": "astro-ph.HE",
+      "title": "A search for sterile neutrinos at ultrahigh energies at the Pierre Auger Observatory",
+      "disposition": "existing_study_retained"
+    },
+    {
+      "arxiv": "2611.06304",
+      "primary_category": "astro-ph.CO",
+      "title": "Euclid: Survey mask effects on clustering of galaxy clusters",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06329",
+      "primary_category": "astro-ph.CO",
+      "title": "Primordial Black Holes and Induced Gravitational Waves from Inflation with History-Dependent Effective Dissipation",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06330",
+      "primary_category": "astro-ph.CO",
+      "title": "Horndeski Gravity as an Effective Dark Energy Fluid in Cosmological N-body Simulations",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06331",
+      "primary_category": "astro-ph.GA",
+      "title": "Quiescent galaxies at cosmic noon: from individual element abundances to star formation histories",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06332",
+      "primary_category": "astro-ph.IM",
+      "title": "Developing the Field Selector System for the SHARP Multi-IFU: Optomechanical Design and First Prototype Validation",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06333",
+      "primary_category": "astro-ph.GA",
+      "title": "Understanding galaxies and the origin of the golden mass through the study of scaling relations across cosmic history",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06334",
+      "primary_category": "astro-ph.GA",
+      "title": "Supermassive black holes and nuclear star clusters in galaxies: constraining formation and co-evolution with SHARP and MICADO",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06336",
+      "primary_category": "astro-ph.IM",
+      "title": "SHARP: A spectrograph proposal to fully exploit ELT capabilities",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06352",
+      "primary_category": "astro-ph.HE",
+      "title": "The Environment of High-Energy Transient Host Galaxies at High Redshifts as Observed by SHARP",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06360",
+      "primary_category": "astro-ph.GA",
+      "title": "Net Cooling Tables for Cosmological Simulations under Multiple UV/X-ray Background Models",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06399",
+      "primary_category": "astro-ph.CO",
+      "title": "Planting neutrino SE-EdS: A < 3% accurate clustering approximation for neutrinos and other hot dark matter",
+      "disposition": "full_text_study_added",
+      "version": "v1",
+      "submission_history": "Submission history From: Amol Upadhye [ view email ] [v1] Wed, 4 Nov 2026 12:03:57 UTC (2,736 KB)",
+      "full_text": "https://arxiv.org/pdf/2611.06399v1",
+      "history_references": [
+        "https://arxiv.org/abs/2011.12504",
+        "https://arxiv.org/abs/2410.05816"
+      ]
+    },
+    {
+      "arxiv": "2611.06443",
+      "primary_category": "astro-ph.GA",
+      "title": "AGN Host Galaxies in COSMOS-Web: Linking Structural Evolution and Star Formation Quenching up to $z=5$",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06484",
+      "primary_category": "astro-ph.IM",
+      "title": "Object-independent evaluation of small-data astronomical image classifiers: architecture, representation, and acquisition shortcuts",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06488",
+      "primary_category": "astro-ph.GA",
+      "title": "Gaia DR3 Reveals the Kinematics of Young Stellar Objects in the Carina Nebula: Peripheral Expansion and Central Rotation",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06516",
+      "primary_category": "astro-ph.GA",
+      "title": "Primary and Secondary Star Formation in the Spiral Waves of NGC 628",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06547",
+      "primary_category": "astro-ph.GA",
+      "title": "The dwarf galaxy NGC 185: the flagship of Andromeda's dwarf galaxies for the study of evolved multiple stellar populations",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06548",
+      "primary_category": "astro-ph.SR",
+      "title": "Magnetism among the oldest white dwarfs in the solar neighbourhood",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06549",
+      "primary_category": "astro-ph.SR",
+      "title": "Population synthesis of substellar companions surviving common-envelope evolution",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06632",
+      "primary_category": "astro-ph.GA",
+      "title": "Living near filaments: How environment shapes age profiles in low-mass galaxies",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06640",
+      "primary_category": "astro-ph.HE",
+      "title": "APOLLO-Timing: Annealed Phase - Orbit Lattice Linking across Observations for Binary Pulsar Timing",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06648",
+      "primary_category": "astro-ph.GA",
+      "title": "Investigating the initial conditions of globular clusters via $N$-body simulations: I. half-mass radius and stellar density",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06650",
+      "primary_category": "astro-ph.SR",
+      "title": "The formation and evolution of Wolf-Rayet stars with temperature-dependent winds",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06667",
+      "primary_category": "astro-ph.GA",
+      "title": "Euclid Quick Data Release (Q1). Refining the strong lens sample with Space Warps crowd-sourced science",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06714",
+      "primary_category": "astro-ph.IM",
+      "title": "Adaptive Optics for the Extremely Large Telescope: overcoming Point Spread Function challenges with MORFEO",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06723",
+      "primary_category": "astro-ph.HE",
+      "title": "Probing Solar-Wind Structure During Crab Pulsar Conjunctions with Dispersion and Faraday Rotation",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06735",
+      "primary_category": "astro-ph.HE",
+      "title": "Can Magnetic Reconnection Accelerate Energetic Particles in the Heliosheath?",
+      "disposition": "full_text_study_added",
+      "version": "v1",
+      "submission_history": "Submission history From: Jeongbhin Seo [ view email ] [v1] Wed, 4 Nov 2026 16:19:29 UTC (2,647 KB)",
+      "full_text": "https://arxiv.org/pdf/2611.06735v1",
+      "history_references": [
+        "https://arxiv.org/abs/0911.3098",
+        "https://arxiv.org/abs/2404.12276"
+      ]
+    },
+    {
+      "arxiv": "2611.06763",
+      "primary_category": "astro-ph.HE",
+      "title": "Energetic Nonthermal Electrons within the Above-the-looptop Regions in Solar Flares: Acceleration, Feedback, and Quasi-Periodic Pulsations",
+      "disposition": "full_text_study_added",
+      "version": "v1",
+      "submission_history": "Submission history From: Jeongbhin Seo [ view email ] [v1] Wed, 4 Nov 2026 16:40:58 UTC (1,659 KB)",
+      "full_text": "https://arxiv.org/pdf/2611.06763v1",
+      "history_references": [
+        "https://doi.org/10.3847/1538-4357/ac6efe",
+        "https://arxiv.org/abs/2404.12276"
+      ]
+    },
+    {
+      "arxiv": "2611.06765",
+      "primary_category": "astro-ph.EP",
+      "title": "Migration and eccentricity damping timescales in overstable resonant planetary systems: hydrodynamic and N-body simulations",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06785",
+      "primary_category": "astro-ph.HE",
+      "title": "Constraining the white-dwarf mass in the intermediate polar IGR J17014-4306 using X-ray and optical spectroscopy",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06787",
+      "primary_category": "astro-ph.CO",
+      "title": "Cosmological Backreaction and the Separate Universe Conjecture: Dynamical volume partitioning of Newtonian cosmologies",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06792",
+      "primary_category": "astro-ph.GA",
+      "title": "Magnetic Properties of Galactic Molecular Clouds",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06872",
+      "primary_category": "astro-ph.CO",
+      "title": "Magnetohydrodynamics During Reheating",
+      "disposition": "candidate_abstract_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06873",
+      "primary_category": "astro-ph.IM",
+      "title": "Tracking turbulence for wind-driven halo removal using MagAO-X pyramid wavefront sensor images",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06915",
+      "primary_category": "astro-ph.EP",
+      "title": "Preparing for the Gaia DR4 Epochalypse: Simulated Epoch Astrometry for Substellar Companion Orbit-Modeling Benchmarks",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06916",
+      "primary_category": "astro-ph.GA",
+      "title": "ReveaLLAGN 3: Revealing the Infrared Spectral Energy Distributions of Low Luminosity AGN",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05432",
+      "primary_category": "hep-ph",
+      "title": "Parton wave functions, density matrices and entropy in DGLAP evolution",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05440",
+      "primary_category": "hep-ph",
+      "title": "Meson spectra in a screened relativized quark model",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05444",
+      "primary_category": "hep-ph",
+      "title": "Photon-Counting Readout via Electro-Optic Microwave-to-Optical Transduction for Axion Haloscopes",
+      "disposition": "full_text_study_added",
+      "version": "v1",
+      "submission_history": "Submission history From: Silvia Zorzetti [ view email ] [v1] Tue, 3 Nov 2026 16:18:54 UTC (3,873 KB)",
+      "full_text": "https://arxiv.org/pdf/2611.05444v1",
+      "history_references": [
+        "https://arxiv.org/abs/1306.3591",
+        "https://arxiv.org/abs/2008.12231"
+      ]
+    },
+    {
+      "arxiv": "2611.05463",
+      "primary_category": "hep-ph",
+      "title": "Top Spin and CP from Equivariant Transformers",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05464",
+      "primary_category": "hep-ph",
+      "title": "Flavour Chains at the TeV Edge",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05465",
+      "primary_category": "hep-ph",
+      "title": "Probing Heavier-Baryon Oscillations through Light-Baryon Mixing",
+      "disposition": "candidate_abstract_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05469",
+      "primary_category": "hep-ph",
+      "title": "Superconducting Qubits as Quantum Targets for Direct Particle Scattering",
+      "disposition": "full_text_study_added",
+      "version": "v1",
+      "submission_history": "Submission history From: Doojin Kim [ view email ] [v1] Tue, 3 Nov 2026 19:00:01 UTC (96 KB)",
+      "full_text": "https://arxiv.org/pdf/2611.05469v1",
+      "history_references": [
+        "https://arxiv.org/abs/2008.12231",
+        "https://arxiv.org/abs/2405.00112"
+      ]
+    },
+    {
+      "arxiv": "2611.05475",
+      "primary_category": "hep-ph",
+      "title": "Complete set of bounded-from-below conditions for the $A_4$-symmetric three-Higgs-doublet model",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05500",
+      "primary_category": "hep-ph",
+      "title": "SMEFT Constraints on Top Electroweak Couplings and a Composite Higgs Interpretation",
+      "disposition": "candidate_abstract_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05501",
+      "primary_category": "hep-ph",
+      "title": "Indirect probes of heavy neutral leptons through the dipole portal at FCC-ee",
+      "disposition": "candidate_abstract_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05635",
+      "primary_category": "hep-ph",
+      "title": "Proton generalized parton distributions from electromagnetic form factors: A theoretically constrained phenomenological reconstruction",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05685",
+      "primary_category": "hep-ph",
+      "title": "Probing CP Violation in the Complex 2HDMS with a 95 GeV Scalar at Future $e^+e^-$ Colliders",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05747",
+      "primary_category": "hep-ph",
+      "title": "The Cosmology of Hawking Axions",
+      "disposition": "full_text_study_added",
+      "version": "v1",
+      "submission_history": "Submission history From: Sarunas Verner [ view email ] [v1] Tue, 3 Nov 2026 23:37:05 UTC (1,762 KB)",
+      "full_text": "https://arxiv.org/pdf/2611.05747v1",
+      "history_references": [
+        "https://arxiv.org/abs/1905.01301",
+        "https://arxiv.org/abs/2107.03420",
+        "https://arxiv.org/abs/2406.08535",
+        "https://arxiv.org/abs/2406.16840",
+        "https://arxiv.org/abs/2207.03102"
+      ]
+    },
+    {
+      "arxiv": "2611.05817",
+      "primary_category": "hep-ph",
+      "title": "Hybrid Hadrons: Origins and Development",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05872",
+      "primary_category": "hep-ph",
+      "title": "Investigations on the low-lying triply charmed pentaquark states in a constituent quark model",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06128",
+      "primary_category": "hep-ph",
+      "title": "From lattice QCD thermodynamics to an effective quasiparticle description of gluonic matter at finite temperature",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06129",
+      "primary_category": "hep-ph",
+      "title": "What Does Precision Spectroscopy Actually Constrain about X17 Couplings?",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06213",
+      "primary_category": "hep-ph",
+      "title": "Probing Lorentz Symmetry Violation via Hadroproduction in Electroweak Pair Annihilation",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06503",
+      "primary_category": "hep-ph",
+      "title": "A Duality Model in Which Dual QCD Becomes Hydrodynamics",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06643",
+      "primary_category": "hep-ph",
+      "title": "Quantum field theory treatment of the spin-flavor precession of Dirac neutrinos with diagonal magnetic moments",
+      "disposition": "full_text_study_added",
+      "version": "v1",
+      "submission_history": "Submission history From: Maxim Dvornikov [ view email ] [v1] Wed, 4 Nov 2026 15:24:26 UTC (44 KB)",
+      "full_text": "https://arxiv.org/pdf/2611.06643v1",
+      "history_references": [
+        "https://arxiv.org/abs/1902.08195"
+      ]
+    },
+    {
+      "arxiv": "2611.06707",
+      "primary_category": "hep-ph",
+      "title": "Heavy quarkonium spin transport in a hot medium",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06752",
+      "primary_category": "hep-ph",
+      "title": "Light (anti)nuclei production via coalescence in electron-proton collisions: from HERA to EIC",
+      "disposition": "full_text_study_added",
+      "version": "v1",
+      "submission_history": "Submission history From: Niccolò Ciavarelli [ view email ] [v1] Wed, 4 Nov 2026 16:28:22 UTC (726 KB)",
+      "full_text": "https://arxiv.org/pdf/2611.06752v1",
+      "history_references": [
+        "https://arxiv.org/abs/0705.3770",
+        "https://arxiv.org/abs/2302.12696"
+      ]
+    },
+    {
+      "arxiv": "2611.06755",
+      "primary_category": "hep-ph",
+      "title": "Earthquake Forecast via Neutrino Tomography at the DUNE Baseline",
+      "disposition": "candidate_abstract_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06769",
+      "primary_category": "hep-ph",
+      "title": "Born spreading with consistent shower starting scales in MC@NLO and FxFx merging",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06799",
+      "primary_category": "hep-ph",
+      "title": "Ground-State Heavy-Baryon Mass Spectrum in the Relativistic Independent Quark Model",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06824",
+      "primary_category": "hep-ph",
+      "title": "Cross-Moment Consistency and the Fifth Adler Coefficient in Hadronic Tau Decays",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06142",
+      "primary_category": "hep-ex",
+      "title": "Measurements of isolated photon pair production in association with jets in pp collisions at $\\sqrt{s}$ = 8 TeV with the ATLAS detector",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06586",
+      "primary_category": "hep-ex",
+      "title": "Operational Challenges in Efficient and Sustainable Operation of the Event Processing Nodes GPU Farm at the ALICE Experiment",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05473",
+      "primary_category": "hep-th",
+      "title": "Exact thermal correlators at vanishing momenta and the black hole singularity",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05480",
+      "primary_category": "hep-th",
+      "title": "Satisfying Freed--Witten quantization on smooth divisors in Calabi--Yau orientifolds",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05498",
+      "primary_category": "hep-th",
+      "title": "Goldstone theory of gluon saturation in high energy QCD: From color glass to color superfluid condensate",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05530",
+      "primary_category": "hep-th",
+      "title": "Schwinger Effect with a Transversal Boundary",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05624",
+      "primary_category": "hep-th",
+      "title": "Complex phase diagram and thermodynamic supercriticality of five-dimensional four-charge AdS black holes in $STU-W^2U$ gauged supergravity",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05663",
+      "primary_category": "hep-th",
+      "title": "Chiral edge modes from lattice Chern-Simons theory",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05768",
+      "primary_category": "hep-th",
+      "title": "Static and dynamical Casimir effects in a wedge within the worldline formulation",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05787",
+      "primary_category": "hep-th",
+      "title": "Partially Massless Condensates and Reentrant NUT/Bolt Phase Transitions in Conformal Gravity",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05789",
+      "primary_category": "hep-th",
+      "title": "Gluon and Faddeev--Popov ghost propagators in rotating background: An eigenfunction approach",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06058",
+      "primary_category": "hep-th",
+      "title": "On phases of 4d $Spin/SO$ Yang-Mills theories",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06295",
+      "primary_category": "hep-th",
+      "title": "Spectral flow in AdS$\\mathbf{_3}$ revisited",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06411",
+      "primary_category": "hep-th",
+      "title": "A dynamical Einstein-Proca-dilaton holographic model and exotic hybrid meson resonances",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06421",
+      "primary_category": "hep-th",
+      "title": "Striped phases of N=4 SYM at finite density",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06473",
+      "primary_category": "hep-th",
+      "title": "Quasi-Normal Modes and thermalization in integrable Quantum Field Theories from the Thermodynamic Bethe Ansatz",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06507",
+      "primary_category": "hep-th",
+      "title": "Higher Integrability, Generalized Symmetries, and Partially Topological Field Theories",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06679",
+      "primary_category": "hep-th",
+      "title": "Form Factors in AdS from the Worldsheet",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06794",
+      "primary_category": "hep-th",
+      "title": "5-brane webs and generalised symmetries",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06810",
+      "primary_category": "hep-th",
+      "title": "Exact Splitting of Amplitudes and One-Loop Integrands: A Classical Origin of Zeros",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06842",
+      "primary_category": "hep-th",
+      "title": "Anomaly effective actions for 4d $\\mathcal{N}=1$ superconformal field theories",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06907",
+      "primary_category": "hep-th",
+      "title": "Conformal field theory from automorphic forms on a quantum group",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05472",
+      "primary_category": "gr-qc",
+      "title": "The Start Time of Ringdown",
+      "disposition": "candidate_abstract_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05485",
+      "primary_category": "gr-qc",
+      "title": "The quasi-topological space of quasi-topological gravities",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05488",
+      "primary_category": "gr-qc",
+      "title": "Black hole quasinormal mode excitation and mixing for coupled fields",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05630",
+      "primary_category": "gr-qc",
+      "title": "Geodesic completeness and photon propagation in a superconducting T-duality black hole",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05676",
+      "primary_category": "gr-qc",
+      "title": "Bumblebee radiation from neutral matter around a black hole",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05773",
+      "primary_category": "gr-qc",
+      "title": "Exact teleportation bounds for fermionic Hawking thermality beyond the single-mode approximation",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05996",
+      "primary_category": "gr-qc",
+      "title": "Spacetime Evolution Induced by a Massive Cosmic String in Numerical Relativity",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06018",
+      "primary_category": "gr-qc",
+      "title": "Research on gravitational waves from extreme mass ratio inspirals in an axisymmetric Finslerian extension of Schwarzschild spacetime",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06102",
+      "primary_category": "gr-qc",
+      "title": "Topology change and the Gauss Bonnet term in causal set theory: the sign of the cosmological term and the axion decay constant",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06198",
+      "primary_category": "gr-qc",
+      "title": "Coupled membrane response and horizon dissipation in four-dimensional Einstein-scalar-Gauss-Bonnet gravity",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06246",
+      "primary_category": "gr-qc",
+      "title": "Missing solutions in scalar-Gauss-Bonnet gravity",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06367",
+      "primary_category": "gr-qc",
+      "title": "Metric reconstruction in a Bondi-like gauge",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06392",
+      "primary_category": "gr-qc",
+      "title": "Constraining Lorentz Invariance Violation via Precision Atomic Spectroscopy",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06460",
+      "primary_category": "gr-qc",
+      "title": "A Geometric No-Go Theorem for Regular Black Holes in Scalar-Tensor Theories",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06510",
+      "primary_category": "gr-qc",
+      "title": "Quasinormal modes of charged de Sitter black holes and strong cosmic censorship in conformal Killing gravity",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06527",
+      "primary_category": "gr-qc",
+      "title": "Probing black bounce spacetime through mass accretion rate",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06531",
+      "primary_category": "gr-qc",
+      "title": "Dipolar boson stars as static two-body systems: an effective-one-body description",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06647",
+      "primary_category": "gr-qc",
+      "title": "Quasi-equilibrium tidal folds of white dwarfs around rotating black holes in shift-symmetric Einstein--scalar--Gauss--Bonnet gravity",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06659",
+      "primary_category": "gr-qc",
+      "title": "Born-Infeld black holes in bumblebee gravity",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06750",
+      "primary_category": "gr-qc",
+      "title": "Inflationary attractors in metric-affine gravity",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06875",
+      "primary_category": "gr-qc",
+      "title": "Axial black hole perturbations in purely-metric Horndeski theories",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06902",
+      "primary_category": "gr-qc",
+      "title": "Gravitational-Wave Constraints on $R^2$ Gravity",
+      "disposition": "full_text_study_added",
+      "version": "v1",
+      "submission_history": "Submission history From: Pawan Kumar Gupta [ view email ] [v1] Wed, 4 Nov 2026 18:49:50 UTC (1,382 KB)",
+      "full_text": "https://arxiv.org/pdf/2611.06902v1",
+      "history_references": [
+        "https://arxiv.org/abs/1004.2014",
+        "https://arxiv.org/abs/2002.11761",
+        "https://arxiv.org/abs/1807.04060"
+      ]
+    },
+    {
+      "arxiv": "2611.05494",
+      "primary_category": "nucl-ex",
+      "title": "Search for the 229Pa Parity Doublet via Internal-Conversion Spectroscopy at FRIB",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06609",
+      "primary_category": "nucl-ex",
+      "title": "New Neutron Polarizabilities from Deuterium Compton Scattering at HI$γ$S",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05491",
+      "primary_category": "nucl-th",
+      "title": "Quantum computing for high energy nuclear physics",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.05858",
+      "primary_category": "nucl-th",
+      "title": "Spurious center-of-mass mode as an $S$-matrix pole within the Jost-random-phase approximation",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06697",
+      "primary_category": "nucl-th",
+      "title": "Interacting Boson System at Finite Temperatures: The treatment of the lattice QCD results",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06867",
+      "primary_category": "nucl-th",
+      "title": "Multi-phonon wobbling excitations as a probe for dynamical quasiparticle alignment",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    },
+    {
+      "arxiv": "2611.06883",
+      "primary_category": "nucl-th",
+      "title": "Density-driven $α$-particle clustering in neutron-rich oxygen isotopes",
+      "disposition": "title_screened_not_selected",
+      "note": "No full-text assessment claimed; relevance-based selection, not an assertion that the paper has no scientific interest."
+    }
+  ],
+  "additional_crosslist_screening": [
+    {
+      "arxiv": "2611.06761",
+      "primary_category": "quant-ph",
+      "disposition": "full_text_study_added",
+      "first_announcement_verified_in": "https://arxiv.org/catchup/quant-ph/2026-11-05?abs=True",
+      "submission_history": "Submission history From: Joe Wiedemann [ view email ] [v1] Wed, 4 Nov 2026 16:39:54 UTC (14,232 KB)",
+      "version": "v1",
+      "note": "Eligible same-day cross-list, counted once; outside the 170 new primary submissions in the seven screened fields."
+    }
+  ]
+}
