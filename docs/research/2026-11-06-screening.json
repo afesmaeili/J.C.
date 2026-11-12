@@ -1,0 +1,1479 @@
+{
+  "date": "2026-11-06",
+  "reviewed_at_utc": "2026-11-12T00:48:04.042476+00:00",
+  "base_commit": "b3c47e498249925b3ee595c36d2691658f7528e6",
+  "listing_statistics": {
+    "date": "2026-11-06",
+    "basis": "new_primary_submissions",
+    "counts": {
+      "astro-ph": 84,
+      "hep-ph": 33,
+      "hep-ex": 7,
+      "hep-th": 30,
+      "gr-qc": 27,
+      "nucl-ex": 3,
+      "nucl-th": 8
+    },
+    "sources": {
+      "astro-ph": "https://arxiv.org/catchup/astro-ph/2026-11-06?abs=True",
+      "hep-ph": "https://arxiv.org/catchup/hep-ph/2026-11-06?abs=True",
+      "hep-ex": "https://arxiv.org/catchup/hep-ex/2026-11-06?abs=True",
+      "hep-th": "https://arxiv.org/catchup/hep-th/2026-11-06?abs=True",
+      "gr-qc": "https://arxiv.org/catchup/gr-qc/2026-11-06?abs=True",
+      "nucl-ex": "https://arxiv.org/catchup/nucl-ex/2026-11-06?abs=True",
+      "nucl-th": "https://arxiv.org/catchup/nucl-th/2026-11-06?abs=True"
+    },
+    "verified_at": "2026-11-12T00:48:04.042476+00:00",
+    "excluded": "Cross-lists and replacements; each paper counted by primary category only.",
+    "astro_subcategories": {
+      "astro-ph.IM": 14,
+      "astro-ph.GA": 26,
+      "astro-ph.CO": 11,
+      "astro-ph.SR": 12,
+      "astro-ph.HE": 12,
+      "astro-ph.EP": 9
+    }
+  },
+  "screening_scope": "All 192 new-primary titles checked; targeted abstracts in astro-ph.HE/CO, hep-ph/ex and relevant gr-qc/nucl categories. Other titles screened for scope. Nineteen outside-primary cross-list titles checked. This is not a claim that all abstracts or all 192 papers received full-text review.",
+  "selected": {
+    "2611.08221": {
+      "primary_category": "hep-ph",
+      "listing_date": "2026-11-06",
+      "section": "New submissions",
+      "version": "v1",
+      "submission_utc": "2026-11-05T16:09:18+00:00",
+      "history": "Submission history From: Lorenzo Guerra [ view email ] [v1] Thu, 5 Nov 2026 16:09:18 UTC (1,512 KB)",
+      "status": "v1 preprint; no journal publication is listed.",
+      "fulltext": "https://arxiv.org/pdf/2611.08221v1",
+      "review": "Scientific full text, methods, equations, figure captions/results and limitations; relevant appendix text. Selected quantitative figure pages also visually inspected. Independent earlier literature read for History."
+    },
+    "2611.07281": {
+      "primary_category": "hep-ph",
+      "listing_date": "2026-11-06",
+      "section": "New submissions",
+      "version": "v1",
+      "submission_utc": "2026-11-05T01:03:33+00:00",
+      "history": "Submission history From: Olivia Bitter [ view email ] [v1] Thu, 5 Nov 2026 01:03:33 UTC (4,066 KB)",
+      "status": "v1 preprint; no journal publication is listed.",
+      "fulltext": "https://arxiv.org/pdf/2611.07281v1",
+      "review": "Scientific full text, methods, equations, figure captions/results and limitations; relevant appendix text. Selected quantitative figure pages also visually inspected. Independent earlier literature read for History."
+    },
+    "2611.07008": {
+      "primary_category": "hep-ph",
+      "listing_date": "2026-11-06",
+      "section": "New submissions",
+      "version": "v1",
+      "submission_utc": "2026-11-04T19:00:01+00:00",
+      "history": "Submission history From: Tran Quang Thong Nguyen [ view email ] [v1] Wed, 4 Nov 2026 19:00:01 UTC (2,170 KB)",
+      "status": "v1 preprint; no journal publication is listed.",
+      "fulltext": "https://arxiv.org/pdf/2611.07008v1",
+      "review": "Scientific full text, methods, equations, figure captions/results and limitations; relevant appendix text. Selected quantitative figure pages also visually inspected. Independent earlier literature read for History."
+    },
+    "2611.07013": {
+      "primary_category": "astro-ph.CO",
+      "listing_date": "2026-11-06",
+      "section": "New submissions",
+      "version": "v1",
+      "submission_utc": "2026-11-04T19:00:02+00:00",
+      "history": "Submission history From: Ranjini Mondol [ view email ] [v1] Wed, 4 Nov 2026 19:00:02 UTC (8,916 KB)",
+      "status": "v1 preprint; no journal publication is listed.",
+      "fulltext": "https://arxiv.org/pdf/2611.07013v1",
+      "review": "Scientific full text, methods, equations, figure captions/results and limitations; relevant appendix text. Selected quantitative figure pages also visually inspected. Independent earlier literature read for History."
+    },
+    "2611.08440": {
+      "primary_category": "hep-ph",
+      "listing_date": "2026-11-06",
+      "section": "New submissions",
+      "version": "v1",
+      "submission_utc": "2026-11-05T18:31:52+00:00",
+      "history": "Submission history From: Claire Chevallier [ view email ] [v1] Thu, 5 Nov 2026 18:31:52 UTC (4,819 KB)",
+      "status": "v1 preprint; no journal publication is listed.",
+      "fulltext": "https://arxiv.org/pdf/2611.08440v1",
+      "review": "Scientific full text, methods, equations, figure captions/results and limitations; relevant appendix text. Selected quantitative figure pages also visually inspected. Independent earlier literature read for History."
+    },
+    "2611.07578": {
+      "primary_category": "hep-ph",
+      "listing_date": "2026-11-06",
+      "section": "New submissions",
+      "version": "v1",
+      "submission_utc": "2026-11-05T07:30:15+00:00",
+      "history": "Submission history From: Mario Reig [ view email ] [v1] Thu, 5 Nov 2026 07:30:15 UTC (389 KB)",
+      "status": "v1 preprint; no journal publication is listed.",
+      "fulltext": "https://arxiv.org/pdf/2611.07578v1",
+      "review": "Scientific full text, methods, equations, figure captions/results and limitations; relevant appendix text. Selected quantitative figure pages also visually inspected. Independent earlier literature read for History."
+    },
+    "2611.07737": {
+      "primary_category": "astro-ph.HE",
+      "listing_date": "2026-11-06",
+      "section": "New submissions",
+      "version": "v1",
+      "submission_utc": "2026-11-05T09:47:01+00:00",
+      "history": "Submission history From: Kanako Narita [ view email ] [v1] Thu, 5 Nov 2026 09:47:01 UTC (738 KB)",
+      "status": "v1 manuscript accepted for publication in The Astrophysical Journal.",
+      "fulltext": "https://arxiv.org/pdf/2611.07737v1",
+      "review": "Scientific full text, methods, equations, figure captions/results and limitations; relevant appendix text. Selected quantitative figure pages also visually inspected. Independent earlier literature read for History."
+    },
+    "2611.07032": {
+      "primary_category": "astro-ph.HE",
+      "listing_date": "2026-11-06",
+      "section": "New submissions",
+      "version": "v1",
+      "submission_utc": "2026-11-04T19:00:26+00:00",
+      "history": "Submission history From: Varun Varun [ view email ] [v1] Wed, 4 Nov 2026 19:00:26 UTC (733 KB)",
+      "status": "v1 manuscript accepted for publication in The Astrophysical Journal.",
+      "fulltext": "https://arxiv.org/pdf/2611.07032v1",
+      "review": "Scientific full text, methods, equations, figure captions/results and limitations; relevant appendix text. Selected quantitative figure pages also visually inspected. Independent earlier literature read for History."
+    },
+    "2611.07039": {
+      "primary_category": "astro-ph.HE",
+      "listing_date": "2026-11-06",
+      "section": "New submissions",
+      "version": "v1",
+      "submission_utc": "2026-11-04T19:03:47+00:00",
+      "history": "Submission history From: Sara Elisa Motta [ view email ] [v1] Wed, 4 Nov 2026 19:03:47 UTC (2,149 KB)",
+      "status": "v1 manuscript accepted for publication in Astronomy & Astrophysics.",
+      "fulltext": "https://arxiv.org/pdf/2611.07039v1",
+      "review": "Scientific full text, methods, equations, figure captions/results and limitations; relevant appendix text. Selected quantitative figure pages also visually inspected. Independent earlier literature read for History."
+    },
+    "2611.07326": {
+      "primary_category": "astro-ph.HE",
+      "listing_date": "2026-11-06",
+      "section": "New submissions",
+      "version": "v1",
+      "submission_utc": "2026-11-05T02:11:05+00:00",
+      "history": "Submission history From: Aldana Grichener [ view email ] [v1] Thu, 5 Nov 2026 02:11:05 UTC (3,956 KB)",
+      "status": "v1 preprint; no journal publication is listed.",
+      "fulltext": "https://arxiv.org/pdf/2611.07326v1",
+      "review": "Scientific full text, methods, equations, figure captions/results and limitations; relevant appendix text. Selected quantitative figure pages also visually inspected. Independent earlier literature read for History."
+    },
+    "2611.07817": {
+      "primary_category": "nucl-th",
+      "listing_date": "2026-11-06",
+      "section": "New submissions",
+      "version": "v1",
+      "submission_utc": "2026-11-05T10:56:40+00:00",
+      "history": "Submission history From: Rwik Dharmapal Banerjee [ view email ] [v1] Thu, 5 Nov 2026 10:56:40 UTC (1,037 KB)",
+      "status": "v1 preprint; no journal publication is listed.",
+      "fulltext": "https://arxiv.org/pdf/2611.07817v1",
+      "review": "Scientific full text, methods, equations, figure captions/results and limitations; relevant appendix text. Selected quantitative figure pages also visually inspected. Independent earlier literature read for History."
+    },
+    "2611.07806": {
+      "primary_category": "hep-ex",
+      "listing_date": "2026-11-06",
+      "section": "New submissions",
+      "version": "v1",
+      "submission_utc": "2026-11-05T10:49:05+00:00",
+      "history": "Submission history From: Babette Döbrich [ view email ] [v1] Thu, 5 Nov 2026 10:49:05 UTC (12,350 KB)",
+      "status": "v1 preprint prepared for submission to JHEP.",
+      "fulltext": "https://arxiv.org/pdf/2611.07806v1",
+      "review": "Scientific full text, methods, equations, figure captions/results and limitations; relevant appendix text. Selected quantitative figure pages also visually inspected. Independent earlier literature read for History."
+    },
+    "2611.07195": {
+      "primary_category": "hep-ph",
+      "listing_date": "2026-11-06",
+      "section": "New submissions",
+      "version": "v1",
+      "submission_utc": "2026-11-04T22:36:09+00:00",
+      "history": "Submission history From: Micah Mellors [ view email ] [v1] Wed, 4 Nov 2026 22:36:09 UTC (498 KB)",
+      "status": "v1 preprint; no journal publication is listed.",
+      "fulltext": "https://arxiv.org/pdf/2611.07195v1",
+      "review": "Scientific full text, methods, equations, figure captions/results and limitations; relevant appendix text. Selected quantitative figure pages also visually inspected. Independent earlier literature read for History."
+    },
+    "2611.07574": {
+      "primary_category": "astro-ph.CO",
+      "listing_date": "2026-11-06",
+      "section": "New submissions",
+      "version": "v1",
+      "submission_utc": "2026-11-05T07:24:00+00:00",
+      "history": "Submission history From: Lei Zu [ view email ] [v1] Thu, 5 Nov 2026 07:24:00 UTC (189 KB)",
+      "status": "v1 preprint; no journal publication is listed.",
+      "fulltext": "https://arxiv.org/pdf/2611.07574v1",
+      "review": "Scientific full text, methods, equations, figure captions/results and limitations; relevant appendix text. Selected quantitative figure pages also visually inspected. Independent earlier literature read for History."
+    },
+    "2611.07023": {
+      "primary_category": "gr-qc",
+      "listing_date": "2026-11-06",
+      "section": "New submissions",
+      "version": "v1",
+      "submission_utc": "2026-11-04T19:00:06+00:00",
+      "history": "Submission history From: David Dzingeleski [ view email ] [v1] Wed, 4 Nov 2026 19:00:06 UTC (2,723 KB)",
+      "status": "v1 preprint; no journal publication is listed.",
+      "fulltext": "https://arxiv.org/pdf/2611.07023v1",
+      "review": "Scientific full text, methods, equations, figure captions/results and limitations; relevant appendix text. Selected quantitative figure pages also visually inspected. Independent earlier literature read for History."
+    },
+    "2611.07147": {
+      "primary_category": "gr-qc",
+      "listing_date": "2026-11-06",
+      "section": "New submissions",
+      "version": "v1",
+      "submission_utc": "2026-11-04T21:18:35+00:00",
+      "history": "Submission history From: Sanika Khadkikar [ view email ] [v1] Wed, 4 Nov 2026 21:18:35 UTC (1,032 KB)",
+      "status": "v1 preprint; no journal publication is listed.",
+      "fulltext": "https://arxiv.org/pdf/2611.07147v1",
+      "review": "Scientific full text, methods, equations, figure captions/results and limitations; relevant appendix text. Selected quantitative figure pages also visually inspected. Independent earlier literature read for History."
+    },
+    "2611.07416": {
+      "primary_category": "hep-ph",
+      "listing_date": "2026-11-06",
+      "section": "New submissions",
+      "version": "v1",
+      "submission_utc": "2026-11-05T04:11:20+00:00",
+      "history": "Submission history From: Yongtao Jia [ view email ] [v1] Thu, 5 Nov 2026 04:11:20 UTC (3,236 KB)",
+      "status": "v1 preprint; no journal publication is listed.",
+      "fulltext": "https://arxiv.org/pdf/2611.07416v1",
+      "review": "Scientific full text, methods, equations, figure captions/results and limitations; relevant appendix text. Selected quantitative figure pages also visually inspected. Independent earlier literature read for History."
+    },
+    "2611.07877": {
+      "primary_category": "hep-ph",
+      "listing_date": "2026-11-06",
+      "section": "New submissions",
+      "version": "v1",
+      "submission_utc": "2026-11-05T11:58:30+00:00",
+      "history": "Submission history From: Jianpeng Dai [ view email ] [v1] Thu, 5 Nov 2026 11:58:30 UTC (47 KB)",
+      "status": "v1 preprint; no journal publication is listed.",
+      "fulltext": "https://arxiv.org/pdf/2611.07877v1",
+      "review": "Scientific full text, methods, equations, figure captions/results and limitations; relevant appendix text. Selected quantitative figure pages also visually inspected. Independent earlier literature read for History."
+    },
+    "2611.08481": {
+      "primary_category": "astro-ph.CO",
+      "listing_date": "2026-11-06",
+      "section": "New submissions",
+      "version": "v1",
+      "submission_utc": "2026-11-05T18:59:19+00:00",
+      "history": "Submission history From: Amy Wayland [ view email ] [v1] Thu, 5 Nov 2026 18:59:19 UTC (1,248 KB)",
+      "status": "v1 manuscript submitted to JCAP.",
+      "fulltext": "https://arxiv.org/pdf/2611.08481v1",
+      "review": "Scientific full text, methods, equations, figure captions/results and limitations; relevant appendix text. Selected quantitative figure pages also visually inspected. Independent earlier literature read for History."
+    },
+    "2611.07794": {
+      "primary_category": "astro-ph.CO",
+      "listing_date": "2026-11-06",
+      "section": "New submissions",
+      "version": "v1",
+      "submission_utc": "2026-11-05T10:33:31+00:00",
+      "history": "Submission history From: Mickael Rigault [ view email ] [v1] Thu, 5 Nov 2026 10:33:31 UTC (14 KB)",
+      "status": "v1 preprint; no journal publication is listed.",
+      "fulltext": "https://arxiv.org/pdf/2611.07794v1",
+      "review": "Scientific full text, methods, equations, figure captions/results and limitations; relevant appendix text. Selected quantitative figure pages also visually inspected. Independent earlier literature read for History."
+    },
+    "2611.08241": {
+      "primary_category": "hep-ex",
+      "listing_date": "2026-11-06",
+      "section": "New submissions",
+      "version": "v1",
+      "submission_utc": "2026-11-05T16:20:01+00:00",
+      "history": "Submission history From: ATLAS Collaboration [ view email ] [via The ATLAS Collaboration as proxy] [v1] Thu, 5 Nov 2026 16:20:01 UTC (4,272 KB)",
+      "status": "v1 manuscript submitted to JHEP.",
+      "fulltext": "https://arxiv.org/pdf/2611.08241v1",
+      "review": "Scientific full text, methods, equations, figure captions/results and limitations; relevant appendix text. Selected quantitative figure pages also visually inspected. Independent earlier literature read for History."
+    }
+  },
+  "retained": [
+    "2611.07426",
+    "2611.07189",
+    "2611.07022"
+  ],
+  "related_companion_not_separately_counted": {
+    "2611.07146": "Goldilocks method paper linked within 2611.07147; observational reanalysis is the selected study."
+  },
+  "fulltext_read_not_selected": {
+    "2611.07852": "Lithium-bound-state dark matter: lower-priority model-specific proposal; no stand-alone highlighted study."
+  },
+  "listing_evidence": {
+    "astro-ph": {
+      "source": "https://arxiv.org/catchup/astro-ph/2026-11-06?abs=True",
+      "sha256": "d0bd253653965ecc666b626d28b5d3430909d479bb13fb7f672f1f4badc2264e",
+      "new_primary": [
+        {
+          "id": "2611.06963",
+          "title": "Unveiling the Origins of Local Group Galaxies with ELT-SHARP: An Overview of Science Cases",
+          "authors": "Hai-Feng Wang , Guan-Yu Wang , Peng Yang , Guo-Jun Cheng , Francois Hammer , Martin Lopez-Corredoira , Pei-Bin Chen , Qi-Da Li , Xiao-Peng Liu , Yu-Zheng Wang , Xiao-Yue Zhou",
+          "primary": "Instrumentation and Methods for Astrophysics (astro-ph.IM)"
+        },
+        {
+          "id": "2611.06966",
+          "title": "SHARP(ening the) view of unresolved globular clusters in ultra diffuse galaxies",
+          "authors": "Marco Mirabile , Michele Cantiello , Benedetta Di Francesco , Ivan Di Antonio , Gianluca Di Rico , Chiara Buttitta , Marco Gullieuszik , Johanna Hartke , Enrichetta Iodice , Maurizio Paolillo",
+          "primary": "Instrumentation and Methods for Astrophysics (astro-ph.IM)"
+        },
+        {
+          "id": "2611.07006",
+          "title": "Black Hole Seeds and Little Red Dots: Connecting Formation and Growth with a JWST Multi-Cycle Treasury Program",
+          "authors": "Fabio Pacucci , Raffaella Schneider , Harley Katz , Brant E. Robertson , Rachel S. Somerville , Abdurro'uf , K. Aditya , Jose M. Afonso , Junya Arita , Guillermo Barro , Arghyadeep Basu , Ryan Begley , Sownak Bose , Marusa Bradac , Greg L. Bryan , Christopher Cain , Riccardo Caleno , Alex J. Cameron , Stefano Carniani , Hyunseop Choi , Nicholas Choustikov , Emma Curtis-Lake , Alessia D'Angelo , Romeel Dave , Rebecca L. Davies , Kelcey Davis , Callum T. Donnan , Qiao Duan , Yohan Dubois , Andreas L. Faisst , Marion Farcy , Steven L. Finkelstein , Steven Gillman , Simon C. O. Glover , Luca Graziani , Ansh R. Gupta , Thales A. Gutcke , Martin G. Haehnelt , Nimish P. Hathi , Evanthia Hatziminaoglou , Kasper E. Heintz , Michaela Hirschmann , Luis C. Ho , Lucy R. Ivey , Kartheik Iyer , Junehyoung Jeon , Brenda L. Jones , Ignas Juodzbalis , Anton M. Koekemoer , Christian Kragh Jespersen , Danial Langeroodi , Andrea Lapi , Muhammad A. Latif , Yuankang Liu , Christopher C. Lovell , Filippo Mannucci , Kentaro Nagamine , Priyamvada Natarajan , Zhiwei Pan , Robert Pascalau , Pablo G. Pérez-González , Elia Pizzati , Eniko Regos , Pierluigi Rinaldi , Daniel Roberts , William Roper , Dominik R.G. Schleicher , Francesco Shankar , Xuejian Shen , Thomas M. Stanton , Guochao Sun , Yang Sun , Alessandro Trinca , Jonathan R. Trump , Jack C. Turner , Hannah Übler , Rosa Valiante , Floor van Donkelaar , Giacomo Venturi , Aswin P. Vijayan , Fabio Vito , Tao Wang , Stephen Wilkins , John H. Wise , Joris Witstok , Zihao Wu , L. Y. Aaron Yung , Tommaso Zana , Huanian Zhang , Saiyang Zhang , Ming-Yang Zhuang",
+          "primary": "Astrophysics of Galaxies (astro-ph.GA)"
+        },
+        {
+          "id": "2611.07013",
+          "title": "Latest $ν$s from the Earliest Galaxies: Probing neutrino self-interactions with JWST",
+          "authors": "Ranjini Mondol , Priyank Parashari , Anirban Das , Vera Gluscevic , Ranjan Laha",
+          "primary": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)"
+        },
+        {
+          "id": "2611.07018",
+          "title": "Phase Offsets Between the Minimum Light and Radial Velocity in Long Secondary Period Stars",
+          "authors": "D. M. Skowron , I. Soszyński , P. Iwanek , P. A. Kołaczek-Szymański",
+          "primary": "Solar and Stellar Astrophysics (astro-ph.SR)"
+        },
+        {
+          "id": "2611.07020",
+          "title": "The obscured nucleus of NGC3256 S. I. Anisotropic AGN near-IR radiation field traced by CO v=1-0 with JWST/NIRSpec",
+          "authors": "Miguel Pereira-Santaella , Eduardo González-Alfonso , Ismael García-Bernete , Andreas Efstathiou , Dimitra Rigopoulou , Giovanna Speranza , Niranjan Thatte",
+          "primary": "Astrophysics of Galaxies (astro-ph.GA)"
+        },
+        {
+          "id": "2611.07022",
+          "title": "General-relativistic neutrino-radiation hydrodynamics of crust ejection in magnetar giant flares",
+          "authors": "Tetyana Pitik (UC Berkeley), David Radice (Penn State University), Jacob Fields (Institute for Advanced Study), Yi Qiu (Penn State University)",
+          "primary": "High Energy Astrophysical Phenomena (astro-ph.HE)"
+        },
+        {
+          "id": "2611.07027",
+          "title": "Why a Multi-Cycle Treasury Program is Essential to Maximize JWST's Scientific Contributions to Galaxy Formation",
+          "authors": "Genesis Community , Alice Shapley (UCLA), Steven L. Finkelstein (UT Austin), Rachel S. Somerville (Flatiron), James Dunlop (Edinburgh), Adriano Fontana (INAF-OAR), Pascal A. Oesch (Geneva), Danielle A. Berg (UT Austin), Rachel Bezanson (Pittsburgh), Maruša Bradač (Ljubljana), Gabriel Brammer (DAWN), Caitlin M Casey (UCSB), John Chisholm (UT Austin), Emma Curtis-Lake (Hertfordshire), Mark Dickinson (NOIRLab), Xiaohui Fan (Arizona), Yuichi Harikane (Kyoto), Harley Katz (Chicago), Pablo G. Pérez-González (CAB), Brant E. Robertson (UC Santa Cruz), Raffaella Schneider (Sapienza), Abdurro'uf (Indiana), Angela Adamo (Stockholm), K. Aditya (Diego Portales), Jose M. Afonso (IA Lisbon), Belen Alcalde Pampliega (Manchester), Hiddo Algera (ASIAA), Omar Almaini (Nottingham), Almudena Alonso-Herrero (CAB), Javier Álvarez-Márquez (CAB), Ricardo Amorín (IAA), Makoto Ando (ICRR Tokyo), Jacqueline Antwi-Danso (Toronto), Lorena Aragüete Riesco (Granada), Archana Aravindan (UT Austin), Karla Z. Arellano-Cordova (CEFCA), Flor Denisse Arevalo Gonzalez (INAF), Junya Arita (Tokyo), Hakim Atek (IAP), Mic Bagley (NASA Goddard), William M. Baker (DAWN), Guillermo Barro (Pacific), Arghyadeep Basu (Lyon), Andrew J. Battisti (UWA), Ryan Begley (Armagh), Peter Behroozi (Arizona), Sirio Belli (Bologna), Samantha Berek (UMass Amherst), Pietro Bergamini (INAF-OAS), Davide Bevacqua (INAF-OAR), Souradeep Bhattacharya (Hertfordshire), Fuyan Bian (ESO), Longji Bing (Sussex), Laura Bisigello (INAF-OAPd), Torsten Böker (ESA), Leindert A. Boogaard (Leiden), Sownak Bose (Durham), Sarah E. I. Bosman (Heidelberg), Martin A. Bourne (Hertfordshire), Gibson B. Bowling (ASU), Michael Boylan-Kolchin (UT Austin), Larry D. Bradley (STScI), Volker Bromm (UT Austin), Greg L. Bryan (Columbia), Andrew J Bunker (Oxford), Denis Burgarella (LAM), Emilie Burnham (Penn State), Cristina Cabello (Alcalá), Corentin Cadiou (IAP), Christopher Cain (Cambridge), Antonello Calabro' (INAF-OAR), Riccardo Caleno (INAF-OAR), Alex J. Cameron (DAWN), Pedro R. Capelo (Zurich), Karina Caputi (Groningen), Timothy Carleton (ASU), Adam Carnall (Edinburgh), Stefano Carniani (SNS Pisa), Courtney Carreira (UC Santa Cruz), Marco Castellano (INAF-OAR), Michele Catone (INAF-OAPd), Karin Cescon (Leiden), Anirban Chakraborty (IUCAA), Jaclyn Champagne (STScI), Tsang Keung Chan (CUHK), Chandana Chandrashekhar (DAWN), Stéphane Charlot (IAP), Owen Chase (UT Austin), Yingjie Cheng (Washington), Chloe M. Cheng (Toronto), Hyunseop Choi (Michigan), Sunmyon Chon (Sapienza), Nicholas Choustikov (Cambridge), Katherine Chworowsky (UT Austin), Leonardo Clarke (UCLA), Nikko J. Cleri (Penn State), R. K. Cochrane (Manchester), Luis Colina (CAB), Benjamin P. Collins (U. Chile), Thomas Connor",
+          "primary": "Instrumentation and Methods for Astrophysics (astro-ph.IM)"
+        },
+        {
+          "id": "2611.07028",
+          "title": "AGN Archaeology: A Systematic Search for Fading AGN in MaNGA",
+          "authors": "Quinn O. Casey , Ryan C. Hickox , Jonathan H. Cohn , Nikko J. Cleri , Julia M. Comerford , K. Decker French , Sandra Jaison , Mar Mezcua , Rogério Riffel , Dominika Wylezalek , Peixin Zhu",
+          "primary": "Astrophysics of Galaxies (astro-ph.GA)"
+        },
+        {
+          "id": "2611.07029",
+          "title": "A multi-epoch VLBI study of compact symmetric objects as contaminants in the search for milli-lenses",
+          "authors": "Diego Álvarez-Ortega , Felix M. Pötzl , Carolina Casadio",
+          "primary": "Astrophysics of Galaxies (astro-ph.GA)"
+        },
+        {
+          "id": "2611.07032",
+          "title": "Is the hard X-ray polarization of Cyg X-1 stable?",
+          "authors": "Matthew G. Baring , Jacob Casey , Ephraim Gau , Tomohiro Hakamata , Kun Hu , Daiki Ishi , Fabian Kislat , Mózsi Kiss , Henric Krawczynski , Maitreya Kundu , Haruki Kuramoto , Lindsey Lisalda , Masaki Maekawa , Hironori Matsumoto , Shravan Vengalil Menon , Asca Miyamoto , Takuya Miyazawa , Takashi Okajima , Mark Pearce , Brian F. Rauch , Kentaro Shirahama , Sean Spooner , Hiromitsu Takahashi , Yuusuke Uchida , Varun",
+          "primary": "High Energy Astrophysical Phenomena (astro-ph.HE)"
+        },
+        {
+          "id": "2611.07033",
+          "title": "Breaking dark degeneracies in $k$-essence models with redshift-space distortions",
+          "authors": "Rebecca Briffa , Lehel Csillag , Erik Jensko",
+          "primary": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)"
+        },
+        {
+          "id": "2611.07034",
+          "title": "The JWST Early Release Science Program for Direct Observations of Exoplanetary Systems IX: A Multi-Wavelength Framework for Source Characterization in JWST Coronagraphic Imaging of the HIP 65426 System",
+          "authors": "Evelyn L. Bruinsma , Aarynn L. Carter , Sasha Hinkley , Beth A. Biller , Andy Skemer , William O. Balmer , Andrew D. James , Ellis X. Bogat , Ben J. Sutlieff , Michael Poon , Mathilde Mâlin , Katie A. Crotts , Genaro Suárez , Eileen Gonzales , Klaus Subbotina Stephenson , Markus Janson , Motohide Tamura , Raphaël Bendahan-West , Giovanni M. Strampelli , Michael R. Meyer , Emily Rickman , Julien H. Girard , Kellen Lawson , Alice Zurlo , Cecilia Lazzoni , Christopher A. Theissen , Thomas Henning , Pengyu Liu , Mark C. Wyatt , Isabel Rebollido , Aiza Kenzhebekova",
+          "primary": "Earth and Planetary Astrophysics (astro-ph.EP)"
+        },
+        {
+          "id": "2611.07035",
+          "title": "Viable Phantom Crossing in Softly Broken Shift Symmetric Gravity",
+          "authors": "Rodrigo Calderon , Eric V. Linder",
+          "primary": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)"
+        },
+        {
+          "id": "2611.07037",
+          "title": "The Composition of M-dwarf Exoplanet Hosts: Atmospheric Parameters and O, Mg, Si, and Fe Abundances from IR Spectroscopy",
+          "authors": "Zachary G Maas , Natalie R. Hinkel , Gregory N. Mace , Cayman T. Unterborn , Catherine Pilachowski , Christopher Sneden , Isabella Flores , Joseph G. Schulze",
+          "primary": "Solar and Stellar Astrophysics (astro-ph.SR)"
+        },
+        {
+          "id": "2611.07039",
+          "title": "The retirement party of GRS 1915+105: the radio fading to quiescence of the archetypal microquasar",
+          "authors": "S. E. Motta , R. P. Fender , A. Marino , P. Atri , F. Carotenuto , D. Williams-Baldwin , M. C. Baglio , Jun-Ping Chen , Wei Chen , F. Coti Zelati , F. J. Cowie , L. De Regt , N. Grollimund , A. K. Hughes , Yuan Liu , I. Mariani , N. Rea , L. Rhodes , P. Saikia , C. Salvaggio , K. Solomons , J. van den Eijnden , Kong-Jun Zhang , Dan Zhu",
+          "primary": "High Energy Astrophysical Phenomena (astro-ph.HE)"
+        },
+        {
+          "id": "2611.07044",
+          "title": "DOWSING, Dust Observations With SCUBA-2 In Nearby Galaxies: I. Dust in M81",
+          "authors": "M. Uzuner , M. W. L. Smith , S. Eales , A. Chung , E. J. Chung , D. L. Clements , I. De Looze , D. J. Eden , L. Fanciullo , L. C. Ho , F. Kemper , K. Pattle , M. Relaño , A. Saintonge , X. Tang , S. A. Van Der Giessen , J. Wang , T. G. Williams , C. D. Wilson",
+          "primary": "Astrophysics of Galaxies (astro-ph.GA)"
+        },
+        {
+          "id": "2611.07047",
+          "title": "The HST-Hyperion Survey: X-ray AGN Enhancement in the Hyperion Proto-supercluster",
+          "authors": "Ashlen Coburn , Finn Giddings , Derek Sikorski , Roy Gal , Brian C. Lemaux , Ben Forrest , Emmet Golden-Marx , Lu Shen , Devontae C. Baxter , Olga Cucciati , Joel Diamond , Denise Hung , Lori Lubin , Ekta Shah , Sandro Bardelli , Monica Natalia Isla Llave , Hyewon Suh , Laurence Tresse , Fabio Vito , Giovanni Zamorani , Elena Zucca",
+          "primary": "Astrophysics of Galaxies (astro-ph.GA)"
+        },
+        {
+          "id": "2611.07060",
+          "title": "An analytical framework for atmospheric tides on rocky planets. II. Semidiurnal thermotidal torque",
+          "authors": "Pierre Auclair-Desrotour , Jacques Laskar , Mohammad Farhat , Gwenaël Boué",
+          "primary": "Earth and Planetary Astrophysics (astro-ph.EP)"
+        },
+        {
+          "id": "2611.07064",
+          "title": "The ALPINE-CRISTAL-JWST Survey: The Tully-Fisher Relation at $z = 4-6$",
+          "authors": "Diego A. Gómez-Espinoza , Juan Molina , Edo Ibar , Manuel Aravena , Roberto J. Assef , Mederic Boquien , Matthieu Béthermin , Paolo Cassata , Elisabete da Cunha , Poulomi Dam , Miroslava Dessauges-Zavadsky , Andreas L. Faisst , Seiji Fujimoto , Jorge Gónzalez-López , Rodrigo Herrera-Camus , Hanae Inami , Anton M. Koekemoer , Lilian L. Lee , Yuan Li , L. Liu , Bahram Mobasher , Marco Palla , Monica Relano , Michael Romano , John D. Silverman , Justin Spilker , Hannah Übler , Daniela Vergani , Vicente Villanueva , Wuji Wang",
+          "primary": "Astrophysics of Galaxies (astro-ph.GA)"
+        },
+        {
+          "id": "2611.07070",
+          "title": "On the importance of medium-resolution continuum spectroscopy for JWST's extragalactic legacy",
+          "authors": "Adam C. Carnall , Ho-Hin Leung , Struan D. Stevenson , Elizabeth Taylor , Abdurro'uf , Stella Antonogiannaki , Karla Z. Arellano-Cordova , William M. Baker , Guillermo Barro , Arghyadeep Basu , Ryan Begley , Sirio Belli , Danielle A. Berg , Aliza G. Beverage , Rachel Bezanson , Souradeep Bhattacharya , Cecilia Bondestam , Andrew J. Bunker , Emilie Burnham , Alex J. Cameron , Chloe M. Cheng , Yingjie Cheng , M. C. Cooper , Isa G. Cox , Fergus Cullen , Emma Curtis-Lake , Romeel Dave , Rebecca L. Davies , Miroslava Dessauges-Zavadsky , Mark Dickinson , Callum T. Donnan , Qiao Duan , Kenneth J. Duncan , James S. Dunlop , Andreas L. Faisst , Steven L. Finkelstein , Sophia Flury , Anna R. Gallazzi , Adriana Gargiulo , Steven Gillman , Karl Glazebrook , Ansh R. Gupta , Nimish P. Hathi , Kasper E. Heintz , Isaac J. B. Holst , Kei Ito , Christian Kragh Jespersen , Jeyhan S. Kartaltepe , Anton M. Koekemoer , Mariska Kriek , Danial Langeroodi , Joel Leja , Yongming Liang , Yuankang Liu , Derek J. McLeod , Ross McLure , Yurina Nakazato , Themiya Nanayakkara , Gael Noirot , Katherine Ormerod , Richard Pan , Minjung Park , Robert Pascalau , Pablo G. Perez-Gonzalez , Eniko Regos , Pierluigi Rinaldi , Lucie E. Rowland , Kate Rowlands , Ryan L. Sanders , Marc Sarzi , Alice E. Shapley , Maya Skarbinski , Martje Slob , Thomas M. Stanton , Yang Sun , Chamilla Terp , Francesco Valentino , Arjen van der Wel , Jorick S. Vink , Bingjie Wang , Vivienne Wild , Stephen M. Wilkins , Po-Feng Wu , Stefano Zibetti",
+          "primary": "Instrumentation and Methods for Astrophysics (astro-ph.IM)"
+        },
+        {
+          "id": "2611.07092",
+          "title": "Feedback-Driven Star Formation and YSO Distribution around H II Regions Sh2-140 and Sh2-145",
+          "authors": "C Rishi , Neelam Panwar , Ajay Kumar Singh",
+          "primary": "Astrophysics of Galaxies (astro-ph.GA)"
+        },
+        {
+          "id": "2611.07161",
+          "title": "Detection of Differential Chromatic Refraction with LSST Camera data",
+          "authors": "Matthew J. Temple , Phoebe N. Lister",
+          "primary": "Instrumentation and Methods for Astrophysics (astro-ph.IM)"
+        },
+        {
+          "id": "2611.07162",
+          "title": "A Machine Learning Approach to Coupling Photoionization & Multi-Frequency Radiation Hydrodynamics",
+          "authors": "Sergei Dyda , Randall C. Dannen",
+          "primary": "High Energy Astrophysical Phenomena (astro-ph.HE)"
+        },
+        {
+          "id": "2611.07172",
+          "title": "Formamide formation on forsterite and Mg(OH)$_2\\cdot$H$_2$O",
+          "authors": "Dario Campisi",
+          "primary": "Astrophysics of Galaxies (astro-ph.GA)"
+        },
+        {
+          "id": "2611.07174",
+          "title": "MapHub: Daily Relevance Heatmaps of New arXiv Preprints for a Research Community",
+          "authors": "Kaili Cao , Camille Avestruz , Feige Wang",
+          "primary": "Instrumentation and Methods for Astrophysics (astro-ph.IM)"
+        },
+        {
+          "id": "2611.07189",
+          "title": "Systematic Study of Cosmic Rays in Star-Forming and Starburst Galaxies using Fermi-LAT and Multiwavelength Data",
+          "authors": "Hinako Ochi , Tsunefumi Mizuno , Yasushi Fukazawa , Noemi Barnier , Susumu Inoue , Wataru Iwakiri , Junling Chen , Tomonori Totani",
+          "primary": "High Energy Astrophysical Phenomena (astro-ph.HE)"
+        },
+        {
+          "id": "2611.07190",
+          "title": "CosmicGrain: An On-the-fly Dust Physics Module",
+          "authors": "E. Huscher , K. Finlator",
+          "primary": "Astrophysics of Galaxies (astro-ph.GA)"
+        },
+        {
+          "id": "2611.07227",
+          "title": "GetGaia 2.0: automatic membership and systemic motions of stellar systems with Gaia",
+          "authors": "Andrés del Pino",
+          "primary": "Astrophysics of Galaxies (astro-ph.GA)"
+        },
+        {
+          "id": "2611.07237",
+          "title": "Dust Survival in Lensed Quiescent Galaxies at $z>1$ Depends on How They Quench",
+          "authors": "Sarah Bodansky , Katherine E. Whitaker , Gourav Khullar , Michael D. Gladders , Keren Sharon , Viraj Manwadkar , Yunchong Zhang , Jacqueline Antwi-Danso , Dylan Berry , Rachel Bezanson , Håkon Dahle , Carlos Garcia Diaz , Darko Donevski , Alex J. Geiger , Massissilia L. Hamadouche , Joel Leja , Guillaume Mahler , Alexandra Pope , Justin Spilker , Ezra Sukay , Francesco Valentino",
+          "primary": "Astrophysics of Galaxies (astro-ph.GA)"
+        },
+        {
+          "id": "2611.07253",
+          "title": "Coordinated Space and Ground Monitoring of Accretion Bursts in a Protoplanetary Disk: MIRI and iSHELL observe the long-term modulation of gas within a small inner disk cavity",
+          "authors": "Jacob Hyden , Andrea Banzatti , Benjamin M. Tofflemire , Sebastiaan Krijt , Till Kaeufer , Klaus M. Pontoppidan , Carlo F. Manara , Christian Rab , John M. McCaskill , Guillaume Bourdarot , Emma T. Whelan , Joan Najita , Adrien Houge , Adwin Boogert , Catherine Dougados , Myriam Benisty , James Muzerolle Page",
+          "primary": "Earth and Planetary Astrophysics (astro-ph.EP)"
+        },
+        {
+          "id": "2611.07284",
+          "title": "The 10 Mpc Volume",
+          "authors": "R. Brent Tully , Gagandeep S. Anand , Helene M. Courtois , Igor D. Karachentsev , Valentina E. Karachentseva , Ehsan Kourkchi , Dmitry I. Makarov , Lidia N. Makarova , Daniel Pomarede , Edward J Shaya",
+          "primary": "Astrophysics of Galaxies (astro-ph.GA)"
+        },
+        {
+          "id": "2611.07305",
+          "title": "Using Structure Functions to Characterize Protoplanetary Disk Velocity Residuals",
+          "authors": "Richard Teague , Sean M. Andrews , Jaehan Bae , Marcelo Barraza-Alfaro , Abigail Bodner , Jonathan D. Henshaw , Giovanni Rosotti",
+          "primary": "Earth and Planetary Astrophysics (astro-ph.EP)"
+        },
+        {
+          "id": "2611.07326",
+          "title": "Double Neutron Star Mergers and Fast Blue Optical Transients: A Circumbinary Disk Connection",
+          "authors": "Aldana Grichener , Ruggero Valli , Mathieu Renzo , Ilya Mandel , Kaitlin M. Kratter , Magdalena Siwek , Koushik Sen , Neev Shah",
+          "primary": "High Energy Astrophysical Phenomena (astro-ph.HE)"
+        },
+        {
+          "id": "2611.07331",
+          "title": "Algebraic classification of single-field inflationary dynamics",
+          "authors": "Jinn-Ouk Gong , Wei-Chen Lin",
+          "primary": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)"
+        },
+        {
+          "id": "2611.07332",
+          "title": "Magnetic contribution to outer-disk rotation in the spiral galaxy NGC 5055",
+          "authors": "Natalia Woźniak , Joanna Jałocha , Łukasz Bratek , Szymon Sikora",
+          "primary": "Astrophysics of Galaxies (astro-ph.GA)"
+        },
+        {
+          "id": "2611.07338",
+          "title": "The Milky Way-like radial structure in nearby galaxies",
+          "authors": "Yuze Zhao , Jianhui Lian , Zheng Zheng , Cuihuan Li , Jie Song , Tao Wang , Zhenkang Tang , Dezi Liu , Xiangkun Liu , Yuan Fang , Guowang Du , Jinghua Zhang , Xufeng Zhu , Xiaowei Liu , Xinlei Chen , Yu Pan , Xingzhu Zou , Ye-Hao Cheng , Shuai Xie",
+          "primary": "Astrophysics of Galaxies (astro-ph.GA)"
+        },
+        {
+          "id": "2611.07363",
+          "title": "High precision timing of seven binary millisecond pulsars with the European Pulsar Timing Array",
+          "authors": "K. Liu , A. Chalumeau , H. Hu , S. Chen , L. Guillemot , J. Jang , M. Keith , J. Antoniadis , C. Bassa , A. Carleo , D. J. Champion , I. Cognard , G. H. Janssen , W. Jiang , R. Karuppusamy , E. F. Keane , M. Kramer , Y. Liu , M. B. Mickaliger , A. Parthasarathy , D. Perrodin , B. W. Stappers , G. Theureau , L. Wang",
+          "primary": "High Energy Astrophysical Phenomena (astro-ph.HE)"
+        },
+        {
+          "id": "2611.07373",
+          "title": "Is Morphology All You Need? Quantifying Imprints of Past Star Formation in the Present-Day Morphologies of Galaxies",
+          "authors": "Juan Pablo Alfonzo , Kartheik G. Iyer , Masayuki Akiyama , Camilla Pacifici , Abdurro'uf , Suchetha Cooray , Novan Saputra Haryana , Marc Huertas-Company , Christopher C. Lovell , Rachel Somerville , Joshua S. Speagle , John F. Wu , Mikaeel Yunus",
+          "primary": "Astrophysics of Galaxies (astro-ph.GA)"
+        },
+        {
+          "id": "2611.07405",
+          "title": "No Significant Rotation of the Spiral Structure in the IM Lup Protoplanetary Disk",
+          "authors": "Yuto Hiraide , Mastaka Aizawa , Munetake Momose",
+          "primary": "Earth and Planetary Astrophysics (astro-ph.EP)"
+        },
+        {
+          "id": "2611.07427",
+          "title": "Prospects for detecting hot-Jupiter tidal decay through transit timing with the mission Earth 2.0",
+          "authors": "Wenqin Wang , Yue Wang , Di-Chang Chen , Hui Zhang , Jian Ge , Bo Ma",
+          "primary": "Earth and Planetary Astrophysics (astro-ph.EP)"
+        },
+        {
+          "id": "2611.07428",
+          "title": "Preliminary Goniopolarimetric Simulations for Space Weather Radio (SWARA) Polarimeter",
+          "authors": "Poorva Singh , Mugundhan V. , Anshu Kumari",
+          "primary": "Instrumentation and Methods for Astrophysics (astro-ph.IM)"
+        },
+        {
+          "id": "2611.07433",
+          "title": "MP-DualNet: A Dual-Branch Deep Learning Approach for Magnetopause Boundary Detection Using Simulated SXI Images",
+          "authors": "Cheng Zhong , Zhongwei Yang , Tianran Sun , Chengyan Huang , Jiajia Liu , Jingnan Guo , Yuming Wang , Chi Wang",
+          "primary": "Solar and Stellar Astrophysics (astro-ph.SR)"
+        },
+        {
+          "id": "2611.07448",
+          "title": "Systematic Search for Cataclysmic Variables in Radio Surveys: First Radio Detection of IX Velorum",
+          "authors": "Suhasini S. Rao , Gregory R. Sivakoff , Craig O. Heinke , Akash Anumarlapudi , Laura Driessen , David L. Kaplan Patrick A. Woudt",
+          "primary": "Solar and Stellar Astrophysics (astro-ph.SR)"
+        },
+        {
+          "id": "2611.07522",
+          "title": "First Results from JACKS: A VLA Ammonia View of Gas Heating and Star-forming Cores in the Central Molecular Zone",
+          "authors": "Xu Zhang , Xing Lu , Elisabeth A. C. Mills , Qizhou Zhang , Daniel L. Walker , Natalie O. Butterfield , Namitha Issac , Annika Schmiedeke , Suinan Zhang , JACKS collaborations",
+          "primary": "Astrophysics of Galaxies (astro-ph.GA)"
+        },
+        {
+          "id": "2611.07524",
+          "title": "Confirming HSC strong lens candidates with DESI Spectroscopy. II. Analysis of 80 galaxy-scale systems with lens redshifts above 0.8",
+          "authors": "Shen Li , Yiping Shu , Lin Nie",
+          "primary": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)"
+        },
+        {
+          "id": "2611.07533",
+          "title": "Constraining the timescale of activity in Mrk 1018",
+          "authors": "Rebecca McElroy , Scott M. Croom , Thomas Dunn",
+          "primary": "Astrophysics of Galaxies (astro-ph.GA)"
+        },
+        {
+          "id": "2611.07546",
+          "title": "Violent relaxation in hierarchical stellar systems: pathways toward massive black hole formation in the early Universe",
+          "authors": "Dominik R.G. Schleicher , Francesco Flammini Dotti , Matías Liempi , Tommaso Zana , Andrés Escala , Muhammad A. Latif , Roberto Capuzzo-Dolcetta , Marcelo C. Vergara , Lorenzo Paparella",
+          "primary": "Astrophysics of Galaxies (astro-ph.GA)"
+        },
+        {
+          "id": "2611.07563",
+          "title": "The Pristine survey XXXI. A stream offset from the Stream: very metal-poor stellar debris trailing 100$^{\\circ}$ from the LMC-SMC system",
+          "authors": "Akshara Viswanathan , Kim A. Venn , Julio F. Navarro , Daniel A. Boyea , Federico Sestito , Camila Navarrete , Hanneke C. Woudenberg , Tadafumi Matsuno , Vinicius M. Placco , Madeleine McKenzie , Triana Cornejo , Anya Dovgal , Anke Ardern-Arentsen , Manuel Bayer , Amanda Byström , Vanessa Hill , Pascale Jablonka , Jaclyn Jensen , Georges Kordopatis , Nicolas F. Martin , Rubén Sánchez-Janssen , Simon E. T. Smith , Else Starkenburg , Daria Zaremba , Giuseppina Battaglia , Salvatore Taibi",
+          "primary": "Astrophysics of Galaxies (astro-ph.GA)"
+        },
+        {
+          "id": "2611.07574",
+          "title": "Probing the Seed Effect of Supermassive Primordial Black Holes with Weak Gravitational Lensing",
+          "authors": "Lei Zu , Kazunori Kohri",
+          "primary": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)"
+        },
+        {
+          "id": "2611.07590",
+          "title": "The Influence of the Inclination of the Accretion Disk in Black Hole X-Ray Binaries on the Energy Spectrum Characteristics",
+          "authors": "Aijun Dong , Shangyao Jing , Weilong He",
+          "primary": "High Energy Astrophysical Phenomena (astro-ph.HE)"
+        },
+        {
+          "id": "2611.07609",
+          "title": "A Large-Sample Study of Interstellar Reddening in Galactic Star Clusters",
+          "authors": "Ernst Paunzen , Teja Begari",
+          "primary": "Astrophysics of Galaxies (astro-ph.GA)"
+        },
+        {
+          "id": "2611.07668",
+          "title": "Discovery of the redback pulsar PSR J2053+6905 and multi-epoch optical observations of the system",
+          "authors": "A. V. Karpova , J. D. Taylor , A. V. Bobakov , A. Kirichenko , D. A. Zyuzin , E. Fonseca , S. V. Zharikov , D. K. Romanov , M. Lucio-Mendoza , R. Karimov , A. Cabrera-Lavers",
+          "primary": "High Energy Astrophysical Phenomena (astro-ph.HE)"
+        },
+        {
+          "id": "2611.07697",
+          "title": "Thorium and Europium production in the early Galaxy: Implications for nucleocosmochronology",
+          "authors": "L. Magrini , R. E. Giribaldi , M. Palla , S. Randich , L. Pasquini , C. J. Hansen , R. Smiljanic , M. Racca , M. Tsantaki , J. Schiappacasse-Ulloa , A. Skuladottir , G. Kordopatis , L. Berni , T. Matsuno , G. Casali , V. Hill , F. Matteucci , G. Cescutti , F. Rizzuti , E. Spitoni",
+          "primary": "Solar and Stellar Astrophysics (astro-ph.SR)"
+        },
+        {
+          "id": "2611.07737",
+          "title": "FALCON (FERMI-ALMA Calibrator ObservatioN): Cross-matching ALMA Calibrators with Fermi-LAT Blazars",
+          "authors": "Kanako Narita , Yoshiyuki Inoue , Bunyo Hatsukade , Yasushi Fukazawa",
+          "primary": "High Energy Astrophysical Phenomena (astro-ph.HE)"
+        },
+        {
+          "id": "2611.07763",
+          "title": "GALI Localization of Off-Grid GRB Directions: A Comparison of Rectangular and Triangular Calibration Meshes",
+          "authors": "Julia Saleh-Natur , Ehud Behar , Omer Reich , Shlomit Tarem , Zvika Tarem , Alex Vdovin , Amir Feigenboim , Roey Evental , Solomon Margolin",
+          "primary": "Instrumentation and Methods for Astrophysics (astro-ph.IM)"
+        },
+        {
+          "id": "2611.07782",
+          "title": "Multi-epoch monitoring of the faint northern component in 3C 84 during 2016-2021",
+          "authors": "Kotaro Niinuma , Motoki Kino , Nozomu Kawakatsu , Hiroshi Nagai , Gabriele Giovannini , Filippo D'Ammando , Monica Orienti , Kazuhiro Hada , Kiyoaki Wajima , Marcello Giroletti",
+          "primary": "High Energy Astrophysical Phenomena (astro-ph.HE)"
+        },
+        {
+          "id": "2611.07794",
+          "title": "Comment on the recent claims of H0 measurements with the ZTF DR2 SN Ia sample (arXiv:2610.36051)",
+          "authors": "Mickael Rigault , Brodie Popovic , Ariel Goobar , Suhail Dhawan , Marie Aubert , Marc Betoule , Umut Burgaz , Georgios Dimitriadis , Lluís Galbany , Tomás E. Müller Bravo , Antoine Gilles Lordet , Madeleine Ginolin , Young-Lo Kim , Marek Kowalski , Jakob Nordin , Nicolas Regnault , Mathew Smith , Jesper Sollerman , Jacco H. Terwel , Alice Townsend",
+          "primary": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)"
+        },
+        {
+          "id": "2611.07804",
+          "title": "Cepheid Metallicity in the Leavitt Law (C-MetaLL) survey: X First spectroscopic characterization of Galactic Type II Cepheids and calibration of the Period-Wesenheit-Metallicity relations",
+          "authors": "T. Sicignano , M. Romaniello , A. Bhardwaj , V. Ripepi , M. Rejkuba , M. Marconi , E. Trentin , G. Catanzaro , G. De Somma , R. Molinaro , S. Das , I. Musella , L. Salmeri , P. Nishad , S. Kar , S. Leccia",
+          "primary": "Solar and Stellar Astrophysics (astro-ph.SR)"
+        },
+        {
+          "id": "2611.07824",
+          "title": "GradFlex: a Gradient-Based Method for Weak Lensing Flexion Measurement",
+          "authors": "Jiarui Sun , Jun Zhang , Toshifumi Futamase",
+          "primary": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)"
+        },
+        {
+          "id": "2611.07832",
+          "title": "Design and Commissioning of the BURSTT-256 Main Antenna Array for the Fast Radio Burst Survey in the Local Universe",
+          "authors": "Shih-Hao Wang , Kai-Yang Lin , Chao-Te Li , Chau-Ching Chiong , Jen-Chieh Cheng , Chung-Cheng Chen , Hsien-Chun Tseng , Shu-Hao Chang , Pai-An Chen , Ta-Shun Wei , Chin-Ting Ho , Vigo Feng-Shun Wu , Yu-Chieh Huang , Sujin Eie , Yao-Huan Tseng , Ue-Li Pen , Chih-Yi Wen , Homin Jiang , Andrew Wang , Bishnu Kumar Sharma , Tzu-Hong Chen Lin , Yuan-Wei Hu , Shih-Wen Chung , Chen-Hui Peng , Ming-Tang Chen , Pisin Chen , Jiwoo Nam , Tomotsugu Goto , Tetsuya Hashimoto , Chin-Ping Hu , Yuan-Chang Hou , Daniel Baker , Michael Chiang , Somnath Dutta , Sun-Kun King , Hiroto Masaoka , Chung-Yun Kuo , Che-Wei Pai , Decmend Fang-Jie Ling",
+          "primary": "Instrumentation and Methods for Astrophysics (astro-ph.IM)"
+        },
+        {
+          "id": "2611.07839",
+          "title": "Multi-layer magnetic structure toward NGC 1333 revealed by a square-degree optical polarimetric survey",
+          "authors": "G. A. P. Franco , J. M. Girart , F. O. Alves",
+          "primary": "Astrophysics of Galaxies (astro-ph.GA)"
+        },
+        {
+          "id": "2611.07910",
+          "title": "Inertial sub-range detection and characterization for ground-layer turbulence at new extremely large telescope sites in Chile",
+          "authors": "Marco Sepúlveda , Darío G. Pérez",
+          "primary": "Instrumentation and Methods for Astrophysics (astro-ph.IM)"
+        },
+        {
+          "id": "2611.07936",
+          "title": "Survey of Surveys Data Release 3. Homogenised stellar parameters across nine spectroscopic surveys",
+          "authors": "A. Avdeeva , E. Pancino , A. Turchi , P. M. Marrese , S. Marinoni , G. Fanari , D. Alvarez Garay , M. Echeveste , E. Leitinger , S. Nedhath , S. Rani , E. Reggiani , N. Sanna , S. Saracino , L. Steinbauer",
+          "primary": "Solar and Stellar Astrophysics (astro-ph.SR)"
+        },
+        {
+          "id": "2611.07986",
+          "title": "Mass loss in AF supergiants: At the verge of the Eddington limit and still with weak line-driven winds",
+          "authors": "Jiri Krticka , Jiri Kubat",
+          "primary": "Solar and Stellar Astrophysics (astro-ph.SR)"
+        },
+        {
+          "id": "2611.08008",
+          "title": "Multi-Probe Cosmological Constraints on Clustering DBI Dark Energy Scenario",
+          "authors": "Samit Ganguly , Surhud More , Goutam Manna , Kazuharu Bamba , Eduardo Guendelman , Abhijit Bhattacharyya",
+          "primary": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)"
+        },
+        {
+          "id": "2611.08028",
+          "title": "The infrared unmodulated pyramid wavefront sensor: simulations, lab and on sky",
+          "authors": "Muskan Shinde , Nicolas Blind , Isaac Dinis , Sylvain Cetre , Angelie Alagao , Francisco Oyarzun , Romain Fétick , Matteo Pasinetti , Nathanaël Restori , Christophe Lovis , Vincent Chambouleyron , Benoît Neichel , Jean-François Sauvage , Thierry Fusco , François Huppert , Marc Ferrari",
+          "primary": "Instrumentation and Methods for Astrophysics (astro-ph.IM)"
+        },
+        {
+          "id": "2611.08041",
+          "title": "Results from a Stellar Occultation by (623) Chimaera",
+          "authors": "Phillip Oakey , Keya Garg , Andrey Moore , Altony Foote , Michael F. Skrutskie , Anne J. Verbiscer , Matthew Nelson , Marc W. Buie , Diego Gomez , Lauren Daszynski , Charlie Dorsey , Roger Venable , Vadim Nikitin , Joan Dunham , David Dunham , Nadara Hudson , Colin Surovell , Norman Carlson , Georgia Clickner , James Beck , Mark Chernov , Tristan Howdyshell , Paul D. Maley , Ted Barnes , John DiPasquale , Casey York , Ted Blank , Henk de Groot",
+          "primary": "Earth and Planetary Astrophysics (astro-ph.EP)"
+        },
+        {
+          "id": "2611.08112",
+          "title": "Photometric eclipse-center variations over the long cycles of Magellanic double-periodic variables",
+          "authors": "Ronald Mennickent",
+          "primary": "Solar and Stellar Astrophysics (astro-ph.SR)"
+        },
+        {
+          "id": "2611.08115",
+          "title": "Octavius: A High-Performance Analysis Toolkit for Galaxy Simulations",
+          "authors": "Jean-Paul Duminy , Jakub Szpila , Romeel Davé",
+          "primary": "Astrophysics of Galaxies (astro-ph.GA)"
+        },
+        {
+          "id": "2611.08181",
+          "title": "G92.4+5.0: A Perseus Arm superbubble associated with the H II region CTB 102",
+          "authors": "Rebecca A. Booth , Jo-Anne Brown , Tom Landecker , Roland Kothes , Tyler Foster , Anna Ordog , Alex Schwaner Hill",
+          "primary": "Astrophysics of Galaxies (astro-ph.GA)"
+        },
+        {
+          "id": "2611.08195",
+          "title": "Source Imaging of the Multiple Type-II Solar Radio Bursts and their Multiple CME-Shock Signatures in the Corona",
+          "authors": "V. Vasanth",
+          "primary": "Solar and Stellar Astrophysics (astro-ph.SR)"
+        },
+        {
+          "id": "2611.08197",
+          "title": "Rotational Excitation of HC$_5$NH$^+$ by He: Collision Dynamics and Astrophysical Applications",
+          "authors": "Ziyu Xiang , Liman Tian , Tong Sun , Chuangang Ning , Xiaolin Chen",
+          "primary": "Astrophysics of Galaxies (astro-ph.GA)"
+        },
+        {
+          "id": "2611.08223",
+          "title": "The box within the Universe: anisotropies in periodic cosmological simulations I. Dark-matter-only simulations",
+          "authors": "Gábor Rácz , Till Sawala",
+          "primary": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)"
+        },
+        {
+          "id": "2611.08267",
+          "title": "The slower rotation of planet-hosting stars revisited",
+          "authors": "Avraham Binnenfeld , Amitay Sussholz , Simchon Faigler , Tsevi Mazeh",
+          "primary": "Solar and Stellar Astrophysics (astro-ph.SR)"
+        },
+        {
+          "id": "2611.08282",
+          "title": "Mitigating scanning-induced systematics in Hipparcos and implications for Gaia astrometry",
+          "authors": "Avraham Binnenfeld , Sahar Shahaf , Richard I. Anderson , Hans-Walter Rix , Shay Zucker",
+          "primary": "Instrumentation and Methods for Astrophysics (astro-ph.IM)"
+        },
+        {
+          "id": "2611.08300",
+          "title": "Polarization cross-talk from non-stationary sources of image jitter",
+          "authors": "R. Casini , A. G. de Wijn",
+          "primary": "Instrumentation and Methods for Astrophysics (astro-ph.IM)"
+        },
+        {
+          "id": "2611.08332",
+          "title": "The complex periodic variability of PKS 0301-243: hints of a supermassive black hole binary candidate",
+          "authors": "Jintong Wang , Yunguo Jiang , Shifeng Huang",
+          "primary": "High Energy Astrophysical Phenomena (astro-ph.HE)"
+        },
+        {
+          "id": "2611.08336",
+          "title": "SDSS-V LVM: Spatial Resolution Effects on Diagnostic Diagrams in the Magellanic Clouds",
+          "authors": "A. Z. Lugo-Aranda , Lesly C. Castañeda , H. J. Ibarra-Medel , C. Román-Zúñiga , J. E. Méndez-Delgado , Sebastián F. Sánchez , Rodolfo de J. Zermeño , Mónica A. Villa-Durango , Irene Cruz-González , Aida Wofford , Oskar Aranguré , G. A. Blanc , Priyanka Chakraborty , Evgeniya Egorova , Oleg V. Egorov , Thomas Hilder , Evelyn J. Johnston , Amy M. Jones , P. Jiménez-Hernández , K. Kreckel , Alfredo J. Mejía-Narváez , Christophe Morisset , Rogelio Orozco-Duarte , Alexandre Roman-Lopes , José G. Fernández-Trincado",
+          "primary": "Astrophysics of Galaxies (astro-ph.GA)"
+        },
+        {
+          "id": "2611.08346",
+          "title": "The cold substellar frontier in JWST Extragalactic surveys: a robust parallax measurement yields the most distant known ultra-cold Y dwarf",
+          "authors": "Feng-Yuan Frey Liu , Derek J. McLeod , Xueqing Chen , Ben J. Sutlieff , Ho-Hin Leung , Clémence Fontanive , James S. Dunlop , Ross J. McLure , Trent J. Dupuy , Adam C. Carnall , Thomas M. Stanton , Beth A. Biller , Isaac J. B. Holst , Callum T. Donnan , Ryan Begley",
+          "primary": "Solar and Stellar Astrophysics (astro-ph.SR)"
+        },
+        {
+          "id": "2611.08410",
+          "title": "Tensor Networks for Block Adaptive Thermal Radiation Transport",
+          "authors": "Alex A. Gorodetsky , Patrick D. Mullen , Aditya S. Deshpande , Joshua C. Dolence , Chad D. Meyer , Jonah M. Miller , Luke F. Roberts",
+          "primary": "Instrumentation and Methods for Astrophysics (astro-ph.IM)"
+        },
+        {
+          "id": "2611.08481",
+          "title": "Joint analysis of the Macquart relation and the dispersion measure power spectrum: cross-covariance and redshift self-calibration",
+          "authors": "Amy Wayland , Robert Reischke",
+          "primary": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)"
+        },
+        {
+          "id": "2611.08484",
+          "title": "Evolution of Dust In Protoplanetary Disks With Magnetized Winds",
+          "authors": "Olcay Goksu , Ralph Pudritz , Timmy Delage",
+          "primary": "Earth and Planetary Astrophysics (astro-ph.EP)"
+        },
+        {
+          "id": "2611.08489",
+          "title": "BeAR: The Bern Atmospheric Retrieval code - A GPU-accelerated framework for low-resolution, high-resolution, and joint retrievals of exoplanet atmospheres",
+          "authors": "Esther Wang , Daniel Kitzmann , H. Jens Hoeijmakers , Joost P. Wardenier , Helena Lecoq-Molinos",
+          "primary": "Earth and Planetary Astrophysics (astro-ph.EP)"
+        }
+      ]
+    },
+    "hep-ph": {
+      "source": "https://arxiv.org/catchup/hep-ph/2026-11-06?abs=True",
+      "sha256": "599e785ef444546e53d31f56c737cdbd2d1ee4497cdc6ae4019e662aa8e7bea5",
+      "new_primary": [
+        {
+          "id": "2611.07005",
+          "title": "To Infinity and Beyond: Maximizing Entanglement and Emergent Symmetries in $N$ Higgs Doublet Models",
+          "authors": "Spencer Chang , Gabriel Jacobo",
+          "primary": "High Energy Physics - Phenomenology (hep-ph)"
+        },
+        {
+          "id": "2611.07008",
+          "title": "Probing Dark Matter-Electron Scattering with the Central Molecular Zone",
+          "authors": "Thong T.Q. Nguyen , Shyam Balaji , Carlos Blanco , Pedro De la Torre Luque",
+          "primary": "High Energy Physics - Phenomenology (hep-ph)"
+        },
+        {
+          "id": "2611.07031",
+          "title": "Constraining $U(1)_{L_μ-L_τ}$ Model with Dark Matter Using Relic Density and $N_{\\rm eff}$ Bounds",
+          "authors": "Shivam Gola",
+          "primary": "High Energy Physics - Phenomenology (hep-ph)"
+        },
+        {
+          "id": "2611.07056",
+          "title": "Searches for electroweak singlets at future plasma wakefield colliders",
+          "authors": "So Chigusa , Simon Knapen , Toby Opferkuch , Inbar Savoray , Christiane Scherb , Weishuang Linda Xu",
+          "primary": "High Energy Physics - Phenomenology (hep-ph)"
+        },
+        {
+          "id": "2611.07067",
+          "title": "QED corrections to $e^+e^-\\toπ^+π^-(γ)$ with amplitude-level resummation",
+          "authors": "Stéphane Delorme , Charles Earnshaw , Frank Krauss , Alan Price , Nora Salone , Andrzej Siódmok",
+          "primary": "High Energy Physics - Phenomenology (hep-ph)"
+        },
+        {
+          "id": "2611.07136",
+          "title": "Stars Within Stars: The Interplay Between Main-Sequence Stars and Dark Matter",
+          "authors": "Boris Betancourt Kamenetskaia , Chris Kouvaris",
+          "primary": "High Energy Physics - Phenomenology (hep-ph)"
+        },
+        {
+          "id": "2611.07195",
+          "title": "Nuclear Atomic Dark Matter",
+          "authors": "Pouya Asadi , Zackaria Chacko , David Curtin , Micah Mellors , Ethan T. Neil",
+          "primary": "High Energy Physics - Phenomenology (hep-ph)"
+        },
+        {
+          "id": "2611.07281",
+          "title": "Testing the Pseudo-Dirac Nature of Atmospheric Neutrinos",
+          "authors": "Olivia M. Bitter , André de Gouvêa , Srubabati Goswami , Supriya Pan",
+          "primary": "High Energy Physics - Phenomenology (hep-ph)"
+        },
+        {
+          "id": "2611.07317",
+          "title": "Constraining the parameter space of a singlet down-type vector-like quark",
+          "authors": "Mohammad Ahmady , Maryam Bibi , Ruben Sandapen",
+          "primary": "High Energy Physics - Phenomenology (hep-ph)"
+        },
+        {
+          "id": "2611.07366",
+          "title": "A framework for matrix-element-corrected QED antenna showers in hadron decays",
+          "authors": "F. Abudinén , G. Morgante , P. Skands",
+          "primary": "High Energy Physics - Phenomenology (hep-ph)"
+        },
+        {
+          "id": "2611.07385",
+          "title": "Natural Dark Matter in Generalized No-scale $\\mathcal{F}$-$SU(5)$ at the HL-LHC and LUX-ZEPLIN Experiment",
+          "authors": "Tianjun Li , James A. Maxin , Dimitri V. Nanopoulos",
+          "primary": "High Energy Physics - Phenomenology (hep-ph)"
+        },
+        {
+          "id": "2611.07416",
+          "title": "Enhancing Gravitational Waves from Global Strings via a First-Order Phase Transition",
+          "authors": "Yongtao Jia , Ligong Bian , Huai-Ke Guo",
+          "primary": "High Energy Physics - Phenomenology (hep-ph)"
+        },
+        {
+          "id": "2611.07465",
+          "title": "Optimal-Transport Contrastive Learning for Centrality Determination in Heavy-Ion Collisions",
+          "authors": "Shu-Yun Yang , Yu Zhang",
+          "primary": "High Energy Physics - Phenomenology (hep-ph)"
+        },
+        {
+          "id": "2611.07509",
+          "title": "Scale-Invariant Three-Component Dark Matter and Gravitational Wave Signals",
+          "authors": "Mojtaba Hosseini , Rouzbeh Rouzbehi",
+          "primary": "High Energy Physics - Phenomenology (hep-ph)"
+        },
+        {
+          "id": "2611.07518",
+          "title": "Power corrections to heavy-quark spin correlations in small-$x$ deep-inelastic scattering",
+          "authors": "Meisen Gao",
+          "primary": "High Energy Physics - Phenomenology (hep-ph)"
+        },
+        {
+          "id": "2611.07578",
+          "title": "Can cosmic neutrinos induce a cosmic birefringence signal?",
+          "authors": "Mario Reig",
+          "primary": "High Energy Physics - Phenomenology (hep-ph)"
+        },
+        {
+          "id": "2611.07826",
+          "title": "Estimating Spectrum-Free Information Bounds for Generative Surrogates Beyond Conditional Collapse",
+          "authors": "Chaitanya Dumbre , Sourabh Dube",
+          "primary": "High Energy Physics - Phenomenology (hep-ph)"
+        },
+        {
+          "id": "2611.07838",
+          "title": "Phenomenological investigation of order statistics for multi-jet events",
+          "authors": "S. Cerci , G. Chachamis , A. Sabio Vera , Z. S. Demiroglu , D. Sunar Cerci , D. Vaccaro",
+          "primary": "High Energy Physics - Phenomenology (hep-ph)"
+        },
+        {
+          "id": "2611.07842",
+          "title": "The Colour Glass Condensate",
+          "authors": "Edmond Iancu",
+          "primary": "High Energy Physics - Phenomenology (hep-ph)"
+        },
+        {
+          "id": "2611.07852",
+          "title": "Long lived MeV scale bound state dark matter alleviates the ${}^7 Li$ tension",
+          "authors": "Pa. Gokhula Prasad , V. Suryanarayana Mummidi",
+          "primary": "High Energy Physics - Phenomenology (hep-ph)"
+        },
+        {
+          "id": "2611.07869",
+          "title": "Generalized parton distributions of the nucleon in the chiral quark soliton model II: Chiral anomaly mediation in the polarized GPDs",
+          "authors": "Josuke Minamiguchi , Tomoya Uji",
+          "primary": "High Energy Physics - Phenomenology (hep-ph)"
+        },
+        {
+          "id": "2611.07877",
+          "title": "Can Two-Point Correlations Determine Gravitational Waves from Sound Waves?",
+          "authors": "Guangshang Chen , Jianpeng Dai , Yang Xiao",
+          "primary": "High Energy Physics - Phenomenology (hep-ph)"
+        },
+        {
+          "id": "2611.08183",
+          "title": "Investigating bottom quark effects in Higgs boson pair production",
+          "authors": "David Bürg , Gudrun Heinrich , Philipp Rendler",
+          "primary": "High Energy Physics - Phenomenology (hep-ph)"
+        },
+        {
+          "id": "2611.08187",
+          "title": "Light Primordial Black Holes from a First-Order Phase Transition near the End of Inflation: Baryogenesis and Gravitational Wave Signatures",
+          "authors": "Zihong Cheng , Fa Peng Huang",
+          "primary": "High Energy Physics - Phenomenology (hep-ph)"
+        },
+        {
+          "id": "2611.08204",
+          "title": "Quantum Fourier integration of decay rates at next-to-leading order",
+          "authors": "David F. Rentería-Estrada",
+          "primary": "High Energy Physics - Phenomenology (hep-ph)"
+        },
+        {
+          "id": "2611.08221",
+          "title": "DIS-secting the universe with high-energy neutrinos",
+          "authors": "Rhorry Gauld , Lorenzo Guerra , Ulrich Haisch , Alessio Vorona",
+          "primary": "High Energy Physics - Phenomenology (hep-ph)"
+        },
+        {
+          "id": "2611.08272",
+          "title": "Analytic parametrisations of the scale dependence of proton parton distributions",
+          "authors": "David F. Rentería-Estrada",
+          "primary": "High Energy Physics - Phenomenology (hep-ph)"
+        },
+        {
+          "id": "2611.08279",
+          "title": "Has Quarkyonic Matter Been Seen in Lattice Simulations?",
+          "authors": "Kohei Fujikura , Kenji Fukushima , Yoshimasa Hidaka , Etsuko Itou , Larry McLerran",
+          "primary": "High Energy Physics - Phenomenology (hep-ph)"
+        },
+        {
+          "id": "2611.08387",
+          "title": "Algorithmic Construction of Vector-Valued Modular Forms and Application to an $A_4\\times\\mathbb{Z}_4$-invariant Model of Leptons",
+          "authors": "Q. Bonnefoy , M. Rausch de Traubenberg , V. Saulquin",
+          "primary": "High Energy Physics - Phenomenology (hep-ph)"
+        },
+        {
+          "id": "2611.08388",
+          "title": "Top-Quark Pair Production and Decay in Extended Higgs Sectors",
+          "authors": "Andrea Banfi , Alexander Lind , Jonas M. Lindert , Vishakha Lingadahally",
+          "primary": "High Energy Physics - Phenomenology (hep-ph)"
+        },
+        {
+          "id": "2611.08440",
+          "title": "Signatures of Neutrinophilic Pion Dark Matter",
+          "authors": "Claire Chevallier , Ji-Heng Guo , Giacomo Landini",
+          "primary": "High Energy Physics - Phenomenology (hep-ph)"
+        },
+        {
+          "id": "2611.08459",
+          "title": "Testing the Spin of New Physics with Top Precision Measurements",
+          "authors": "André Lessa , Vinícius Rocca , Veronica Sanz",
+          "primary": "High Energy Physics - Phenomenology (hep-ph)"
+        },
+        {
+          "id": "2611.08463",
+          "title": "Joint Bayesian Inference for Extraction of Charmonium Long Distance Matrix Elements Using PYTHIA",
+          "authors": "Yubo Liu , Rongrong Ma",
+          "primary": "High Energy Physics - Phenomenology (hep-ph)"
+        }
+      ]
+    },
+    "hep-ex": {
+      "source": "https://arxiv.org/catchup/hep-ex/2026-11-06?abs=True",
+      "sha256": "0111d73e724a1c6c00b6faa7dcd86c387a980ffb7d0ea97f689ea51e87f694d0",
+      "new_primary": [
+        {
+          "id": "2611.07086",
+          "title": "Amplitude Analysis of the Invariant-Mass Spectra of Centrally Exclusively Produced $π^+π^-$ and $K^+K^-$ Pairs in $pp$ Collisions at $\\sqrt{s}=510$ GeV",
+          "authors": "Aranya Giri , Barak Schmookler , Rene Bellwied",
+          "primary": "High Energy Physics - Experiment (hep-ex)"
+        },
+        {
+          "id": "2611.07426",
+          "title": "First broadband search for fixed-polarization dark photon dark matter with GigaBREAD",
+          "authors": "Jialin Yu , Stefan Knirck , Gabe Hoshino , Rakshya Khatiwada , Alex Lapuente , David W. Miller , Andrew Sonnenschein",
+          "primary": "High Energy Physics - Experiment (hep-ex)"
+        },
+        {
+          "id": "2611.07806",
+          "title": "Search for dark matter axions at 1-2 micro-eV with a RADES-DarkQuantum haloscope at CERN",
+          "authors": "Alberto Arcusa Puente , Sergio Arguedas Cuendis , Marcos Buetas Mata , Sergio Calatroni , Cristian Cogollos , Alejandro Díaz-Morcillo , Babette Döbrich , Jacob Egge , Elisa Gabbrielli , Javier Galindo Guarch , Jose María García-Barceló , Benito Gimeno , Yikun Gu , Sophia Hollick , Igor Garcia Irastorza , David Kittlinger , Adrian Lambies-Asensio , Axel Lindner , Manuel Meyer , Adrián Muñoz-Urán , Jose R. Navarro-Madrid , Tobias Ortmann , Sagar Paul , Angel Rodriguez , Kristof Schmieden , Laura Segui , Wolfgang Wernsdorfer , Mina Yami",
+          "primary": "High Energy Physics - Experiment (hep-ex)"
+        },
+        {
+          "id": "2611.07819",
+          "title": "Data-quality monitoring of luminosity blocks with ATLAS Open Data: an open benchmark and a learned within-run detector",
+          "authors": "Renjie Wang",
+          "primary": "High Energy Physics - Experiment (hep-ex)"
+        },
+        {
+          "id": "2611.08150",
+          "title": "Commissioning and Performance of the LHCb Upstream Tracker",
+          "authors": "D. Andreou , M. Artuso , J. Bartz , B. Batsukh , A. Beiter , H. Bernstein , S. Blusk , S. Ding , S. Ely , J. Freiler , D. Germann , S. Guerin , B. Khanji , W. Krupa , A. Kuhlman , Z. Li , X. Liang , B. Mack , L.M. Mackey , P. Manning , E. Minucci , R. Mountain , H. Pham , I. Polyakov , M. Polyakov , M.S. Rudolph , R.S. Sharma , J. Shupperd , T. Skwarnicki , S. Stone , A. Venkateswaran , M.K. Wilkinson , H. Wu , J. Andrew , S. Braun , A.D. Fernez , M. Franco Sevilla , C. Hadjivasiliou , P.M. Hamilton , A. Jawahery , E. Jiang , L. Meyer Garcia , T. O'Bannon , W. Parker , Y. Sun , J. Wimberly , Z. Yang , A. Alessandro , A. Capsoni , A. Carbone , S. Cesare , M. Citterio , S. Coelli , N. Conti , F. DeBenedetti , P. Gandini , C. Mancuso , D. Marangotto , A. Merli , M. Monti , N. Neri , M. Petruzzo , E. Spadaro Norella , G. Tonani , D. Vigano , Z. Wang , F. Zangari , I. Carli , M. Feng , Y. Fu , P. Gorbounov , N.A. Grieser , X. Jiang , Y. Li , Y. Li , K. Liu , S. Liu , Y. Lu , S. Sheng , M. Tobin , J. Wang , X. Yuan , Y. Yuan , Q. Zou , M. Firlej , T. Fiutowski , M. Hubczak , M. Idzik , J. Moron , K.M. Sowa , K. Swientek , T. Szumlak , C. Abellan Beteta , V. Bellée , I. Bezshyiko , V. Denysenko , G. Hijano Mendizabal , M. Peco Regales , N. Serra , O. Steinkamp",
+          "primary": "High Energy Physics - Experiment (hep-ex)"
+        },
+        {
+          "id": "2611.08194",
+          "title": "Development and performance of a transformer-based lepton isolation algorithm with the ATLAS experiment",
+          "authors": "ATLAS Collaboration",
+          "primary": "High Energy Physics - Experiment (hep-ex)"
+        },
+        {
+          "id": "2611.08241",
+          "title": "Search for Higgs boson production in association with another Higgs or an exotic scalar boson in the $b\\bar{b}W^{+}W^{-}$ single lepton final state at $\\sqrt{s}=13$ TeV with the ATLAS experiment",
+          "authors": "ATLAS Collaboration",
+          "primary": "High Energy Physics - Experiment (hep-ex)"
+        }
+      ]
+    },
+    "hep-th": {
+      "source": "https://arxiv.org/catchup/hep-th/2026-11-06?abs=True",
+      "sha256": "9d1ae48259267f39980705b3d0946e4e1e499d65d557ae216c5dfbcab003eed6",
+      "new_primary": [
+        {
+          "id": "2611.06999",
+          "title": "Matrix Theory from Holography II: Beyond Counting",
+          "authors": "Shota Komatsu , Eunwoo Lee , Chintan Patel",
+          "primary": "High Energy Physics - Theory (hep-th)"
+        },
+        {
+          "id": "2611.07000",
+          "title": "Multipartite Entanglement, TQFT Partition Functions and PL Bordism",
+          "authors": "Michele Del Zotto , Abhijit Gadde , Pavel Putrov",
+          "primary": "High Energy Physics - Theory (hep-th)"
+        },
+        {
+          "id": "2611.07001",
+          "title": "Fermion$\\text{-}$Monopole Scattering: A Unified Perspective",
+          "authors": "Hao Geng , Zekai Wang",
+          "primary": "High Energy Physics - Theory (hep-th)"
+        },
+        {
+          "id": "2611.07002",
+          "title": "Asymptotic safety is not generic",
+          "authors": "Francesco Del Porro , Francesco Ferrarin , Alessia Platania",
+          "primary": "High Energy Physics - Theory (hep-th)"
+        },
+        {
+          "id": "2611.07004",
+          "title": "Conformal Bootstrap Unblocked",
+          "authors": "Li-Yuan Chiang , David Poland",
+          "primary": "High Energy Physics - Theory (hep-th)"
+        },
+        {
+          "id": "2611.07010",
+          "title": "On Entanglement Dynamics in Holographic Theories",
+          "authors": "Hanzhi Jiang",
+          "primary": "High Energy Physics - Theory (hep-th)"
+        },
+        {
+          "id": "2611.07011",
+          "title": "Constraining the spectral gap of 2d CFTs just above c=1",
+          "authors": "Nathan Benjamin , Kevin Langhoff , Wei Li , Jesse Thaler",
+          "primary": "High Energy Physics - Theory (hep-th)"
+        },
+        {
+          "id": "2611.07012",
+          "title": "Chern-Simons Interfaces and Minimal Models from Quantum Groups",
+          "authors": "Suriyah Rajalingam Kannagi , Sergio Sanjurjo",
+          "primary": "High Energy Physics - Theory (hep-th)"
+        },
+        {
+          "id": "2611.07015",
+          "title": "Constraint Variance Identity and the Matter-Geometry Fluctuation Relation",
+          "authors": "Yuki Yokokura",
+          "primary": "High Energy Physics - Theory (hep-th)"
+        },
+        {
+          "id": "2611.07016",
+          "title": "Running Couplings in CP Violating Abelian Theories",
+          "authors": "Joshua Newey , John Terning , Christopher B. Verhaaren",
+          "primary": "High Energy Physics - Theory (hep-th)"
+        },
+        {
+          "id": "2611.07019",
+          "title": "Charged AdS$_{3}$ black branes as marginally deformed two-dimensional CFTs",
+          "authors": "Suting Zhao , Gabriel Arenas-Henriquez , Yizhou Lu , Hamed Adami , René Meyer",
+          "primary": "High Energy Physics - Theory (hep-th)"
+        },
+        {
+          "id": "2611.07026",
+          "title": "Finite is not enough: Triviality bounds in nonlocal field theories",
+          "authors": "Fabian Wagner",
+          "primary": "High Energy Physics - Theory (hep-th)"
+        },
+        {
+          "id": "2611.07057",
+          "title": "Minimal massive completions of partially broken higher-spin models",
+          "authors": "E. L. Mendonça , M. I. C. Maués",
+          "primary": "High Energy Physics - Theory (hep-th)"
+        },
+        {
+          "id": "2611.07178",
+          "title": "On a Dual Heterotic Kodaira-Spencer Theory",
+          "authors": "Siddhartha Mangamuri , Eirik Eik Svanes , Anuthi Tiwary",
+          "primary": "High Energy Physics - Theory (hep-th)"
+        },
+        {
+          "id": "2611.07180",
+          "title": "In light of the Henneaux-Teitelboim action",
+          "authors": "Andreas Gustavsson",
+          "primary": "High Energy Physics - Theory (hep-th)"
+        },
+        {
+          "id": "2611.07186",
+          "title": "Instantons from geometry in M2-brane sphere partition functions",
+          "authors": "Kiril Hristov , Ali Mert Yetkin",
+          "primary": "High Energy Physics - Theory (hep-th)"
+        },
+        {
+          "id": "2611.07312",
+          "title": "Background Effects on Thermal Free Energy in Conformal Field Theories",
+          "authors": "Shuichi Yokoyama , Ibuki Yoshida , Hiroki Yunoto",
+          "primary": "High Energy Physics - Theory (hep-th)"
+        },
+        {
+          "id": "2611.07376",
+          "title": "Non-symmetric integral geometry: alternative reconstruction procedure with dual Radon transform",
+          "authors": "I.V. Anikin",
+          "primary": "High Energy Physics - Theory (hep-th)"
+        },
+        {
+          "id": "2611.07389",
+          "title": "Improved method for extracting low-energy expansion from OPE in mass-gapped theories",
+          "authors": "Hajime Furuta , Yukinari Sumino",
+          "primary": "High Energy Physics - Theory (hep-th)"
+        },
+        {
+          "id": "2611.07394",
+          "title": "$1/N$ corrections to $\\langle TJJ\\rangle$ and $\\langle TTT\\rangle$ in the critical $O(N)$ vector and Gross--Neveu--Yukawa models",
+          "authors": "Yongwei Guo , Zhijin Li",
+          "primary": "High Energy Physics - Theory (hep-th)"
+        },
+        {
+          "id": "2611.07455",
+          "title": "Worldsheet skeins and block decomposition of quivers",
+          "authors": "Sachin Chauhan , Piotr Kucharski , Lukas Nakamura , Dmitry Noshchenko , Ramadevi Pichai , Vivek Kumar Singh , Marko Stošić",
+          "primary": "High Energy Physics - Theory (hep-th)"
+        },
+        {
+          "id": "2611.07547",
+          "title": "The logarithm construction and (super) Weyl anomalies",
+          "authors": "Sergei M. Kuzenko",
+          "primary": "High Energy Physics - Theory (hep-th)"
+        },
+        {
+          "id": "2611.07557",
+          "title": "ADE Quiver Duality Proposals: Graph Classification and Nodewise Realizations",
+          "authors": "Yuanyuan Fang",
+          "primary": "High Energy Physics - Theory (hep-th)"
+        },
+        {
+          "id": "2611.07635",
+          "title": "Quantum action for heterotic string field theory with quantum L-infinity structure",
+          "authors": "Yasu Gen , Hiroshi Kunitomo , Jojiro Totsuka",
+          "primary": "High Energy Physics - Theory (hep-th)"
+        },
+        {
+          "id": "2611.07637",
+          "title": "Topological Characterization of Adinkra Heights",
+          "authors": "Amanda E. Francis , S. James Gates Jr. , Digvijay Roy Varier , Ursula A. Whitcher",
+          "primary": "High Energy Physics - Theory (hep-th)"
+        },
+        {
+          "id": "2611.07897",
+          "title": "The Mass Gap Approach to QCD. III. Solution of the gluon confinement problem",
+          "authors": "Vakhtang Gogokhia , Gergely Gábor Barnaföldi",
+          "primary": "High Energy Physics - Theory (hep-th)"
+        },
+        {
+          "id": "2611.08102",
+          "title": "Accessing Fractional Wilson Lines from U(1) Monodromy Defects on the Fuzzy Sphere",
+          "authors": "Yin Tang , W. Zhu",
+          "primary": "High Energy Physics - Theory (hep-th)"
+        },
+        {
+          "id": "2611.08164",
+          "title": "Pohlmeyer reduction of Newton-Cartan strings",
+          "authors": "Aritra Banerjee",
+          "primary": "High Energy Physics - Theory (hep-th)"
+        },
+        {
+          "id": "2611.08471",
+          "title": "The three-dimensional Galilean black hole",
+          "authors": "Luis Avilés , Oscar Fuentealba , Diego Hidalgo , Pablo Rodríguez",
+          "primary": "High Energy Physics - Theory (hep-th)"
+        },
+        {
+          "id": "2611.08476",
+          "title": "Defect Anomalies at a Distance",
+          "authors": "Oleksandr Diatlyk , Zimo Sun , Yifan Wang",
+          "primary": "High Energy Physics - Theory (hep-th)"
+        }
+      ]
+    },
+    "gr-qc": {
+      "source": "https://arxiv.org/catchup/gr-qc/2026-11-06?abs=True",
+      "sha256": "d05e32e776efda57444d2baa67c7a3a3b8c62a3118a151532a3e9ea731598b23",
+      "new_primary": [
+        {
+          "id": "2611.07007",
+          "title": "Critical collapse remains discretely self-similar at large D",
+          "authors": "Christian Ecker , Florian Ecker , Daniel Grumiller",
+          "primary": "General Relativity and Quantum Cosmology (gr-qc)"
+        },
+        {
+          "id": "2611.07023",
+          "title": "Analytic Marginalization Over Calibration Uncertainties in Gravitational Wave Inference and Application to Black Hole Ringdown",
+          "authors": "David Dzingeleski , Aaron Zimmerman",
+          "primary": "General Relativity and Quantum Cosmology (gr-qc)"
+        },
+        {
+          "id": "2611.07024",
+          "title": "Testing the Kerr hypothesis with orbital frequencies: lessons from spacelike singularities and black bounces",
+          "authors": "Hooman Neshat , Stefano Liberati",
+          "primary": "General Relativity and Quantum Cosmology (gr-qc)"
+        },
+        {
+          "id": "2611.07041",
+          "title": "Coherent detector responses to quantum-controlled spherical-shell geometries",
+          "authors": "Shoshauna Gauvin , Robert B. Mann",
+          "primary": "General Relativity and Quantum Cosmology (gr-qc)"
+        },
+        {
+          "id": "2611.07058",
+          "title": "Unruh-DeWitt detectors in a delocalized massive shell",
+          "authors": "Giovanna F. do Valle , Saadat Salman Shariff , Natália S. Möller , Nelson Yokomizo",
+          "primary": "General Relativity and Quantum Cosmology (gr-qc)"
+        },
+        {
+          "id": "2611.07146",
+          "title": "The Goldilocks Prior: Physically Consistent Inference of Neutron Star Properties from Gravitational Wave Observations",
+          "authors": "Sanika Khadkikar , B.S. Sathyaprakash",
+          "primary": "General Relativity and Quantum Cosmology (gr-qc)"
+        },
+        {
+          "id": "2611.07147",
+          "title": "Reanalysis of GW170817 and GW190425 under the Goldilocks Prior",
+          "authors": "Sanika Khadkikar , B. S. Sathyaprakash",
+          "primary": "General Relativity and Quantum Cosmology (gr-qc)"
+        },
+        {
+          "id": "2611.07183",
+          "title": "Noncommutative Kazakov-Solodukhin Gravastar",
+          "authors": "A. T. N. Silva , M. A. Anacleto , Ali Övgün , L. Casarini",
+          "primary": "General Relativity and Quantum Cosmology (gr-qc)"
+        },
+        {
+          "id": "2611.07193",
+          "title": "Scalar perturbations in two-scalar-field warm inflation",
+          "authors": "Orlando Luongo , Tommaso Mengoni , Paulo M. Sá",
+          "primary": "General Relativity and Quantum Cosmology (gr-qc)"
+        },
+        {
+          "id": "2611.07223",
+          "title": "A High Precision Transformer model for precessing binary black-hole merger waveforms calibrated to numerical relativity",
+          "authors": "Jameson Dong",
+          "primary": "General Relativity and Quantum Cosmology (gr-qc)"
+        },
+        {
+          "id": "2611.07288",
+          "title": "Self-interacting $p$-forms and the shear-free anisotropic cosmological model",
+          "authors": "Nicolas Hernandez (1,2), Ben D. Normann (3), Yeinzon Rodriguez (1,4) ((1) Universidad Industrial de Santander, (2) Centro de Investigacion Cientifica y de Educacion Superior de Ensenada, (3) Norwegian University of Science and Technology, (4) Universidad Antonio Narino)",
+          "primary": "General Relativity and Quantum Cosmology (gr-qc)"
+        },
+        {
+          "id": "2611.07341",
+          "title": "Tidal Love Numbers of Thin-Shell Wormholes, de Sitter Gravastars, and Anti-de Sitter Gravastars via Full Perturbed Junction Conditions",
+          "authors": "Gerui Chen , Yu Tian , Hongbao Zhang",
+          "primary": "General Relativity and Quantum Cosmology (gr-qc)"
+        },
+        {
+          "id": "2611.07418",
+          "title": "Dynamical and Cosmological Perspectives on Symmetric Teleparallel Gravity and its Extensions",
+          "authors": "Pooja Vishwakarma",
+          "primary": "General Relativity and Quantum Cosmology (gr-qc)"
+        },
+        {
+          "id": "2611.07447",
+          "title": "Demystifying Graviton Detection",
+          "authors": "Igor Pikovski",
+          "primary": "General Relativity and Quantum Cosmology (gr-qc)"
+        },
+        {
+          "id": "2611.07492",
+          "title": "Primordial non-Gaussianity in warm $k$-inflation with nonminimal derivative coupling",
+          "authors": "Xiao-Min Zhang , Zi-Xin Bai , Qing-Ze Shi , Run-Qing Zhao , Peng-Cheng Chu , Yun-Cai Feng",
+          "primary": "General Relativity and Quantum Cosmology (gr-qc)"
+        },
+        {
+          "id": "2611.07500",
+          "title": "Algebraic representation of General Relativity in harmonic gauge",
+          "authors": "Jaume de Haro",
+          "primary": "General Relativity and Quantum Cosmology (gr-qc)"
+        },
+        {
+          "id": "2611.07525",
+          "title": "Circular motion and fundamental frequencies of charged particles in dipole magnetic field around magnetized Bocharova--Bronnikov--Melnikov--Bekenstein black holes",
+          "authors": "Ozodbek Abdurakhmonov , Mardon Abdullaev , Javlon Rayimbaev , Ilkhomjon Makhmudov , Saidmuhammad Ahmedov , Muhammad Matyoqubov",
+          "primary": "General Relativity and Quantum Cosmology (gr-qc)"
+        },
+        {
+          "id": "2611.07544",
+          "title": "Can absorption enhance differences between black-hole images?",
+          "authors": "Tong Li , Jian-Yun Wan , Zi-Liang Wang",
+          "primary": "General Relativity and Quantum Cosmology (gr-qc)"
+        },
+        {
+          "id": "2611.07596",
+          "title": "Rational Orbits and Gravitational-Wave Signatures around a Horndeski Black Hole",
+          "authors": "Wei Gao , Xiaoyan Zhu , Wenbin Lin , Siming Liu",
+          "primary": "General Relativity and Quantum Cosmology (gr-qc)"
+        },
+        {
+          "id": "2611.07747",
+          "title": "Gravitational Thermodynamicization of Primordial Black Holes: An RVB Residue Formulation of Thermal Formation and Nonequilibrium Evolution",
+          "authors": "Wen-Xiang Chen",
+          "primary": "General Relativity and Quantum Cosmology (gr-qc)"
+        },
+        {
+          "id": "2611.07875",
+          "title": "An Orbital Curvature for ISCOs",
+          "authors": "Poulami Mukherjee , Chandrasekhar Bhamidipati , Sudipta Mukherji",
+          "primary": "General Relativity and Quantum Cosmology (gr-qc)"
+        },
+        {
+          "id": "2611.07957",
+          "title": "Can $n_s$ hint at a parity-odd sector of gravity?",
+          "authors": "Christian Dioguardi",
+          "primary": "General Relativity and Quantum Cosmology (gr-qc)"
+        },
+        {
+          "id": "2611.08145",
+          "title": "A Smoothly Truncated Dark Matter Spike around a Black Hole in an Einstein-Cluster Model",
+          "authors": "Hassan Hassanabadi , Soroush Zare",
+          "primary": "General Relativity and Quantum Cosmology (gr-qc)"
+        },
+        {
+          "id": "2611.08191",
+          "title": "Parity-violating scalar-tensor theory revisited: complete basis up to $d=4$ and Hamiltonian analysis",
+          "authors": "Yun-Chuan Zhang , Yu-Min Hu , Xian Gao",
+          "primary": "General Relativity and Quantum Cosmology (gr-qc)"
+        },
+        {
+          "id": "2611.08322",
+          "title": "Instabilities of Simpson-Visser black bounces sourced by a phantom scalar and nonlinear electrodynamics",
+          "authors": "Kirill A. Bronnikov , Rustam Ibadov , Jutta Kunz",
+          "primary": "General Relativity and Quantum Cosmology (gr-qc)"
+        },
+        {
+          "id": "2611.08382",
+          "title": "When Can Pulsar Timing Distinguish a Propagation Mass from a Weak Longitudinal Background?",
+          "authors": "Kun Zhou , Jin Li",
+          "primary": "General Relativity and Quantum Cosmology (gr-qc)"
+        },
+        {
+          "id": "2611.08422",
+          "title": "Torsion talks only to spin: the CMB temperature as a test of energy exchange in Einstein-Cartan cosmology",
+          "authors": "Fernando Izaurieta , Samuel Lepe , Cristian Quinzacara",
+          "primary": "General Relativity and Quantum Cosmology (gr-qc)"
+        }
+      ]
+    },
+    "nucl-ex": {
+      "source": "https://arxiv.org/catchup/nucl-ex/2026-11-06?abs=True",
+      "sha256": "1fbe73cd3418a217264c6228370038a30d215f91cc9147d1f4992c2fe8c96e0b",
+      "new_primary": [
+        {
+          "id": "2611.07352",
+          "title": "Analysis of Xe-131 Prompt Gammas",
+          "authors": "Andrew Rosen , Jacob Moldenhauer , Caterina Michelagnoli , Marek Stryjczyk , Will Flanagan",
+          "primary": "Nuclear Experiment (nucl-ex)"
+        },
+        {
+          "id": "2611.08327",
+          "title": "Exploring the limit of partonic collectivity in small collision systems at the LHC",
+          "authors": "ALICE Collaboration",
+          "primary": "Nuclear Experiment (nucl-ex)"
+        },
+        {
+          "id": "2611.08473",
+          "title": "Correlations and fluctuations of flow with event shape engineering in Pb-Pb and Xe-Xe collisions at the LHC",
+          "authors": "ALICE Collaboration",
+          "primary": "Nuclear Experiment (nucl-ex)"
+        }
+      ]
+    },
+    "nucl-th": {
+      "source": "https://arxiv.org/catchup/nucl-th/2026-11-06?abs=True",
+      "sha256": "745c6fd51ad7307b437f0794a5f19fcaecf29ff8ba16eae80870c1bb1daaf24b",
+      "new_primary": [
+        {
+          "id": "2611.07213",
+          "title": "Partial-wave decomposition of the $p$--$^{5}_Λ\\mathrm{He}$ correlation function: a femtoscopic route to the $^{6}_Λ\\mathrm{Li}$ resonance",
+          "authors": "Dongsheng Li , Yifei Zhang",
+          "primary": "Nuclear Theory (nucl-th)"
+        },
+        {
+          "id": "2611.07817",
+          "title": "Wigner distribution modeling of nuclear state in NuWro Monte Carlo event generator",
+          "authors": "Rwik Dharmapal Banerjee , Alexis Nikolakopoulos , Jan T. Sobczyk , Hemant Prasad , Krzysztof M. Graczyk , José L. Bonilla , Beata E. Kowal",
+          "primary": "Nuclear Theory (nucl-th)"
+        },
+        {
+          "id": "2611.08043",
+          "title": "Manifestation of scale symmetry in nuclear medium",
+          "authors": "Yong-Liang Ma",
+          "primary": "Nuclear Theory (nucl-th)"
+        },
+        {
+          "id": "2611.08069",
+          "title": "Comparison of Methods for Extracting Three-Dimensional Lévy Source Parameters in $\\sqrt{s_{\\text{NN}}} = 200\\text{ GeV}$ Au+Au Collisions with EPOS3",
+          "authors": "Máté Szilágyi , Máté Csanád , Dániel Kincses",
+          "primary": "Nuclear Theory (nucl-th)"
+        },
+        {
+          "id": "2611.08122",
+          "title": "Linking chiral nuclear forces to light-ion collisions: a global sensitivity analysis",
+          "authors": "Thomas Duguet , Andreas Ekström , Giuliano Giacalone , Gaute Hagen , Takayuki Miyagi , Alexander Tichai",
+          "primary": "Nuclear Theory (nucl-th)"
+        },
+        {
+          "id": "2611.08163",
+          "title": "Chiral invariant mass and scale symmetry in dense matter from a dilaton compensated parity doublet model",
+          "authors": "Yao Ma , Bikai Gao , Masayasu Harada , Yong-Liang Ma",
+          "primary": "Nuclear Theory (nucl-th)"
+        },
+        {
+          "id": "2611.08213",
+          "title": "Constrained Hamiltonian Formulation of Kinetic Theory for Relativistic Spin-$1/2$ Particles",
+          "authors": "Jie Zhou , Ying Shan Zhao , Yifeng Sun",
+          "primary": "Nuclear Theory (nucl-th)"
+        },
+        {
+          "id": "2611.08482",
+          "title": "Hypersurface covariance in relativistic local equilibrium",
+          "authors": "You-yu Li , Shuai Y.F. Liu",
+          "primary": "Nuclear Theory (nucl-th)"
+        }
+      ]
+    }
+  },
+  "news_and_radar_preserved": true
+}
