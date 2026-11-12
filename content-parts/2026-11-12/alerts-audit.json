@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-12",
+  "part": "alerts",
+  "cutoff": "2026-11-12T07:58:43+01:00",
+  "window_start": "2026-11-11T08:05:00+01:00",
+  "window_start_utc": "2026-11-11T07:05:00Z",
+  "window_end_utc": "2026-11-12T06:58:43Z",
+  "status": "partial",
+  "selected_story_count": 6,
+  "sources": [
+    {
+      "name": "GCN Circulars",
+      "checked_range": "46222-46233 inclusive",
+      "latest_seen": 46233,
+      "url": "https://gcn.nasa.gov/circulars",
+      "result": "All bodies read; selected material grouped into five event stories plus one prompt reclassification."
+    },
+    {
+      "name": "Astronomer's Telegram",
+      "checked_range": "18152-18153 inclusive",
+      "latest_seen": 18153,
+      "url": "https://www.astronomerstelegram.org/",
+      "result": "18153 selected; 18152 omitted as routine known-star flare."
+    },
+    {
+      "name": "IceCube GCN search",
+      "url": "https://gcn.nasa.gov/circulars?query=IceCube",
+      "result": "Latest public circular remained IceCube-261020A; no circular in the window."
+    },
+    {
+      "name": "IceCube legacy Gold/Bronze table",
+      "url": "https://gcn.gsfc.nasa.gov/amon_icecube_gold_bronze_events.html",
+      "result": "Checked; legacy table incomplete for the current Kafka distribution."
+    },
+    {
+      "name": "HAWC AMON table",
+      "url": "https://gcn.gsfc.nasa.gov/amon_hawc_events.html",
+      "result": "Checked; table's newest listed event is historical and cannot establish current detector quiet."
+    },
+    {
+      "name": "GraceDB public latest",
+      "url": "https://gracedb.ligo.org/latest/",
+      "result": "No new public production superevent surfaced; private/test streams are outside this check."
+    },
+    {
+      "name": "KM3NeT and ground arrays",
+      "url": "https://gcn.nasa.gov/circulars",
+      "result": "Targeted GCN and official-site searches found no new public alert in the window; no complete enumerated KM3NeT live feed was available."
+    }
+  ],
+  "selected_events": [
+    "GRB 261110A",
+    "GRB 261111A",
+    "EP261111a",
+    "EP261105a",
+    "FRB 20261031B",
+    "EP-WXT 01709322452"
+  ],
+  "not_selected": [
+    {
+      "source": "ATel 18152",
+      "reason": "Known RS CVn star GT Mus flare; routine stellar activity outside the selected astroparticle-alert threshold."
+    }
+  ],
+  "limitations": [
+    "IceCube Kafka notices were not independently enumerated.",
+    "No complete public KM3NeT live-alert ledger was available.",
+    "Public GraceDB does not cover private/test activity.",
+    "No assertion is made that all messenger channels were quiet."
+  ]
+}
