@@ -86,26 +86,33 @@ news subsections. Include only the verified science-news body, with its source
 links and equations. The dated page displays that body, and archive rows show
 the news-section count. News updates do not add entries to the paper search.
 
-## Science Radar
+## Astrophysical Alerts and Science News
 
-**Science Radar** begins with the 1 October 2026 report. The source conversation
-called that first installment "Gossips"; use **Science Radar** on the public
-website from its first appearance onward.
+Public reports separate **Astrophysical Alerts** from **Science News**.
+Use `### Astrophysical Alerts` for astrophysical event detections, candidate
+alerts, follow-ups, revised localizations, classifications, corrections and
+retractions. Group reports of one event together. This section covers neutrinos,
+gamma rays, X-rays, gravitational waves, cosmic rays and related transient events;
+it excludes general instrument announcements and scientific-community news.
 
-Preserve this section alongside the arXiv highlights and verified physics news
-when importing future reports. Use `### Science Radar` for its section heading,
-`####` for individual stories, and `science_radar_count` in the JSON metadata
-for the number of stories. It covers notable discoveries, new research, and
-scientific debates across mathematics, AI, biology, genetics, geology, medicine,
-and other disciplines. Retain direct references, publication dates, evidence
-status, and limitations. Present disputed claims and competing interpretations
+Use `### Science News` for all other science news: instrument and mission results,
+awards, notable deaths, meetings, scientific-community developments and research
+across mathematics, AI, biology, genetics, chemistry, geology, neuroscience,
+medicine and other disciplines. The research scope previously called Science
+Radar remains fully included here, with deliberate searches across those fields.
+Do not restore a separate Science Radar heading in future reports.
+
+Use `####` for individual stories. In JSON metadata, `alerts_count` counts alert
+stories and `news_count` counts every Science News story, including other-science
+research. Keep the counts separate from selected arXiv papers and full listing
+totals. Preserve direct references, publication and observation dates, evidence
+status and limitations. Present disputed claims and competing interpretations
 neutrally; distinguish preprints and preliminary results from established findings.
 
-The homepage prominently introduces Science Radar, gives its start date, and
-automatically links to the newest report containing that heading. Reports with
-the section also receive a direct jump button, including on mobile. Archive
-rows show the Science Radar story count. These stories stay separate from the
-arXiv paper-search records.
+The homepage and daily jump buttons link to these sections. Archive rows display
+alert and news counts separately. These stories stay outside the arXiv paper-search
+records. The split-task schema and publication protocol are documented in
+[`docs/split-workflow.md`](docs/split-workflow.md).
 
 ## Dates and public writing
 

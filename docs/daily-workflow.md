@@ -44,20 +44,29 @@ deployment; a configured connection alone is not evidence of publication.
    Define parameters and compare prior bounds only after aligning units,
    reference scales, confidence levels, models and assumptions. Separate
    observed limits, expected sensitivities, forecasts and illustrative scans.
-2. **Science News.** Prioritize official neutrino, gamma-ray, gravitational-wave
-   and cosmic-ray alerts, localizations, retractions and counterpart searches.
-   Search GCN, ATel, collaboration notices and appropriate official alert archives;
-   then cover significant instruments, awards, deaths and events. Keep event,
-   announcement and follow-up dates distinct. Quote association claims with
-   their actual evidence status. Do not convert sensitivities into observed limits.
-3. **Science Radar.** Select particularly interesting work across other sciences.
-   Include primary sources, exact publication dates and evidence limitations.
-   Present scientific disputes neutrally and avoid treating publicity as proof.
+2. **Astrophysical Alerts.** Prioritize official neutrino, gamma-ray,
+   gravitational-wave and cosmic-ray alerts, localizations, retractions and
+   counterpart searches. Search GCN, ATel, collaboration notices and appropriate
+   official alert archives. Keep observation, announcement and follow-up dates
+   distinct. Quote association claims with their actual evidence status. Do not
+   convert sensitivities into observed limits. Scientific-community and general
+   instrument news belong in Science News, not Astrophysical Alerts.
+3. **Science News.** Cover significant instruments, mission results, awards,
+   notable deaths, meetings and other non-alert field developments, together
+   with consequential research across mathematics, AI-assisted science, biology,
+   genetics, chemistry, geology/palaeontology, neuroscience and medicine. The
+   former Science Radar research scope is retained under this heading. Search
+   those fields deliberately, rather than with leftover attention. Include
+   primary sources, exact publication dates, evidence status and limitations.
+   Present scientific disputes neutrally, disclose abstract-only access, and do
+   not infer human efficacy from animal or preclinical evidence.
 
-Include a news cutoff and an explicit end-of-report marker. Deliver the complete
-report in the current chat, including History, Science News and Science Radar.
-Use clear primary-source links on the website. Keep public prose consistent
-with the existing README; exclude conversational and account-specific details.
+Keep each part's exact cutoff and coverage in its audit metadata and its own chat
+report. Each task delivers only its owned section in chat, even if it completes
+website assembly. The combined website report includes all three sections and
+an explicit end-of-report marker. Use clear primary-source links on the website.
+Keep public prose consistent with the existing README; exclude conversational
+and account-specific details.
 
 ## Publication
 
@@ -67,7 +76,8 @@ The repository name is **afesmaeili/J.C.**, with a trailing period. The website 
 1. Read the current repository instructions and branch head.
 2. Add or update `content/YYYY-MM-DD.md` with JSON front matter. Match each
    `papers[].id` to a body marker. Count selected primary categories once and
-   record news and Radar subsection counts accurately.
+   record `alerts_count` and `news_count` from their respective story headings.
+   Science News includes all former Science Radar stories; do not double-count them.
 3. Run `python3 scripts/build_archive.py`. Check all three substantive sections,
    History headings, dates, paper anchors, rendered equations, the latest link,
    search data, Markdown download and offline archive.

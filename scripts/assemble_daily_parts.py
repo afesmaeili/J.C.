@@ -10,9 +10,9 @@ import re
 from listing_statistics import listing_sentence
 
 PARTS = ("arxiv", "alerts", "news")
-SECTIONS = ("ArXiv Highlights", "Science News", "Science Radar")
+SECTIONS = ("ArXiv Highlights", "Astrophysical Alerts", "Science News")
 OWNERSHIP = {"arxiv": {SECTIONS[0]}, "alerts": {SECTIONS[1]},
-             "news": {SECTIONS[1], SECTIONS[2]}}
+             "news": {SECTIONS[2]}}
 
 
 def assemble(root, edition):
@@ -36,10 +36,14 @@ def assemble(root, edition):
             assert isinstance(body, str), "Section body must be Markdown"
             assert not re.search(r"^#{1,3} ", body, re.M), "Use only story/history headings"
             assert "END OF JOURNAL CLUB" not in body, "End marker belongs to assembly"
-        for field, section in (("news_count", SECTIONS[1]), ("science_radar_count", SECTIONS[2])):
+        for field, section in (("alerts_count", SECTIONS[1]), ("news_count", SECTIONS[2])):
             assert type(p[field]) is int and p[field] >= 0
             actual = len(re.findall(r"^#### ", p["sections"].get(section, ""), re.M))
             assert p[field] == actual, "Story count differs from headings"
+        # Retain zero-valued legacy fields only; former Radar stories now count
+        # once under Science News. Reject a stale part rather than lose stories.
+        if "science_radar_count" in p:
+            assert type(p["science_radar_count"]) is int and p["science_radar_count"] == 0, "Merge Science Radar into Science News"
         if name != "arxiv":
             assert not p["papers"], "Only arXiv part owns physics paper metadata"
         parts[name], hashes[name] = p, sha256(raw).hexdigest()
@@ -57,8 +61,8 @@ def assemble(root, edition):
             assert isinstance(p[field], str) and p[field], "Incomplete paper metadata"
         assert p["tags"] and isinstance(p["tags"], list), "Missing paper tags"
     counts = dict(sorted(Counter(p["primary_category"] for p in papers).items()))
-    news_count = sum(p["news_count"] for p in parts.values())
-    radar_count = parts["news"]["science_radar_count"]
+    alerts_count = parts["alerts"]["alerts_count"]
+    news_count = parts["news"]["news_count"]
     partial = [name for name, p in parts.items() if p["status"] == "partial"]
     listing = parts["arxiv"].get("listing_statistics")
     if listing:
@@ -68,10 +72,10 @@ def assemble(root, edition):
         intro = [f"**arXiv · {edition}:** daily listing totals could not be verified."]
     metadata = {
         "date": edition, "kind": "Daily report",
-        "description": f"{len(papers)} selected papers · {news_count} science-news stories · {radar_count} Science Radar stories" + (" · Partial coverage" if partial else ""),
+        "description": f"{len(papers)} selected papers · {alerts_count} astrophysical alerts · {news_count} science-news stories" + (" · Partial coverage" if partial else ""),
         "scope": " ".join(f"{name}: {p['coverage']}" for name, p in parts.items()),
         "topics": list(dict.fromkeys(t for p in parts.values() for t in p["topics"])),
-        "papers": papers, "news_count": news_count, "science_radar_count": radar_count,
+        "papers": papers, "alerts_count": alerts_count, "news_count": news_count,
         "statistics": {"basis": "selected_papers_by_primary_category", "date": edition,
                        "counts": counts, "selected_papers_by_primary_category": counts,
                        "provenance": "Unique selected papers, not whole-list totals."},

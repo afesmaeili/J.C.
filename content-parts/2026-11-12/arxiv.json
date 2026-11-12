@@ -10,7 +10,6 @@
   ],
   "papers": [],
   "news_count": 0,
-  "science_radar_count": 0,
   "listing_statistics": {
     "date": "2026-11-12",
     "basis": "new_primary_submissions",
@@ -46,5 +45,6 @@
   },
   "sections": {
     "ArXiv Highlights": "No new arXiv batch was announced for **12 November 2026**. arXiv's [official support notice](https://arxiv-org.atlassian.net/servicedesk/customer/portal/1) states that the Wednesday, 11 November announcement was suspended for Veterans Day; papers accepted during the extended interval are scheduled for announcement on Thursday, 12 November at 20:00 ET, which belongs to the **13 November UTC listing**. Consequently, there are no eligible first-announced papers to highlight for this edition."
-  }
+  },
+  "alerts_count": 0
 }

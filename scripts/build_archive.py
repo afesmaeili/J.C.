@@ -35,7 +35,8 @@ for source in sorted((ROOT / 'content').glob('*.md'), reverse=True):
     entries.append(e)
 assert entries, 'At least one report is required'
 latest = entries[0]
-radar_entries = [e for e in entries if re.search(r'^### Science Radar\s*$', e['body'], re.M)]
+alert_entries = [e for e in entries if re.search(r'^### Astrophysical Alerts\s*$', e['body'], re.M)]
+news_entries = [e for e in entries if re.search(r'^### Science News\s*$', e['body'], re.M)]
 all_topics = ['Neutrinos', 'Cosmic rays', 'Gamma rays', 'X rays', 'Compact objects', 'Multimessenger', 'Oscillations', 'Dark matter', 'BSM', 'Particle physics', 'Cosmology']
 esc = lambda x: html.escape(str(x), quote=True)
 def longdate(s): return date.fromisoformat(s).strftime('%d %B %Y').lstrip('0')
@@ -45,11 +46,10 @@ def report_count_label(e):
     labels = []
     if e['papers']:
         labels.append(count_label(len(e['papers']), 'selected paper'))
+    if e.get('alerts_count'):
+        labels.append(count_label(e['alerts_count'], 'astrophysical alert'))
     if e.get('news_count'):
         labels.append(count_label(e['news_count'], 'science-news story').replace('storys', 'stories'))
-    if e.get('science_radar_count'):
-        n = e['science_radar_count']
-        labels.append(f'Science Radar: {n} ' + ('story' if n == 1 else 'stories'))
     return ' · '.join(labels)
 def rel(current, target): return os.path.relpath(target, str(Path(current).parent)).replace(os.sep, '/')
 def slug(s): return re.sub(r'[^a-z0-9]+', '-', s.lower()).strip('-')
@@ -115,22 +115,35 @@ def markdown(e):
         token=f'JOURNALMATH{i}TOKEN'
         result=result.replace('<p>'+token+'</p>',formula).replace(token,formula)
     assert 'JOURNALMATH' not in result
-    return collapsible_papers(result, e['papers']), headings
+    result = collapsible_papers(result, e['papers'])
+    # Keep old section bookmarks working outside the paper disclosures.
+    heading_ids = {anchor for anchor, _ in headings}
+    aliases = {'science-radar': 'science-news'} if 'science-news' in heading_ids else {}
+    aliases.update(e.get('section_aliases', {}))
+    for old, target in aliases.items():
+        assert re.fullmatch(r'[a-z0-9-]+', old) and re.fullmatch(r'[a-z0-9-]+', target)
+        assert target in heading_ids, f'Missing section alias target: {target}'
+        if old not in heading_ids:
+            result = result.replace(f'<h2 id="{target}">', f'<span id="{old}" aria-hidden="true"></span><h2 id="{target}">', 1)
+    return result, headings
 def breadcrumbs(current, e):
     y,m,_ = e['date'].split('-')
     return f'<nav class="crumbs" aria-label="Breadcrumb"><a href="{rel(current,"archive/index.html")}">Archive</a><span>/</span><a href="{rel(current,y+"/index.html")}">{y}</a><span>/</span><a href="{rel(current,y+"/"+m+"/index.html")}">{date.fromisoformat(e["date"]).strftime("%B")}</a><span>/</span><span>{int(e["date"][8:])}</span></nav>'
 
 # Home: introduce the journal and give readers a route to reports and feedback.
 current = 'index.html'
-radar_feature = ''
-if radar_entries:
-    radar_latest = radar_entries[0]
-    radar_feature = f'''<section class="radar-feature" aria-labelledby="radar-title">
-<div><span class="eyebrow">Beyond astroparticle physics · Since <time datetime="2026-10-01">1 October 2026</time></span>
-<h2 id="radar-title">Science Radar</h2>
-<p>A regular look across science at remarkable discoveries, new ideas, and scientific debates—from mathematics and AI to biology, genetics, geology, and medicine.</p>
-<p>Each story links to its sources and distinguishes established findings from preliminary claims. Where interpretations differ, the coverage presents the evidence and competing views neutrally.</p></div>
-<div class="radar-action"><a class="button" href="{radar_latest['path']}#science-radar">Explore Science Radar <span aria-hidden="true">→</span></a><p>Latest: <time datetime="{radar_latest['date']}">{longdate(radar_latest['date'])}</time></p></div>
+section_features = ''
+for section_entries, title, anchor, eyebrow, description in (
+    (alert_entries, 'Astrophysical Alerts', 'astrophysical-alerts', 'The changing sky',
+     'Event alerts and follow-ups from neutrino, gamma-ray, X-ray, gravitational-wave, radio and cosmic-ray observatories. Updates group observations by event, retain corrections and retractions, and distinguish candidates from confirmed counterparts.'),
+    (news_entries, 'Science News', 'science-news', 'Across the scientific community',
+     'Research discoveries, instruments and mission milestones, awards, meetings and scientific-community news—from physics and astronomy to mathematics, AI, biology, chemistry, Earth sciences and medicine. Stories link to primary sources and distinguish established findings from preliminary claims.'),
+):
+    if section_entries:
+        section_latest = section_entries[0]
+        section_features += f'''<section class="radar-feature" aria-labelledby="{anchor}-title">
+<div><span class="eyebrow">{eyebrow}</span><h2 id="{anchor}-title">{title}</h2><p>{description}</p></div>
+<div class="radar-action"><a class="button" href="{section_latest['path']}#{anchor}">Explore {title} <span aria-hidden="true">→</span></a><p>Latest: <time datetime="{section_latest['date']}">{longdate(section_latest['date'])}</time></p></div>
 </section>'''
 home = f'''<section class="home-intro" aria-labelledby="home-title">
 <span class="eyebrow">Research · Literature · Science news</span>
@@ -140,7 +153,7 @@ home = f'''<section class="home-intro" aria-labelledby="home-title">
 <div class="report-actions"><a class="button" href="{latest['path']}">Read the latest report <span aria-hidden="true">→</span></a><a class="button secondary" href="archive/index.html">Browse the archive</a></div>
 <p class="latest-date">Latest report: <time datetime="{latest['date']}">{longdate(latest['date'])}</time></p>
 </section>
-{radar_feature}
+{section_features}
 <section class="home-section" aria-labelledby="contents-title">
 <h2 id="contents-title">What you will find</h2>
 <div class="home-features">
@@ -150,7 +163,7 @@ home = f'''<section class="home-intro" aria-labelledby="home-title">
 </div>
 </section>
 <section class="home-section home-reading" aria-labelledby="reading-title">
-<div><h2 id="reading-title">How the journal is prepared</h2><p>Each daily report opens with the number of new primary submissions in the dated arXiv listings for astro-ph, hep-ph, hep-ex, hep-th, gr-qc, nucl-ex and nucl-th. Cross-lists and replacements are excluded from those totals; selected-paper counts elsewhere describe the editorial selection. The astro-ph total includes all six subcategories, with HE and CO shown separately when available.</p><p>Listing dates follow arXiv's UTC convention and differ from submission, event and publication dates. Papers are deduplicated across categories and earlier reports. Selected studies discuss methods, results, limitations and earlier literature under History; measurements, limits, forecasts and models are distinguished.</p><p>Alert reports group follow-ups and corrections by event, and distinguish candidates from confirmed counterparts. News and Science Radar use primary research or authoritative announcements. No new batch means no new-paper claim; significant weekend developments enter Monday's news.</p><p>Edition-specific source-check cutoffs, historical coverage notes, dated listing sources and retrieval limits remain in each downloadable Markdown file's metadata. A short section does not prove that every source was quiet, and screening a listing is distinct from reading every paper in full. Editorial dates and revision records are retained in the source metadata.</p></div>
+<div><h2 id="reading-title">How the journal is prepared</h2><p>Each daily report opens with the number of new primary submissions in the dated arXiv listings for astro-ph, hep-ph, hep-ex, hep-th, gr-qc, nucl-ex and nucl-th. Cross-lists and replacements are excluded from those totals; selected-paper counts elsewhere describe the editorial selection. The astro-ph total includes all six subcategories, with HE and CO shown separately when available.</p><p>Listing dates follow arXiv's UTC convention and differ from submission, event and publication dates. Papers are deduplicated across categories and earlier reports. Selected studies discuss methods, results, limitations and earlier literature under History; measurements, limits, forecasts and models are distinguished.</p><p>Alert reports group follow-ups and corrections by event, and distinguish candidates from confirmed counterparts. Science News covers non-alert field developments and research across the sciences using primary research or authoritative announcements. No new batch means no new-paper claim; significant weekend developments enter Monday's news.</p><p>Edition-specific source-check cutoffs, historical coverage notes, dated listing sources and retrieval limits remain in each downloadable Markdown file's metadata. A short section does not prove that every source was quiet, and screening a listing is distinct from reading every paper in full. Editorial dates and revision records are retained in the source metadata.</p></div>
 <div><h3>Explore the collection</h3><p><a href="search.html">Search papers</a> by title, author, arXiv ID, topic, or words in the reading notes. Use the <a href="archive/index.html">archive</a> to browse earlier dates.</p><p>Select a paper title to expand its summary and History. Each report can be downloaded as Markdown or printed in full to PDF. The <a href="downloads/physics-journal-club.zip" download>HTML archive</a> provides an offline copy of the collection.</p></div>
 </section>
 <section class="home-section feedback-section" aria-labelledby="feedback-title">
@@ -163,15 +176,15 @@ home = f'''<section class="home-intro" aria-labelledby="home-title">
 <button class="button" type="submit">Continue to GitHub <span aria-hidden="true">↗</span></button>
 </form>
 </section>'''
-shell(current,'Home',home,active='home',description='A daily guide to astroparticle physics literature, featuring selected arXiv papers, scientific context, verified news, and Science Radar across the sciences.')
+shell(current,'Home',home,active='home',description='A daily guide to astroparticle physics literature, featuring selected arXiv papers, scientific context, astrophysical alerts, and science news across disciplines.')
 
 # A permanent, fully rendered page for every day. No client-side router or network fetch required.
 for idx,e in enumerate(entries):
     current = e['path']; body, headings = markdown(e)
     toc = '<aside class="toc" aria-label="In this report"><div class="eyebrow">In this report</div>'+''.join(f'<a href="#{anchor}">{esc(title)}</a>' for anchor,title in headings)+'</aside>'
     content = breadcrumbs(current,e)+header(current,e)
-    radar_jump = '<a class="button" href="#science-radar">Science Radar <span aria-hidden="true">↓</span></a>' if e in radar_entries else ''
-    content += f'<div class="report-actions">{radar_jump}<button type="button" class="button secondary" data-print>Print / save PDF</button><a class="button secondary" href="{rel(current,"editions/"+e["date"]+".md")}" download>Download Markdown ↓</a></div>'
+    section_jumps = ''.join(f'<a class="button" href="#{anchor}">{title} <span aria-hidden="true">↓</span></a>' for anchor, title in headings if title in ('Astrophysical Alerts', 'Science News'))
+    content += f'<div class="report-actions">{section_jumps}<button type="button" class="button secondary" data-print>Print / save PDF</button><a class="button secondary" href="{rel(current,"editions/"+e["date"]+".md")}" download>Download Markdown ↓</a></div>'
     if e.get('correction'):
         content += f'<aside class="notice"><strong>Later correction:</strong> {esc(e["correction"])} <a href="{rel(current, "2026/09/14/index.html")}#verified-science-news">Read the 14 September update →</a></aside>'
     content += f'<div class="reading-layout"><article class="prose">{body}</article>{toc}</div>'

@@ -3,7 +3,9 @@
 Effective 12 November 2026: three independent research tasks replace the combined
 task. All retain the weekday 08:00 Europe/Berlin start, with daylight saving.
 This is a start time, not a completion deadline. Each task delivers its complete
-section in its chat. The website retains one daily report with the existing design.
+section in its chat, even when it completes website assembly. The website retains
+one daily report with the existing design and three sections: **ArXiv Highlights**,
+**Astrophysical Alerts**, and **Science News**.
 
 ## Responsibilities
 
@@ -17,10 +19,16 @@ section in its chat. The website retains one daily report with the existing desi
   batch: omit replacements and older cross-listings. Verify a cross-listed
   paper's first announcement before including it, and deduplicate by arXiv ID.
   Earlier work supplies History comparisons, not additional daily highlights.
-- `alerts`: astrophysical event alerts, follow-ups, corrections and retractions.
-  Own GCN, ATel, neutrino, gamma-ray, GW, X-ray and cosmic-ray event coverage.
-- `news`: non-alert field news plus Science Radar across the sciences. Own
+- `alerts`: **Astrophysical Alerts** only: astrophysical event alerts, follow-ups,
+  corrections and retractions. Own GCN, ATel, neutrino, gamma-ray, GW, X-ray and
+  cosmic-ray event coverage. Instrument announcements and scientific-community
+  news do not belong here.
+- `news`: **Science News** only: all non-alert field news and research across the
+  sciences, including the material previously called Science Radar. Own
   instruments, missions, awards, deaths, meetings, and other-science research.
+  Give mathematics, AI-assisted science, biology/genetics, chemistry, geology/
+  palaeontology, neuroscience and medicine a deliberate independent search;
+  merging the public heading does not reduce this research scope or depth.
 
 All retain the original scientific requirements in daily-workflow.md, exact dates,
 source links, limitations and explicit partial-coverage disclosures. A quiet section
@@ -45,8 +53,8 @@ or private instructions. The JSON structure is:
   "coverage": "Actual dated listings, checks, gaps, and version-date policy.",
   "topics": [],
   "papers": [],
+  "alerts_count": 0,
   "news_count": 0,
-  "science_radar_count": 0,
   "sections": {"ArXiv Highlights": "Markdown body, with #### stories and ##### History"}
 }
 ```
@@ -55,11 +63,16 @@ Use the actual UTC offset (or UTC) for cutoff. `status` is `complete` or `partia
 both mean the task has finished its attempt. `partial` must identify missing
 coverage. Never commit an in-progress placeholder as a finished part.
 
-`arxiv` owns only `ArXiv Highlights`, `alerts` owns only `Science News`, and `news`
-owns `Science News` and `Science Radar`. Include these exact keys, with an empty
-string for a quiet owned section. Section values contain no ### heading or end
-marker; the assembler supplies those. Count #### story headings exactly. News
-and alerts have empty `papers`; only arxiv supplies the standard paper metadata
+`arxiv` owns only `ArXiv Highlights`, `alerts` owns only `Astrophysical Alerts`,
+and `news` owns only `Science News`. Each part includes exactly its owned key,
+with an empty string for a quiet section. Section values contain no ### heading
+or end marker; the assembler supplies those. `alerts_count` counts #### headings
+in Astrophysical Alerts, and `news_count` counts all #### headings in Science
+News, including other-science research. Both fields are required and are zero
+for any section the part does not own. Do not emit a Science Radar section or
+nonzero `science_radar_count`; a legacy zero-valued field is accepted but omitted
+from assembled metadata. News and alerts have empty `papers`; only arxiv supplies
+the standard paper metadata
 and matching `<!-- paper:... -->` markers. Save the arXiv screening audit alongside
 its part as `content-parts/YYYY-MM-DD/arxiv-screening.json`, including checked
 listing URLs/dates, retrieval gaps, unique IDs and selection decisions. Never
@@ -88,10 +101,14 @@ invent counts for inaccessible listings or claim abstract reading was full readi
    Verify the live dated page or a Pages run for the returned head SHA. Do not
    use PR-only workflow lookup as proof of Pages. Poll only a few times and
    distinguish committed from live.
-6. The assembling task delivers the complete combined report in chat, ending
-   `END OF JOURNAL CLUB — YYYY-MM-DD`. Other tasks deliver their own complete
-   section, clearly labeled as that section, without claiming the other sections
-   or website are complete. Never end with only a progress update or a link.
+6. Every task delivers only its own complete researched section in chat, clearly
+   labeled, with its cutoff, coverage limitations and publication status. This
+   remains true for the task that completes assembly: do not repeat the other
+   tasks' sections in its chat response. Assembly is a mechanical publication
+   step that preserves the other finished parts without taking over their
+   research. The combined website report retains all three sections and ends
+   `END OF JOURNAL CLUB — YYYY-MM-DD`. Never end with only a progress update or
+   a link, and never claim pending sections or unverified publication are complete.
 7. At the next run, check for prior sets of three finished parts awaiting assembly
    and resume publication before new research. Do not fill a missing past part
    with current news or erase another task's work. Report unresolved gaps.

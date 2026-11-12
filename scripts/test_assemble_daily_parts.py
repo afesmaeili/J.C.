@@ -19,7 +19,7 @@ class AssemblyTests(unittest.TestCase):
         for name, headings in OWNERSHIP.items():
             self.parts[name] = dict(date=self.day, part=name, status="complete",
                 cutoff="2026-11-12T08:00:00+01:00", coverage="Test fixture only.",
-                topics=[], papers=[], news_count=0, science_radar_count=0,
+                topics=[], papers=[], alerts_count=0, news_count=0,
                 sections={h: "" for h in headings})
 
     def save(self, name, part=None):
@@ -34,10 +34,10 @@ class AssemblyTests(unittest.TestCase):
         self.assertEqual(target.read_text(), "existing report")
 
     def test_three_parts_merge_deterministically(self):
-        self.parts["alerts"]["sections"]["Science News"] = "#### Alert\n\nVerified test content."
-        self.parts["alerts"]["news_count"] = 1
-        self.parts["news"]["sections"]["Science News"] = "#### Mission\n\nVerified test content."
-        self.parts["news"]["news_count"] = 1
+        self.parts["alerts"]["sections"]["Astrophysical Alerts"] = "#### Alert\n\nVerified test content."
+        self.parts["alerts"]["alerts_count"] = 1
+        self.parts["news"]["sections"]["Science News"] = "#### Mission\n\nVerified test content.\n\n#### Biology\n\nVerified broader-science content."
+        self.parts["news"]["news_count"] = 2
         self.parts["news"]["status"] = "partial"
         for name in self.parts:
             self.save(name)
@@ -45,7 +45,13 @@ class AssemblyTests(unittest.TestCase):
         first = target.read_bytes()
         self.assertFalse(missing)
         self.assertEqual(first.count(b"### Science News\n"), 1)
+        self.assertEqual(first.count(b"### Astrophysical Alerts\n"), 1)
+        self.assertNotIn(b"### Science Radar", first)
+        self.assertIn(b'"alerts_count": 1', first)
         self.assertIn(b'"news_count": 2', first)
+        self.assertLess(first.index(b"#### Alert"), first.index(b"### Science News"))
+        self.assertGreater(first.index(b"#### Mission"), first.index(b"### Science News"))
+        self.assertGreater(first.index(b"#### Biology"), first.index(b"### Science News"))
         self.assertIn(b"Partial coverage", first)
         self.assertTrue(first.decode().endswith("END OF JOURNAL CLUB — 2026-11-12\n"))
         assemble(self.root, self.day)
@@ -55,13 +61,45 @@ class AssemblyTests(unittest.TestCase):
         for name in self.parts:
             self.save(name)
         for field, value in (("date", "2026-11-11"), ("status", "in_progress"),
-                             ("news_count", 4), ("cutoff", "2026-11-12T08:00:00")):
+                             ("alerts_count", 4), ("news_count", 4),
+                             ("cutoff", "2026-11-12T08:00:00")):
             with self.subTest(field=field):
                 p = copy.deepcopy(self.parts["alerts"])
                 p[field] = value
                 self.save("alerts", p)
                 with self.assertRaises(AssertionError):
                     assemble(self.root, self.day)
+
+    def test_wrong_section_owner_and_legacy_radar_are_rejected(self):
+        for name in self.parts:
+            self.save(name)
+        for name, sections in (
+                ("alerts", {"Science News": ""}),
+                ("news", {"Astrophysical Alerts": ""}),
+                ("news", {"Science News": "", "Science Radar": ""}),
+                ("arxiv", {"ArXiv Highlights": "", "Science News": ""})):
+            with self.subTest(name=name, sections=sections):
+                p = copy.deepcopy(self.parts[name])
+                p["sections"] = sections
+                self.save(name, p)
+                with self.assertRaisesRegex(AssertionError, "section ownership"):
+                    assemble(self.root, self.day)
+                self.save(name)
+        p = copy.deepcopy(self.parts["news"])
+        p["science_radar_count"] = 1
+        self.save("news", p)
+        with self.assertRaisesRegex(AssertionError, "Merge Science Radar"):
+            assemble(self.root, self.day)
+
+    def test_independent_report_edit_is_preserved(self):
+        for name in self.parts:
+            self.save(name)
+        target, _ = assemble(self.root, self.day)
+        edited = target.read_text().replace("### Science News", "### Science News\n\nEditorial correction.")
+        target.write_text(edited)
+        with self.assertRaisesRegex(AssertionError, "edited independently"):
+            assemble(self.root, self.day)
+        self.assertEqual(target.read_text(), edited)
 
     def test_manual_report_is_not_overwritten(self):
         for name in self.parts:
