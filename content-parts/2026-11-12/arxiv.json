@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-12",
+  "part": "arxiv",
+  "status": "complete",
+  "cutoff": "2026-11-12T08:15:35+01:00",
+  "coverage": "Verified that no arXiv announcement was issued for the 2026-11-12 UTC listing day. At the cutoff, the official astro-ph, hep-ph, hep-ex, hep-th, gr-qc, nucl-ex and nucl-th /new pages all still displayed Wednesday, 11 November 2026. arXiv User Support states that there was no announcement on Wednesday, 11 November because of Veterans Day, and that submissions accepted from 14:00 ET Tuesday through 14:00 ET Thursday would instead be announced Thursday, 12 November at 20:00 ET, corresponding to the 13 November UTC listing. Therefore the eligible first-announcement inventory for 12 November is empty; no replacement, new cross-list or older paper was relabelled as a new daily highlight.",
+  "topics": [
+    "arXiv date control",
+    "holiday-deferred announcement"
+  ],
+  "papers": [],
+  "news_count": 0,
+  "science_radar_count": 0,
+  "listing_statistics": {
+    "date": "2026-11-12",
+    "basis": "new_primary_submissions",
+    "counts": {
+      "astro-ph": 0,
+      "hep-ph": 0,
+      "hep-ex": 0,
+      "hep-th": 0,
+      "gr-qc": 0,
+      "nucl-ex": 0,
+      "nucl-th": 0
+    },
+    "astro_subcategories": {
+      "astro-ph.CO": 0,
+      "astro-ph.EP": 0,
+      "astro-ph.GA": 0,
+      "astro-ph.HE": 0,
+      "astro-ph.IM": 0,
+      "astro-ph.SR": 0
+    },
+    "sources": [
+      "https://arxiv-org.atlassian.net/servicedesk/customer/portal/1",
+      "https://arxiv.org/list/astro-ph/new",
+      "https://arxiv.org/list/hep-ph/new",
+      "https://arxiv.org/list/hep-ex/new",
+      "https://arxiv.org/list/hep-th/new",
+      "https://arxiv.org/list/gr-qc/new",
+      "https://arxiv.org/list/nucl-ex/new",
+      "https://arxiv.org/list/nucl-th/new"
+    ],
+    "verified_at": "2026-11-12T08:15:35+01:00",
+    "note": "Zeroes denote a verified absence of a 12 November announcement batch, not counts inferred from selected papers. The next combined announcement is scheduled for 12 November at 20:00 ET and belongs to the 13 November UTC listing."
+  },
+  "sections": {
+    "ArXiv Highlights": "No new arXiv batch was announced for **12 November 2026**. arXiv's [official support notice](https://arxiv-org.atlassian.net/servicedesk/customer/portal/1) states that the Wednesday, 11 November announcement was suspended for Veterans Day; papers accepted during the extended interval are scheduled for announcement on Thursday, 12 November at 20:00 ET, which belongs to the **13 November UTC listing**. Consequently, there are no eligible first-announced papers to highlight for this edition."
+  }
+}

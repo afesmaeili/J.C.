@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-12",
+  "part": "arxiv-screening",
+  "cutoff": "2026-11-12T08:15:35+01:00",
+  "target_basis": "papers first announced in the 2026-11-12 UTC arXiv listing batch",
+  "announcement_evidence": {
+    "status": "no_batch",
+    "official_notice": "https://arxiv-org.atlassian.net/servicedesk/customer/portal/1",
+    "notice_text": "Wednesday, November 11, 2026: no announcement. Articles accepted at or after 14:00 ET Tuesday, November 10 and before 14:00 ET Thursday, November 12 will be announced Thursday, November 12 at 20:00 ET.",
+    "next_announcement_utc_listing_date": "2026-11-13"
+  },
+  "listings": [
+    {"category": "astro-ph", "url": "https://arxiv.org/list/astro-ph/new", "displayed_date_at_cutoff": "2026-11-11", "eligible_new_primary_submissions": 0},
+    {"category": "hep-ph", "url": "https://arxiv.org/list/hep-ph/new", "displayed_date_at_cutoff": "2026-11-11", "eligible_new_primary_submissions": 0},
+    {"category": "hep-ex", "url": "https://arxiv.org/list/hep-ex/new", "displayed_date_at_cutoff": "2026-11-11", "eligible_new_primary_submissions": 0},
+    {"category": "hep-th", "url": "https://arxiv.org/list/hep-th/new", "displayed_date_at_cutoff": "2026-11-11", "eligible_new_primary_submissions": 0},
+    {"category": "gr-qc", "url": "https://arxiv.org/list/gr-qc/new", "displayed_date_at_cutoff": "2026-11-11", "eligible_new_primary_submissions": 0},
+    {"category": "nucl-ex", "url": "https://arxiv.org/list/nucl-ex/new", "displayed_date_at_cutoff": "2026-11-11", "eligible_new_primary_submissions": 0},
+    {"category": "nucl-th", "url": "https://arxiv.org/list/nucl-th/new", "displayed_date_at_cutoff": "2026-11-11", "eligible_new_primary_submissions": 0}
+  ],
+  "inventory": [],
+  "counts": {
+    "screened_unique_first_announcements": 0,
+    "selected": 0,
+    "full_text_reviewed": 0,
+    "unresolved_high_priority": 0
+  },
+  "second_topic_pass": {
+    "topics": [
+      "UHECRs",
+      "particle acceleration and propagation",
+      "multimessenger sources",
+      "gamma-ray cascades",
+      "astrophysical neutrinos",
+      "neutrino oscillations",
+      "cosmology",
+      "dark matter",
+      "substantive BSM and experiment results"
+    ],
+    "result": "No eligible 12 November first-announcement inventory existed to rescreen."
+  },
+  "access_gaps": [],
+  "notes": [
+    "The mutable /new pages were not used alone to infer the absence of a batch; the official holiday announcement notice independently verifies it.",
+    "The papers visible on the category pages belong to the 11 November listing and were excluded.",
+    "Replacements and older papers receiving new cross-lists were ineligible by the daily selection rule."
+  ]
+}
