@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-12",
+  "part": "news",
+  "cutoff": "2026-11-12T08:05:00+01:00",
+  "window_start": "2026-11-11T08:05:00+01:00",
+  "field_news_checks": {
+    "physics_and_particle_physics": ["CERN News", "CERN experiments", "Fermilab/DOE searches", "Nature physics and astronomy news"],
+    "missions_and_observatories": ["NASA astrophysics", "ESA Space Science", "ESO press releases", "Rubin Observatory", "Simons Observatory"],
+    "excluded_as_owned_by_alerts": ["GCN", "ATel", "IceCube/KM3NeT alerts", "GRB, FRB and Einstein Probe follow-up", "GraceDB/LVK alerts"]
+  },
+  "radar_checks": {
+    "mathematics": ["Quanta mathematics", "Georgia Tech mathematics"],
+    "ai_assisted_science": ["Google DeepMind AlphaGenome 2 preprint", "Nature independent report", "bioRxiv promoter-perturbation scrutiny"],
+    "biology_and_genetics": ["Nature research and news", "AlphaGenome 2 full preprint"],
+    "chemistry_and_materials": ["Nature Chemistry and Nature energy-storage listings", "full iodine-electrolyte article"],
+    "geology_and_palaeontology": ["Nature geology and palaeontology listings", "Hebei gneiss primary article and expert commentary"],
+    "neuroscience": ["Nature neuroscience listing", "UNC13A full open-access article"],
+    "medicine": ["JAMA online-first", "ClinicalTrials.gov", "NIH background announcement"]
+  },
+  "selection_notes": "No fixed quota. Selected items required same-window publication, primary or authoritative evidence, scientific consequence and enough accessible methods/results to support quantitative statements. Routine publicity, republished older milestones, astrophysical alerts and likely arXiv-highlight duplicates were excluded.",
+  "access_gaps": [
+    "Some Nature HTML requests redirected to an inaccessible identity service; indexed article text or open PDFs were used for selected items.",
+    "Searches did not identify a qualifying primary mathematics result newly published in the window.",
+    "The astronomy/instrument sweep may not capture announcements absent from indexed official feeds by the cutoff."
+  ],
+  "primary_sources": [
+    "https://www.nature.com/articles/d41586-026-03633-8",
+    "https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/alphagenome-2.pdf",
+    "https://www.nature.com/articles/s41586-026-11256-2",
+    "https://jamanetwork.com/journals/jama/article-abstract/2856697",
+    "https://www.nature.com/articles/s41586-026-11280-2",
+    "https://www.nature.com/articles/s41586-026-11282-0"
+  ]
+}
