@@ -1,0 +1,215 @@
+{
+  "date": "2026-11-13",
+  "part": "alerts",
+  "status": "partial",
+  "cutoff": "2026-11-13T09:52:14+01:00",
+  "window_start_utc": "2026-11-12T06:58:43Z",
+  "window_end_utc": "2026-11-13T08:52:14Z",
+  "previous_part": "content-parts/2026-11-12/alerts.json",
+  "selected_story_count": 5,
+  "sources": [
+    {
+      "name": "GCN Circulars",
+      "url": "https://gcn.nasa.gov/circulars",
+      "checked_range": "46234–46243 inclusive",
+      "latest_seen": 46243,
+      "result": "All ten scientific bodies read directly; index rechecked at cutoff; no separate retraction in this range. GCN 46243 contains a source-ID and timing inconsistency explicitly preserved in the scientific text."
+    },
+    {
+      "name": "Astronomer’s Telegram",
+      "url": "https://www.astronomerstelegram.org/",
+      "latest_seen": 18153,
+      "page_clock_utc": "2026-11-13T08:46:00Z",
+      "latest_report_utc": "2026-11-11T19:14:00Z",
+      "checked_range": "Index newest entries; no new number beyond the prior verified 18153 was exposed",
+      "result": "No newly posted telegram exposed by this index snapshot; prior FRB18153 story not duplicated."
+    },
+    {
+      "name": "IceCube Circulars and institutional source",
+      "urls": [
+        "https://gcn.nasa.gov/circulars?query=IceCube",
+        "https://icecube.wisc.edu/",
+        "https://icecube.wisc.edu/science/real-time-alerts/",
+        "https://gcn.nasa.gov/missions/icecube"
+      ],
+      "result": "Latest exposed track alert remains IceCube-261020A; current Kafka stream not independently enumerated."
+    },
+    {
+      "name": "IceCube Gold/Bronze",
+      "url": "https://gcn.gsfc.nasa.gov/amon_icecube_gold_bronze_events.html",
+      "latest_seen": "143317_9424183 revision 1, event time 2026-10-20T03:58:53.39Z",
+      "result": "No November event in exposed table; this does not establish complete Kafka coverage."
+    },
+    {
+      "name": "IceCube cascades",
+      "url": "https://gcn.gsfc.nasa.gov/amon_icecube_cascade_events.html",
+      "latest_seen": "143029_33795562, event time 2026-08-24T01:40:08.90Z",
+      "result": "No in-window record in exposed legacy table."
+    },
+    {
+      "name": "AMON neutrino/EM coincidences",
+      "url": "https://gcn.gsfc.nasa.gov/amon_nu_em_coinc_events.html",
+      "latest_seen": "0_195643, event time 2026-01-17T09:38:48Z",
+      "result": "No in-window record in exposed legacy table."
+    },
+    {
+      "name": "HAWC legacy alerts",
+      "url": "https://gcn.gsfc.nasa.gov/amon_hawc_events.html",
+      "latest_seen": "10011394_3758, event time 2023-05-27T11:19:48Z",
+      "result": "Historical table cannot establish current detector quiet."
+    },
+    {
+      "name": "GraceDB",
+      "url": "https://gracedb.ligo.org/latest/",
+      "snapshot_utc": "2026-11-10T12:54:58Z",
+      "latest_seen": "S251118cm, displayed 2025-11-18T12:41:31Z",
+      "result": "Stale snapshot does not establish current-window production-event completeness. Alternate /superevents/ returned 404; Kafka igwn.gwalert was not enumerated."
+    },
+    {
+      "name": "LVK legacy notices",
+      "url": "https://gcn.gsfc.nasa.gov/lvc_events.html",
+      "result": "Timed out twice; GCN mission directory additionally labels this legacy archive no longer updated."
+    },
+    {
+      "name": "Fermi notices",
+      "url": "https://gcn.gsfc.nasa.gov/fermi_grbs.html",
+      "result": "Timed out twice; all new GCN Circulars were read, but a full trigger-table enumeration was unavailable."
+    },
+    {
+      "name": "Swift notices",
+      "url": "https://gcn.gsfc.nasa.gov/swift_grbs.html",
+      "result": "Initial response identified 1157 lines but provided no event rows; subsequent open/find retrievals timed out. No current notice range is claimed."
+    },
+    {
+      "name": "SVOM notices",
+      "url": "https://fsc.svom.org/home",
+      "result": "Frontend returned no readable text; all new SVOM Circulars were read."
+    },
+    {
+      "name": "KM3NeT",
+      "urls": [
+        "https://www.km3net.org/category/archive/",
+        "https://gcn.nasa.gov/missions",
+        "https://gcn.nasa.gov/circulars?query=KM3NeT"
+      ],
+      "result": "Official news archive newest entry was 3 November; GCN lists KM3NeT as onboarding. GCN keyword endpoint failed on two attempts. No complete public live-alert ledger was available; primary-site searches exposed no qualifying in-window alert."
+    },
+    {
+      "name": "Ground arrays and cosmic-ray facilities",
+      "urls": [
+        "https://public.hawc-observatory.org/news/",
+        "https://www.auger.org/",
+        "https://www.telescopearray.org/",
+        "https://lhaaso.ihep.ac.cn/",
+        "https://magic.mpp.mpg.de/",
+        "https://www.mpi-hd.mpg.de/hfm/HESS/",
+        "https://veritas.sao.arizona.edu/"
+      ],
+      "result": "Targeted date-limited web searches of these official domains, plus GCN/ATel screening, exposed no qualifying new event report. This was a targeted search, not an exhaustive enumeration of all facility records. HAWC news result concerned an earlier archival study (4 November) and was excluded."
+    }
+  ],
+  "circulars": [
+    {
+      "id": 46234,
+      "reported_at_utc": "2026-11-12T08:18:22Z",
+      "event": "GRB 261110A",
+      "disposition": "Prompt spectrum, fluence and T90; selected",
+      "url": "https://gcn.nasa.gov/circulars/46234",
+      "evidence": "Direct circular body read"
+    },
+    {
+      "id": 46235,
+      "reported_at_utc": "2026-11-12T09:58:53Z",
+      "event": "EP261111a",
+      "disposition": "Refined onset, localization and X-ray spectra; selected",
+      "url": "https://gcn.nasa.gov/circulars/46235",
+      "evidence": "Direct circular body read"
+    },
+    {
+      "id": 46236,
+      "reported_at_utc": "2026-11-12T11:41:14Z",
+      "event": "EP261111a",
+      "disposition": "LCO limits; grouped",
+      "url": "https://gcn.nasa.gov/circulars/46236",
+      "evidence": "Direct circular body read"
+    },
+    {
+      "id": 46237,
+      "reported_at_utc": "2026-11-12T11:43:24Z",
+      "event": "EP261111a",
+      "disposition": "SYSU J/K limits; grouped",
+      "url": "https://gcn.nasa.gov/circulars/46237",
+      "evidence": "Direct circular body read"
+    },
+    {
+      "id": 46238,
+      "reported_at_utc": "2026-11-12T14:30:37Z",
+      "event": "EP-WXT 01709322455",
+      "disposition": "Likely flare classification; selected",
+      "url": "https://gcn.nasa.gov/circulars/46238",
+      "evidence": "Direct circular body read"
+    },
+    {
+      "id": 46239,
+      "reported_at_utc": "2026-11-12T15:36:27Z",
+      "event": "EP-WXT 01709322455",
+      "disposition": "Read complete text and observation table; shallow MASTER limits not repeated because source classification supersedes unidentified-transient framing",
+      "url": "https://gcn.nasa.gov/circulars/46239",
+      "evidence": "Direct circular body read"
+    },
+    {
+      "id": 46240,
+      "reported_at_utc": "2026-11-12T17:26:34Z",
+      "event": "GRB 261026A",
+      "disposition": "Newly reported 10 November late-time optical observation; selected",
+      "url": "https://gcn.nasa.gov/circulars/46240",
+      "evidence": "Direct circular body read"
+    },
+    {
+      "id": 46241,
+      "reported_at_utc": "2026-11-12T23:00:40Z",
+      "event": "EP261105a",
+      "disposition": "Euclid underlying source and conditional chance alignment; selected",
+      "url": "https://gcn.nasa.gov/circulars/46241",
+      "evidence": "Direct circular body read"
+    },
+    {
+      "id": 46242,
+      "reported_at_utc": "2026-11-12T23:41:17Z",
+      "event": "EP261111a",
+      "disposition": "Tentative optical candidate; grouped",
+      "url": "https://gcn.nasa.gov/circulars/46242",
+      "evidence": "Direct circular body read"
+    },
+    {
+      "id": 46243,
+      "reported_at_utc": "2026-11-13T06:59:31Z",
+      "event": "EP-WXT 01709322455 (body)",
+      "disposition": "Optical fading of G 6-43; grouped; subject/body trigger-ID mismatch and absolute/relative timing discrepancy explicitly retained",
+      "url": "https://gcn.nasa.gov/circulars/46243",
+      "evidence": "Direct circular body read"
+    }
+  ],
+  "selected_events": [
+    "EP261111a",
+    "EP261105a",
+    "GRB 261110A",
+    "GRB 261026A",
+    "EP-WXT 01709322455"
+  ],
+  "source_quality_notes": [
+    "GCN 46243 title names 01709322272, while its body explicitly names 01709322455, cites 46238 and identifies G 6-43.",
+    "GCN 46243 start 2026-11-12T13:32:57.630Z is 10.51 min after the 13:22:27Z trigger, inconsistent with its approximate 6.75-min statement; the uncertain optical timing is not adopted.",
+    "EP261111a WXT light curve interrupted after approximately 60 s; do not equate observed interval with intrinsic duration.",
+    "EP261105a chance-alignment estimate assumes a higher-redshift galaxy and a specified association radius; not a posterior source-identification probability.",
+    "GCN 46240 is a new report of a 10 November observation, not a new 12 November burst."
+  ],
+  "limitations": [
+    "Modern Kafka streams were not independently enumerated.",
+    "GraceDB accessible snapshot does not establish current-window coverage.",
+    "Fermi/LVK legacy notice retrieval failures, Swift event rows unavailable, and SVOM frontend lacked readable records.",
+    "GCN keyword endpoints for KM3NeT/Fermi/Swift/LIGO and attempted event-group endpoints were unavailable; full chronological index and all ten new circular bodies supply the principal source coverage.",
+    "No complete KM3NeT live-alert ledger available.",
+    "No claim of universal messenger quiet is made."
+  ]
+}

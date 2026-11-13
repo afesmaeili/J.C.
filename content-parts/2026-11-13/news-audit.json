@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-13",
+  "part": "news",
+  "cutoff": "2026-11-13T09:57:32+01:00",
+  "window_start": "2026-11-12T08:05:00+01:00",
+  "field_news_checks": {
+    "physics_and_particle_physics": [
+      "CERN News and Experiments: 12 November FCC ecological inventories, innovation/technology-transfer framework, ALICE MFT maintenance, and CMS thesis awards checked; routine operations and awards already presented in September not selected.",
+      "Fermilab newsroom: latest highlighted DUNE construction item dated 10 November.",
+      "Date-specific official IceCube/KM3NeT/CTAO/CERN searches for non-alert mission news.",
+      "Nature physics/astronomy index and date-specific APS-directed searches."
+    ],
+    "missions_and_observatories": [
+      "NASA recent-news and Goddard astrophysics listings; 12 November Hubble lens gallery reviewed, preparatory programme rather than new dark-matter result.",
+      "ESA news, Euclid main release, footprint, spectroscopy and lens catalogue explanations; selected DR1-Foundation.",
+      "Hera 12 November image preview inspected; observation itself not precisely dated in announcement, no completed DART-outcome analysis.",
+      "ESO press-release archive inspected; latest retrieved item 27 October.",
+      "Rubin news dynamic shell and indexed official searches; November 12 supernova-DP2 tutorial not selected.",
+      "Simons Observatory news archive inspected; latest 23 October."
+    ],
+    "community": [
+      "Date-specific physics awards/deaths/meetings queries; CERN CMS thesis awards reported 12 November but presented in September.",
+      "IAS, Simons Foundation and mathematics-institution events distinguished from new research results."
+    ],
+    "excluded_as_owned_by_alerts": [
+      "GCN",
+      "ATel",
+      "event alerts and transient follow-up",
+      "GW notices"
+    ]
+  },
+  "broad_science_checks": {
+    "mathematics": [
+      "QJM advance articles and abstract: Bornological LB-spaces and idempotent adjunctions, published 12 November, preprint 11 November 2025; specialised clarification not selected.",
+      "IAS mathematics event listings and date-specific AMS/Simons/Quanta-directed searches; seminar dates not treated as paper announcement dates.",
+      "Nature mathematics subject feed; recent AI/mathematics commentary was earlier than the coverage window."
+    ],
+    "ai_assisted_science": [
+      "DeepMind latest announcements: AlphaGenome 2 already covered; AlphaProof Code official announcement 10 November despite 12 November syndicated story, not repeated as new.",
+      "Nature AI and computing listings; reviews, benchmarks and conference announcements distinguished from validated scientific discoveries.",
+      "Date-specific science.org, nature.com and research.google searches."
+    ],
+    "biology_and_genetics": [
+      "PLOS Biology primary articles and publisher PDFs; mutation-rate analysis and kelp plasticity selected.",
+      "Nature genetics/biology feeds; Bath, Crick and NIH institutional sources.",
+      "Independent Charlesworth-Jensen population-genetic critique and Monroe et al. 2022 original read for mutation-rate dispute context."
+    ],
+    "chemistry": [
+      "Nature Chemistry, Communications Chemistry, ACS/C&EN, Chemistry World/RSC and Beilstein directed searches.",
+      "Recent review/practical chemistry coverage and older primary discoveries excluded.",
+      "Mo/V iron-mineral partitioning experiments selected at geology/chemistry/early-life interface."
+    ],
+    "geology_and_palaeontology": [
+      "Nature Earth-sciences, geology and Nature Communications Earth/environment feeds inspected.",
+      "Hao et al. Nature Communications Mo/V final article-in-press PDF and public peer-review file reviewed.",
+      "Shallow-marine fossil-record map in 12 November syndication traced to 23 September Science Advances article; excluded as old research.",
+      "Taung coverage and 11 November Hebei rocks distinguished from same-window new publications."
+    ],
+    "neuroscience": [
+      "NIH, Allen and Salk atlas announcements and Cell framework DOI; atlas story explicitly announcement-based because Cell access failed.",
+      "Nature Neuroscience pain GWAS published PDF reviewed.",
+      "Gladstone BBB protein-atlas headline traced to 11 November original, excluded."
+    ],
+    "medicine": [
+      "Intellia 12 November primary release and Nature independent report; planned November 13–14 presentations kept separate.",
+      "Nature medical news and NEJM-related searches.",
+      "RSV November 12 feature traced to July 2026 Danish primary study, not new research.",
+      "Ebola mobility reconstruction primary paper not recovered after retries; specific unresolved coverage gap.",
+      "NIH PFAS breast-cancer report traced to 5 November original despite later syndication."
+    ]
+  },
+  "selection_notes": "No quota or filler. Selected same-window authoritative releases or primary publications with scientific substance. Exactly seven #### headings; no arXiv metadata and no alerts. Ordinary source URLs retained. News covers broad sciences under one Science News key. Prior November 12 stories checked for duplication.",
+  "access_gaps": [
+    "Original Ebola mobility reconstruction DOI 10.1126/science.aej4586 cited in Nature 12 November news: DOI/direct Science retrieval failed, targeted primary-source/PubMed search did not recover it. No primary-verified quantitative claims included.",
+    "Cell atlas full papers inaccessible; institutional announcements and bibliographic records only. Package article totals differ between Allen/NIH/Salk, so article count deliberately omitted.",
+    "Rubin direct news archive renders a dynamic loading shell; indexed official sources checked but archive completeness not verified.",
+    "Science current issue returned 403; direct alternate attempt failed. Coverage does not imply complete Science screening.",
+    "Chemistry World robot-verification wall. Chemistry field was searched through other publishers; no claim of verified absence.",
+    "Nature and PLOS web-tool failures were partly resolved with direct published-PDF downloads for Mo/V, pain and kelp; abstract-only labels do not apply to those three final selected assessments.",
+    "Unconventional magnetism Newton paper DOI10.1016/j.newton.2026.100735: journal retrieval failed; March 8 arXiv v1 inspected, with 63 even-parity candidates versus 60 in November institutional syndication. Not selected; numerical discrepancy unresolved.",
+    "Atmospheric dissolved organic carbon article DOI10.1038/s43247-026-04209-0: page failed after retry; not assessed beyond abstract, not selected."
+  ],
+  "primary_sources": [
+    "https://www.esa.int/articles/about-us/directorates/science/euclid/euclid-lays-the-foundation-for-its-best-ever-3d-map-of-the-universe",
+    "https://www.esa.int/media/about-us/directorates/science/euclid/euclid-s-wide-and-deep-surveys-dr1-foundation",
+    "https://doi.org/10.1016/j.cell.2026.10.031",
+    "https://alleninstitute.org/news/scientists-create-landmark-cellular-atlas-of-one-of-the-brains-most-important-regions",
+    "https://www.salk.edu/news-release/brain-initiative-scientists-map-human-basal-ganglia/",
+    "https://www.nih.gov/news-events/news-releases/first-time-researchers-map-out-brains-behavioral-gatekeeper",
+    "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004089",
+    "https://www.nature.com/articles/s41593-026-02455-1",
+    "https://www.nature.com/articles/s41593-026-02455-1.pdf",
+    "https://intelliatherapeutics.gcs-web.com/news-releases/news-release-details/intellia-therapeutics-presents-additional-positive-clinical-and",
+    "https://www.nature.com/articles/s41467-026-79171-8",
+    "https://www.nature.com/articles/s41467-026-79171-8_reference.pdf",
+    "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-026-79171-8/MediaObjects/41467_2026_79171_MOESM5_ESM.pdf",
+    "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004065",
+    "https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.3004065&type=printable"
+  ],
+  "independent_scrutiny": [
+    {
+      "topic": "Adaptive mutation claims",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9907473/",
+      "scope": "Charlesworth and Jensen population-genetic critique, distinct from direct microbial tests."
+    },
+    {
+      "topic": "Mo/V ancient seawater inference",
+      "source": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-026-79171-8/MediaObjects/41467_2026_79171_MOESM5_ESM.pdf",
+      "scope": "Anonymous referee concerns about pH, other mineral precursors, modern calibration and local-versus-global inference; final-paper responses/limitations checked."
+    },
+    {
+      "topic": "In-vivo CRISPR clinical follow-up",
+      "source": "https://www.nature.com/articles/d41586-026-03705-9",
+      "scope": "Independent safety context; results attributed to sponsor and approval explicitly pending."
+    }
+  ]
+}
