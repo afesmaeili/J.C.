@@ -12228,5 +12228,23 @@
     }
   },
   "previous_part_cutoff": "2026-11-12T08:15:35+01:00",
-  "status": "complete"
+  "status": "complete",
+  "presentation_corrections": [
+    {
+      "date": "2026-11-14",
+      "scope": "ArXiv Highlights mathematical delimiters",
+      "change": "Converted 420 inline and 2 display dollar-delimited expressions to the existing renderer-supported parenthesis/bracket TeX delimiters. Mathematical payloads, numerical claims, bibliography, paper metadata, cutoffs and selection decisions are unchanged.",
+      "validation": "All422 converted expressions pass the vendored latex2mathml converter; no unescaped dollar delimiters remain. No currency or literal-dollar content was present."
+    },
+    {
+      "date": "2026-11-14",
+      "scope": "Paper disclosure boundaries",
+      "change": "Moved all58 stable paper anchors immediately before their own heading so each generated disclosure includes its own title and excludes the following paper title. IDs, metadata, scientific text and selection decisions are unchanged."
+    },
+    {
+      "date": "2026-11-14",
+      "scope": "Four bibliographic metadata titles in text-only search cards",
+      "change": "Rendered mathematical title tokens for2611.15881,2611.15973,2611.16347 and2611.17010 in readable Unicode/plain notation. Title meaning, authors, identifiers and scientific bodies are unchanged; body headings retain full rendered mathematics."
+    }
+  ]
 }
