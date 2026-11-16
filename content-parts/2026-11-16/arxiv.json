@@ -1,0 +1,659 @@
+{
+  "date": "2026-11-16",
+  "part": "arxiv",
+  "status": "partial",
+  "cutoff": "2026-11-16T08:14:10+01:00",
+  "coverage": "All seven dated 2026-11-16 catchup listings retrieved with their full new, cross-list and replacement sections. Titles and abstracts screened for 149 unique new-primary entries plus 37 additional unique cross-listed entries (186 total), followed by a second topical pass. Six unique papers selected and their complete main PDFs read; zero unresolved high-priority candidates. All selected first-announcement dates verified against dated new-primary listings and v1 histories. Replacements excluded. Partial access: separately referenced supplemental derivations for 2611.17721 were not available in the retrieved main PDF; no supplemental-reading claim. Historical-source reading scopes vary and are documented. No retrospective batch substitution.",
+  "topics": [
+    "Astroparticle physics",
+    "Astrophysical neutrinos",
+    "Dark matter–neutrino scattering",
+    "Relativistic jets",
+    "Nuclear dipole response",
+    "Solar neutrinos",
+    "Gamma-ray bursts"
+  ],
+  "papers": [
+    {
+      "id": "paper-2611-18268",
+      "arxiv": "2611.18268",
+      "title": "Magnetic kink instability of jet-wind outflows. I. Static column configuration",
+      "authors": "Krishna Kumar, Serguei S. Komissarov",
+      "primary_category": "astro-ph.HE",
+      "label": "Relativistic-MHD mechanism",
+      "teaser": "A kink can entrain wind material into a highly magnetized column, with important numerical and dynamical qualifications.",
+      "tags": [
+        "astro-ph.HE"
+      ],
+      "arxiv_url": "https://arxiv.org/abs/2611.18268v1",
+      "submission_date": "2026-11-13",
+      "first_announcement_date": "2026-11-16",
+      "version": "v1",
+      "publication_status": "arXiv v1 preprint; journal publication not verified at cutoff.",
+      "full_text_access": {
+        "status": "read_full_text",
+        "url": "https://arxiv.org/pdf/2611.18268v1",
+        "scope": "Complete main PDF read, including methods, equations, results, limitations, figure captions and included appendices. Separately supplied supplements are not implied."
+      },
+      "source_audit": {
+        "eligibility": "Listed in the new-primary-submissions section of the dated 2026-11-16 catchup page; arXiv history contains v1 dated 2026-11-13 and no later version at cutoff.",
+        "listing_url": "https://arxiv.org/catchup/astro-ph/2026-11-16?abs=True",
+        "version_history_url": "https://arxiv.org/abs/2611.18268v1",
+        "submission_utc": "2026-11-13T15:01:23+00:00",
+        "first_announcement_date": "2026-11-16",
+        "version_history_excerpt": "Submission history From: Krishna Kumar [ view email ] [v1] Fri, 13 Nov 2026 15:01:23 UTC (12,102 KB)",
+        "abs_sha256": "6ef4dbb7d4ef0f253a4d005da598f9af93070056129d95150d03794b46bd1b95",
+        "pdf_sha256": "d2a2898e8bc90d9ea6f91a43b5fa6c8eda3943137649f7468af8bea28883b31e",
+        "verified_at": "2026-11-16T08:14:10+01:00",
+        "history_sources": [
+          {
+            "url": "https://arxiv.org/abs/0903.5358v1",
+            "reading_scope": "Main introduction, setup, results and discussion relevant to pitch dependence, pp. 1–3 and 11.",
+            "discovery": "Independent primary-literature search; cited/uncited status not asserted."
+          },
+          {
+            "url": "https://doi.org/10.1093/mnras/stx1165",
+            "reading_scope": "Primary full-text introduction and section 4.1 on global jet dissipation; not a cover-to-cover review.",
+            "discovery": "Independent primary-literature search; cited/uncited status not asserted."
+          }
+        ],
+        "independent_results": 1,
+        "correlated_highlight_ids": []
+      }
+    },
+    {
+      "id": "paper-2611-17604",
+      "arxiv": "2611.17604",
+      "title": "Resonant Trapping of Neutrinophilic Dark Matter in Supernovae",
+      "authors": "Christopher V. Cappiello, P. S. Bhupal Dev, Amol V. Patwardhan",
+      "primary_category": "hep-ph",
+      "label": "Model-dependent cooling constraint",
+      "teaser": "A resonance in dark-matter opacity can weaken supernova cooling exclusions instead of enhancing them.",
+      "tags": [
+        "hep-ph"
+      ],
+      "arxiv_url": "https://arxiv.org/abs/2611.17604v1",
+      "submission_date": "2026-11-13",
+      "first_announcement_date": "2026-11-16",
+      "version": "v1",
+      "publication_status": "arXiv v1 preprint; journal publication not verified at cutoff.",
+      "full_text_access": {
+        "status": "read_full_text",
+        "url": "https://arxiv.org/pdf/2611.17604v1",
+        "scope": "Complete main PDF read, including methods, equations, results, limitations, figure captions and included appendices. Separately supplied supplements are not implied."
+      },
+      "source_audit": {
+        "eligibility": "Listed in the new-primary-submissions section of the dated 2026-11-16 catchup page; arXiv history contains v1 dated 2026-11-13 and no later version at cutoff.",
+        "listing_url": "https://arxiv.org/catchup/hep-ph/2026-11-16?abs=True",
+        "version_history_url": "https://arxiv.org/abs/2611.17604v1",
+        "submission_utc": "2026-11-13T00:01:16+00:00",
+        "first_announcement_date": "2026-11-16",
+        "version_history_excerpt": "Submission history From: Christopher Cappiello [ view email ] [v1] Fri, 13 Nov 2026 00:01:16 UTC (3,757 KB)",
+        "abs_sha256": "72802abaf21f2efe9736be2b079a398b3f3a8857e2bd90493ee638945d860d76",
+        "pdf_sha256": "859724762eef77ec8b7c37127a46c835ccb6141a13dbe2e5fb4746176c08c49a",
+        "verified_at": "2026-11-16T08:14:10+01:00",
+        "history_sources": [
+          {
+            "url": "https://arxiv.org/abs/2503.09691v3",
+            "reading_scope": "v1 methods pp. 1–4 and v3 opening/version evidence; interaction-channel comparison, not a claim of full v3 review.",
+            "discovery": "Independent primary-literature search; cited/uncited status not asserted."
+          },
+          {
+            "url": "https://doi.org/10.1103/PhysRevD.103.103005",
+            "reading_scope": "Primary publisher abstract read; used only for the established existence and type of dark-sector trapping work.",
+            "discovery": "Independent primary-literature search; cited/uncited status not asserted."
+          }
+        ],
+        "independent_results": 1,
+        "correlated_highlight_ids": []
+      }
+    },
+    {
+      "id": "paper-2611-17922",
+      "arxiv": "2611.17922",
+      "title": "Improved Bounds on the Dark Matter-Neutrino Cross Section using LSBGs",
+      "authors": "Akari Suezaki, Shunsaku Horiuchi",
+      "primary_category": "hep-ph",
+      "label": "Halo-based scattering constraint",
+      "teaser": "A corrected scattering probability changes the dwarf-galaxy baseline and strengthens the case for low-surface-brightness targets.",
+      "tags": [
+        "hep-ph"
+      ],
+      "arxiv_url": "https://arxiv.org/abs/2611.17922v1",
+      "submission_date": "2026-11-13",
+      "first_announcement_date": "2026-11-16",
+      "version": "v1",
+      "publication_status": "arXiv v1 preprint; journal publication not verified at cutoff.",
+      "full_text_access": {
+        "status": "read_full_text",
+        "url": "https://arxiv.org/pdf/2611.17922v1",
+        "scope": "Complete main PDF read, including methods, equations, results, limitations, figure captions and included appendices. Separately supplied supplements are not implied."
+      },
+      "source_audit": {
+        "eligibility": "Listed in the new-primary-submissions section of the dated 2026-11-16 catchup page; arXiv history contains v1 dated 2026-11-13 and no later version at cutoff.",
+        "listing_url": "https://arxiv.org/catchup/hep-ph/2026-11-16?abs=True",
+        "version_history_url": "https://arxiv.org/abs/2611.17922v1",
+        "submission_utc": "2026-11-13T09:02:12+00:00",
+        "first_announcement_date": "2026-11-16",
+        "version_history_excerpt": "Submission history From: Akari Suezaki [ view email ] [v1] Fri, 13 Nov 2026 09:02:12 UTC (1,640 KB)",
+        "abs_sha256": "caefb516163fa8e8346f3faefad6839c04aa64aaa61662e79a11425ddb3a04f4",
+        "pdf_sha256": "ef291ebbe37c8b443793a6468516926c32c2a7e05507b44e0b2e64f7146fd1fe",
+        "verified_at": "2026-11-16T08:14:10+01:00",
+        "history_sources": [
+          {
+            "url": "https://arxiv.org/abs/2402.08718v2",
+            "reading_scope": "v1 method plus published v2 pp. 1, 6–7; numerical comparison uses v2, not obsolete v1 limits.",
+            "discovery": "Independent primary-literature search; cited/uncited status not asserted."
+          },
+          {
+            "url": "https://arxiv.org/abs/2505.03882v1",
+            "reading_scope": "Main opening and pp. 5–6 methods/constraints read; explicit v1 comparison, not a claim to verify all subsequent versions.",
+            "discovery": "Independent primary-literature search; cited/uncited status not asserted."
+          }
+        ],
+        "independent_results": 1,
+        "correlated_highlight_ids": []
+      }
+    },
+    {
+      "id": "paper-2611-17721",
+      "arxiv": "2611.17721",
+      "title": "Self-Consistent Subtracted Second Quasiparticle Random-Phase Approximation for Dipole Responses in Neutron-Rich Oxygen Isotopes",
+      "authors": "M.J. Yang, X. Lian, C.L. Bai, C.L. Zhang, H. Sagawa, H. Q. Zhang",
+      "primary_category": "nucl-th",
+      "label": "Nuclear-response method",
+      "teaser": "Complex quasiparticle configurations improve oxygen dipole energies while leaving absolute strengths substantially underestimated.",
+      "tags": [
+        "nucl-th"
+      ],
+      "arxiv_url": "https://arxiv.org/abs/2611.17721v1",
+      "submission_date": "2026-11-13",
+      "first_announcement_date": "2026-11-16",
+      "version": "v1",
+      "publication_status": "arXiv v1 preprint; journal publication not verified at cutoff.",
+      "full_text_access": {
+        "status": "read_full_text",
+        "url": "https://arxiv.org/pdf/2611.17721v1",
+        "scope": "Complete main PDF read, including methods, equations, results, limitations, figure captions and included appendices. Separately supplied supplements are not implied."
+      },
+      "source_audit": {
+        "eligibility": "Listed in the new-primary-submissions section of the dated 2026-11-16 catchup page; arXiv history contains v1 dated 2026-11-13 and no later version at cutoff.",
+        "listing_url": "https://arxiv.org/catchup/nucl-th/2026-11-16?abs=True",
+        "version_history_url": "https://arxiv.org/abs/2611.17721v1",
+        "submission_utc": "2026-11-13T04:04:16+00:00",
+        "first_announcement_date": "2026-11-16",
+        "version_history_excerpt": "Submission history From: Chun-Lin Bai [ view email ] [v1] Fri, 13 Nov 2026 04:04:16 UTC (48 KB)",
+        "abs_sha256": "e680b0b961425b4a8ebc8c9928c6cb66c85765b5fe852a7d8284d3e1dd0a1ddb",
+        "pdf_sha256": "2b8462ee7b474a48e970249d7b8d988a3c4b41276d2d6d91fa7f88bbcf85ba24",
+        "verified_at": "2026-11-16T08:14:10+01:00",
+        "history_sources": [
+          {
+            "url": "https://arxiv.org/abs/1308.1429v1",
+            "reading_scope": "Opening and stability/subtraction theorem, pp. 1 and 6.",
+            "discovery": "Independent primary-literature search; cited/uncited status not asserted."
+          },
+          {
+            "url": "https://arxiv.org/abs/1506.05975v1",
+            "reading_scope": "Methods/introduction pp. 1–2 and results/conclusions pp. 8–9.",
+            "discovery": "Independent primary-literature search; cited/uncited status not asserted."
+          }
+        ],
+        "independent_results": 1,
+        "correlated_highlight_ids": [],
+        "access_gap": "Separately referenced supplemental derivations not present in retrieved main PDF and not independently verified."
+      }
+    },
+    {
+      "id": "paper-2611-17651",
+      "arxiv": "2611.17651",
+      "title": "$^8$B Solar Neutrino Measurements of Solar Core Size and Temperature from 5805 Days of Super-Kamiokande",
+      "authors": "The Super-Kamiokande Collaboration (Y. Jiang et al.)",
+      "primary_category": "hep-ex",
+      "label": "Conditional solar-neutrino inference",
+      "teaser": "Long-exposure spectral data constrain a model-defined solar core radius; inconsistent v1 temperature statements require clarification.",
+      "tags": [
+        "hep-ex"
+      ],
+      "arxiv_url": "https://arxiv.org/abs/2611.17651v1",
+      "submission_date": "2026-11-13",
+      "first_announcement_date": "2026-11-16",
+      "version": "v1",
+      "publication_status": "arXiv v1 preprint; journal publication not verified at cutoff.",
+      "full_text_access": {
+        "status": "read_full_text",
+        "url": "https://arxiv.org/pdf/2611.17651v1",
+        "scope": "Complete main PDF read, including methods, equations, results, limitations, figure captions and included appendices. Separately supplied supplements are not implied."
+      },
+      "source_audit": {
+        "eligibility": "Listed in the new-primary-submissions section of the dated 2026-11-16 catchup page; arXiv history contains v1 dated 2026-11-13 and no later version at cutoff.",
+        "listing_url": "https://arxiv.org/catchup/hep-ex/2026-11-16?abs=True",
+        "version_history_url": "https://arxiv.org/abs/2611.17651v1",
+        "submission_utc": "2026-11-13T01:48:58+00:00",
+        "first_announcement_date": "2026-11-16",
+        "version_history_excerpt": "Submission history From: Yifan Jiang [ view email ] [v1] Fri, 13 Nov 2026 01:48:58 UTC (69 KB)",
+        "abs_sha256": "6226a41cba472702fdebe9f0296528ef7b77d101785841fae1de813a94b06262",
+        "pdf_sha256": "1ba410e0fe67215e8e816e18b95d240d501748e1e7fdb80e85f7384c9d0ce675",
+        "verified_at": "2026-11-16T08:14:10+01:00",
+        "history_sources": [
+          {
+            "url": "https://arxiv.org/abs/2504.10583v1",
+            "reading_scope": "Main method and discussion pp. 1–3 and 8.",
+            "discovery": "Independent primary-literature search; cited/uncited status not asserted."
+          },
+          {
+            "url": "https://doi.org/10.1103/PhysRevLett.117.211101",
+            "reading_scope": "Primary publisher abstract on the angular-imaging forecast; not a full-text review.",
+            "discovery": "Independent primary-literature search; cited/uncited status not asserted."
+          }
+        ],
+        "independent_results": 1,
+        "correlated_highlight_ids": [],
+        "material_source_caveats": [
+          "Inconsistent production-zone temperatures in abstract, main text/conclusion and Table V.",
+          "Printed temperature–flux exponent direction requires clarification; conditional temperature uncertainty is not a full stellar-model uncertainty."
+        ]
+      }
+    },
+    {
+      "id": "paper-2611-18210",
+      "arxiv": "2611.18210",
+      "title": "Discovery of a Short-Duration Fast X-ray Transient Associated with a Short Gamma-Ray Burst",
+      "authors": "Yi-Han Iris Yin, Run-Duo Liang, Hui Sun, Jun Yang, Haiwu Pan, Yong-Feng Huang, Jirong Mao, Bin-Bin Zhang, Cui-Yuan Dai, Xiang-Yu Wang, Weimin Yuan, Bing Zhang",
+      "primary_category": "astro-ph.HE",
+      "label": "Archival X-ray/GRB association",
+      "teaser": "A brief X-ray counterpart extends short-GRB phenomenology, with association significance distinct from source detection.",
+      "tags": [
+        "astro-ph.HE"
+      ],
+      "arxiv_url": "https://arxiv.org/abs/2611.18210v1",
+      "submission_date": "2026-11-13",
+      "first_announcement_date": "2026-11-16",
+      "version": "v1",
+      "publication_status": "arXiv v1 preprint; journal publication not verified at cutoff.",
+      "full_text_access": {
+        "status": "read_full_text",
+        "url": "https://arxiv.org/pdf/2611.18210v1",
+        "scope": "Complete main PDF read, including methods, equations, results, limitations, figure captions and included appendices. Separately supplied supplements are not implied."
+      },
+      "source_audit": {
+        "eligibility": "Listed in the new-primary-submissions section of the dated 2026-11-16 catchup page; arXiv history contains v1 dated 2026-11-13 and no later version at cutoff.",
+        "listing_url": "https://arxiv.org/catchup/astro-ph/2026-11-16?abs=True",
+        "version_history_url": "https://arxiv.org/abs/2611.18210v1",
+        "submission_utc": "2026-11-13T14:15:29+00:00",
+        "first_announcement_date": "2026-11-16",
+        "version_history_excerpt": "Submission history From: Yi-Han Iris Yin [ view email ] [v1] Fri, 13 Nov 2026 14:15:29 UTC (1,996 KB)",
+        "abs_sha256": "1fee6f2690e22b236a75e2ef7d761140a3f6630e03a9c20c1dd6eb70e4ff2c5c",
+        "pdf_sha256": "faf8d8393d1795f4447ed9c0a2f3bea345fa9bc07238a96ee4c70f01992518de",
+        "verified_at": "2026-11-16T08:14:10+01:00",
+        "history_sources": [
+          {
+            "url": "https://arxiv.org/abs/2307.05689v1",
+            "reading_scope": "Primary main-text pp. 2–4 on durations and soft-emission interpretation.",
+            "discovery": "Independent primary-literature search; cited/uncited status not asserted."
+          },
+          {
+            "url": "https://arxiv.org/abs/2601.14137v1",
+            "reading_scope": "Primary main-text pp. 4–7 on prompt spike, duration and extended component.",
+            "discovery": "Independent primary-literature search; cited/uncited status not asserted."
+          }
+        ],
+        "independent_results": 1,
+        "correlated_highlight_ids": []
+      }
+    }
+  ],
+  "alerts_count": 0,
+  "news_count": 0,
+  "science_radar_count": 0,
+  "sections": {
+    "ArXiv Highlights": "<!-- paper:paper-2611-18268 -->\n#### Magnetic kink instability of jet-wind outflows. I. Static column configuration\n\n**Authors:** Krishna Kumar, Serguei S. Komissarov.\n\n[arXiv:2611.18268v1](https://arxiv.org/abs/2611.18268v1) · [Full text](https://arxiv.org/pdf/2611.18268v1). Submitted 13 November 2026; first announced in the 16 November 2026 UTC batch. **Status:** arXiv v1 preprint; journal publication not verified.\n\n**Study type: numerical plasma dynamics.** Can a magnetically dominated jet acquire baryons through a current-driven kink at its interface with a dense disk wind? Three-dimensional relativistic-MHD calculations with PERT follow a static, periodic column with central magnetization $\\sigma_j=10^3$, surrounded by a wind with $\\sigma_w=10^{-1}$ or $10^{-3}$. The equilibrium has constant magnetic pitch and is approximately force-free away from the transition layer. It deliberately excludes relative bulk motion, rotation and radial expansion.\n\nThe linear instability develops at wavelengths longer than $2\\pi r_c$ and grows slightly faster than the reference uniform-column maximum $\\Gamma_{\\max}\\simeq0.133v_A/r_c$, where $r_c$ is the characteristic column radius. In the nonlinear phase, the interface coils into a corkscrew and wind material occupies the spaces between its turns. High-resolution runs reveal additional field-aligned fingers, tentatively interpreted as a magnetic Rayleigh–Taylor instability. In the weakly magnetized-wind case, the magnetization averaged over the volume initially occupied by the jet falls from approximately $10^3$ to approximately 20 after the linear stage, then relaxes toward approximately 10. This is a volume-average diagnostic, not a uniform final magnetization of every jet fluid element.\n\nThe result identifies a possible route to baryon loading in otherwise highly magnetized outflows, which matters for the composition available to hadronic emission models. It does **not** calculate a cosmic-ray spectrum, acceleration efficiency or neutrino luminosity. Resolution tests show that secondary structure can disappear on coarse grids; the authors explicitly identify numerical diffusion as an important contributor to the final mixing and magnetization. In a moving jet, the helix would drive waves or shocks into the wind, potentially pushing material away and reducing entrainment. Rotation, expansion, different pitch profiles and open boundaries could also change the outcome. The simulation therefore establishes a mechanism in a controlled configuration, rather than a quantitative baryon-loading prescription for AGN jets.\n\n##### History\n\n[Mizuno, Lyubarsky, Nishikawa and Hardee (2009), arXiv:0903.5358v1](https://arxiv.org/abs/0903.5358v1), already studied current-driven kinks in three-dimensional relativistic-MHD simulations of static, force-free columns. Their nonlinear helical distortions and strong dependence on magnetic-pitch profile established that kink growth and saturation are not universal: an outward-increasing pitch can slow or saturate the instability, whereas a decreasing pitch promotes continued growth and thin structures. The present paper's new emphasis is the interaction between a highly magnetized central column and an explicitly denser, weakly magnetized surrounding wind, including the resulting intrusion and reduction of volume-averaged magnetization. It is not the first simulation of a relativistic magnetic kink.\n\nA complementary baseline is [Barniol Duran, Tchekhovskoy and Giannios (2017)](https://doi.org/10.1093/mnras/stx1165), whose global jet calculations connected confinement and recollimation to kink-driven dissipation. Those calculations addressed propagating jets and their conversion of magnetic energy, whereas the new static-column experiment isolates interface mixing. Dissipation and baryon entrainment need not track one another, so neither the earlier dissipation efficiencies nor the new final magnetizations should be transferred unchanged into realistic source models.\n\n<!-- paper:paper-2611-17604 -->\n#### Resonant Trapping of Neutrinophilic Dark Matter in Supernovae\n\n**Authors:** Christopher V. Cappiello, P. S. Bhupal Dev, Amol V. Patwardhan.\n\n[arXiv:2611.17604v1](https://arxiv.org/abs/2611.17604v1) · [Full text](https://arxiv.org/pdf/2611.17604v1). Submitted 13 November 2026; first announced in the 16 November 2026 UTC batch. **Status:** arXiv v1 preprint; journal publication not verified.\n\n**Study type: model-dependent supernova cooling constraint.** The paper considers fermionic dark matter $\\chi$ coupled to neutrinos through a complex scalar mediator $\\phi$, with an interaction of the form $-g\\phi^*\\bar\\chi P_L\\nu+\\mathrm{h.c.}$, $m_\\phi>m_\\chi$, and flavor-universal coupling. Neutrino–antineutrino annihilation produces dark matter through a nonresonant $t$-channel process, while scattering on the ambient neutrino bath can encounter an $s$-channel resonance at $s=m_\\phi^2$. The question is whether that resonance prevents the produced particles from escaping and carrying away energy.\n\nUsing a Garching 20-solar-mass progenitor profile at one second after core bounce, the authors integrate production over the proto-neutron star and weight escaping particles by an energy-dependent radial attenuation factor, $\\exp[-\\int dr/\\lambda(E,r)]$. Neutrino phase-space blocking is included. Emission is concentrated near a radius of approximately 8 km, while the adopted neutrinosphere is around 40 km. An escaping dark-matter luminosity above $5\\times10^{52}\\,\\mathrm{erg\\,s^{-1}}$ is treated as excessive cooling. This is a conventional luminosity criterion, **not a likelihood-derived 90% or 95% confidence limit**.\n\nFor the benchmark $m_\\phi=3m_\\chi$, resonant opacity can open a substantial gap in the usual intermediate-coupling cooling exclusion for **mediator masses** of roughly 5–100 MeV. At a heavy mediator benchmark of 10 GeV, the more familiar progression from inefficient production to excessive cooling and then strong trapping reappears. The scalar model can consequently evade exclusions that would be inferred by transferring results from a different interaction structure.\n\nOnly particles that escape without scattering contribute to the cooling estimate. Scattered particles are not followed through a full transport calculation, making the escape treatment conservative but incomplete. Feedback on the supernova evolution and neutrino signal is not simulated, and the result depends on the adopted progenitor snapshot and mass ratio. External cosmological bounds displayed for comparison are not all derived in precisely this scalar model. The work demonstrates a resonance-induced change in opacity, not evidence for dark matter or a model-independent exclusion of a mass interval.\n\n##### History\n\nThe immediate baseline is [Cappiello, Dev and Patwardhan, *New Supernova Constraints on Neutrinophilic Dark Sector*, arXiv:2503.09691v3](https://arxiv.org/abs/2503.09691v3). That study examined a vector mediator coupling separately to neutrinos and dark matter. There, neutrino annihilation can resonantly **produce** dark matter, whereas the scattering responsible for trapping has a different channel structure. In the new scalar interaction the resonance instead enhances **scattering**, so a similar mediator mass does not imply a similar cooling constraint. The change is physical rather than simply a stronger data set or a numerical tightening of an existing limit; no general improvement factor is meaningful across the two Lagrangians.\n\nTrapping itself has a longer history. For example, [Sung, Guo and Wu (2021), *Supernova constraint on self-interacting dark sector particles*](https://doi.org/10.1103/PhysRevD.103.103005), examined how dark-sector interactions alter supernova energy transport and weaken naive free-streaming limits. That establishes why enhanced production alone cannot determine the exclusion. The distinctive mechanism here is resonant scattering on the abundant ambient neutrinos, rather than a claim that dark-sector trapping was previously unknown.\n\n<!-- paper:paper-2611-17922 -->\n#### Improved Bounds on the Dark Matter-Neutrino Cross Section using LSBGs\n\n**Authors:** Akari Suezaki, Shunsaku Horiuchi.\n\n[arXiv:2611.17922v1](https://arxiv.org/abs/2611.17922v1) · [Full text](https://arxiv.org/pdf/2611.17922v1). Submitted 13 November 2026; first announced in the 16 November 2026 UTC batch. **Status:** arXiv v1 preprint; journal publication not verified.\n\n**Study type: astrophysical, model-dependent scattering bound.** Supernova neutrinos can transfer energy to halo dark matter and potentially turn a central cusp into a core. This study asks how much scattering is compatible with the observed rotation curves of low-surface-brightness galaxies. It uses 29 data-set entries—10 from de Blok, four from DensePak and 15 from SPARC—with overlapping galaxies, rather than 29 statistically independent systems. An initial NFW halo is compared with a cored profile matched to the rotation-curve fit. The integrated core-collapse-supernova population is inferred from the present stellar mass with a Kroupa IMF; each explosion supplies $3\\times10^{53}$ erg in neutrinos with mean energy 15 MeV, pinching parameter 2.3 and identical flavor spectra.\n\nA key correction is to use the probability that a dark-matter particle scatters, $1-e^{-\\lambda}$, rather than count every expected encounter as a newly removed particle. Here $\\lambda=\\sigma_{\\nu\\chi}N_{\\nu,\\mathrm{tot}}/(4\\pi r^2)$ in the central, isotropic-supernova approximation. This avoids repeatedly removing the same particle from the inner halo when the expected number of encounters is large.\n\nThe strongest low-mass limit comes from F579-V1: $\\sigma_{\\nu\\chi}\\lesssim8.5\\times10^{-25}\\,\\mathrm{cm^2}$ at $m_\\chi=1$ GeV, with the approximately constant branch extending to about 35 GeV. UGC06628 yields approximately $1.5\\times10^{-24}\\,\\mathrm{cm^2}$ up to about 82 GeV and becomes more competitive at larger masses. These bounds refer to the adopted supernova-neutrino spectrum; an energy-dependent cross section cannot be compared directly with high-energy neutrino limits.\n\nThe conservative construction uses a core radius shifted by its quoted $+1\\sigma$ error, but this does **not** define a globally calibrated 90% or 95% confidence bound. Stellar mass, IMF, supernova history, halo structure and the central-source approximation are adopted inputs, not nuisance parameters jointly marginalized in a full likelihood. Maximum recoil-energy transfer in a single collision helps set the mass-dependent regimes. Changing the high-mass IMF slope by $\\pm0.3$ changes the estimated supernova count by approximately $-45\\%$ or $+59\\%$. Baryonic contributions to core formation and uncertainties in the original halo further limit the interpretation.\n\n##### History\n\n[Heston, Horiuchi and Shirai (2024), arXiv:2402.08718v2 / Physical Review D 110, 023004](https://arxiv.org/abs/2402.08718v2), introduced the corresponding dwarf-spheroidal argument. The published version gives a low-mass Fornax bound near $3.4\\times10^{-23}\\,\\mathrm{cm^2}$ for masses below approximately 130 GeV under its adopted 15-MeV neutrino setup. The new probability treatment recalculates Fornax to $1.56\\times10^{-21}\\,\\mathrm{cm^2}$, approximately 46 times weaker: repeated scattering had previously been counted as removal of additional particles. This correction is central to understanding the comparison. Relative to **that recalculated Fornax baseline under the same new prescription**, F579-V1 is approximately 1,800 times more restrictive on the shared low-mass branch. Comparing only the new galaxy bound with the old published curve would conflate the changed target and changed calculation.\n\nAn independent probe is [Chauhan et al., *Dark Matter Diffused Supernova Neutrino Background*, arXiv:2505.03882v1](https://arxiv.org/abs/2505.03882v1). Its Super-Kamiokande-IV diffuse-neutrino comparison gives a characteristic bound $\\sigma_{\\nu\\chi}/m_\\chi\\lesssim2.4\\times10^{-24}\\,\\mathrm{cm^2\\,GeV^{-1}}$ for masses above approximately 1 GeV, using a delayed Galactic supernova-neutrino population, a 16-MeV mean spectrum and an assumed Galactic supernova history. Although the LSBG number is smaller at 1 GeV, differences in the signal, spectrum and astrophysical assumptions preclude presenting their ratio as a clean statistical improvement.\n\n<!-- paper:paper-2611-17721 -->\n#### Self-Consistent Subtracted Second Quasiparticle Random-Phase Approximation for Dipole Responses in Neutron-Rich Oxygen Isotopes\n\n**Authors:** M.J. Yang, X. Lian, C.L. Bai, C.L. Zhang, H. Sagawa, H. Q. Zhang.\n\n[arXiv:2611.17721v1](https://arxiv.org/abs/2611.17721v1) · [Full text](https://arxiv.org/pdf/2611.17721v1). Submitted 13 November 2026; first announced in the 16 November 2026 UTC batch. **Status:** arXiv v1 preprint; journal publication not verified.\n\n**Study type: nuclear-response method and calculation.** Dipole response controls how nuclei absorb photons, but ordinary quasiparticle random-phase approximation can miss fragmentation and place low-energy states too high. This paper develops a subtracted second quasiparticle RPA, coupling two-quasiparticle and four-quasiparticle configurations, and applies it to $^{18,20,22}$O. The calculation uses a SkM* energy-density functional, HF+BCS reference states and volume pairing, with a harmonic-oscillator basis truncated at $N_{\\max}=12$ and $J_{\\max}=11/2$, two-quasiparticle energies up to 60 MeV and a stated four-quasiparticle selection cutoff of 0.01.\n\nSubtraction removes the static part of the additional energy-dependent response, preserving the reference static limit while reducing double counting. The implementation includes forward and backward amplitudes, but its retained four-quasiparticle space is restricted to two-particle–two-hole-like configurations: four-particle–four-hole, three-particle–one-hole and three-hole–one-particle contributions are omitted. Particle–particle residual terms are retained in the two-quasiparticle sector rather than throughout the enlarged space. The results should therefore not be read as an untruncated solution of all four-quasiparticle correlations.\n\nThe dominant isovector dipole strength shifts down by approximately 4 MeV into the 15–16 MeV region. Isoscalar compressional strength is fragmented and redistributed mainly toward 23–27 MeV. The rms error of the four lowest $1^-$ excitation energies in $^{18}$O falls from 5.31 MeV in QRPA to 0.35 MeV; for two measured states in $^{20}$O it falls from 4.07 to 0.74 MeV.\n\n**Better excitation energies do not yet imply reliable absolute photonuclear rates.** The calculated low-lying dipole strengths remain one to two orders of magnitude below experimental values. Missing continuum coupling or higher correlations may matter. Consequently, this is a useful development in the microscopic response calculation, not a validated replacement for photodisintegration cross sections or a complete nuclear-cascade library. The six-page main paper was reviewed in full; the separately referenced supplemental derivations were not available in the retrieved main PDF and were not independently checked.\n\n##### History\n\n[Tselyaev (2013), arXiv:1308.1429v1](https://arxiv.org/abs/1308.1429v1), established the subtraction strategy for extended RPA: replacing the additional interaction by its dynamical part, schematically $W(\\omega)-W(0)$, preserves the static response and restores stability under the theorem's assumptions. Thus subtraction and its double-counting motivation predate this calculation.\n\n[Gambacurta, Grasso and Engel (2015), arXiv:1506.05975v1](https://arxiv.org/abs/1506.05975v1), implemented subtracted second RPA in $^{16}$O, including monopole and quadrupole response. Their calculations demonstrated removal of excessive downward shifts, improved cutoff behavior and redistribution of strength through more complex configurations. The present advance is its paired, open-shell quasiparticle formulation and application to dipole states in neutron-rich oxygen. The improved low-lying energies extend that earlier program; the persistent deficit in absolute transition strengths identifies a remaining limitation rather than evidence that the full dipole response has been solved.\n\n<!-- paper:paper-2611-17651 -->\n#### $^8$B Solar Neutrino Measurements of Solar Core Size and Temperature from 5805 Days of Super-Kamiokande\n\n**Authors:** The Super-Kamiokande Collaboration (Y. Jiang et al.).\n\n[arXiv:2611.17651v1](https://arxiv.org/abs/2611.17651v1) · [Full text](https://arxiv.org/pdf/2611.17651v1). Submitted 13 November 2026; first announced in the 16 November 2026 UTC batch. **Status:** arXiv v1 preprint; journal publication not verified.\n\n**Study type: solar-neutrino inference, conditional on solar and oscillation models.** The analysis uses 5,805 days of Super-Kamiokande-I–IV solar-neutrino data, combining recoil-electron spectra and day–night information to constrain the spatial distribution of $^8$B neutrino production. It compares four reference solar models, including B16 high- and low-metallicity models and K2 models with accretion. The spectral analysis uses 23 recoil-energy bins spanning 3.49–19.49 MeV with the phase-dependent thresholds. JUNO oscillation priors are imported assuming CPT symmetry; $\\sin^2\\theta_{12}$ and $\\Delta m^2_{21}$ are marginalized while $\\theta_{13}$ is fixed.\n\nThe reported core radius is defined through the reference radius enclosing 90% of **all solar-neutrino production**, with a parameterized rescaling of the $^8$B production profile. It is not a direct angular image of the solar core. For the quoted radius limits the independent density-deformation parameter is fixed to zero; the paper also examines the radius–density degeneracy. In the high-metallicity GS98 model, the 90% upper limit on this radius changes from $0.499R_\\odot$ using SK alone to $0.268R_\\odot$ with SNO. For the K2-MZ reference the corresponding values are $0.381R_\\odot$ and $0.215R_\\odot$. These limits therefore depend on the reference profile and on which density degrees of freedom are held fixed.\n\nThe paper also quotes a central temperature of $(15.599\\pm0.0016)\\times10^6$ K for its nominal high-metallicity calibration. That very small conditional error is not the total uncertainty of stellar modeling: changing the metallicity prescription shifts the result by approximately $0.16\\times10^6$ K.\n\n**The v1 temperature presentation requires clarification.** The neutrino-production-zone temperature is printed as $15.492\\times10^6$ K in the abstract, $14.492\\times10^6$ K in the main text/conclusion, and $14.942\\times10^6$ K in Table V. Moreover, the displayed flux–temperature scaling places the temperature sensitivity exponent in the inverse direction to the usual relation $\\Phi_{^8\\mathrm{B}}\\propto T^n$. These internally inconsistent numbers and equations should not be silently reconciled or treated as an independently validated precision temperature measurement. They do not by themselves negate the separate spectral radius analysis, whose model dependence remains explicit.\n\n##### History\n\n[Zaidel and Beacom (2025), arXiv:2504.10583v1](https://arxiv.org/abs/2504.10583v1), developed a related neutrino-based probe of the solar interior: the $^8$B flux carries strong temperature sensitivity, while matter effects in its survival spectrum constrain the production-region density. Their study emphasized reference-model dependence and the benefit of improving oscillation parameters. The present paper takes the spectral idea into a long-exposure SK analysis with external oscillation information and additional SNO data. It does not remove the distinction between an inference conditional on a solar profile and a model-independent reconstruction of that profile.\n\n[Davis (2016), Physical Review Letters 117, 211101](https://doi.org/10.1103/PhysRevLett.117.211101), had instead proposed using neutrino–electron recoil directions to probe the angular extent of the solar production region. That was a forecast for a different observable and radius construction. Its sensitivity cannot be compared numerically to these 90% profile-based bounds as if both measured the same parameter with the same data and confidence prescription. The new analysis is scientifically distinct from that angular-imaging proposal, and its temperature discrepancies must be resolved before assessing a precision improvement there.\n\n<!-- paper:paper-2611-18210 -->\n#### Discovery of a Short-Duration Fast X-ray Transient Associated with a Short Gamma-Ray Burst\n\n**Authors:** Yi-Han Iris Yin, Run-Duo Liang, Hui Sun, Jun Yang, Haiwu Pan, Yong-Feng Huang, Jirong Mao, Bin-Bin Zhang, Cui-Yuan Dai, Xiang-Yu Wang, Weimin Yuan, Bing Zhang.\n\n[arXiv:2611.18210v1](https://arxiv.org/abs/2611.18210v1) · [Full text](https://arxiv.org/pdf/2611.18210v1). Submitted 13 November 2026; first announced in the 16 November 2026 UTC batch. **Status:** arXiv v1 preprint; journal publication not verified.\n\n**Study type: archival transient analysis and association.** A targeted search for Einstein Probe/WXT counterparts to short gamma-ray bursts identifies EP260411a as a candidate X-ray counterpart to GRB260411A. The event occurred on **11 April 2026 at 06:36:28 UTC**; this is a new paper about an earlier observation, not a 16 November event alert. The parent search covers 166 short GRBs from January 2024 through June 2026. Of 133 poorly localized events, six had the required WXT coverage over the relevant 20-second interval.\n\nThe WXT source region contains ten photons. The quoted local source-detection significance is $5.26\\sigma$, obtained with the source/background-region comparison; it is **not** a $5.26\\sigma$ significance for the X-ray/GRB association. A control search over 1,000 separate 20-second intervals finds no analogous candidate. With stationary Poisson event rates and a spatial-uniformity approximation, the authors derive a local chance-coincidence upper bound below $2.73\\times10^{-3}$ and a six-trial global upper bound below $1.62\\times10^{-2}$.\n\nThe X-ray duration is $T_{90}=6.1^{+0.7}_{-1.1}$ s in 0.5–4 keV, compared with $1.3^{+0.2}_{-0.3}$ s in 50–300 keV. Both display a single pulse with energy-dependent timing. A joint WXT/GBM smoothly broken power law with an exponential cutoff and Galactic absorption fixed at $N_H=1.87\\times10^{20}\\,\\mathrm{cm^{-2}}$ gives a low-energy break $E_b=7^{+6}_{-3}$ keV and peak $E_p=386^{+288}_{-178}$ keV. These are quoted $1\\sigma$ uncertainties. A cutoff power law with free absorption also fits, with $N_H=5.25^{+5.67}_{-3.83}\\times10^{21}\\,\\mathrm{cm^{-2}}$ and $E_p=252^{+296}_{-100}$ keV. The BIC values, 80.66 and 86.50, favor the broken model but do not uniquely establish a break mechanism.\n\nThere is no measured host redshift, confirmed kilonova or gravitational-wave counterpart. The source's track on the energy–peak-energy plane is calculated over assumed redshifts, not a distance measurement. A short central-engine activity time is compatible with a promptly formed black hole, but does not prove the remnant identity. Low photon counts, background assumptions, absorption–spectral-shape degeneracy and the limited counterpart sample bound the interpretation.\n\n##### History\n\n[Sun et al., arXiv:2307.05689v1](https://arxiv.org/abs/2307.05689v1), later published in [National Science Review](https://doi.org/10.1093/nsr/nwae401), analyzed soft X-rays from the merger-associated GRB230307A. Its gamma-ray duration was approximately 41.5 s and its X-ray emission lasted approximately 200 s, with a soft component interpreted as consistent with a magnetar-powered contribution. That work showed why long soft emission and merger origin cannot be classified solely from the conventional short/long gamma-ray division; the engine interpretation was still model dependent.\n\nMore directly, [Li et al., arXiv:2601.14137v1](https://arxiv.org/abs/2601.14137v1), studied EP250704a/GRB250704B: an approximately 0.35-s prompt X-ray spike accompanied a 0.37-s gamma-ray event, followed by a soft bump lasting roughly 540 s. Short prompt X-ray emission associated with a short GRB therefore already had a precedent. The new object adds a largely isolated short X-ray transient without a prominent long soft component. Its value is the extension of the observed phenomenology and joint prompt spectral coverage, not a demonstration that all short-GRB remnants are black holes or that a brief X-ray spike was previously unknown."
+  },
+  "listing_statistics": {
+    "date": "2026-11-16",
+    "basis": "new_primary_submissions",
+    "counts": {
+      "astro-ph": 82,
+      "hep-ph": 26,
+      "hep-ex": 3,
+      "hep-th": 24,
+      "gr-qc": 6,
+      "nucl-ex": 3,
+      "nucl-th": 5
+    },
+    "astro_subcategories": {
+      "astro-ph.CO": 18,
+      "astro-ph.EP": 9,
+      "astro-ph.GA": 14,
+      "astro-ph.HE": 13,
+      "astro-ph.IM": 10,
+      "astro-ph.SR": 18
+    },
+    "sources": [
+      {
+        "category": "astro-ph",
+        "date": "2026-11-16",
+        "url": "https://arxiv.org/catchup/astro-ph/2026-11-16?abs=True",
+        "observed_sections": {
+          "New submissions (showing 82 of 82 entries)": 82,
+          "Cross submissions (showing 16 of 16 entries)": 16,
+          "Replacement submissions (showing 47 of 47 entries)": 47
+        },
+        "new_primary_ids": [
+          "2611.17374",
+          "2611.17376",
+          "2611.17384",
+          "2611.17385",
+          "2611.17405",
+          "2611.17409",
+          "2611.17410",
+          "2611.17415",
+          "2611.17420",
+          "2611.17421",
+          "2611.17422",
+          "2611.17423",
+          "2611.17425",
+          "2611.17427",
+          "2611.17428",
+          "2611.17430",
+          "2611.17439",
+          "2611.17452",
+          "2611.17480",
+          "2611.17519",
+          "2611.17538",
+          "2611.17552",
+          "2611.17559",
+          "2611.17571",
+          "2611.17572",
+          "2611.17582",
+          "2611.17590",
+          "2611.17591",
+          "2611.17592",
+          "2611.17628",
+          "2611.17637",
+          "2611.17649",
+          "2611.17665",
+          "2611.17667",
+          "2611.17676",
+          "2611.17725",
+          "2611.17740",
+          "2611.17805",
+          "2611.17807",
+          "2611.17832",
+          "2611.17833",
+          "2611.17835",
+          "2611.17838",
+          "2611.17894",
+          "2611.17920",
+          "2611.17946",
+          "2611.17960",
+          "2611.17972",
+          "2611.17978",
+          "2611.17995",
+          "2611.17996",
+          "2611.17997",
+          "2611.18056",
+          "2611.18083",
+          "2611.18107",
+          "2611.18153",
+          "2611.18154",
+          "2611.18162",
+          "2611.18210",
+          "2611.18211",
+          "2611.18226",
+          "2611.18241",
+          "2611.18246",
+          "2611.18254",
+          "2611.18268",
+          "2611.18271",
+          "2611.18281",
+          "2611.18286",
+          "2611.18310",
+          "2611.18326",
+          "2611.18366",
+          "2611.18407",
+          "2611.18431",
+          "2611.18441",
+          "2611.18452",
+          "2611.18478",
+          "2611.18481",
+          "2611.18487",
+          "2611.18512",
+          "2611.18515",
+          "2611.18557",
+          "2611.18558"
+        ],
+        "capture_sha256": "2d0d87db969c316b63c5f9a5cd710c626871581e84ba434c53c5691ee092f88b",
+        "verified_at": "2026-11-16T08:14:10+01:00"
+      },
+      {
+        "category": "hep-ph",
+        "date": "2026-11-16",
+        "url": "https://arxiv.org/catchup/hep-ph/2026-11-16?abs=True",
+        "observed_sections": {
+          "New submissions (showing 26 of 26 entries)": 26,
+          "Cross submissions (showing 14 of 14 entries)": 14,
+          "Replacement submissions (showing 30 of 30 entries)": 30
+        },
+        "new_primary_ids": [
+          "2611.17401",
+          "2611.17402",
+          "2611.17406",
+          "2611.17408",
+          "2611.17418",
+          "2611.17432",
+          "2611.17467",
+          "2611.17604",
+          "2611.17717",
+          "2611.17787",
+          "2611.17873",
+          "2611.17922",
+          "2611.17945",
+          "2611.17990",
+          "2611.18019",
+          "2611.18060",
+          "2611.18136",
+          "2611.18202",
+          "2611.18204",
+          "2611.18206",
+          "2611.18224",
+          "2611.18306",
+          "2611.18334",
+          "2611.18337",
+          "2611.18386",
+          "2611.18526"
+        ],
+        "capture_sha256": "cfabdb7c62d9790e353d7a500d0170d57d55463f74da27064c80c560cee84ed1",
+        "verified_at": "2026-11-16T08:14:10+01:00"
+      },
+      {
+        "category": "hep-ex",
+        "date": "2026-11-16",
+        "url": "https://arxiv.org/catchup/hep-ex/2026-11-16?abs=True",
+        "observed_sections": {
+          "New submissions (showing 3 of 3 entries)": 3,
+          "Cross submissions (showing 13 of 13 entries)": 13,
+          "Replacement submissions (showing 18 of 18 entries)": 18
+        },
+        "new_primary_ids": [
+          "2611.17651",
+          "2611.17849",
+          "2611.17904"
+        ],
+        "capture_sha256": "de04b8c7119a1d159abbb9ee11845061f63f4c13a44985483bd16a008165f0cc",
+        "verified_at": "2026-11-16T08:14:10+01:00"
+      },
+      {
+        "category": "hep-th",
+        "date": "2026-11-16",
+        "url": "https://arxiv.org/catchup/hep-th/2026-11-16?abs=True",
+        "observed_sections": {
+          "New submissions (showing 24 of 24 entries)": 24,
+          "Cross submissions (showing 21 of 21 entries)": 21,
+          "Replacement submissions (showing 26 of 26 entries)": 26
+        },
+        "new_primary_ids": [
+          "2611.17403",
+          "2611.17404",
+          "2611.17407",
+          "2611.17413",
+          "2611.17416",
+          "2611.17424",
+          "2611.17437",
+          "2611.17486",
+          "2611.17645",
+          "2611.17663",
+          "2611.17810",
+          "2611.17961",
+          "2611.18025",
+          "2611.18063",
+          "2611.18108",
+          "2611.18118",
+          "2611.18198",
+          "2611.18221",
+          "2611.18237",
+          "2611.18415",
+          "2611.18472",
+          "2611.18520",
+          "2611.18539",
+          "2611.18556"
+        ],
+        "capture_sha256": "644ff64fc2100c38c33a103c18df36804aad1bc533b2f860ba18e21d4d889fd0",
+        "verified_at": "2026-11-16T08:14:10+01:00"
+      },
+      {
+        "category": "gr-qc",
+        "date": "2026-11-16",
+        "url": "https://arxiv.org/catchup/gr-qc/2026-11-16?abs=True",
+        "observed_sections": {
+          "New submissions (showing 6 of 6 entries)": 6,
+          "Cross submissions (showing 13 of 13 entries)": 13,
+          "Replacement submissions (showing 22 of 22 entries)": 22
+        },
+        "new_primary_ids": [
+          "2611.17396",
+          "2611.17840",
+          "2611.17940",
+          "2611.18117",
+          "2611.18200",
+          "2611.18398"
+        ],
+        "capture_sha256": "8b66bd11d3d72a9b84cc8e7737adf2a690253b05cf3a55a4c2bb6321cf8100cd",
+        "verified_at": "2026-11-16T08:14:10+01:00"
+      },
+      {
+        "category": "nucl-ex",
+        "date": "2026-11-16",
+        "url": "https://arxiv.org/catchup/nucl-ex/2026-11-16?abs=True",
+        "observed_sections": {
+          "New submissions (showing 3 of 3 entries)": 3,
+          "Cross submissions (showing 8 of 8 entries)": 8,
+          "Replacement submissions (showing 3 of 3 entries)": 3
+        },
+        "new_primary_ids": [
+          "2611.17718",
+          "2611.18015",
+          "2611.18080"
+        ],
+        "capture_sha256": "5fe8fec2da0d5798079e2ab8124ef159ef36b58a10bb424f6cbe4ea0495ac50c",
+        "verified_at": "2026-11-16T08:14:10+01:00"
+      },
+      {
+        "category": "nucl-th",
+        "date": "2026-11-16",
+        "url": "https://arxiv.org/catchup/nucl-th/2026-11-16?abs=True",
+        "observed_sections": {
+          "New submissions (showing 5 of 5 entries)": 5,
+          "Cross submissions (showing 7 of 7 entries)": 7,
+          "Replacement submissions (showing 5 of 5 entries)": 5
+        },
+        "new_primary_ids": [
+          "2611.17721",
+          "2611.17801",
+          "2611.18066",
+          "2611.18146",
+          "2611.18290"
+        ],
+        "capture_sha256": "5e5957f6d89627c56a1b0f6f7bdbdc552894d735e81e3dbbd1fba1f05068b20b",
+        "verified_at": "2026-11-16T08:14:10+01:00"
+      }
+    ],
+    "verified_at": "2026-11-16T08:14:10+01:00",
+    "source_audit": {
+      "edition_date": "2026-11-16",
+      "timezone": "Europe/Berlin",
+      "source_check_cutoff": "2026-11-16T08:14:10+01:00",
+      "listing_batch_timezone": "UTC",
+      "actual_screened_unique": 186,
+      "new_primary_screened_unique": 149,
+      "additional_cross_list_screened_unique": 37,
+      "selected_unique": 6,
+      "full_text_read_unique": 6,
+      "unresolved_high_priority": 0,
+      "independent_results": 6,
+      "selected_by_primary_category": {
+        "astro-ph.HE": 2,
+        "hep-ph": 2,
+        "nucl-th": 1,
+        "hep-ex": 1
+      },
+      "selection_ceiling": 12,
+      "cap_scope": "Entire dated edition, including future reruns/additions. Existing edition checked before initial creation.",
+      "coverage_gaps": [
+        {
+          "id": "2611.17721",
+          "gap": "Separately referenced supplemental derivations not independently retrieved/read; main PDF fully reviewed."
+        }
+      ],
+      "screening_audit_path": "content-parts/2026-11-16/arxiv-screening.json",
+      "screening_audit_url": "https://github.com/afesmaeili/J.C./blob/main/content-parts/2026-11-16/arxiv-screening.json",
+      "retrospective": false,
+      "revision_provenance": [
+        {
+          "edition": "2026-11-16",
+          "action": "Initial arxiv part; no earlier dates relabeled and no previous scientific text replaced.",
+          "source_cutoff": "2026-11-16T08:14:10+01:00"
+        }
+      ],
+      "second_pass": "After the complete title/abstract screen, rechecked neutrino/DM, cosmic-ray acceleration/transport, nuclear-response, gamma-ray/jet and multimessenger topics; ranking emphasized relevance and scientific substance, not category quotas."
+    },
+    "note": "Listing totals exclude cross-lists and replacements and are separate from six selected papers. Nested source audit is retained by the current assembler in downloadable Markdown."
+  },
+  "source_audit": {
+    "edition_date": "2026-11-16",
+    "timezone": "Europe/Berlin",
+    "source_check_cutoff": "2026-11-16T08:14:10+01:00",
+    "listing_batch_timezone": "UTC",
+    "actual_screened_unique": 186,
+    "new_primary_screened_unique": 149,
+    "additional_cross_list_screened_unique": 37,
+    "selected_unique": 6,
+    "full_text_read_unique": 6,
+    "unresolved_high_priority": 0,
+    "independent_results": 6,
+    "selected_by_primary_category": {
+      "astro-ph.HE": 2,
+      "hep-ph": 2,
+      "nucl-th": 1,
+      "hep-ex": 1
+    },
+    "selection_ceiling": 12,
+    "cap_scope": "Entire dated edition, including future reruns/additions. Existing edition checked before initial creation.",
+    "coverage_gaps": [
+      {
+        "id": "2611.17721",
+        "gap": "Separately referenced supplemental derivations not independently retrieved/read; main PDF fully reviewed."
+      }
+    ],
+    "screening_audit_path": "content-parts/2026-11-16/arxiv-screening.json",
+    "screening_audit_url": "https://github.com/afesmaeili/J.C./blob/main/content-parts/2026-11-16/arxiv-screening.json",
+    "retrospective": false,
+    "revision_provenance": [
+      {
+        "edition": "2026-11-16",
+        "action": "Initial arxiv part; no earlier dates relabeled and no previous scientific text replaced.",
+        "source_cutoff": "2026-11-16T08:14:10+01:00"
+      }
+    ],
+    "second_pass": "After the complete title/abstract screen, rechecked neutrino/DM, cosmic-ray acceleration/transport, nuclear-response, gamma-ray/jet and multimessenger topics; ranking emphasized relevance and scientific substance, not category quotas."
+  }
+}
