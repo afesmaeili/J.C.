@@ -1,0 +1,94 @@
+{
+  "date": "2026-11-16",
+  "part": "alerts",
+  "status": "partial",
+  "cutoff": "2026-11-16T08:10:00+01:00",
+  "window_start_utc": "2026-11-13T08:52:14Z",
+  "window_end_utc": "2026-11-16T07:10:00Z",
+  "previous_part": "content-parts/2026-11-13/alerts.json",
+  "selected_story_count": 10,
+  "sources": [
+    {
+      "name": "GCN Circulars",
+      "url": "https://gcn.nasa.gov/circulars",
+      "checked_range": "46244–46300 inclusive",
+      "latest_seen": 46300,
+      "result": "All 57 subjects in the chronological index were screened. Direct bodies or complete event groups were read for every selected event, the IceCube follow-up, the reclassification and the correction. Repetitive optical follow-ups were consolidated by event."
+    },
+    {
+      "name": "Astronomer’s Telegram",
+      "url": "https://www.astronomerstelegram.org/",
+      "checked_range": "18154–18156 inclusive",
+      "latest_seen": 18156,
+      "result": "Read all three new telegram bodies. ATel 18154 selected; routine optical classifications in 18155 and a solar active-region report in 18156 excluded from this astroparticle-alert section."
+    },
+    {
+      "name": "IceCube",
+      "urls": [
+        "https://gcn.nasa.gov/circulars/events/icecube-261113a",
+        "https://gcn.gsfc.nasa.gov/amon_icecube_gold_bronze_events.html",
+        "https://gcn.nasa.gov/missions/icecube"
+      ],
+      "result": "IceCube-261113A and its Fermi-LAT follow-up read directly. Modern Kafka stream not independently enumerated."
+    },
+    {
+      "name": "GraceDB and LVK",
+      "urls": [
+        "https://gracedb.ligo.org/latest/",
+        "https://gcn.nasa.gov/circulars?query=LIGO%20Virgo%20KAGRA"
+      ],
+      "result": "Accessible GraceDB latest page remained a stale 2025 snapshot and cannot verify the current window. No LVK circular occurred in GCN 46244–46300. Modern igwn.gwalert/Kafka stream was not enumerated."
+    },
+    {
+      "name": "Fermi, SVOM and Einstein Probe",
+      "urls": [
+        "https://gcn.nasa.gov/circulars",
+        "https://heasarc.gsfc.nasa.gov/W3Browse/fermi/fermigbrst.html",
+        "https://fsc.svom.org/home"
+      ],
+      "result": "All in-range GCN alert and follow-up bodies used in the selected stories were read. Mission frontends did not provide a separately complete notice ledger."
+    },
+    {
+      "name": "KM3NeT",
+      "urls": [
+        "https://www.km3net.org/category/archive/",
+        "https://gcn.nasa.gov/circulars?query=KM3NeT"
+      ],
+      "result": "No complete public live-alert ledger available; targeted official and GCN searches exposed no qualifying in-window report. This is an access gap, not verified quiet."
+    },
+    {
+      "name": "Ground arrays and cosmic-ray facilities",
+      "urls": [
+        "https://public.hawc-observatory.org/",
+        "https://lhaaso.ihep.ac.cn/",
+        "https://www.auger.org/",
+        "https://www.telescopearray.org/"
+      ],
+      "result": "GCN/ATel screening and targeted official-source searches exposed no additional qualifying high-energy or cosmic-ray alert. FRAM-Auger optical follow-up of EP261115a is included with that event."
+    }
+  ],
+  "selected_events": [
+    "IceCube-261113A",
+    "GRB 261113A",
+    "GRB 261114A",
+    "GRB 261113B",
+    "EP261115a",
+    "EP261114a",
+    "EP261006a",
+    "EP-WXT trigger 01709322455",
+    "GRB 261115A",
+    "SN 2016coi"
+  ],
+  "corrections_and_retractions": [
+    "GCN 46295 corrects the trigger identifier in GCN 46243 and confirms the G 6-43 stellar-flare interpretation.",
+    "GRB 261113B was initially classified onboard as distant particles; ground analysis and Insight-HXMT support reclassification as a GRB.",
+    "No separate retraction was found in GCN 46244–46300 or ATel 18154–18156."
+  ],
+  "limitations": [
+    "Modern Kafka streams were not independently enumerated.",
+    "GraceDB's accessible latest page does not establish current-window coverage.",
+    "No complete KM3NeT live-alert ledger was available.",
+    "Mission frontends did not supply complete independent ledgers; the complete GCN chronological index is the principal cross-mission record.",
+    "No claim of universal messenger quiet is made."
+  ]
+}
