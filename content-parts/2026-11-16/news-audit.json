@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-16",
+  "part": "news",
+  "cutoff": "2026-11-16T08:40:32+01:00",
+  "window_start": "2026-11-13T09:57:32+01:00",
+  "status": "partial",
+  "selected_story_count": 9,
+  "selected_story_titles": [
+    "SND@LHC prepares an all-silicon upgrade for the high-luminosity LHC",
+    "A compact high-rate quantum code gets a fault-tolerant encoder",
+    "A metal-organic framework creates a sharply polarized triplet radical pair",
+    "An end-to-end neural system forecasts the eddy-resolving global ocean",
+    "High-precision krypton-81 dating reaches the Late Pleistocene radiocarbon overlap",
+    "Reconstructed mountain-belt thickness rises in two deep-time steps",
+    "Enhancer-targeted CRISPR activation rescues cellular phenotypes in autism-gene models",
+    "Tirzepatide produces large 72-week BMI reductions in an adolescent trial",
+    "A tau fragment distinguishes mixed 3R/4R pathology in a small autopsy-linked cohort"
+  ],
+  "checks": [
+    {
+      "area": "particle physics and scientific community",
+      "sources": ["CERN", "Fermilab", "SLAC", "LBNL", "Science Advances"],
+      "result": "SND@LHC upgrade and symplectic-double-code paper selected; routine meetings, awards and pre-window results excluded."
+    },
+    {
+      "area": "astronomy and space missions",
+      "sources": ["NASA Science", "ESA", "ESO", "Rubin Observatory", "Simons Observatory"],
+      "result": "No non-alert weekend item passed the significance and date-verification threshold; alerts were left to the alerts part."
+    },
+    {
+      "area": "mathematics and formalization",
+      "sources": ["Quarterly Journal of Mathematics", "public Lean repositories", "institutional and specialist research feeds"],
+      "result": "The ternary-Goldbach formalization artifact predated the reporting window despite new commentary; no same-window item selected."
+    },
+    {
+      "area": "AI-assisted science",
+      "sources": ["Science Advances", "Nature portfolio", "primary bibliographic records"],
+      "result": "WenHai-E2E selected from abstract-level access; no quantitative skill claims reproduced without the full paper."
+    },
+    {
+      "area": "biology and genetics",
+      "sources": ["Nature Neuroscience", "Cell and Nature portfolio feeds"],
+      "result": "Enhancer-targeted CRISPR activation selected after methods/results review."
+    },
+    {
+      "area": "chemistry and materials",
+      "sources": ["Nature Communications", "Science Advances"],
+      "result": "MOF radical-pair spin hyperpolarization selected; application claims bounded to demonstrated measurements."
+    },
+    {
+      "area": "geology, palaeoclimate and palaeontology",
+      "sources": ["Science Advances", "UBC", "Utrecht University", "selected palaeontology feeds"],
+      "result": "Krypton-81 dating and mountain-thickness reconstruction selected; no palaeontology item passed the threshold."
+    },
+    {
+      "area": "neuroscience and medicine",
+      "sources": ["JAMA", "JAMA Network", "Nature Neuroscience"],
+      "result": "Tirzepatide trial, eMTBR-tau243 biomarker and neurodevelopmental organoid study selected with cohort and translation limits."
+    }
+  ],
+  "access_gaps": [
+    "Science Advances article pages returned access errors for the ocean-forecast and krypton-81 studies; only indexed abstracts were used for those stories.",
+    "The Science Advances quantum-code paper was supported by its abstract and the authors' RIKEN/JST technical summary, not an independent hardware replication.",
+    "Some NASA and Rubin archive pages were dynamically loaded and could not be exhaustively enumerated."
+  ],
+  "deduplication": {
+    "checked_current_parts": ["content-parts/2026-11-16/arxiv.json", "content-parts/2026-11-16/alerts.json"],
+    "checked_previous_news": ["content-parts/2026-11-13/news.json", "content-parts/2026-11-12/news.json"],
+    "duplicates_removed": ["astrophysical transient alerts", "current arXiv highlight papers", "pre-window Euclid and broad-science stories"]
+  }
+}
