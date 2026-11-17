@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-17",
+  "part": "news",
+  "cutoff": "2026-11-17T08:05:48+01:00",
+  "window_start": "2026-11-16T08:40:32+01:00",
+  "status": "partial",
+  "selected_story_count": 7,
+  "selected_story_titles": [
+    "A diamond maser amplifies microwaves near the quantum-noise limit at millikelvin temperature",
+    "US Supreme Court leaves restoration of terminated research grants in place",
+    "Cryo-electron tomography resolves a functional pore in the poxvirus core",
+    "A scalable plasma immunoassay tracks advanced insoluble tau pathology",
+    "A Neandertal-derived variant is associated with occipital volume and schizophrenia risk",
+    "Distinct mouse prefrontal circuits separate sensory and affective pain responses",
+    "An aromatic cyclopentadienide ring is embedded in a bowl-shaped nanocarbon"
+  ],
+  "checks": [
+    {"area":"physics, astronomy and scientific community","sources":["CERN","Fermilab","SLAC","LBNL","NASA","ESA","ESO","Rubin Observatory","Simons Observatory","Nature Communications","Supreme Court order list"],"result":"Diamond maser and research-grant decision selected; routine meetings, funding solicitations, pending prizes and transient alerts excluded."},
+    {"area":"mathematics and formalization","sources":["major journal feeds","public formalization projects","specialist research trackers"],"result":"No same-window item passed both significance and independent-verification thresholds."},
+    {"area":"AI-assisted science","sources":["Nature Computational Science","Nature and Science feeds","institutional AI-research announcements"],"result":"Cognitive-grounding and quantum-Monte-Carlo items were screened but did not receive priority over the selected results; no AI story selected."},
+    {"area":"biology and genetics","sources":["Nature","PNAS records","Nature Genetics and Cell feeds"],"result":"Poxvirus portal and Neandertal-derived variant selected; causal claims bounded to the experiments and association designs."},
+    {"area":"chemistry","sources":["Nature Chemistry","Nature Communications","Science feeds"],"result":"Pentabenzocorannulenide selected as a fundamental synthesis and structure result."},
+    {"area":"geology and palaeontology","sources":["Nature Earth and Environmental Sciences","Science feeds","institutional palaeontology searches"],"result":"No same-window item passed both significance and verification thresholds."},
+    {"area":"neuroscience and medicine","sources":["JAMA","JAMA Network Open","Nature Neuroscience","major medical-journal feeds"],"result":"Plasma eMTBR-tau immunoassay and mouse pain-microcircuit study selected; previous-day eMTBR-tau isoform and obesity-trial stories not repeated."}
+  ],
+  "access_gaps": [
+    "The poxvirus portal, Neandertal-variant and nanocarbon studies were accessible through abstracts and indexed results rather than complete article text.",
+    "Some institutional archive pages were dynamically loaded and could not be exhaustively enumerated.",
+    "No claim of exhaustive journal coverage or verified absence in unselected fields is made."
+  ],
+  "deduplication": {
+    "checked_current_parts": ["content-parts/2026-11-17/arxiv.json", "content-parts/2026-11-17/alerts.json"],
+    "current_parts_present_at_cutoff": [],
+    "checked_previous_news": ["content-parts/2026-11-16/news.json"],
+    "duplicates_removed": ["2026-11-16 arXiv highlights", "astrophysical transient alerts", "tirzepatide trial", "mixed-isoform eMTBR-tau243 study", "weekend physics and broad-science stories"]
+  }
+}
