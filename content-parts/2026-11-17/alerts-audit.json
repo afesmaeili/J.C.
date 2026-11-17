@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-17",
+  "part": "alerts",
+  "status": "partial",
+  "cutoff": "2026-11-17T08:24:00+01:00",
+  "window_start_utc": "2026-11-16T07:10:00Z",
+  "window_end_utc": "2026-11-17T07:24:00Z",
+  "previous_part": "content-parts/2026-11-16/alerts.json",
+  "selected_story_count": 4,
+  "sources": [
+    {
+      "name": "GCN Circulars",
+      "url": "https://gcn.nasa.gov/circulars",
+      "checked_range": "46301–46310 inclusive",
+      "latest_seen": 46310,
+      "result": "All ten new bodies were read. Four event groups selected. GCN 46303 (GRB 261113B GECAM-B duration only) was scientifically incremental relative to the already reported reclassification and omitted as a separate public story. No correction or retraction appeared in this range."
+    },
+    {
+      "name": "Astronomer’s Telegram",
+      "url": "https://www.astronomerstelegram.org/",
+      "checked_after": 18156,
+      "latest_seen": 18156,
+      "result": "No telegram newer than 18156 was posted by the cutoff."
+    },
+    {
+      "name": "IceCube",
+      "urls": [
+        "https://gcn.nasa.gov/circulars/events/icecube-261113a",
+        "https://gcn.nasa.gov/missions/icecube",
+        "https://icecube.wisc.edu/science/icecube/"
+      ],
+      "result": "Read GCN 46307 and the complete event group. No newer IceCube candidate was exposed in the checked official/GCN surfaces."
+    },
+    {
+      "name": "GraceDB and LVK",
+      "urls": [
+        "https://gracedb.ligo.org/api/superevents/?query=created:%202026-11-16..2026-11-18",
+        "https://gracedb.ligo.org/latest/"
+      ],
+      "result": "The public REST query returned zero superevents created in the window. The separate Latest page displayed inconsistent/stale event rows; modern Kafka alerts were not independently enumerated."
+    },
+    {
+      "name": "Gamma-ray and X-ray missions",
+      "urls": [
+        "https://gcn.nasa.gov/circulars",
+        "https://gcn.nasa.gov/missions"
+      ],
+      "result": "Screened all in-range GCN bodies from GECAM, SVOM/ECLAIRs, Konus-Wind, Glowbug and optical follow-up teams. No new Einstein Probe event circular occurred in 46301–46310."
+    },
+    {
+      "name": "KM3NeT",
+      "urls": [
+        "https://www.km3net.org/category/news/",
+        "https://gcn.nasa.gov/circulars?query=KM3NeT"
+      ],
+      "result": "Targeted official and GCN searches exposed no in-window alert; no complete public live-alert ledger was available, so quiet cannot be verified."
+    },
+    {
+      "name": "Ground arrays and cosmic-ray facilities",
+      "urls": [
+        "https://public.hawc-observatory.org/",
+        "https://lhaaso.ihep.ac.cn/",
+        "https://www.auger.org/",
+        "https://www.telescopearray.org/"
+      ],
+      "result": "Targeted official/GCN searches exposed no qualifying in-window astrophysical alert. This is not a claim that all private or machine streams were quiet."
+    }
+  ],
+  "selected_events": [
+    "IceCube-261113A",
+    "GRB 261113A",
+    "GRB 261114A",
+    "GRB 261115A"
+  ],
+  "screened_not_selected": [
+    {
+      "event": "GRB 261113B",
+      "source": "https://gcn.nasa.gov/circulars/46303",
+      "reason": "GECAM-B supplied T90 only; incremental confirmation of an event and reclassification already covered on 16 November."
+    }
+  ],
+  "corrections_and_retractions": [
+    "No correction or retraction was found in GCN 46301–46310 or after ATel 18156 by the cutoff."
+  ],
+  "limitations": [
+    "Modern GCN/Kafka notice streams were not independently enumerated.",
+    "No complete public KM3NeT live-alert ledger was available.",
+    "The GraceDB Latest page showed stale/inconsistent rows; the public REST created-time query was used for the window.",
+    "No claim of universal messenger quiet is made."
+  ]
+}
