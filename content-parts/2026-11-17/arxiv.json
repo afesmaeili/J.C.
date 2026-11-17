@@ -1,0 +1,418 @@
+{
+  "date": "2026-11-17",
+  "part": "arxiv",
+  "status": "partial",
+  "cutoff": "2026-11-17T08:11:27+01:00",
+  "coverage": "Partial review of the 17 November UTC batch at 2026-11-17T08:11:27+01:00. 62 unique titles/abstracts screened; one complete PDF reviewed and selected; nine identified high-priority candidates remain unresolved. Verified new-primary counts: astro-ph 113 (HE 27, CO 10), hep-ex 4, hep-th 32, gr-qc 24; hep-ph, nucl-ex and nucl-th unavailable, not zero. Dated sources: https://arxiv.org/catchup/astro-ph/2026-11-17 and corresponding category URLs; HE/CO use ?abs=True. Aggregate abstract endpoints were inconsistent with category pages; alternate title-only inventories are not claimed as abstract-screened. Full audit: https://github.com/afesmaeili/J.C./blob/main/content-parts/2026-11-17/arxiv-screening.json . Initial edition, no retrospective substitution.",
+  "topics": [
+    "Astrophysical neutrinos",
+    "AGN coronae",
+    "Nucleon transport"
+  ],
+  "papers": [
+    {
+      "id": "paper-2611-21047",
+      "arxiv": "2611.21047",
+      "title": "The imprint of neutron escape on non-thermal protons in AGN coronae",
+      "authors": "Antonio Ambrosone and Damiano F. G. Fiorillo",
+      "primary_category": "astro-ph.HE",
+      "label": "Coronal nucleon transport",
+      "teaser": "Explicit charge exchange changes the seed-proton requirement and neutrino spectrum in a confined turbulent corona.",
+      "tags": [
+        "astro-ph.HE",
+        "Neutrinos"
+      ],
+      "arxiv_url": "https://arxiv.org/abs/2611.21047v1",
+      "submission_date": "2026-11-16",
+      "first_announcement_date": "2026-11-17",
+      "version": "v1",
+      "publication_status": "Preprint; to be submitted to JCAP.",
+      "full_text_access": {
+        "status": "read_full_text",
+        "scope": "Complete 39-page PDF, methods, equations, figures/captions and appendices A–D; Fig. 5 visually inspected."
+      },
+      "source_audit": {
+        "submission_timestamp": "2026-11-16T12:59:46+00:00",
+        "eligibility": "New-primary entry in dated astro-ph.HE listing; v1-only history checked.",
+        "listing_url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-17?abs=True",
+        "pdf_sha256": "1f3d79accfbc3a8772faf182f6dae4fec3272a0a93654d485f8531c4ae53e78e",
+        "history_reading": [
+          {
+            "url": "https://arxiv.org/abs/1205.6868v1",
+            "scope": "Introduction and neutron production/escape method, pp. 1–2."
+          },
+          {
+            "url": "https://arxiv.org/abs/2407.01678v1",
+            "scope": "Introduction and coronal setup pp. 1–2, timescales and transport pp. 4–5."
+          }
+        ],
+        "history_gap": "Independent comparison with the contemporaneous nuclear-transport work and additional June 2026 source not completed; no novelty priority claimed.",
+        "edition_audit": {
+          "date": "2026-11-17",
+          "cutoff": "2026-11-17T08:11:27+01:00",
+          "status": "partial",
+          "sources": [
+            {
+              "category": "astro-ph",
+              "url": "https://arxiv.org/catchup/astro-ph/2026-11-17?abs=True",
+              "capture": "astro-ph.html",
+              "sha256": "7f5fc7e086bf64784e39684f8d71a6680b577758fe72ce1f8496176a473487bf",
+              "observed_new_primary_count": null,
+              "verified_at": "2026-11-17T08:11:27+01:00"
+            },
+            {
+              "category": "astro-ph",
+              "url": "https://arxiv.org/catchup/astro-ph/2026-11-17",
+              "capture": "alt-astro-ph.html",
+              "sha256": "1d93d3b440cbf24740a195afa7e8c568715a5baa7e71ce5368bbc551279d7c2f",
+              "observed_new_primary_count": 113,
+              "verified_at": "2026-11-17T08:11:27+01:00"
+            },
+            {
+              "category": "hep-ph",
+              "url": "https://arxiv.org/catchup/hep-ph/2026-11-17?abs=True",
+              "capture": "hep-ph.html",
+              "sha256": "36fbc18abb87701131a4779153634cbce92bab63380b25001cc1ecc87f8b9659",
+              "observed_new_primary_count": null,
+              "verified_at": "2026-11-17T08:11:27+01:00"
+            },
+            {
+              "category": "hep-ph",
+              "url": "https://arxiv.org/catchup/hep-ph/2026-11-17",
+              "capture": "alt-hep-ph.html",
+              "sha256": "36fbc18abb87701131a4779153634cbce92bab63380b25001cc1ecc87f8b9659",
+              "observed_new_primary_count": null,
+              "verified_at": "2026-11-17T08:11:27+01:00"
+            },
+            {
+              "category": "hep-ex",
+              "url": "https://arxiv.org/catchup/hep-ex/2026-11-17?abs=True",
+              "capture": "hep-ex.html",
+              "sha256": "6c15504450177d790049481a210c7671d7d4b051243f5ea998f614fd82d426f5",
+              "observed_new_primary_count": null,
+              "verified_at": "2026-11-17T08:11:27+01:00"
+            },
+            {
+              "category": "hep-ex",
+              "url": "https://arxiv.org/catchup/hep-ex/2026-11-17",
+              "capture": "alt-hep-ex.html",
+              "sha256": "84ed2d303a53b6b97278d522fb337d52cb57ba5abf66c3c2955692fbb8bde143",
+              "observed_new_primary_count": 4,
+              "verified_at": "2026-11-17T08:11:27+01:00"
+            },
+            {
+              "category": "hep-th",
+              "url": "https://arxiv.org/catchup/hep-th/2026-11-17?abs=True",
+              "capture": "hep-th.html",
+              "sha256": "0d439b6f15aa853e2dda94d722d1ffc62919f34b3da10999ce6d6d95bf929c77",
+              "observed_new_primary_count": null,
+              "verified_at": "2026-11-17T08:11:27+01:00"
+            },
+            {
+              "category": "hep-th",
+              "url": "https://arxiv.org/catchup/hep-th/2026-11-17",
+              "capture": "alt-hep-th.html",
+              "sha256": "15854778283b0bd8aa1cf2ed35db4815d3e1c87438d80247bd6fe782ebebd56b",
+              "observed_new_primary_count": 32,
+              "verified_at": "2026-11-17T08:11:27+01:00"
+            },
+            {
+              "category": "gr-qc",
+              "url": "https://arxiv.org/catchup/gr-qc/2026-11-17?abs=True",
+              "capture": "gr-qc.html",
+              "sha256": "efaf4987e388ce315ac9762ae2e40af02bf37cc25a0a7e3c4dcf645e85a2e785",
+              "observed_new_primary_count": null,
+              "verified_at": "2026-11-17T08:11:27+01:00"
+            },
+            {
+              "category": "gr-qc",
+              "url": "https://arxiv.org/catchup/gr-qc/2026-11-17",
+              "capture": "alt-gr-qc.html",
+              "sha256": "7e980fc03896f510d5e952990e01521ca19a628e17c95a406ec57459034ced72",
+              "observed_new_primary_count": 24,
+              "verified_at": "2026-11-17T08:11:27+01:00"
+            },
+            {
+              "category": "nucl-ex",
+              "url": "https://arxiv.org/catchup/nucl-ex/2026-11-17?abs=True",
+              "capture": "nucl-ex.html",
+              "sha256": "3dee1d03872f8480bc8845914c3544f7386267d4bb14ac064923337c1e223de1",
+              "observed_new_primary_count": null,
+              "verified_at": "2026-11-17T08:11:27+01:00"
+            },
+            {
+              "category": "nucl-ex",
+              "url": "https://arxiv.org/catchup/nucl-ex/2026-11-17",
+              "capture": "alt-nucl-ex.html",
+              "sha256": "3dee1d03872f8480bc8845914c3544f7386267d4bb14ac064923337c1e223de1",
+              "observed_new_primary_count": null,
+              "verified_at": "2026-11-17T08:11:27+01:00"
+            },
+            {
+              "category": "nucl-th",
+              "url": "https://arxiv.org/catchup/nucl-th/2026-11-17?abs=True",
+              "capture": "nucl-th.html",
+              "sha256": "cbef08e777dfbc9c06797d8da0c7d0380ea16029370f4df1d1d41b52258e6d0d",
+              "observed_new_primary_count": null,
+              "verified_at": "2026-11-17T08:11:27+01:00"
+            },
+            {
+              "category": "nucl-th",
+              "url": "https://arxiv.org/catchup/nucl-th/2026-11-17",
+              "capture": "alt-nucl-th.html",
+              "sha256": "cbef08e777dfbc9c06797d8da0c7d0380ea16029370f4df1d1d41b52258e6d0d",
+              "observed_new_primary_count": null,
+              "verified_at": "2026-11-17T08:11:27+01:00"
+            },
+            {
+              "category": "astro-ph.HE",
+              "url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-17?abs=True",
+              "capture": "astro-ph.HE.html",
+              "sha256": "9230ae10c2fa2a4bf96118895a68cbc5687dbe53395cb46ef2d46b36f0b0959e",
+              "observed_new_primary_count": 27,
+              "verified_at": "2026-11-17T08:11:27+01:00"
+            },
+            {
+              "category": "astro-ph.CO",
+              "url": "https://arxiv.org/catchup/astro-ph.CO/2026-11-17?abs=True",
+              "capture": "astro-ph.CO.html",
+              "sha256": "5503f152ea38461c97fca1f7210f467d10c655ce5e95a6cc53da5ec48a472429",
+              "observed_new_primary_count": 10,
+              "verified_at": "2026-11-17T08:11:27+01:00"
+            }
+          ],
+          "listing_statistics_partial": {
+            "basis": "new_primary_submissions",
+            "counts": {
+              "astro-ph": 113,
+              "hep-ph": null,
+              "hep-ex": 4,
+              "hep-th": 32,
+              "gr-qc": 24,
+              "nucl-ex": null,
+              "nucl-th": null
+            },
+            "astro_subcategories": {
+              "astro-ph.HE": 27,
+              "astro-ph.CO": 10
+            }
+          },
+          "counts": {
+            "inventoried_unique": 336,
+            "actual_screened_unique": 62,
+            "selected_unique": 1,
+            "full_text_read_unique": 1,
+            "unresolved_high_priority": 9,
+            "independent_results": 1
+          },
+          "unresolved_high_priority_ids": [
+            "2611.19989",
+            "2611.20542",
+            "2611.21041",
+            "2611.21109",
+            "2611.21317",
+            "2611.21401",
+            "2611.21595",
+            "2611.18876",
+            "2611.18833"
+          ],
+          "gaps": [
+            "Aggregate ?abs=True catchup endpoints returned empty/incomplete results; repeated retrieval reproduced this. No-query alternate endpoints supplied title-only listings in four categories. HE/CO dated abstract listings supplied usable candidates.",
+            "hep-ph, nucl-ex and nucl-th new-primary totals could not be independently verified; displayed empty responses are not treated as true zeroes.",
+            "Recent endpoints in all seven categories remained headed 16 November. Alternate query variants returned HTTP 400.",
+            "Broad screening remains incomplete outside HE/CO and their cross-lists. Nine identified high-priority candidates require full review."
+          ],
+          "second_topic_pass": "Rechecked the screened abstracts for nucleon escape, AGN coronae, cosmic-ray anisotropy and transport, pair instabilities, jet mass loading, PeV gamma rays and dark matter; prioritized 2611.21047 for completed assessment.",
+          "retrospective": false,
+          "revision_provenance": "Initial partial part for the 17 November batch; no older papers relabeled. Previous three-part editions checked against fingerprints and 16 November verified live."
+        }
+      }
+    }
+  ],
+  "alerts_count": 0,
+  "news_count": 0,
+  "sections": {
+    "ArXiv Highlights": "<!-- paper:paper-2611-21047 -->\n#### The imprint of neutron escape on non-thermal protons in AGN coronae\n\n**Authors:** Antonio Ambrosone and Damiano F. G. Fiorillo.\n\n[arXiv:2611.21047v1](https://arxiv.org/abs/2611.21047v1) · [Full text](https://arxiv.org/pdf/2611.21047v1). Submitted 16 November 2026 at 12:59:46 UTC; first announced in the 17 November listing. **Status:** preprint, intended for submission to JCAP; no journal acceptance verified.\n\n**Question and method.** Can proton-to-neutron conversion substantially alter the energetics inferred for neutrino-producing AGN coronae? The authors solve coupled, steady-state proton and neutron transport, including stochastic acceleration, continuous Bethe–Heitler and synchrotron losses, and discrete photohadronic and hadronuclear interactions. Their “trickle-down” treatment removes a parent nucleon and reinjects a leading proton or neutron at lower energy, using channel-conditioned mean energy fractions and the corresponding energy-mapping Jacobian. SOPHIA through Chromo supplies photohadronic inputs; Sibyll supplies hadronuclear inputs. This is a transport-model comparison, not a new IceCube measurement or statistical exclusion.\n\nThe turbulent-corona benchmark adopts a black-hole mass of $6.7\\times10^6M_\\odot$, radius $R_c=10GM/c^2$, 2–10-keV luminosity $L_X=3\\times10^{43}\\,\\mathrm{erg\\,s^{-1}}$, Thomson depth 0.5, magnetization 1 and coherence length $0.5R_c$. These imply $B\\simeq3.8\\times10^4$ G and an acceleration time near $1.65\\times10^3$ s. Two radiation geometries bracket the influence of optical–UV disk photons: disk plus coronal radiation, and X-rays alone. Both continuous-loss and discrete-interaction solutions are normalized to the same stationary proton energy density, $u_p=0.25u_{B,\\mathrm{tur}}$.\n\n**Results.** Magnetically confined protons can convert to neutrons that leave on a light-crossing time, long before beta decay. Sustaining the prescribed nonthermal population then requires approximately two orders of magnitude more seed-proton injection than in the continuous-loss treatment for the adopted confinement law. This is an injection-rate comparison at fixed stationary energy density; it should not be read as a measured hundredfold increase in a source luminosity.\n\nIn the X-ray-only turbulent benchmark, the neutrino spectral maximum shifts downward by roughly a factor of four, from several tens of TeV to below 10 TeV. The main calculation gives an integrated neutrino luminosity approximately 35% lower than the continuous-loss result. The appendix's alternative Sim-B production treatment gives about 39% without secondary cooling and about **30% with pion and muon synchrotron cooling**. The distinction between these numbers reflects both cooling and different production parametrizations. When disk photons make Bethe–Heitler losses dominant, the spectral change is smaller.\n\nA separate reconnection benchmark uses $R_c=2GM/c^2$, $B\\simeq1.4\\times10^5$ G and a prescribed broken-power-law injection with a 25-TeV break. Here both treatments use the same injected proton power, and protons already escape ballistically. The neutrino change remains at the percent level, even though neutrons carry about 25% of the stationary nucleon energy density. Thus the large turbulent-corona correction is not universal across acceleration and escape prescriptions.\n\n**Limitations.** This is a one-zone, fixed-background calculation with selected benchmarks rather than a fit marginalizing over source parameters. Daughter energies use channel means, not full redistribution distributions. Neutron-induced yields invoke approximate isospin symmetry; CEL and discrete photopion coefficients do not use exactly the same leading-baryon observable. The appendix's cooling calculation neglects the subdominant hadronuclear contribution and uses simplified photopion channels. Faster hydrodynamic escape would reduce the injection-rate enhancement. Emission from neutrons after they leave the corona is not modeled. The quoted effects therefore quantify the sensitivity to charge exchange and confinement, not a universal correction factor for every Seyfert model.\n\n##### History\n\nNeutron escape from magnetized accretion flows is established physics. [Toma and Takahara (2012), *Baryon Loading of AGN Jets Mediated by Neutrons*](https://arxiv.org/abs/1205.6868v1), explicitly compared proton acceleration, photohadronic and hadronuclear losses, neutron escape and decay, then studied how escaping neutrons deposit mass and energy in a polar jet. Their treatment already made the basic distinction between confined charged particles and freely escaping neutral particles. The new paper's contribution is the quantitative feedback of that conversion on the accelerating coronal proton distribution and its neutrino emission; it does not discover neutral-particle escape.\n\nThe more immediate baseline is [Fiorillo et al. (2024), *A magnetized strongly turbulent corona as the source of neutrinos from NGC 1068*](https://arxiv.org/abs/2407.01678v1). Its nonresonant stochastic-acceleration model linked the available turbulent magnetic power, proton cooling and the neutrino spectrum. In its disk-photon benchmark, Bethe–Heitler losses were important near 20 TeV and diffusive escape much slower. The present calculation retains that competition but adds explicit charge exchange, regeneration and neutron escape. This explains why the largest spectral shift occurs in the new X-ray-only case, while the injection requirement can change strongly even when the neutrino spectrum looks similar. The two papers use different benchmarks, so the factor-of-four shift is an internal comparison of the new paper's treatments, not a direct revision factor for every result in the 2024 study.\n\nThe new paper also acknowledges contemporaneous nuclear-transport work in its note added in preparation. That comparison was not independently completed here; no claim of exclusive priority or exhaustive novelty is made. Its most secure advance is the demonstrated importance of coupling nucleon conversion and regeneration directly to ongoing acceleration when inferring the required seed population.\n"
+  },
+  "listing_statistics": null,
+  "source_audit": {
+    "date": "2026-11-17",
+    "cutoff": "2026-11-17T08:11:27+01:00",
+    "status": "partial",
+    "sources": [
+      {
+        "category": "astro-ph",
+        "url": "https://arxiv.org/catchup/astro-ph/2026-11-17?abs=True",
+        "capture": "astro-ph.html",
+        "sha256": "7f5fc7e086bf64784e39684f8d71a6680b577758fe72ce1f8496176a473487bf",
+        "observed_new_primary_count": null,
+        "verified_at": "2026-11-17T08:11:27+01:00"
+      },
+      {
+        "category": "astro-ph",
+        "url": "https://arxiv.org/catchup/astro-ph/2026-11-17",
+        "capture": "alt-astro-ph.html",
+        "sha256": "1d93d3b440cbf24740a195afa7e8c568715a5baa7e71ce5368bbc551279d7c2f",
+        "observed_new_primary_count": 113,
+        "verified_at": "2026-11-17T08:11:27+01:00"
+      },
+      {
+        "category": "hep-ph",
+        "url": "https://arxiv.org/catchup/hep-ph/2026-11-17?abs=True",
+        "capture": "hep-ph.html",
+        "sha256": "36fbc18abb87701131a4779153634cbce92bab63380b25001cc1ecc87f8b9659",
+        "observed_new_primary_count": null,
+        "verified_at": "2026-11-17T08:11:27+01:00"
+      },
+      {
+        "category": "hep-ph",
+        "url": "https://arxiv.org/catchup/hep-ph/2026-11-17",
+        "capture": "alt-hep-ph.html",
+        "sha256": "36fbc18abb87701131a4779153634cbce92bab63380b25001cc1ecc87f8b9659",
+        "observed_new_primary_count": null,
+        "verified_at": "2026-11-17T08:11:27+01:00"
+      },
+      {
+        "category": "hep-ex",
+        "url": "https://arxiv.org/catchup/hep-ex/2026-11-17?abs=True",
+        "capture": "hep-ex.html",
+        "sha256": "6c15504450177d790049481a210c7671d7d4b051243f5ea998f614fd82d426f5",
+        "observed_new_primary_count": null,
+        "verified_at": "2026-11-17T08:11:27+01:00"
+      },
+      {
+        "category": "hep-ex",
+        "url": "https://arxiv.org/catchup/hep-ex/2026-11-17",
+        "capture": "alt-hep-ex.html",
+        "sha256": "84ed2d303a53b6b97278d522fb337d52cb57ba5abf66c3c2955692fbb8bde143",
+        "observed_new_primary_count": 4,
+        "verified_at": "2026-11-17T08:11:27+01:00"
+      },
+      {
+        "category": "hep-th",
+        "url": "https://arxiv.org/catchup/hep-th/2026-11-17?abs=True",
+        "capture": "hep-th.html",
+        "sha256": "0d439b6f15aa853e2dda94d722d1ffc62919f34b3da10999ce6d6d95bf929c77",
+        "observed_new_primary_count": null,
+        "verified_at": "2026-11-17T08:11:27+01:00"
+      },
+      {
+        "category": "hep-th",
+        "url": "https://arxiv.org/catchup/hep-th/2026-11-17",
+        "capture": "alt-hep-th.html",
+        "sha256": "15854778283b0bd8aa1cf2ed35db4815d3e1c87438d80247bd6fe782ebebd56b",
+        "observed_new_primary_count": 32,
+        "verified_at": "2026-11-17T08:11:27+01:00"
+      },
+      {
+        "category": "gr-qc",
+        "url": "https://arxiv.org/catchup/gr-qc/2026-11-17?abs=True",
+        "capture": "gr-qc.html",
+        "sha256": "efaf4987e388ce315ac9762ae2e40af02bf37cc25a0a7e3c4dcf645e85a2e785",
+        "observed_new_primary_count": null,
+        "verified_at": "2026-11-17T08:11:27+01:00"
+      },
+      {
+        "category": "gr-qc",
+        "url": "https://arxiv.org/catchup/gr-qc/2026-11-17",
+        "capture": "alt-gr-qc.html",
+        "sha256": "7e980fc03896f510d5e952990e01521ca19a628e17c95a406ec57459034ced72",
+        "observed_new_primary_count": 24,
+        "verified_at": "2026-11-17T08:11:27+01:00"
+      },
+      {
+        "category": "nucl-ex",
+        "url": "https://arxiv.org/catchup/nucl-ex/2026-11-17?abs=True",
+        "capture": "nucl-ex.html",
+        "sha256": "3dee1d03872f8480bc8845914c3544f7386267d4bb14ac064923337c1e223de1",
+        "observed_new_primary_count": null,
+        "verified_at": "2026-11-17T08:11:27+01:00"
+      },
+      {
+        "category": "nucl-ex",
+        "url": "https://arxiv.org/catchup/nucl-ex/2026-11-17",
+        "capture": "alt-nucl-ex.html",
+        "sha256": "3dee1d03872f8480bc8845914c3544f7386267d4bb14ac064923337c1e223de1",
+        "observed_new_primary_count": null,
+        "verified_at": "2026-11-17T08:11:27+01:00"
+      },
+      {
+        "category": "nucl-th",
+        "url": "https://arxiv.org/catchup/nucl-th/2026-11-17?abs=True",
+        "capture": "nucl-th.html",
+        "sha256": "cbef08e777dfbc9c06797d8da0c7d0380ea16029370f4df1d1d41b52258e6d0d",
+        "observed_new_primary_count": null,
+        "verified_at": "2026-11-17T08:11:27+01:00"
+      },
+      {
+        "category": "nucl-th",
+        "url": "https://arxiv.org/catchup/nucl-th/2026-11-17",
+        "capture": "alt-nucl-th.html",
+        "sha256": "cbef08e777dfbc9c06797d8da0c7d0380ea16029370f4df1d1d41b52258e6d0d",
+        "observed_new_primary_count": null,
+        "verified_at": "2026-11-17T08:11:27+01:00"
+      },
+      {
+        "category": "astro-ph.HE",
+        "url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-17?abs=True",
+        "capture": "astro-ph.HE.html",
+        "sha256": "9230ae10c2fa2a4bf96118895a68cbc5687dbe53395cb46ef2d46b36f0b0959e",
+        "observed_new_primary_count": 27,
+        "verified_at": "2026-11-17T08:11:27+01:00"
+      },
+      {
+        "category": "astro-ph.CO",
+        "url": "https://arxiv.org/catchup/astro-ph.CO/2026-11-17?abs=True",
+        "capture": "astro-ph.CO.html",
+        "sha256": "5503f152ea38461c97fca1f7210f467d10c655ce5e95a6cc53da5ec48a472429",
+        "observed_new_primary_count": 10,
+        "verified_at": "2026-11-17T08:11:27+01:00"
+      }
+    ],
+    "listing_statistics_partial": {
+      "basis": "new_primary_submissions",
+      "counts": {
+        "astro-ph": 113,
+        "hep-ph": null,
+        "hep-ex": 4,
+        "hep-th": 32,
+        "gr-qc": 24,
+        "nucl-ex": null,
+        "nucl-th": null
+      },
+      "astro_subcategories": {
+        "astro-ph.HE": 27,
+        "astro-ph.CO": 10
+      }
+    },
+    "counts": {
+      "inventoried_unique": 336,
+      "actual_screened_unique": 62,
+      "selected_unique": 1,
+      "full_text_read_unique": 1,
+      "unresolved_high_priority": 9,
+      "independent_results": 1
+    },
+    "unresolved_high_priority_ids": [
+      "2611.19989",
+      "2611.20542",
+      "2611.21041",
+      "2611.21109",
+      "2611.21317",
+      "2611.21401",
+      "2611.21595",
+      "2611.18876",
+      "2611.18833"
+    ],
+    "gaps": [
+      "Aggregate ?abs=True catchup endpoints returned empty/incomplete results; repeated retrieval reproduced this. No-query alternate endpoints supplied title-only listings in four categories. HE/CO dated abstract listings supplied usable candidates.",
+      "hep-ph, nucl-ex and nucl-th new-primary totals could not be independently verified; displayed empty responses are not treated as true zeroes.",
+      "Recent endpoints in all seven categories remained headed 16 November. Alternate query variants returned HTTP 400.",
+      "Broad screening remains incomplete outside HE/CO and their cross-lists. Nine identified high-priority candidates require full review."
+    ],
+    "second_topic_pass": "Rechecked the screened abstracts for nucleon escape, AGN coronae, cosmic-ray anisotropy and transport, pair instabilities, jet mass loading, PeV gamma rays and dark matter; prioritized 2611.21047 for completed assessment.",
+    "retrospective": false,
+    "revision_provenance": "Initial partial part for the 17 November batch; no older papers relabeled. Previous three-part editions checked against fingerprints and 16 November verified live.",
+    "inventory_path": "content-parts/2026-11-17/arxiv-screening.json"
+  }
+}
