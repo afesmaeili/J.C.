@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-18",
+  "part": "alerts",
+  "status": "partial",
+  "cutoff": "2026-11-18T08:04:00+01:00",
+  "window_start_utc": "2026-11-17T07:24:00Z",
+  "window_end_utc": "2026-11-18T07:04:00Z",
+  "previous_part": "content-parts/2026-11-17/alerts.json",
+  "selected_story_count": 6,
+  "sources": [
+    {
+      "name": "GCN Circulars",
+      "url": "https://gcn.nasa.gov/circulars",
+      "checked_range": "46311–46315 inclusive",
+      "latest_seen": 46315,
+      "result": "All five bodies and their event groups were read. Circulars 46311 and 46312 are dated before the nominal window start but were absent from the previous archive snapshot, so they were retained as dated catch-up follow-ups. No correction or retraction appeared in or after this range by the cutoff."
+    },
+    {
+      "name": "Astronomer’s Telegram",
+      "url": "https://www.astronomerstelegram.org/",
+      "checked_after": 18156,
+      "latest_seen": 18157,
+      "result": "Read ATel 18157 and selected the preliminary >10σ H.E.S.S. detection of PKS 0521−365."
+    },
+    {
+      "name": "Fermi/GBM notices",
+      "urls": [
+        "https://gcn.gsfc.nasa.gov/gcn/fermi_grbs.html",
+        "https://gcn.nasa.gov/circulars/46315"
+      ],
+      "result": "Checked public notices through 816659441. Selected triggers 816645341 and 816659441 as unconfirmed candidates. Trigger 816654613 was screened out because the public notice classified the localization as 100% unreliable and provided no final position."
+    },
+    {
+      "name": "IceCube",
+      "urls": [
+        "https://gcn.nasa.gov/missions/icecube",
+        "https://gcn.gsfc.nasa.gov/amon_icecube_gold_bronze_events.html",
+        "https://gcn.gsfc.nasa.gov/amon_icecube_neutrino_events.html"
+      ],
+      "result": "The latest exposed public candidate remained IceCube-261113A, already covered through its 16 November additional-event search. No newer public alert was found."
+    },
+    {
+      "name": "GraceDB and LVK",
+      "urls": [
+        "https://gracedb.ligo.org/api/superevents/?query=created:%202026-11-17%2007:24:00..2026-11-18%2008:00:00",
+        "https://gracedb.ligo.org/latest/"
+      ],
+      "result": "The public REST created-time query returned zero superevents in the checked window. The Latest page remained stale/inconsistent, so it was not used to assert universal quiet."
+    },
+    {
+      "name": "KM3NeT",
+      "urls": [
+        "https://www.km3net.org/category/news/",
+        "https://gcn.nasa.gov/circulars?query=KM3NeT"
+      ],
+      "result": "Targeted official and GCN searches exposed no in-window alert. No complete public live-alert ledger was available, so quiet cannot be verified."
+    },
+    {
+      "name": "Ground arrays and cosmic-ray facilities",
+      "urls": [
+        "https://public.hawc-observatory.org/",
+        "https://lhaaso.ihep.ac.cn/",
+        "https://www.auger.org/",
+        "https://www.telescopearray.org/"
+      ],
+      "result": "Targeted official and GCN searches exposed no qualifying in-window alert. This is not a claim that all private or machine streams were quiet."
+    }
+  ],
+  "selected_events": [
+    "PKS 0521−365",
+    "EP261115a",
+    "GRB 261113B",
+    "GRB 261108D",
+    "GRB 261108C",
+    "Fermi/GBM triggers 816645341 and 816659441"
+  ],
+  "screened_not_selected": [
+    {
+      "event": "Fermi/GBM trigger 816654613",
+      "source": "https://gcn.gsfc.nasa.gov/gcn/fermi_grbs.html",
+      "reason": "The public notice classified the localization as 100% unreliable; no final localization or independent confirmation was available by the cutoff."
+    }
+  ],
+  "corrections_and_retractions": [
+    "No correction or retraction was found in GCN 46311–46315 or after ATel 18157 by the cutoff."
+  ],
+  "limitations": [
+    "Modern GCN/Kafka notice streams were not independently enumerated in full.",
+    "No complete public KM3NeT live-alert ledger was available.",
+    "The GraceDB Latest page showed stale or inconsistent rows; the public REST created-time query was used for the window.",
+    "No claim of universal messenger quiet is made."
+  ]
+}
