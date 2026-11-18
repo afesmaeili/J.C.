@@ -1,0 +1,568 @@
+{
+  "date": "2026-11-18",
+  "part": "arxiv",
+  "status": "complete",
+  "cutoff": "2026-11-18T08:17:25+01:00",
+  "coverage": "Complete dated new/cross-list title-and-abstract screening of all seven requested archives and HE/CO pages; 210 deduplicated candidates, four complete v1 reviews and highlights, no unresolved retained high-priority candidates. Replacements excluded. Exact coverage, checks and historical-access limitations are in the saved screening audit. Cutoff 2026-11-18T08:17:25+01:00.",
+  "topics": [
+    "Multimessenger propagation horizon",
+    "Supernova neutrino magnetic moments",
+    "Radio counterpart and PeVatron models",
+    "Transient UHE photon methodology"
+  ],
+  "papers": [
+    {
+      "id": "paper-2611-21752",
+      "arxiv": "2611.21752",
+      "title": "Mapping the multimessenger horizon for γ-ray counterparts of cosmic neutrinos",
+      "authors": "Tianyi Ding, Jose Alonso Carpio, Ali Kheirandish and Kohta Murase",
+      "primary_category": "astro-ph.HE",
+      "label": "Multimessenger propagation horizon",
+      "teaser": "Magnetic delays and angular acceptance reshape gamma-ray counterpart sensitivity.",
+      "tags": [
+        "astro-ph.HE",
+        "Multimessenger propagation horizon"
+      ],
+      "arxiv_url": "https://arxiv.org/abs/2611.21752v1",
+      "submission_date": "2026-11-16",
+      "first_announcement_date": "2026-11-18",
+      "version": "v1",
+      "publication_status": "Preprint; no journal publication recorded.",
+      "full_text_access": {
+        "status": "read_full_text",
+        "scope": "Complete v1 PDF including methods, equations, figures/captions, results, limitations and appendices where present; selected figures visually inspected."
+      },
+      "source_audit": {
+        "submission_timestamp": "2026-11-16T19:00:24+00:00",
+        "first_announcement_date": "2026-11-18",
+        "listing_url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-18?abs=True",
+        "eligibility": "Appears under New submissions in target dated primary listing; arXiv submission history checked and contains v1 only.",
+        "version_history_url": "https://arxiv.org/abs/2611.21752v1",
+        "abs_sha256": "4b8706ba2c996f5733baaacc044fda92c837bc4f6a52f4dd682ac18b674167ed",
+        "pdf_sha256": "5dac0a494e422def3b45222f2e5efc9eeb432b7a36df6ea1d947b97b22b4a3ef",
+        "history_reading": [
+          {
+            "url": "https://arxiv.org/abs/1205.5755",
+            "scope": "Source horizons, cascade detection and transient/steady comparison sections.",
+            "pdf_sha256": "9728f581a78a4c3c0fb1d1c6061331250bfe2a1aa3451d40ea208104c685e8f7"
+          },
+          {
+            "url": "https://arxiv.org/abs/2205.03740",
+            "scope": "Production relations, numerical cascade setup and transparent/obscured source results; independently located uncited comparison.",
+            "pdf_sha256": "013e83bf93661cfd6e9b0794f813bf98875d1207664de18933b20e714f0cb3a9"
+          }
+        ]
+      }
+    },
+    {
+      "id": "paper-2611-21729",
+      "arxiv": "2611.21729",
+      "title": "Supernova Bounds on Neutrino Dipole Moments from a Modern Perspective",
+      "authors": "Damiano F. G. Fiorillo, Martina La Rosa, Federico Testagrossa and Edoardo Vitagliano",
+      "primary_category": "hep-ph",
+      "label": "Supernova neutrino magnetic moments",
+      "teaser": "SN 1987A event limits are updated with source, magnetic and detector modeling.",
+      "tags": [
+        "hep-ph",
+        "Supernova neutrino magnetic moments"
+      ],
+      "arxiv_url": "https://arxiv.org/abs/2611.21729v1",
+      "submission_date": "2026-11-16",
+      "first_announcement_date": "2026-11-18",
+      "version": "v1",
+      "publication_status": "Preprint prepared for submission to JCAP.",
+      "full_text_access": {
+        "status": "read_full_text",
+        "scope": "Complete v1 PDF including methods, equations, figures/captions, results, limitations and appendices where present; selected figures visually inspected."
+      },
+      "source_audit": {
+        "submission_timestamp": "2026-11-16T19:00:04+00:00",
+        "first_announcement_date": "2026-11-18",
+        "listing_url": "https://arxiv.org/catchup/hep-ph/2026-11-18?abs=True",
+        "eligibility": "Appears under New submissions in target dated primary listing; arXiv submission history checked and contains v1 only.",
+        "version_history_url": "https://arxiv.org/abs/2611.21729v1",
+        "abs_sha256": "38dc3d017f9f26ed0ab7d592f5049eb15013b5e1ccf231a76e76d260c1020419",
+        "pdf_sha256": "c9c82a51b7a1f577650ad6ad5ac12a02bef64bc27fdb2d0058ec597d3945221d",
+        "history_reading": [
+          {
+            "url": "https://arxiv.org/abs/0907.2905",
+            "scope": "Electron/proton production and cooling results.",
+            "pdf_sha256": "1569226148a6aea551d4f069acb3ad3ac3a907e0e2ad369d002c4d626c6133b0"
+          },
+          {
+            "url": "https://arxiv.org/abs/2007.03694",
+            "scope": "Stellar calibration, uncertainty construction and 95% confidence results.",
+            "pdf_sha256": "55e965ee0ecbcd2ef7bfc7cc391c386e7cea92c6679e7a5abc1bfae4508d72d8"
+          },
+          {
+            "url": "https://arxiv.org/abs/2307.13050",
+            "scope": "Stellar-emulator likelihood/priors and marginalization results; uncited comparison.",
+            "pdf_sha256": "ab36e649372f8940e909be6caa9d70aafc787962835cde84edd210da14fcc5c4"
+          },
+          {
+            "url": "https://arxiv.org/abs/2608.04801",
+            "scope": "Section 5.4.1 only: sensitivity estimate distinguished from a confidence bound; uncited comparison.",
+            "pdf_sha256": "503cf916a8cc420a0100a939a8bbc9a484ffe45e2c9f844c824b4b38ef69283c"
+          },
+          {
+            "url": "https://arxiv.org/abs/2610.38734",
+            "scope": "Section IV.D: latest XENONnT magnetic-moment analysis; checked for stronger comparable constraints.",
+            "pdf_sha256": "9eacd3bb0ccbb2f16643f2b8dec4e0f92b58c2f8a7506e9f5e7531bed78baede"
+          }
+        ],
+        "additional_history": [
+          {
+            "url": "https://doi.org/10.1103/PhysRevLett.61.27",
+            "access": "Bibliographic record and abstract; not claimed as a full-text reading."
+          }
+        ]
+      }
+    },
+    {
+      "id": "paper-2611-22379",
+      "arxiv": "2611.22379",
+      "title": "Low-frequency Radio Observation of the Dark PeVatron LHAASO J2108+5157 Using uGMRT. II",
+      "authors": "Gunindra Krishna Mahanta, Subhashis Roy, Sagar Godambe, Bitan Ghosal, Nilay Bhatt and Subir Bhattacharyya",
+      "primary_category": "astro-ph.HE",
+      "label": "Radio counterpart and PeVatron models",
+      "teaser": "New radio bands constrain an unconfirmed counterpart and competing emission scenarios.",
+      "tags": [
+        "astro-ph.HE",
+        "Radio counterpart and PeVatron models"
+      ],
+      "arxiv_url": "https://arxiv.org/abs/2611.22379v1",
+      "submission_date": "2026-11-17",
+      "first_announcement_date": "2026-11-18",
+      "version": "v1",
+      "publication_status": "Journal DOI 10.3847/1538-4357/aeb5f4 supplied; exact publication date unverified.",
+      "full_text_access": {
+        "status": "read_full_text",
+        "scope": "Complete v1 PDF including methods, equations, figures/captions, results, limitations and appendices where present; selected figures visually inspected."
+      },
+      "source_audit": {
+        "submission_timestamp": "2026-11-17T08:30:47+00:00",
+        "first_announcement_date": "2026-11-18",
+        "listing_url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-18?abs=True",
+        "eligibility": "Appears under New submissions in target dated primary listing; arXiv submission history checked and contains v1 only.",
+        "version_history_url": "https://arxiv.org/abs/2611.22379v1",
+        "abs_sha256": "ae37483c95e237eddc8c20860f4d9a21c662128e534c0b41ff9c9be5e931d55b",
+        "pdf_sha256": "cf29a7a9305943881370efb44cb7270c11e1e030313a13c2e223bd9ecd7edf5b",
+        "history_reading": [
+          {
+            "url": "https://arxiv.org/abs/2602.11148",
+            "scope": "Infrared observations, counterpart interpretation and discussion.",
+            "pdf_sha256": "e65d5f6ab0b6a3b584a7ca21c1ca41e95b3a338a93a048ebd0d74cc29dc0260f"
+          },
+          {
+            "url": "https://arxiv.org/abs/2609.18353",
+            "scope": "Transport setup, benchmark spectrum, results and discussion; uncited competing model.",
+            "pdf_sha256": "dc4711433c0be0e5160ffd1e7294cdd7242f992abc985f37720686ad86149ca5"
+          }
+        ],
+        "additional_history": [
+          {
+            "url": "https://doi.org/10.1016/j.jheap.2025.100381",
+            "access": "Bibliography verified via INSPIRE record 2908429; full text not recovered."
+          }
+        ]
+      }
+    },
+    {
+      "id": "paper-2611-22833",
+      "arxiv": "2611.22833",
+      "title": "Search for UHE photon sources using direction-time clustering algorithms with a BDT particle discriminant",
+      "authors": "Chaitanya Priyadarshi, Jarosław Stasielak, Nataliia Borodai, Megha Mogarkar, Jan Pękala, Dariusz Góra and Marcus Niechciol",
+      "primary_category": "astro-ph.HE",
+      "label": "Transient UHE photon methodology",
+      "teaser": "A particle-tag likelihood improves simulated flare searches; real-data tags remain synthetic.",
+      "tags": [
+        "astro-ph.HE",
+        "Transient UHE photon methodology"
+      ],
+      "arxiv_url": "https://arxiv.org/abs/2611.22833v1",
+      "submission_date": "2026-11-17",
+      "first_announcement_date": "2026-11-18",
+      "version": "v1",
+      "publication_status": "Published conference proceedings PoS(ECRS2026)041; DOI 10.22323/1.528.0041.",
+      "full_text_access": {
+        "status": "read_full_text",
+        "scope": "Complete v1 PDF including methods, equations, figures/captions, results, limitations and appendices where present; selected figures visually inspected."
+      },
+      "source_audit": {
+        "submission_timestamp": "2026-11-17T14:17:00+00:00",
+        "first_announcement_date": "2026-11-18",
+        "listing_url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-18?abs=True",
+        "eligibility": "Appears under New submissions in target dated primary listing; arXiv submission history checked and contains v1 only.",
+        "version_history_url": "https://arxiv.org/abs/2611.22833v1",
+        "abs_sha256": "097d42ed7cdbc517a4b1ce88897b468a962a2b3429317af6bc942ed8385ee9d0",
+        "pdf_sha256": "71e73da7221edb236ff252becd1d3b8eb555a45a0048276d2db4425b4d29c383",
+        "history_reading": [
+          {
+            "url": "https://arxiv.org/abs/2412.13804",
+            "scope": "Earlier clustering statistics, simulation and discovery threshold/tail definitions.",
+            "pdf_sha256": "667bbf16740f10319a6725a0cbc97969da719183c03db11f950783e4917ce8ed"
+          },
+          {
+            "url": "https://arxiv.org/abs/1612.04155",
+            "scope": "Actual hybrid dataset, targeted search, confidence-limit construction and Galactic-center result.",
+            "pdf_sha256": "531f6487372219618893b41ec93de27964c43a993bff6487da3bd62c5ef027cb"
+          }
+        ]
+      }
+    }
+  ],
+  "alerts_count": 0,
+  "news_count": 0,
+  "sections": {
+    "ArXiv Highlights": "<!-- paper:paper-2611-21752 -->\n#### Mapping the multimessenger horizon for γ-ray counterparts of cosmic neutrinos\n\n**Tianyi Ding, Jose Alonso Carpio, Ali Kheirandish and Kohta Murase.** [arXiv:2611.21752v1](https://arxiv.org/abs/2611.21752v1) · [Full text](https://arxiv.org/pdf/2611.21752v1). Submitted 16 November 2026; first announced 18 November 2026. Preprint; no journal publication is recorded in the checked arXiv entry.\n\n**Question and method.** How far away can a neutrino source have an identifiable γ-ray counterpart after electromagnetic cascading and magnetic deflection? This is a propagation and sensitivity calculation, not a measurement of an intergalactic magnetic field. The authors modify CRPropa3 to use redshift-dependent interaction tables and a spherical observer geometry that tracks both apparent direction and arrival delay. Pair production and inverse Compton scattering on the CMB and Domínguez extragalactic background light are followed to redshift 2. The cosmology fixes H₀ = 70 km s⁻¹ Mpc⁻¹, Ωm = 0.3 and ΩΛ = 0.7.\n\nThe source is assumed transparent to its pion-decay γ rays. For the adopted photohadronic charged-to-neutral pion ratio Kπ = 1, the approximate production relation is Eν²Qν ≈ (Kπ/4)Eγ²Qγ at Eγ ≈ 2Eν, with Qν per flavor after mixing. Benchmarks include narrow neutrino-energy bands and an E⁻² spectrum from 1 TeV to 1 PeV. This normalization is conditional on pion production; it does not incorporate an arbitrary nuclear cascade, neutron-decay contribution or secondary cooling inside the source.\n\n**Results.** The environment makes the relevant horizon depend on time and angular acceptance, not simply on γγ optical depth. A 2 Mpc source filament with B = 30 nG and 100 kpc coherence length suppresses the directly associated component above roughly 100 TeV. Its cascade delays span approximately 10⁴ to beyond 10⁸ years, predominantly exceeding 10⁵ years, so that component is discarded from the prompt counterpart. In voids, the two fixed field benchmarks, 10⁻¹⁶ and 10⁻¹⁹ G with 1 Mpc coherence length, produce very different transient responses. The transient calculation accepts delays below 10⁷ s, about 116 days, whereas the stationary-source calculation imposes no corresponding time cut. Angular selections further remove photons from the apparent point source.\n\nThe resulting neutrino-fluence and flux thresholds for a γ-ray counterpart show why a distant source can be accessible to neutrino observations while falling below a γ-ray point-source benchmark even if γ rays escape its production region. Fermi-LAT benefits from cascaded lower-energy emission; HAWC and LHAASO lose reach much faster as propagation removes their higher-energy photons. The calculations therefore distinguish a propagation-induced missing counterpart from absorption within the source.\n\n**Limitations.** These are benchmark sensitivity curves, not confidence limits or detections. The filament, void fields, source spectrum and geometry are fixed rather than marginalized. Published instrument sensitivities use different exposure assumptions: the γ-ray reference integrations are not a matched 116-day transient analysis, and the steady comparisons mix instrument-dependent exposures. Fixed angular cuts approximate energy-dependent responses. A stationary cascade also presupposes sufficient source longevity. The conclusions do not directly apply to γ-ray-opaque AGN coronae, and a missing counterpart alone cannot establish opacity or determine B.\n\n##### History\n\n[Murase, Beacom and Takami (2012)](https://arxiv.org/abs/1205.5755) already connected γ-ray cascades, neutrino energetics and the detectability of nearby steady and transient cosmic-ray sources. Their fluence-based distance estimates and survey calculations establish that a multimessenger detection horizon is an existing concept. The present contribution is a more explicit propagation calculation of angular selection and delay through a source filament and void, rather than the first argument that attenuation limits counterpart searches.\n\nAn independently checked comparison is [Fang, Gallagher and Halzen (2022)](https://arxiv.org/abs/2205.03740), which is not cited in the new paper. Using diffuse neutrino spectra and numerical cascades, they showed how sufficiently soft transparent-source populations can overproduce the diffuse γ-ray background, motivating internally obscured sources. That population-integrated energy-budget argument and the present point-source/time-window calculation answer different questions. Magnetic spreading can erase an identifiable prompt counterpart without erasing all electromagnetic energy from the diffuse background. The new results consequently refine counterpart searches; they do not remove the earlier population-level constraints.\n\n<!-- paper:paper-2611-21729 -->\n#### Supernova Bounds on Neutrino Dipole Moments from a Modern Perspective\n\n**Damiano F. G. Fiorillo, Martina La Rosa, Federico Testagrossa and Edoardo Vitagliano.** [arXiv:2611.21729v1](https://arxiv.org/abs/2611.21729v1) · [Full text](https://arxiv.org/pdf/2611.21729v1). Submitted 16 November 2026; first announced 18 November 2026. Preprint prepared for submission to JCAP.\n\n**Question and method.** A Dirac neutrino magnetic moment can produce otherwise sterile right-handed neutrinos in a supernova core. Galactic magnetic fields can rotate them back into active states, generating unusually energetic events at Earth. The paper revisits the absence of such events from SN 1987A using electron and proton plasma response, two time-dependent supernova simulations, flavor mixing, Galactic spin evolution and the IMB detector response. Production is integrated over the first 10 s with gravitational redshift. The “cold” SFHo-18.8 and “hot” LS220-20 simulations reach core temperatures of approximately 40 and 60 MeV, respectively.\n\nThe calculation fixes the SN distance to 49.6 kpc, uses the UF2024 Galactic-field framework and includes Earth matter effects for an approximately 8,600 km trajectory. IMB is modeled as a 6.8 kt detector with inverse beta decay and oxygen charged-current channels, efficiencies and energy smearing. Zero observed events with reconstructed energy at least 40 MeV imply a conservative Poisson signal expectation of at most 2.30 events at **90% confidence**, with the standard thermal contribution omitted from the background expectation.\n\n**Bounds and assumptions.** In units of the Bohr magneton μB, the cold-model upper limits are μe < 4.8 × 10⁻¹³, μμ < 1.2 × 10⁻¹² and μτ < 1.0 × 10⁻¹². The hot-model limits are 3.0 × 10⁻¹³, 4.6 × 10⁻¹³ and 4.9 × 10⁻¹³, respectively, at the same 90% confidence level. Each calculation turns on one flavor-diagonal Dirac magnetic moment at a time and sets the others to zero. These are not joint bounds on a general moment matrix and are not Majorana transition-moment limits. The mass-basis diagonal moments follow from the chosen flavor structure and fixed mixing parameters.\n\nAt weak coupling the event yield scales approximately as μ⁴, because both core production and regeneration depend on the moment. Exact spin evolution matters near saturation: a perturbative treatment would overstate the cold-model constraint by roughly 10–40%. The tested regular-field alternatives shift the bound by about −13% to +4%; the two supernova profiles are fixed alternatives, not a marginalized supernova-model posterior. The paper's cooling estimates, approximately 3.3 × 10⁻¹² μB and 2.4 × 10⁻¹² μB for the two models, use a luminosity criterion and must not be assigned the event bound's confidence level. A Galactic-supernova reach around 1.4 × 10⁻¹³ μB for the electron flavor in a cold-model Super-Kamiokande benchmark is a forecast.\n\n**Limitations.** The event limit depends on the assumed Dirac flavor structure, supernova profiles and coherent magnetic conversion. Proton degeneracy is approximated, and the charged-muon contribution to the plasma response is neglected. Magnetic-field alternatives and stellar simulations do not constitute marginalization over all astrophysical uncertainty. The sharp observational event-count statement therefore has a more model-dependent translation into μ.\n\n##### History\n\nThe production-and-regeneration argument dates to [Barbieri and Mohapatra (1988)](https://doi.org/10.1103/PhysRevLett.61.27); its basic mechanism is not new. [Kuznetsov, Mikheev and Okrugin (2009)](https://arxiv.org/abs/0907.2905) already included electron and proton scattering in supernova cooling calculations, obtaining model-dependent flavor-averaged scales of 1.1–2.7 × 10⁻¹² μB. Those luminosity-based estimates are not statistically interchangeable with the new one-flavor 90% event limits. The present advance is the updated production, flavor, field and detector calculation of the regenerated high-energy signal.\n\nFor a strong stellar comparison, [Capozzi and Raffelt (2020)](https://arxiv.org/abs/2007.03694) derived red-giant-tip limits of 1.48 × 10⁻¹² μB and 1.18 × 10⁻¹² μB at 95% confidence under two distance calibrations. Their effective moment includes magnetic/electric and transition contributions, unlike the present one-flavor Dirac benchmark. A numerical ratio would consequently not be a like-for-like improvement factor. Independently checked work absent from the new bibliography, [Franz, Dennis and Sakstein (2023)](https://arxiv.org/abs/2307.13050), found that broad simultaneous stellar-parameter priors can leave moments up to their 6 × 10⁻¹² μB grid ceiling unconstrained. This demonstrates prior sensitivity rather than an unconditional invalidation of the calibrated stellar bounds. The more recent [27-cluster study, arXiv:2608.04801, §5.4.1](https://arxiv.org/abs/2608.04801) discusses sensitivity near 5 × 10⁻¹³ μB, but does not provide a comparably constructed confidence limit there. It must not be treated as either an established exclusion or a direct competitor to the new 90% SN bound.\n\n<!-- paper:paper-2611-22379 -->\n#### Low-frequency Radio Observation of the Dark PeVatron LHAASO J2108+5157 Using uGMRT. II\n\n**Gunindra Krishna Mahanta, Subhashis Roy, Sagar Godambe, Bitan Ghosal, Nilay Bhatt and Subir Bhattacharyya.** [arXiv:2611.22379v1](https://arxiv.org/abs/2611.22379v1) · [Full text](https://arxiv.org/pdf/2611.22379v1) · [Associated ApJ publication DOI](https://doi.org/10.3847/1538-4357/aeb5f4). Submitted 17 November 2026; first announced 18 November 2026. The arXiv record supplies the journal DOI; the exact journal publication date was not independently established in this review.\n\n**Question and observations.** Does the radio source GMRT J2108+5154, projected within the unidentified ultrahigh-energy γ-ray source, favor an active microquasar and a hadronic contribution? New uGMRT observations at 402 MHz on 7 and 24 June 2025 and 1264 MHz on 21 July 2025 are compared with 650 MHz observations from June–July 2023. These are observation dates, distinct from today's arXiv announcement. The new maps reach rms noise levels of 23 and 8 μJy beam⁻¹, respectively.\n\nIntegrated flux densities are 40.57 ± 4.05 mJy at 402 MHz, 27.6 ± 1.38 mJy at 650 MHz and 26.1 ± 0.66 mJy at 1264 MHz. The authors identify a core and two elongated components and compare matched-resolution component fluxes. Approximate spectral indices between the new bands are −0.3 to −0.4 for the extended components and −0.26 for the core, using Sν ∝ να. The older 650 MHz measurements deviate from the interpolated spectra at reported significances of 3.06–4.4σ for individual components. Because the frequencies were not observed simultaneously, spectral curvature, variability and inter-epoch systematics are not cleanly separated; variability is suggested, not established.\n\n**Emission modeling.** A CMB inverse-Compton/synchrotron electron benchmark with index 2.15, B = 1 μG, minimum energy 6 GeV and a super-exponential cutoff at 300 TeV reproduces much of the emission but struggles with the approximately 537 TeV γ-ray point without violating the XMM-Newton limit. A leptohadronic alternative fixes B = 5 μG, distance 1 kpc and target density 100 cm⁻³. Its electrons have index 2.25, minimum energy 2 GeV and cutoff 300 TeV; its proton spectrum has index 1.7 and cutoff 1.8 PeV above a 10 GeV minimum. The adopted source and cloud radii are 4.3 and 16.31 pc. The corresponding stored electron, proton and magnetic energies are 4.24 × 10⁴⁴, 1.28 × 10⁴⁶ and 7.78 × 10⁴⁶ erg.\n\nThese quantities are conditional model parameters and energetics, not measured particle spectra, confidence limits or a statistical demonstration of hadronic dominance. The analysis adds radio constraints and a plausible mixed-emission construction. It does not identify the γ-ray accelerator securely: the radio source distance and its physical association with LHAASO J2108+5157 remain unconfirmed. Failure of the displayed leptonic benchmark does not exclude every multizone, radiation-field or transport realization of a leptonic source.\n\n##### History\n\nThe earlier radio study, [Mahanta and collaborators, JHEAp 47 (2025), 100381](https://doi.org/10.1016/j.jheap.2025.100381), introduced this counterpart candidate; the present paper extends its frequency coverage rather than discovering the association for the first time. The earlier paper's bibliographic record was checked, but its full text was not independently recovered here, so the detailed comparisons below use accessible primary texts.\n\n[Martí and collaborators' near-infrared investigation (2026)](https://arxiv.org/abs/2602.11148) found a faint, apparently extended counterpart and argued that the radio object could instead be a background radio galaxy, unlikely to explain the ultrahigh-energy source. The new radio paper argues that a faint low-mass donor can evade the infrared objection. Neither interpretation supplies a secure distance, and radio morphology alone does not resolve the disagreement.\n\nAn independently checked, uncited alternative is the [microquasar-remnant transport model, arXiv:2609.18353](https://arxiv.org/abs/2609.18353). It models protons from a past active phase, with emission continuing roughly 3 kyr after switch-off, and uses energy-dependent propagation into different effective target regions to connect the GeV and TeV–PeV components. That model treats the visible radio candidate as unrelated and requires its own fixed diffusion, gas and source-history assumptions. Thus the new active-counterpart interpretation is one competing hadronic scenario, not a unique explanation of the spectral energy distribution. Distance, simultaneous radio spectra and spatially resolved γ-ray information would discriminate the alternatives more directly than an illustrative broadband fit alone.\n\n<!-- paper:paper-2611-22833 -->\n#### Search for UHE photon sources using direction-time clustering algorithms with a BDT particle discriminant\n\n**Chaitanya Priyadarshi, Jarosław Stasielak, Nataliia Borodai, Megha Mogarkar, Jan Pękala, Dariusz Góra and Marcus Niechciol.** [arXiv:2611.22833v1](https://arxiv.org/abs/2611.22833v1) · [Full text](https://arxiv.org/pdf/2611.22833v1) · [PoS(ECRS2026)041](https://doi.org/10.22323/1.528.0041). Submitted 17 November 2026; first announced 18 November 2026. Conference proceedings from ECRS 2026, held 29 June–3 July 2026; the meeting dates are not the arXiv announcement date.\n\n**Question and method.** Can directional and temporal clustering combined with shower classification improve searches for short ultrahigh-energy photon flares? The study uses CORSIKA 7.8010, EPOS-LHC-R and UrQMD 1.3cr simulations, with the Auger Offline response for the 750 m surface array. Approximately 4,500 photon and 4,500 proton events survive the selections at the single simulated energy 10¹⁷⋅⁵ eV, with zenith below 40° and Xmax above 450 g cm⁻². An XGBoost classifier with 1,000 trees uses Xmax, Sb, station multiplicity, a timing observable and zenith; out-of-fold scores define photon and proton tag distributions.\n\nThe unbinned likelihood mixes signal and background probabilities in direction, time and classifier output. Candidate time windows are built from consecutive multiplets; preselection reduces the scan, while all events still contribute to the likelihood. Separating events inside and outside each window yields an approximately tenfold computational speed-up. The assumptions include factorization of the component probability densities and the background model used for the direction/time scrambling.\n\n**Results and their scope.** Simulated flares lasting one hour, one day, ten days and ten weeks require only a few injected photons: the paper reports approximately 2–5 events for nominal 3σ and 3–7 for nominal 5σ discovery thresholds across the configurations. These are simulation-dependent thresholds, not an observed source significance or a photon-flux limit. More than 10⁵ scrambled trials calibrate the backgrounds; direct sampling at that scale cannot by itself resolve a 5σ tail, so extrapolation and tail calibration require particular care in a final experimental analysis.\n\nThe demonstration also scans 1,092 target directions using public Auger event times and directions. Of these, 415 fail the stated test-statistic criterion and 305 have insufficient background statistics, leaving 372 for the reported comparison; none exceeds 3σ. **The real events receive randomly drawn proton-like classifier tags, rather than measured event-by-event photon discriminants.** This is an important limitation: the null demonstration is not a new physical exclusion of photon sources and cannot be converted into an observational flux bound. Deployment would require measured compatible shower observables, energy-dependent training and response, realistic composition and hadronic-model uncertainties, and validated trial/tail treatment.\n\n##### History\n\n[Stasielak and collaborators (2024)](https://arxiv.org/abs/2412.13804) already combined direction, time and particle information to search for few-event photon flares, including doublet/stacked statistics. Their discovery calculations explicitly used a background-tail fit and a specified detection power. The new contribution develops the multivariate particle tag and an efficient multiplet likelihood implementation; the underlying proposal to use time clustering to recover sparse photon signals is established. Threshold comparisons depend on the classifier, signal assumptions and calibration, rather than demonstrating a universal sensitivity gain.\n\nThe [Pierre Auger Collaboration's targeted search (2017)](https://arxiv.org/abs/1612.04155) provides the observational baseline: actual hybrid shower measurements from 2005–2013, over 10¹⁷⋅³–10¹⁸⋅⁵ eV, produced time-averaged directional photon limits. For the Galactic center, the quoted 95% upper limit is 0.034 km⁻² yr⁻¹ with an assumed photon index 2.32; the exposure and spectral assumptions matter. Those real-data, time-averaged limits are not directly comparable to the new simulated transient event thresholds. The new method addresses a complementary time-dependent search strategy, but its public-data illustration does not supersede existing experimental exclusions."
+  },
+  "listing_statistics": {
+    "date": "2026-11-18",
+    "basis": "new_primary_submissions",
+    "counts": {
+      "astro-ph": 93,
+      "hep-ph": 29,
+      "hep-ex": 4,
+      "hep-th": 31,
+      "gr-qc": 19,
+      "nucl-ex": 1,
+      "nucl-th": 5
+    },
+    "astro_subcategories": {
+      "astro-ph.HE": 21,
+      "astro-ph.CO": 15
+    },
+    "sources": [
+      "https://arxiv.org/catchup/astro-ph/2026-11-18?abs=True",
+      "https://arxiv.org/catchup/hep-ph/2026-11-18?abs=True",
+      "https://arxiv.org/catchup/hep-ex/2026-11-18?abs=True",
+      "https://arxiv.org/catchup/hep-th/2026-11-18?abs=True",
+      "https://arxiv.org/catchup/gr-qc/2026-11-18?abs=True",
+      "https://arxiv.org/catchup/nucl-ex/2026-11-18?abs=True",
+      "https://arxiv.org/catchup/nucl-th/2026-11-18?abs=True",
+      "https://arxiv.org/catchup/astro-ph.HE/2026-11-18?abs=True",
+      "https://arxiv.org/catchup/astro-ph.CO/2026-11-18?abs=True"
+    ],
+    "verified_at": "2026-11-18T08:17:25+01:00",
+    "source_audit": {
+      "date": "2026-11-18",
+      "cutoff": "2026-11-18T08:17:25+01:00",
+      "status": "complete",
+      "sources": [
+        {
+          "category": "astro-ph",
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-18?abs=True",
+          "listing_date": "2026-11-18",
+          "verified_at": "2026-11-18T08:17:25+01:00",
+          "sha256": "d2b22b0883cac89b4c8b8301cea80f94f430bea85bae87790e3299d1ba1bc76f",
+          "coverage": "All entries on the complete dated page; new and cross-list titles and abstracts screened. Replacement entries inventoried and excluded.",
+          "counts": {
+            "new_primary": 93,
+            "cross_lists": 12,
+            "replacements": 58
+          }
+        },
+        {
+          "category": "hep-ph",
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-18?abs=True",
+          "listing_date": "2026-11-18",
+          "verified_at": "2026-11-18T08:17:25+01:00",
+          "sha256": "52f84fc9742fc0ac0e60b8d72e154c1e36c6bbd0e8321394abae75858b4bc114",
+          "coverage": "All entries on the complete dated page; new and cross-list titles and abstracts screened. Replacement entries inventoried and excluded.",
+          "counts": {
+            "new_primary": 29,
+            "cross_lists": 11,
+            "replacements": 49
+          }
+        },
+        {
+          "category": "hep-ex",
+          "url": "https://arxiv.org/catchup/hep-ex/2026-11-18?abs=True",
+          "listing_date": "2026-11-18",
+          "verified_at": "2026-11-18T08:17:25+01:00",
+          "sha256": "001fcaafe98f66b4c33bc11d1df1524b77d2e7ebfe193da55caa43aad33a9fec",
+          "coverage": "All entries on the complete dated page; new and cross-list titles and abstracts screened. Replacement entries inventoried and excluded.",
+          "counts": {
+            "new_primary": 4,
+            "cross_lists": 12,
+            "replacements": 21
+          }
+        },
+        {
+          "category": "hep-th",
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-18?abs=True",
+          "listing_date": "2026-11-18",
+          "verified_at": "2026-11-18T08:17:25+01:00",
+          "sha256": "29cc2aba1d142462470bfead3798835a96e20e493f8407f2e91d66bb8139caae",
+          "coverage": "All entries on the complete dated page; new and cross-list titles and abstracts screened. Replacement entries inventoried and excluded.",
+          "counts": {
+            "new_primary": 31,
+            "cross_lists": 26,
+            "replacements": 46
+          }
+        },
+        {
+          "category": "gr-qc",
+          "url": "https://arxiv.org/catchup/gr-qc/2026-11-18?abs=True",
+          "listing_date": "2026-11-18",
+          "verified_at": "2026-11-18T08:17:25+01:00",
+          "sha256": "fe36147b7d4b3bd6a42381867e7e91c5c48b0b3014313a5294089db46fa45ede",
+          "coverage": "All entries on the complete dated page; new and cross-list titles and abstracts screened. Replacement entries inventoried and excluded.",
+          "counts": {
+            "new_primary": 19,
+            "cross_lists": 19,
+            "replacements": 32
+          }
+        },
+        {
+          "category": "nucl-ex",
+          "url": "https://arxiv.org/catchup/nucl-ex/2026-11-18?abs=True",
+          "listing_date": "2026-11-18",
+          "verified_at": "2026-11-18T08:17:25+01:00",
+          "sha256": "3e198293da818f6a620a3e621cc1385c79000e54c55589146ac0ad2027cc631d",
+          "coverage": "All entries on the complete dated page; new and cross-list titles and abstracts screened. Replacement entries inventoried and excluded.",
+          "counts": {
+            "new_primary": 1,
+            "cross_lists": 3,
+            "replacements": 9
+          }
+        },
+        {
+          "category": "nucl-th",
+          "url": "https://arxiv.org/catchup/nucl-th/2026-11-18?abs=True",
+          "listing_date": "2026-11-18",
+          "verified_at": "2026-11-18T08:17:25+01:00",
+          "sha256": "015cb1c7b2ea33f59080dfe16cace56b0779babd18b0947759a1849c0ffec2f9",
+          "coverage": "All entries on the complete dated page; new and cross-list titles and abstracts screened. Replacement entries inventoried and excluded.",
+          "counts": {
+            "new_primary": 5,
+            "cross_lists": 7,
+            "replacements": 14
+          }
+        },
+        {
+          "category": "astro-ph.HE",
+          "url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-18?abs=True",
+          "listing_date": "2026-11-18",
+          "verified_at": "2026-11-18T08:17:25+01:00",
+          "sha256": "d73195f459214935772fb933a77bc357c9a4018ebdd5ed5be913738e4068c5c0",
+          "coverage": "All entries on the complete dated page; new and cross-list titles and abstracts screened. Replacement entries inventoried and excluded.",
+          "counts": {
+            "new_primary": 21,
+            "cross_lists": 12,
+            "replacements": 17
+          }
+        },
+        {
+          "category": "astro-ph.CO",
+          "url": "https://arxiv.org/catchup/astro-ph.CO/2026-11-18?abs=True",
+          "listing_date": "2026-11-18",
+          "verified_at": "2026-11-18T08:17:25+01:00",
+          "sha256": "28b58ba6cbc8296070280be71c17a3175af4e1d39b62f95bfd27ef97b5cf7416",
+          "coverage": "All entries on the complete dated page; new and cross-list titles and abstracts screened. Replacement entries inventoried and excluded.",
+          "counts": {
+            "new_primary": 15,
+            "cross_lists": 10,
+            "replacements": 18
+          }
+        }
+      ],
+      "counts": {
+        "listing_occurrences_inventoried": 594,
+        "unique_ids_including_replacements": 357,
+        "actual_screened_unique": 210,
+        "selected_unique": 4,
+        "full_text_read_unique": 4,
+        "unresolved_high_priority": 0,
+        "independent_results": 4
+      },
+      "selected_ids": [
+        "2611.21752",
+        "2611.21729",
+        "2611.22379",
+        "2611.22833"
+      ],
+      "unresolved_high_priority_ids": [],
+      "selected_by_primary_category": {
+        "astro-ph.HE": 3,
+        "hep-ph": 1
+      },
+      "selection_policy": "Relevance, scientific substance, significance and incremental contribution; maximum 12, no minimum. Four independent papers selected. No overflow, companion highlights or cap-driven exclusions.",
+      "second_topic_pass": "Rechecked the complete 210-candidate title/abstract inventory for cosmic rays, acceleration/transport, nuclear/EM cascades, neutrino source physics and cooling, gamma rays, multimessenger work, neutrino phenomenology, dark matter and related BSM/cosmology.",
+      "gaps": [
+        "No missing requested dated listing pages at this cutoff. Coverage does not claim every arXiv category or exhaustive earlier literature.",
+        "Cross-list-only papers not selected were not all traced through announcement histories; none is used as a highlight.",
+        "The 2025 radio precursor full text was not independently recovered; its bibliography was verified and the new paper's comparison was supplemented by accessible independent infrared and transport studies.",
+        "Exact journal publication date for the radio paper was not verified; its DOI is retained without inventing a date."
+      ],
+      "revision_provenance": {
+        "edition_type": "initial",
+        "target_listing_date": "2026-11-18",
+        "no_retrospective_substitution": true,
+        "previous_edition": "2026-11-17",
+        "previous_pending_assessments": "Earlier unresolved screening candidates remain with their original dated audit and were not relabeled as current announcements."
+      },
+      "audit_url": "https://github.com/afesmaeili/J.C./blob/main/content-parts/2026-11-18/arxiv-screening.json"
+    }
+  },
+  "source_audit": {
+    "date": "2026-11-18",
+    "cutoff": "2026-11-18T08:17:25+01:00",
+    "status": "complete",
+    "sources": [
+      {
+        "category": "astro-ph",
+        "url": "https://arxiv.org/catchup/astro-ph/2026-11-18?abs=True",
+        "listing_date": "2026-11-18",
+        "verified_at": "2026-11-18T08:17:25+01:00",
+        "sha256": "d2b22b0883cac89b4c8b8301cea80f94f430bea85bae87790e3299d1ba1bc76f",
+        "coverage": "All entries on the complete dated page; new and cross-list titles and abstracts screened. Replacement entries inventoried and excluded.",
+        "counts": {
+          "new_primary": 93,
+          "cross_lists": 12,
+          "replacements": 58
+        }
+      },
+      {
+        "category": "hep-ph",
+        "url": "https://arxiv.org/catchup/hep-ph/2026-11-18?abs=True",
+        "listing_date": "2026-11-18",
+        "verified_at": "2026-11-18T08:17:25+01:00",
+        "sha256": "52f84fc9742fc0ac0e60b8d72e154c1e36c6bbd0e8321394abae75858b4bc114",
+        "coverage": "All entries on the complete dated page; new and cross-list titles and abstracts screened. Replacement entries inventoried and excluded.",
+        "counts": {
+          "new_primary": 29,
+          "cross_lists": 11,
+          "replacements": 49
+        }
+      },
+      {
+        "category": "hep-ex",
+        "url": "https://arxiv.org/catchup/hep-ex/2026-11-18?abs=True",
+        "listing_date": "2026-11-18",
+        "verified_at": "2026-11-18T08:17:25+01:00",
+        "sha256": "001fcaafe98f66b4c33bc11d1df1524b77d2e7ebfe193da55caa43aad33a9fec",
+        "coverage": "All entries on the complete dated page; new and cross-list titles and abstracts screened. Replacement entries inventoried and excluded.",
+        "counts": {
+          "new_primary": 4,
+          "cross_lists": 12,
+          "replacements": 21
+        }
+      },
+      {
+        "category": "hep-th",
+        "url": "https://arxiv.org/catchup/hep-th/2026-11-18?abs=True",
+        "listing_date": "2026-11-18",
+        "verified_at": "2026-11-18T08:17:25+01:00",
+        "sha256": "29cc2aba1d142462470bfead3798835a96e20e493f8407f2e91d66bb8139caae",
+        "coverage": "All entries on the complete dated page; new and cross-list titles and abstracts screened. Replacement entries inventoried and excluded.",
+        "counts": {
+          "new_primary": 31,
+          "cross_lists": 26,
+          "replacements": 46
+        }
+      },
+      {
+        "category": "gr-qc",
+        "url": "https://arxiv.org/catchup/gr-qc/2026-11-18?abs=True",
+        "listing_date": "2026-11-18",
+        "verified_at": "2026-11-18T08:17:25+01:00",
+        "sha256": "fe36147b7d4b3bd6a42381867e7e91c5c48b0b3014313a5294089db46fa45ede",
+        "coverage": "All entries on the complete dated page; new and cross-list titles and abstracts screened. Replacement entries inventoried and excluded.",
+        "counts": {
+          "new_primary": 19,
+          "cross_lists": 19,
+          "replacements": 32
+        }
+      },
+      {
+        "category": "nucl-ex",
+        "url": "https://arxiv.org/catchup/nucl-ex/2026-11-18?abs=True",
+        "listing_date": "2026-11-18",
+        "verified_at": "2026-11-18T08:17:25+01:00",
+        "sha256": "3e198293da818f6a620a3e621cc1385c79000e54c55589146ac0ad2027cc631d",
+        "coverage": "All entries on the complete dated page; new and cross-list titles and abstracts screened. Replacement entries inventoried and excluded.",
+        "counts": {
+          "new_primary": 1,
+          "cross_lists": 3,
+          "replacements": 9
+        }
+      },
+      {
+        "category": "nucl-th",
+        "url": "https://arxiv.org/catchup/nucl-th/2026-11-18?abs=True",
+        "listing_date": "2026-11-18",
+        "verified_at": "2026-11-18T08:17:25+01:00",
+        "sha256": "015cb1c7b2ea33f59080dfe16cace56b0779babd18b0947759a1849c0ffec2f9",
+        "coverage": "All entries on the complete dated page; new and cross-list titles and abstracts screened. Replacement entries inventoried and excluded.",
+        "counts": {
+          "new_primary": 5,
+          "cross_lists": 7,
+          "replacements": 14
+        }
+      },
+      {
+        "category": "astro-ph.HE",
+        "url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-18?abs=True",
+        "listing_date": "2026-11-18",
+        "verified_at": "2026-11-18T08:17:25+01:00",
+        "sha256": "d73195f459214935772fb933a77bc357c9a4018ebdd5ed5be913738e4068c5c0",
+        "coverage": "All entries on the complete dated page; new and cross-list titles and abstracts screened. Replacement entries inventoried and excluded.",
+        "counts": {
+          "new_primary": 21,
+          "cross_lists": 12,
+          "replacements": 17
+        }
+      },
+      {
+        "category": "astro-ph.CO",
+        "url": "https://arxiv.org/catchup/astro-ph.CO/2026-11-18?abs=True",
+        "listing_date": "2026-11-18",
+        "verified_at": "2026-11-18T08:17:25+01:00",
+        "sha256": "28b58ba6cbc8296070280be71c17a3175af4e1d39b62f95bfd27ef97b5cf7416",
+        "coverage": "All entries on the complete dated page; new and cross-list titles and abstracts screened. Replacement entries inventoried and excluded.",
+        "counts": {
+          "new_primary": 15,
+          "cross_lists": 10,
+          "replacements": 18
+        }
+      }
+    ],
+    "counts": {
+      "listing_occurrences_inventoried": 594,
+      "unique_ids_including_replacements": 357,
+      "actual_screened_unique": 210,
+      "selected_unique": 4,
+      "full_text_read_unique": 4,
+      "unresolved_high_priority": 0,
+      "independent_results": 4
+    },
+    "selected_ids": [
+      "2611.21752",
+      "2611.21729",
+      "2611.22379",
+      "2611.22833"
+    ],
+    "unresolved_high_priority_ids": [],
+    "selected_by_primary_category": {
+      "astro-ph.HE": 3,
+      "hep-ph": 1
+    },
+    "selection_policy": "Relevance, scientific substance, significance and incremental contribution; maximum 12, no minimum. Four independent papers selected. No overflow, companion highlights or cap-driven exclusions.",
+    "second_topic_pass": "Rechecked the complete 210-candidate title/abstract inventory for cosmic rays, acceleration/transport, nuclear/EM cascades, neutrino source physics and cooling, gamma rays, multimessenger work, neutrino phenomenology, dark matter and related BSM/cosmology.",
+    "gaps": [
+      "No missing requested dated listing pages at this cutoff. Coverage does not claim every arXiv category or exhaustive earlier literature.",
+      "Cross-list-only papers not selected were not all traced through announcement histories; none is used as a highlight.",
+      "The 2025 radio precursor full text was not independently recovered; its bibliography was verified and the new paper's comparison was supplemented by accessible independent infrared and transport studies.",
+      "Exact journal publication date for the radio paper was not verified; its DOI is retained without inventing a date."
+    ],
+    "revision_provenance": {
+      "edition_type": "initial",
+      "target_listing_date": "2026-11-18",
+      "no_retrospective_substitution": true,
+      "previous_edition": "2026-11-17",
+      "previous_pending_assessments": "Earlier unresolved screening candidates remain with their original dated audit and were not relabeled as current announcements."
+    },
+    "audit_url": "https://github.com/afesmaeili/J.C./blob/main/content-parts/2026-11-18/arxiv-screening.json"
+  }
+}
