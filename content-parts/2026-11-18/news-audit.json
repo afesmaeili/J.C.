@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-18",
+  "part": "news",
+  "cutoff": "2026-11-18T08:14:00+01:00",
+  "window_start": "2026-11-17T08:05:48+01:00",
+  "status": "partial",
+  "selected_story_count": 9,
+  "selected_story_titles": [
+    "NASA ends NICER science operations after an internal pointing-motor failure",
+    "Terra will stop collecting Earth-science data on 1 December after 27 years",
+    "ClearSpace-1 enters construction for a planned 2030 debris-removal demonstration",
+    "An interpretable decision tree guides high-field superconducting-film growth",
+    "Pooled human microglia models connect neurodegeneration loci to cellular phenotypes",
+    "A Chinese-population multi-omics atlas broadens molecular-trait mapping",
+    "LLM-written discharge summaries pass a retrospective clinician noninferiority test",
+    "Nuclear quadrupole resonance monitors reactions inside a working ball mill",
+    "North Atlantic deep water expanded during the onset of Northern Hemisphere glaciation"
+  ],
+  "checks": [
+    {
+      "area": "physics, astronomy and scientific community",
+      "sources": [
+        "NASA",
+        "ESA",
+        "CERN",
+        "Fermilab",
+        "SLAC",
+        "LBNL",
+        "ESO",
+        "Rubin Observatory",
+        "IAU",
+        "major physics-journal feeds"
+      ],
+      "result": "NICER, Terra, ClearSpace-1 and the peer-reviewed EuBCO film-optimization result were selected. Transient alerts were excluded to the alerts part; routine seminars, outreach and future media events were not selected."
+    },
+    {
+      "area": "mathematics and formalization",
+      "sources": [
+        "major mathematics journal feeds",
+        "AMS notices",
+        "public formalization projects",
+        "specialist research trackers"
+      ],
+      "result": "No same-window item passed both significance and primary-source-verification thresholds."
+    },
+    {
+      "area": "AI-assisted science",
+      "sources": [
+        "NPG Asia Materials",
+        "JAMA Network Open",
+        "Nature and Science feeds",
+        "institutional AI-research announcements"
+      ],
+      "result": "Interpretable superconducting-film optimization and clinical discharge-summary evaluation were selected; claims were bounded to the tested systems and retrospective design."
+    },
+    {
+      "area": "biology and genetics",
+      "sources": [
+        "Nature Genetics",
+        "Nature Communications",
+        "Cell and PNAS feeds"
+      ],
+      "result": "Pooled microglial functional genomics and the Chinese-population multi-omics atlas were selected. Cellular and Mendelian-randomization results were not described as demonstrated disease causation."
+    },
+    {
+      "area": "chemistry and materials",
+      "sources": [
+        "Nature Chemistry",
+        "Nature Communications",
+        "Science chemistry feeds",
+        "NPG Asia Materials"
+      ],
+      "result": "Operando BM-NQR and interpretable EuBCO-film growth were selected as method and experimental materials advances."
+    },
+    {
+      "area": "geology, palaeontology and climate",
+      "sources": [
+        "Nature Geoscience",
+        "Nature Communications",
+        "PNAS Earth-science feed",
+        "NASA Earth Science"
+      ],
+      "result": "North Atlantic deep-water reconstruction and Terra's mission-end milestone were selected. No same-window palaeontology item received sufficient primary-source depth for selection."
+    },
+    {
+      "area": "neuroscience and medicine",
+      "sources": [
+        "Nature Genetics",
+        "Nature Neuroscience",
+        "JAMA",
+        "JAMA Network Open",
+        "NEJM and Lancet feeds"
+      ],
+      "result": "Microglial functional genomics and the LLM discharge-summary study were selected. No treatment efficacy was inferred from cell models or retrospective document ratings."
+    }
+  ],
+  "access_gaps": [
+    "Detailed supplementary proxy-sensitivity analyses for the North Atlantic deep-water reconstruction were not accessible at the cutoff; the story is limited to the peer-reviewed abstract and indexed results.",
+    "Some institutional and journal archive pages were dynamically loaded and could not be exhaustively enumerated.",
+    "No claim of exhaustive journal coverage or verified absence in unselected fields is made."
+  ],
+  "deduplication": {
+    "checked_current_parts": [
+      "content-parts/2026-11-18/alerts.json"
+    ],
+    "current_parts_present_at_cutoff": [
+      "alerts"
+    ],
+    "checked_previous_news": [
+      "content-parts/2026-11-17/news.json"
+    ],
+    "duplicates_removed": [
+      "astrophysical transient alerts",
+      "17 November Science News stories",
+      "previous arXiv highlights"
+    ]
+  }
+}
