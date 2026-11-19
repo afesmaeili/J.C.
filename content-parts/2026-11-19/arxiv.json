@@ -1,0 +1,580 @@
+{
+  "date": "2026-11-19",
+  "part": "arxiv",
+  "status": "complete",
+  "cutoff": "2026-11-19T08:11:11+01:00",
+  "coverage": "Complete dated new/cross-list title-and-abstract screening of all seven archives and HE/CO pages: 194 unique candidates; five full v1 reviews, four selected unique papers, no retained unresolved high-priority candidates. Replacements excluded. Nonselected cross-list eligibility was not exhaustively version-checked. Historical full-text access gap recorded in source metadata. Cutoff 2026-11-19T08:11:11+01:00.",
+  "topics": [
+    "Blazar photohadronic emission",
+    "PeV diffuse-photon limits",
+    "Cosmic-ray transport in a wind cavity",
+    "Positron escape and dark-matter spikes"
+  ],
+  "papers": [
+    {
+      "id": "paper-2611-24418",
+      "arxiv": "2611.24418",
+      "title": "A lepto-hadronic perspective on the properties of the candidate neutrino-emitter blazar 5BZQ J0808+4950",
+      "authors": "Margot Boughelilba, Leonard Pfeiffer, Jose Maria Sanchez Zaballa, Alessandra Azzollini, Annette Bremer, Sara Buson, Massimiliano Lincetto",
+      "primary_category": "astro-ph.HE",
+      "label": "Blazar photohadronic emission",
+      "teaser": "Time-resolved source modeling tests neutrino expectations against cascade emission and jet energetics.",
+      "tags": [
+        "astro-ph.HE",
+        "Blazar photohadronic emission"
+      ],
+      "arxiv_url": "https://arxiv.org/abs/2611.24418v1",
+      "submission_date": "2026-11-18",
+      "first_announcement_date": "2026-11-19",
+      "version": "v1",
+      "publication_status": "Submitted to Astronomy & Astrophysics; under review.",
+      "full_text_access": {
+        "status": "read_full_text",
+        "scope": "Complete v1 PDF, including methods, equations, results, captions, limitations, references and appendices where present; central figures visually inspected."
+      },
+      "source_audit": {
+        "submission_timestamp": "2026-11-18T13:41:27+00:00",
+        "first_announcement_date": "2026-11-19",
+        "listing_url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-19?abs=True",
+        "eligibility": "New submission in target dated primary listing; abstract-page version history contains v1 only.",
+        "version_history_url": "https://arxiv.org/abs/2611.24418v1",
+        "abs_sha256": "7911d6b5311eb61c734545521c153bac6630370dbacae7b6000bcc477fcfc6f6",
+        "pdf_sha256": "0fbd1e1f785d801c92a5c3bdce08300637a13597c07750643bb6886799d58a6b",
+        "history_reading": [
+          {
+            "url": "https://arxiv.org/abs/1807.04537",
+            "scope": "Cascade calculations and constraints, Section 3.3–3.4 and Table 9.",
+            "pdf_sha256": "3ba35bad6817e50d9f457de971f6dc8739a28b30ea953c260e68b8c120fc0872"
+          },
+          {
+            "url": "https://arxiv.org/abs/2307.13024",
+            "scope": "Temporal selection, model degeneracies, fixed proton index, and population conclusions, Sections 5–6.",
+            "pdf_sha256": "2b761b9d4c97696a974439908566087d840a504f011d04f20fef5a7f26ef5027"
+          },
+          {
+            "url": "https://arxiv.org/abs/2609.19477",
+            "scope": "Source selection, external-field and jet-power comparison, discussion and conclusions; independently located uncited work.",
+            "pdf_sha256": "5adc4bdd3cbd5925066126ca93980aec93b2c3418df10082601954ad0251b359"
+          }
+        ]
+      }
+    },
+    {
+      "id": "paper-2611-23389",
+      "arxiv": "2611.23389",
+      "title": "Isotropic diffuse gamma-ray flux limits from Carpet-3 experiment data using neural networks with domain adaptation",
+      "authors": "D. D. Dzhappuev, I. M. Dzaparova, T. A. Dzhatdoev, E. A. Gorbacheva, I. S. Karpikov, M. M. Khadzhiev, A. U. Kudzhaev, A. N. Kurenya, A. S. Lidvansky, O. I. Mikhailova, V. B. Petkov, N. A. Pozdnukhov, V. S. Romanenko, G. I. Rubtsov, S. V. Troitsky, I. B. Unatlokov, N. A. Vasiliev, A. F. Yanin, K. V. Zhuravleva",
+      "primary_category": "astro-ph.HE",
+      "label": "PeV diffuse-photon limits",
+      "teaser": "Domain-adapted shower classification yields new conditional isotropic photon constraints.",
+      "tags": [
+        "astro-ph.HE",
+        "PeV diffuse-photon limits"
+      ],
+      "arxiv_url": "https://arxiv.org/abs/2611.23389v1",
+      "submission_date": "2026-11-17",
+      "first_announcement_date": "2026-11-19",
+      "version": "v1",
+      "publication_status": "Preprint; no journal publication recorded.",
+      "full_text_access": {
+        "status": "read_full_text",
+        "scope": "Complete v1 PDF, including methods, equations, results, captions, limitations, references and appendices where present; central figures visually inspected."
+      },
+      "source_audit": {
+        "submission_timestamp": "2026-11-17T19:00:15+00:00",
+        "first_announcement_date": "2026-11-19",
+        "listing_url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-19?abs=True",
+        "eligibility": "New submission in target dated primary listing; abstract-page version history contains v1 only.",
+        "version_history_url": "https://arxiv.org/abs/2611.23389v1",
+        "abs_sha256": "1eee725d23a86a136a6b79373e7c44ff08433b42765b97e86cc3710a1cbdc6ce",
+        "pdf_sha256": "fbbc77cfa68e57d6b8da40c235815203a695389241b1a4e3448c685f76d543c2",
+        "history_reading": [
+          {
+            "url": "https://arxiv.org/abs/2212.01088",
+            "scope": "Muon-distribution method, confidence construction and Tables 1–2.",
+            "pdf_sha256": "c690d36a0d2cf57760c9fced3a7681e837cb4cc77953e5f009a9288668a2d9e0"
+          },
+          {
+            "url": "https://arxiv.org/abs/2209.08106",
+            "scope": "Likelihood, spectral assumptions, confidence construction and detector systematics.",
+            "pdf_sha256": "495b2b266472f56a9b02dc91763b7f119be8684a347e35ce0a90597f829ec5c0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "paper-2611-23744",
+      "arxiv": "2611.23744",
+      "title": "Strongly Suppressed Cosmic-Ray Diffusion in a Wind-Blown Cavity Environment of SNR G21.8-3.0",
+      "authors": "Yuan Li, Gwenael Giacinti, Yang Su, Xiao Zhang, Hui Li, Yang Chen",
+      "primary_category": "astro-ph.HE",
+      "label": "Cosmic-ray transport in a wind cavity",
+      "teaser": "A cloud association favors inhibited transport under an assumed spherical escape model.",
+      "tags": [
+        "astro-ph.HE",
+        "Cosmic-ray transport in a wind cavity"
+      ],
+      "arxiv_url": "https://arxiv.org/abs/2611.23744v1",
+      "submission_date": "2026-11-18",
+      "first_announcement_date": "2026-11-19",
+      "version": "v1",
+      "publication_status": "Submitted manuscript; no journal publication recorded.",
+      "full_text_access": {
+        "status": "read_full_text",
+        "scope": "Complete v1 PDF, including methods, equations, results, captions, limitations, references and appendices where present; central figures visually inspected."
+      },
+      "source_audit": {
+        "submission_timestamp": "2026-11-18T02:54:41+00:00",
+        "first_announcement_date": "2026-11-19",
+        "listing_url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-19?abs=True",
+        "eligibility": "New submission in target dated primary listing; abstract-page version history contains v1 only.",
+        "version_history_url": "https://arxiv.org/abs/2611.23744v1",
+        "abs_sha256": "13c1478ba998166556fc46cf4364c0be8a9ea9b7018e05f8442a92d9bf3313ba",
+        "pdf_sha256": "1e959d5bcf427fc9c837bce6cf7478f6d3f4827c96479d556e51aa9490cd918e",
+        "history_reading": [
+          {
+            "url": "https://arxiv.org/abs/1009.0894",
+            "scope": "Expanding shock integration and Gaussian diffusion kernel, Section 2; W28 interpretation.",
+            "pdf_sha256": "0228e1d5c43d7def1995b3844682d3c2bd413bf126d306931d71dacf06cce388"
+          },
+          {
+            "url": "https://arxiv.org/abs/1204.1271",
+            "scope": "Trajectory simulations, diffusion tensor and near-source anisotropy; independently located uncited work.",
+            "pdf_sha256": "d1d37fbbff0f276f99d7c530881b336b06e87de347edd2f624ac0fe17b52e1f4"
+          },
+          {
+            "url": "https://doi.org/10.1111/j.1365-2966.2012.20270.x",
+            "scope": "Publisher abstract verified finite-cloud extension. Publisher full-text retrieval failed twice; not claimed as full-text reading. Original 2010 method read independently.",
+            "full_text_access": "unavailable"
+          }
+        ]
+      }
+    },
+    {
+      "id": "paper-2611-23983",
+      "arxiv": "2611.23983",
+      "title": "Positron escape from dark matter spikes in black hole X-ray binaries",
+      "authors": "Mpho Kgoadi, Geoff Beck",
+      "primary_category": "astro-ph.HE",
+      "label": "Positron escape and dark-matter spikes",
+      "teaser": "Near-source cooling and spike depletion undermine a uniform-environment positron scenario.",
+      "tags": [
+        "astro-ph.HE",
+        "Positron escape and dark-matter spikes"
+      ],
+      "arxiv_url": "https://arxiv.org/abs/2611.23983v1",
+      "submission_date": "2026-11-18",
+      "first_announcement_date": "2026-11-19",
+      "version": "v1",
+      "publication_status": "Preprint; no journal publication recorded.",
+      "full_text_access": {
+        "status": "read_full_text",
+        "scope": "Complete v1 PDF, including methods, equations, results, captions, limitations, references and appendices where present; central figures visually inspected."
+      },
+      "source_audit": {
+        "submission_timestamp": "2026-11-18T07:25:15+00:00",
+        "first_announcement_date": "2026-11-19",
+        "listing_url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-19?abs=True",
+        "eligibility": "New submission in target dated primary listing; abstract-page version history contains v1 only.",
+        "version_history_url": "https://arxiv.org/abs/2611.23983v1",
+        "abs_sha256": "1e426778ffa1ac27284066c5d6fee9e168237b38c3d6ec207b7a761d4f89435f",
+        "pdf_sha256": "441303f5c5e0916461a63015d37a499f479315a4448a1340b2332cf72c94cdb6",
+        "history_reading": [
+          {
+            "url": "https://arxiv.org/abs/2509.01860",
+            "scope": "Injection, ambient-plus-spike spatial integral, uniform transport assumptions and positron normalization.",
+            "pdf_sha256": "418a70b049139308a73c6f33772f2b8ff0b1e7c4459744bc92af09bfe5c6f6f7"
+          },
+          {
+            "url": "https://arxiv.org/abs/2311.16539",
+            "scope": "Radio data, signal construction, diffusion, annihilation plateau and magnetic dependence, Sections 2.3–3.1.",
+            "pdf_sha256": "84a010794333cfdf5537c6b1a9e2419e09d9af20c96265ec9ec50062b36d5392"
+          },
+          {
+            "url": "https://arxiv.org/abs/2510.11635v2",
+            "scope": "v2: N-body feedback, finite-time slope requirements and limitations on stationarity; independently located uncited work.",
+            "pdf_sha256": "152306bddb47a61223e1ba7838bc41bc12aad3d9893146fd113886a36b3a1a4e"
+          }
+        ]
+      }
+    }
+  ],
+  "alerts_count": 0,
+  "news_count": 0,
+  "sections": {
+    "ArXiv Highlights": "<!-- paper:paper-2611-24418 -->\n#### A lepto-hadronic perspective on the properties of the candidate neutrino-emitter blazar 5BZQ J0808+4950\n\n**Authors:** Margot Boughelilba, Leonard Pfeiffer, Jose Maria Sanchez Zaballa, Alessandra Azzollini, Annette Bremer, Sara Buson and Massimiliano Lincetto. **Paper:** [arXiv:2611.24418v1](https://arxiv.org/abs/2611.24418v1) · [full text](https://arxiv.org/pdf/2611.24418v1). **Dates/status:** submitted to arXiv 18 November 2026; first announced 19 November; submitted to *Astronomy & Astrophysics*, under review. The observations cover 2008–2024; IC110929A was detected on 29 September 2011.\n\n**Question and method.** Can the broadband emission of this flat-spectrum radio quasar at redshift 1.4344 accommodate a physically consistent neutrino component, and which photon band follows it? The authors combine 16.4 years of Fermi-LAT data with optical/UV, radio, Swift-XRT and NuSTAR observations into six epochs. AM3 evolves electrons, protons and their secondaries in a non-expanding spherical emission region moving along the jet, including synchrotron radiation, Compton scattering, photomeson and Bethe–Heitler interactions, photon–photon pair production and escape. Accretion-disk, broad-line-region and torus photons evolve in importance as the region moves. The calculation averages the evolving emission over each observational interval; it is not an instantaneous flare fit.\n\n**Results.** Representative solutions have comoving radii of (1–3) × 10¹⁶ cm, magnetic fields of about 0.5–5 G, Doppler factors around 5, and maximum injected proton energies of approximately 4–9 PeV in the blob frame. The proton injection index is tied to the electron index, approximately 2, and the minimum proton Lorentz factor is fixed to 1. The inferred injected jet powers span about 2–20 times the adopted Eddington luminosity, 8.75 × 10⁴⁶ erg s⁻¹. This is an energetic tension, not a violation of a strict Eddington bound on jets.\n\nFolding the predicted muon-neutrino plus antineutrino flux through the public IceCube point-source effective area yields about 0.001–0.101 events per epoch and 0.17 events over all 16.4 years. For the 4.9-year interval containing IC110929A, the mean is 0.101, corresponding to a Poisson probability of approximately 9.6% for at least one event. These are model expectations, not measured source counts or an association significance. In particular, the blazar lies just outside the event's quoted 90% localization contour. A broad Poisson interval containing one event does not establish that this blazar produced it.\n\nAcross the six fitted solutions, the predicted neutrino luminosity follows the modeled 0.3–10 keV luminosity more closely than the modeled 0.1–100 GeV luminosity: fitted slopes are 1.12 ± 0.19 and 0.22 ± 0.79, respectively. This is a correlation among model outputs, not an observed neutrino–X-ray correlation. Three epochs lack X-ray coverage and have fewer fitted data points than free parameters. The authors explicitly caution that their independently varied parameter ranges are not joint statistical confidence regions; the figure's “1σ” shading should not be read as a marginalized uncertainty. Other solutions remain possible, and two epochs allow zero proton injection. The apparently significant ∼129 GeV photon is assigned only ∼1% source probability by the LAT analysis and is not evidence for a hard source component.\n\n##### History\n\n[Keivani et al. (2018)](https://arxiv.org/abs/1807.04537) already demonstrated, for TXS 0506+056, that photohadronic cascades fill the X-ray/MeV spectral valley and therefore restrict the neutrino output. Their multiwavelength cascade calculation showed why raising the proton luminosity cannot independently raise neutrinos without risking excess photons. The present study extends that physical test to several activity states of a different quasar; it does not newly establish the general cascade constraint.\n\n[Rodrigues et al. (2024)](https://arxiv.org/abs/2307.13024) modeled 324 gamma-ray blazars with external photon fields. Their population-level neutrino–gamma correlation used broadband data without a consistent temporal selection, and their fixed hard proton index differed from the approximately 2 used here. Consequently, a weaker within-source correlation across six epochs neither contradicts the population trend nor supplies a directly comparable improvement in neutrino sensitivity. The earlier paper also warned that acceptable leptohadronic fits need not be unique.\n\nA relevant earlier study absent from this paper's bibliography is [Pfeiffer et al. (September 2026)](https://arxiv.org/abs/2609.19477), which modeled six other candidate counterparts while preferentially maximizing neutrino output and constraining jet power. It found external photons important even for weakly accreting systems and predicted small event rates. The different source selection and power assumptions preclude a direct rate comparison. Together, these studies support testing source physics with joint photon and neutrino predictions while retaining the distinction between a viable emission model and a statistically established counterpart.\n\n<!-- paper:paper-2611-23389 -->\n#### Isotropic diffuse gamma-ray flux limits from Carpet-3 experiment data using neural networks with domain adaptation\n\n**Authors:** D. D. Dzhappuev, I. M. Dzaparova, T. A. Dzhatdoev, E. A. Gorbacheva, I. S. Karpikov, M. M. Khadzhiev, A. U. Kudzhaev, A. N. Kurenya, A. S. Lidvansky, O. I. Mikhailova, V. B. Petkov, N. A. Pozdnukhov, V. S. Romanenko, G. I. Rubtsov, S. V. Troitsky, I. B. Unatlokov, N. A. Vasiliev, A. F. Yanin and K. V. Zhuravleva. **Paper:** [arXiv:2611.23389v1](https://arxiv.org/abs/2611.23389v1) · [full text](https://arxiv.org/pdf/2611.23389v1). **Dates/status:** submitted 17 November 2026 at 19:00 UTC; first announced 19 November; preprint, with institutional report number INR-TH-2026-020 rather than a journal publication.\n\n**Question and method.** How tightly can an isotropic photon component above 100 TeV be constrained when simulated hadronic showers do not perfectly reproduce the data? The analysis uses 1,078 live days between 17 June 2022 and 7 April 2026, with 161,076 quality-selected showers and the enlarged 410 m² muon detector. A neural network combines surface-array images with reconstructed shower quantities. A domain-adaptation branch uses unlabeled measured showers to reduce simulation–data discrepancies in the learned features. Training uses CORSIKA/QGSJET/FLUKA simulations of photons and protons; the domain-alignment procedure is not a measurement of the cosmic-ray mass composition.\n\n**Measured constraints.** The reported limits use the Feldman–Cousins construction at **90% confidence**, with simulated background and photon acceptance, assuming an isotropic E⁻² photon spectrum. Integral intensity bounds are 3.2 × 10⁻¹³ cm⁻² s⁻¹ sr⁻¹ above 100 TeV, 3.54 × 10⁻¹⁴ above 1 PeV and 2.8 × 10⁻¹⁴ above 3.16 PeV. For the latter two thresholds, no candidates survive the integral-analysis cuts, against expected backgrounds of 1.3 and 0.9 events. Differential quarter-decade bins, also assuming E⁻² within each bin, yield E²dN/dE < 134 and 107 eV cm⁻² s⁻¹ sr⁻¹ at logarithmic bin centers 1.33 and 2.37 PeV, respectively. Integral and differential selections differ and their candidate counts should not be interchanged.\n\n**Limitations and interpretation.** At the 100 TeV integral threshold, the total photon efficiency is only 0.004; the spectrum assumed above threshold materially affects that result. Domain adaptation reduces a classifier-distribution discrepancy but does not eliminate detector, composition or hadronic-interaction uncertainties, nor independently calibrate the photon response. Several differential bins below 1 PeV contain more photon candidates than the modeled background. The paper explicitly leaves their physical interpretation to a dedicated analysis: these excesses are not an established diffuse-photon detection. The measurement supplies a photon-intensity constraint; it does not itself fit a neutrino-source population or derive a dark-matter lifetime or Lorentz-invariance bound.\n\n##### History\n\n[The Carpet-2 analysis (2022)](https://arxiv.org/abs/2212.01088) used 1999–2011 and 2018–2022 data and a statistical decomposition of the muon-number distribution, designed to avoid reliance on a simulated hadronic tail. It reported an E⁻², 90%-confidence integral bound EₘᵢₙI(>Eₘᵢₙ) < 160 eV cm⁻² s⁻¹ sr⁻¹ at 1 PeV, equivalent to I < 1.60 × 10⁻¹³ cm⁻² s⁻¹ sr⁻¹. The corresponding Carpet-3 value is smaller by approximately **4.5**, comparing the same threshold, spectrum and confidence level. This is a comparison of reported bounds, not a matched analysis isolating the gain from domain adaptation; detector area, exposure and statistical treatment all changed.\n\n[HAWC's diffuse-isotropic search](https://arxiv.org/abs/2209.08106) provides a complementary lower-energy baseline, using 535 days and a likelihood analysis with a baseline E⁻²·⁵ spectrum and one-sided 95% limits. Its detector-response systematics and energy bins differ. Those results cannot be divided directly by Carpet-3's E⁻², 90% limits to obtain a meaningful sensitivity-improvement factor. The new result's clearest advance is relative to Carpet-2 in the PeV regime. Photon attenuation and the distinction between isotropic and Galactic-plane emission remain essential when using any of these bounds in multimessenger source models.\n\n<!-- paper:paper-2611-23744 -->\n#### Strongly Suppressed Cosmic-Ray Diffusion in a Wind-Blown Cavity Environment of SNR G21.8-3.0\n\n**Authors:** Yuan Li, Gwenael Giacinti, Yang Su, Xiao Zhang, Hui Li and Yang Chen. **Paper:** [arXiv:2611.23744v1](https://arxiv.org/abs/2611.23744v1) · [full text](https://arxiv.org/pdf/2611.23744v1). **Dates/status:** submitted 18 November 2026; first announced 19 November; submitted manuscript, no journal publication recorded. Fermi-LAT observations span 4 August 2008–4 August 2024.\n\n**Question and data.** Does a progenitor's low-density wind cavity let escaping cosmic rays travel freely, or can its magnetic environment inhibit transport? The paper associates the existing catalog source **4FGL J1840.4−1139** with molecular material outside the radio shell of G21.8−3.0, using 16 years of 0.1–1,000 GeV LAT data and MWISP CO observations. Thus, the new claim is the physical association and interpretation, rather than discovery of a previously uncataloged gamma-ray source. The source remains consistent with a point source: extension test statistics are only about 2–3. A log-parabola improves the spectral fit over a power law by TS = 46.7; that statistic measures curvature, not source-detection significance. The fitted photon flux is (1.35 ± 0.27) × 10⁻⁹ cm⁻² s⁻¹.\n\n**Transport model and results.** A spherical, expanding shock continuously releases protons with an assumed E⁻² injection spectrum. Their accumulated diffusive distribution illuminates a nearby cloud through proton–proton interactions. Adopting a distance of 0.8 kpc, an SNR age of about 3 kyr and a cloud mass of 101 M☉ with mean density 253 cm⁻³, the authors explore D(E) = χ × 10²⁸(E/10 GeV)^δ cm² s⁻¹. The illustrated δ = 1 solution has χ = 0.1, or D(10 GeV) = 10²⁷ cm² s⁻¹, roughly 30 times below the comparison Galactic value 3 × 10²⁸ cm² s⁻¹. A δ = 0.5 solution with χ = 0.3 also describes the data, corresponding to a factor of 10 at that reference energy. Different energy dependences mean that “30-fold suppression” is not a universal factor at all proton energies.\n\nThe inferred energy in cloud-interacting protons is approximately 3 × 10⁴⁶ erg. Its smallness relative to an assumed 10⁵⁰ erg cosmic-ray budget is consistent with only a small intercepted population, but does not by itself measure the fraction confined in the remnant. The ∼0.9 Myr timescale estimated for the progenitor's wind bubble is distinct from the ∼3 kyr SNR age.\n\n**Limitations.** The transport parameters come from illustrative model grids, not a marginalized posterior or a stated confidence interval on D. The gas distance, cloud geometry, SNR age and association are assumptions. In particular, using the unresolved gamma-ray source's localization scale to characterize the target cloud does not turn it into a measured physical emission radius. Possible CO broadening and the cavity alignment support an association without uniquely establishing it. Neither a spiral wind field nor self-generated turbulence is directly measured here. The quoted low variability does not exclude every alternative source class.\n\n##### History\n\n[Li and Chen (2010)](https://arxiv.org/abs/1009.0894) constructed the accumulated-escape model for W28 by integrating diffusion from the expanding shock over its history; [their 2012 extension](https://doi.org/10.1111/j.1365-2966.2012.20270.x) explicitly incorporated finite molecular-cloud volumes. The established lesson was that cloud distance, source age and diffusion can create spectral breaks without inserting an arbitrary break into the accelerator's proton spectrum. G21.8−3.0 applies that framework to a candidate wind-cavity environment. Its significance is the environmental example, not a new escape formalism or the first inference of locally inhibited transport.\n\nAn independently located earlier comparison, absent from the new bibliography, is [Giacinti, Kachelrieß and Semikoz (2012)](https://arxiv.org/abs/1204.1271). Their individual-particle calculations showed strongly anisotropic near-source propagation even in turbulence without a globally ordered field, before particles sample enough coherence volumes to approach ensemble-averaged diffusion. That does not numerically refute the G21.8 model: the energy and field setups differ. It does show why a scalar diffusion coefficient inferred under spherical symmetry need not uniquely identify microscopic scattering suppression. Distinguishing confinement from field geometry requires spatial and spectral information beyond the present unresolved gamma-ray source.\n\n<!-- paper:paper-2611-23983 -->\n#### Positron escape from dark matter spikes in black hole X-ray binaries\n\n**Authors:** Mpho Kgoadi and Geoff Beck. **Paper:** [arXiv:2611.23983v1](https://arxiv.org/abs/2611.23983v1) · [full text](https://arxiv.org/pdf/2611.23983v1). **Dates/status:** submitted 18 November 2026; first announced 19 November; preprint, no journal publication recorded.\n\n**Question and method.** Can positrons produced in steep dark-matter concentrations around A0620−00 and XTE J1118+480 escape the near-black-hole environment with enough energy to explain the AMS-02 excess? The authors re-examine an 8 TeV particle annihilating into W⁺W⁻, separating spike emission from an extended ambient-halo contribution. They then propagate positrons through a radially declining magnetic field, comparing Bohm-like and Kolmogorov transport with the ballistic limit. The diffusion coefficient is capped at cr/3 so that the escape prescription does not imply faster-than-light transport. Synchrotron cooling, inverse-Compton losses and annihilation-induced depletion of the spike are treated separately.\n\n**Results.** In the reproduced earlier calculation, approximately 97.9% of the peak positron flux comes from the extended ambient contribution and only 2.1% from the spikes. Removing the ambient term changes the required normalization from ⟨σv⟩ = 8.2 × 10⁻²² to 3.06 × 10⁻²⁰ cm³ s⁻¹ before near-source cooling. For the adopted fields, B(10R_g) = 4.2 × 10⁵ G and 2.3 × 10⁵ G, cooling suppresses the spike-only positron peak by factors of about 473–1,374 across the tested transport prescriptions. A proportional cross-section rescaling cannot be taken arbitrarily far: increasing annihilation also erodes the very density enhancement producing the signal. These are conditional model comparisons, not confidence-level exclusions of all dark-matter explanations of AMS-02.\n\n**Radio constraints.** A separate synchrotron calculation uses XTE J1118+480's 5.3 GHz flux, 4.79 ± 1.45 μJy. With the adopted spike, magnetic field, age and diffusion prescription fixed, the authors define a one-sided 95% threshold through Δχ² = 2.71, allowing ordinary source emission to supply any remaining flux. For annihilation into b b̄, the first excluded cross sections are 3.29 × 10⁻²⁸ cm³ s⁻¹ at 100 GeV and 9.75 × 10⁻²⁷ cm³ s⁻¹ at 500 GeV. The spike slopes, field normalization, density profile and ages are not jointly marginalized. The inferred radio signal is non-monotonic in cross section once annihilation depletes the spike; these are **lower boundaries of excluded intervals**, not unconditional upper bounds excluding every larger cross section. The low-cross-section branch changes around 750 GeV for b b̄. The quoted subthermal reach is therefore conditional on both particle mass and the astrophysical model.\n\n**Limitations.** The spike profiles are assumed, not independently detected. Their adopted slopes are 1.71 and 1.85, with radii near 1.1 pc; saturation uses assumed ages of 47 and 7.73 Myr. Magnetic normalization, inner transport and the persistence of the spike are major physical uncertainties. The radio calculation's local escape treatment also omits radiation emitted after particles leave their shell. The strongest conclusion is that a uniform, weak magnetic environment cannot safely be extrapolated down to the spike's emitting region.\n\n##### History\n\n[Chan and Lee (2025)](https://arxiv.org/abs/2509.01860) proposed these binaries as a dark-matter origin for the positron excess using a spatially uniform transport environment. The present paper changes two important pieces of that baseline: attributing the signal to the compact spikes rather than the extended ambient integral, and following energy losses before interstellar propagation. It is a critique of that specific normalization and escape scenario, not evidence that the AMS-02 excess itself is spurious.\n\n[Kar et al. (2024)](https://arxiv.org/abs/2311.16539) already obtained stringent radio constraints from XTE J1118+480. Their paper explicitly identified magnetic equipartition as a major assumption and allowed diffusion and spike-slope variations. The new bounds are not generically stronger: different spike radii and accretion-rate-dependent fields explain much of the apparent discrepancy. Once those inputs are aligned, the new authors report agreement at approximately the 15% level at 100 GeV and 4% at 500 GeV. This is a model-reproduction comparison; the earlier comparison-to-flux procedure should not be silently assigned the new paper's Δχ² confidence construction.\n\nA separate, relevant critique absent from the new bibliography is [Scarcella and Kavanagh, v2 (March 2026)](https://arxiv.org/abs/2510.11635v2). Their N-body calculations showed that the companion star dynamically depletes shallow spikes, requiring substantially steeper initial profiles, roughly γ ≳ 2.15–2.2 for these two systems, to sustain the proposed orbital-decay explanation over the simulated intervals. Long-term equilibrium was not established. This challenges the physical persistence of the adopted 1.71/1.85 profiles independently of positron cooling and reinforces why the radio numbers cannot be promoted to astrophysics-independent particle limits."
+  },
+  "listing_statistics": {
+    "date": "2026-11-19",
+    "basis": "new_primary_submissions",
+    "counts": {
+      "astro-ph": 80,
+      "hep-ph": 27,
+      "hep-ex": 6,
+      "hep-th": 24,
+      "gr-qc": 26,
+      "nucl-ex": 1,
+      "nucl-th": 6
+    },
+    "astro_subcategories": {
+      "astro-ph.HE": 18,
+      "astro-ph.CO": 11
+    },
+    "sources": [
+      "https://arxiv.org/catchup/astro-ph/2026-11-19?abs=True",
+      "https://arxiv.org/catchup/hep-ph/2026-11-19?abs=True",
+      "https://arxiv.org/catchup/hep-ex/2026-11-19?abs=True",
+      "https://arxiv.org/catchup/hep-th/2026-11-19?abs=True",
+      "https://arxiv.org/catchup/gr-qc/2026-11-19?abs=True",
+      "https://arxiv.org/catchup/nucl-ex/2026-11-19?abs=True",
+      "https://arxiv.org/catchup/nucl-th/2026-11-19?abs=True",
+      "https://arxiv.org/catchup/astro-ph.HE/2026-11-19?abs=True",
+      "https://arxiv.org/catchup/astro-ph.CO/2026-11-19?abs=True"
+    ],
+    "verified_at": "2026-11-19T08:11:11+01:00",
+    "source_audit": {
+      "date": "2026-11-19",
+      "cutoff": "2026-11-19T08:11:11+01:00",
+      "status": "complete",
+      "sources": [
+        {
+          "category": "astro-ph",
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-19?abs=True",
+          "listing_date": "2026-11-19",
+          "verified_at": "2026-11-19T08:11:11+01:00",
+          "sha256": "db82ae1a63b64eb28b158ccb0e5aa5b68a0a14fbf28feb63736712e598504303",
+          "coverage": "All entries on complete dated page. New and cross-listed titles and abstracts screened; replacements inventoried and excluded.",
+          "counts": {
+            "new_primary": 80,
+            "cross_lists": 15,
+            "replacements": 54
+          }
+        },
+        {
+          "category": "hep-ph",
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-19?abs=True",
+          "listing_date": "2026-11-19",
+          "verified_at": "2026-11-19T08:11:11+01:00",
+          "sha256": "9bf42d3f3c234e2fc76a7010ea3cd036857af8be774042e18a9e9f99cd207985",
+          "coverage": "All entries on complete dated page. New and cross-listed titles and abstracts screened; replacements inventoried and excluded.",
+          "counts": {
+            "new_primary": 27,
+            "cross_lists": 14,
+            "replacements": 33
+          }
+        },
+        {
+          "category": "hep-ex",
+          "url": "https://arxiv.org/catchup/hep-ex/2026-11-19?abs=True",
+          "listing_date": "2026-11-19",
+          "verified_at": "2026-11-19T08:11:11+01:00",
+          "sha256": "2869c3adde152bf9440179e37bbd33ed5e8b3883055700703279a9195bd20bba",
+          "coverage": "All entries on complete dated page. New and cross-listed titles and abstracts screened; replacements inventoried and excluded.",
+          "counts": {
+            "new_primary": 6,
+            "cross_lists": 8,
+            "replacements": 10
+          }
+        },
+        {
+          "category": "hep-th",
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-19?abs=True",
+          "listing_date": "2026-11-19",
+          "verified_at": "2026-11-19T08:11:11+01:00",
+          "sha256": "e1966351228fc06820dc101816f6c3b9892fb1a82ba16ec25a6cc32ea1e06467",
+          "coverage": "All entries on complete dated page. New and cross-listed titles and abstracts screened; replacements inventoried and excluded.",
+          "counts": {
+            "new_primary": 24,
+            "cross_lists": 22,
+            "replacements": 31
+          }
+        },
+        {
+          "category": "gr-qc",
+          "url": "https://arxiv.org/catchup/gr-qc/2026-11-19?abs=True",
+          "listing_date": "2026-11-19",
+          "verified_at": "2026-11-19T08:11:11+01:00",
+          "sha256": "4cdc1da49ff6d2eeb9563071a8c57e40aee4a54c01c193dac38c83f09eb11af2",
+          "coverage": "All entries on complete dated page. New and cross-listed titles and abstracts screened; replacements inventoried and excluded.",
+          "counts": {
+            "new_primary": 26,
+            "cross_lists": 13,
+            "replacements": 30
+          }
+        },
+        {
+          "category": "nucl-ex",
+          "url": "https://arxiv.org/catchup/nucl-ex/2026-11-19?abs=True",
+          "listing_date": "2026-11-19",
+          "verified_at": "2026-11-19T08:11:11+01:00",
+          "sha256": "5b74c80766f0a968d480b27fb2200c571ba24f48f1468c5f6f1fb252e2b6a61c",
+          "coverage": "All entries on complete dated page. New and cross-listed titles and abstracts screened; replacements inventoried and excluded.",
+          "counts": {
+            "new_primary": 1,
+            "cross_lists": 3,
+            "replacements": 0
+          }
+        },
+        {
+          "category": "nucl-th",
+          "url": "https://arxiv.org/catchup/nucl-th/2026-11-19?abs=True",
+          "listing_date": "2026-11-19",
+          "verified_at": "2026-11-19T08:11:11+01:00",
+          "sha256": "71104229e7fe76c6d941f8f0849c35219114abae4f7b59215ef334d61393dfd7",
+          "coverage": "All entries on complete dated page. New and cross-listed titles and abstracts screened; replacements inventoried and excluded.",
+          "counts": {
+            "new_primary": 6,
+            "cross_lists": 2,
+            "replacements": 5
+          }
+        },
+        {
+          "category": "astro-ph.HE",
+          "url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-19?abs=True",
+          "listing_date": "2026-11-19",
+          "verified_at": "2026-11-19T08:11:11+01:00",
+          "sha256": "9d2bdf9c5826b47393b2d50784c73d685d35804c9fe0a40b4101d9eca2dd27d8",
+          "coverage": "All entries on complete dated page. New and cross-listed titles and abstracts screened; replacements inventoried and excluded.",
+          "counts": {
+            "new_primary": 18,
+            "cross_lists": 10,
+            "replacements": 12
+          }
+        },
+        {
+          "category": "astro-ph.CO",
+          "url": "https://arxiv.org/catchup/astro-ph.CO/2026-11-19?abs=True",
+          "listing_date": "2026-11-19",
+          "verified_at": "2026-11-19T08:11:11+01:00",
+          "sha256": "f8bde06edffa4d4f78757aee0e2b643c1ef2c7b7a0965bdf7d774da25d95ed00",
+          "coverage": "All entries on complete dated page. New and cross-listed titles and abstracts screened; replacements inventoried and excluded.",
+          "counts": {
+            "new_primary": 11,
+            "cross_lists": 8,
+            "replacements": 17
+          }
+        }
+      ],
+      "counts": {
+        "unique_candidates": 194,
+        "title_abstract_screened": 194,
+        "selected": 4,
+        "full_text_read": 5,
+        "selected_full_text_read": 4,
+        "unresolved_high_priority": 0
+      },
+      "selected_unique_ids": [
+        "2611.24418",
+        "2611.23389",
+        "2611.23744",
+        "2611.23983"
+      ],
+      "selected_papers_by_primary_category": {
+        "astro-ph.HE": 4
+      },
+      "independent_results": 4,
+      "correlated_results": "No grouped companion papers; four distinct studies. Historical references are not daily highlights.",
+      "selection_policy": "Relevance, scientific substance, significance and incremental contribution; twelve is a ceiling, not a target. Ordered selected list is the final ranking. Secondary neutrino phenomenology and cosmology candidates were screened and ranked lower; they are not claimed full-text reviewed.",
+      "second_topic_pass": {
+        "completed": true,
+        "scope": "Independent topic pass over deduplicated titles/abstracts for cosmic rays/UHECRs, acceleration and diffusion, nuclear interactions, neutrinos, p-gamma and cooling, photons/cascades, dark matter, cosmology, BSM and major experimental constraints; included Unicode gamma titles and full review of IC443 before exclusion."
+      },
+      "coverage_gaps": [],
+      "access_gaps": [
+        {
+          "url": "https://academic.oup.com/mnras/article/421/2/935/1125453",
+          "issue": "Historical Li & Chen 2012 full-text endpoint failed twice with redirected inaccessible endpoint. Publisher abstract checked; 2010 original diffusion method PDF read. No full-text claim for 2012 paper."
+        }
+      ],
+      "candidate_version_policy": "Version histories individually verified for every selected paper. Nonselected title/abstract screening does not imply every version history was opened. Replacements excluded; cross-list-only candidates not promoted without verification.",
+      "full_text_review_exclusion_ids": [
+        "2611.24300"
+      ],
+      "unresolved_high_priority_ids": [],
+      "revision_provenance": [
+        {
+          "at": "2026-11-19T08:11:11+01:00",
+          "action": "Initial 19 November edition; four selected studies after full dated screening and five complete primary-paper reviews. No retrospective batch relabeling."
+        }
+      ],
+      "recovery": {
+        "main_at_start": "f2dec38a90b3170dc57a79c0243ef9263bd0ddb5",
+        "earlier_complete_part_sets_awaiting_assembly": [],
+        "current_part_at_start": "absent"
+      },
+      "screening_audit_path": "content-parts/2026-11-19/arxiv-screening.json"
+    }
+  },
+  "source_audit": {
+    "date": "2026-11-19",
+    "cutoff": "2026-11-19T08:11:11+01:00",
+    "status": "complete",
+    "sources": [
+      {
+        "category": "astro-ph",
+        "url": "https://arxiv.org/catchup/astro-ph/2026-11-19?abs=True",
+        "listing_date": "2026-11-19",
+        "verified_at": "2026-11-19T08:11:11+01:00",
+        "sha256": "db82ae1a63b64eb28b158ccb0e5aa5b68a0a14fbf28feb63736712e598504303",
+        "coverage": "All entries on complete dated page. New and cross-listed titles and abstracts screened; replacements inventoried and excluded.",
+        "counts": {
+          "new_primary": 80,
+          "cross_lists": 15,
+          "replacements": 54
+        }
+      },
+      {
+        "category": "hep-ph",
+        "url": "https://arxiv.org/catchup/hep-ph/2026-11-19?abs=True",
+        "listing_date": "2026-11-19",
+        "verified_at": "2026-11-19T08:11:11+01:00",
+        "sha256": "9bf42d3f3c234e2fc76a7010ea3cd036857af8be774042e18a9e9f99cd207985",
+        "coverage": "All entries on complete dated page. New and cross-listed titles and abstracts screened; replacements inventoried and excluded.",
+        "counts": {
+          "new_primary": 27,
+          "cross_lists": 14,
+          "replacements": 33
+        }
+      },
+      {
+        "category": "hep-ex",
+        "url": "https://arxiv.org/catchup/hep-ex/2026-11-19?abs=True",
+        "listing_date": "2026-11-19",
+        "verified_at": "2026-11-19T08:11:11+01:00",
+        "sha256": "2869c3adde152bf9440179e37bbd33ed5e8b3883055700703279a9195bd20bba",
+        "coverage": "All entries on complete dated page. New and cross-listed titles and abstracts screened; replacements inventoried and excluded.",
+        "counts": {
+          "new_primary": 6,
+          "cross_lists": 8,
+          "replacements": 10
+        }
+      },
+      {
+        "category": "hep-th",
+        "url": "https://arxiv.org/catchup/hep-th/2026-11-19?abs=True",
+        "listing_date": "2026-11-19",
+        "verified_at": "2026-11-19T08:11:11+01:00",
+        "sha256": "e1966351228fc06820dc101816f6c3b9892fb1a82ba16ec25a6cc32ea1e06467",
+        "coverage": "All entries on complete dated page. New and cross-listed titles and abstracts screened; replacements inventoried and excluded.",
+        "counts": {
+          "new_primary": 24,
+          "cross_lists": 22,
+          "replacements": 31
+        }
+      },
+      {
+        "category": "gr-qc",
+        "url": "https://arxiv.org/catchup/gr-qc/2026-11-19?abs=True",
+        "listing_date": "2026-11-19",
+        "verified_at": "2026-11-19T08:11:11+01:00",
+        "sha256": "4cdc1da49ff6d2eeb9563071a8c57e40aee4a54c01c193dac38c83f09eb11af2",
+        "coverage": "All entries on complete dated page. New and cross-listed titles and abstracts screened; replacements inventoried and excluded.",
+        "counts": {
+          "new_primary": 26,
+          "cross_lists": 13,
+          "replacements": 30
+        }
+      },
+      {
+        "category": "nucl-ex",
+        "url": "https://arxiv.org/catchup/nucl-ex/2026-11-19?abs=True",
+        "listing_date": "2026-11-19",
+        "verified_at": "2026-11-19T08:11:11+01:00",
+        "sha256": "5b74c80766f0a968d480b27fb2200c571ba24f48f1468c5f6f1fb252e2b6a61c",
+        "coverage": "All entries on complete dated page. New and cross-listed titles and abstracts screened; replacements inventoried and excluded.",
+        "counts": {
+          "new_primary": 1,
+          "cross_lists": 3,
+          "replacements": 0
+        }
+      },
+      {
+        "category": "nucl-th",
+        "url": "https://arxiv.org/catchup/nucl-th/2026-11-19?abs=True",
+        "listing_date": "2026-11-19",
+        "verified_at": "2026-11-19T08:11:11+01:00",
+        "sha256": "71104229e7fe76c6d941f8f0849c35219114abae4f7b59215ef334d61393dfd7",
+        "coverage": "All entries on complete dated page. New and cross-listed titles and abstracts screened; replacements inventoried and excluded.",
+        "counts": {
+          "new_primary": 6,
+          "cross_lists": 2,
+          "replacements": 5
+        }
+      },
+      {
+        "category": "astro-ph.HE",
+        "url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-19?abs=True",
+        "listing_date": "2026-11-19",
+        "verified_at": "2026-11-19T08:11:11+01:00",
+        "sha256": "9d2bdf9c5826b47393b2d50784c73d685d35804c9fe0a40b4101d9eca2dd27d8",
+        "coverage": "All entries on complete dated page. New and cross-listed titles and abstracts screened; replacements inventoried and excluded.",
+        "counts": {
+          "new_primary": 18,
+          "cross_lists": 10,
+          "replacements": 12
+        }
+      },
+      {
+        "category": "astro-ph.CO",
+        "url": "https://arxiv.org/catchup/astro-ph.CO/2026-11-19?abs=True",
+        "listing_date": "2026-11-19",
+        "verified_at": "2026-11-19T08:11:11+01:00",
+        "sha256": "f8bde06edffa4d4f78757aee0e2b643c1ef2c7b7a0965bdf7d774da25d95ed00",
+        "coverage": "All entries on complete dated page. New and cross-listed titles and abstracts screened; replacements inventoried and excluded.",
+        "counts": {
+          "new_primary": 11,
+          "cross_lists": 8,
+          "replacements": 17
+        }
+      }
+    ],
+    "counts": {
+      "unique_candidates": 194,
+      "title_abstract_screened": 194,
+      "selected": 4,
+      "full_text_read": 5,
+      "selected_full_text_read": 4,
+      "unresolved_high_priority": 0
+    },
+    "selected_unique_ids": [
+      "2611.24418",
+      "2611.23389",
+      "2611.23744",
+      "2611.23983"
+    ],
+    "selected_papers_by_primary_category": {
+      "astro-ph.HE": 4
+    },
+    "independent_results": 4,
+    "correlated_results": "No grouped companion papers; four distinct studies. Historical references are not daily highlights.",
+    "selection_policy": "Relevance, scientific substance, significance and incremental contribution; twelve is a ceiling, not a target. Ordered selected list is the final ranking. Secondary neutrino phenomenology and cosmology candidates were screened and ranked lower; they are not claimed full-text reviewed.",
+    "second_topic_pass": {
+      "completed": true,
+      "scope": "Independent topic pass over deduplicated titles/abstracts for cosmic rays/UHECRs, acceleration and diffusion, nuclear interactions, neutrinos, p-gamma and cooling, photons/cascades, dark matter, cosmology, BSM and major experimental constraints; included Unicode gamma titles and full review of IC443 before exclusion."
+    },
+    "coverage_gaps": [],
+    "access_gaps": [
+      {
+        "url": "https://academic.oup.com/mnras/article/421/2/935/1125453",
+        "issue": "Historical Li & Chen 2012 full-text endpoint failed twice with redirected inaccessible endpoint. Publisher abstract checked; 2010 original diffusion method PDF read. No full-text claim for 2012 paper."
+      }
+    ],
+    "candidate_version_policy": "Version histories individually verified for every selected paper. Nonselected title/abstract screening does not imply every version history was opened. Replacements excluded; cross-list-only candidates not promoted without verification.",
+    "full_text_review_exclusion_ids": [
+      "2611.24300"
+    ],
+    "unresolved_high_priority_ids": [],
+    "revision_provenance": [
+      {
+        "at": "2026-11-19T08:11:11+01:00",
+        "action": "Initial 19 November edition; four selected studies after full dated screening and five complete primary-paper reviews. No retrospective batch relabeling."
+      }
+    ],
+    "recovery": {
+      "main_at_start": "f2dec38a90b3170dc57a79c0243ef9263bd0ddb5",
+      "earlier_complete_part_sets_awaiting_assembly": [],
+      "current_part_at_start": "absent"
+    },
+    "screening_audit_path": "content-parts/2026-11-19/arxiv-screening.json"
+  }
+}
