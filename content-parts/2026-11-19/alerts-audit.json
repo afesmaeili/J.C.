@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-19",
+  "part": "alerts",
+  "status": "partial",
+  "cutoff": "2026-11-19T07:59:00+01:00",
+  "window_start_utc": "2026-11-18T07:04:00Z",
+  "window_end_utc": "2026-11-19T06:59:00Z",
+  "previous_part": "content-parts/2026-11-18/alerts.json",
+  "selected_story_count": 7,
+  "sources": [
+    {
+      "name": "GCN Circulars",
+      "url": "https://gcn.nasa.gov/circulars",
+      "checked_range": "46316–46320 inclusive",
+      "latest_seen": 46320,
+      "result": "Read all five bodies and event threads. Selected 46316, 46317, 46319 and 46320. No later Circular existed by the cutoff."
+    },
+    {
+      "name": "Astronomer’s Telegram",
+      "url": "https://www.astronomerstelegram.org/",
+      "checked_after": 18157,
+      "latest_seen": 18161,
+      "result": "Read ATels 18158–18161. Selected the V488 Sge Chandra result and its correction, the MAGIC 3C 138 detection, and the LHAASO M87 flare."
+    },
+    {
+      "name": "Fermi/GBM notices",
+      "urls": [
+        "https://gcn.gsfc.nasa.gov/gcn/fermi_grbs.html",
+        "https://gcn.nasa.gov/circulars/46317",
+        "https://gcn.nasa.gov/circulars/46319",
+        "https://gcn.nasa.gov/circulars/46320"
+      ],
+      "result": "Checked public notices through trigger 816700674. Selected the new likely-short GRB 261118A and final classification of GRB 261118B; incorporated the delayed calibrated prompt analysis of GRB 261113B."
+    },
+    {
+      "name": "IceCube",
+      "urls": [
+        "https://gcn.nasa.gov/missions/icecube",
+        "https://gcn.gsfc.nasa.gov/amon_icecube_gold_bronze_events.html"
+      ],
+      "result": "The latest exposed public Gold/Bronze candidate remained IceCube-261113A, already covered. No newer public alert appeared in the checked table."
+    },
+    {
+      "name": "GraceDB and LVK",
+      "urls": [
+        "https://gracedb.ligo.org/api/superevents/?query=created:%202026-11-18%2007:04:00..2026-11-19%2006:59:00",
+        "https://gracedb.ligo.org/latest/"
+      ],
+      "result": "The public REST created-time query returned zero superevents in the checked 2026 window. The Latest page refreshed on 19 November but displayed an older 2025 event roster, so it was not used to assert universal quiet."
+    },
+    {
+      "name": "KM3NeT",
+      "urls": [
+        "https://www.km3net.org/",
+        "https://gcn.nasa.gov/circulars?query=KM3NeT"
+      ],
+      "result": "Targeted official and GCN searches exposed no in-window alert. No complete public live-alert ledger was available, so quiet cannot be verified."
+    },
+    {
+      "name": "Ground arrays and cosmic-ray facilities",
+      "urls": [
+        "https://www.hawc-observatory.org/",
+        "https://www.astronomerstelegram.org/?read=18161",
+        "https://www.auger.org/",
+        "https://www.telescopearray.org/"
+      ],
+      "result": "Selected the LHAASO-WCDA M87 flare from ATel 18161. Targeted official and GCN searches exposed no additional qualifying HAWC, Auger or Telescope Array alert. This is not a claim that all private or machine streams were quiet."
+    }
+  ],
+  "selected_events": [
+    "M87",
+    "3C 138",
+    "EP261115a",
+    "GRB 261118A",
+    "GRB 261118B",
+    "GRB 261113B",
+    "V488 Sge"
+  ],
+  "screened_not_selected": [
+    {
+      "event": "GRB 261029A",
+      "source": "https://gcn.nasa.gov/circulars/46318",
+      "reason": "The newly posted Kilonova-Catcher photometry was a delayed, incremental measurement of an already established optical afterglow, without a revised classification or new multimessenger implication."
+    }
+  ],
+  "corrections_and_retractions": [
+    "ATel 18160 corrected ATel 18158: the 40 eV blackbody-like hypothesis for V488 Sge was referenced from ATel 18135, not ATel 18138.",
+    "No GCN correction or retraction was found after Circular 46320 by the cutoff."
+  ],
+  "limitations": [
+    "Modern GCN/Kafka notice streams were not independently enumerated in full.",
+    "No complete public KM3NeT live-alert ledger was available.",
+    "The GraceDB Latest page exposed an older 2025 roster; the public REST created-time query was used for the 2026 window.",
+    "No claim of universal messenger quiet is made."
+  ]
+}
