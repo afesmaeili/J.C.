@@ -1,0 +1,119 @@
+{
+  "date": "2026-11-19",
+  "part": "news",
+  "cutoff": "2026-11-19T08:07:00+01:00",
+  "window_start": "2026-11-18T08:14:00+01:00",
+  "status": "partial",
+  "selected_story_count": 9,
+  "selected_story_titles": [
+    "Sentinel-3C returns its first thermal-infrared Earth images",
+    "Device-independent quantum position verification beats equal-latency classical localization",
+    "A two-dimensional Bose gas simulates a massive relativistic quantum field",
+    "Cluster-based sampling outperforms active learning across a large materials benchmark",
+    "A human hypothalamus atlas maps selective vulnerability in ageing and Alzheimer’s disease",
+    "Amazon leaf shedding is widespread and often decoupled from canopy greenness",
+    "Late Homo erectus occupied southern Chinese rainforest environments",
+    "Kuiper-belt dust preserves evidence for an isotopically heavy primordial water reservoir",
+    "A plasma immunoassay measures a marker of advanced insoluble tau pathology"
+  ],
+  "checks": [
+    {
+      "area": "physics, astronomy and scientific community",
+      "sources": [
+        "NASA",
+        "ESA",
+        "CERN",
+        "Fermilab",
+        "SLAC",
+        "LBNL",
+        "ESO",
+        "Rubin Observatory",
+        "IAU",
+        "Nature physics feed"
+      ],
+      "result": "Sentinel-3C commissioning, device-independent quantum position verification, analogue relativistic-field simulation and the newly reported Kuiper-belt dust study were selected. Astrophysical transient reports already owned by alerts were excluded."
+    },
+    {
+      "area": "mathematics and formalization",
+      "sources": [
+        "AMS",
+        "Annals of Mathematics",
+        "Quanta mathematics",
+        "major mathematics journal feeds"
+      ],
+      "result": "No same-window result passed both significance and primary-source-verification thresholds. An Escher exhibition feature and incremental or unverified preprints were not selected."
+    },
+    {
+      "area": "AI-assisted science",
+      "sources": [
+        "Nature Computational Science",
+        "Nature and Science feeds",
+        "institutional AI-research announcements"
+      ],
+      "result": "The 100-algorithm, 60-task materials training-set benchmark was selected; its fixed-library scope and full-text access limitation are explicit."
+    },
+    {
+      "area": "biology and genetics",
+      "sources": [
+        "Nature",
+        "Nature Genetics",
+        "Cell",
+        "PNAS"
+      ],
+      "result": "Amazon phenology and late Homo erectus ecological adaptation were selected. Mechanistic animal and cell studies without comparable general significance were screened out."
+    },
+    {
+      "area": "chemistry and materials",
+      "sources": [
+        "Nature Computational Science",
+        "Nature Chemistry",
+        "Science chemistry and materials feeds"
+      ],
+      "result": "Cluster-based training-set selection was selected as a data-efficient materials-design method. No additional same-window chemistry result displaced the stronger candidates."
+    },
+    {
+      "area": "geology, palaeontology and planetary science",
+      "sources": [
+        "Nature",
+        "Science Advances",
+        "NASA Science",
+        "ESA Earth Observation"
+      ],
+      "result": "Late Homo erectus, Kuiper-belt dust and Sentinel-3C were selected with publication, observation and announcement dates separated."
+    },
+    {
+      "area": "neuroscience and medicine",
+      "sources": [
+        "Nature",
+        "Nature Neuroscience",
+        "JAMA",
+        "JAMA Network Open",
+        "NEJM and Lancet feeds"
+      ],
+      "result": "HypoAD and the eMTBR-tau immunoassay were selected. Cross-sectional atlas and biomarker associations were not described as causal or clinically validated."
+    }
+  ],
+  "access_gaps": [
+    "The cluster-selection paper's full methods and supplementary comparisons were subscription-only; reporting is limited to the abstract, figure descriptions and data/code statement.",
+    "Detailed HypoAD supplementary analyses were inaccessible; reporting is limited to the full abstract, data statement and indexed metadata.",
+    "Some journal and institutional archive pages were dynamically loaded and could not be exhaustively enumerated.",
+    "No claim of exhaustive journal coverage or verified absence in unselected fields is made."
+  ],
+  "deduplication": {
+    "checked_current_parts": [
+      "content-parts/2026-11-19/alerts.json"
+    ],
+    "current_parts_present_at_cutoff": [
+      "alerts"
+    ],
+    "checked_previous_news": [
+      "content-parts/2026-11-18/news.json"
+    ],
+    "duplicates_removed": [
+      "M87 and 3C 138 TeV alerts",
+      "GRB and Einstein Probe follow-ups",
+      "V488 Sge nova follow-up",
+      "18 November Science News stories"
+    ]
+  }
+}
