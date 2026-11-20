@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-20",
+  "part": "news",
+  "cutoff": "2026-11-20T08:02:19+01:00",
+  "previous_verified_cutoff": "2026-11-19T08:07:00+01:00",
+  "status": "partial",
+  "selected_story_count": 9,
+  "selected_stories": [
+    "CTAO-South will add two Large-Sized Telescopes",
+    "ESA selects a seven-spacecraft observatory for multiscale plasma physics",
+    "Calcium shuttles fluoride in a main-group catalytic cycle",
+    "An agentic system designs and experimentally refines functional RNA",
+    "A nanobody blocks opioid-receptor signalling with cellular and subcellular precision",
+    "Pediatric imaging radiation is associated with a dose-dependent increase in brain-tumour risk",
+    "A small autopsy-linked study identifies a candidate blood marker for high-stage CTE",
+    "A layered biosecurity framework targets AI-generated biological sequences",
+    "Antarctic zircons point to eroded Gondwanan supermountains"
+  ],
+  "source_checks": {
+    "physics_astronomy": [
+      "ESA",
+      "ESO",
+      "NASA",
+      "CERN",
+      "Fermilab",
+      "SLAC",
+      "Rubin Observatory",
+      "IAU"
+    ],
+    "general_research": [
+      "Nature and Nature Portfolio",
+      "Science and Science Advances",
+      "Cell Press",
+      "PNAS",
+      "JAMA"
+    ],
+    "mathematics": [
+      "AMS",
+      "Annals of Mathematics",
+      "Quanta",
+      "Hexagon primary repository"
+    ],
+    "earth_science": [
+      "ANU",
+      "Earth and Planetary Science Letters"
+    ]
+  },
+  "date_notes": {
+    "gondwana": "ANU institutional report 2026-11-19; article online 2026-09-17; issue date 2026-12-01.",
+    "plasma_observatory": "Formal ESA selection announced 2026-11-19; provisional launch late 2030s; later adoption still required.",
+    "ctao": "Array design change announced 2026-11-19; no observing result."
+  },
+  "deduplication": {
+    "alerts": "No transient event alerts or follow-ups included.",
+    "arxiv": "No daily arXiv highlights included; journal papers were selected as same-window news publications.",
+    "previous_news": "Checked 2026-11-19 Science News titles; no repeated story."
+  },
+  "access_gaps": [
+    "Dynamic publisher landing pages could not be screened exhaustively.",
+    "Some subscription-gated methods and supplements were inaccessible.",
+    "The calcium-catalysis paper was available as an accelerated article preview rather than the final edited version of record.",
+    "The absence of a selected same-window mathematics story is not a verified absence of qualifying work."
+  ]
+}
