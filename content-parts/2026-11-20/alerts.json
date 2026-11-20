@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-20",
+  "part": "alerts",
+  "status": "partial",
+  "cutoff": "2026-11-20T08:14:31+01:00",
+  "coverage": "Coverage window: 2026-11-19T06:59:00Z through 2026-11-20T07:14:31Z (08:14:31 CET, Europe/Berlin). The GCN Circular archive remained at Circular 46320, so no new Circular body existed in the window; event threads were checked for corrections and retractions. The Astronomer’s Telegram index remained at ATel 18161. Checked Fermi/GBM public notices through trigger 816807700; Swift/BAT targeted-search status; IceCube Gold/Bronze, Cascade and AMON neutrino–EM tables; public GraceDB records created in the window; and targeted official/GCN searches for KM3NeT, SVOM, Einstein Probe, HAWC, LHAASO, Auger and Telescope Array. Partial coverage: the modern GCN/Kafka streams were not independently enumerated in full, the Swift/BAT targeted analyses for the two new GBM triggers were still pending, and no complete public KM3NeT live-alert ledger was available. These access gaps are not evidence that the corresponding channels were quiet.",
+  "topics": [
+    "Gamma-ray transient candidates",
+    "Fermi-GBM",
+    "Gravitational-wave alert checks",
+    "Neutrino alert checks",
+    "Ground-array and cosmic-ray alert checks"
+  ],
+  "papers": [],
+  "alerts_count": 1,
+  "news_count": 0,
+  "science_radar_count": 0,
+  "sections": {
+    "Astrophysical Alerts": "#### Fermi-GBM trigger 816807700: a localized but still unclassified gamma-ray candidate\n\nFermi-GBM triggered at **2026-11-19 19:01:35.03 UTC**. A human-reviewed final-position Notice was issued at **2026-11-20 01:44:43 UTC**, placing the event at **RA 14.527°, Dec +33.090° (J2000)** with a **13.43° statistical error radius**. The Notice gives the localization energy range as **50–300 keV**. [Fermi-GBM Notice](https://gcn.gsfc.nasa.gov/other/816807700.fermi); [public GBM trigger table](https://gcn.gsfc.nasa.gov/gcn/fermi_grbs.html).\n\nThe event remains a **gamma-ray-transient candidate**, not a confirmed GRB or source association. The final Notice does not provide a long/short classification, duration, fluence, detection significance, systematic localization term, or astrophysical false-alarm probability. No GCN Circular, retraction, refined classification, or independently reported counterpart was present by the **20 November 07:14:31 UTC** source cutoff. The public Swift/BAT targeted-search portal had registered the trigger but still listed the analysis products as pending, so it does not provide a BAT detection or non-detection. [Swift/BAT targeted-search entry](https://guano.swift.psu.edu/)."
+  }
+}
