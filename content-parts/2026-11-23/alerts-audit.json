@@ -1,0 +1,483 @@
+{
+  "date": "2026-11-23",
+  "part": "alerts",
+  "status": "partial",
+  "cutoff": "2026-11-23T10:44:09+01:00",
+  "window_start_utc": "2026-11-20T07:14:31Z",
+  "window_end_utc": "2026-11-23T09:44:09Z",
+  "previous_part": "content-parts/2026-11-20/alerts.json",
+  "selected_story_count": 9,
+  "retrievals": [
+    {
+      "name": "gcn-index",
+      "url": "https://gcn.nasa.gov/circulars",
+      "bytes": 58372,
+      "errors": [],
+      "sha256": "9491d3c52a0666fc0d52576c378f5b84cc4cb168222bd870c51acccfd43d3d10"
+    },
+    {
+      "name": "atel-18161",
+      "url": "https://www.astronomerstelegram.org/?read=18161",
+      "bytes": 4450,
+      "errors": [],
+      "content_validation": "Direct retrieval returned block page or index, not telegram body; full text recovered with web primary-page retrieval for ATels 18161–18165."
+    },
+    {
+      "name": "atel-18162",
+      "url": "https://www.astronomerstelegram.org/?read=18162",
+      "bytes": 4450,
+      "errors": [],
+      "content_validation": "Direct retrieval returned block page or index, not telegram body; full text recovered with web primary-page retrieval for ATels 18161–18165."
+    },
+    {
+      "name": "atel-18163",
+      "url": "https://www.astronomerstelegram.org/?read=18163",
+      "bytes": 31205,
+      "errors": [],
+      "content_validation": "Direct retrieval returned block page or index, not telegram body; full text recovered with web primary-page retrieval for ATels 18161–18165."
+    },
+    {
+      "name": "atel-18164",
+      "url": "https://www.astronomerstelegram.org/?read=18164",
+      "bytes": 4450,
+      "errors": [],
+      "content_validation": "Direct retrieval returned block page or index, not telegram body; full text recovered with web primary-page retrieval for ATels 18161–18165."
+    },
+    {
+      "name": "atel-18165",
+      "url": "https://www.astronomerstelegram.org/?read=18165",
+      "bytes": 31205,
+      "errors": [],
+      "content_validation": "Direct retrieval returned block page or index, not telegram body; full text recovered with web primary-page retrieval for ATels 18161–18165."
+    },
+    {
+      "name": "icecube",
+      "url": "https://gcn.gsfc.nasa.gov/amon_icecube_gold_bronze_events.html",
+      "bytes": 403036,
+      "errors": [],
+      "sha256": "8ed41637c547bbf69c5151b657c82224d3f848bdbdf0117dcc5b65376769da12"
+    },
+    {
+      "name": "cascade",
+      "url": "https://gcn.gsfc.nasa.gov/amon_icecube_cascade_events.html",
+      "bytes": 42019,
+      "errors": [],
+      "sha256": "9d124bcadf1151b5030290df9f803093a6ca9eab9a3a2212790831605b158829"
+    },
+    {
+      "name": "nuem",
+      "url": "https://gcn.gsfc.nasa.gov/amon_nu_em_coinc_events.html",
+      "bytes": 20660,
+      "errors": [],
+      "sha256": "29ccd973aa097da02aa38b99411373380dca3856a9db0c60eb108b78ab6783dd"
+    },
+    {
+      "name": "fermi",
+      "url": "https://gcn.gsfc.nasa.gov/gcn/fermi_grbs.html",
+      "bytes": 11462945,
+      "errors": [],
+      "sha256": "55efe1d3c21d299f1f6c60ccc4952ca0db70c625b965dc264f3a366ec1ad2611"
+    },
+    {
+      "name": "hawc",
+      "url": "https://gcn.gsfc.nasa.gov/amon_hawc_events.html",
+      "bytes": 20362,
+      "errors": [],
+      "sha256": "3c89502bbc83cff951ae8157a86876db29adea1c9b5c41c983abdc5b17d81c0e"
+    },
+    {
+      "name": "gracedb",
+      "url": "https://gracedb.ligo.org/api/superevents/?format=json",
+      "bytes": 251655,
+      "errors": [],
+      "sha256": "c95f8949d3f38b27e478cf3996a5ee0e12507b9a2bf9fbc2b7d7d4762739ada7"
+    },
+    {
+      "name": "guano",
+      "url": "https://guano.swift.psu.edu/",
+      "bytes": 30438,
+      "errors": [],
+      "sha256": "3feceb4c5b1c62ba9dcc05d507e8bc3ba4d44c0c80212c44045b90fa9f4b4217"
+    },
+    {
+      "name": "gcn-46320",
+      "url": "https://gcn.nasa.gov/circulars/46320",
+      "bytes": 33422,
+      "errors": [],
+      "sha256": "47f49a724cb7664d4ef9a16a3e2c46596e43856cb8361f2915d0a19200732b9a"
+    },
+    {
+      "name": "gcn-46321",
+      "url": "https://gcn.nasa.gov/circulars/46321",
+      "bytes": 31263,
+      "errors": [],
+      "sha256": "c6a8d0bfdc48a92b83820f51889e192a781ece9502de7e621c73fcdaceb55186"
+    },
+    {
+      "name": "gcn-46322",
+      "url": "https://gcn.nasa.gov/circulars/46322",
+      "bytes": 30482,
+      "errors": [],
+      "sha256": "87e392c2a1afa808a566f069e0f708644110c41cf43dc7d77edb635ed127b39e"
+    },
+    {
+      "name": "gcn-46323",
+      "url": "https://gcn.nasa.gov/circulars/46323",
+      "bytes": 30698,
+      "errors": [],
+      "sha256": "3245b03952eb17f7f0e7b0b1a3ac9a9223b56ddf0a226dbe1f01104807faa10a"
+    },
+    {
+      "name": "gcn-46324",
+      "url": "https://gcn.nasa.gov/circulars/46324",
+      "bytes": 34258,
+      "errors": [],
+      "sha256": "68f64c59f54b55a5b22a4e71f25b6ce375ec8603ca5ac3dc36240221322164b9"
+    },
+    {
+      "name": "gcn-46325",
+      "url": "https://gcn.nasa.gov/circulars/46325",
+      "bytes": 28992,
+      "errors": [],
+      "sha256": "ae40cccac3a9d18b5e0ece7f0c99e250e8d8d06828aa3710e32ae960deda7433"
+    },
+    {
+      "name": "gcn-46326",
+      "url": "https://gcn.nasa.gov/circulars/46326",
+      "bytes": 30481,
+      "errors": [],
+      "sha256": "6bde7a6a604fecc35a2681762bc8c62f3a9a3c93c11aa1393d2304d22a06063a"
+    },
+    {
+      "name": "gcn-46327",
+      "url": "https://gcn.nasa.gov/circulars/46327",
+      "bytes": 34931,
+      "errors": [],
+      "sha256": "81bd08460682bf047449856f101d58735cc07a701d796e00726e3c9beac651b6"
+    },
+    {
+      "name": "gcn-46328",
+      "url": "https://gcn.nasa.gov/circulars/46328",
+      "bytes": 30483,
+      "errors": [],
+      "sha256": "d2195286add1d80d35defe1876263e14ba156721960917fdd175d77ca1a4163f"
+    },
+    {
+      "name": "gcn-46329",
+      "url": "https://gcn.nasa.gov/circulars/46329",
+      "bytes": 30482,
+      "errors": [],
+      "sha256": "dfb1ebd05bebf1da8d5b34a947a8178b412c28df0a668b630c1ef4182fb967d3"
+    },
+    {
+      "name": "gcn-46330",
+      "url": "https://gcn.nasa.gov/circulars/46330",
+      "bytes": 49210,
+      "errors": [],
+      "sha256": "30b26ca0b5c081fba6479af2068a1e594a18e07e728fe3b8e11cf01f0e05708e"
+    },
+    {
+      "name": "gcn-46331",
+      "url": "https://gcn.nasa.gov/circulars/46331",
+      "bytes": 30159,
+      "errors": [],
+      "sha256": "9d14d7d3bdc4c12bf42cf4fe1c3cb392454eeb53040cc0fb6391424175b94c07"
+    },
+    {
+      "name": "gcn-46332",
+      "url": "https://gcn.nasa.gov/circulars/46332",
+      "bytes": 31340,
+      "errors": [],
+      "sha256": "ebf4f89d378f98d67fc4a54218bdc3ddd142ebe3a4b9a88d5fe08c7314d84705"
+    },
+    {
+      "name": "gcn-46333",
+      "url": "https://gcn.nasa.gov/circulars/46333",
+      "bytes": 32256,
+      "errors": [],
+      "sha256": "23f54823fcc1915d5518223b019ba4189894c41d73c00a9dfbe2e267090b858a"
+    },
+    {
+      "name": "gcn-46334",
+      "url": "https://gcn.nasa.gov/circulars/46334",
+      "bytes": 31615,
+      "errors": [],
+      "sha256": "7343b541b6d0cd23a07a59ab69fa1db583bdcecf04045a6cae738691fe4fd6b8"
+    },
+    {
+      "name": "gcn-46335",
+      "url": "https://gcn.nasa.gov/circulars/46335",
+      "bytes": 31052,
+      "errors": [],
+      "sha256": "b07c05059e04d85642d1c5b65139f696f43bf06bf0ca546654893e171dd78c37"
+    },
+    {
+      "name": "gcn-46336",
+      "url": "https://gcn.nasa.gov/circulars/46336",
+      "bytes": 33735,
+      "errors": [],
+      "sha256": "a03984dca20842ec23b9c2273bcdeaf70577eb73b46dd4e7eb9988ac9434d4d1"
+    },
+    {
+      "name": "gcn-46337",
+      "url": "https://gcn.nasa.gov/circulars/46337",
+      "bytes": 72178,
+      "errors": [],
+      "sha256": "92171c74100df450aca40794722058c8e14c8e80ca5a092b1c4399071a2c741a"
+    },
+    {
+      "name": "gcn-46338",
+      "url": "https://gcn.nasa.gov/circulars/46338",
+      "bytes": 31895,
+      "errors": [],
+      "sha256": "e7160a7e1560b9af474a778452a6bd63601a1b3bc34a0456278da282ae67bc3e"
+    },
+    {
+      "name": "gcn-46339",
+      "url": "https://gcn.nasa.gov/circulars/46339",
+      "bytes": 30616,
+      "errors": [],
+      "sha256": "ea3e369d3e54eda45dfaad325bcd5af99dfdad746ed52c1aa388b46a59dea9fa"
+    },
+    {
+      "name": "gcn-46340",
+      "url": "https://gcn.nasa.gov/circulars/46340",
+      "bytes": 30977,
+      "errors": [],
+      "sha256": "207511f08e79a4dda068a531fd200e09b23b1aebf51f2bcbc408e077e3c45c50"
+    },
+    {
+      "name": "gcn-46341",
+      "url": "https://gcn.nasa.gov/circulars/46341",
+      "bytes": 32857,
+      "errors": [],
+      "sha256": "572abb55dd5d695c4207dd68c4ce198781a83ea821db99e17c5f40977d18142c"
+    },
+    {
+      "name": "gcn-46342",
+      "url": "https://gcn.nasa.gov/circulars/46342",
+      "bytes": 33652,
+      "errors": [],
+      "sha256": "e6e99a42cd150a3bb5d6e7fae02b4fb7db172b6837b7839eadb7cf1d70c8e948"
+    },
+    {
+      "name": "gcn-46343",
+      "url": "https://gcn.nasa.gov/circulars/46343",
+      "bytes": 31489,
+      "errors": [],
+      "sha256": "9612aceb82d56df8dd789af6269d4105419455cff9c5a5aa65a31bf66ca01f03"
+    },
+    {
+      "name": "gcn-46344",
+      "url": "https://gcn.nasa.gov/circulars/46344",
+      "bytes": 34511,
+      "errors": [],
+      "sha256": "fda577ff42bc1397f4d04ed27c0657e9e3cebf8beebe24f479ee02840a99a23d"
+    },
+    {
+      "name": "gcn-46345",
+      "url": "https://gcn.nasa.gov/circulars/46345",
+      "bytes": 33998,
+      "errors": [],
+      "sha256": "2ffcc38208d2a13f39af9076abdad4658b72f7492348d0140901952c888077d5"
+    },
+    {
+      "name": "gcn-46346",
+      "url": "https://gcn.nasa.gov/circulars/46346",
+      "bytes": 30525,
+      "errors": [],
+      "sha256": "fcad113fce1323c54a721089696684cb5ac950a5a1a5f32dacf2aff4b8248559"
+    }
+  ],
+  "gcn_range": {
+    "first": 46321,
+    "last": 46346,
+    "full_bodies_read": [
+      46321,
+      46322,
+      46323,
+      46324,
+      46325,
+      46326,
+      46327,
+      46328,
+      46329,
+      46330,
+      46331,
+      46332,
+      46333,
+      46334,
+      46335,
+      46336,
+      46337,
+      46338,
+      46339,
+      46340,
+      46341,
+      46342,
+      46343,
+      46344,
+      46345,
+      46346
+    ],
+    "scope_note": "MASTER table rows screened; report summaries and relevant limits read. GCN 46320 checked as pre-window boundary."
+  },
+  "gcn_dispositions": [
+    {
+      "id": 46321,
+      "disposition": "included/grouped"
+    },
+    {
+      "id": 46322,
+      "disposition": "included/grouped"
+    },
+    {
+      "id": 46323,
+      "disposition": "included/grouped"
+    },
+    {
+      "id": 46324,
+      "disposition": "screened, lower-priority follow-up or routine trigger; not highlighted"
+    },
+    {
+      "id": 46325,
+      "disposition": "screened, lower-priority follow-up or routine trigger; not highlighted"
+    },
+    {
+      "id": 46326,
+      "disposition": "included/grouped"
+    },
+    {
+      "id": 46327,
+      "disposition": "screened, lower-priority follow-up or routine trigger; not highlighted"
+    },
+    {
+      "id": 46328,
+      "disposition": "screened, lower-priority follow-up or routine trigger; not highlighted"
+    },
+    {
+      "id": 46329,
+      "disposition": "screened, lower-priority follow-up or routine trigger; not highlighted"
+    },
+    {
+      "id": 46330,
+      "disposition": "screened, lower-priority follow-up or routine trigger; not highlighted"
+    },
+    {
+      "id": 46331,
+      "disposition": "included/grouped"
+    },
+    {
+      "id": 46332,
+      "disposition": "included/grouped"
+    },
+    {
+      "id": 46333,
+      "disposition": "included/grouped"
+    },
+    {
+      "id": 46334,
+      "disposition": "included/grouped"
+    },
+    {
+      "id": 46335,
+      "disposition": "included/grouped"
+    },
+    {
+      "id": 46336,
+      "disposition": "included/grouped"
+    },
+    {
+      "id": 46337,
+      "disposition": "screened, lower-priority follow-up or routine trigger; not highlighted"
+    },
+    {
+      "id": 46338,
+      "disposition": "included/grouped"
+    },
+    {
+      "id": 46339,
+      "disposition": "included/grouped"
+    },
+    {
+      "id": 46340,
+      "disposition": "included/grouped"
+    },
+    {
+      "id": 46341,
+      "disposition": "included/grouped"
+    },
+    {
+      "id": 46342,
+      "disposition": "included/grouped"
+    },
+    {
+      "id": 46343,
+      "disposition": "included/grouped"
+    },
+    {
+      "id": 46344,
+      "disposition": "included/grouped"
+    },
+    {
+      "id": 46345,
+      "disposition": "included/grouped"
+    },
+    {
+      "id": 46346,
+      "disposition": "screened, lower-priority follow-up or routine trigger; not highlighted"
+    }
+  ],
+  "atel_range": {
+    "first": 18162,
+    "last": 18165,
+    "full_bodies_read": [
+      18161,
+      18162,
+      18163,
+      18164,
+      18165
+    ],
+    "selected": [
+      18165
+    ],
+    "context": [
+      18161
+    ],
+    "not_selected": {
+      "18162": "Stellar flare; lower astroparticle priority.",
+      "18163": "Stellar flare; lower astroparticle priority.",
+      "18164": "Recurrent X-ray binary outbursts; no new high-energy/multimessenger association."
+    }
+  },
+  "checks": {
+    "IceCube": "Gold/Bronze table and complete revision 0/1 notices for 143530_34667334 checked; GCN 46345 refined localization.",
+    "IceCube_cascade": "Latest visible entry 2026-08-24; legacy table is not a guarantee of full modern stream coverage.",
+    "AMON_neutrino_EM": "Latest visible entry 2026-01-17.",
+    "HAWC_legacy": "Latest visible entry 2023-05-27; stale archive, not evidence of present-day quiet.",
+    "Fermi": "Public notice table checked through 817118233; four distinct new trigger IDs since previous cutoff. Relevant Circular refinements also reviewed for older triggers.",
+    "Swift_BAT": "GUANO queue checked; entries for new IceCube, SVOM, EP and Fermi triggers awaiting products; no detection/non-detection inferred.",
+    "GraceDB": "100 newest records retrieved spanning through 2026-11-19; 75 created after previous cutoff, MS261120h through MS261123j, all category MDC. Mock/test records excluded; not astrophysical detections.",
+    "KM3NeT": "Official homepage and targeted current web/GCN searches checked; no qualifying alert found. No complete live-alert ledger enumerated.",
+    "Ground_arrays_cosmic_rays": "ATel, GCN and targeted official-domain searches for LHAASO, HAWC, Auger and Telescope Array; M87 follow-up retained. Search-index coverage not exhaustive."
+  },
+  "corrections": [
+    "GCN 46321 materially revised GRB 261118A localization.",
+    "GCN 46339 corrected GRB 261122B name; current edited 46336 and 46341 used.",
+    "GCN 46344 X-band VT photometry differs from preliminary VHF values in 46338; difference explicit.",
+    "GCN 46322 classifies previous candidate trigger 816807700 as likely short GRB.",
+    "GCN 46323 recovers unreliable-onboard trigger 816811618 as a GRB.",
+    "No retraction for selected events in checked GCN range or ATel index; not a claim about unenumerated streams."
+  ],
+  "limitations": [
+    "Modern GCN/Kafka streams and sky-map FITS were not exhaustively enumerated or analyzed.",
+    "KM3NeT and ground-array searches lack a verified exhaustive public live-alert ledger.",
+    "Legacy HAWC table is stale; absence there cannot establish no recent activity.",
+    "Swift targeted products remained pending.",
+    "GraceDB check covers newly created public records, not every update to older production records."
+  ],
+  "revision_provenance": {
+    "prepared_at": "2026-11-23T10:44:09+01:00",
+    "reason": "Recovered missing alerts part for November 23 publication; uses original observation/report dates and a later source cutoff. Existing arxiv/news parts preserved."
+  }
+}
