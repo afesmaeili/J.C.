@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-23",
+  "part": "news",
+  "cutoff": "2026-11-23T08:06:00+01:00",
+  "previous_verified_cutoff": "2026-11-20T08:02:19+01:00",
+  "status": "partial",
+  "selected_story_count": 8,
+  "selected_stories": [
+    "ESO overhauls real-time quality control for observatory data",
+    "Antarctica InSync moves from planning toward coordinated observations",
+    "A multiancestry study expands the genetic map of endometriosis",
+    "Antibody profiling maps candidate links between herpesviruses, autoantigens and chronic disease",
+    "Genome-wide imaging separates two mechanisms that tether chromatin to the nuclear lamina",
+    "Neurons route PINK1 through an ER-assisted pathway before mitochondrial quality control",
+    "Hybrid molecular nanobelts sustain global antiaromatic ring currents",
+    "Climate and glacier geometry explain most mass loss at lake-terminating glaciers"
+  ],
+  "source_checks": {
+    "physics_astronomy": [
+      "ESA",
+      "ESO",
+      "NASA",
+      "CERN",
+      "Fermilab",
+      "SLAC",
+      "Rubin Observatory",
+      "IAU"
+    ],
+    "general_research": [
+      "Nature and Nature Portfolio",
+      "Science and Science Advances",
+      "Cell Press",
+      "PNAS",
+      "JAMA"
+    ],
+    "deliberate_field_passes": {
+      "mathematics": [
+        "AMS",
+        "Annals of Mathematics",
+        "PNAS mathematics searches"
+      ],
+      "ai_assisted_science": [
+        "Science AI research feed",
+        "Nature Portfolio searches",
+        "OpenReview"
+      ],
+      "biology_genetics": [
+        "Nature Genetics",
+        "Nature Communications"
+      ],
+      "chemistry": [
+        "Nature Chemistry",
+        "Nature Communications"
+      ],
+      "geology_climate": [
+        "Nature Climate Change",
+        "Nature Geoscience",
+        "Communications Earth & Environment"
+      ],
+      "neuroscience": [
+        "Nature Communications",
+        "Communications Biology"
+      ],
+      "medicine_immunology": [
+        "Nature Immunology",
+        "Nature Medicine",
+        "JAMA"
+      ]
+    }
+  },
+  "date_notes": {
+    "eso_quality_control": "Official announcement dated 2026-11-20; no new astronomical measurement claimed.",
+    "antarctica_insync": "Official report dated 2026-11-20 about workshop held 2026-11-10 through 2026-11-13; observing and analysis phase planned for 2027-2030.",
+    "research_articles": "All six selected research articles list publication date 2026-11-20; exact release times were not exposed on the article pages. They were absent from the previous edition checked at 2026-11-20T08:02:19+01:00."
+  },
+  "deduplication": {
+    "alerts": "No transient event alerts or follow-ups included.",
+    "arxiv": "No daily arXiv highlights included; journal articles were selected as same-window peer-reviewed publications and will be checked against any current arXiv part before assembly.",
+    "previous_news": "Checked 2026-11-20 Science News titles and the recent archive; no repeated story."
+  },
+  "access_gaps": [
+    "Dynamic publisher landing pages could not be enumerated exhaustively.",
+    "Some subscription-gated methods and supplementary files were inaccessible.",
+    "Several Nature Portfolio pages were accelerated article versions subject to later copy-editing.",
+    "No same-window mathematics or AI-assisted-science item passed selection; this is not a verified absence of qualifying work."
+  ]
+}
