@@ -1,0 +1,566 @@
+{
+  "date": "2026-11-23",
+  "part": "arxiv",
+  "status": "complete",
+  "cutoff": "2026-11-23T08:21:52+01:00",
+  "coverage": "All nine dated pages covered: 148 unique nonreplacement titles and abstracts screened, followed by a second topic pass; three selected v1 papers read in full with primary-literature History. Seven new-primary archive totals and HE/CO subcounts verified. No retained unresolved high-priority candidates. Nonselected cross-list histories were not exhaustively checked; external code/catalogue and historical reading scope are recorded in source metadata.",
+  "topics": [
+    "Nonthermal neutrino and electromagnetic BBN transport",
+    "Soft-X-ray blazar polarimetry",
+    "Time reversal in neutrino disappearance"
+  ],
+  "papers": [
+    {
+      "id": "paper-2611-26691",
+      "arxiv": "2611.26691",
+      "title": "The cosmological lithium problem and how decaying relics still solve it",
+      "authors": "Maksym Ovchynnikov",
+      "primary_category": "hep-ph",
+      "label": "Nonthermal neutrino and electromagnetic BBN transport",
+      "teaser": "Coupled injection can reduce lithium while compensating deuterium, within restrictive model and lifetime windows.",
+      "tags": [
+        "hep-ph",
+        "Nonthermal neutrino and electromagnetic BBN transport"
+      ],
+      "arxiv_url": "https://arxiv.org/abs/2611.26691v1",
+      "submission_date": "2026-11-19",
+      "first_announcement_date": "2026-11-23",
+      "version": "v1",
+      "publication_status": "Preprint; no journal reference or acceptance verified.",
+      "full_text_access": {
+        "status": "read_full_text",
+        "scope": "Complete v1 scientific text including methods, equations, figures, results, limitations and appendices/supplements read; relevant figures visually inspected. External code not rerun; linked machine-readable blazar catalogue not independently inspected."
+      },
+      "source_audit": {
+        "submission_timestamp": "2026-11-19T19:00:07+00:00",
+        "version_history_url": "https://arxiv.org/abs/2611.26691",
+        "version_history_evidence": "Only v1 listed; timestamp 2026-11-19T19:00:07+00:00",
+        "first_announcement_date": "2026-11-23",
+        "listing_url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+        "eligibility": "New submission on dated primary listing, corroborated by v1-only history. Not a replacement or an older cross-list.",
+        "abs_sha256": "0cb7126bc5b674d86b38939d9629a4ec143d002143ca3c917e2b7ce32d88d459",
+        "pdf_sha256": "93a1fd88e7107ff363c7ac4c274fd2d901958890c5f9bc80e0585a11b75ee0dc",
+        "pdf_pages_visually_inspected": [
+          2,
+          17,
+          18,
+          24,
+          25,
+          26,
+          27
+        ],
+        "history_reading": [
+          {
+            "url": "https://arxiv.org/abs/1006.4172",
+            "pdf_url": "https://arxiv.org/pdf/1006.4172v1",
+            "pdf_sha256": "75a03a918f08e344cf824f1ff3f39333df918b4198e2c648043f161c92a25aae",
+            "access": "Primary full text retrieved; relevant methods, results and discussion read for the comparison, not claimed complete-paper review."
+          },
+          {
+            "url": "https://arxiv.org/abs/1405.1718",
+            "pdf_url": "https://arxiv.org/pdf/1405.1718v1",
+            "pdf_sha256": "0736408edf522854d4286b9ec05b6c268efec495bcf5c86b63cf0b68593f0885",
+            "access": "Primary full text retrieved; relevant methods, results and discussion read for the comparison, not claimed complete-paper review."
+          },
+          {
+            "url": "https://arxiv.org/abs/2403.15534",
+            "pdf_url": "https://arxiv.org/pdf/2403.15534v1",
+            "pdf_sha256": "eed5a0811d82b466e3d47e1b532d732102efcf5a28bed11d575886155d422b9c",
+            "access": "Primary full text retrieved; relevant methods, results and discussion read for the comparison, not claimed complete-paper review."
+          },
+          {
+            "url": "https://doi.org/10.1038/s41467-025-64724-0",
+            "html_sha256": "8557541420ea5f2cfaa99dee037afa98aa4de06b099a60777bb3f61ad02bcdea",
+            "access": "Primary Nature Communications full HTML retrieved; relevant introduction, observational results and methods read. Independent uncited comparison; metal-rich cluster, not a direct primordial-lithium measurement."
+          }
+        ]
+      }
+    },
+    {
+      "id": "paper-2611-26682",
+      "arxiv": "2611.26682",
+      "title": "Blazars through the eyes of REDSoX and GOSoX",
+      "authors": "Sara Capecchiacci, Ioannis Liodakis, Herman L. Marshall, Swati Ravi, Haocheng Zhang",
+      "primary_category": "astro-ph.HE",
+      "label": "Soft-X-ray blazar polarimetry",
+      "teaser": "Source forecasts extend existing polarization templates and expose the limits of composition inference.",
+      "tags": [
+        "astro-ph.HE",
+        "Soft-X-ray blazar polarimetry"
+      ],
+      "arxiv_url": "https://arxiv.org/abs/2611.26682v1",
+      "submission_date": "2026-11-19",
+      "first_announcement_date": "2026-11-23",
+      "version": "v1",
+      "publication_status": "Preprint; no journal reference or acceptance verified.",
+      "full_text_access": {
+        "status": "read_full_text",
+        "scope": "Complete v1 scientific text including methods, equations, figures, results, limitations and appendices/supplements read; relevant figures visually inspected. External code not rerun; linked machine-readable blazar catalogue not independently inspected."
+      },
+      "source_audit": {
+        "submission_timestamp": "2026-11-19T19:00:02+00:00",
+        "version_history_url": "https://arxiv.org/abs/2611.26682",
+        "version_history_evidence": "Only v1 listed; timestamp 2026-11-19T19:00:02+00:00",
+        "first_announcement_date": "2026-11-23",
+        "listing_url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-23?abs=True",
+        "eligibility": "New submission on dated primary listing, corroborated by v1-only history. Not a replacement or an older cross-list.",
+        "abs_sha256": "7cffac0cbaafaf0d173d838451915b9e38105ed199b656fc75cbaaafe6526946",
+        "pdf_sha256": "1d2a9620d6c2e326c6afffc413d3ea240edda4f73797eff134faca790bfedd4d",
+        "pdf_pages_visually_inspected": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          10
+        ],
+        "history_reading": [
+          {
+            "url": "https://arxiv.org/abs/1307.4187",
+            "pdf_url": "https://arxiv.org/pdf/1307.4187v1",
+            "pdf_sha256": "20686259c37af43a73b259174578e938b10690a2562cfea09937d30c92e9ecb7",
+            "access": "Primary full text retrieved; relevant methods, results and discussion read for the comparison, not claimed complete-paper review."
+          },
+          {
+            "url": "https://arxiv.org/abs/2606.27417",
+            "pdf_url": "https://arxiv.org/pdf/2606.27417v1",
+            "pdf_sha256": "d4186b4b3f2dab65525277f6443ca749415bdb533109ebd54dfcd9b0cc0d01d6",
+            "access": "Primary full text retrieved; relevant methods, results and discussion read for the comparison, not claimed complete-paper review."
+          },
+          {
+            "url": "https://arxiv.org/abs/2209.06227",
+            "pdf_url": "https://arxiv.org/pdf/2209.06227v1",
+            "pdf_sha256": "b21adc228e40978131481a0472e3eaf20664e3b14710a14c69d89b6c3b9f5237",
+            "access": "Primary full text retrieved; relevant methods, results and discussion read for the comparison, not claimed complete-paper review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "paper-2611-27985",
+      "arxiv": "2611.27985",
+      "title": "Is Neutrino Disappearance Sensitive to T-Violation for Asymmetric Matter Profiles ?",
+      "authors": "Gabriela Barenboim, Stephen J. Parke, Alberto Sánchez Vargas",
+      "primary_category": "hep-ph",
+      "label": "Time reversal in neutrino disappearance",
+      "teaser": "Reversing asymmetric matter profiles reveals phase-odd survival terms, with tiny terrestrial effects.",
+      "tags": [
+        "hep-ph",
+        "Time reversal in neutrino disappearance"
+      ],
+      "arxiv_url": "https://arxiv.org/abs/2611.27985v1",
+      "submission_date": "2026-11-20",
+      "first_announcement_date": "2026-11-23",
+      "version": "v1",
+      "publication_status": "Preprint; no journal reference or acceptance verified.",
+      "full_text_access": {
+        "status": "read_full_text",
+        "scope": "Complete v1 scientific text including methods, equations, figures, results, limitations and appendices/supplements read; relevant figures visually inspected. External code not rerun; linked machine-readable blazar catalogue not independently inspected."
+      },
+      "source_audit": {
+        "submission_timestamp": "2026-11-20T18:59:54+00:00",
+        "version_history_url": "https://arxiv.org/abs/2611.27985",
+        "version_history_evidence": "Only v1 listed; timestamp 2026-11-20T18:59:54+00:00",
+        "first_announcement_date": "2026-11-23",
+        "listing_url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+        "eligibility": "New submission on dated primary listing, corroborated by v1-only history. Not a replacement or an older cross-list.",
+        "abs_sha256": "966af74d0a051cd11fdd850268776efec50d58c0be67555b26e5c28e91f7902f",
+        "pdf_sha256": "5226d0390f8ef836b16595cbf42b6be3c67864997615f620f7fdf306a5bdb85e",
+        "pdf_pages_visually_inspected": [
+          8,
+          9,
+          15,
+          17,
+          18,
+          19,
+          20,
+          21,
+          23,
+          24,
+          33,
+          34
+        ],
+        "history_reading": [
+          {
+            "url": "https://arxiv.org/abs/hep-ph/0207174",
+            "pdf_url": "https://arxiv.org/pdf/hep-ph/0207174v1",
+            "pdf_sha256": "dfc6be93e67eb5aeaee70c1393263fcd7bee49b6e57ae0d2e4686689f39ded66",
+            "access": "Primary full text retrieved; relevant methods, results and discussion read for the comparison, not claimed complete-paper review."
+          },
+          {
+            "url": "https://arxiv.org/abs/2412.13287",
+            "pdf_url": "https://arxiv.org/pdf/2412.13287v1",
+            "pdf_sha256": "d409a4da2879ba9c82d82d264f84f6abe217e05c42dc53812848f079def8ac0e",
+            "access": "Primary full text retrieved; relevant methods, results and discussion read for the comparison, not claimed complete-paper review."
+          },
+          {
+            "url": "https://arxiv.org/abs/2309.03262",
+            "pdf_url": "https://arxiv.org/pdf/2309.03262v1",
+            "pdf_sha256": "8726c3a43cb5fad9abfe6dc5464e4b5fc6972502dbe40fd7b40c8158aad812f1",
+            "access": "Primary full text retrieved; relevant methods, results and discussion read for the comparison, not claimed complete-paper review."
+          }
+        ]
+      }
+    }
+  ],
+  "alerts_count": 0,
+  "news_count": 0,
+  "sections": {
+    "ArXiv Highlights": "<!-- paper:paper-2611-26691 -->\n#### The cosmological lithium problem and how decaying relics still solve it\n\n**Maksym Ovchynnikov.** [arXiv:2611.26691v1](https://arxiv.org/abs/2611.26691v1) · [Full text](https://arxiv.org/pdf/2611.26691v1). Primary category: hep-ph. Submitted 19 November 2026 at 19:00:07 UTC; first announced in the 23 November UTC listing. Preprint, CERN-TH-2026-305; no journal reference is recorded. **Type: numerical transport calculation and conditional BSM interpretation, not a detection.**\n\n**Question and physical mechanism.** Can nonthermal injection reduce primordial lithium without violating the much tighter deuterium, helium and radiation-density measurements? The proposed mechanism separates two epochs. Electron antineutrinos with energies around 100 MeV convert protons into neutrons while beryllium-7 is forming. The reactions Be-7(n,p)Li-7 and Li-7(p,α)He-4 then remove the precursor of most primordial lithium. This also makes unwanted deuterium. Later electromagnetic cascades, powered by injected electrons or photons, destroy that excess once the background is cool enough for cascade photons to survive above the 2.22 MeV deuteron threshold. The approximate cascade cutoff is E_c ≃ m_e²/(22T_γ); the useful deuterium destruction occurs around T_γ ≃ 5 keV. The calculation therefore depends on injection timing as strongly as on the energy budget.\n\n**Method and assumptions.** The paper couples νDsmc neutrino transport to Acropolis electromagnetic cascade kernels and a nuclear network following n, p, D, T, He-3, He-4, Li-6, Li-7 and Be-7. It evolves neutrinos and antineutrinos separately, includes phase-averaged flavor conversion, muon energy loss and decay, neutrino-induced helium breakup, fragment reactions, photon heating and the relic contribution to expansion. It fixes the *final* baryon-to-photon ratio to η_B = 6.13 × 10⁻¹⁰ and uses the adopted PRIMAT nuclear rates, rather than marginalizing their uncertainties jointly with the relic parameters. Its standard calculation gives D/H ≃ 2.443 × 10⁻⁵ and Li-7/H ≃ 5.53 × 10⁻¹⁰.\n\nThe working observational acceptance intervals are D/H = (2.450–2.566) × 10⁻⁵ and helium mass fraction Y_P = 0.2432–0.2484, from the adopted two-standard-deviation measurement ranges; He-3/H ≤ 1.45 × 10⁻⁵ includes surviving tritium. The broad radiation interval is 2.57 ≤ N_eff ≤ 3.291, formed from the span of recent CMB analyses. The more restrictive set called “lithium solutions” additionally uses Li-7/H = (1.064–2.350) × 10⁻¹⁰ and 2.69 ≤ N_eff ≤ 3.161. These are acceptance cuts assembled from different measurements and analyses, **not a single joint confidence region or a posterior marginalized over cosmological and nuclear nuisance parameters**. In particular, entering that lithium band is weaker than reaching the PDG stellar range (1.45 ± 0.25) × 10⁻¹⁰ at two standard deviations.\n\n**Quantitative results.** Single decaying species work in restricted mass, branching-ratio and lifetime windows. One Le−Lτ gauge-boson benchmark has mass 260 MeV, dimensionless coupling g = 7.5 × 10⁻¹⁴, lifetime 8.5 × 10³ s and maximum relic-to-radiation energy-density ratio f = 0.052. It yields Li-7/H = 2.32 × 10⁻¹⁰, Y_P = 0.2481 and N_eff = 3.15, with D/H adjusted to 2.508 × 10⁻⁵. A 265 MeV heavy neutral lepton with electron-neutrino dipole coupling d_e = 1.6 × 10⁻¹³ GeV⁻¹, lifetime 8.9 × 10³ s and f = 0.044 gives Li-7/H = 2.18 × 10⁻¹⁰. Both alleviate the discrepancy but remain above the upper end, 1.95 × 10⁻¹⁰, of the adopted PDG two-standard-deviation range. These couplings are benchmarks, not measured values or exclusion limits.\n\nPopulations of leptonic Q-balls do better because their initial charges produce a distribution of lifetimes and injection energies. For the assumed nearly flat scalar potential, M_Q ∝ Q^(3/4), emitted energy ω_Q ∝ Q^(−1/4), and lifetime τ_Q ∝ Q^(5/4). Smaller solitons release harder antineutrinos earlier; larger ones preserve a later, softer electromagnetic component. Population 1 uses ω_peak = 41 MeV, charged fraction b = 0.75, charge asymmetry ε = −1, τ_peak = 1.238 × 10⁴ s and initial energy-density ratio R_Q = 2.39 × 10⁻⁴ at T_γ = 3 MeV. It gives Li-7/H = 1.937 × 10⁻¹⁰, Y_P ≃ 0.2476 and N_eff ≃ 3.089. Its Li-6/Li-7 prediction spans 0.00573–0.01195 under the two nuclear-recoil prescriptions. Other allowed populations reach Li-7/H near 10⁻¹⁰. These are numerical examples and scanned envelopes, not evidence that Q-balls exist.\n\nFigure S5 makes the compensation particularly clear for population 3: removing photodisintegration leaves D/H about 61% above standard BBN, whereas removing the nonthermal neutrino reactions leaves it about 41% below. Both processes together restore the observed deuterium abundance while reducing lithium. This is a coupled transport result; neither injection channel alone reproduces it.\n\n**Limitations and testability.** The cancelling lifetime is narrow: D/H changes by roughly 2–3% per 1% change in τ_peak around the fitted solutions. Helium-fragment recoil and weak breakup cross sections produce factor-of-two-to-three uncertainties in Li-6; the particle benchmarks predict much more Li-6 than the stellar upper limits unless substantial stellar depletion is allowed. Q-ball solutions depend on the charge distribution and its early and late tails: some tested lattice distributions lose the solutions, and some recover them only after extending the large-charge tail. The microscopic realization also requires additional assumptions about formation, charge capture, reheating and the superpartner spectrum. The calculation neglects refraction from the injected lepton asymmetry after estimating it to be small for a benchmark.\n\nSupernova limits are sensitive to the core model and detector response. The paper's calibrated one-zone calculations allow the quoted particles for sufficiently cold cores; hotter cores or an expanded treatment of high-energy photons can exclude some heavy-neutral-lepton cases. A future Galactic-supernova gamma-ray signal and shifts in N_eff offer proposed tests, but the quoted comparison with Simons Observatory precision is a forecast. The work does not establish a universal surviving particle solution, nor rule out an astrophysical origin of the lithium discrepancy.\n\n##### History\n\nThe two-stage mechanism has an important direct predecessor. [Pospelov and Pradler (2010)](https://arxiv.org/abs/1006.4172), especially §2.5 and Figures 8–9, already studied muon-decay antineutrinos followed by electromagnetic destruction of the added deuterium. Their example at τ_X = 8.5 × 10³ s exhibited the same nonmonotonic deuterium evolution. Consequently, neither antineutrino neutron production nor subsequent deuterium cleanup is new here. The present work revisits the balance with updated abundance/radiation constraints, harder direct neutrino spectra, and a resolved population of evaporating solitons. Its claim that the old muon-pair realization fails is conditional on those newer inputs and its updated transport treatment.\n\n[Coc, Pospelov, Uzan and Vangioni (2014)](https://arxiv.org/abs/1405.1718) varied the time dependence of neutron injection through decay, annihilation, resonant annihilation and mirror-neutron conversion. In their calculations, obtaining Li/H ≤ 1.9 × 10⁻¹⁰ with neutron injection alone implied D/H ≥ 3.6 × 10⁻⁵. Their conclusion explicitly allowed combinations with later soft electromagnetic injection. The new result therefore addresses an established escape route from the deuterium obstruction; it does not overturn that obstruction for neutron-only models. No improvement factor between the older abundance envelope and the new parameter windows is meaningful because the physical models and observational cuts differ.\n\nThere is also a competing stellar baseline. [Borisov et al. (2024)](https://arxiv.org/abs/2403.15534) reproduced the plateau with stellar transport including atomic diffusion and parametrized turbulence, calibrated at log₁₀(T₀/K) = 6.28. The calibration is a genuine uncertainty, but it prevents interpreting the stellar surface abundance as a model-independent primordial measurement. An independently examined, uncited observational study, [“Subgiants in NGC 188 reveal that rotationally induced mixing creates the main sequence Li-Dip” (2025)](https://doi.org/10.1038/s41467-025-64724-0), used spectroscopy of 96 turnoff/subgiant members and evolving convection-zone depths to distinguish subsurface lithium profiles. It favors rotational mixing for that cluster. NGC 188 is metal-rich, so this is not a direct solution for metal-poor primordial-lithium tracers; it is evidence that stellar processing is physically consequential. The new relic calculation expands the viable theoretical alternatives rather than demonstrating that new particles are required.\n\n<!-- paper:paper-2611-26682 -->\n#### Blazars through the eyes of REDSoX and GOSoX\n\n**Sara Capecchiacci, Ioannis Liodakis, Herman L. Marshall, Swati Ravi and Haocheng Zhang.** [arXiv:2611.26682v1](https://arxiv.org/abs/2611.26682v1) · [Full text](https://arxiv.org/pdf/2611.26682v1). Primary category: astro-ph.HE. Submitted 19 November 2026 at 19:00:02 UTC; first announced in the 23 November UTC listing. Preprint in A&A manuscript format; no journal reference or acceptance is recorded. **Type: instrument/source forecast, not a polarization measurement or a hadronic-emission detection.**\n\n**Question and method.** Which blazars are promising for polarimetry in the 0.2–0.4 keV band, and what could simultaneous soft-X-ray and MeV polarization reveal about jet emission? The authors transfer leptonic, hadronic and hybrid polarization templates to a 62-source gamma-ray-loud RoboPol sample, supplemented by Mrk 421 and 3C 273, and to a separate 63-source CAZ–eROSITA BlazEr1 match. The latter contains six low-, six intermediate- and 51 high-synchrotron-peaked sources and is selected above 10⁻¹² erg cm⁻² s⁻¹ in the catalogue's 0.2–0.5 keV band.\n\nBroadband SED fits are shifted to catalogue synchrotron-peak frequencies and X-ray fluxes. The reference polarization spectra come from BL Lac, BZBJ0211+1051 and Mrk 501, shifted in frequency using the SED valley and normalized with optical polarization. For sources without RoboPol monitoring, the optical degree is assigned from a peak-frequency-binned population relation. An alternative high-synchrotron-peaked prediction scales the assigned optical degree by 2.5. The leptonic prescription contains polarized synchrotron self-Compton and unpolarized external Compton radiation; the hadronic prescription contains proton and secondary-pair synchrotron radiation, and the hybrid adds electron SSC.\n\n**Sensitivity and results.** The adopted background-free threshold is MDP₉₉ = 4.291/(μ√(R_s T)), as a polarization fraction, with μ = 0.95, source count rate R_s from the effective-area response and a flat energy-flux density across the narrow band. Exposure is 300 ks for high-synchrotron-peaked sources and 1 Ms for the other classes. The quoted 99% is the minimum-detectable-polarization convention; it is not a 99% probability of distinguishing emission models.\n\nFor Mrk 421, Table B.1 gives band flux (1.94 ± 1.37) × 10⁻¹⁰ erg cm⁻² s⁻¹, predicted polarization degrees 8.38%, 6.57% and 8.20% for the leptonic, hadronic and hybrid prescriptions, and MDP₉₉ = 1.19%. For 1ES 1959+650, the corresponding flux is (3.13 ± 1.47) × 10⁻¹⁰ erg cm⁻² s⁻¹, polarization approximately 5.98%, 4.48% and 5.89%, and threshold 0.94%. These are source forecasts anchored to catalogue fluxes, not new measured polarization values.\n\nThe authors simulate 1,000 flux/polarization realizations per source. Their quoted “duty cycle” is the fraction exceeding the sensitivity threshold: 100% for Mrk 421 and about 99% for 1ES 1959+650 under the table assumptions. It is neither satellite observing efficiency nor a confidence level for a physical model. For some high-synchrotron-peaked templates, a leptonic interpretation gives roughly 11% in the soft-X-ray band but nearly zero in the 0.2–5 MeV COSI band; simultaneous measurements could therefore add information beyond an SED fit. The long exposures describe orbital-mission targeting prospects, not what can be achieved during the roughly five-minute REDSoX science flight described in the paper.\n\n**Scientific limitations.** The forecasts inherit a small set of template shapes, noncontemporaneous SED/optical information, simplified spectral conversion, neglected background and assumed polarization-angle stability. Independently sampling flux and optical polarization does not preserve their possible correlation. For the unmonitored sample, sampling around a population median is not a measurement of each object's variability. Detecting polarization above MDP does not by itself distinguish the three templates: uncertainty in magnetic ordering, emission zones and component mixtures must enter that inference.\n\nThere is also an internal classification inconsistency: §5.1 and the appendix prose assign the synchrotron/high-energy SED components to source classes in a way that conflicts with the high-synchrotron-peaked template shown in Figure A.1 and with the paper's subsequent discussion. The physical interpretation here follows the displayed SEDs and the established distinction between synchrotron-dominated and Compton/hadronic bands, rather than that blanket sentence. In particular, high soft-X-ray polarization from a high-synchrotron-peaked source is not standalone evidence for protons. The linked complete machine-readable catalogue was not independently inspected; the numerical examples above are from the full paper's printed tables.\n\n##### History\n\n[Zhang and Böttcher (2013)](https://arxiv.org/abs/1307.4187) calculated frequency-dependent synchrotron and SSC polarization for realistic leptonic and hadronic SED fits. Their fully ordered-field values were upper limits, with optical synchrotron measurements proposed as a normalization. They already found that high-synchrotron-peaked blazars can have essentially identical electron-synchrotron X-ray polarization in both model families, while the gamma-ray polarization can differ strongly. That baseline is crucial: the discriminant is the pattern across physically different spectral components, not simply the existence of X-ray polarization.\n\nThe immediate precursor, [Capecchiacci et al. (2026), A&A 711, A83](https://doi.org/10.1051/0004-6361/202660331) ([preprint](https://arxiv.org/abs/2606.27417)), already combined RoboPol SED fitting, rescaled three-model templates, multi-band predictions, minimum detectable polarization and Monte Carlo detection fractions. It even included a narrow soft-X-ray band near 0.275 keV. The present paper's advance is a dedicated 0.2–0.4 keV response calculation and target assessment for REDSoX/GOSoX, with the additional CAZ–BlazEr1 population. It extends that programme rather than introducing polarization as a new leptonic/hadronic discriminator. The two studies have correlated modelling assumptions and are not independent empirical confirmations.\n\nAn independently checked, uncited observational benchmark is [Liodakis et al. (2022)](https://doi.org/10.1038/s41586-022-05338-0) ([full preprint](https://arxiv.org/abs/2209.06227)). IXPE measured Mrk 501 at 2–8 keV during 8–10 and 26–28 March 2022, obtaining polarization degrees 10 ± 2% and 11 ± 2%, compared with optical values 4 ± 1% and 5 ± 1%. Their multiwavelength analysis favored a shock-accelerated, energy-stratified electron population. This supplies measured support for chromatic magnetic ordering and motivates the approximate X-ray/optical scaling, while also showing why a universal single-zone transfer factor is a limitation. The new soft-band forecasts test extensions of that observational picture; they do not replace its measurements or establish jet composition.\n\n<!-- paper:paper-2611-27985 -->\n#### Is Neutrino Disappearance Sensitive to T-Violation for Asymmetric Matter Profiles ?\n\n**Gabriela Barenboim, Stephen J. Parke and Alberto Sánchez Vargas.** [arXiv:2611.27985v1](https://arxiv.org/abs/2611.27985v1) · [Full text](https://arxiv.org/pdf/2611.27985v1). Primary category: hep-ph. Submitted 20 November 2026 at 18:59:54 UTC; first announced in the 23 November UTC listing. Preprint, FERMILAB-PUB-26-0820-T; no journal reference is recorded. **Type: exact oscillation formalism and numerical examples, not a measured T asymmetry.**\n\n**Question.** The familiar subtraction P(ν_α→ν_α) − P(ν_α→ν_α) vanishes identically. Does that prove disappearance cannot test time reversal? In an asymmetric medium it does not: exchanging source and detector also reverses the order of matter layers. The relevant comparison is forward survival against survival through the reversed profile, with the same physical mixing parameters. Matter asymmetry can make that comparison sensitive to the intrinsic complex phase for muon and tau flavors.\n\n**Derivation.** For coherent, unitary three-flavor propagation with the standard real electron matter potential, the Hamiltonian is H(x) = U M² U†/(2E_ν) + diag(W(x),0,0), where W = √2 G_F N_e. Factoring out the 2–3 rotation and Dirac phase gives the exact form\n\nP_μμ = A + B sin δ + C cos δ + D sin 2δ + E cos 2δ.\n\nThe coefficients depend on energy, density profile, length and the other mixing parameters, but not on δ. Reversing the profile relates the relevant probability to U→U*, so the proper T asymmetry is ΔP_μμᵀ = 2(B sin δ + D sin 2δ). B and D vanish for a symmetric profile. For an asymmetric profile, the resulting asymmetry can be nonzero when intrinsic CP/T violation is present and the oscillation factors do not cancel. Electron survival is exceptional: P_ee is independent of δ for this standard three-flavor potential. A proper CP comparison also transforms matter into antimatter; comparing neutrinos and antineutrinos in the same terrestrial matter introduces additional medium effects.\n\n**Size of the effect.** The two-layer calculation fixes Y_e = 0.5, normal ordering, Δm²₂₁ = 7.5 × 10⁻⁵ eV², Δm²₃₁ = 2.5 × 10⁻³ eV² and sin²θ₁₂, sin²θ₁₃, sin²θ₂₃ = 0.31, 0.022, 0.47. It maximizes the phase-odd coefficient over path lengths. Near density–energy products ρ_a E_ν ≃ 0.7 and ρ_b E_ν ≃ 34 GeV g cm⁻³, approximately associated with the solar and atmospheric resonances, |B| can reach about 0.4. At δ = π/2 this permits a probability difference near 0.8. At 1 GeV, the global maximum shown uses lengths approximately 21,000 and 830 km; a shorter illustrative configuration uses 10,500 and 700 km. The required densities and distances make these demonstrations unsuitable as ordinary terrestrial beam designs. They are optimized amplitudes with fixed parameters, not statistical sensitivities or confidence bounds.\n\nFor the modeled DUNE and Hyper-Kamiokande density profiles, |B| is only of order 10⁻⁷ around their beam peaks, approximately 2.6 and 0.6 GeV. It grows toward lower energy but is still only about 10⁻⁴ at 0.5 GeV for DUNE and 0.1 GeV for Hyper-Kamiokande. Thus the paper finds no practical sensitivity to this *phase-odd disappearance mechanism* in those experiments. That statement does not eliminate their appearance-channel CP programme or the different possibility of extracting cos δ from disappearance spectra.\n\n**Scope of the proposed extensions.** Illustrative Earth-to-geostationary-detector and Moon-to-Earth configurations introduce long vacuum segments followed or preceded by Earth matter. They produce phase-odd coefficients of order 0.3 near a few GeV and 0.15 near tens of GeV, respectively; replacing mean Earth density by PREM materially changes the former example. These are propagation calculations. No complete beam-flux, detector-mass, event-rate, energy-resolution, background, engineering or nuisance-parameter analysis establishes an achievable significance. A direct reversed-path test would additionally require exchanging source/detector roles. Merely fitting the phase-odd term in a forward spectrum is a model-dependent inference. The result also assumes standard coherent propagation; absorption, decoherence or complex nonstandard matter interactions require a revised treatment.\n\n##### History\n\n[Yokomakura, Kimura and Takamura (2002)](https://arxiv.org/abs/hep-ph/0207174) already derived the exact CP-phase dependence for arbitrary matter profiles. Their equations (26)–(27) explicitly include sin δ and sin 2δ in muon and tau survival, and their symmetric-profile relations remove both terms. This is a precise mathematical antecedent, not merely a vaguely related appearance calculation. The new paper confirms and reorganizes that result; it should not be read as the first discovery that asymmetric-matter disappearance can contain phase-odd terms.\n\n[Bitter, de Gouvêa and Kelly (2025)](https://doi.org/10.1103/PhysRevD.111.055023) ([preprint](https://arxiv.org/abs/2412.13287)) carefully distinguished proper reversed-trajectory tests from flavor exchanges along one trajectory. Their ordered evolution-matrix construction explains why a nonsymmetric medium can generate an apparent same-direction T-odd difference even without intrinsic T violation, whereas the properly reversed comparison vanishes for a real Hamiltonian. The present work applies that distinction systematically to disappearance, supplies the full coefficient bookkeeping, and explores where the intrinsic effect can become large. The practical smallness found for terrestrial baselines is consistent with the earlier analysis, rather than a new observation of symmetry violation.\n\nA separate route is [Denton (2024), “Probing CP Violation with Neutrino Disappearance Alone”](https://doi.org/10.1103/PhysRevLett.133.031801) ([preprint](https://arxiv.org/abs/2309.03262)). It constrains the phase-even cos δ dependence by combining electron- and muon-flavor disappearance. Its illustrative forecast used six years of JUNO and 13 years of DUNE, a 40 kt fiducial detector, 1.2 MW beam, external oscillation priors and detector/systematic modelling; the maximum CP-violation discovery sensitivity was about 1.6σ under those assumptions. That forecast does not measure the sign of sin δ and is not the same observable as the new reversed-profile asymmetry. The present contribution is the clarified symmetry test and resonant-profile optimization, not a replacement for an experimental sensitivity study.\n"
+  },
+  "listing_statistics": {
+    "date": "2026-11-23",
+    "basis": "new_primary_submissions",
+    "counts": {
+      "astro-ph": 71,
+      "hep-ph": 28,
+      "hep-ex": 0,
+      "hep-th": 17,
+      "gr-qc": 11,
+      "nucl-ex": 0,
+      "nucl-th": 7
+    },
+    "astro_subcategories": {
+      "astro-ph.HE": 12,
+      "astro-ph.CO": 7
+    },
+    "sources": [
+      "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+      "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+      "https://arxiv.org/catchup/hep-ex/2026-11-23?abs=True",
+      "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+      "https://arxiv.org/catchup/gr-qc/2026-11-23?abs=True",
+      "https://arxiv.org/catchup/nucl-ex/2026-11-23?abs=True",
+      "https://arxiv.org/catchup/nucl-th/2026-11-23?abs=True",
+      "https://arxiv.org/catchup/astro-ph.HE/2026-11-23?abs=True",
+      "https://arxiv.org/catchup/astro-ph.CO/2026-11-23?abs=True"
+    ],
+    "verified_at": "2026-11-23T08:21:52+01:00",
+    "source_audit": {
+      "counts": {
+        "screened_unique_titles_and_abstracts": 148,
+        "selected_unique_papers": 3,
+        "full_text_read_selected_papers": 3,
+        "unresolved_high_priority_candidates": 0,
+        "independent_results": 3,
+        "selected_by_primary_category": {
+          "hep-ph": 2,
+          "astro-ph.HE": 1
+        }
+      },
+      "coverage_gaps": [
+        "Nonselected cross-list version and first-announcement histories were not exhaustively checked; the 148 screened candidates are not a claim of 148 eligible new papers.",
+        "Linked executable code was not rerun. The complete external blazar machine-readable catalogue was not independently inspected; quoted values use the printed paper tables.",
+        "Historical comparisons read the relevant primary methods/results/discussion, not every cited paper in full. The independent Nature HTML fallback succeeded after search/browser retrieval failures."
+      ],
+      "screening_audit": "content-parts/2026-11-23/arxiv-screening.json",
+      "listing_pages": [
+        {
+          "category": "astro-ph",
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "bytes": 506256,
+          "heads": [
+            "Catchup results for Astrophysics on Mon, 23 Nov 2026",
+            "New submissions (showing 71 of 71 entries)",
+            "Cross submissions (showing 9 of 9 entries)",
+            "Replacement submissions (showing 45 of 45 entries)"
+          ],
+          "attempts": [],
+          "verified_at": "2026-11-23T08:21:52+01:00",
+          "html_sha256": "836aad1f0a9c4dd1065c7a88565de47307b2c2849965132c60cd7b70d64d3468",
+          "coverage": "All displayed new and cross-submission entries and abstracts screened; replacement entries inventoried and excluded."
+        },
+        {
+          "category": "astro-ph.HE",
+          "url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-23?abs=True",
+          "bytes": 105500,
+          "heads": [
+            "Catchup results for High Energy Astrophysical Phenomena on Mon, 23 Nov 2026",
+            "New submissions (showing 12 of 12 entries)",
+            "Cross submissions (showing 7 of 7 entries)",
+            "Replacement submissions (showing 9 of 9 entries)"
+          ],
+          "attempts": [],
+          "verified_at": "2026-11-23T08:21:52+01:00",
+          "html_sha256": "8b66718b4fd307f669f7e138db7e0ef4236f8362b960904580facf7556e1e6d0",
+          "coverage": "All displayed new and cross-submission entries and abstracts screened; replacement entries inventoried and excluded."
+        },
+        {
+          "category": "astro-ph.CO",
+          "url": "https://arxiv.org/catchup/astro-ph.CO/2026-11-23?abs=True",
+          "bytes": 124084,
+          "heads": [
+            "Catchup results for Cosmology and Nongalactic Astrophysics on Mon, 23 Nov 2026",
+            "New submissions (showing 7 of 7 entries)",
+            "Cross submissions (showing 5 of 5 entries)",
+            "Replacement submissions (showing 18 of 18 entries)"
+          ],
+          "attempts": [],
+          "verified_at": "2026-11-23T08:21:52+01:00",
+          "html_sha256": "d35ba425f76d3e075238f5d30816bb9a57af42a804b61e7e0d0a263d4af59353",
+          "coverage": "All displayed new and cross-submission entries and abstracts screened; replacement entries inventoried and excluded."
+        },
+        {
+          "category": "hep-ph",
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "bytes": 172327,
+          "heads": [
+            "Catchup results for High Energy Physics - Phenomenology on Mon, 23 Nov 2026",
+            "New submissions (showing 28 of 28 entries)",
+            "Cross submissions (showing 5 of 5 entries)",
+            "Replacement submissions (showing 27 of 27 entries)"
+          ],
+          "attempts": [],
+          "verified_at": "2026-11-23T08:21:52+01:00",
+          "html_sha256": "3f14ac398492adf55d93e80190d85b5fd09ca5a5c08fa52adde9ee7243c09911",
+          "coverage": "All displayed new and cross-submission entries and abstracts screened; replacement entries inventoried and excluded."
+        },
+        {
+          "category": "hep-ex",
+          "url": "https://arxiv.org/catchup/hep-ex/2026-11-23?abs=True",
+          "bytes": 38524,
+          "heads": [
+            "Catchup results for High Energy Physics - Experiment on Mon, 23 Nov 2026",
+            "Cross submissions (showing 2 of 2 entries)",
+            "Replacement submissions (showing 6 of 6 entries)"
+          ],
+          "attempts": [],
+          "verified_at": "2026-11-23T08:21:52+01:00",
+          "html_sha256": "c581505762afedc844c73e0310e436740361cc9107923898b31386e017ba7865",
+          "coverage": "All displayed new and cross-submission entries and abstracts screened; replacement entries inventoried and excluded."
+        },
+        {
+          "category": "hep-th",
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "bytes": 188962,
+          "heads": [
+            "Catchup results for High Energy Physics - Theory on Mon, 23 Nov 2026",
+            "New submissions (showing 17 of 17 entries)",
+            "Cross submissions (showing 21 of 21 entries)",
+            "Replacement submissions (showing 29 of 29 entries)"
+          ],
+          "attempts": [],
+          "verified_at": "2026-11-23T08:21:52+01:00",
+          "html_sha256": "6e51719412ce1b27d82e0e90b75d0109875065fa45d63b03b88f25fd83142d0c",
+          "coverage": "All displayed new and cross-submission entries and abstracts screened; replacement entries inventoried and excluded."
+        },
+        {
+          "category": "gr-qc",
+          "url": "https://arxiv.org/catchup/gr-qc/2026-11-23?abs=True",
+          "bytes": 115226,
+          "heads": [
+            "Catchup results for General Relativity and Quantum Cosmology on Mon, 23 Nov 2026",
+            "New submissions (showing 11 of 11 entries)",
+            "Cross submissions (showing 6 of 6 entries)",
+            "Replacement submissions (showing 18 of 18 entries)"
+          ],
+          "attempts": [],
+          "verified_at": "2026-11-23T08:21:52+01:00",
+          "html_sha256": "1567f16606e1d370aabc970800185898490045b755f02bd23f995b26699a1c24",
+          "coverage": "All displayed new and cross-submission entries and abstracts screened; replacement entries inventoried and excluded."
+        },
+        {
+          "category": "nucl-ex",
+          "url": "https://arxiv.org/catchup/nucl-ex/2026-11-23?abs=True",
+          "bytes": 13046,
+          "heads": [
+            "Catchup results for Nuclear Experiment on Mon, 23 Nov 2026",
+            "Cross submissions (showing 1 of 1 entries)",
+            "Replacement submissions (showing 1 of 1 entries)"
+          ],
+          "attempts": [],
+          "verified_at": "2026-11-23T08:21:52+01:00",
+          "html_sha256": "d5c33ea54596b0b11c4fef72d6e2913105d611dfc41fcb0bcc5f3a05ebb5182e",
+          "coverage": "All displayed new and cross-submission entries and abstracts screened; replacement entries inventoried and excluded."
+        },
+        {
+          "category": "nucl-th",
+          "url": "https://arxiv.org/catchup/nucl-th/2026-11-23?abs=True",
+          "bytes": 63469,
+          "heads": [
+            "Catchup results for Nuclear Theory on Mon, 23 Nov 2026",
+            "New submissions (showing 7 of 7 entries)",
+            "Cross submissions (showing 5 of 5 entries)",
+            "Replacement submissions (showing 6 of 6 entries)"
+          ],
+          "attempts": [],
+          "verified_at": "2026-11-23T08:21:52+01:00",
+          "html_sha256": "3ddf0e71301191dea90996018eeac52ef99f25744465aff94ab0d882fd3d823e",
+          "coverage": "All displayed new and cross-submission entries and abstracts screened; replacement entries inventoried and excluded."
+        }
+      ],
+      "revision_provenance": {
+        "edition_listing_date": "2026-11-23",
+        "prepared_at": "2026-11-23T08:21:52+01:00",
+        "base_main": "5164bc71d843a2106bfbe13888ecd61ae03d399c",
+        "retrospective": false,
+        "prior_selected_for_this_edition": []
+      },
+      "historical_comparisons": "Independent primary-source searches and relevant full-text reading, including uncited IXPE and NGC 188 studies; no absence-of-citation claim used as proof of novelty."
+    }
+  },
+  "source_audit": {
+    "counts": {
+      "screened_unique_titles_and_abstracts": 148,
+      "selected_unique_papers": 3,
+      "full_text_read_selected_papers": 3,
+      "unresolved_high_priority_candidates": 0,
+      "independent_results": 3,
+      "selected_by_primary_category": {
+        "hep-ph": 2,
+        "astro-ph.HE": 1
+      }
+    },
+    "coverage_gaps": [
+      "Nonselected cross-list version and first-announcement histories were not exhaustively checked; the 148 screened candidates are not a claim of 148 eligible new papers.",
+      "Linked executable code was not rerun. The complete external blazar machine-readable catalogue was not independently inspected; quoted values use the printed paper tables.",
+      "Historical comparisons read the relevant primary methods/results/discussion, not every cited paper in full. The independent Nature HTML fallback succeeded after search/browser retrieval failures."
+    ],
+    "screening_audit": "content-parts/2026-11-23/arxiv-screening.json",
+    "listing_pages": [
+      {
+        "category": "astro-ph",
+        "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+        "bytes": 506256,
+        "heads": [
+          "Catchup results for Astrophysics on Mon, 23 Nov 2026",
+          "New submissions (showing 71 of 71 entries)",
+          "Cross submissions (showing 9 of 9 entries)",
+          "Replacement submissions (showing 45 of 45 entries)"
+        ],
+        "attempts": [],
+        "verified_at": "2026-11-23T08:21:52+01:00",
+        "html_sha256": "836aad1f0a9c4dd1065c7a88565de47307b2c2849965132c60cd7b70d64d3468",
+        "coverage": "All displayed new and cross-submission entries and abstracts screened; replacement entries inventoried and excluded."
+      },
+      {
+        "category": "astro-ph.HE",
+        "url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-23?abs=True",
+        "bytes": 105500,
+        "heads": [
+          "Catchup results for High Energy Astrophysical Phenomena on Mon, 23 Nov 2026",
+          "New submissions (showing 12 of 12 entries)",
+          "Cross submissions (showing 7 of 7 entries)",
+          "Replacement submissions (showing 9 of 9 entries)"
+        ],
+        "attempts": [],
+        "verified_at": "2026-11-23T08:21:52+01:00",
+        "html_sha256": "8b66718b4fd307f669f7e138db7e0ef4236f8362b960904580facf7556e1e6d0",
+        "coverage": "All displayed new and cross-submission entries and abstracts screened; replacement entries inventoried and excluded."
+      },
+      {
+        "category": "astro-ph.CO",
+        "url": "https://arxiv.org/catchup/astro-ph.CO/2026-11-23?abs=True",
+        "bytes": 124084,
+        "heads": [
+          "Catchup results for Cosmology and Nongalactic Astrophysics on Mon, 23 Nov 2026",
+          "New submissions (showing 7 of 7 entries)",
+          "Cross submissions (showing 5 of 5 entries)",
+          "Replacement submissions (showing 18 of 18 entries)"
+        ],
+        "attempts": [],
+        "verified_at": "2026-11-23T08:21:52+01:00",
+        "html_sha256": "d35ba425f76d3e075238f5d30816bb9a57af42a804b61e7e0d0a263d4af59353",
+        "coverage": "All displayed new and cross-submission entries and abstracts screened; replacement entries inventoried and excluded."
+      },
+      {
+        "category": "hep-ph",
+        "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+        "bytes": 172327,
+        "heads": [
+          "Catchup results for High Energy Physics - Phenomenology on Mon, 23 Nov 2026",
+          "New submissions (showing 28 of 28 entries)",
+          "Cross submissions (showing 5 of 5 entries)",
+          "Replacement submissions (showing 27 of 27 entries)"
+        ],
+        "attempts": [],
+        "verified_at": "2026-11-23T08:21:52+01:00",
+        "html_sha256": "3f14ac398492adf55d93e80190d85b5fd09ca5a5c08fa52adde9ee7243c09911",
+        "coverage": "All displayed new and cross-submission entries and abstracts screened; replacement entries inventoried and excluded."
+      },
+      {
+        "category": "hep-ex",
+        "url": "https://arxiv.org/catchup/hep-ex/2026-11-23?abs=True",
+        "bytes": 38524,
+        "heads": [
+          "Catchup results for High Energy Physics - Experiment on Mon, 23 Nov 2026",
+          "Cross submissions (showing 2 of 2 entries)",
+          "Replacement submissions (showing 6 of 6 entries)"
+        ],
+        "attempts": [],
+        "verified_at": "2026-11-23T08:21:52+01:00",
+        "html_sha256": "c581505762afedc844c73e0310e436740361cc9107923898b31386e017ba7865",
+        "coverage": "All displayed new and cross-submission entries and abstracts screened; replacement entries inventoried and excluded."
+      },
+      {
+        "category": "hep-th",
+        "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+        "bytes": 188962,
+        "heads": [
+          "Catchup results for High Energy Physics - Theory on Mon, 23 Nov 2026",
+          "New submissions (showing 17 of 17 entries)",
+          "Cross submissions (showing 21 of 21 entries)",
+          "Replacement submissions (showing 29 of 29 entries)"
+        ],
+        "attempts": [],
+        "verified_at": "2026-11-23T08:21:52+01:00",
+        "html_sha256": "6e51719412ce1b27d82e0e90b75d0109875065fa45d63b03b88f25fd83142d0c",
+        "coverage": "All displayed new and cross-submission entries and abstracts screened; replacement entries inventoried and excluded."
+      },
+      {
+        "category": "gr-qc",
+        "url": "https://arxiv.org/catchup/gr-qc/2026-11-23?abs=True",
+        "bytes": 115226,
+        "heads": [
+          "Catchup results for General Relativity and Quantum Cosmology on Mon, 23 Nov 2026",
+          "New submissions (showing 11 of 11 entries)",
+          "Cross submissions (showing 6 of 6 entries)",
+          "Replacement submissions (showing 18 of 18 entries)"
+        ],
+        "attempts": [],
+        "verified_at": "2026-11-23T08:21:52+01:00",
+        "html_sha256": "1567f16606e1d370aabc970800185898490045b755f02bd23f995b26699a1c24",
+        "coverage": "All displayed new and cross-submission entries and abstracts screened; replacement entries inventoried and excluded."
+      },
+      {
+        "category": "nucl-ex",
+        "url": "https://arxiv.org/catchup/nucl-ex/2026-11-23?abs=True",
+        "bytes": 13046,
+        "heads": [
+          "Catchup results for Nuclear Experiment on Mon, 23 Nov 2026",
+          "Cross submissions (showing 1 of 1 entries)",
+          "Replacement submissions (showing 1 of 1 entries)"
+        ],
+        "attempts": [],
+        "verified_at": "2026-11-23T08:21:52+01:00",
+        "html_sha256": "d5c33ea54596b0b11c4fef72d6e2913105d611dfc41fcb0bcc5f3a05ebb5182e",
+        "coverage": "All displayed new and cross-submission entries and abstracts screened; replacement entries inventoried and excluded."
+      },
+      {
+        "category": "nucl-th",
+        "url": "https://arxiv.org/catchup/nucl-th/2026-11-23?abs=True",
+        "bytes": 63469,
+        "heads": [
+          "Catchup results for Nuclear Theory on Mon, 23 Nov 2026",
+          "New submissions (showing 7 of 7 entries)",
+          "Cross submissions (showing 5 of 5 entries)",
+          "Replacement submissions (showing 6 of 6 entries)"
+        ],
+        "attempts": [],
+        "verified_at": "2026-11-23T08:21:52+01:00",
+        "html_sha256": "3ddf0e71301191dea90996018eeac52ef99f25744465aff94ab0d882fd3d823e",
+        "coverage": "All displayed new and cross-submission entries and abstracts screened; replacement entries inventoried and excluded."
+      }
+    ],
+    "revision_provenance": {
+      "edition_listing_date": "2026-11-23",
+      "prepared_at": "2026-11-23T08:21:52+01:00",
+      "base_main": "5164bc71d843a2106bfbe13888ecd61ae03d399c",
+      "retrospective": false,
+      "prior_selected_for_this_edition": []
+    },
+    "historical_comparisons": "Independent primary-source searches and relevant full-text reading, including uncited IXPE and NGC 188 studies; no absence-of-citation claim used as proof of novelty."
+  }
+}

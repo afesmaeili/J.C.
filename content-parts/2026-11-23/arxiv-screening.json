@@ -1,0 +1,3601 @@
+{
+  "date": "2026-11-23",
+  "part": "arxiv",
+  "cutoff": "2026-11-23T08:21:52+01:00",
+  "status": "complete",
+  "selection_ceiling": 12,
+  "selection_policy": "Ranked by scientific relevance, substance, significance and contribution relative to prior work; no minimum, no equal field slots, no overflow.",
+  "listing_pages": [
+    {
+      "category": "astro-ph",
+      "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+      "bytes": 506256,
+      "heads": [
+        "Catchup results for Astrophysics on Mon, 23 Nov 2026",
+        "New submissions (showing 71 of 71 entries)",
+        "Cross submissions (showing 9 of 9 entries)",
+        "Replacement submissions (showing 45 of 45 entries)"
+      ],
+      "attempts": [],
+      "verified_at": "2026-11-23T08:21:52+01:00",
+      "html_sha256": "836aad1f0a9c4dd1065c7a88565de47307b2c2849965132c60cd7b70d64d3468",
+      "coverage": "All displayed new and cross-submission entries and abstracts screened; replacement entries inventoried and excluded."
+    },
+    {
+      "category": "astro-ph.HE",
+      "url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-23?abs=True",
+      "bytes": 105500,
+      "heads": [
+        "Catchup results for High Energy Astrophysical Phenomena on Mon, 23 Nov 2026",
+        "New submissions (showing 12 of 12 entries)",
+        "Cross submissions (showing 7 of 7 entries)",
+        "Replacement submissions (showing 9 of 9 entries)"
+      ],
+      "attempts": [],
+      "verified_at": "2026-11-23T08:21:52+01:00",
+      "html_sha256": "8b66718b4fd307f669f7e138db7e0ef4236f8362b960904580facf7556e1e6d0",
+      "coverage": "All displayed new and cross-submission entries and abstracts screened; replacement entries inventoried and excluded."
+    },
+    {
+      "category": "astro-ph.CO",
+      "url": "https://arxiv.org/catchup/astro-ph.CO/2026-11-23?abs=True",
+      "bytes": 124084,
+      "heads": [
+        "Catchup results for Cosmology and Nongalactic Astrophysics on Mon, 23 Nov 2026",
+        "New submissions (showing 7 of 7 entries)",
+        "Cross submissions (showing 5 of 5 entries)",
+        "Replacement submissions (showing 18 of 18 entries)"
+      ],
+      "attempts": [],
+      "verified_at": "2026-11-23T08:21:52+01:00",
+      "html_sha256": "d35ba425f76d3e075238f5d30816bb9a57af42a804b61e7e0d0a263d4af59353",
+      "coverage": "All displayed new and cross-submission entries and abstracts screened; replacement entries inventoried and excluded."
+    },
+    {
+      "category": "hep-ph",
+      "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+      "bytes": 172327,
+      "heads": [
+        "Catchup results for High Energy Physics - Phenomenology on Mon, 23 Nov 2026",
+        "New submissions (showing 28 of 28 entries)",
+        "Cross submissions (showing 5 of 5 entries)",
+        "Replacement submissions (showing 27 of 27 entries)"
+      ],
+      "attempts": [],
+      "verified_at": "2026-11-23T08:21:52+01:00",
+      "html_sha256": "3f14ac398492adf55d93e80190d85b5fd09ca5a5c08fa52adde9ee7243c09911",
+      "coverage": "All displayed new and cross-submission entries and abstracts screened; replacement entries inventoried and excluded."
+    },
+    {
+      "category": "hep-ex",
+      "url": "https://arxiv.org/catchup/hep-ex/2026-11-23?abs=True",
+      "bytes": 38524,
+      "heads": [
+        "Catchup results for High Energy Physics - Experiment on Mon, 23 Nov 2026",
+        "Cross submissions (showing 2 of 2 entries)",
+        "Replacement submissions (showing 6 of 6 entries)"
+      ],
+      "attempts": [],
+      "verified_at": "2026-11-23T08:21:52+01:00",
+      "html_sha256": "c581505762afedc844c73e0310e436740361cc9107923898b31386e017ba7865",
+      "coverage": "All displayed new and cross-submission entries and abstracts screened; replacement entries inventoried and excluded."
+    },
+    {
+      "category": "hep-th",
+      "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+      "bytes": 188962,
+      "heads": [
+        "Catchup results for High Energy Physics - Theory on Mon, 23 Nov 2026",
+        "New submissions (showing 17 of 17 entries)",
+        "Cross submissions (showing 21 of 21 entries)",
+        "Replacement submissions (showing 29 of 29 entries)"
+      ],
+      "attempts": [],
+      "verified_at": "2026-11-23T08:21:52+01:00",
+      "html_sha256": "6e51719412ce1b27d82e0e90b75d0109875065fa45d63b03b88f25fd83142d0c",
+      "coverage": "All displayed new and cross-submission entries and abstracts screened; replacement entries inventoried and excluded."
+    },
+    {
+      "category": "gr-qc",
+      "url": "https://arxiv.org/catchup/gr-qc/2026-11-23?abs=True",
+      "bytes": 115226,
+      "heads": [
+        "Catchup results for General Relativity and Quantum Cosmology on Mon, 23 Nov 2026",
+        "New submissions (showing 11 of 11 entries)",
+        "Cross submissions (showing 6 of 6 entries)",
+        "Replacement submissions (showing 18 of 18 entries)"
+      ],
+      "attempts": [],
+      "verified_at": "2026-11-23T08:21:52+01:00",
+      "html_sha256": "1567f16606e1d370aabc970800185898490045b755f02bd23f995b26699a1c24",
+      "coverage": "All displayed new and cross-submission entries and abstracts screened; replacement entries inventoried and excluded."
+    },
+    {
+      "category": "nucl-ex",
+      "url": "https://arxiv.org/catchup/nucl-ex/2026-11-23?abs=True",
+      "bytes": 13046,
+      "heads": [
+        "Catchup results for Nuclear Experiment on Mon, 23 Nov 2026",
+        "Cross submissions (showing 1 of 1 entries)",
+        "Replacement submissions (showing 1 of 1 entries)"
+      ],
+      "attempts": [],
+      "verified_at": "2026-11-23T08:21:52+01:00",
+      "html_sha256": "d5c33ea54596b0b11c4fef72d6e2913105d611dfc41fcb0bcc5f3a05ebb5182e",
+      "coverage": "All displayed new and cross-submission entries and abstracts screened; replacement entries inventoried and excluded."
+    },
+    {
+      "category": "nucl-th",
+      "url": "https://arxiv.org/catchup/nucl-th/2026-11-23?abs=True",
+      "bytes": 63469,
+      "heads": [
+        "Catchup results for Nuclear Theory on Mon, 23 Nov 2026",
+        "New submissions (showing 7 of 7 entries)",
+        "Cross submissions (showing 5 of 5 entries)",
+        "Replacement submissions (showing 6 of 6 entries)"
+      ],
+      "attempts": [],
+      "verified_at": "2026-11-23T08:21:52+01:00",
+      "html_sha256": "3ddf0e71301191dea90996018eeac52ef99f25744465aff94ab0d882fd3d823e",
+      "coverage": "All displayed new and cross-submission entries and abstracts screened; replacement entries inventoried and excluded."
+    }
+  ],
+  "counts": {
+    "screened_unique_titles_and_abstracts": 148,
+    "selected_unique_papers": 3,
+    "full_text_read_selected_papers": 3,
+    "unresolved_high_priority_candidates": 0,
+    "independent_results": 3,
+    "selected_by_primary_category": {
+      "hep-ph": 2,
+      "astro-ph.HE": 1
+    }
+  },
+  "coverage_gaps": [
+    "Nonselected cross-list version and first-announcement histories were not exhaustively checked; the 148 screened candidates are not a claim of 148 eligible new papers.",
+    "Linked executable code was not rerun. The complete external blazar machine-readable catalogue was not independently inspected; quoted values use the printed paper tables.",
+    "Historical comparisons read the relevant primary methods/results/discussion, not every cited paper in full. The independent Nature HTML fallback succeeded after search/browser retrieval failures."
+  ],
+  "second_topic_pass": {
+    "completed": true,
+    "method": "Independent pass through deduplicated titles and abstracts using particle acceleration/propagation, cosmic rays, neutrino interactions/oscillations, electromagnetic cascades, multimessenger, dark matter and cosmology topics; explicit re-evaluation of salient candidates before final ranking."
+  },
+  "candidates": [
+    {
+      "arxiv": "2611.26658",
+      "title": "Analytical Modeling of Thermal Shield-Induced Tilt Noise in Lunar Regolith: Constraints on Future Lunar Seismometers and Gravitational waves Detectors",
+      "primary_category_label": "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26660",
+      "title": "An ALMA Survey of Molecular Gas in the Host Galaxies of Fast Radio Bursts",
+      "primary_category_label": "Astrophysics of Galaxies (astro-ph.GA)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26662",
+      "title": "Detection of GRB 261010A with GRID-11B",
+      "primary_category_label": "High Energy Astrophysical Phenomena (astro-ph.HE)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-23?abs=True",
+          "section": "New submissions (showing 12 of 12 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "lower ranked",
+      "reason": "Burst detection/classification; lower direct relevance to particle acceleration, transport and multimessenger source modelling. Not excluded by a filled numerical cap; twelve is only a ceiling.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26667",
+      "title": "Stellar activity demotes GJ 9404 b to a planetary candidate",
+      "primary_category_label": "Earth and Planetary Astrophysics (astro-ph.EP)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26680",
+      "title": "PLATON 7: An ultra-fast exoplanet atmospheric retrieval code",
+      "primary_category_label": "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26681",
+      "title": "Lost in the Signal Model: Confusion Between Deterministic and Stochastic Gravitational Wave Signals in Pulsar Timing Array Data",
+      "primary_category_label": "High Energy Astrophysical Phenomena (astro-ph.HE)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-23?abs=True",
+          "section": "New submissions (showing 12 of 12 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "lower ranked",
+      "reason": "Useful PTA signal-model degeneracy study; lower priority than selected particle-transport and neutrino studies. Not excluded by a filled numerical cap; twelve is only a ceiling.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26682",
+      "title": "Blazars through the eyes of REDSoX and GOSoX",
+      "primary_category_label": "High Energy Astrophysical Phenomena (astro-ph.HE)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-23?abs=True",
+          "section": "New submissions (showing 12 of 12 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "selected/full-text reviewed",
+      "reason": "Selected after broad abstract screening and second topic pass for relevance, scientific substance and a substantive comparison with prior primary work.",
+      "full_text_access": "read_full_text",
+      "eligibility": "verified_new_primary_submission_and_v1_history"
+    },
+    {
+      "arxiv": "2611.26683",
+      "title": "Water-ice formation in Ophiuchus follows the local irradiation",
+      "primary_category_label": "Astrophysics of Galaxies (astro-ph.GA)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26684",
+      "title": "Charge Exchange Illuminates Turbulent Cold-Hot Interfaces",
+      "primary_category_label": "Astrophysics of Galaxies (astro-ph.GA)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 7 of 7 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26685",
+      "title": "Little Red Dots at Cosmic Noon: Spectroscopy Reveals Declining Abundance but a Non-Evolving Luminosity Function Shape",
+      "primary_category_label": "Astrophysics of Galaxies (astro-ph.GA)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 7 of 7 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/astro-ph.CO/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 5 of 5 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26689",
+      "title": "The MURALES survey. IX. MUSE observations and results for 3C radio sources at 0.3 < z < 0.82",
+      "primary_category_label": "Astrophysics of Galaxies (astro-ph.GA)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26696",
+      "title": "From Binary Wind to Radio Burst: Dispersion-Measure Evolution after Accretion-induced Collapse",
+      "primary_category_label": "High Energy Astrophysical Phenomena (astro-ph.HE)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-23?abs=True",
+          "section": "New submissions (showing 12 of 12 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26701",
+      "title": "Machine learning reveals new Galactic C-rich and O-rich AGB sources",
+      "primary_category_label": "Astrophysics of Galaxies (astro-ph.GA)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26708",
+      "title": "Effects of Preionisation in Radiative Shocks IV. A Spectral Grid Library of fully Radiative Shock Models with Time--Dependent Precursor",
+      "primary_category_label": "Astrophysics of Galaxies (astro-ph.GA)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26710",
+      "title": "Little Red Dots at Cosmic Noon: Spectroscopic Identification and Broad-Line Properties",
+      "primary_category_label": "Astrophysics of Galaxies (astro-ph.GA)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26713",
+      "title": "Generative Bayesian modelling of radio antenna beams An application to the MeerKAT radio telescope",
+      "primary_category_label": "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26728",
+      "title": "Modeling Asymmetries in Be Star Disks Using Spectro-interferometric H-alpha Observations from the CHARA Array's VEGA Instrument",
+      "primary_category_label": "Solar and Stellar Astrophysics (astro-ph.SR)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26733",
+      "title": "NGC 1300: A rich reservoir of ultraluminous X-ray sources",
+      "primary_category_label": "High Energy Astrophysical Phenomena (astro-ph.HE)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-23?abs=True",
+          "section": "New submissions (showing 12 of 12 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26774",
+      "title": "Searching for substellar companion candidates with Gaia IV. New planetary-mass companions found in debris disks",
+      "primary_category_label": "Earth and Planetary Astrophysics (astro-ph.EP)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26785",
+      "title": "SciPIC-lite: A flexible Halo Occupation Distribution pipeline aimed at clustering observables",
+      "primary_category_label": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/astro-ph.CO/2026-11-23?abs=True",
+          "section": "New submissions (showing 7 of 7 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26804",
+      "title": "The Effect of Dust Grain Growth and Stellar Metallicity on Gas Giant Planet Formation by Disk Instability",
+      "primary_category_label": "Earth and Planetary Astrophysics (astro-ph.EP)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26820",
+      "title": "Dynamical friction on an extended satellite revisited",
+      "primary_category_label": "Astrophysics of Galaxies (astro-ph.GA)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26822",
+      "title": "Kinetic Sunyaev Zel'dovich Velocity Reconstruction Using Vision Transformers",
+      "primary_category_label": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/astro-ph.CO/2026-11-23?abs=True",
+          "section": "New submissions (showing 7 of 7 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26864",
+      "title": "Information-Criterion-Driven, Non-linear Deprojection of Angular Imaging Systematics for the SPHEREx Galaxy Clustering Sample",
+      "primary_category_label": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/astro-ph.CO/2026-11-23?abs=True",
+          "section": "New submissions (showing 7 of 7 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26880",
+      "title": "Determining the Spin and Orbital Period of the Asynchronous Cataclysmic Variable X10 in 47 Tucanae",
+      "primary_category_label": "High Energy Astrophysical Phenomena (astro-ph.HE)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-23?abs=True",
+          "section": "New submissions (showing 12 of 12 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26885",
+      "title": "The role of gas on the collisional runaway path to supermassive black hole seeds",
+      "primary_category_label": "Astrophysics of Galaxies (astro-ph.GA)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26901",
+      "title": "Magnetic vector potentials and helicity in periodic domains",
+      "primary_category_label": "Solar and Stellar Astrophysics (astro-ph.SR)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "lower ranked",
+      "reason": "Periodic-domain magnetic-helicity formalism; indirect connection to particle transport. Not excluded by a filled numerical cap; twelve is only a ceiling.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26918",
+      "title": "Broad-line ambiguity in IC 1495",
+      "primary_category_label": "Astrophysics of Galaxies (astro-ph.GA)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26952",
+      "title": "A High-Resolution Stellar Extinction Map of M31 from PHAT and PHAST Photometry",
+      "primary_category_label": "Astrophysics of Galaxies (astro-ph.GA)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26961",
+      "title": "High-precision proper motions toward the Galactic bulge Baade's window from a decade of DECam observations",
+      "primary_category_label": "Astrophysics of Galaxies (astro-ph.GA)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26973",
+      "title": "Accretor Luminosity as Probe of Orbital Evolution and Magnetic Braking in AM CVn Binaries",
+      "primary_category_label": "Solar and Stellar Astrophysics (astro-ph.SR)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 7 of 7 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27026",
+      "title": "Computing the Wave: Bridging Gravitational Wave and High-Energy-Physics software (with modular ROOT extensions)",
+      "primary_category_label": "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27031",
+      "title": "Precise Radii of Visual Binaries with Dynamical Masses: $ξ$ Bootis $\\&$ 70 Ophiuchi",
+      "primary_category_label": "Solar and Stellar Astrophysics (astro-ph.SR)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27051",
+      "title": "Disentangling Disk and Broad-Line Region Continuum Emission in a Sample of Active Galactic Nuclei",
+      "primary_category_label": "High Energy Astrophysical Phenomena (astro-ph.HE)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-23?abs=True",
+          "section": "New submissions (showing 12 of 12 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27069",
+      "title": "Beyond the Peak: Constraining early dark energy with the damping tail",
+      "primary_category_label": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/astro-ph.CO/2026-11-23?abs=True",
+          "section": "New submissions (showing 7 of 7 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 21 of 21 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "lower ranked",
+      "reason": "Cosmological damping-tail constraints; lower immediate relevance than the selected nonthermal-BBN calculation. Not excluded by a filled numerical cap; twelve is only a ceiling.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27071",
+      "title": "Ultraviolet Observations of Solar Active Phenomena",
+      "primary_category_label": "Solar and Stellar Astrophysics (astro-ph.SR)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27082",
+      "title": "IGRINS-2 Reveals an Oxygen-rich Dayside Atmosphere of WASP-12 b: Resolving the C/O Controversy",
+      "primary_category_label": "Earth and Planetary Astrophysics (astro-ph.EP)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27118",
+      "title": "The relation between DCN/DNC ratios and gas temperature in late-stage massive star-forming regions using Yebes observations",
+      "primary_category_label": "Astrophysics of Galaxies (astro-ph.GA)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27151",
+      "title": "Fast and accurate large-volume Lyman-$α$ forest mocks with three-dimensional U-Net trained on IllustrisTNG and FLAMINGO",
+      "primary_category_label": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/astro-ph.CO/2026-11-23?abs=True",
+          "section": "New submissions (showing 7 of 7 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27236",
+      "title": "Accurately Measuring Variability Properties from Noisy Light Curves",
+      "primary_category_label": "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27249",
+      "title": "Baryon-Enhanced Strong Lensing Signatures of Self-Interacting Dark Matter Subhalos",
+      "primary_category_label": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/astro-ph.CO/2026-11-23?abs=True",
+          "section": "New submissions (showing 7 of 7 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "lower ranked",
+      "reason": "Conditional baryon-dependent SIDM lensing signatures; lower priority for this astroparticle-focused edition. Not excluded by a filled numerical cap; twelve is only a ceiling.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27262",
+      "title": "Revisiting the Double Cluster in Perseus: Are NGC 869 and NGC 884 a true binary system?",
+      "primary_category_label": "Astrophysics of Galaxies (astro-ph.GA)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27265",
+      "title": "Features investigated: A detailed study of axion monodromy inflation using CLiENT",
+      "primary_category_label": "Cosmology and Nongalactic Astrophysics (astro-ph.CO)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/astro-ph.CO/2026-11-23?abs=True",
+          "section": "New submissions (showing 7 of 7 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 5 of 5 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "lower ranked",
+      "reason": "Inflationary feature inference; lower relevance than the selected work. Not excluded by a filled numerical cap; twelve is only a ceiling.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27303",
+      "title": "Interstellar extinction estimates for nearly 90 million stars based on synthetic photometry from Gaia XP spectra",
+      "primary_category_label": "Solar and Stellar Astrophysics (astro-ph.SR)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27342",
+      "title": "Characterising stellar photometry with invertible neural networks: Joint inference of stellar parameters and extinction",
+      "primary_category_label": "Solar and Stellar Astrophysics (astro-ph.SR)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27409",
+      "title": "Obliquity of Mercury with a fluid core and a deformable mantle",
+      "primary_category_label": "Earth and Planetary Astrophysics (astro-ph.EP)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27419",
+      "title": "Predicting HCN, HCO$^{+}$, multi-transition CO, and dust emission of star-forming galaxies",
+      "primary_category_label": "Astrophysics of Galaxies (astro-ph.GA)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "lower ranked",
+      "reason": "Molecular-line and dust modelling includes cosmic-ray ionization but is less directly about high-energy particle transport. Not excluded by a filled numerical cap; twelve is only a ceiling.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27441",
+      "title": "Ultra-diffuse Galaxies in the Kilo-Degree Survey: Globular Cluster Systems in Cluster and Field Environments",
+      "primary_category_label": "Astrophysics of Galaxies (astro-ph.GA)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27508",
+      "title": "Hard X-ray spectroscopy of a short-period asynchronous polar: IGR J19552+0044",
+      "primary_category_label": "High Energy Astrophysical Phenomena (astro-ph.HE)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-23?abs=True",
+          "section": "New submissions (showing 12 of 12 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27522",
+      "title": "The First Adolescent Super-Earth-Sized Multi-Planet System Around an M Dwarf: TOI-2079",
+      "primary_category_label": "Earth and Planetary Astrophysics (astro-ph.EP)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27527",
+      "title": "Modelling scintillation in Fast Radio Bursts",
+      "primary_category_label": "High Energy Astrophysical Phenomena (astro-ph.HE)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-23?abs=True",
+          "section": "New submissions (showing 12 of 12 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27530",
+      "title": "Blowing star formation away in AGN Hosts (BAH) - VI. Warm Molecular Outflows Driven by the Low-Luminosity AGN in NGC 3884",
+      "primary_category_label": "Astrophysics of Galaxies (astro-ph.GA)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27551",
+      "title": "WISDOM Project -- XXIX. Catalogue of CO observations of nearby galaxies and the CO Tully-Fisher relation",
+      "primary_category_label": "Astrophysics of Galaxies (astro-ph.GA)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27589",
+      "title": "The GAPS programme at TNG. LXXXIII. Orbital refinement and atmospheric investigation of TOI-1518 b (BD+66 1610 b)",
+      "primary_category_label": "Earth and Planetary Astrophysics (astro-ph.EP)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27643",
+      "title": "Hints of planet formation in progress around DR Tau from observations with LBT SHARK-NIR and SHARK-VIS",
+      "primary_category_label": "Earth and Planetary Astrophysics (astro-ph.EP)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27677",
+      "title": "PHOTO-CAT - Photometric Contamination Analyzer Tool: A High-Performance Framework for Photometric Contamination Assessment",
+      "primary_category_label": "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27680",
+      "title": "Characterisation of B-type stars in four young Galactic open clusters. II. Photometric variability with TESS and identification of pulsating stars",
+      "primary_category_label": "Solar and Stellar Astrophysics (astro-ph.SR)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27693",
+      "title": "Probing for relativistic outflows in the Ultraluminous X-ray pulsar RX J0209.6-7427",
+      "primary_category_label": "High Energy Astrophysical Phenomena (astro-ph.HE)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-23?abs=True",
+          "section": "New submissions (showing 12 of 12 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "lower ranked",
+      "reason": "Possible outflow signatures in an X-ray pulsar; less direct particle-physics inference. Not excluded by a filled numerical cap; twelve is only a ceiling.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27742",
+      "title": "Disrupted stars and captured compact objects: Combining observations from multiple messengers to infer the population of massive black holes",
+      "primary_category_label": "High Energy Astrophysical Phenomena (astro-ph.HE)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-23?abs=True",
+          "section": "New submissions (showing 12 of 12 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/gr-qc/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 6 of 6 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "lower ranked",
+      "reason": "Multimessenger population forecast for disrupted stars and captured objects; lower priority for particle-transport questions. Not excluded by a filled numerical cap; twelve is only a ceiling.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27758",
+      "title": "The Time Domain Telescope: A Global Spectroscopic Array",
+      "primary_category_label": "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27761",
+      "title": "TDI-$\\infty$ and beyond",
+      "primary_category_label": "Instrumentation and Methods for Astrophysics (astro-ph.IM)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27770",
+      "title": "2026 QQ8: Earth's temporary flyby of maximum lunation",
+      "primary_category_label": "Earth and Planetary Astrophysics (astro-ph.EP)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27773",
+      "title": "Precise Interstellar Extinction Estimates for Nearly Ten Million Stars Based on Multiple Spectroscopic Surveys",
+      "primary_category_label": "Astrophysics of Galaxies (astro-ph.GA)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27820",
+      "title": "What determines the properties of Population III binaries?",
+      "primary_category_label": "High Energy Astrophysical Phenomena (astro-ph.HE)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-23?abs=True",
+          "section": "New submissions (showing 12 of 12 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/gr-qc/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 6 of 6 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27836",
+      "title": "Carving the Neptunian desert as a function of stellar mass and lifetime XUV irradiation",
+      "primary_category_label": "Earth and Planetary Astrophysics (astro-ph.EP)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27856",
+      "title": "Hotter than Little Red Dots: Two Quasars with $T\\sim10^4\\,\\mathrm{K}$ blackbody-like continua at $z\\sim4$",
+      "primary_category_label": "Astrophysics of Galaxies (astro-ph.GA)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27890",
+      "title": "A TESS Search for Optical Variability in Intermediate-mass Black Hole Candidates",
+      "primary_category_label": "Astrophysics of Galaxies (astro-ph.GA)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27898",
+      "title": "An early interaction between the Sagittarius dwarf and the Milky Way I: Fossil signatures in the phase-space structure of the disc",
+      "primary_category_label": "Astrophysics of Galaxies (astro-ph.GA)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27952",
+      "title": "Atmospheric parameters and chemical abundances of young stars with APOGEE -- II. Carbon, Nitrogen, Oxygen, and Sulphur abundances in Orion",
+      "primary_category_label": "Solar and Stellar Astrophysics (astro-ph.SR)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27954",
+      "title": "Recovering buoyancy-glitch parameters in low-luminosity red giants from global stellar properties with machine learning",
+      "primary_category_label": "Solar and Stellar Astrophysics (astro-ph.SR)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27979",
+      "title": "Nearly pristine gas and hard ionizing radiation one billion years after the Big Bang",
+      "primary_category_label": "Astrophysics of Galaxies (astro-ph.GA)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 71 of 71 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27006",
+      "title": "Physics-Guided Recursive Self-Improvement of Amortized Bayesian Inference Across Physics",
+      "primary_category_label": "Computational Physics (physics.comp-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 9 of 9 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/astro-ph.CO/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 5 of 5 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27228",
+      "title": "Dark Energy Based on Modified Gravity: Where the Future Lies?",
+      "primary_category_label": "General Relativity and Quantum Cosmology (gr-qc)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 9 of 9 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/astro-ph.CO/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 5 of 5 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 21 of 21 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/gr-qc/2026-11-23?abs=True",
+          "section": "New submissions (showing 11 of 11 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27442",
+      "title": "A Relativistic Newton's Third Law for Binaries in Environments",
+      "primary_category_label": "General Relativity and Quantum Cosmology (gr-qc)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 9 of 9 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 7 of 7 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/gr-qc/2026-11-23?abs=True",
+          "section": "New submissions (showing 11 of 11 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27611",
+      "title": "Cosmological Correlators with Triple Massive Exchanges",
+      "primary_category_label": "High Energy Physics - Theory (hep-th)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 9 of 9 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/astro-ph.CO/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 5 of 5 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 5 of 5 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "New submissions (showing 17 of 17 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/gr-qc/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 6 of 6 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27628",
+      "title": "Nuclear Urca cooling in magnetar crust and anomalous heating",
+      "primary_category_label": "Nuclear Theory (nucl-th)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 9 of 9 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 7 of 7 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/nucl-th/2026-11-23?abs=True",
+          "section": "New submissions (showing 7 of 7 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "lower ranked",
+      "reason": "Thermal nuclear Urca cooling; lower priority than nonthermal neutrino interactions. Not excluded by a filled numerical cap; twelve is only a ceiling.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27651",
+      "title": "Coronagraphic time-delay interferometry: fundamental steps towards concrete applications",
+      "primary_category_label": "General Relativity and Quantum Cosmology (gr-qc)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 9 of 9 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/gr-qc/2026-11-23?abs=True",
+          "section": "New submissions (showing 11 of 11 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27669",
+      "title": "Nuclear Precision and Multimessenger Constraints on Neutron-Star Structure",
+      "primary_category_label": "Nuclear Theory (nucl-th)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 9 of 9 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 7 of 7 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/nucl-th/2026-11-23?abs=True",
+          "section": "New submissions (showing 7 of 7 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "lower ranked",
+      "reason": "Nuclear EOS and neutron-star constraints; lower direct relevance to the selected research themes. Not excluded by a filled numerical cap; twelve is only a ceiling.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27848",
+      "title": "Diffusing the assumptions: towards realistic LISA stochastic component separation with physics-aware simulation-based inference",
+      "primary_category_label": "General Relativity and Quantum Cosmology (gr-qc)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 9 of 9 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/gr-qc/2026-11-23?abs=True",
+          "section": "New submissions (showing 11 of 11 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27986",
+      "title": "Ohmic warm inflation",
+      "primary_category_label": "High Energy Physics - Phenomenology (hep-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 9 of 9 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/astro-ph.CO/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 5 of 5 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 28 of 28 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 21 of 21 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.25310",
+      "title": "3D Binary Evolution of a Merging Binary Black Hole Progenitor",
+      "primary_category_label": "Solar and Stellar Astrophysics (astro-ph.SR)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 7 of 7 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26688",
+      "title": "Agent-guided construction of Feynman integral bases",
+      "primary_category_label": "High Energy Physics - Phenomenology (hep-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 28 of 28 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 21 of 21 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26691",
+      "title": "The cosmological lithium problem and how decaying relics still solve it",
+      "primary_category_label": "High Energy Physics - Phenomenology (hep-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 28 of 28 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "selected/full-text reviewed",
+      "reason": "Selected after broad abstract screening and second topic pass for relevance, scientific substance and a substantive comparison with prior primary work.",
+      "full_text_access": "read_full_text",
+      "eligibility": "verified_new_primary_submission_and_v1_history"
+    },
+    {
+      "arxiv": "2611.26692",
+      "title": "Moment bounds and UV reconstruction from curved positivity cones",
+      "primary_category_label": "High Energy Physics - Phenomenology (hep-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 28 of 28 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 21 of 21 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26718",
+      "title": "Dijet production in $e^+e^-$ collisions at NNLO+PS accuracy",
+      "primary_category_label": "High Energy Physics - Phenomenology (hep-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 28 of 28 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/hep-ex/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 2 of 2 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26760",
+      "title": "Exploring Screening Masses of Light and Heavy Spin-$3/2$ Baryons in a Symmetry Preserving Contact Interaction Model",
+      "primary_category_label": "High Energy Physics - Phenomenology (hep-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 28 of 28 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26817",
+      "title": "Study of Radiative Muon Capture Experimental Data and its Implications for Muon-Conversion Experiments",
+      "primary_category_label": "High Energy Physics - Phenomenology (hep-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 28 of 28 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/hep-ex/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 2 of 2 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/nucl-ex/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 1 of 1 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "lower ranked",
+      "reason": "Radiative muon-capture interpretation for conversion experiments; relevant particle phenomenology but lower priority. Not excluded by a filled numerical cap; twelve is only a ceiling.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26844",
+      "title": "Unstable particle collisions in space and time",
+      "primary_category_label": "High Energy Physics - Phenomenology (hep-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 28 of 28 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "lower ranked",
+      "reason": "Unstable-particle scattering formalism; less directly connected to source transport than selected work. Not excluded by a filled numerical cap; twelve is only a ceiling.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27014",
+      "title": "Evidence for Y-shaped color confinement of fully heavy baryons",
+      "primary_category_label": "High Energy Physics - Phenomenology (hep-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 28 of 28 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/nucl-th/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 5 of 5 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27079",
+      "title": "Weight-space programming and mechanistic interpretability for model editing in particle physics",
+      "primary_category_label": "High Energy Physics - Phenomenology (hep-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 28 of 28 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27314",
+      "title": "Electronic Wichmann-Kroll correction to the energy levels of muonic hydrogen-like atoms",
+      "primary_category_label": "High Energy Physics - Phenomenology (hep-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 28 of 28 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27324",
+      "title": "A resolution-based framework for coherent and decoherent jet energy loss in NLO pQCD",
+      "primary_category_label": "High Energy Physics - Phenomenology (hep-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 28 of 28 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27356",
+      "title": "Interplay of elliptical laser polarization and scattering geometry in laser-assisted pair production of doubly charged Higgs bosons in the Higgs Triplet Model",
+      "primary_category_label": "High Energy Physics - Phenomenology (hep-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 28 of 28 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27363",
+      "title": "Mass Spectra and Radiative Decay Widths of \\(D_{s0}^{*}(2317)^+\\), \\(D_{s1}(2460)^+\\) and \\(D'_{s1}(2536)^+\\)",
+      "primary_category_label": "High Energy Physics - Phenomenology (hep-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 28 of 28 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/nucl-th/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 5 of 5 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27456",
+      "title": "Flavor-Modulated Neutrino Communication: Channel Model, Modulation Schemes, and Link Budget for Through-Earth Links",
+      "primary_category_label": "High Energy Physics - Phenomenology (hep-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 28 of 28 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "lower ranked",
+      "reason": "Idealized neutrino-communication channel proposal; lower scientific priority than the exact oscillation symmetry analysis. Not excluded by a filled numerical cap; twelve is only a ceiling.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27518",
+      "title": "Probing Compressed Dark Sectors at a Muon Collider through Dilepton Signatures and Machine Learning",
+      "primary_category_label": "High Energy Physics - Phenomenology (hep-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 28 of 28 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "lower ranked",
+      "reason": "Future muon-collider dark-sector forecast; lower immediate priority than selected studies. Not excluded by a filled numerical cap; twelve is only a ceiling.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27599",
+      "title": "Saturation effects in two and three jet production processes at LH$μ$C",
+      "primary_category_label": "High Energy Physics - Phenomenology (hep-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 28 of 28 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27602",
+      "title": "Probing grand unification in the dark dimension: proton decay and collider signatures",
+      "primary_category_label": "High Energy Physics - Phenomenology (hep-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 28 of 28 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 21 of 21 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27612",
+      "title": "Analysis of the triply-charm tetraquark states via the QCD sum rules",
+      "primary_category_label": "High Energy Physics - Phenomenology (hep-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 28 of 28 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27681",
+      "title": "Zeroing in on BSM at Colliders",
+      "primary_category_label": "High Energy Physics - Phenomenology (hep-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 28 of 28 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27704",
+      "title": "A pseudoscalar Higgs boson interfering with toponium: a QCD analysis of $\\mathbf{gg\\to A\\to t\\bar t}$ near threshold",
+      "primary_category_label": "High Energy Physics - Phenomenology (hep-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 28 of 28 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27708",
+      "title": "Quark dipole operators in the gradient-flow scheme at NNLO QCD",
+      "primary_category_label": "High Energy Physics - Phenomenology (hep-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 28 of 28 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27716",
+      "title": "Challenging the Körner-Pati-Woo Theorem in Charmed Baryon Decays",
+      "primary_category_label": "High Energy Physics - Phenomenology (hep-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 28 of 28 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27786",
+      "title": "Balancing heavy flavour: Quantum number compensation in the hadronisation of charm and beauty particles in proton-proton collisions",
+      "primary_category_label": "High Energy Physics - Phenomenology (hep-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 28 of 28 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27801",
+      "title": "Quantifying the TKM-IKT ambiguity: translating the theoretical benchmark into experimental discriminants for future colliders",
+      "primary_category_label": "High Energy Physics - Phenomenology (hep-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 28 of 28 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27883",
+      "title": "Soft-photon resummation for low-energy $e^+e^-$ colliders",
+      "primary_category_label": "High Energy Physics - Phenomenology (hep-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 28 of 28 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 21 of 21 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27944",
+      "title": "Probing CP violation in weak radiative and dielectron decays of $Λ$ and $Ξ^-$ hyperons",
+      "primary_category_label": "High Energy Physics - Phenomenology (hep-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 28 of 28 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27985",
+      "title": "Is Neutrino Disappearance Sensitive to T-Violation for Asymmetric Matter Profiles ?",
+      "primary_category_label": "High Energy Physics - Phenomenology (hep-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "section": "New submissions (showing 28 of 28 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "selected/full-text reviewed",
+      "reason": "Selected after broad abstract screening and second topic pass for relevance, scientific substance and a substantive comparison with prior primary work.",
+      "full_text_access": "read_full_text",
+      "eligibility": "verified_new_primary_submission_and_v1_history"
+    },
+    {
+      "arxiv": "2611.26784",
+      "title": "Parity-violating optical rotation in the Th-229 nuclear clock transition",
+      "primary_category_label": "Atomic Physics (physics.atom-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 5 of 5 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/nucl-th/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 5 of 5 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26791",
+      "title": "A relativistic von Kármán relation for assessing applicability of hydrodynamics",
+      "primary_category_label": "Nuclear Theory (nucl-th)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 5 of 5 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/nucl-th/2026-11-23?abs=True",
+          "section": "New submissions (showing 7 of 7 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27367",
+      "title": "Regularizing gravity in the presence of matter fields",
+      "primary_category_label": "General Relativity and Quantum Cosmology (gr-qc)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-ph/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 5 of 5 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/gr-qc/2026-11-23?abs=True",
+          "section": "New submissions (showing 11 of 11 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26679",
+      "title": "Feynman integrals, coactions and Lie-algebra representations",
+      "primary_category_label": "High Energy Physics - Theory (hep-th)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "New submissions (showing 17 of 17 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26687",
+      "title": "A matrix model of an M5--brane on a plane--wave background",
+      "primary_category_label": "High Energy Physics - Theory (hep-th)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "New submissions (showing 17 of 17 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26694",
+      "title": "Onset of quantum chaos in a family of two-dimensional conformal field theories",
+      "primary_category_label": "High Energy Physics - Theory (hep-th)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "New submissions (showing 17 of 17 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27002",
+      "title": "Energy and Charge Transmission at Conformal Interfaces: Relations and Bounds",
+      "primary_category_label": "High Energy Physics - Theory (hep-th)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "New submissions (showing 17 of 17 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27021",
+      "title": "Perturbative $S$-matrix Unitarity in Higher-Derivative Theory of Fermions",
+      "primary_category_label": "High Energy Physics - Theory (hep-th)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "New submissions (showing 17 of 17 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27134",
+      "title": "String breaking in a (1+1)-dimensional $e^+e^-$ collider",
+      "primary_category_label": "High Energy Physics - Theory (hep-th)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "New submissions (showing 17 of 17 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27378",
+      "title": "Pairing and modular: Generalized electrons and quasiholes inside the $\\boxtimes$ of topological orders",
+      "primary_category_label": "High Energy Physics - Theory (hep-th)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "New submissions (showing 17 of 17 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27411",
+      "title": "Neural variational Skyrmions as a topological benchmark: emergent symmetry, precision energies and KAN--MLP comparison",
+      "primary_category_label": "High Energy Physics - Theory (hep-th)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "New submissions (showing 17 of 17 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/nucl-th/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 5 of 5 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27437",
+      "title": "Gauging background isometries of the ILST null string",
+      "primary_category_label": "High Energy Physics - Theory (hep-th)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "New submissions (showing 17 of 17 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27464",
+      "title": "The $a$-function in fractional dimensions",
+      "primary_category_label": "High Energy Physics - Theory (hep-th)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "New submissions (showing 17 of 17 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27482",
+      "title": "Polarized IKKT holography: bulk realization of BPS operators",
+      "primary_category_label": "High Energy Physics - Theory (hep-th)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "New submissions (showing 17 of 17 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27488",
+      "title": "BMS Charges from Null Hypersurfaces",
+      "primary_category_label": "High Energy Physics - Theory (hep-th)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "New submissions (showing 17 of 17 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/gr-qc/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 6 of 6 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27546",
+      "title": "Banana D-modules",
+      "primary_category_label": "High Energy Physics - Theory (hep-th)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "New submissions (showing 17 of 17 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27573",
+      "title": "The Kerr Metric in Canonical Harmonic Coordinates to All Orders",
+      "primary_category_label": "High Energy Physics - Theory (hep-th)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "New submissions (showing 17 of 17 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/gr-qc/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 6 of 6 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27739",
+      "title": "Bulk Wilson Loops from $\\mathscr{I}$",
+      "primary_category_label": "High Energy Physics - Theory (hep-th)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "New submissions (showing 17 of 17 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27861",
+      "title": "Brane Tilings and Polygons with Two Interior Points",
+      "primary_category_label": "High Energy Physics - Theory (hep-th)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "New submissions (showing 17 of 17 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26632",
+      "title": "Symmetry, boundary conditions, and the Noether correspondence of the Zakharov--Kuznetsov equation",
+      "primary_category_label": "Analysis of PDEs (math.AP)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 21 of 21 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26659",
+      "title": "Gravitational Wave Detection via Massive-Particle Interferometry",
+      "primary_category_label": "General Relativity and Quantum Cosmology (gr-qc)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 21 of 21 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/gr-qc/2026-11-23?abs=True",
+          "section": "New submissions (showing 11 of 11 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26872",
+      "title": "Majorana quasiparticles, mass hierarchies, and the phase diagram of the Gross-Neveu model in D=2+1",
+      "primary_category_label": "Strongly Correlated Electrons (cond-mat.str-el)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 21 of 21 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26890",
+      "title": "Unified Yet Non-fundamental: The Origins of Steven Weinberg's Early Conception of Effective Field Theories",
+      "primary_category_label": "History and Philosophy of Physics (physics.hist-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 21 of 21 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26974",
+      "title": "Calabi-Yau at 50: mathematical discovery in the age of AI",
+      "primary_category_label": "Algebraic Geometry (math.AG)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 21 of 21 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26997",
+      "title": "On a Supersymmetric Generalization of the Matytsin Formula",
+      "primary_category_label": "Mathematical Physics (math-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 21 of 21 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27271",
+      "title": "A covariant analysis of massless Dirac fields in LRS spacetimes",
+      "primary_category_label": "General Relativity and Quantum Cosmology (gr-qc)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 21 of 21 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/gr-qc/2026-11-23?abs=True",
+          "section": "New submissions (showing 11 of 11 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27307",
+      "title": "Numerical tests of 5D APS $η$-invariant phases for 4D chiral fermions",
+      "primary_category_label": "High Energy Physics - Lattice (hep-lat)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 21 of 21 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27332",
+      "title": "Thermal photon production in massless boost-invariant gases: hydrodynamization without thermalization",
+      "primary_category_label": "Nuclear Theory (nucl-th)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 21 of 21 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/nucl-th/2026-11-23?abs=True",
+          "section": "New submissions (showing 7 of 7 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27402",
+      "title": "Quantum computing for gearing down complex many-fermion problems",
+      "primary_category_label": "Quantum Physics (quant-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 21 of 21 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/nucl-th/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 5 of 5 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27608",
+      "title": "Effective theory of quantum black holes with Kretschmann scalar",
+      "primary_category_label": "General Relativity and Quantum Cosmology (gr-qc)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 21 of 21 entries)"
+        },
+        {
+          "url": "https://arxiv.org/catchup/gr-qc/2026-11-23?abs=True",
+          "section": "New submissions (showing 11 of 11 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27767",
+      "title": "Disk 2-point functions for conformal loop ensemble: a derivation from the SLE loop CFT",
+      "primary_category_label": "Statistical Mechanics (cond-mat.stat-mech)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 21 of 21 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27768",
+      "title": "Solving fermionic sign problems with physics-informed kernels",
+      "primary_category_label": "High Energy Physics - Lattice (hep-lat)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 21 of 21 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27982",
+      "title": "Quantum Many-Body Scars from Operator Size",
+      "primary_category_label": "Strongly Correlated Electrons (cond-mat.str-el)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/hep-th/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 21 of 21 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27195",
+      "title": "Type-II quasinormal modes of dilaton--Euler--Heisenberg AdS black holes",
+      "primary_category_label": "General Relativity and Quantum Cosmology (gr-qc)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/gr-qc/2026-11-23?abs=True",
+          "section": "New submissions (showing 11 of 11 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27212",
+      "title": "Microscopic Cosmological Backreaction of an Ultralight Majoron Coupled to a Coherent Hidden Pseudo-Dirac Ensemble",
+      "primary_category_label": "General Relativity and Quantum Cosmology (gr-qc)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/gr-qc/2026-11-23?abs=True",
+          "section": "New submissions (showing 11 of 11 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "lower ranked",
+      "reason": "Model-dependent ultralight-Majoron cosmological backreaction benchmark; lower priority than selected transport and oscillation results. Not excluded by a filled numerical cap; twelve is only a ceiling.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27374",
+      "title": "Efficient Analysis of Numerous Galactic Compact Binaries via the Free-bin Scheme",
+      "primary_category_label": "General Relativity and Quantum Cosmology (gr-qc)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/gr-qc/2026-11-23?abs=True",
+          "section": "New submissions (showing 11 of 11 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27588",
+      "title": "Test of gravitational redshift by optical clocks at different latitudes",
+      "primary_category_label": "Atomic Physics (physics.atom-ph)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/gr-qc/2026-11-23?abs=True",
+          "section": "Cross submissions (showing 6 of 6 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.26895",
+      "title": "Nuclear Shell Model on the Light Front",
+      "primary_category_label": "Nuclear Theory (nucl-th)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/nucl-th/2026-11-23?abs=True",
+          "section": "New submissions (showing 7 of 7 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27235",
+      "title": "u4lib: An AI-Ready Computational Framework for U(4) Symmetry Algebra, Wigner Coupling, and Racah Recoupling Coefficients",
+      "primary_category_label": "Nuclear Theory (nucl-th)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/nucl-th/2026-11-23?abs=True",
+          "section": "New submissions (showing 7 of 7 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    },
+    {
+      "arxiv": "2611.27971",
+      "title": "Soft--hard Bayesian inference in heavy-ion collisions",
+      "primary_category_label": "Nuclear Theory (nucl-th)",
+      "listing_evidence": [
+        {
+          "url": "https://arxiv.org/catchup/nucl-th/2026-11-23?abs=True",
+          "section": "New submissions (showing 7 of 7 entries)"
+        }
+      ],
+      "title_and_abstract_read": true,
+      "disposition": "screened out",
+      "reason": "Title and abstract assessed; the main research question is less directly connected to nonthermal particle sources/transport, neutrino physics or especially relevant BSM/cosmology than the selected work. No full-text assessment or claim of scientific invalidity.",
+      "full_text_access": "not_retrieved_for_review",
+      "eligibility": "listing_screened; version/first-announcement history not individually verified for highlighting"
+    }
+  ],
+  "replacement_inventory": [
+    {
+      "arxiv": "2502.11568",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2508.03823",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2601.05048",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2601.14559",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2602.16651",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2604.23216",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2605.01022",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2605.06517",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2605.13738",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2606.02717",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2606.10017",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2606.25025",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2606.30438",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2607.14525",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2607.15204",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2607.21244",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2607.28736",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2608.09014",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2608.13346",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2608.14518",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2609.00115",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2609.20787",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2609.25842",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2609.35969",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2610.10522",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2610.17081",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2610.20746",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2611.07405",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2611.12284",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2611.16480",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2611.16494",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2611.19631",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2611.24110",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2611.25804",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2508.18448",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2510.07387",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2511.08448",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2601.22644",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2602.23915",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2603.16220",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2605.18944",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2606.19446",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2607.23119",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2610.11242",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2611.25688",
+      "category": "astro-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2601.05048",
+      "category": "astro-ph.HE",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2606.10017",
+      "category": "astro-ph.HE",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2608.09014",
+      "category": "astro-ph.HE",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2609.20787",
+      "category": "astro-ph.HE",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2609.25842",
+      "category": "astro-ph.HE",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2610.10522",
+      "category": "astro-ph.HE",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2603.16220",
+      "category": "astro-ph.HE",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2606.19446",
+      "category": "astro-ph.HE",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2607.28736",
+      "category": "astro-ph.HE",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2502.11568",
+      "category": "astro-ph.CO",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2508.03823",
+      "category": "astro-ph.CO",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2601.14559",
+      "category": "astro-ph.CO",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2602.16651",
+      "category": "astro-ph.CO",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2607.14525",
+      "category": "astro-ph.CO",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2607.21244",
+      "category": "astro-ph.CO",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2608.13346",
+      "category": "astro-ph.CO",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2508.18448",
+      "category": "astro-ph.CO",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2511.08448",
+      "category": "astro-ph.CO",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2601.22644",
+      "category": "astro-ph.CO",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2602.23915",
+      "category": "astro-ph.CO",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2605.13738",
+      "category": "astro-ph.CO",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2605.18944",
+      "category": "astro-ph.CO",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2606.10017",
+      "category": "astro-ph.CO",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2607.23119",
+      "category": "astro-ph.CO",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2608.09014",
+      "category": "astro-ph.CO",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2609.00115",
+      "category": "astro-ph.CO",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2611.16480",
+      "category": "astro-ph.CO",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2410.12180",
+      "category": "hep-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2508.01043",
+      "category": "hep-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2510.07387",
+      "category": "hep-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2511.02363",
+      "category": "hep-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2602.23915",
+      "category": "hep-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2603.29673",
+      "category": "hep-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2605.00181",
+      "category": "hep-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2605.18944",
+      "category": "hep-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2605.27910",
+      "category": "hep-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2607.12006",
+      "category": "hep-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2607.16907",
+      "category": "hep-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2608.04182",
+      "category": "hep-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2608.18894",
+      "category": "hep-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2608.31109",
+      "category": "hep-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2609.15461",
+      "category": "hep-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2611.10075",
+      "category": "hep-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2611.11600",
+      "category": "hep-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2508.03823",
+      "category": "hep-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2508.18448",
+      "category": "hep-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2511.08448",
+      "category": "hep-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2601.06582",
+      "category": "hep-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2601.18875",
+      "category": "hep-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2605.29902",
+      "category": "hep-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2606.10017",
+      "category": "hep-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2607.21244",
+      "category": "hep-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2608.30447",
+      "category": "hep-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2609.11448",
+      "category": "hep-ph",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2606.13613",
+      "category": "hep-ex",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2609.13593",
+      "category": "hep-ex",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2609.17726",
+      "category": "hep-ex",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2609.17738",
+      "category": "hep-ex",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2510.07387",
+      "category": "hep-ex",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2608.22482",
+      "category": "hep-ex",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2601.08664",
+      "category": "hep-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2601.18875",
+      "category": "hep-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2603.11163",
+      "category": "hep-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2604.27751",
+      "category": "hep-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2605.10662",
+      "category": "hep-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2605.21581",
+      "category": "hep-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2606.17171",
+      "category": "hep-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2608.30160",
+      "category": "hep-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2608.30447",
+      "category": "hep-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2609.04016",
+      "category": "hep-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2609.11448",
+      "category": "hep-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2610.17165",
+      "category": "hep-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2610.17239",
+      "category": "hep-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2611.03970",
+      "category": "hep-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2611.15510",
+      "category": "hep-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2611.21725",
+      "category": "hep-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2503.23193",
+      "category": "hep-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2510.26713",
+      "category": "hep-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2601.22644",
+      "category": "hep-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2604.02856",
+      "category": "hep-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2606.19446",
+      "category": "hep-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2606.24536",
+      "category": "hep-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2606.26848",
+      "category": "hep-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2607.21244",
+      "category": "hep-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2610.34176",
+      "category": "hep-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2610.34277",
+      "category": "hep-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2611.06616",
+      "category": "hep-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2611.13462",
+      "category": "hep-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2611.21720",
+      "category": "hep-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2503.23193",
+      "category": "gr-qc",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2508.18448",
+      "category": "gr-qc",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2511.08448",
+      "category": "gr-qc",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2601.22644",
+      "category": "gr-qc",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2605.22210",
+      "category": "gr-qc",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2605.28716",
+      "category": "gr-qc",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2606.19446",
+      "category": "gr-qc",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2606.26848",
+      "category": "gr-qc",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2607.23119",
+      "category": "gr-qc",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2609.33002",
+      "category": "gr-qc",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2611.13462",
+      "category": "gr-qc",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2601.05048",
+      "category": "gr-qc",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2604.27751",
+      "category": "gr-qc",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2605.13738",
+      "category": "gr-qc",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2605.27910",
+      "category": "gr-qc",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2606.17171",
+      "category": "gr-qc",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2607.21244",
+      "category": "gr-qc",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2611.14315",
+      "category": "gr-qc",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2608.22482",
+      "category": "nucl-ex",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2404.02007",
+      "category": "nucl-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2603.16220",
+      "category": "nucl-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2611.25688",
+      "category": "nucl-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2410.12180",
+      "category": "nucl-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2601.06582",
+      "category": "nucl-th",
+      "disposition": "excluded replacement"
+    },
+    {
+      "arxiv": "2609.15461",
+      "category": "nucl-th",
+      "disposition": "excluded replacement"
+    }
+  ],
+  "revision_provenance": {
+    "edition_listing_date": "2026-11-23",
+    "prepared_at": "2026-11-23T08:21:52+01:00",
+    "base_main": "5164bc71d843a2106bfbe13888ecd61ae03d399c",
+    "retrospective": false,
+    "prior_selected_for_this_edition": []
+  }
+}
