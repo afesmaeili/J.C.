@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-24",
+  "part": "news",
+  "status": "partial",
+  "cutoff": "2026-11-24T08:04:03+01:00",
+  "window_start": "2026-11-23T08:06:00+01:00",
+  "window_end": "2026-11-24T08:04:03+01:00",
+  "previous_part": "content-parts/2026-11-23/news.json",
+  "selected_story_count": 7,
+  "checked_fields": {
+    "physics_and_astronomy": ["NASA", "ESA", "ESO", "CERN", "Fermilab", "SLAC", "Rubin Observatory", "IAU"],
+    "mathematics": ["targeted journal and institutional search", "major-claim follow-up search"],
+    "ai_assisted_science": ["targeted primary-paper search", "Nature Computational Science and cross-disciplinary results"],
+    "biology_and_genetics": ["Nature Genetics", "Nature Communications", "Cell Press", "PNAS"],
+    "chemistry": ["Nature Chemistry", "ACS-targeted search", "Science/Science Advances"],
+    "geology_and_palaeoclimate": ["Nature Geoscience", "Science/Science Advances", "institutional releases"],
+    "neuroscience": ["Nature Neuroscience", "Nature Biomedical Engineering", "Cell Press"],
+    "medicine": ["JAMA and JAMA Network", "Nature Medicine-targeted search", "major trial indexes"]
+  },
+  "selected_sources": [
+    {
+      "story": "Cassiopeia A dust chemistry",
+      "publication_date": "2026-11-23",
+      "sources": ["https://doi.org/10.3847/2041-8213/aea901", "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution/"],
+      "evidence": "Peer-reviewed research article plus mission release."
+    },
+    {
+      "story": "ESA sulphur-dioxide climate records",
+      "announcement_date": "2026-11-23",
+      "source": "https://climate.esa.int/en/news-events/new-satellite-records-track-sulphur-dioxide-for-28-years/",
+      "evidence": "Authoritative dataset announcement; this is a data release, not a new trend result."
+    },
+    {
+      "story": "Mouse pangenome graph reference",
+      "publication_date": "2026-11-23",
+      "source": "https://www.nature.com/articles/s41588-026-02842-1",
+      "evidence": "Peer-reviewed open research page with methods, performance and data/code availability."
+    },
+    {
+      "story": "Artificial photoenzyme",
+      "publication_date": "2026-11-23",
+      "source": "https://www.nature.com/articles/s41557-026-02297-1",
+      "evidence": "Open-access peer-reviewed article; full research page, figures and methods inspected."
+    },
+    {
+      "story": "Shared multilingual meaning component",
+      "publication_date": "2026-11-23",
+      "sources": ["https://www.nature.com/articles/s41593-026-02523-6", "https://github.com/Andrea-de-Varda/multilingual-models-brain"],
+      "evidence": "Peer-reviewed article plus public code/reproducibility repository."
+    },
+    {
+      "story": "Last-glacial North Pacific oxygenation",
+      "publication_date": "2026-11-23",
+      "sources": ["https://www.nature.com/articles/s41561-026-02122-x", "https://zenodo.org/records/21784350"],
+      "evidence": "Peer-reviewed article plus deposited proxy and age-model data."
+    },
+    {
+      "story": "PEAChY-M pediatric sedation trial",
+      "publication_date": "2026-11-23",
+      "source": "https://jamanetwork.com/journals/jama/fullarticle/2857277",
+      "evidence": "Peer-reviewed randomized clinical trial; full article, protocol-linked methods, tables and limitations inspected."
+    }
+  ],
+  "screened_not_selected": [
+    {
+      "field": "mathematics and AI-assisted mathematics",
+      "reason": "No new, independently substantiated result within the exact window cleared the threshold. The Riemann-hypothesis claim and joint verification statement were dated before this window; 23 November clarification posts did not constitute a new theorem or verification event."
+    },
+    {
+      "field": "institutional physics news",
+      "reason": "Routine publicity, application deadlines and previously reported mission-selection announcements were excluded."
+    },
+    {
+      "field": "medicine",
+      "reason": "Reviews, research summaries and observational associations without a stronger same-window contribution were excluded."
+    }
+  ],
+  "access_gaps": [
+    "Some dynamic publisher indexes and subscription-gated supplementary files could not be screened exhaustively.",
+    "Several Nature Portfolio articles were available as accepted early versions subject to copy-editing.",
+    "A quiet or unselected field is not evidence that no research appeared in that field."
+  ]
+}
