@@ -1,0 +1,124 @@
+{
+  "date": "2026-11-24",
+  "part": "alerts",
+  "status": "partial",
+  "cutoff": "2026-11-24T08:00:52+01:00",
+  "window_start_utc": "2026-11-23T09:44:09Z",
+  "window_end_utc": "2026-11-24T07:00:52Z",
+  "previous_part": "content-parts/2026-11-23/alerts.json",
+  "selected_story_count": 5,
+  "source_checklist": [
+    {
+      "source": "GCN Circulars",
+      "url": "https://gcn.nasa.gov/circulars",
+      "checked_range": "46347–46352",
+      "result": "All six report bodies screened. 46347–46351 selected in four grouped GCN stories; ATel 18166 supplies the fifth story; 46352 classified an EP trigger as a likely stellar flare and was excluded from the public astroparticle selection. GCN 46349 v2, edited 2026-11-24T06:33:58Z, supersedes its first version. No retraction was found in the checked range."
+    },
+    {
+      "source": "The Astronomer's Telegram",
+      "url": "https://www.astronomerstelegram.org/",
+      "checked_range": "18166",
+      "result": "Latest telegram at cutoff; selected Fermi-LAT activity from PKS 1958−179."
+    },
+    {
+      "source": "IceCube Gold/Bronze notices",
+      "url": "https://gcn.gsfc.nasa.gov/amon_icecube_gold_bronze_events.html",
+      "checked_range": "through IceCube-261123A",
+      "result": "No newer Gold/Bronze event after the previous cutoff. IceCube-261123A was already reported on 2026-11-23."
+    },
+    {
+      "source": "IceCube Cascade and AMON neutrino–electromagnetic tables",
+      "urls": [
+        "https://gcn.gsfc.nasa.gov/amon_icecube_cascade_events.html",
+        "https://gcn.gsfc.nasa.gov/amon_nu_em_coinc_events.html"
+      ],
+      "result": "No in-window entry; tables are stale and do not establish channel quietness."
+    },
+    {
+      "source": "Fermi public trigger table",
+      "url": "https://gcn.gsfc.nasa.gov/gcn/fermi_grbs.html",
+      "result": "Trigger 817149254 at 2026-11-23T17:54:09.45Z had only a flight position (RA 272.700°, Dec −34.683°, 27.88° error) and no final astrophysical classification at cutoff; recorded as unresolved, not selected."
+    },
+    {
+      "source": "Swift/BAT GUANO",
+      "url": "https://guano.swift.psu.edu/",
+      "result": "Entries for Fermi trigger 817149254 and EP trigger 01709322890 were waiting for products. Pending products were not treated as detections or non-detections."
+    },
+    {
+      "source": "LVK public GraceDB",
+      "url": "https://gracedb.ligo.org/superevents/public/",
+      "result": "Public latest page and targeted current-event search checked; no new production astrophysical alert was visible in the window. Direct API enumeration was inaccessible, so this is partial coverage rather than verified absence. MDC/test events were not treated as astrophysical alerts."
+    },
+    {
+      "source": "KM3NeT and targeted ground-array/cosmic-ray searches",
+      "urls": [
+        "https://www.km3net.org/",
+        "https://gcn.gsfc.nasa.gov/amon_hawc_events.html"
+      ],
+      "result": "No qualifying new event alert found. No complete live KM3NeT alert ledger was accessible, and the legacy HAWC table is stale. Targeted LHAASO, Auger and Telescope Array searches found no qualifying in-window alert."
+    }
+  ],
+  "selected_events": [
+    {
+      "event": "GRB 261122B",
+      "sources": [
+        "https://gcn.nasa.gov/circulars/46348",
+        "https://gcn.nasa.gov/circulars/46351"
+      ],
+      "disposition": "selected and grouped",
+      "reason": "New optical and radio detections of a previously reported burst counterpart."
+    },
+    {
+      "event": "GRB 261119A",
+      "sources": [
+        "https://gcn.nasa.gov/circulars/46349"
+      ],
+      "disposition": "selected; latest v2 used",
+      "reason": "Offline ECLAIRs recovery supplies short duration, spectrum and a much smaller localization."
+    },
+    {
+      "event": "PKS 1958−179",
+      "sources": [
+        "https://www.astronomerstelegram.org/?read=18166"
+      ],
+      "disposition": "selected",
+      "reason": "Renewed, hard-spectrum Fermi-LAT gamma-ray activity."
+    },
+    {
+      "event": "EP261015a / SN 2026ahoa",
+      "sources": [
+        "https://gcn.nasa.gov/circulars/46347"
+      ],
+      "disposition": "selected",
+      "reason": "New radio upper limit at a physically informative late epoch."
+    },
+    {
+      "event": "EP261122a",
+      "sources": [
+        "https://gcn.nasa.gov/circulars/46350"
+      ],
+      "disposition": "selected",
+      "reason": "New near-infrared counterpart limits."
+    }
+  ],
+  "excluded_or_unresolved": [
+    {
+      "event": "EP trigger 01709322890",
+      "source": "https://gcn.nasa.gov/circulars/46352",
+      "disposition": "screened out",
+      "reason": "Reported as a likely stellar flare from 2MASS J01433150+3904165; routine classification outside the selected astroparticle-alert threshold."
+    },
+    {
+      "event": "Fermi trigger 817149254",
+      "disposition": "unresolved",
+      "reason": "Only an automatic flight position was available; no final classification or follow-up circular at cutoff."
+    }
+  ],
+  "access_gaps": [
+    "Direct GraceDB API enumeration was inaccessible; public-page and targeted-search coverage is incomplete.",
+    "Modern Kafka streams and downloadable sky maps were not exhaustively enumerated.",
+    "Swift/BAT products for two new triggers were pending.",
+    "No complete live KM3NeT alert ledger was accessible.",
+    "The legacy HAWC and several AMON tables are stale."
+  ]
+}
