@@ -1,0 +1,134 @@
+{
+  "date": "2026-11-25",
+  "part": "alerts",
+  "status": "partial",
+  "cutoff": "2026-11-25T08:04:25+01:00",
+  "window": {
+    "start": "2026-11-24T07:00:52Z",
+    "end": "2026-11-25T07:04:25Z",
+    "basis": "Previous alerts-part cutoff through current source-check cutoff."
+  },
+  "sources_checked": [
+    {
+      "name": "GCN Circulars",
+      "url": "https://gcn.nasa.gov/circulars",
+      "range": "46354–46362",
+      "result": "All nine in-window Circular bodies screened; 46354–46355 were older-GRB refined optical limits and 46359 a stellar-flare confirmation; six event groups selected from 46356–46358 and 46360–46362."
+    },
+    {
+      "name": "Astronomer's Telegram",
+      "url": "https://www.astronomerstelegram.org/",
+      "range": "18167–18168",
+      "result": "18167 selected; 18168 concerned comet outbursts outside the astroparticle-alert priority."
+    },
+    {
+      "name": "IceCube Gold/Bronze",
+      "url": "https://gcn.gsfc.nasa.gov/amon_icecube_gold_bronze_events.html",
+      "result": "Checked for new or revised public track alerts; IceCube-261123A follow-up grouped with the existing event."
+    },
+    {
+      "name": "IceCube Cascade and neutrino–EM tables",
+      "url": "https://gcn.gsfc.nasa.gov/amon_icecube_cascade_events.html",
+      "result": "Checked legacy public tables; these are not complete modern Kafka ledgers."
+    },
+    {
+      "name": "Swift/BAT GUANO",
+      "url": "https://guano.swift.psu.edu/",
+      "result": "Checked queue through the cutoff; several 24 November Fermi/CALET triggers and IceCube-261123A still showed analyses/products pending."
+    },
+    {
+      "name": "Fermi GBM trigger resources",
+      "url": "https://heasarc.gsfc.nasa.gov/W3Browse/all/fermigtrig.html",
+      "result": "Checked current trigger-resource state and GCN follow-ups; the catalogue page lagged the latest trigger queue."
+    },
+    {
+      "name": "GraceDB public latest",
+      "url": "https://gracedb.ligo.org/latest/",
+      "result": "Public latest view checked; direct API enumeration unavailable in this run and modern/private test streams not treated as astrophysical alerts."
+    },
+    {
+      "name": "KM3NeT",
+      "url": "https://www.km3net.org/",
+      "result": "Official current pages and targeted searches checked; no complete public real-time alert ledger was available."
+    },
+    {
+      "name": "Ground arrays and cosmic-ray facilities",
+      "url": "https://www.hawc-observatory.org/",
+      "result": "Targeted searches performed; legacy HAWC/AMON sources are not complete current ledgers."
+    }
+  ],
+  "selected": [
+    {
+      "event": "EP261122b",
+      "reports": [
+        "https://gcn.nasa.gov/circulars/46356",
+        "https://gcn.nasa.gov/circulars/46361"
+      ],
+      "reason": "Refined X-ray timing/spectrum and new optical limits with a conditional high-redshift inference."
+    },
+    {
+      "event": "GRB 261121A",
+      "reports": [
+        "https://gcn.nasa.gov/circulars/46357"
+      ],
+      "reason": "Materially improved 3σ localization."
+    },
+    {
+      "event": "IceCube-261123A",
+      "reports": [
+        "https://gcn.nasa.gov/circulars/46358",
+        "https://gcn.nasa.gov/circulars/46345"
+      ],
+      "reason": "New optical follow-up of an existing Bronze candidate."
+    },
+    {
+      "event": "GRB 261119A",
+      "reports": [
+        "https://gcn.nasa.gov/circulars/46360"
+      ],
+      "reason": "New preliminary GBM duration and prompt-spectrum measurements."
+    },
+    {
+      "event": "GRB 261121B",
+      "reports": [
+        "https://gcn.nasa.gov/circulars/46362"
+      ],
+      "reason": "New GRM duration, morphology and fluence."
+    },
+    {
+      "event": "PKS 2232-488",
+      "reports": [
+        "https://www.astronomerstelegram.org/?read=18167"
+      ],
+      "reason": "Record daily LAT state with spectral hardening."
+    }
+  ],
+  "not_selected": [
+    {
+      "reports": [
+        "https://gcn.nasa.gov/circulars/46354",
+        "https://gcn.nasa.gov/circulars/46355"
+      ],
+      "reason": "Refined optical non-detections for 8 November bursts; scientifically valid but incremental and outside the current event window."
+    },
+    {
+      "report": "https://gcn.nasa.gov/circulars/46359",
+      "reason": "Additional confirmation of the already classified stellar flare; no astroparticle implication."
+    },
+    {
+      "report": "https://www.astronomerstelegram.org/?read=18168",
+      "reason": "Comet outbursts outside the report's astroparticle-alert priorities."
+    }
+  ],
+  "gaps": [
+    "Direct GraceDB API enumeration was inaccessible; only the public latest view was checked.",
+    "Modern Kafka notices and full probability-map streams were not exhaustively enumerated.",
+    "Several new Swift/BAT GUANO entries remained pending at the cutoff.",
+    "Legacy HAWC/AMON tables and public KM3NeT pages are not complete real-time alert ledgers."
+  ],
+  "notes": [
+    "Observation times and report times are kept separate.",
+    "Counterpart non-detections are treated as finite-depth, finite-field measurements rather than absence of a source.",
+    "No alert association was inferred from sky/time coincidence alone."
+  ]
+}
