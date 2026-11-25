@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-25",
+  "part": "news",
+  "status": "partial",
+  "cutoff": "2026-11-25T17:36:37+01:00",
+  "window_start": "2026-11-24T08:04:03+01:00",
+  "window_end": "2026-11-25T17:36:37+01:00",
+  "previous_part": "content-parts/2026-11-24/news.json",
+  "selected_story_count": 5,
+  "coverage": "Window 2026-11-24T08:04:03+01:00 through 2026-11-25T17:36:37+01:00. Reviewed saved 24 November report and current arXiv and alerts handoffs for duplication. Searched NASA Science, ESA/ESO, Rubin, CERN, Fermilab, SLAC, APS and IAU sources for non-alert news; Quanta, AMS/Simons search, Nature and MIT/Waterloo for mathematics; Nature machine-learning and Nature Communications for AI-assisted research; Nature Genetics and Nature biological-sciences listings for genetics/biology; Nature Chemistry and targeted ACS search for chemistry; Nature solid-Earth/palaeontology and targeted Science search for geology/palaeontology; Nature Neuroscience for neuroscience; JAMA and targeted NEJM search for medicine. Five stories selected. Partial coverage: several Nature genetics/neuroscience article endpoints redirected to an authentication service, and full publisher/society and research-conference archives were not screened exhaustively. A&A journal access returned HTTP 403, so the full institution-hosted manuscript and dated mission announcement were used. The planned Hera image unveiling was after the cutoff. Unchecked or inaccessible material is carried forward; it does not establish absence.",
+  "sources": {
+    "euclid": [
+      "https://doi.org/10.1051/0004-6361/202662243",
+      "https://www.mpg.de/27041019/preprint_wolf_quasar_dunaonghasa_2026.pdf"
+    ],
+    "mathematics": [
+      "https://alpo.ge/remark.pdf",
+      "https://math.mit.edu/~drew/grh/",
+      "https://www.nature.com/articles/d41586-026-03835-0"
+    ],
+    "ai_ecology": [
+      "https://www.nature.com/articles/s41467-026-79791-0_reference.pdf"
+    ],
+    "medicine": [
+      "https://jamanetwork.com/journals/jama/fullarticle/2857281"
+    ],
+    "community": [
+      "https://www6.slac.stanford.edu/news/2026-11-24-remembering-accelerator-physicist-herman-winick-94-who-championed-synchrotron"
+    ]
+  }
+}

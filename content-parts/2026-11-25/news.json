@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-25",
+  "part": "news",
+  "status": "partial",
+  "cutoff": "2026-11-25T17:36:37+01:00",
+  "coverage": "Window 2026-11-24T08:04:03+01:00 through 2026-11-25T17:36:37+01:00. Reviewed saved 24 November report and current arXiv and alerts handoffs for duplication. Searched NASA Science, ESA/ESO, Rubin, CERN, Fermilab, SLAC, APS and IAU sources for non-alert news; Quanta, AMS/Simons search, Nature and MIT/Waterloo for mathematics; Nature machine-learning and Nature Communications for AI-assisted research; Nature Genetics and Nature biological-sciences listings for genetics/biology; Nature Chemistry and targeted ACS search for chemistry; Nature solid-Earth/palaeontology and targeted Science search for geology/palaeontology; Nature Neuroscience for neuroscience; JAMA and targeted NEJM search for medicine. Five stories selected. Partial coverage: several Nature genetics/neuroscience article endpoints redirected to an authentication service, and full publisher/society and research-conference archives were not screened exhaustively. A&A journal access returned HTTP 403, so the full institution-hosted manuscript and dated mission announcement were used. The planned Hera image unveiling was after the cutoff. Unchecked or inaccessible material is carried forward; it does not establish absence.",
+  "topics": [
+    "early quasars",
+    "formal mathematics",
+    "biodiversity modelling",
+    "prehospital sepsis care",
+    "synchrotron radiation"
+  ],
+  "papers": [],
+  "alerts_count": 0,
+  "news_count": 5,
+  "sections": {
+    "Science News": "#### Euclid identifies a quasar at redshift 8.129\n\nESA announced the discovery of J1504+6252, or Dún Aonghasa, on **24 November 2026**, the same day Julien Wolf and colleagues published the peer-reviewed paper in *Astronomy & Astrophysics*. Euclid imaging identified the candidate. Follow-up observations included Keck on **18 January**, Hubble on **12 May**, the Large Binocular Telescope on **15–16 May**, and JWST/NIRSpec on **26 June 2026**. Narrow Hβ gives a systemic redshift of **8.129 ± 0.005**, corresponding to a cosmic age of about **630 million years**. [ESA announcement](https://www.esa.int/articles/about-us/directorates/science/euclid/euclid-breaks-own-quasar-record-by-40-million-years) · [Journal article](https://doi.org/10.1051/0004-6361/202662243) · [Full manuscript](https://www.mpg.de/27041019/preprint_wolf_quasar_dunaonghasa_2026.pdf)\n\nBroad Hβ gives a benchmark black-hole mass of roughly **360 million solar masses**, with a **0.43 dex** uncertainty in the logarithmic mass. Across the adopted Hβ and Mg II calibrations, the inferred luminosity spans **12–44% of the Eddington luminosity**. Building that mass so early challenges growth models, especially those with light initial seeds and sustained accretion at the currently inferred rate. The spectrum constrains the present accretion state. The initial seed mass and earlier growth history remain model-dependent.\n\n#### Independent Lean checks support the Alpöge–Claude Riemann hypothesis proof\n\nLevent Alpöge released the Lean formalization and an accompanying note on **20 November 2026**, covering the classical Riemann hypothesis and its generalization to Dirichlet L-functions. On **25 November**, *Nature* reported mathematicians’ assessments. Andrew Sutherland’s independent verification log, updated **24 November at 05:25 UTC**, documents a byte-for-byte rebuild of the proof export, acceptance by separately implemented proof kernels, and independent checks that the proved statements match the challenge. Michael Rubinstein separately reported successful module and kernel checks on **21 November** and posted a working exposition of the classical case on **22 November**. [Alpöge’s note](https://alpo.ge/remark.pdf) · [Sutherland’s verification log](https://math.mit.edu/~drew/grh/) · [Nature reporting](https://www.nature.com/articles/d41586-026-03835-0)\n\nThe checks give strong evidence for the formal theorem placing all nontrivial zeros of the Riemann zeta function on the line Re(s) = 1/2. Statement matching is essential because a kernel can certify a valid derivation of whatever proposition it is given. At the timestamp of Sutherland’s log, one newer end-to-end comparator run was still in progress. The release is a publicly scrutinized formal proof, with conventional peer review and a readable account of the full argument still outstanding at the cutoff.\n\n#### An ecological model tests how well species records predict distributions in held-out regions\n\nYujing Yan and colleagues published **EcoVAE** in *Nature Communications* on **24 November 2026**. In the peer-reviewed accepted manuscript, the authors train variational autoencoders on georeferenced occurrence records for plants, butterflies and mammals, with optional climate inputs. For the plant-genus baseline comparison across five geographically held-out folds, the occurrence-only model reached mean **AUROC 0.97** and **true skill statistic 0.89**, ahead of the strongest baseline by **0.10** and **0.19**, respectively. [Article](https://www.nature.com/articles/s41467-026-79791-0) · [Accepted manuscript](https://www.nature.com/articles/s41467-026-79791-0_reference.pdf)\n\nThe approach can help prioritize surveys where predicted distributions and recorded occurrences diverge. The main records document presences, so an unsampled location cannot establish absence. Shared geography and sampling effort can also generate apparent species associations. Field tests are needed to distinguish ecological interactions from those effects.\n\n#### Ambulance ceftriaxone showed no clear mortality benefit in a randomized sepsis trial\n\nDamon Scales and colleagues published the peer-reviewed PITSTOP-Antibiotics trial in *JAMA* on **24 November 2026**. Four Ontario paramedic services enrolled adults with suspected infection, fever and hypotension from **23 March 2020 to 20 August 2025**. Patients received intramuscular ceftriaxone or placebo in the ambulance, with usual emergency-department care available in both groups. [Trial report](https://jamanetwork.com/journals/jama/fullarticle/2857281)\n\nHospital mortality was **18.0% (182/1,009)** with ceftriaxone and **18.4% (186/1,011)** with placebo, giving a risk ratio of **0.97 (95% CI 0.81–1.17)**. Ambulance dosing advanced antibiotic treatment by roughly three hours on average. The interval leaves room for smaller clinically important effects, and the findings apply to this screening approach, drug and care setting.\n\n#### SLAC remembers synchrotron pioneer Herman Winick\n\nIn a remembrance published **24 November 2026**, SLAC reported that accelerator physicist Herman Winick died on **13 November** at age **94**. He led technical development of the Stanford synchrotron project’s first beamline, helped develop brighter X-ray sources using wigglers and undulators, and organized early study of the X-ray free-electron laser that became LCLS. With DESY’s Gus Voss, he initiated the project that became **SESAME**, the international synchrotron facility in Jordan that opened in **May 2017**. He shared the **2010 APS Andrei Sakharov Prize** for defending scientists’ human rights. [SLAC remembrance](https://www6.slac.stanford.edu/news/2026-11-24-remembering-accelerator-physicist-herman-winick-94-who-championed-synchrotron)"
+  },
+  "source_audit": {
+    "date": "2026-11-25",
+    "part": "news",
+    "status": "partial",
+    "cutoff": "2026-11-25T17:36:37+01:00",
+    "window_start": "2026-11-24T08:04:03+01:00",
+    "window_end": "2026-11-25T17:36:37+01:00",
+    "previous_part": "content-parts/2026-11-24/news.json",
+    "selected_story_count": 5,
+    "coverage": "Window 2026-11-24T08:04:03+01:00 through 2026-11-25T17:36:37+01:00. Reviewed saved 24 November report and current arXiv and alerts handoffs for duplication. Searched NASA Science, ESA/ESO, Rubin, CERN, Fermilab, SLAC, APS and IAU sources for non-alert news; Quanta, AMS/Simons search, Nature and MIT/Waterloo for mathematics; Nature machine-learning and Nature Communications for AI-assisted research; Nature Genetics and Nature biological-sciences listings for genetics/biology; Nature Chemistry and targeted ACS search for chemistry; Nature solid-Earth/palaeontology and targeted Science search for geology/palaeontology; Nature Neuroscience for neuroscience; JAMA and targeted NEJM search for medicine. Five stories selected. Partial coverage: several Nature genetics/neuroscience article endpoints redirected to an authentication service, and full publisher/society and research-conference archives were not screened exhaustively. A&A journal access returned HTTP 403, so the full institution-hosted manuscript and dated mission announcement were used. The planned Hera image unveiling was after the cutoff. Unchecked or inaccessible material is carried forward; it does not establish absence.",
+    "sources": {
+      "euclid": [
+        "https://doi.org/10.1051/0004-6361/202662243",
+        "https://www.mpg.de/27041019/preprint_wolf_quasar_dunaonghasa_2026.pdf"
+      ],
+      "mathematics": [
+        "https://alpo.ge/remark.pdf",
+        "https://math.mit.edu/~drew/grh/",
+        "https://www.nature.com/articles/d41586-026-03835-0"
+      ],
+      "ai_ecology": [
+        "https://www.nature.com/articles/s41467-026-79791-0_reference.pdf"
+      ],
+      "medicine": [
+        "https://jamanetwork.com/journals/jama/fullarticle/2857281"
+      ],
+      "community": [
+        "https://www6.slac.stanford.edu/news/2026-11-24-remembering-accelerator-physicist-herman-winick-94-who-championed-synchrotron"
+      ]
+    },
+    "audit_file": "content-parts/2026-11-25/news-audit.json"
+  }
+}
