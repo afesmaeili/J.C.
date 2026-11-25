@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-25",
+  "part": "arxiv",
+  "status": "partial",
+  "cutoff": "2026-11-25T08:07:04+01:00",
+  "coverage": "Partial assessment: 218 unique nonreplacement candidates title-screened; 22 priority-topic abstracts screened; one selected paper fully read, six high-priority candidates pending assessment. Remaining abstracts were retrieved but not fully assessed. All seven new-primary listing totals verified; nucl-ex abstract-expanded page returned no entries twice, so its unexpanded dated page supplied the two new IDs, already present in other screened lists. No claim of exhaustive scientific screening. Detailed evidence and dispositions: content-parts/2026-11-25/arxiv-screening.json.",
+  "topics": [
+    "cosmic rays",
+    "UHECRs",
+    "propagation",
+    "supernova remnants"
+  ],
+  "papers": [
+    {
+      "id": "arxiv-2611-32671",
+      "arxiv": "2611.32671",
+      "title": "Cosmic ray protons from 40 GeV to 10 EeV due to star formation?",
+      "authors": "Timur Dzhatdoev, Ilya Kudryashov and Anatoly Semenov",
+      "primary_category": "astro-ph.HE",
+      "label": "Cosmic-ray populations and propagation",
+      "teaser": "Three proton components and two transport alternatives, with explicit limits of the stellar-source interpretation.",
+      "tags": [
+        "cosmic rays",
+        "UHECRs",
+        "propagation",
+        "supernova remnants"
+      ]
+    }
+  ],
+  "alerts_count": 0,
+  "news_count": 0,
+  "sections": {
+    "ArXiv Highlights": "<!-- paper:arxiv-2611-32671 -->\n#### Cosmic ray protons from 40 GeV to 10 EeV due to star formation?\n\n**Timur Dzhatdoev, Ilya Kudryashov and Anatoly Semenov.** [arXiv:2611.32671v1](https://arxiv.org/abs/2611.32671v1) · [Full text](https://arxiv.org/pdf/2611.32671v1). Primary category: astro-ph.HE. Submitted 24 November 2026 at 14:17:25 UTC; first listed in the 25 November UTC batch. Preprint; no journal publication is recorded on the checked abstract page.\n\n**Question and method.** Can massive-star endpoints account for the measured proton spectrum across the Galactic–extragalactic transition? This three-page phenomenological study combines DAMPE, LHAASO, IceTop and Pierre Auger information, fits three spectral components, and explores local confinement and cosmological propagation. It is an interpretation of existing measurements, not a detection of three source populations. The Auger proton intensity is reconstructed as the measured proton fraction times an all-particle spectrum, so composition inference enters the high-energy input. The adopted energy calibration factors are 0.93 for LHAASO and IceTop and 0.95 for Auger.\n\n**Quantitative result.** The two lower-energy components are fixed to the earlier Dzhatdoev–Semenov parameterization. The added component is a smoothly broken power law with pivot 100 TeV, normalization $1.55\\times10^{-5}\\,\\mathrm{PeV^{-1}\\,m^{-2}\\,s^{-1}\\,sr^{-1}}$, indices 2.61 and 3.68, break 1.25 EeV and smoothness parameter 7.6. Figure 1 shows that both proposed transport scenarios can describe the broad proton spectrum. These are quoted fit parameters without reported confidence intervals, not confidence limits or a statistical demonstration that alternative source classes are excluded.\n\nIn the local scenario, a magnetized structure of radius 1–20 Mpc confines particles. Equating an assumed $10^9$ yr photodisintegration timescale at iron rigidity 2.9 EV to $H^2/(6D)$, with $H=3$ Mpc, gives $D=4.5\\times10^{32}\\,\\mathrm{cm^2\\,s^{-1}}$. With $D\\propto R^{1/3}$ this implies $D(1\\,\\mathrm{GV})=3.2\\times10^{29}\\,\\mathrm{cm^2\\,s^{-1}}$. A **separate illustrative configuration**—8 EeV iron, $H=20$ Mpc, sources at $0.8H$, and continuous injection over $3\\times10^9$ yr—produces a 5.6% dipole. Its proximity to the cited Auger dipole does not establish agreement for a mixed composition or for the fitted proton population; the calculation concerns iron and an assumed source geometry.\n\nFor the cosmological alternative, CRPropa 3.2 propagates protons from sources extending to $z=6$, following the Madau–Dickinson star-formation history. The calculation includes photopion, Bethe–Heitler and adiabatic losses on the CMB and Gilmore EBL. The injection indices are 2 and 3.52, separated by a 3.16 EeV break with smoothness 4.9. The plotted high-energy suppression above roughly 50 EeV is a propagation prediction, beyond the principal 40 GeV–10 EeV comparison range.\n\n**Limitations.** The short paper supplies neither posterior intervals for the new component nor a quantitative comparison of the two transport scenarios. Fixed lower-energy components and energy-scale adjustments limit interpretation of the apparent fit. The local magnetic structure is assumed, and the anisotropy example is not a joint spectrum–composition–arrival-direction fit. A full nuclear cascade, source energetics and corresponding multimessenger tests are not provided. The authors explicitly defer detailed photodisintegration calculations for heavier nuclei. Consequently, the result motivates a testable population scenario rather than establishing a common stellar origin of all cosmic rays.\n\n##### History\n\nThe immediate baseline is [Dzhatdoev and Semenov, arXiv:2606.02748](https://arxiv.org/abs/2606.02748). Its spectral construction, discussion and Table B1 already contain two Galactic components plus a harder third proton component; it places their proton crossover near 50 PeV. The present paper inherits the first two components and extends the third through an EeV break, adding explicit cosmological proton propagation and a local-confinement alternative. Thus the three-component decomposition itself is not the new result, and the reused lower-energy data do not constitute an independent confirmation.\n\nAn independently checked, uncited baseline is [Gaisser, Stanev and Tilav, arXiv:1303.3565](https://arxiv.org/abs/1303.3565), especially its population models and Tables II–III. That work already demonstrated three-population descriptions with rigidity-dependent cutoffs, including both mixed and proton-dominated extragalactic alternatives, and explained that overlapping components and energy-scale shifts complicate physical identification. Its Hillas implementation uses characteristic rigidities of 4 PV, 30 PV and 2 EV, whereas its alternative global fit uses 120 TV, 4 PV and 1.3 EV. These are different all-particle/composition constructions, not directly comparable fitted proton break energies. The new paper narrows the emphasis to the proton data and a specific stellar interpretation; it does not supersede those composition-dependent alternatives merely by achieving a similar spectral shape.\n\nThe proposed high-energy stellar channel also predates this work. [Wang, Razzaque, Mészáros and Dai, arXiv:0705.0027v2](https://arxiv.org/abs/0705.0027v2) modeled semirelativistic hypernova ejecta in stellar winds, deriving an acceleration scale proportional to $Z\\epsilon_B^{1/2}v^2(\\dot M/v_w)^{1/2}$ and showing how an ejecta-energy distribution over velocity steepens the integrated cosmic-ray spectrum. That study already connected a cosmological hypernova population to the second-knee region and computed a faint photohadronic neutrino counterpart. Its acceleration and energetics assumptions differ from a phenomenological broken-power-law injection. The 2026 paper adds a broader proton-spectrum comparison and modern propagation treatment, while leaving a similarly explicit source and neutrino calculation as an outstanding test.\n"
+  },
+  "listing_statistics": {
+    "date": "2026-11-25",
+    "basis": "new_primary_submissions",
+    "counts": {
+      "astro-ph": 86,
+      "hep-ph": 34,
+      "hep-ex": 2,
+      "hep-th": 45,
+      "gr-qc": 20,
+      "nucl-ex": 2,
+      "nucl-th": 4
+    },
+    "astro_subcategories": {
+      "astro-ph.HE": 12,
+      "astro-ph.CO": 18
+    },
+    "sources": [
+      "https://arxiv.org/catchup/astro-ph/2026-11-25",
+      "https://arxiv.org/catchup/hep-ph/2026-11-25",
+      "https://arxiv.org/catchup/hep-ex/2026-11-25",
+      "https://arxiv.org/catchup/hep-th/2026-11-25",
+      "https://arxiv.org/catchup/gr-qc/2026-11-25",
+      "https://arxiv.org/catchup/nucl-ex/2026-11-25",
+      "https://arxiv.org/catchup/nucl-th/2026-11-25"
+    ],
+    "verified_at": "2026-11-25T08:07:04+01:00"
+  },
+  "source_audit": {
+    "counts": {
+      "title_screened": 218,
+      "title_and_abstract_screened": 22,
+      "selected": 1,
+      "full_text_read": 1,
+      "unresolved_high_priority": 6
+    },
+    "selected_evidence": [
+      {
+        "version_url": "https://arxiv.org/abs/2611.32671v1",
+        "submitted_at": "2026-11-24T14:17:25Z",
+        "announcement_listing_date": "2026-11-25",
+        "announcement_evidence": "New submissions block in dated astro-ph and astro-ph.HE catchup listings; sole v1 in submission history",
+        "pdf_url": "https://arxiv.org/pdf/2611.32671v1",
+        "pdf_sha256": "becae66b1ee1000b9c7497dae38cfe10d4a0b474457ce02fc75dab77f7026c78",
+        "read_pages": [
+          1,
+          2,
+          3
+        ],
+        "figure_inspected": 1
+      }
+    ],
+    "screening_audit": "content-parts/2026-11-25/arxiv-screening.json",
+    "coverage": "Partial assessment: 218 unique nonreplacement candidates title-screened; 22 priority-topic abstracts screened; one selected paper fully read, six high-priority candidates pending assessment. Remaining abstracts were retrieved but not fully assessed. All seven new-primary listing totals verified; nucl-ex abstract-expanded page returned no entries twice, so its unexpanded dated page supplied the two new IDs, already present in other screened lists. No claim of exhaustive scientific screening. Detailed evidence and dispositions: content-parts/2026-11-25/arxiv-screening.json."
+  }
+}
