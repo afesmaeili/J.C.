@@ -1,0 +1,3993 @@
+{
+  "date": "2026-11-26",
+  "cutoff": "2026-11-26T10:53:54+01:00",
+  "status": "complete",
+  "coverage": "UTC listing 2026-11-26, checked through 2026-11-26T10:53:54+01:00. All seven aggregate listings and the HE/CO listings were available with abstracts. 222 unique New/Cross records received a title-and-abstract screen, including a second lexical topic pass and editorial comparison of the shortlist. 213 had a dated New primary entry; the remaining 9 cross-list records had no verified New entry and were excluded. 5 selected, 5 full texts reviewed, 0 high-priority candidates pending. The complete listings were machine-screened; detailed human-language assessment focused on the shortlist. Coverage is limited to the named categories and their cross-lists. The five studies ask distinct questions; related data and reanalyses are identified in their entries. Dated evidence, decisions and earlier primary sources are preserved in content-parts/2026-11-26/arxiv-screening.json. This independently verified handoff supersedes an uncommitted draft; the listing and submission dates are unchanged.",
+  "counts": {
+    "screened_unique_title_abstract_records": 222,
+    "selected_unique": 5,
+    "full_text_read": 5,
+    "unresolved_high_priority": 0,
+    "independent_featured_studies": 5,
+    "primary_new_verified_in_inventory": 213,
+    "unverified_first_announcement_crosslist_only": 9,
+    "selected_by_primary_category": {
+      "astro-ph.HE": 4,
+      "hep-ph": 1
+    }
+  },
+  "screening_method": "Parse the New and Cross groups of all nine dated pages. Drop Replacement rows before deduplication. Screen all titles and abstracts by topic, examine candidates and compare closely related contributions, and check all proposed highlights against their primary New entry and v1 history. Supplementary dated primary lookups establish eligibility for cross-list-only candidates. Those lookups are targeted checks of these IDs, not a claim to screen every paper in the supplementary categories.",
+  "listing_pages": {
+    "astro-ph": {
+      "url": "https://arxiv.org/catchup/astro-ph/2026-11-26?abs=True",
+      "section_counts": {
+        "New": 90,
+        "Cross": 17,
+        "Replacement": 36
+      },
+      "verified_at": "2026-11-26T10:37:45+01:00",
+      "content_sha256": "106b39e9416e192fca5fe66a84344744af74a8a6ac87bb06d1a44115f643d60a"
+    },
+    "astro-ph.HE": {
+      "url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-26?abs=True",
+      "section_counts": {
+        "New": 16,
+        "Cross": 11,
+        "Replacement": 8
+      },
+      "verified_at": "2026-11-26T10:37:37+01:00",
+      "content_sha256": "f95754b6ba6d0b884ced67bb6763063fe86e49a237c6d61958dc16f68823a142"
+    },
+    "astro-ph.CO": {
+      "url": "https://arxiv.org/catchup/astro-ph.CO/2026-11-26?abs=True",
+      "section_counts": {
+        "New": 14,
+        "Cross": 6,
+        "Replacement": 15
+      },
+      "verified_at": "2026-11-26T10:37:37+01:00",
+      "content_sha256": "46af2fcd1de2f60d884646f94ac9de96991c9b7acef8ff31c47d03fd436cf9f9"
+    },
+    "hep-ph": {
+      "url": "https://arxiv.org/catchup/hep-ph/2026-11-26?abs=True",
+      "section_counts": {
+        "New": 39,
+        "Cross": 8,
+        "Replacement": 25
+      },
+      "verified_at": "2026-11-26T10:37:37+01:00",
+      "content_sha256": "502ae37d663286a8afe53caaf332e04297cbaef48e80f804eb1002bb4430863a"
+    },
+    "hep-ex": {
+      "url": "https://arxiv.org/catchup/hep-ex/2026-11-26?abs=True",
+      "section_counts": {
+        "New": 3,
+        "Cross": 9,
+        "Replacement": 10
+      },
+      "verified_at": "2026-11-26T10:37:37+01:00",
+      "content_sha256": "190c959a62fa265096ae39b8b66b4d3bed4eb078a5f4451268b970da434bd4f9"
+    },
+    "hep-th": {
+      "url": "https://arxiv.org/catchup/hep-th/2026-11-26?abs=True",
+      "section_counts": {
+        "New": 39,
+        "Cross": 18,
+        "Replacement": 38
+      },
+      "verified_at": "2026-11-26T10:37:37+01:00",
+      "content_sha256": "cf8a0f426cc5ef17d7f272c5e80517ff7da8d435121c5042aa6b93c4efd21c94"
+    },
+    "gr-qc": {
+      "url": "https://arxiv.org/catchup/gr-qc/2026-11-26?abs=True",
+      "section_counts": {
+        "New": 15,
+        "Cross": 24,
+        "Replacement": 22
+      },
+      "verified_at": "2026-11-26T10:37:37+01:00",
+      "content_sha256": "d8097fe669369557f3fd98d2ba0610f7aa073c352414de5fb264cb4be2be87ee"
+    },
+    "nucl-ex": {
+      "url": "https://arxiv.org/catchup/nucl-ex/2026-11-26?abs=True",
+      "section_counts": {
+        "New": 2,
+        "Cross": 1,
+        "Replacement": 6
+      },
+      "verified_at": "2026-11-26T10:37:39+01:00",
+      "content_sha256": "9af86c9c84242ed3fe833e72e427e96c518e33b7d8c4e64853dda20f6e3c1e41"
+    },
+    "nucl-th": {
+      "url": "https://arxiv.org/catchup/nucl-th/2026-11-26?abs=True",
+      "section_counts": {
+        "New": 6,
+        "Cross": 3,
+        "Replacement": 12
+      },
+      "verified_at": "2026-11-26T10:37:39+01:00",
+      "content_sha256": "53cc4eed5512b31dac7d6754b9fbb6ee9d6064f4f024cb013993df1048796d63"
+    }
+  },
+  "additional_primary_checks": {
+    "math-ph": {
+      "url": "https://arxiv.org/catchup/math-ph/2026-11-26?abs=True",
+      "checked_at": "2026-11-26T10:52:03+01:00",
+      "new_ids_of_relevant_crosslists": [
+        "2611.33186",
+        "2611.34110",
+        "2611.34114",
+        "2611.34553",
+        "2611.34628"
+      ],
+      "n_new": 18
+    },
+    "math.RT": {
+      "url": "https://arxiv.org/catchup/math.RT/2026-11-26?abs=True",
+      "checked_at": "2026-11-26T10:52:05+01:00",
+      "new_ids_of_relevant_crosslists": [
+        "2611.34633"
+      ],
+      "n_new": 8
+    },
+    "hep-th": {
+      "url": "https://arxiv.org/catchup/hep-th/2026-11-26?abs=True",
+      "checked_at": "2026-11-26T10:51:59+01:00",
+      "new_ids_of_relevant_crosslists": [],
+      "n_new": 39
+    },
+    "astro-ph.CO": {
+      "url": "https://arxiv.org/catchup/astro-ph.CO/2026-11-26?abs=True",
+      "checked_at": "2026-11-26T10:51:59+01:00",
+      "new_ids_of_relevant_crosslists": [],
+      "n_new": 14
+    },
+    "quant-ph": {
+      "url": "https://arxiv.org/catchup/quant-ph/2026-11-26?abs=True",
+      "checked_at": "2026-11-26T10:52:03+01:00",
+      "new_ids_of_relevant_crosslists": [
+        "2611.33312"
+      ],
+      "n_new": 84
+    },
+    "eess.SY": {
+      "url": "https://arxiv.org/catchup/eess.SY/2026-11-26?abs=True",
+      "checked_at": "2026-11-26T10:52:03+01:00",
+      "new_ids_of_relevant_crosslists": [],
+      "n_new": 0
+    },
+    "physics.ins-det": {
+      "url": "https://arxiv.org/catchup/physics.ins-det/2026-11-26?abs=True",
+      "checked_at": "2026-11-26T10:52:05+01:00",
+      "new_ids_of_relevant_crosslists": [
+        "2611.33226"
+      ],
+      "n_new": 3
+    },
+    "physics.hist-ph": {
+      "url": "https://arxiv.org/catchup/physics.hist-ph/2026-11-26?abs=True",
+      "checked_at": "2026-11-26T10:52:04+01:00",
+      "new_ids_of_relevant_crosslists": [
+        "2611.33170"
+      ],
+      "n_new": 2
+    },
+    "physics.plasm-ph": {
+      "url": "https://arxiv.org/catchup/physics.plasm-ph/2026-11-26?abs=True",
+      "checked_at": "2026-11-26T10:52:05+01:00",
+      "new_ids_of_relevant_crosslists": [
+        "2611.33989",
+        "2611.34459"
+      ],
+      "n_new": 7
+    },
+    "math.DG": {
+      "url": "https://arxiv.org/catchup/math.DG/2026-11-26?abs=True",
+      "checked_at": "2026-11-26T10:52:09+01:00",
+      "new_ids_of_relevant_crosslists": [
+        "2611.34800"
+      ],
+      "n_new": 22
+    },
+    "eess.SP": {
+      "url": "https://arxiv.org/catchup/eess.SP/2026-11-26?abs=True",
+      "checked_at": "2026-11-26T10:52:08+01:00",
+      "new_ids_of_relevant_crosslists": [
+        "2611.34677"
+      ],
+      "n_new": 14
+    },
+    "hep-lat": {
+      "url": "https://arxiv.org/catchup/hep-lat/2026-11-26?abs=True",
+      "checked_at": "2026-11-26T10:52:08+01:00",
+      "new_ids_of_relevant_crosslists": [
+        "2611.33970"
+      ],
+      "n_new": 3
+    },
+    "physics.data-an": {
+      "url": "https://arxiv.org/catchup/physics.data-an/2026-11-26?abs=True",
+      "checked_at": "2026-11-26T10:52:08+01:00",
+      "new_ids_of_relevant_crosslists": [
+        "2611.33221",
+        "2611.33223"
+      ],
+      "n_new": 2
+    },
+    "cs.CL": {
+      "url": "https://arxiv.org/catchup/cs.CL/2026-11-26?abs=True",
+      "checked_at": "2026-11-26T10:52:06+01:00",
+      "new_ids_of_relevant_crosslists": [
+        "2611.33953"
+      ],
+      "n_new": 74
+    },
+    "math.GT": {
+      "url": "https://arxiv.org/catchup/math.GT/2026-11-26?abs=True",
+      "checked_at": "2026-11-26T10:52:08+01:00",
+      "new_ids_of_relevant_crosslists": [],
+      "n_new": 6
+    },
+    "math.DS": {
+      "url": "https://arxiv.org/catchup/math.DS/2026-11-26?abs=True",
+      "checked_at": "2026-11-26T10:52:08+01:00",
+      "new_ids_of_relevant_crosslists": [
+        "2611.34437"
+      ],
+      "n_new": 20
+    },
+    "cond-mat.str-el": {
+      "url": "https://arxiv.org/catchup/cond-mat.str-el/2026-11-26?abs=True",
+      "checked_at": "2026-11-26T10:52:10+01:00",
+      "new_ids_of_relevant_crosslists": [
+        "2611.33807"
+      ],
+      "n_new": 14
+    },
+    "math.AG": {
+      "url": "https://arxiv.org/catchup/math.AG/2026-11-26?abs=True",
+      "checked_at": "2026-11-26T10:52:12+01:00",
+      "new_ids_of_relevant_crosslists": [],
+      "n_new": 22
+    },
+    "gr-qc": {
+      "url": "https://arxiv.org/catchup/gr-qc/2026-11-26?abs=True",
+      "checked_at": "2026-11-26T10:52:08+01:00",
+      "new_ids_of_relevant_crosslists": [],
+      "n_new": 15
+    },
+    "cs.LG": {
+      "url": "https://arxiv.org/catchup/cs.LG/2026-11-26?abs=True",
+      "checked_at": "2026-11-26T10:52:10+01:00",
+      "new_ids_of_relevant_crosslists": [],
+      "n_new": 143
+    }
+  },
+  "disposition_counts": {
+    "screened out": 202,
+    "lower ranked": 15,
+    "selected/full-text reviewed": 5
+  },
+  "access_gaps": [
+    "First announcement unverified on the target primary listing for the recorded cross-list-only exceptions. No absent listing count inferred from a mutable /new page."
+  ],
+  "unique_candidate_ids": [
+    "2611.33214",
+    "2611.33215",
+    "2611.33239",
+    "2611.33269",
+    "2611.33276",
+    "2611.33282",
+    "2611.33290",
+    "2611.33293",
+    "2611.33297",
+    "2611.33301",
+    "2611.33319",
+    "2611.33324",
+    "2611.33326",
+    "2611.33334",
+    "2611.33363",
+    "2611.33404",
+    "2611.33419",
+    "2611.33435",
+    "2611.33478",
+    "2611.33488",
+    "2611.33506",
+    "2611.33520",
+    "2611.33522",
+    "2611.33524",
+    "2611.33528",
+    "2611.33534",
+    "2611.33541",
+    "2611.33598",
+    "2611.33624",
+    "2611.33657",
+    "2611.33658",
+    "2611.33660",
+    "2611.33711",
+    "2611.33768",
+    "2611.33798",
+    "2611.33858",
+    "2611.33899",
+    "2611.33906",
+    "2611.33941",
+    "2611.33945",
+    "2611.33956",
+    "2611.34047",
+    "2611.34111",
+    "2611.34125",
+    "2611.34127",
+    "2611.34144",
+    "2611.34149",
+    "2611.34182",
+    "2611.34198",
+    "2611.34212",
+    "2611.34265",
+    "2611.34320",
+    "2611.34325",
+    "2611.34332",
+    "2611.34350",
+    "2611.34364",
+    "2611.34365",
+    "2611.34388",
+    "2611.34399",
+    "2611.34404",
+    "2611.34405",
+    "2611.34450",
+    "2611.34458",
+    "2611.34496",
+    "2611.34512",
+    "2611.34543",
+    "2611.34548",
+    "2611.34577",
+    "2611.34592",
+    "2611.34613",
+    "2611.34625",
+    "2611.34642",
+    "2611.34650",
+    "2611.34672",
+    "2611.34674",
+    "2611.34691",
+    "2611.34720",
+    "2611.34731",
+    "2611.34743",
+    "2611.34753",
+    "2611.34772",
+    "2611.34775",
+    "2611.34786",
+    "2611.34789",
+    "2611.34790",
+    "2611.34797",
+    "2611.34802",
+    "2611.34867",
+    "2611.34890",
+    "2611.34910",
+    "2611.29224",
+    "2611.31461",
+    "2611.33170",
+    "2611.33434",
+    "2611.33550",
+    "2611.33815",
+    "2611.33953",
+    "2611.33989",
+    "2611.34172",
+    "2611.34213",
+    "2611.34437",
+    "2611.34439",
+    "2611.34459",
+    "2611.34677",
+    "2611.34747",
+    "2611.34817",
+    "2611.34838",
+    "2611.33180",
+    "2611.33279",
+    "2611.33280",
+    "2611.33292",
+    "2611.33482",
+    "2611.33537",
+    "2611.33633",
+    "2611.33708",
+    "2611.33709",
+    "2611.33787",
+    "2611.33862",
+    "2611.33959",
+    "2611.33979",
+    "2611.34007",
+    "2611.34009",
+    "2611.34030",
+    "2611.34263",
+    "2611.34394",
+    "2611.34438",
+    "2611.34464",
+    "2611.34475",
+    "2611.34502",
+    "2611.34504",
+    "2611.34525",
+    "2611.34531",
+    "2611.34595",
+    "2611.34604",
+    "2611.34631",
+    "2611.34804",
+    "2611.34808",
+    "2611.34815",
+    "2611.34856",
+    "2611.34888",
+    "2611.34927",
+    "2611.28144",
+    "2611.33277",
+    "2611.33311",
+    "2611.33970",
+    "2611.34886",
+    "2611.34892",
+    "2611.34102",
+    "2611.34201",
+    "2611.34882",
+    "2611.33221",
+    "2611.33223",
+    "2611.33226",
+    "2611.33264",
+    "2611.33271",
+    "2611.33272",
+    "2611.33273",
+    "2611.33275",
+    "2611.33281",
+    "2611.33283",
+    "2611.33285",
+    "2611.33287",
+    "2611.33291",
+    "2611.33343",
+    "2611.33354",
+    "2611.33415",
+    "2611.33445",
+    "2611.33564",
+    "2611.33599",
+    "2611.33620",
+    "2611.33744",
+    "2611.34082",
+    "2611.34097",
+    "2611.34129",
+    "2611.34369",
+    "2611.34421",
+    "2611.34444",
+    "2611.34487",
+    "2611.34588",
+    "2611.34619",
+    "2611.34705",
+    "2611.34706",
+    "2611.34715",
+    "2611.34791",
+    "2611.34824",
+    "2611.34829",
+    "2611.34922",
+    "2611.34924",
+    "2610.23209",
+    "2611.31912",
+    "2611.32956",
+    "2611.33186",
+    "2611.33278",
+    "2611.33312",
+    "2611.33807",
+    "2611.34110",
+    "2611.34114",
+    "2611.34176",
+    "2611.34553",
+    "2611.34628",
+    "2611.34633",
+    "2611.33295",
+    "2611.33359",
+    "2611.33384",
+    "2611.33867",
+    "2611.33995",
+    "2611.34026",
+    "2611.34151",
+    "2611.34283",
+    "2611.34358",
+    "2611.34542",
+    "2610.27420",
+    "2611.19558",
+    "2611.34800",
+    "2611.34355",
+    "2611.34503",
+    "2611.33217",
+    "2611.33379",
+    "2611.33662",
+    "2611.34413",
+    "2611.34562",
+    "2611.34752"
+  ],
+  "candidates": [
+    {
+      "arxiv": "2611.33214",
+      "title": "OSIRIS-REx Lessons Learned Report: Insights from the Journey to Bennu and Back",
+      "primary_category": "astro-ph.IM",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address OSIRIS-REx Lessons Learned Report: Insights from the Journey to Bennu and Back. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33214"
+    },
+    {
+      "arxiv": "2611.33215",
+      "title": "Modeling the LISA response in the time-frequency domain",
+      "primary_category": "astro-ph.IM",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "gr-qc": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Modeling the LISA response in the time-frequency domain. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33215"
+    },
+    {
+      "arxiv": "2611.33239",
+      "title": "RIFT for the O4 era: operating points, calibration marginalization, and cross-code validation",
+      "primary_category": "astro-ph.IM",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "gr-qc": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address RIFT for the O4 era: operating points, calibration marginalization, and cross-code validation. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33239"
+    },
+    {
+      "arxiv": "2611.33269",
+      "title": "RR Lyrae stars as distance indicators I. Sample selection and characterisation",
+      "primary_category": "astro-ph.SR",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address RR Lyrae stars as distance indicators I. Sample selection and characterisation. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33269"
+    },
+    {
+      "arxiv": "2611.33276",
+      "title": "Constraining Intergalactic Dust with Supernova Color Evolution: Current Constraints from DES and Forecasts for LSST and Roman",
+      "primary_category": "astro-ph.CO",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.CO": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Constraining Intergalactic Dust with Supernova Color Evolution: Current Constraints from DES and Forecasts for LSST and Roman. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33276"
+    },
+    {
+      "arxiv": "2611.33282",
+      "title": "When precision exceeds fidelity: systematic error quantification for inference with misspecified simulators",
+      "primary_category": "astro-ph.IM",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address When precision exceeds fidelity: systematic error quantification for inference with misspecified simulators. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33282"
+    },
+    {
+      "arxiv": "2611.33290",
+      "title": "line racer: Rapid Calculation of Exoplanetary Radiative Opacities",
+      "primary_category": "astro-ph.IM",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address line racer: Rapid Calculation of Exoplanetary Radiative Opacities. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33290"
+    },
+    {
+      "arxiv": "2611.33293",
+      "title": "CHEX-MATE: Probing the thermal$-$non-thermal connection in radio halo clusters with LoTSS-DR2",
+      "primary_category": "astro-ph.CO",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.CO": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "accelera",
+        "cosmic-ray"
+      ],
+      "disposition": "lower ranked",
+      "reason": "Cluster radio and X-ray thermodynamics; a population correlation with a more indirect connection to particle transport.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33293"
+    },
+    {
+      "arxiv": "2611.33297",
+      "title": "The fate of Mercury's ejected mantle",
+      "primary_category": "astro-ph.EP",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "ejecta"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns The fate of Mercury's ejected mantle. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33297"
+    },
+    {
+      "arxiv": "2611.33301",
+      "title": "Evidence for an Evolving Surface on the Partly Burnt Runaway Stellar Remnant GD 492",
+      "primary_category": "astro-ph.SR",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Evidence for an Evolving Surface on the Partly Burnt Runaway Stellar Remnant GD 492. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33301"
+    },
+    {
+      "arxiv": "2611.33319",
+      "title": "A Tale of Two Type IIb Supernovae: Radio-loud and Radio-silent Candidate Counterparts to Sub-solar Mass Gravitational-wave Triggers",
+      "primary_category": "astro-ph.HE",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.HE": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "ejecta",
+        "jet"
+      ],
+      "disposition": "lower ranked",
+      "reason": "Radio upper limits distinguish candidate supernova outflows, while a GW association is unconfirmed. Lower editorial rank than the resolved emission and propagation results.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33319"
+    },
+    {
+      "arxiv": "2611.33324",
+      "title": "NuSrcAgent: An AI Agent for High-Energy Neutrino Source Searches",
+      "primary_category": "astro-ph.HE",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.HE": "New",
+        "hep-ph": "Cross",
+        "hep-ex": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "accelera",
+        "icecube",
+        "neutrino"
+      ],
+      "disposition": "lower ranked",
+      "reason": "Likelihood automation and background validation on public tracks. The stack and hottest-source trials were checked separately. A substantive methods demonstration on existing data, with no significant new source association in the example catalog.",
+      "full_text_access": "full text accessible; analysis sections and catalog trial results inspected for ranking; not counted as full-text reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33324"
+    },
+    {
+      "arxiv": "2611.33326",
+      "title": "Beyond the blur: Radial binning trumps stellar migration in resolved star formation histories",
+      "primary_category": "astro-ph.GA",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Beyond the blur: Radial binning trumps stellar migration in resolved star formation histories. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33326"
+    },
+    {
+      "arxiv": "2611.33334",
+      "title": "Acoustic Priors from the Latest Cosmic Microwave Background Data",
+      "primary_category": "astro-ph.CO",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.CO": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "oscillation"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Acoustic Priors from the Latest Cosmic Microwave Background Data. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33334"
+    },
+    {
+      "arxiv": "2611.33363",
+      "title": "Toward Automated Strong-Lens Modeling with Agentic Workflows: An Application to Euclid Q1 Lenses",
+      "primary_category": "astro-ph.IM",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.CO": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "dark matter"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Toward Automated Strong-Lens Modeling with Agentic Workflows: An Application to Euclid Q1 Lenses. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33363"
+    },
+    {
+      "arxiv": "2611.33404",
+      "title": "Planetary biotechnospheres, biotechnosignatures and the search for extraterrestrial intelligence",
+      "primary_category": "astro-ph.EP",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Planetary biotechnospheres, biotechnosignatures and the search for extraterrestrial intelligence. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33404"
+    },
+    {
+      "arxiv": "2611.33419",
+      "title": "Photometric Uncertainty Correction for Time-Domain Surveys: Vera C. Rubin Data Preview 2 Case Study",
+      "primary_category": "astro-ph.IM",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Photometric Uncertainty Correction for Time-Domain Surveys: Vera C. Rubin Data Preview 2 Case Study. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33419"
+    },
+    {
+      "arxiv": "2611.33435",
+      "title": "A Variability Metric Pipeline for AGN studies",
+      "primary_category": "astro-ph.GA",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.HE": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address A Variability Metric Pipeline for AGN studies. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33435"
+    },
+    {
+      "arxiv": "2611.33478",
+      "title": "Weak buoyancy and cold lithospheres decouple interior melting from seafloor volcanism on icy ocean worlds",
+      "primary_category": "astro-ph.EP",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Weak buoyancy and cold lithospheres decouple interior melting from seafloor volcanism on icy ocean worlds. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33478"
+    },
+    {
+      "arxiv": "2611.33488",
+      "title": "Quantum Noise-Limited Terahertz Interferometry for Distinguishing Ultra-Compact Supermassive Galactic Objects",
+      "primary_category": "astro-ph.HE",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.HE": "New",
+        "gr-qc": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Quantum Noise-Limited Terahertz Interferometry for Distinguishing Ultra-Compact Supermassive Galactic Objects. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33488"
+    },
+    {
+      "arxiv": "2611.33506",
+      "title": "Stellar Obliquities of Cold Jupiter and Brown Dwarf Systems I: Spin-Orbit Misalignment Grows with Orbital Eccentricity",
+      "primary_category": "astro-ph.EP",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Stellar Obliquities of Cold Jupiter and Brown Dwarf Systems I: Spin-Orbit Misalignment Grows with Orbital Eccentricity. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33506"
+    },
+    {
+      "arxiv": "2611.33520",
+      "title": "3D Shape Recovery of Human-Made Space Objects from Light Curves with Image Denoisers as Priors",
+      "primary_category": "astro-ph.IM",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address 3D Shape Recovery of Human-Made Space Objects from Light Curves with Image Denoisers as Priors. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33520"
+    },
+    {
+      "arxiv": "2611.33522",
+      "title": "No Cluster Left Behind I: Joint Mass Calibration for Dark Energy Survey and South Pole Telescope Clusters",
+      "primary_category": "astro-ph.CO",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.CO": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address No Cluster Left Behind I: Joint Mass Calibration for Dark Energy Survey and South Pole Telescope Clusters. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33522"
+    },
+    {
+      "arxiv": "2611.33524",
+      "title": "Over a Half-decade Study of Crab Giant Pulses Observed with I-LOFAR",
+      "primary_category": "astro-ph.HE",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.HE": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "ejecta"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Over a Half-decade Study of Crab Giant Pulses Observed with I-LOFAR. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33524"
+    },
+    {
+      "arxiv": "2611.33528",
+      "title": "Superfit: A Supernova Spectral Classification Tool with Host-Galaxy Decomposition",
+      "primary_category": "astro-ph.IM",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Superfit: A Supernova Spectral Classification Tool with Host-Galaxy Decomposition. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33528"
+    },
+    {
+      "arxiv": "2611.33534",
+      "title": "Moon Radio Interferometer for Science and Exploration (MoonRISE): A Mission Concept for a Low-Frequency Radio Interferometer on the Lunar Farside",
+      "primary_category": "astro-ph.IM",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.CO": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "accelera"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Moon Radio Interferometer for Science and Exploration (MoonRISE): A Mission Concept for a Low-Frequency Radio Interferometer on the Lunar Farside. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33534"
+    },
+    {
+      "arxiv": "2611.33541",
+      "title": "Inference of Cosmic Dawn and Reionization Parameters from the 21 cm Global Spectrum Measurement of the DSL Mission",
+      "primary_category": "astro-ph.CO",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.CO": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Inference of Cosmic Dawn and Reionization Parameters from the 21 cm Global Spectrum Measurement of the DSL Mission. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33541"
+    },
+    {
+      "arxiv": "2611.33598",
+      "title": "Transport of High Energy Protons from CME-Shock to the Sun and its Connection to Extended Gamma-rays Observed by FERMI",
+      "primary_category": "astro-ph.SR",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "accelera",
+        "gamma ray",
+        "gamma-ray"
+      ],
+      "disposition": "lower ranked",
+      "reason": "Single-event solar CME proton return transport. Feasibility and back-propagation to the shock are less decisive on a source population than the selected transport and acceleration studies.",
+      "full_text_access": "PDF accessible; not counted as full-text reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33598"
+    },
+    {
+      "arxiv": "2611.33624",
+      "title": "JWST Reveals Contrast Overdensities around Two ALMA-CRISTAL Galaxies at $z\\sim5.2$",
+      "primary_category": "astro-ph.GA",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address JWST Reveals Contrast Overdensities around Two ALMA-CRISTAL Galaxies at $z\\sim5.2$. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33624"
+    },
+    {
+      "arxiv": "2611.33657",
+      "title": "Time-resolved Polarimetry of the Type Ibn Supernova 2025kzr Suggests a Possible Ejecta-CSM Misalignment",
+      "primary_category": "astro-ph.HE",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.HE": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "ejecta"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Time-resolved Polarimetry of the Type Ibn Supernova 2025kzr Suggests a Possible Ejecta-CSM Misalignment. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33657"
+    },
+    {
+      "arxiv": "2611.33658",
+      "title": "Binary mass transfer fossil in the ancient GD-1 stellar stream",
+      "primary_category": "astro-ph.SR",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Binary mass transfer fossil in the ancient GD-1 stellar stream. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33658"
+    },
+    {
+      "arxiv": "2611.33660",
+      "title": "Towards three-dimensional dark matter mapping in the extended solar neighbourhood with Gaia Data Release 3 and deep learning",
+      "primary_category": "astro-ph.GA",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "dark matter"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Towards three-dimensional dark matter mapping in the extended solar neighbourhood with Gaia Data Release 3 and deep learning. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33660"
+    },
+    {
+      "arxiv": "2611.33711",
+      "title": "Planetary Habitable Zones around Magnetized White Dwarfs",
+      "primary_category": "astro-ph.EP",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Planetary Habitable Zones around Magnetized White Dwarfs. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33711"
+    },
+    {
+      "arxiv": "2611.33768",
+      "title": "AT2024dky as an Off-nuclear Tidal Disruption Event Candidate",
+      "primary_category": "astro-ph.GA",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.HE": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address AT2024dky as an Off-nuclear Tidal Disruption Event Candidate. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33768"
+    },
+    {
+      "arxiv": "2611.33798",
+      "title": "Less massive black holes in faint hosts: SED fitting of Little Red Dots within the Black Hole Star scenario",
+      "primary_category": "astro-ph.GA",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Less massive black holes in faint hosts: SED fitting of Little Red Dots within the Black Hole Star scenario. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33798"
+    },
+    {
+      "arxiv": "2611.33858",
+      "title": "Constraining the Inner Accretion Geometry of GX 9+9 with Broadband Spectral and Timing Studies",
+      "primary_category": "astro-ph.HE",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.HE": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Constraining the Inner Accretion Geometry of GX 9+9 with Broadband Spectral and Timing Studies. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33858"
+    },
+    {
+      "arxiv": "2611.33899",
+      "title": "Directional Statistics of Synchrotron Polarization in Mixed Emitting and Faraday-Rotating Turbulence",
+      "primary_category": "astro-ph.GA",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "synchrotron"
+      ],
+      "disposition": "lower ranked",
+      "reason": "A statistical estimator for polarized synchrotron emission; the direct lobe measurement was ranked higher for this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33899"
+    },
+    {
+      "arxiv": "2611.33906",
+      "title": "Fast radio bursts track cosmic star formation history with time delay: the effect of burst fluence",
+      "primary_category": "astro-ph.HE",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.HE": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Fast radio bursts track cosmic star formation history with time delay: the effect of burst fluence. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33906"
+    },
+    {
+      "arxiv": "2611.33941",
+      "title": "Multiwavelength Analysis of the Merging Cluster RM J121917.6+505432.8: A Three-way Merger in Disguise?",
+      "primary_category": "astro-ph.CO",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.CO": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "dark matter"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Multiwavelength Analysis of the Merging Cluster RM J121917.6+505432.8: A Three-way Merger in Disguise?. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33941"
+    },
+    {
+      "arxiv": "2611.33945",
+      "title": "Mass Spectral Evidence for Iron Sulfate in Venus' Cloud Aerosol",
+      "primary_category": "astro-ph.EP",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "pion"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Mass Spectral Evidence for Iron Sulfate in Venus' Cloud Aerosol. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33945"
+    },
+    {
+      "arxiv": "2611.33956",
+      "title": "The role of hierarchy in Galactic molecular clouds",
+      "primary_category": "astro-ph.GA",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address The role of hierarchy in Galactic molecular clouds. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33956"
+    },
+    {
+      "arxiv": "2611.34047",
+      "title": "UNIONS and Euclid: Calibrating point source-galaxy separation for ground-based surveys",
+      "primary_category": "astro-ph.IM",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address UNIONS and Euclid: Calibrating point source-galaxy separation for ground-based surveys. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34047"
+    },
+    {
+      "arxiv": "2611.34111",
+      "title": "Halo spin-axis correlations in IllustrisTNG: Lagrangian-to-Eulerian separation mapping, baryonic effects, and redshift-space distortions",
+      "primary_category": "astro-ph.CO",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.CO": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "dark matter"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Halo spin-axis correlations in IllustrisTNG: Lagrangian-to-Eulerian separation mapping, baryonic effects, and redshift-space distortions. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34111"
+    },
+    {
+      "arxiv": "2611.34125",
+      "title": "Characterization and empirical correction of a spatially coherent spectral artifact in Gemini/GMOS-N IFU observations",
+      "primary_category": "astro-ph.IM",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Characterization and empirical correction of a spatially coherent spectral artifact in Gemini/GMOS-N IFU observations. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34125"
+    },
+    {
+      "arxiv": "2611.34127",
+      "title": "An oxygen-rich supernova remnant in NGC 253 with narrow [N II] emission lines",
+      "primary_category": "astro-ph.HE",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.HE": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "ejecta"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns An oxygen-rich supernova remnant in NGC 253 with narrow [N II] emission lines. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34127"
+    },
+    {
+      "arxiv": "2611.34144",
+      "title": "Radio Emission From Low-redshift Little Red Dots",
+      "primary_category": "astro-ph.GA",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Radio Emission From Low-redshift Little Red Dots. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34144"
+    },
+    {
+      "arxiv": "2611.34149",
+      "title": "Evolutionary Map of the Universe (EMU): the fraction of radio-detected quasi-stellar objects at high redshift",
+      "primary_category": "astro-ph.GA",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "jet"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Evolutionary Map of the Universe (EMU): the fraction of radio-detected quasi-stellar objects at high redshift. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34149"
+    },
+    {
+      "arxiv": "2611.34182",
+      "title": "High-Precision Photometry with a scientific CMOS Camera: III Lab and on-Sky testing of Andor Toran-26B",
+      "primary_category": "astro-ph.IM",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address High-Precision Photometry with a scientific CMOS Camera: III Lab and on-Sky testing of Andor Toran-26B. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34182"
+    },
+    {
+      "arxiv": "2611.34198",
+      "title": "Bar Kinematics in Paired and Isolated Galaxies: Slow Bars Are More Likely Found in Paired Galaxies",
+      "primary_category": "astro-ph.GA",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Bar Kinematics in Paired and Isolated Galaxies: Slow Bars Are More Likely Found in Paired Galaxies. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34198"
+    },
+    {
+      "arxiv": "2611.34212",
+      "title": "Small-scale priors for large-scale cosmology: the case of $b_ϕ$",
+      "primary_category": "astro-ph.CO",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.CO": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Small-scale priors for large-scale cosmology: the case of $b_ϕ$. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34212"
+    },
+    {
+      "arxiv": "2611.34265",
+      "title": "A magneto-convective origin for solar-wind Alfvenic fluctuations",
+      "primary_category": "astro-ph.SR",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address A magneto-convective origin for solar-wind Alfvenic fluctuations. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34265"
+    },
+    {
+      "arxiv": "2611.34320",
+      "title": "High-energy Electron Transport with Discrete Inverse Compton Scatterings",
+      "primary_category": "astro-ph.HE",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.HE": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "inverse compton",
+        "pulsar wind",
+        "tev"
+      ],
+      "disposition": "selected/full-text reviewed",
+      "reason": "Individual inverse Compton scatterings change the diffusion coefficient inferred from Geminga’s radial profile.",
+      "full_text_access": "full text reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34320",
+      "evidence": {
+        "dated_listing": "https://arxiv.org/catchup/astro-ph.HE/2026-11-26?abs=True",
+        "listing_section": "New submissions",
+        "version_url": "https://arxiv.org/abs/2611.34320v1",
+        "version_history": "[v1] Wed, 25 Nov 2026 13:06:03 UTC (764 KB)",
+        "record_verified_at": "2026-11-26T10:38:28+01:00",
+        "full_text": "https://arxiv.org/html/2611.34320v1",
+        "full_text_review": [
+          "methods and equations",
+          "data or simulation assumptions",
+          "figures and reported results",
+          "limitations and primary-source historical comparison"
+        ],
+        "history_sources": [
+          "https://arxiv.org/abs/1711.06223",
+          "https://arxiv.org/abs/2206.04699",
+          "https://arxiv.org/abs/2503.15052",
+          "https://arxiv.org/abs/2611.05808"
+        ]
+      }
+    },
+    {
+      "arxiv": "2611.34325",
+      "title": "Optical Light-Curve Broadening in the Redback Binary PSR J2215+5135",
+      "primary_category": "astro-ph.SR",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.HE": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Optical Light-Curve Broadening in the Redback Binary PSR J2215+5135. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34325"
+    },
+    {
+      "arxiv": "2611.34332",
+      "title": "Scaling and Cross-Simulation Generalization of Graph Neural Networks for Cosmic-Web Classification in CAMELS",
+      "primary_category": "astro-ph.CO",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.CO": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Scaling and Cross-Simulation Generalization of Graph Neural Networks for Cosmic-Web Classification in CAMELS. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34332"
+    },
+    {
+      "arxiv": "2611.34350",
+      "title": "Physical quasar pairs in DESI DR1 as tracers of protoclusters at $z\\approx2$",
+      "primary_category": "astro-ph.CO",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.CO": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Physical quasar pairs in DESI DR1 as tracers of protoclusters at $z\\approx2$. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34350"
+    },
+    {
+      "arxiv": "2611.34364",
+      "title": "enCHASE: A pipeline for the calibration and analysis of CHASE/HIS observations",
+      "primary_category": "astro-ph.SR",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address enCHASE: A pipeline for the calibration and analysis of CHASE/HIS observations. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34364"
+    },
+    {
+      "arxiv": "2611.34365",
+      "title": "Horizontal velocity eigenfunctions of solar inertial modes using local correlation tracking of magnetic features",
+      "primary_category": "astro-ph.SR",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Horizontal velocity eigenfunctions of solar inertial modes using local correlation tracking of magnetic features. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34365"
+    },
+    {
+      "arxiv": "2611.34388",
+      "title": "T-type brown dwarfs in Euclid DR1: from spectral classification to physical parameters",
+      "primary_category": "astro-ph.SR",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address T-type brown dwarfs in Euclid DR1: from spectral classification to physical parameters. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34388"
+    },
+    {
+      "arxiv": "2611.34399",
+      "title": "Clouds as near-horizon backgrounds in the radio detection of air showers",
+      "primary_category": "astro-ph.HE",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.HE": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "air shower",
+        "cosmic ray",
+        "neutrino"
+      ],
+      "disposition": "lower ranked",
+      "reason": "A simplified model of radio reflections in clouds establishes possible instrumental confusion. The abstract does not establish a measured air-shower background rate.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34399"
+    },
+    {
+      "arxiv": "2611.34404",
+      "title": "A Chandra X-Ray Survey of the Middle-aged Supernova Remnant G22.7-0.2 Interacting with Molecular Clouds",
+      "primary_category": "astro-ph.HE",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.HE": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "synchrotron"
+      ],
+      "disposition": "lower ranked",
+      "reason": "The remnant survey allows competing origins for compact X-ray structures. Less discriminating on particle acceleration than the selected microquasar measurement.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34404"
+    },
+    {
+      "arxiv": "2611.34405",
+      "title": "Galaxy cluster thermodynamic profiles beyond self-similarity",
+      "primary_category": "astro-ph.CO",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.HE": "Cross",
+        "astro-ph.CO": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Galaxy cluster thermodynamic profiles beyond self-similarity. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34405"
+    },
+    {
+      "arxiv": "2611.34450",
+      "title": "Investigating the Neupert Effect with HEL1OS/Aditya-L1",
+      "primary_category": "astro-ph.SR",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.HE": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Investigating the Neupert Effect with HEL1OS/Aditya-L1. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34450"
+    },
+    {
+      "arxiv": "2611.34458",
+      "title": "Very fast 2D inversions of Stokes profiles using neural emulators",
+      "primary_category": "astro-ph.IM",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Very fast 2D inversions of Stokes profiles using neural emulators. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34458"
+    },
+    {
+      "arxiv": "2611.34496",
+      "title": "A search and multi-frequency study of curved parsec-scale jets in active galaxies",
+      "primary_category": "astro-ph.HE",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.HE": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "jet"
+      ],
+      "disposition": "lower ranked",
+      "reason": "Curvature in parsec-scale jets with distinct possible causes; no unique acceleration or emission interpretation.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34496"
+    },
+    {
+      "arxiv": "2611.34512",
+      "title": "A Genetic Algorithm Approach to Reconstructing Scalar-Tensor Lagrangians",
+      "primary_category": "astro-ph.CO",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.CO": "New",
+        "gr-qc": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "oscillation"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns A Genetic Algorithm Approach to Reconstructing Scalar-Tensor Lagrangians. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34512"
+    },
+    {
+      "arxiv": "2611.34543",
+      "title": "An X-ray binary origin for the LHAASO peanut",
+      "primary_category": "astro-ph.HE",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.HE": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "gamma-ray",
+        "lhaaso",
+        "ultra-high"
+      ],
+      "disposition": "selected/full-text reviewed",
+      "reason": "A dormant binary between two gamma-ray hotspots gives a testable interpretation of the LHAASO source.",
+      "full_text_access": "full text reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34543",
+      "evidence": {
+        "dated_listing": "https://arxiv.org/catchup/astro-ph.HE/2026-11-26?abs=True",
+        "listing_section": "New submissions",
+        "version_url": "https://arxiv.org/abs/2611.34543v1",
+        "version_history": "[v1] Wed, 25 Nov 2026 15:21:36 UTC (829 KB)",
+        "record_verified_at": "2026-11-26T10:38:28+01:00",
+        "full_text": "https://arxiv.org/html/2611.34543v1",
+        "full_text_review": [
+          "methods and equations",
+          "data or simulation assumptions",
+          "figures and reported results",
+          "limitations and primary-source historical comparison"
+        ],
+        "history_sources": [
+          "https://arxiv.org/abs/2510.06786",
+          "https://arxiv.org/abs/2511.10537",
+          "https://arxiv.org/abs/2611.10703",
+          "https://arxiv.org/abs/2611.15473"
+        ]
+      }
+    },
+    {
+      "arxiv": "2611.34548",
+      "title": "One, two, three, and a tilting frisbee: a transient state of some Be stars",
+      "primary_category": "astro-ph.SR",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address One, two, three, and a tilting frisbee: a transient state of some Be stars. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34548"
+    },
+    {
+      "arxiv": "2611.34577",
+      "title": "Comprehensive In Situ Characterization of Amorphous Solid Water Films with COSPINU2 set-up: Optical Properties, Density, Morphology, and Restructuring Dynamics",
+      "primary_category": "astro-ph.IM",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "ultra-high"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Comprehensive In Situ Characterization of Amorphous Solid Water Films with COSPINU2 set-up: Optical Properties, Density, Morphology, and Restructuring Dynamics. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34577"
+    },
+    {
+      "arxiv": "2611.34592",
+      "title": "X-ray Polarization of the Western Lobe of SS 433",
+      "primary_category": "astro-ph.HE",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.HE": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "accelera",
+        "jet",
+        "pevatron",
+        "synchrotron"
+      ],
+      "disposition": "selected/full-text reviewed",
+      "reason": "A western-head polarization upper limit tests the field asymmetry across the two SS 433 jets.",
+      "full_text_access": "full text reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34592",
+      "evidence": {
+        "dated_listing": "https://arxiv.org/catchup/astro-ph.HE/2026-11-26?abs=True",
+        "listing_section": "New submissions",
+        "version_url": "https://arxiv.org/abs/2611.34592v1",
+        "version_history": "[v1] Wed, 25 Nov 2026 15:52:11 UTC (1,643 KB)",
+        "record_verified_at": "2026-11-26T10:38:28+01:00",
+        "full_text": "https://arxiv.org/pdf/2611.34592v1",
+        "full_text_review": [
+          "methods and equations",
+          "data or simulation assumptions",
+          "figures and reported results",
+          "limitations and primary-source historical comparison"
+        ],
+        "history_sources": [
+          "https://arxiv.org/abs/2401.16019",
+          "https://arxiv.org/abs/2311.16313",
+          "https://arxiv.org/abs/2611.03846"
+        ]
+      }
+    },
+    {
+      "arxiv": "2611.34613",
+      "title": "Discovery of Trailing Spiral Dust Alignment in the Dust Polarization of HL Tau at $λ= 2.1$ mm",
+      "primary_category": "astro-ph.EP",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Discovery of Trailing Spiral Dust Alignment in the Dust Polarization of HL Tau at $λ= 2.1$ mm. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34613"
+    },
+    {
+      "arxiv": "2611.34625",
+      "title": "The tangled warp of the Milky Way II: The red clump",
+      "primary_category": "astro-ph.GA",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address The tangled warp of the Milky Way II: The red clump. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34625"
+    },
+    {
+      "arxiv": "2611.34642",
+      "title": "Determining the Spin-down of the White Dwarf in J191213.72-441045.1 using Optical Time-Series Photometry",
+      "primary_category": "astro-ph.SR",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.HE": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Determining the Spin-down of the White Dwarf in J191213.72-441045.1 using Optical Time-Series Photometry. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34642"
+    },
+    {
+      "arxiv": "2611.34650",
+      "title": "Probing Dynamical Dark Energy with Hyper Suprime-Cam Year 3 Cosmic Shear",
+      "primary_category": "astro-ph.CO",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.CO": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "oscillation"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Probing Dynamical Dark Energy with Hyper Suprime-Cam Year 3 Cosmic Shear. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34650"
+    },
+    {
+      "arxiv": "2611.34672",
+      "title": "Signals from the early Universe: primordial features from the full-shape analysis of BOSS galaxies and eBOSS quasars in combination with Planck",
+      "primary_category": "astro-ph.CO",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.CO": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "oscillation"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Signals from the early Universe: primordial features from the full-shape analysis of BOSS galaxies and eBOSS quasars in combination with Planck. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34672"
+    },
+    {
+      "arxiv": "2611.34674",
+      "title": "A Large Envelope Can Explain Super-Puffs",
+      "primary_category": "astro-ph.EP",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address A Large Envelope Can Explain Super-Puffs. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34674"
+    },
+    {
+      "arxiv": "2611.34691",
+      "title": "First detection of s-cis-acroleine (sc-CH2CHCHO) in the interstellar medium",
+      "primary_category": "astro-ph.GA",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address First detection of s-cis-acroleine (sc-CH2CHCHO) in the interstellar medium. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34691"
+    },
+    {
+      "arxiv": "2611.34720",
+      "title": "NASA's Pandora SmallSat Mission: Gaussian Processes for Simulated Stellar Heterogeneity Corrections under Imperfect Stellar Models",
+      "primary_category": "astro-ph.SR",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address NASA's Pandora SmallSat Mission: Gaussian Processes for Simulated Stellar Heterogeneity Corrections under Imperfect Stellar Models. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34720"
+    },
+    {
+      "arxiv": "2611.34731",
+      "title": "Is Gravitational-Wave Waveform Systematics a Bottleneck for Formation Channel Inferences using Effective-Spin and Mass-Ratio?",
+      "primary_category": "astro-ph.HE",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.HE": "New",
+        "gr-qc": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Is Gravitational-Wave Waveform Systematics a Bottleneck for Formation Channel Inferences using Effective-Spin and Mass-Ratio?. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34731"
+    },
+    {
+      "arxiv": "2611.34743",
+      "title": "Black holes in little red and blue dots drive no superwinds in the first 1.5 billion years",
+      "primary_category": "astro-ph.GA",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Black holes in little red and blue dots drive no superwinds in the first 1.5 billion years. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34743"
+    },
+    {
+      "arxiv": "2611.34753",
+      "title": "periapsis: A Comprehensive Orbital Fitting Package",
+      "primary_category": "astro-ph.SR",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address periapsis: A Comprehensive Orbital Fitting Package. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34753"
+    },
+    {
+      "arxiv": "2611.34772",
+      "title": "Drilling for the Radio Neutrino Observatory in Greenland (RNO-G): field performance of BigRAID",
+      "primary_category": "astro-ph.IM",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "neutrino",
+        "ultra-high"
+      ],
+      "disposition": "lower ranked",
+      "reason": "Neutrino-observatory drill performance and installation experience, distinct from particle or source constraints.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34772"
+    },
+    {
+      "arxiv": "2611.34775",
+      "title": "State of the UNIONS: Four Milky Way companions discovered in a systematic search for northern Local Group satellites",
+      "primary_category": "astro-ph.GA",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "dark matter"
+      ],
+      "disposition": "lower ranked",
+      "reason": "Milky Way satellite discovery, with the dark-matter content of the faint systems unresolved.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34775"
+    },
+    {
+      "arxiv": "2611.34786",
+      "title": "Modeling time series of high-resolution spectra using the asymmetric Hilbert-Schmidt decomposition with application to radial velocity exoplanet searches",
+      "primary_category": "astro-ph.IM",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Modeling time series of high-resolution spectra using the asymmetric Hilbert-Schmidt decomposition with application to radial velocity exoplanet searches. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34786"
+    },
+    {
+      "arxiv": "2611.34789",
+      "title": "The THESAN-ZOOM project: interpreting candidate Population III-enriched absorption line systems during reionization",
+      "primary_category": "astro-ph.GA",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address The THESAN-ZOOM project: interpreting candidate Population III-enriched absorption line systems during reionization. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34789"
+    },
+    {
+      "arxiv": "2611.34790",
+      "title": "A Bayesian Approach to Prioritizing the Follow-Up of Near-Earth Objects",
+      "primary_category": "astro-ph.IM",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address A Bayesian Approach to Prioritizing the Follow-Up of Near-Earth Objects. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34790"
+    },
+    {
+      "arxiv": "2611.34797",
+      "title": "Measuring the flavor composition of high-energy neutrinos from the Milky Way",
+      "primary_category": "astro-ph.HE",
+      "listing_appearances": {
+        "astro-ph": "New",
+        "astro-ph.HE": "New",
+        "hep-ph": "Cross",
+        "hep-ex": "Cross",
+        "hep-th": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "icecube",
+        "neutrino"
+      ],
+      "disposition": "selected/full-text reviewed",
+      "reason": "What a network of tracks and showers could say about pion production and muon cooling.",
+      "full_text_access": "full text reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34797",
+      "evidence": {
+        "dated_listing": "https://arxiv.org/catchup/astro-ph.HE/2026-11-26?abs=True",
+        "listing_section": "New submissions",
+        "version_url": "https://arxiv.org/abs/2611.34797v1",
+        "version_history": "[v1] Wed, 25 Nov 2026 17:50:14 UTC (2,378 KB)",
+        "record_verified_at": "2026-11-26T10:38:28+01:00",
+        "full_text": "https://arxiv.org/html/2611.34797v1",
+        "full_text_review": [
+          "methods and equations",
+          "data or simulation assumptions",
+          "figures and reported results",
+          "limitations and primary-source historical comparison"
+        ],
+        "history_sources": [
+          "https://arxiv.org/abs/2307.14842",
+          "https://arxiv.org/abs/2611.12220",
+          "https://arxiv.org/abs/astro-ph/0507599",
+          "https://arxiv.org/abs/2603.15754"
+        ]
+      }
+    },
+    {
+      "arxiv": "2611.34802",
+      "title": "Tipping the scales in Blue Jay: Dust energy balance overpredicts IR luminosity in galaxies at $z\\sim2$",
+      "primary_category": "astro-ph.GA",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Tipping the scales in Blue Jay: Dust energy balance overpredicts IR luminosity in galaxies at $z\\sim2$. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34802"
+    },
+    {
+      "arxiv": "2611.34867",
+      "title": "The oxygen cold trap in protoplanetary discs",
+      "primary_category": "astro-ph.EP",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address The oxygen cold trap in protoplanetary discs. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34867"
+    },
+    {
+      "arxiv": "2611.34890",
+      "title": "The Splash population confined to the Milky Way bar region",
+      "primary_category": "astro-ph.GA",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address The Splash population confined to the Milky Way bar region. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34890"
+    },
+    {
+      "arxiv": "2611.34910",
+      "title": "A comparison of two- and one-fluid dust solvers for dusty, supersonic turbulence",
+      "primary_category": "astro-ph.GA",
+      "listing_appearances": {
+        "astro-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address A comparison of two- and one-fluid dust solvers for dusty, supersonic turbulence. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34910"
+    },
+    {
+      "arxiv": "2611.29224",
+      "title": "Curvature Mismatch and Local Errors in Galaxy Property Estimation",
+      "primary_category": "cs.LG",
+      "listing_appearances": {
+        "astro-ph": "Cross"
+      },
+      "new_primary_verified": false,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "Cross-list only in the core inventory. A New entry was not verified on the dated primary listing. Ineligible for inclusion on this evidence.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.29224"
+    },
+    {
+      "arxiv": "2611.31461",
+      "title": "Anisotropic Fluid Inhomogeneous Cosmology",
+      "primary_category": "gr-qc",
+      "listing_appearances": {
+        "astro-ph": "Cross",
+        "astro-ph.CO": "Cross"
+      },
+      "new_primary_verified": false,
+      "topic_pass": [
+        "accelera"
+      ],
+      "disposition": "screened out",
+      "reason": "Cross-list only in the core inventory. A New entry was not verified on the dated primary listing. Ineligible for inclusion on this evidence.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.31461"
+    },
+    {
+      "arxiv": "2611.33170",
+      "title": "Halley's Comet Over New Zealand In 1910: An Overview Of A Spectacular Apparition",
+      "primary_category": "physics.hist-ph",
+      "listing_appearances": {
+        "astro-ph": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Halley's Comet Over New Zealand In 1910: An Overview Of A Spectacular Apparition. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33170"
+    },
+    {
+      "arxiv": "2611.33434",
+      "title": "Low-latency gravitational wave alert infrastructure and new data products for multi-messenger astronomy during LIGO-Virgo-KAGRA's fourth observing run",
+      "primary_category": "gr-qc",
+      "listing_appearances": {
+        "astro-ph": "Cross",
+        "gr-qc": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "multi-messeng",
+        "neutrino"
+      ],
+      "disposition": "lower ranked",
+      "reason": "Public-alert pipeline performance and O4 products. Infrastructure contribution, with no independent new source or energy-loss result.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33434"
+    },
+    {
+      "arxiv": "2611.33550",
+      "title": "Environmental resonances in extreme-mass-ratio inspirals within boson clouds",
+      "primary_category": "gr-qc",
+      "listing_appearances": {
+        "astro-ph": "Cross",
+        "astro-ph.CO": "Cross",
+        "gr-qc": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Environmental resonances in extreme-mass-ratio inspirals within boson clouds. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33550"
+    },
+    {
+      "arxiv": "2611.33815",
+      "title": "Collisional dynamics of neutrino flavor conversion: angular structures, inhomogeneity, and decoherence",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "astro-ph": "Cross",
+        "astro-ph.HE": "Cross",
+        "hep-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "neutrino"
+      ],
+      "disposition": "lower ranked",
+      "reason": "Collisions and collective flavor conversion in dense gases. The calculation addresses local nonlinear evolution, farther from the source-to-detector questions prioritized in this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33815"
+    },
+    {
+      "arxiv": "2611.33953",
+      "title": "PINN-Slicer: Exploiting Rotational Symmetry to Solve the Photon Orbit Equation Around a Black Hole",
+      "primary_category": "cs.CL",
+      "listing_appearances": {
+        "astro-ph": "Cross",
+        "gr-qc": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address PINN-Slicer: Exploiting Rotational Symmetry to Solve the Photon Orbit Equation Around a Black Hole. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33953"
+    },
+    {
+      "arxiv": "2611.33989",
+      "title": "Formation of Electron Velocity Distribution Functions at low-\\{beta} Quasi-Perpendicular Shocks From Physical-Mass-Ratio PIC Simulations",
+      "primary_category": "physics.plasm-ph",
+      "listing_appearances": {
+        "astro-ph": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "accelera"
+      ],
+      "disposition": "lower ranked",
+      "reason": "Electron distribution functions in low-beta shocks. Microphysical context, without a comparably direct astronomical observable in this screening.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33989"
+    },
+    {
+      "arxiv": "2611.34172",
+      "title": "Black hole accretion flows as dark matter bolometers",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "astro-ph": "Cross",
+        "astro-ph.HE": "Cross",
+        "astro-ph.CO": "Cross",
+        "hep-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "dark matter"
+      ],
+      "disposition": "lower ranked",
+      "reason": "Accretion-flow thermal balance as a dark-matter electron-scattering probe. A model-dependent bound in a secondary topic, ranked below propagation constraints from the neutrino sample.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34172"
+    },
+    {
+      "arxiv": "2611.34213",
+      "title": "Lower Bound on the Lightest Neutrino Mass with Resonant Neutrino Self-Interactions",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "astro-ph": "Cross",
+        "astro-ph.HE": "Cross",
+        "hep-ph": "New",
+        "hep-ex": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "icecube",
+        "neutrino",
+        "ultra high"
+      ],
+      "disposition": "selected/full-text reviewed",
+      "reason": "Thermal motion of relic neutrinos makes an IceCube mass limit possible within a specified scalar-interaction model.",
+      "full_text_access": "full text reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34213",
+      "evidence": {
+        "dated_listing": "https://arxiv.org/catchup/hep-ph/2026-11-26?abs=True",
+        "listing_section": "New submissions",
+        "version_url": "https://arxiv.org/abs/2611.34213v1",
+        "version_history": "[v1] Wed, 25 Nov 2026 11:38:17 UTC (2,827 KB)",
+        "record_verified_at": "2026-11-26T10:38:28+01:00",
+        "full_text": "https://arxiv.org/pdf/2611.34213v1",
+        "full_text_review": [
+          "methods and equations",
+          "data or simulation assumptions",
+          "figures and reported results",
+          "limitations and primary-source historical comparison"
+        ],
+        "history_sources": [
+          "https://arxiv.org/abs/2001.04994",
+          "https://arxiv.org/abs/2107.13568",
+          "https://arxiv.org/abs/2307.02361"
+        ]
+      }
+    },
+    {
+      "arxiv": "2611.34437",
+      "title": "Graph Parameterization for Invariant Manifolds Attached to Quasi-Periodic Tori",
+      "primary_category": "math.DS",
+      "listing_appearances": {
+        "astro-ph": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "jet"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Graph Parameterization for Invariant Manifolds Attached to Quasi-Periodic Tori. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34437"
+    },
+    {
+      "arxiv": "2611.34439",
+      "title": "Inverted Pendulum in the Sky: Floquet Stabilization of Cosmological Axions",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "astro-ph": "Cross",
+        "astro-ph.CO": "Cross",
+        "hep-ph": "New",
+        "hep-th": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "axion",
+        "dark matter",
+        "oscillation",
+        "relic"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Inverted Pendulum in the Sky: Floquet Stabilization of Cosmological Axions. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34439"
+    },
+    {
+      "arxiv": "2611.34459",
+      "title": "Uphill Diffusion in Yukawa Plasmas",
+      "primary_category": "physics.plasm-ph",
+      "listing_appearances": {
+        "astro-ph": "Cross",
+        "astro-ph.HE": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Uphill Diffusion in Yukawa Plasmas. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34459"
+    },
+    {
+      "arxiv": "2611.34677",
+      "title": "First Order Real Resonant Digital Filters and A Novel Orthogonal State Generator",
+      "primary_category": "eess.SP",
+      "listing_appearances": {
+        "astro-ph": "Cross",
+        "hep-ex": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address First Order Real Resonant Digital Filters and A Novel Orthogonal State Generator. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34677"
+    },
+    {
+      "arxiv": "2611.34747",
+      "title": "phenjax: the IMRPhenomT waveform family in JAX for accelerated analyses on CPUs and GPUs",
+      "primary_category": "gr-qc",
+      "listing_appearances": {
+        "astro-ph": "Cross",
+        "gr-qc": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "accelera"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns phenjax: the IMRPhenomT waveform family in JAX for accelerated analyses on CPUs and GPUs. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34747"
+    },
+    {
+      "arxiv": "2611.34817",
+      "title": "Azimuth Pointing and Momentum Management for a Lightweight High-Altitude Balloon Payload",
+      "primary_category": "eess.SY",
+      "listing_appearances": {
+        "astro-ph": "Cross"
+      },
+      "new_primary_verified": false,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "Cross-list only in the core inventory. A New entry was not verified on the dated primary listing. Ineligible for inclusion on this evidence.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34817"
+    },
+    {
+      "arxiv": "2611.34838",
+      "title": "Screening of New Abelian Long-Range Forces",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "astro-ph": "Cross",
+        "astro-ph.HE": "Cross",
+        "hep-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "neutrino",
+        "oscillation"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Screening of New Abelian Long-Range Forces. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34838"
+    },
+    {
+      "arxiv": "2611.33180",
+      "title": "Testing the Unitarity of Three-Flavor Neutrino Mixing above the GUT Scale",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "neutrino",
+        "oscillation"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Testing the Unitarity of Three-Flavor Neutrino Mixing above the GUT Scale. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33180"
+    },
+    {
+      "arxiv": "2611.33279",
+      "title": "From nested soft-collinear subtraction to NNLO QCD predictions with large language models",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "jet"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns From nested soft-collinear subtraction to NNLO QCD predictions with large language models. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33279"
+    },
+    {
+      "arxiv": "2611.33280",
+      "title": "Parton structure of mesonic states with tensor networks",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "pion"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Parton structure of mesonic states with tensor networks. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33280"
+    },
+    {
+      "arxiv": "2611.33292",
+      "title": "Harder, Better, Faster, Stronger: The $Δ(1232)$ Resonance in Supernova QCD Axion Emission",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New",
+        "nucl-th": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "axion",
+        "pion"
+      ],
+      "disposition": "lower ranked",
+      "reason": "A delta-resonance contribution to supernova axion emission changes model spectra. Secondary priority relative to directly observed high-energy messengers and tests of their transport.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33292"
+    },
+    {
+      "arxiv": "2611.33482",
+      "title": "Physics-informed neural networks for quark Dyson--Schwinger equations and propagator singularities",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Physics-informed neural networks for quark Dyson--Schwinger equations and propagator singularities. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33482"
+    },
+    {
+      "arxiv": "2611.33537",
+      "title": "Divergence-type hydrodynamics of radial oscillations in viscous neutron stars",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New",
+        "gr-qc": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "oscillation"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Divergence-type hydrodynamics of radial oscillations in viscous neutron stars. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33537"
+    },
+    {
+      "arxiv": "2611.33633",
+      "title": "Determination of the strong coupling constant from the R ratio obtained in KEDR and BESIII experiments",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Determination of the strong coupling constant from the R ratio obtained in KEDR and BESIII experiments. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33633"
+    },
+    {
+      "arxiv": "2611.33708",
+      "title": "Singly-strange hidden-bottom and double-bottom molecular pentaquarks",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "hadron"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Singly-strange hidden-bottom and double-bottom molecular pentaquarks. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33708"
+    },
+    {
+      "arxiv": "2611.33709",
+      "title": "Heavy quark drag coefficient using phonon-heavy quark EFT",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Heavy quark drag coefficient using phonon-heavy quark EFT. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33709"
+    },
+    {
+      "arxiv": "2611.33787",
+      "title": "Higgsino dark matter explanation of LZ high-recoil event from deflected AMSB with $U(1)_X$ generated $μ$ term",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "dark matter",
+        "tev"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Higgsino dark matter explanation of LZ high-recoil event from deflected AMSB with $U(1)_X$ generated $μ$ term. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33787"
+    },
+    {
+      "arxiv": "2611.33862",
+      "title": "Origin of flavour cancellations in thermal leptogenesis",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "neutrino"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Origin of flavour cancellations in thermal leptogenesis. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33862"
+    },
+    {
+      "arxiv": "2611.33959",
+      "title": "Revisiting the collisional energy loss of a heavy quark in an anisotropic quark-gluon plasma",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Revisiting the collisional energy loss of a heavy quark in an anisotropic quark-gluon plasma. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33959"
+    },
+    {
+      "arxiv": "2611.33979",
+      "title": "Coherent quantum-circuit simulation of Mueller dipole branching at small $x$: multiplicity fluctuations and DIS phenomenology",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New",
+        "hep-th": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Coherent quantum-circuit simulation of Mueller dipole branching at small $x$: multiplicity fluctuations and DIS phenomenology. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33979"
+    },
+    {
+      "arxiv": "2611.34007",
+      "title": "Determining the kaon distribution amplitudes by fitting the $D\\to K$ transition form factor to investigate the equivalence of two chiral LCSR frameworks",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "kaon"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Determining the kaon distribution amplitudes by fitting the $D\\to K$ transition form factor to investigate the equivalence of two chiral LCSR frameworks. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34007"
+    },
+    {
+      "arxiv": "2611.34009",
+      "title": "Non-perturbative charm production from color ropes in relativistic heavy ion collisions",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Non-perturbative charm production from color ropes in relativistic heavy ion collisions. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34009"
+    },
+    {
+      "arxiv": "2611.34030",
+      "title": "Towards Quark-Gluon Correlations in Pion from the Dyson-Schwinger Equations",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "pion"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Towards Quark-Gluon Correlations in Pion from the Dyson-Schwinger Equations. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34030"
+    },
+    {
+      "arxiv": "2611.34263",
+      "title": "Complete NNLO QCD Calculations of $B_c^{(*)}\\to J/ψ(η_c)$ Form Factors and Semileptonic Decays",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Complete NNLO QCD Calculations of $B_c^{(*)}\\to J/ψ(η_c)$ Form Factors and Semileptonic Decays. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34263"
+    },
+    {
+      "arxiv": "2611.34394",
+      "title": "Isospin violating decay of D wave charmonia",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "hadron"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Isospin violating decay of D wave charmonia. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34394"
+    },
+    {
+      "arxiv": "2611.34438",
+      "title": "Lighting up LZ with Loopy Transitions in a leptophilic Dark Sector",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "dark matter"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Lighting up LZ with Loopy Transitions in a leptophilic Dark Sector. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34438"
+    },
+    {
+      "arxiv": "2611.34464",
+      "title": "Ultralight Dark Matter Spectrum with Gravitational Focusing and Doppler Motion",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New",
+        "gr-qc": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "dark matter"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Ultralight Dark Matter Spectrum with Gravitational Focusing and Doppler Motion. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34464"
+    },
+    {
+      "arxiv": "2611.34475",
+      "title": "Conditional multiparameter thermometry with neutrino oscillations: MSW energy diversity and a plasma-noise benchmark",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "neutrino",
+        "oscillation"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Conditional multiparameter thermometry with neutrino oscillations: MSW energy diversity and a plasma-noise benchmark. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34475"
+    },
+    {
+      "arxiv": "2611.34502",
+      "title": "Recent Developments in Colibri: A Neural-Network PDF Model and Improved Bayesian Sampling",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Recent Developments in Colibri: A Neural-Network PDF Model and Improved Bayesian Sampling. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34502"
+    },
+    {
+      "arxiv": "2611.34504",
+      "title": "Majorana Neutrino Exchange in Free-Baryon $B_1B_2\\to ppe^-e^-$ Reactions",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "neutrino"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Majorana Neutrino Exchange in Free-Baryon $B_1B_2\\to ppe^-e^-$ Reactions. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34504"
+    },
+    {
+      "arxiv": "2611.34525",
+      "title": "Confronting $b \\to (s, d)μ^+ μ^-$ and $\\mathcal{L}_{K^{*}\\bar{K}^{*}}$ puzzle in a $U(1)_{B-3L_μ}$ framework with neutrino phenomenology",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "neutrino"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Confronting $b \\to (s, d)μ^+ μ^-$ and $\\mathcal{L}_{K^{*}\\bar{K}^{*}}$ puzzle in a $U(1)_{B-3L_μ}$ framework with neutrino phenomenology. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34525"
+    },
+    {
+      "arxiv": "2611.34531",
+      "title": "Rational terms and UV counterterms of the SMEFT at next-to-leading order in QCD",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Rational terms and UV counterterms of the SMEFT at next-to-leading order in QCD. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34531"
+    },
+    {
+      "arxiv": "2611.34595",
+      "title": "Gravity-induced mixing, regeneration and CP violation",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "kaon",
+        "oscillation"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Gravity-induced mixing, regeneration and CP violation. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34595"
+    },
+    {
+      "arxiv": "2611.34604",
+      "title": "Entanglement entropy in low x Deep Inelastic Scattering",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "hadron"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Entanglement entropy in low x Deep Inelastic Scattering. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34604"
+    },
+    {
+      "arxiv": "2611.34631",
+      "title": "Tackling the DVCS inverse problem with finite element method",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Tackling the DVCS inverse problem with finite element method. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34631"
+    },
+    {
+      "arxiv": "2611.34804",
+      "title": "QED corrections to neutron and nuclear $β$-decay at order $α^2$",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New",
+        "nucl-ex": "Cross",
+        "nucl-th": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address QED corrections to neutron and nuclear $β$-decay at order $α^2$. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34804"
+    },
+    {
+      "arxiv": "2611.34808",
+      "title": "Probing Ultralight Dark Matter at the Electroweak Scale",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "dark matter"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Probing Ultralight Dark Matter at the Electroweak Scale. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34808"
+    },
+    {
+      "arxiv": "2611.34815",
+      "title": "Heavy-flavor transverse energy-energy correlators in the color-glass condensate",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "hadron"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Heavy-flavor transverse energy-energy correlators in the color-glass condensate. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34815"
+    },
+    {
+      "arxiv": "2611.34856",
+      "title": "Probing the CKM Origin of CP Violation with Paramagnetic EDMs and Rare Kaon Decays",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New",
+        "hep-ex": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "kaon",
+        "neutrino"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Probing the CKM Origin of CP Violation with Paramagnetic EDMs and Rare Kaon Decays. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34856"
+    },
+    {
+      "arxiv": "2611.34888",
+      "title": "The Look-Elsewhere Effect in Searches for New Physics: from Classical Methods to Machine Learning",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New",
+        "hep-ex": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address The Look-Elsewhere Effect in Searches for New Physics: from Classical Methods to Machine Learning. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34888"
+    },
+    {
+      "arxiv": "2611.34927",
+      "title": "KEBBABS: Kilometric Enhanced Balloon-Baseline for Axion Birefringence Search",
+      "primary_category": "hep-ph",
+      "listing_appearances": {
+        "hep-ph": "New",
+        "hep-th": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "axion",
+        "dark matter"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns KEBBABS: Kilometric Enhanced Balloon-Baseline for Axion Birefringence Search. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34927"
+    },
+    {
+      "arxiv": "2611.28144",
+      "title": "ACT Excited: Reconciling Starobinsky and Quadratic Chaotic Inflationary Models with ACT Results via Excited States",
+      "primary_category": "astro-ph.CO",
+      "listing_appearances": {
+        "hep-ph": "Cross",
+        "hep-th": "Cross",
+        "gr-qc": "Cross"
+      },
+      "new_primary_verified": false,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "Cross-list only in the core inventory. A New entry was not verified on the dated primary listing. Ineligible for inclusion on this evidence.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.28144"
+    },
+    {
+      "arxiv": "2611.33277",
+      "title": "Unitarization from Spin Geometry",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-ph": "Cross",
+        "hep-th": "New",
+        "gr-qc": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Unitarization from Spin Geometry. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33277"
+    },
+    {
+      "arxiv": "2611.33311",
+      "title": "Machine Learning for Calabi--Yau Geometry and Heterotic Compactification",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-ph": "Cross",
+        "hep-th": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "axion"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Machine Learning for Calabi--Yau Geometry and Heterotic Compactification. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33311"
+    },
+    {
+      "arxiv": "2611.33970",
+      "title": "Gradient-flow scale setting from octet baryon masses in N$^3$LO covariant chiral perturbation theory",
+      "primary_category": "hep-lat",
+      "listing_appearances": {
+        "hep-ph": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Gradient-flow scale setting from octet baryon masses in N$^3$LO covariant chiral perturbation theory. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33970"
+    },
+    {
+      "arxiv": "2611.34886",
+      "title": "Time-weighted energy correlators are infrared unsafe in gauge theories",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-ph": "Cross",
+        "hep-th": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Time-weighted energy correlators are infrared unsafe in gauge theories. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34886"
+    },
+    {
+      "arxiv": "2611.34892",
+      "title": "Massive Triangle in Cosmological Correlator beyond Conformal Coupling",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-ph": "Cross",
+        "hep-th": "New",
+        "gr-qc": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Massive Triangle in Cosmological Correlator beyond Conformal Coupling. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34892"
+    },
+    {
+      "arxiv": "2611.34102",
+      "title": "Proceedings of \"Accelerating ALICE background simulations: A WGAN Approach to slow-neutron induced TPC loopers\" CHEP 2026, 26/05/2026",
+      "primary_category": "hep-ex",
+      "listing_appearances": {
+        "hep-ex": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "accelera"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Proceedings of \"Accelerating ALICE background simulations: A WGAN Approach to slow-neutron induced TPC loopers\" CHEP 2026, 26/05/2026. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34102"
+    },
+    {
+      "arxiv": "2611.34201",
+      "title": "Ratio of $\\barΛ$ to $K_\\rm{S}^0$ production cross-sections in $pp$ collisions at 13.6TeV",
+      "primary_category": "hep-ex",
+      "listing_appearances": {
+        "hep-ex": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "hadron"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Ratio of $\\barΛ$ to $K_\\rm{S}^0$ production cross-sections in $pp$ collisions at 13.6TeV. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34201"
+    },
+    {
+      "arxiv": "2611.34882",
+      "title": "Letter of Intent: AN Underground Belayed In-Shaft (ANUBIS) detector",
+      "primary_category": "hep-ex",
+      "listing_appearances": {
+        "hep-ex": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "axion",
+        "dark matter"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Letter of Intent: AN Underground Belayed In-Shaft (ANUBIS) detector. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34882"
+    },
+    {
+      "arxiv": "2611.33221",
+      "title": "Continuous Universal Fake Factors for jet-to-tau background estimation",
+      "primary_category": "physics.data-an",
+      "listing_appearances": {
+        "hep-ex": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "hadron",
+        "jet"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Continuous Universal Fake Factors for jet-to-tau background estimation. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33221"
+    },
+    {
+      "arxiv": "2611.33223",
+      "title": "CLEAR: A Contrastive-Masked Foundation Model for BESIII Event Understanding",
+      "primary_category": "physics.data-an",
+      "listing_appearances": {
+        "hep-ex": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address CLEAR: A Contrastive-Masked Foundation Model for BESIII Event Understanding. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33223"
+    },
+    {
+      "arxiv": "2611.33226",
+      "title": "Shower Shapes and Data-Driven Simulation Studies using a Highly Granular Crystal ECAL",
+      "primary_category": "physics.ins-det",
+      "listing_appearances": {
+        "hep-ex": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "synchrotron"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Shower Shapes and Data-Driven Simulation Studies using a Highly Granular Crystal ECAL. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33226"
+    },
+    {
+      "arxiv": "2611.33264",
+      "title": "Quantum critical collapse to an extremal black hole",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Quantum critical collapse to an extremal black hole. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33264"
+    },
+    {
+      "arxiv": "2611.33271",
+      "title": "The black hole IR triangle for scalar QED",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New",
+        "gr-qc": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address The black hole IR triangle for scalar QED. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33271"
+    },
+    {
+      "arxiv": "2611.33272",
+      "title": "The OPE of lines beyond CFT",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address The OPE of lines beyond CFT. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33272"
+    },
+    {
+      "arxiv": "2611.33273",
+      "title": "The String Theory Photinoverse",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "dark matter",
+        "gamma ray"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns The String Theory Photinoverse. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33273"
+    },
+    {
+      "arxiv": "2611.33275",
+      "title": "Gauge groups of type 0 orientifolds",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Gauge groups of type 0 orientifolds. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33275"
+    },
+    {
+      "arxiv": "2611.33281",
+      "title": "Neural Network Field Theory and the AdS/CFT Correspondence",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Neural Network Field Theory and the AdS/CFT Correspondence. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33281"
+    },
+    {
+      "arxiv": "2611.33283",
+      "title": "Energy plateau cascades from complex-time local quenches in thermal two-dimensional CFTs",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Energy plateau cascades from complex-time local quenches in thermal two-dimensional CFTs. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33283"
+    },
+    {
+      "arxiv": "2611.33285",
+      "title": "Bounds on Love Numbers and Quasinormal Modes from the Surface Impedance",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New",
+        "gr-qc": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Bounds on Love Numbers and Quasinormal Modes from the Surface Impedance. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33285"
+    },
+    {
+      "arxiv": "2611.33287",
+      "title": "Chaotic singularities inside vacuum black holes",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New",
+        "gr-qc": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Chaotic singularities inside vacuum black holes. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33287"
+    },
+    {
+      "arxiv": "2611.33291",
+      "title": "RMT${}_2$: Random Spectral Correlations for CFT${}_2$ and AdS${}_3$ Gravity",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address RMT${}_2$: Random Spectral Correlations for CFT${}_2$ and AdS${}_3$ Gravity. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33291"
+    },
+    {
+      "arxiv": "2611.33343",
+      "title": "On the Structure Constants of ${\\cal N}=2$ Liouville Theory",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address On the Structure Constants of ${\\cal N}=2$ Liouville Theory. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33343"
+    },
+    {
+      "arxiv": "2611.33354",
+      "title": "Identifying Renormalization Group Interfaces of Massless WZW Flows $\\widehat{\\mathfrak{su}}(2)_k \\to \\widehat{\\mathfrak{su}}(2)_1$",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Identifying Renormalization Group Interfaces of Massless WZW Flows $\\widehat{\\mathfrak{su}}(2)_k \\to \\widehat{\\mathfrak{su}}(2)_1$. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33354"
+    },
+    {
+      "arxiv": "2611.33415",
+      "title": "An Argument for the Weak Gravity Conjecture from Constrained Wormholes",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address An Argument for the Weak Gravity Conjecture from Constrained Wormholes. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33415"
+    },
+    {
+      "arxiv": "2611.33445",
+      "title": "Probe branes from equivariant volumes",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Probe branes from equivariant volumes. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33445"
+    },
+    {
+      "arxiv": "2611.33564",
+      "title": "All known supersymmetric $\\mathrm{AdS}_4 \\times S^7$ uplifts from maximal supergravity",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New",
+        "gr-qc": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address All known supersymmetric $\\mathrm{AdS}_4 \\times S^7$ uplifts from maximal supergravity. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33564"
+    },
+    {
+      "arxiv": "2611.33599",
+      "title": "Holographic probes and Krylov complexity on asymptotically Lifshitz rotating black branes",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New",
+        "gr-qc": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "axion"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Holographic probes and Krylov complexity on asymptotically Lifshitz rotating black branes. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33599"
+    },
+    {
+      "arxiv": "2611.33620",
+      "title": "The Dirac equation in arbitrary coordinate systems and curved spacetimes - An orthonormal frames approach",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New",
+        "gr-qc": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address The Dirac equation in arbitrary coordinate systems and curved spacetimes - An orthonormal frames approach. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33620"
+    },
+    {
+      "arxiv": "2611.33744",
+      "title": "Late-time OTOCs in Toda conformal field theory",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Late-time OTOCs in Toda conformal field theory. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33744"
+    },
+    {
+      "arxiv": "2611.34082",
+      "title": "Defect Correlators from Supergravity: Finding the Missing Contact Terms",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Defect Correlators from Supergravity: Finding the Missing Contact Terms. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34082"
+    },
+    {
+      "arxiv": "2611.34097",
+      "title": "Higher derivatives and ghosts through three centuries",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Higher derivatives and ghosts through three centuries. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34097"
+    },
+    {
+      "arxiv": "2611.34129",
+      "title": "Reconstructing massive quivers on a defect circle",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Reconstructing massive quivers on a defect circle. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34129"
+    },
+    {
+      "arxiv": "2611.34369",
+      "title": "Robin--Hadamard states for unstable field in half-Minkowski spacetime",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Robin--Hadamard states for unstable field in half-Minkowski spacetime. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34369"
+    },
+    {
+      "arxiv": "2611.34421",
+      "title": "Quark-Loop Corrections and Auxiliary Field-Strength Mixing in First-Order QCD",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Quark-Loop Corrections and Auxiliary Field-Strength Mixing in First-Order QCD. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34421"
+    },
+    {
+      "arxiv": "2611.34444",
+      "title": "Black hole entropy from angular holonomies of Sine-Gordon soliton lattices in AdS$_3$",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New",
+        "gr-qc": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Black hole entropy from angular holonomies of Sine-Gordon soliton lattices in AdS$_3$. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34444"
+    },
+    {
+      "arxiv": "2611.34487",
+      "title": "Superconformal Index Identities for Dual Gauge Theories",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Superconformal Index Identities for Dual Gauge Theories. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34487"
+    },
+    {
+      "arxiv": "2611.34588",
+      "title": "Power-law tunneling in the Razavy hyperbolic double well: Heun connection formulas and their resonances",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Power-law tunneling in the Razavy hyperbolic double well: Heun connection formulas and their resonances. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34588"
+    },
+    {
+      "arxiv": "2611.34619",
+      "title": "The all-loop spectrum of GGK strings",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address The all-loop spectrum of GGK strings. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34619"
+    },
+    {
+      "arxiv": "2611.34705",
+      "title": "Interfaces in Long Range CFT$_1$",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Interfaces in Long Range CFT$_1$. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34705"
+    },
+    {
+      "arxiv": "2611.34706",
+      "title": "Entanglement and HBAR entropy in a Lorentzian non-commutative black hole",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New",
+        "gr-qc": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "accelera"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Entanglement and HBAR entropy in a Lorentzian non-commutative black hole. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34706"
+    },
+    {
+      "arxiv": "2611.34715",
+      "title": "Rényi multi-entropy from Riemann surfaces",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Rényi multi-entropy from Riemann surfaces. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34715"
+    },
+    {
+      "arxiv": "2611.34791",
+      "title": "Logarithmic scalar soft factorization from matching conditions",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Logarithmic scalar soft factorization from matching conditions. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34791"
+    },
+    {
+      "arxiv": "2611.34824",
+      "title": "A Pole-Cut Formula for Holographic Extremal Correlators",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New",
+        "gr-qc": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address A Pole-Cut Formula for Holographic Extremal Correlators. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34824"
+    },
+    {
+      "arxiv": "2611.34829",
+      "title": "Character expansion of the Itzykson-Zuber pair correlator",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Character expansion of the Itzykson-Zuber pair correlator. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34829"
+    },
+    {
+      "arxiv": "2611.34922",
+      "title": "Vacuum correlation measures as CFT partition functions",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Vacuum correlation measures as CFT partition functions. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34922"
+    },
+    {
+      "arxiv": "2611.34924",
+      "title": "An algebraic quantization of gravity from the null cone",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "hep-th": "New",
+        "gr-qc": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address An algebraic quantization of gravity from the null cone. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34924"
+    },
+    {
+      "arxiv": "2610.23209",
+      "title": "Regular Additive Scalar Invariants of ${\\mathcal N}=1$ Hyperbolic Spin Supertriangles",
+      "primary_category": "math.GT",
+      "listing_appearances": {
+        "hep-th": "Cross"
+      },
+      "new_primary_verified": false,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "Cross-list only in the core inventory. A New entry was not verified on the dated primary listing. Ineligible for inclusion on this evidence.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2610.23209"
+    },
+    {
+      "arxiv": "2611.31912",
+      "title": "Classical phase space distributions for quantum states in cosmology: General states, operator ordering and the geometry of fading non-commutativity",
+      "primary_category": "gr-qc",
+      "listing_appearances": {
+        "hep-th": "Cross"
+      },
+      "new_primary_verified": false,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "Cross-list only in the core inventory. A New entry was not verified on the dated primary listing. Ineligible for inclusion on this evidence.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.31912"
+    },
+    {
+      "arxiv": "2611.32956",
+      "title": "Positive Geometry of Oriented Matroid Strata",
+      "primary_category": "math.AG",
+      "listing_appearances": {
+        "hep-th": "Cross"
+      },
+      "new_primary_verified": false,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "Cross-list only in the core inventory. A New entry was not verified on the dated primary listing. Ineligible for inclusion on this evidence.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.32956"
+    },
+    {
+      "arxiv": "2611.33186",
+      "title": "Time-reflection nonlocal equations from $\\mathcal{P}\\mathcal{T}$-symmetric oscillator pairs: physical origin and variational formulation",
+      "primary_category": "math-ph",
+      "listing_appearances": {
+        "hep-th": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Time-reflection nonlocal equations from $\\mathcal{P}\\mathcal{T}$-symmetric oscillator pairs: physical origin and variational formulation. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33186"
+    },
+    {
+      "arxiv": "2611.33278",
+      "title": "Resolving the Conformal Mode Problem with Einstein-Cartan Gravity",
+      "primary_category": "gr-qc",
+      "listing_appearances": {
+        "hep-th": "Cross",
+        "gr-qc": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Resolving the Conformal Mode Problem with Einstein-Cartan Gravity. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33278"
+    },
+    {
+      "arxiv": "2611.33312",
+      "title": "Gauge symmetry permits extremely low-depth random unitary circuits",
+      "primary_category": "quant-ph",
+      "listing_appearances": {
+        "hep-th": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Gauge symmetry permits extremely low-depth random unitary circuits. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33312"
+    },
+    {
+      "arxiv": "2611.33807",
+      "title": "Controlling truncation errors in loop tensor network renormalization",
+      "primary_category": "cond-mat.str-el",
+      "listing_appearances": {
+        "hep-th": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Controlling truncation errors in loop tensor network renormalization. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33807"
+    },
+    {
+      "arxiv": "2611.34110",
+      "title": "Colored Jones polynomial of figure eight knot and non-perturbative topological recursion",
+      "primary_category": "math-ph",
+      "listing_appearances": {
+        "hep-th": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Colored Jones polynomial of figure eight knot and non-perturbative topological recursion. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34110"
+    },
+    {
+      "arxiv": "2611.34114",
+      "title": "Schwinger-Dyson recursion, Gröbner elimination and graph combinatorics",
+      "primary_category": "math-ph",
+      "listing_appearances": {
+        "hep-th": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Schwinger-Dyson recursion, Gröbner elimination and graph combinatorics. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34114"
+    },
+    {
+      "arxiv": "2611.34176",
+      "title": "Lorentz charges for Lovelock gravity",
+      "primary_category": "gr-qc",
+      "listing_appearances": {
+        "hep-th": "Cross",
+        "gr-qc": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Lorentz charges for Lovelock gravity. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34176"
+    },
+    {
+      "arxiv": "2611.34553",
+      "title": "Distribution of the ratio of the two smallest eigenphases of the Jacobi unitary ensemble",
+      "primary_category": "math-ph",
+      "listing_appearances": {
+        "hep-th": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Distribution of the ratio of the two smallest eigenphases of the Jacobi unitary ensemble. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34553"
+    },
+    {
+      "arxiv": "2611.34628",
+      "title": "The Zero Mode Constraint in the Dirac-Bergmann Analysis of Kadomtsev-Petviashvili Type Equations",
+      "primary_category": "math-ph",
+      "listing_appearances": {
+        "hep-th": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address The Zero Mode Constraint in the Dirac-Bergmann Analysis of Kadomtsev-Petviashvili Type Equations. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34628"
+    },
+    {
+      "arxiv": "2611.34633",
+      "title": "Spectral reciprocity for reductive groups",
+      "primary_category": "math.RT",
+      "listing_appearances": {
+        "hep-th": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Spectral reciprocity for reductive groups. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34633"
+    },
+    {
+      "arxiv": "2611.33295",
+      "title": "Quasinormal modes of black holes in astrophysical environments: Rainbow in the dark matter",
+      "primary_category": "gr-qc",
+      "listing_appearances": {
+        "gr-qc": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "dark matter"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Quasinormal modes of black holes in astrophysical environments: Rainbow in the dark matter. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33295"
+    },
+    {
+      "arxiv": "2611.33359",
+      "title": "Hamiltonian approach to isospectrality in nonrotating black holes",
+      "primary_category": "gr-qc",
+      "listing_appearances": {
+        "gr-qc": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Hamiltonian approach to isospectrality in nonrotating black holes. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33359"
+    },
+    {
+      "arxiv": "2611.33384",
+      "title": "Modular fluctuation relations on local causal horizons",
+      "primary_category": "gr-qc",
+      "listing_appearances": {
+        "gr-qc": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Modular fluctuation relations on local causal horizons. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33384"
+    },
+    {
+      "arxiv": "2611.33867",
+      "title": "Cosmographic Analysis of Gravitational Baryogenesis in Running-$G$ Cosmology",
+      "primary_category": "gr-qc",
+      "listing_appearances": {
+        "gr-qc": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "accelera"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Cosmographic Analysis of Gravitational Baryogenesis in Running-$G$ Cosmology. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33867"
+    },
+    {
+      "arxiv": "2611.33995",
+      "title": "An Electromagnetic Ergoregion Limits the Reconnection-Driven Penrose Process",
+      "primary_category": "gr-qc",
+      "listing_appearances": {
+        "gr-qc": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "ejecta"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns An Electromagnetic Ergoregion Limits the Reconnection-Driven Penrose Process. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33995"
+    },
+    {
+      "arxiv": "2611.34026",
+      "title": "Kiselev black hole from semiclassical gravity with conformal anomaly",
+      "primary_category": "gr-qc",
+      "listing_appearances": {
+        "gr-qc": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Kiselev black hole from semiclassical gravity with conformal anomaly. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34026"
+    },
+    {
+      "arxiv": "2611.34151",
+      "title": "The type-D accelerating Taub-NUT spacetime: construction, geometry and physical properties",
+      "primary_category": "gr-qc",
+      "listing_appearances": {
+        "gr-qc": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "accelera"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns The type-D accelerating Taub-NUT spacetime: construction, geometry and physical properties. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34151"
+    },
+    {
+      "arxiv": "2611.34283",
+      "title": "Sharp decay and regularity thresholds for Minkowski stability in spherical symmetry",
+      "primary_category": "gr-qc",
+      "listing_appearances": {
+        "gr-qc": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Sharp decay and regularity thresholds for Minkowski stability in spherical symmetry. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34283"
+    },
+    {
+      "arxiv": "2611.34358",
+      "title": "Semiclassical causal geodesics: Schwarzschild spacetime case",
+      "primary_category": "gr-qc",
+      "listing_appearances": {
+        "gr-qc": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Semiclassical causal geodesics: Schwarzschild spacetime case. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34358"
+    },
+    {
+      "arxiv": "2611.34542",
+      "title": "Gravitational collapse to extremal black holes with $Λ>0$: counterexamples to the third law without charge",
+      "primary_category": "gr-qc",
+      "listing_appearances": {
+        "gr-qc": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Gravitational collapse to extremal black holes with $Λ>0$: counterexamples to the third law without charge. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34542"
+    },
+    {
+      "arxiv": "2610.27420",
+      "title": "Pfaffian solutions to the Ernst equation",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "gr-qc": "Cross"
+      },
+      "new_primary_verified": false,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "Cross-list only in the core inventory. A New entry was not verified on the dated primary listing. Ineligible for inclusion on this evidence.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2610.27420"
+    },
+    {
+      "arxiv": "2611.19558",
+      "title": "A proof of Nakamura's conjecture",
+      "primary_category": "hep-th",
+      "listing_appearances": {
+        "gr-qc": "Cross"
+      },
+      "new_primary_verified": false,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "Cross-list only in the core inventory. A New entry was not verified on the dated primary listing. Ineligible for inclusion on this evidence.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.19558"
+    },
+    {
+      "arxiv": "2611.34800",
+      "title": "Cosmological rigidity in $3$ spacetime dimensions",
+      "primary_category": "math.DG",
+      "listing_appearances": {
+        "gr-qc": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Cosmological rigidity in $3$ spacetime dimensions. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34800"
+    },
+    {
+      "arxiv": "2611.34355",
+      "title": "Direct mass measurements of the high-spin isomers in self-conjugate 94Ag",
+      "primary_category": "nucl-ex",
+      "listing_appearances": {
+        "nucl-ex": "New",
+        "nucl-th": "Cross"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Direct mass measurements of the high-spin isomers in self-conjugate 94Ag. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34355"
+    },
+    {
+      "arxiv": "2611.34503",
+      "title": "Nuclear Modification of $π^0$ Production in pO and OO Collisions with ALICE",
+      "primary_category": "nucl-ex",
+      "listing_appearances": {
+        "nucl-ex": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "tev"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Nuclear Modification of $π^0$ Production in pO and OO Collisions with ALICE. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34503"
+    },
+    {
+      "arxiv": "2611.33217",
+      "title": "Anatomy of charge radii of Ca nuclei in self-consistent approaches with Skyrme and Fayans functionals",
+      "primary_category": "nucl-th",
+      "listing_appearances": {
+        "nucl-th": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Anatomy of charge radii of Ca nuclei in self-consistent approaches with Skyrme and Fayans functionals. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33217"
+    },
+    {
+      "arxiv": "2611.33379",
+      "title": "Probabilistic Machine Learning for Total Kinetic Energy Distributions in Neutron-Induced Fission",
+      "primary_category": "nucl-th",
+      "listing_appearances": {
+        "nucl-th": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Probabilistic Machine Learning for Total Kinetic Energy Distributions in Neutron-Induced Fission. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33379"
+    },
+    {
+      "arxiv": "2611.33662",
+      "title": "Introducing Parton-Level Fluctuations in the TRENTo-Sea Model",
+      "primary_category": "nucl-th",
+      "listing_appearances": {
+        "nucl-th": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Introducing Parton-Level Fluctuations in the TRENTo-Sea Model. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.33662"
+    },
+    {
+      "arxiv": "2611.34413",
+      "title": "Large-scale fission properties with BSkG3 I : fission paths and spontaneous fission half-lives",
+      "primary_category": "nucl-th",
+      "listing_appearances": {
+        "nucl-th": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Large-scale fission properties with BSkG3 I : fission paths and spontaneous fission half-lives. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34413"
+    },
+    {
+      "arxiv": "2611.34562",
+      "title": "Equilibrium baseline for transverse-momentum correlations in Au+Au collisions at $\\sqrt{s_{NN}} = 3$-$39$ GeV: Conservation laws, resonance decays, quantum statistics, and collective flow",
+      "primary_category": "nucl-th",
+      "listing_appearances": {
+        "nucl-th": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [
+        "hadron"
+      ],
+      "disposition": "screened out",
+      "reason": "The primary result concerns Equilibrium baseline for transverse-momentum correlations in Au+Au collisions at $\\sqrt{s_{NN}} = 3$-$39$ GeV: Conservation laws, resonance decays, quantum statistics, and collective flow. Topic overlap did not establish a sufficiently direct or distinctive contribution to the priorities of this edition.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34562"
+    },
+    {
+      "arxiv": "2611.34752",
+      "title": "Microscopic Approach to Neutron Elastic and Inelastic Cross Sections",
+      "primary_category": "nucl-th",
+      "listing_appearances": {
+        "nucl-th": "New"
+      },
+      "new_primary_verified": true,
+      "topic_pass": [],
+      "disposition": "screened out",
+      "reason": "The title and abstract address Microscopic Approach to Neutron Elastic and Inelastic Cross Sections. No sufficiently close connection to the edition’s prioritized particle and messenger questions was identified.",
+      "full_text_access": "abstract screened; full text not reviewed",
+      "abstract_url": "https://arxiv.org/abs/2611.34752"
+    }
+  ]
+}

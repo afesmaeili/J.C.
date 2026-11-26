@@ -1,0 +1,370 @@
+{
+  "date": "2026-11-26",
+  "part": "arxiv",
+  "status": "complete",
+  "cutoff": "2026-11-26T10:53:54+01:00",
+  "coverage": "UTC listing 2026-11-26, checked through 2026-11-26T10:53:54+01:00. All seven aggregate listings and the HE/CO listings were available with abstracts. 222 unique New/Cross records received a title-and-abstract screen, including a second lexical topic pass and editorial comparison of the shortlist. 213 had a dated New primary entry; the remaining 9 cross-list records had no verified New entry and were excluded. 5 selected, 5 full texts reviewed, 0 high-priority candidates pending. The complete listings were machine-screened; detailed human-language assessment focused on the shortlist. Coverage is limited to the named categories and their cross-lists. The five studies ask distinct questions; related data and reanalyses are identified in their entries. Dated evidence, decisions and earlier primary sources are preserved in content-parts/2026-11-26/arxiv-screening.json. This independently verified handoff supersedes an uncommitted draft; the listing and submission dates are unchanged.",
+  "topics": [
+    "neutrino flavor",
+    "muon cooling",
+    "multimessenger astrophysics",
+    "particle propagation",
+    "inverse Compton scattering",
+    "gamma rays",
+    "particle acceleration",
+    "X-ray polarimetry",
+    "microquasars",
+    "neutrino self-interactions",
+    "neutrino mass",
+    "IceCube",
+    "PeV electrons"
+  ],
+  "papers": [
+    {
+      "id": "arxiv-2611-34797",
+      "arxiv": "2611.34797",
+      "title": "Measuring the flavor composition of high-energy neutrinos from the Milky Way",
+      "authors": "Mauricio Bustamante",
+      "primary_category": "astro-ph.HE",
+      "label": "Galactic neutrino flavor",
+      "teaser": "What a network of tracks and showers could say about pion production and muon cooling.",
+      "tags": [
+        "neutrino flavor",
+        "muon cooling",
+        "multimessenger astrophysics"
+      ],
+      "source_audit": {
+        "dated_listing": "https://arxiv.org/catchup/astro-ph.HE/2026-11-26?abs=True",
+        "listing_section": "New submissions",
+        "version_url": "https://arxiv.org/abs/2611.34797v1",
+        "version_history": "[v1] Wed, 25 Nov 2026 17:50:14 UTC (2,378 KB)",
+        "record_verified_at": "2026-11-26T10:38:28+01:00",
+        "full_text": "https://arxiv.org/html/2611.34797v1",
+        "full_text_review": [
+          "methods and equations",
+          "data or simulation assumptions",
+          "figures and reported results",
+          "limitations and primary-source historical comparison"
+        ],
+        "history_sources": [
+          "https://arxiv.org/abs/2307.14842",
+          "https://arxiv.org/abs/2611.12220",
+          "https://arxiv.org/abs/astro-ph/0507599",
+          "https://arxiv.org/abs/2603.15754"
+        ]
+      }
+    },
+    {
+      "id": "arxiv-2611-34320",
+      "arxiv": "2611.34320",
+      "title": "High-energy Electron Transport with Discrete Inverse Compton Scatterings",
+      "authors": "Ruihao Jing, Siming Liu",
+      "primary_category": "astro-ph.HE",
+      "label": "Electron transport in pulsar halos",
+      "teaser": "Individual inverse Compton scatterings change the diffusion coefficient inferred from Geminga’s radial profile.",
+      "tags": [
+        "particle propagation",
+        "inverse Compton scattering",
+        "gamma rays"
+      ],
+      "source_audit": {
+        "dated_listing": "https://arxiv.org/catchup/astro-ph.HE/2026-11-26?abs=True",
+        "listing_section": "New submissions",
+        "version_url": "https://arxiv.org/abs/2611.34320v1",
+        "version_history": "[v1] Wed, 25 Nov 2026 13:06:03 UTC (764 KB)",
+        "record_verified_at": "2026-11-26T10:38:28+01:00",
+        "full_text": "https://arxiv.org/html/2611.34320v1",
+        "full_text_review": [
+          "methods and equations",
+          "data or simulation assumptions",
+          "figures and reported results",
+          "limitations and primary-source historical comparison"
+        ],
+        "history_sources": [
+          "https://arxiv.org/abs/1711.06223",
+          "https://arxiv.org/abs/2206.04699",
+          "https://arxiv.org/abs/2503.15052",
+          "https://arxiv.org/abs/2611.05808"
+        ]
+      }
+    },
+    {
+      "id": "arxiv-2611-34592",
+      "arxiv": "2611.34592",
+      "title": "X-ray Polarization of the Western Lobe of SS 433",
+      "authors": "Philip Kaaret, Jack T. Dinsmore, Naomi Tsuji, Samar Safi-Harb, Ningyue Fan, Roger W. Romani, Stefano Silvestri, Kaya Mori, Riccardo Ferrazzoli, Michela Negro, Chien-Ting Chen, Enrico Costa, Alessandro Di Marco, Brydyn Mac Intyre, Paolo Soffitta, Kinwah Wu",
+      "primary_category": "astro-ph.HE",
+      "label": "Magnetic fields at a jet acceleration site",
+      "teaser": "A western-head polarization upper limit tests the field asymmetry across the two SS 433 jets.",
+      "tags": [
+        "particle acceleration",
+        "X-ray polarimetry",
+        "microquasars"
+      ],
+      "source_audit": {
+        "dated_listing": "https://arxiv.org/catchup/astro-ph.HE/2026-11-26?abs=True",
+        "listing_section": "New submissions",
+        "version_url": "https://arxiv.org/abs/2611.34592v1",
+        "version_history": "[v1] Wed, 25 Nov 2026 15:52:11 UTC (1,643 KB)",
+        "record_verified_at": "2026-11-26T10:38:28+01:00",
+        "full_text": "https://arxiv.org/pdf/2611.34592v1",
+        "full_text_review": [
+          "methods and equations",
+          "data or simulation assumptions",
+          "figures and reported results",
+          "limitations and primary-source historical comparison"
+        ],
+        "history_sources": [
+          "https://arxiv.org/abs/2401.16019",
+          "https://arxiv.org/abs/2311.16313",
+          "https://arxiv.org/abs/2611.03846"
+        ]
+      }
+    },
+    {
+      "id": "arxiv-2611-34213",
+      "arxiv": "2611.34213",
+      "title": "Lower Bound on the Lightest Neutrino Mass with Resonant Neutrino Self-Interactions",
+      "authors": "Shao-Feng Ge, Joao Paulo Pinheiro, Shaoyang Qin, Ruitao Sun, Oleg Titov",
+      "primary_category": "hep-ph",
+      "label": "Neutrino propagation and mass",
+      "teaser": "Thermal motion of relic neutrinos makes an IceCube mass limit possible within a specified scalar-interaction model.",
+      "tags": [
+        "neutrino self-interactions",
+        "neutrino mass",
+        "IceCube"
+      ],
+      "source_audit": {
+        "dated_listing": "https://arxiv.org/catchup/hep-ph/2026-11-26?abs=True",
+        "listing_section": "New submissions",
+        "version_url": "https://arxiv.org/abs/2611.34213v1",
+        "version_history": "[v1] Wed, 25 Nov 2026 11:38:17 UTC (2,827 KB)",
+        "record_verified_at": "2026-11-26T10:38:28+01:00",
+        "full_text": "https://arxiv.org/pdf/2611.34213v1",
+        "full_text_review": [
+          "methods and equations",
+          "data or simulation assumptions",
+          "figures and reported results",
+          "limitations and primary-source historical comparison"
+        ],
+        "history_sources": [
+          "https://arxiv.org/abs/2001.04994",
+          "https://arxiv.org/abs/2107.13568",
+          "https://arxiv.org/abs/2307.02361"
+        ]
+      }
+    },
+    {
+      "id": "arxiv-2611-34543",
+      "arxiv": "2611.34543",
+      "title": "An X-ray binary origin for the LHAASO peanut",
+      "authors": "Laura Olivera-Nieto, Jakob van den Eijnden, Rembrand Ruppert, Pikky Atri, Sera Markoff, Kaya Mori, Gabriele Ponti, Brian Reville, Caterina Tresoldi, Naomi Tsuji",
+      "primary_category": "astro-ph.HE",
+      "label": "Galactic PeV accelerators",
+      "teaser": "A dormant binary between two gamma-ray hotspots gives a testable interpretation of the LHAASO source.",
+      "tags": [
+        "gamma rays",
+        "microquasars",
+        "PeV electrons"
+      ],
+      "source_audit": {
+        "dated_listing": "https://arxiv.org/catchup/astro-ph.HE/2026-11-26?abs=True",
+        "listing_section": "New submissions",
+        "version_url": "https://arxiv.org/abs/2611.34543v1",
+        "version_history": "[v1] Wed, 25 Nov 2026 15:21:36 UTC (829 KB)",
+        "record_verified_at": "2026-11-26T10:38:28+01:00",
+        "full_text": "https://arxiv.org/html/2611.34543v1",
+        "full_text_review": [
+          "methods and equations",
+          "data or simulation assumptions",
+          "figures and reported results",
+          "limitations and primary-source historical comparison"
+        ],
+        "history_sources": [
+          "https://arxiv.org/abs/2510.06786",
+          "https://arxiv.org/abs/2511.10537",
+          "https://arxiv.org/abs/2611.10703",
+          "https://arxiv.org/abs/2611.15473"
+        ]
+      }
+    }
+  ],
+  "alerts_count": 0,
+  "news_count": 0,
+  "science_radar_count": 0,
+  "listing_statistics": {
+    "date": "2026-11-26",
+    "basis": "new_primary_submissions",
+    "counts": {
+      "astro-ph": 90,
+      "hep-ph": 39,
+      "hep-ex": 3,
+      "hep-th": 39,
+      "gr-qc": 15,
+      "nucl-ex": 2,
+      "nucl-th": 6
+    },
+    "astro_subcategories": {
+      "astro-ph.HE": 16,
+      "astro-ph.CO": 14
+    },
+    "sources": [
+      "https://arxiv.org/catchup/astro-ph/2026-11-26?abs=True",
+      "https://arxiv.org/catchup/astro-ph.HE/2026-11-26?abs=True",
+      "https://arxiv.org/catchup/astro-ph.CO/2026-11-26?abs=True",
+      "https://arxiv.org/catchup/hep-ph/2026-11-26?abs=True",
+      "https://arxiv.org/catchup/hep-ex/2026-11-26?abs=True",
+      "https://arxiv.org/catchup/hep-th/2026-11-26?abs=True",
+      "https://arxiv.org/catchup/gr-qc/2026-11-26?abs=True",
+      "https://arxiv.org/catchup/nucl-ex/2026-11-26?abs=True",
+      "https://arxiv.org/catchup/nucl-th/2026-11-26?abs=True"
+    ],
+    "verified_at": "2026-11-26T10:37:45+01:00",
+    "screening_audit_url": "https://github.com/afesmaeili/J.C./blob/main/content-parts/2026-11-26/arxiv-screening.json",
+    "screening_counts": {
+      "screened_unique_title_abstract_records": 222,
+      "selected_unique": 5,
+      "full_text_read": 5,
+      "unresolved_high_priority": 0,
+      "independent_featured_studies": 5,
+      "primary_new_verified_in_inventory": 213,
+      "unverified_first_announcement_crosslist_only": 9,
+      "selected_by_primary_category": {
+        "astro-ph.HE": 4,
+        "hep-ph": 1
+      }
+    }
+  },
+  "source_audit": {
+    "cutoff": "2026-11-26T10:53:54+01:00",
+    "counts": {
+      "screened_unique_title_abstract_records": 222,
+      "selected_unique": 5,
+      "full_text_read": 5,
+      "unresolved_high_priority": 0,
+      "independent_featured_studies": 5,
+      "primary_new_verified_in_inventory": 213,
+      "unverified_first_announcement_crosslist_only": 9,
+      "selected_by_primary_category": {
+        "astro-ph.HE": 4,
+        "hep-ph": 1
+      }
+    },
+    "listing_urls": [
+      "https://arxiv.org/catchup/astro-ph/2026-11-26?abs=True",
+      "https://arxiv.org/catchup/astro-ph.HE/2026-11-26?abs=True",
+      "https://arxiv.org/catchup/astro-ph.CO/2026-11-26?abs=True",
+      "https://arxiv.org/catchup/hep-ph/2026-11-26?abs=True",
+      "https://arxiv.org/catchup/hep-ex/2026-11-26?abs=True",
+      "https://arxiv.org/catchup/hep-th/2026-11-26?abs=True",
+      "https://arxiv.org/catchup/gr-qc/2026-11-26?abs=True",
+      "https://arxiv.org/catchup/nucl-ex/2026-11-26?abs=True",
+      "https://arxiv.org/catchup/nucl-th/2026-11-26?abs=True"
+    ],
+    "screening_audit": "content-parts/2026-11-26/arxiv-screening.json",
+    "provenance": "Independent rerun on the edition date. Recounted the dated primary listings and checked the selected v1 reports and their earlier literature. No earlier edition or previously published ArXiv Highlights were replaced.",
+    "selected_evidence": {
+      "2611.34797": {
+        "dated_listing": "https://arxiv.org/catchup/astro-ph.HE/2026-11-26?abs=True",
+        "listing_section": "New submissions",
+        "version_url": "https://arxiv.org/abs/2611.34797v1",
+        "version_history": "[v1] Wed, 25 Nov 2026 17:50:14 UTC (2,378 KB)",
+        "record_verified_at": "2026-11-26T10:38:28+01:00",
+        "full_text": "https://arxiv.org/html/2611.34797v1",
+        "full_text_review": [
+          "methods and equations",
+          "data or simulation assumptions",
+          "figures and reported results",
+          "limitations and primary-source historical comparison"
+        ],
+        "history_sources": [
+          "https://arxiv.org/abs/2307.14842",
+          "https://arxiv.org/abs/2611.12220",
+          "https://arxiv.org/abs/astro-ph/0507599",
+          "https://arxiv.org/abs/2603.15754"
+        ]
+      },
+      "2611.34320": {
+        "dated_listing": "https://arxiv.org/catchup/astro-ph.HE/2026-11-26?abs=True",
+        "listing_section": "New submissions",
+        "version_url": "https://arxiv.org/abs/2611.34320v1",
+        "version_history": "[v1] Wed, 25 Nov 2026 13:06:03 UTC (764 KB)",
+        "record_verified_at": "2026-11-26T10:38:28+01:00",
+        "full_text": "https://arxiv.org/html/2611.34320v1",
+        "full_text_review": [
+          "methods and equations",
+          "data or simulation assumptions",
+          "figures and reported results",
+          "limitations and primary-source historical comparison"
+        ],
+        "history_sources": [
+          "https://arxiv.org/abs/1711.06223",
+          "https://arxiv.org/abs/2206.04699",
+          "https://arxiv.org/abs/2503.15052",
+          "https://arxiv.org/abs/2611.05808"
+        ]
+      },
+      "2611.34592": {
+        "dated_listing": "https://arxiv.org/catchup/astro-ph.HE/2026-11-26?abs=True",
+        "listing_section": "New submissions",
+        "version_url": "https://arxiv.org/abs/2611.34592v1",
+        "version_history": "[v1] Wed, 25 Nov 2026 15:52:11 UTC (1,643 KB)",
+        "record_verified_at": "2026-11-26T10:38:28+01:00",
+        "full_text": "https://arxiv.org/pdf/2611.34592v1",
+        "full_text_review": [
+          "methods and equations",
+          "data or simulation assumptions",
+          "figures and reported results",
+          "limitations and primary-source historical comparison"
+        ],
+        "history_sources": [
+          "https://arxiv.org/abs/2401.16019",
+          "https://arxiv.org/abs/2311.16313",
+          "https://arxiv.org/abs/2611.03846"
+        ]
+      },
+      "2611.34213": {
+        "dated_listing": "https://arxiv.org/catchup/hep-ph/2026-11-26?abs=True",
+        "listing_section": "New submissions",
+        "version_url": "https://arxiv.org/abs/2611.34213v1",
+        "version_history": "[v1] Wed, 25 Nov 2026 11:38:17 UTC (2,827 KB)",
+        "record_verified_at": "2026-11-26T10:38:28+01:00",
+        "full_text": "https://arxiv.org/pdf/2611.34213v1",
+        "full_text_review": [
+          "methods and equations",
+          "data or simulation assumptions",
+          "figures and reported results",
+          "limitations and primary-source historical comparison"
+        ],
+        "history_sources": [
+          "https://arxiv.org/abs/2001.04994",
+          "https://arxiv.org/abs/2107.13568",
+          "https://arxiv.org/abs/2307.02361"
+        ]
+      },
+      "2611.34543": {
+        "dated_listing": "https://arxiv.org/catchup/astro-ph.HE/2026-11-26?abs=True",
+        "listing_section": "New submissions",
+        "version_url": "https://arxiv.org/abs/2611.34543v1",
+        "version_history": "[v1] Wed, 25 Nov 2026 15:21:36 UTC (829 KB)",
+        "record_verified_at": "2026-11-26T10:38:28+01:00",
+        "full_text": "https://arxiv.org/html/2611.34543v1",
+        "full_text_review": [
+          "methods and equations",
+          "data or simulation assumptions",
+          "figures and reported results",
+          "limitations and primary-source historical comparison"
+        ],
+        "history_sources": [
+          "https://arxiv.org/abs/2510.06786",
+          "https://arxiv.org/abs/2511.10537",
+          "https://arxiv.org/abs/2611.10703",
+          "https://arxiv.org/abs/2611.15473"
+        ]
+      }
+    }
+  },
+  "sections": {
+    "ArXiv Highlights": "<!-- paper:arxiv-2611-34797 -->\n#### Measuring the flavor composition of high-energy neutrinos from the Milky Way\n\n**Mauricio Bustamante.** Forecast. Submitted 25 November 2026 at 17:50 UTC and first announced on 26 November in astro-ph.HE. The v1 record lists no journal publication. [arXiv v1](https://arxiv.org/abs/2611.34797v1) · [Full text and supplement](https://arxiv.org/html/2611.34797v1)\n\nCollisions of cosmic rays with interstellar gas produce charged pions. If the pions and their daughter muons decay freely, roughly one electron neutrino is born for every two muon neutrinos, counting antiparticles. Muon cooling suppresses the electron component. Can an experiment distinguish these production mechanisms after oscillations have partly erased their flavor differences? The calculation exploits a geographical advantage. IceCube sees the inner Galaxy mainly in showers, while northern telescopes can see it below the horizon in well-localized muon tracks. Their relative rates carry information that the shower sample alone cannot recover.\n\nThe forecast fits simulated mean event counts in three longitude segments at |b| < 8° and in an extragalactic control region at |b| > 30°. It propagates flavors using oscillation probabilities averaged over the baseline, folds each channel through the detector response and fits the segment intensities, spectral slopes and compositions independently. With 15 years of IceCube and ten full-size years apiece of seven other instruments, the **68% profile interval for the source electron fraction in the inner segment (|ℓ| < 40°) is 0.245–0.425** for a true fraction of 1/3. Its half-width is about 27% of the true value. IceCube, KM3NeT and Baikal-GVD alone give 88% relative precision for the stated exposures. The source tau fraction is fixed to zero in this inference. The fit uses normal mass ordering, projected mixing-parameter uncertainties and profiles detector and background uncertainties. A fainter, harder Galactic emission model widens the eight-telescope interval to 0.235–0.435.\n\nThe Galactic sample also supplies a reference for testing cooling in extragalactic sources. In the model, the characteristic neutrino energy from muon decay is approximately 2 × 10⁹ GeV divided by the field in gauss. Pions and kaons cool at higher energies. For a broken injected spectrum, all eight telescopes reach a **median 3σ sensitivity near 11 kG and 5σ near 22 kG**. These are simulated thresholds for a source population. The null fit can change its spectral shape and common flavor mixture. The reach depends on the true spectra, how well different detectors distinguish tracks and showers, and whether the proposed instruments reach their assumed volumes. The paper calibrates the cooling test with 1,000 null realizations and extrapolates the tail for high significance.\n\n##### History\n\nIceCube’s ten-year Galactic-plane analysis rejected the background-only hypothesis at **4.5σ** with neutrino-induced showers. A subsequent fit to the same decade of showers measured a flux per steradian at 5 TeV about five times larger in |ℓ| < 30° than in |ℓ| > 60°. Both results establish a useful flux baseline. Neither observation separated the Galactic flavors. The forecast builds on those related measurements, with a different central longitude boundary in its main three-segment fit. [IceCube Galactic-plane observation](https://arxiv.org/abs/2307.14842) · [IceCube segmented measurement](https://arxiv.org/abs/2611.12220)\n\nKashti and Waxman derived an energy-dependent change in flavor from secondary cooling. More recently, Winter, Fiorillo and Buson showed that soft injection, a proton-energy cutoff and cooling in fields of a few tens of kG can each account for features of the diffuse neutrino spectrum in photohadronic models. Bustamante gives that degeneracy an observational test using a separately fitted Galactic population. Its value lies in the projected flavor information at fixed exposure, while the source magnetic field remains unmeasured. [Secondary-cooling calculation](https://arxiv.org/abs/astro-ph/0507599) · [Photohadronic source-population fits](https://arxiv.org/abs/2603.15754)\n\n<!-- paper:arxiv-2611-34320 -->\n#### High-energy Electron Transport with Discrete Inverse Compton Scatterings\n\n**Ruihao Jing and Siming Liu.** Transport method and fits to existing data. *Physical Review D* published this work online on 24 November 2026. The authors submitted arXiv v1 on 25 November at 13:06 UTC. It first appeared in the 26 November astro-ph.HE batch. [arXiv v1](https://arxiv.org/abs/2611.34320v1) · [Journal article](https://doi.org/10.1103/y81k-zp5m)\n\nA high-energy electron can lose a substantial fraction of its energy in a single inverse Compton collision. Assigning the mean loss rate to each particle can therefore put electrons of the right final energy at the wrong distance from their source. Jing and Liu conserve particle number across energy bins with a gain-and-loss collision operator built from the differential Klein–Nishina kernel. Synchrotron cooling remains continuous. A spatial Fourier transform and temporal Laplace transform reduce diffusion and cooling to a matrix problem. Inverting it gives the joint electron distribution in space and energy. In a 100 TeV monoenergetic injection test with synchrotron losses switched off, the solution reproduces the Monte Carlo distribution at 5–30 kyr, including the surviving unscattered population.\n\nThe comparison with Geminga uses radial gamma-ray surface brightness. For the **5–50 TeV HAWC profile**, fixing an injection index of 2.24, a 3 μG field and isotropic diffusion gives a best-fit coefficient at 100 TeV of **2.99 × 10²⁷ cm² s⁻¹** with discrete losses and **3.12 × 10²⁷ cm² s⁻¹** with continuous losses. In three Tibet AS+MD bands spanning **15.8–251 TeV**, the harder illustrative injection (index 1.0, cutoff 100 TeV) and weaker field (1 μG) give **3.82 versus 4.41 × 10²⁷ cm² s⁻¹**, respectively. The fitted fraction of spin-down power entering pairs changes from 0.0463 to 0.0404. The discrete coefficient is 4.2% lower in the first comparison and 13.4% lower in the second, using the continuous value as denominator.\n\nThese are shifts in conditional best fits. Both loss models produce similar-looking brightness profiles. The two comparisons change the data band, injection spectrum and magnetic field together, so they do not isolate which change amplifies the effect. They supply neither a universal correction to diffusion nor a confidence-level preference for one cooling prescription.\n\n##### History\n\nHAWC measured extended TeV emission around Geminga and PSR B0656+14 and inferred slow transport near the pulsars from their surface-brightness profiles. John and Linden later showed with individual scattering histories that inverse Compton losses smooth sharp features in pulsar electron spectra. Xia and colleagues then fitted Geminga’s HAWC **energy spectrum** and obtained injection cutoffs of about **115 TeV** with discrete cooling and **134 TeV** with continuous cooling under their fit assumptions. The new paper asks how the same physics changes a different observable, the radial profile and its inferred diffusion coefficient. The two Geminga applications share observational and model context and do not constitute two independent detections of discrete cooling. [HAWC observations](https://arxiv.org/abs/1711.06223) · [Stochastic cooling of pulsar electrons](https://arxiv.org/abs/2206.04699) · [Xia et al. spectral analysis](https://arxiv.org/abs/2503.15052)\n\nAn independent two-zone Green-function treatment addressed a different ambiguity, matching the particle density and diffusive flux across a boundary between a slow inner region and faster outer transport while using continuous energy losses. Jing and Liu resolve energy redistribution within their assumed spatial transport law. The size and boundary conditions of a slow-diffusion zone remain separate uncertainties in using Geminga to predict the charged-particle flux at Earth. [Two-zone propagation study](https://arxiv.org/abs/2611.05808)\n\n<!-- paper:arxiv-2611-34592 -->\n#### X-ray Polarization of the Western Lobe of SS 433\n\n**Philip Kaaret, Jack T. Dinsmore, Naomi Tsuji, Samar Safi-Harb, Ningyue Fan, Roger W. Romani, Stefano Silvestri, Kaya Mori, Riccardo Ferrazzoli, Michela Negro, Chien-Ting Chen, Enrico Costa, Alessandro Di Marco, Brydyn Mac Intyre, Paolo Soffitta, Kinwah Wu.** Measurement and upper limit. Accepted by *The Astrophysical Journal*. Submitted to arXiv on 25 November 2026 at 15:52 UTC and first announced in astro-ph.HE on 26 November. [arXiv v1](https://arxiv.org/abs/2611.34592v1) · [Full paper](https://arxiv.org/pdf/2611.34592v1)\n\nThe two jets of SS 433 brighten in hard X-rays roughly 25–30 pc from the binary. The heads on both sides have hard synchrotron spectra, making them candidate sites of electron acceleration. Polarization tests whether the magnetic field is comparably ordered across the emitting region on each side. IXPE observed the western head on **19–24 April and 24 October–9 November 2025**, accumulating about 0.96 Ms per detector after filtering. A Chandra image defined the aperture. In **2–5.5 keV**, only about 4,172 of 13,773 counts were attributed to the source, making the background treatment central to the result.\n\nA fit to the Stokes spectra, with constant polarization and absorbing column fixed at **1.8 × 10²² cm⁻²**, gives photon index **1.56 ± 0.15** and a **49%** upper bound on the polarization degree at 99% confidence. A second fit uses event weights from position, spectrum and particle-track properties, a Chandra estimate for the sky background, and separate detector background polarizations. It gives normalized Stokes parameters *q* = −0.01 ± 0.12 and *u* = 0.01 ± 0.13. Its **99% upper limit on the intrinsic, aperture-averaged linear polarization degree is 32%** (one parameter). The western polarization is undetected. The two western limits use the same photons.\n\nAgainst the eastern head’s weighted result near 49%, the west has the smaller degree in **99.5% of paired posterior draws**. For this comparison the authors use a weight proportional to the inverse polarization degree to counter the area factor in the Stokes plane. This probability addresses a different question from the one-sided limit. Cancellation of different field directions within the aperture could suppress net polarization. Projected molecular-cloud maps suggest a more direct jet–cloud encounter in the west, but the geometry and the cause of the field disorder remain uncertain.\n\n##### History\n\nH.E.S.S. found that the location of the gamma-ray emission along the SS 433 jets changes with energy, connecting electron acceleration near the base of the outer jets to downstream transport and cooling. IXPE found strong synchrotron polarization in the eastern head, with an inferred field oriented along the flow. A spatially resolved reanalysis of those eastern photons found lower polarization in the sheath than in the spine and head. Those eastern studies share data. The new western exposure adds an independent line of sight in the same binary system and shows that comparable X-ray slopes need not imply equally ordered fields. It does not identify the shock geometry or measure a hadronic contribution to the gamma rays. [H.E.S.S. transport measurement](https://arxiv.org/abs/2401.16019) · [Original eastern-head observation](https://arxiv.org/abs/2311.16313) · [Eastern spatial reanalysis](https://arxiv.org/abs/2611.03846)\n\n<!-- paper:arxiv-2611-34213 -->\n#### Lower Bound on the Lightest Neutrino Mass with Resonant Neutrino Self-Interactions\n\n**Shao-Feng Ge, Joao Paulo Pinheiro, Shaoyang Qin, Ruitao Sun and Oleg Titov.** Model-dependent constraint from IceCube data. Submitted 25 November 2026 at 11:38 UTC and first announced in hep-ph on 26 November. The v1 record lists no journal publication. [arXiv v1](https://arxiv.org/abs/2611.34213v1) · [Full paper and supplement](https://arxiv.org/pdf/2611.34213v1)\n\nCould propagation through relic neutrinos encode the lightest neutrino mass? In this model a real scalar couples only to the tau flavor of Majorana neutrinos. For a relic at rest, a cosmic neutrino encounters the resonance near *E* = *m*φ²/(2*m*ν). Thermal motion broadens this into a band. At fixed target speed β, the ratio of its upper and lower energy edges is (1 + β)/(1 − β). The lightest relic species can still be moving relativistically while the other two produce narrow features. The authors average over a thermal relic momentum distribution and evolve the neutrino and antineutrino spectra separately, accounting for absorption and both regenerated daughters. Detector smearing partly fills narrow deficits and suppresses the neighboring excesses.\n\nThe likelihood uses the public **7.5-year IceCube high-energy starting-event release**, with 102 events in 2,635 live days, reconstructed deposited energies and atmospheric backgrounds. Sources follow the adopted star-formation history to redshift 2 and emit a single power law with pion-decay flavors. At fixed mediator mass **1 MeV** and fixed dimensionless coupling **gττ = 0.01**, the reported **95% confidence contour** gives **m₁ > 7.76 meV** for normal ordering and **m₃ > 7.82 meV** for inverted ordering. The authors marginalize over the normalization in [0.01, 100] in their 100 TeV flux convention and the spectral index in [2, 3], using the release’s systematics. They do not specify a prior density within these intervals. The plotted limits are slices of a two-parameter contour. The principal scan gives a lower bound for mediator masses of roughly 1–4.7 MeV (normal) or 1–4 MeV (inverted). The coupling check at 1 MeV covers approximately 3 × 10⁻⁴ to 2 × 10⁻².\n\nAround the best fit, the model places a dip near several hundred TeV and improves the fit statistic by only **Δχ² ≈ 4.5** over standard propagation. Proton–photon and proton–proton source prescriptions change the predicted event counts slightly and yield similar contours in the paper. The mass inference requires a nonzero interaction of the assumed kind. If standard propagation applies, this analysis leaves arbitrarily small lightest masses possible. The cosmological upper bounds overlaid in Fig. 3 use additional data and ΛCDM assumptions.\n\n##### History\n\nBustamante and colleagues searched six years of IceCube starting events for spectral absorption and regeneration. Their 90% coupling limits for universal, diagonal interactions covered mediator masses of roughly 1–100 MeV and were most restrictive near 6 MeV for a **fixed neutrino mass of 0.1 eV**. Their fit used log-flat mediator-mass and coupling priors and varied the spectral index and event normalizations. Esteban and colleagues developed multi-eigenstate propagation with flavor-specific interactions and detector response, including a forecast for IceCube-Gen2. A separate analysis of NGC 1068 tested 1–10 MeV mediators with a localized, much shorter baseline. These studies bound coupling or forecast its reach. They do not supply a directly comparable lower limit on the lightest mass. [Six-year diffuse constraints](https://arxiv.org/abs/2001.04994) · [Propagation and Gen2 study](https://arxiv.org/abs/2107.13568) · [NGC 1068 analysis](https://arxiv.org/abs/2307.02361)\n\nThe new step is to retain the thermal velocity distribution across the transition between relativistic and slow relics and to fit the lightest mass using the shape of the resulting band. The data overlap the earlier diffuse samples, and the new fit fixes the coupling in its principal mass scan. A numerical improvement factor over those coupling limits would compare different parameters.\n\n<!-- paper:arxiv-2611-34543 -->\n#### An X-ray binary origin for the LHAASO peanut\n\n**Laura Olivera-Nieto, Jakob van den Eijnden, Rembrand Ruppert, Pikky Atri, Sera Markoff, Kaya Mori, Gabriele Ponti, Brian Reville, Caterina Tresoldi and Naomi Tsuji.** Source hypothesis. Submitted to *Astronomy & Astrophysics Letters*. ArXiv v1 was submitted 25 November 2026 at 15:21 UTC and first announced in astro-ph.HE on 26 November. [arXiv v1](https://arxiv.org/abs/2611.34543v1) · [Full text](https://arxiv.org/html/2611.34543v1)\n\nThe LHAASO “peanut” spans about **4.6° × 0.45°** at Galactic latitude −17.5°. A millisecond pulsar near one end is a possible accelerator, but at its estimated distance of 3 kpc, particles would have to fill a structure almost 250 pc long whose axis differs from the pulsar’s proper motion. This paper considers a quiescent low-mass X-ray binary between the two bright regions. Earlier jet activity could leave a long-lived gamma-ray nebula after the accretion-powered point source has faded.\n\nAt an **assumed 1.3 kpc**, the projected length is about 100 pc. The gamma-ray luminosity inferred at that distance is roughly **1/300** that of the V4641 Sgr nebula. The authors adapt a one-zone leptonic model of V4641 Sgr, computing emission on the Galactic radiation field and microwave background with Klein–Nishina scattering. Their Figure 3 example uses **5,000 yr** of injection, an electron index of **1.93**, cutoff **0.99 PeV** and magnetic field **2.87 μG**. The electron power in Table 1 is **9 × 10⁻⁴ percent of the Eddington luminosity**, or 9 × 10⁻⁶ as a fraction. A separate travel-time estimate illustrates why bilateral jet advection is plausible. At 1 μG a 1 PeV electron cools on a timescale of order 10⁴ yr, long enough for a 0.1*c* flow to carry it beyond the required half-length.\n\nThe distance, injection time and jet speed are assumptions. The authors compare spectra and morphologies by analogy and do not fit a resolved jet or identify a compact object. A test specific to their interpretation is a central quiescent binary with a jet axis along the gamma-ray structure. Scaling a nearby black-hole binary gives illustrative fluxes of **6 × 10⁻¹⁵ erg cm⁻² s⁻¹** (2–10 keV) and **20–40 μJy** (1.28 GHz). The estimates depend on the compact object, accretion state and distance. Diffuse X-ray synchrotron emission alone would also fit other leptonic explanations.\n\n##### History\n\nLHAASO measured the elongated source and photons up to **760 TeV**. The gamma-ray data establish an extreme accelerator but give no direct distance. H.E.S.S. resolved elongated multi-TeV emission around the *known* binary V4641 Sgr, providing the empirical comparison. De Sarkar had already modeled a hidden central accelerator in the peanut, using anisotropic electron transport and a localized field reorientation to produce a second brightness enhancement. Other magnetic-field realizations can generate hotspots in a pulsar interpretation. The placement of an accelerator near the center therefore predates this paper. Its specific contribution is a plausible binary class, a scaled spectral model and a compact-counterpart search that can distinguish that proposal from a transport-induced brightness pattern. [LHAASO discovery](https://arxiv.org/abs/2510.06786) · [H.E.S.S. observations of V4641 Sgr](https://arxiv.org/abs/2511.10537) · [Central accelerator model](https://arxiv.org/abs/2611.10703) · [Magnetic-field models of the peanut](https://arxiv.org/abs/2611.15473)"
+  }
+}
