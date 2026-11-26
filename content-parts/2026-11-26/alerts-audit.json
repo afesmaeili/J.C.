@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-26",
+  "part": "alerts",
+  "cutoff": "2026-11-26T07:55:00+01:00",
+  "checked_sources": [
+    {
+      "name": "GCN Circulars",
+      "range": "46363–46370",
+      "url": "https://gcn.nasa.gov/circulars"
+    },
+    {
+      "name": "IceCube-261123A event page",
+      "url": "https://gcn.nasa.gov/circulars/events/icecube-261123a"
+    },
+    {
+      "name": "Astronomer's Telegram index",
+      "range": "through 18168",
+      "url": "https://www.astronomerstelegram.org/?displayall="
+    },
+    {
+      "name": "Fermi public transient resources",
+      "url": "https://fermi.gsfc.nasa.gov/ssc/multimessenger.html"
+    }
+  ],
+  "selected_events": [
+    "IceCube-261123A",
+    "GRB 261122B",
+    "GRB 261122A",
+    "EP261122a"
+  ],
+  "access_gaps": [
+    "GraceDB current-alert enumeration unavailable through the public retrieval path",
+    "Kafka and proprietary/streaming alert paths not exhaustively available",
+    "No complete public current KM3NeT or cosmic-ray alert ledger"
+  ]
+}
