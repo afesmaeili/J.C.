@@ -2,13 +2,14 @@
   "date": "2026-11-26",
   "part": "news",
   "status": "partial",
-  "cutoff": "2026-11-26T08:03:55+01:00",
-  "coverage": "Window 2026-11-25T17:36:37+01:00–2026-11-26T08:03:55+01:00. Read the prior Science News part and current alerts handoff to prevent duplication. Checked ESA, NASA Science, CERN, SLAC, DESY, Fermilab, Rubin, APS and IAU channels for non-alert physics/astronomy developments; ESA supplied the selected mission result. Deliberate other-science searches covered mathematics (AMS/Simons/Quanta and Nature reporting), AI-assisted science (DeepMind and MIT), biology/genetics and neuroscience (Nature biological-sciences index and open articles), chemistry (Nature Chemistry and Communications Chemistry), geology/palaeontology (Nature Communications/Geoscience and Nature palaeontology), and medicine (JAMA, NEJM and PubMed). Four stories selected. Partial coverage: some Nature landing pages redirected to an authentication service; searches of publisher, society, institutional, conference and clinical-trial archives were not exhaustive; no independently reviewed publication accompanied the selected Google tool announcement. These limitations are access/scope gaps, not evidence of no further news.",
+  "cutoff": "2026-11-26T10:36:34+01:00",
+  "coverage": "Window 2026-11-25T17:36:37+01:00–2026-11-26T10:36:34+01:00. Rechecked the previous completed news section and current alerts handoff for duplication. Authoritative physics and astronomy channels plus deliberate searches across mathematics, AI-assisted science, biology/genetics, chemistry, geology/palaeontology, neuroscience and medicine were repeated. No additional story was added because the further notable quantum-metrology paper had been published on 25 November, within the existing reporting interval, but it had not been selected before the initial cutoff. Partial coverage: publisher, society, institutional, conference and clinical-trial archives were not exhaustively enumerated; some Nature endpoints remained access-gated; the selected Google technical report remains without an independently peer-reviewed evaluation. These are scope/access gaps, not evidence of no further news.",
   "topics": [
     "planetary defence",
     "genome architecture",
     "Denisovans",
-    "AI-assisted mass spectrometry"
+    "AI-assisted mass spectrometry",
+    "quantum metrology"
   ],
   "papers": [],
   "alerts_count": 0,
@@ -20,9 +21,9 @@
     "date": "2026-11-26",
     "part": "news",
     "status": "partial",
-    "cutoff": "2026-11-26T08:03:55+01:00",
+    "cutoff": "2026-11-26T10:36:34+01:00",
     "window_start": "2026-11-25T17:36:37+01:00",
-    "window_end": "2026-11-26T08:03:55+01:00",
+    "window_end": "2026-11-26T10:36:34+01:00",
     "previous_part": "content-parts/2026-11-25/news.json",
     "selected_story_count": 4,
     "checked_fields": [
