@@ -1,50 +1,191 @@
 {
   "date": "2026-11-26",
   "part": "alerts",
-  "cutoff": "2026-11-26T10:44:11+01:00",
+  "status": "partial",
+  "cutoff": "2026-11-26T10:57:26+01:00",
+  "previous_cutoff": "2026-11-25T08:04:25+01:00",
+  "window_start_utc": "2026-11-25T07:04:25Z",
+  "window_end_utc": "2026-11-26T09:57:26Z",
+  "previous_part": "content-parts/2026-11-25/alerts.json",
+  "selected_story_count": 6,
+  "review_provenance": "Fresh source review from the previous day’s verified cutoff. Supersedes the 26 November 10:44:11 CET alerts handoff. Corrects the one-hour window-start error, includes the ATCA supernova limit and the BOOTES date correction, and distinguishes the track count in the 1,000-second IceCube search from the two-day result. Earlier event material provides context for new reports.",
   "checked_sources": [
     {
-      "name": "GCN Circulars",
-      "range": "46363–46371",
-      "url": "https://gcn.nasa.gov/circulars"
+      "name": "NASA GCN Circulars",
+      "urls": [
+        "https://gcn.nasa.gov/circulars?limit=10",
+        "https://gcn.nasa.gov/circulars/archive.json.tar.gz"
+      ],
+      "checked_through_utc": "2026-11-26T09:57:26Z",
+      "scope": "Read all nine original reports, 46363–46371 inclusive. Boundary 46362 was posted at 06:24:30 UTC on 25 November, before the window. Latest index entry was 46371, next ID 46372 returned HTTP 404 on repeat. Compared the selected event chains with earlier editions. No retraction of a selected event was found in these records.",
+      "circulars": [
+        {
+          "id": 46363,
+          "reported_utc": "2026-11-25T07:06:27Z",
+          "development": "KAIT confirms the stellar flare and reports a second optical peak.",
+          "url": "https://gcn.nasa.gov/circulars/46363"
+        },
+        {
+          "id": 46364,
+          "reported_utc": "2026-11-25T09:36:15Z",
+          "development": "ATCA 8.45 GHz upper limit for SN 2026acxa.",
+          "url": "https://gcn.nasa.gov/circulars/46364"
+        },
+        {
+          "id": 46365,
+          "reported_utc": "2026-11-25T10:49:26Z",
+          "development": "ECLAIRs time-resolved GRB 261122B spectrum.",
+          "url": "https://gcn.nasa.gov/circulars/46365"
+        },
+        {
+          "id": 46366,
+          "reported_utc": "2026-11-25T11:13:45Z",
+          "development": "EP261122a refined localization and later FXT limit.",
+          "url": "https://gcn.nasa.gov/circulars/46366"
+        },
+        {
+          "id": 46367,
+          "reported_utc": "2026-11-25T16:05:09Z",
+          "development": "IceCube short and two-day searches.",
+          "url": "https://gcn.nasa.gov/circulars/46367"
+        },
+        {
+          "id": 46368,
+          "reported_utc": "2026-11-25T20:34:44Z",
+          "development": "GRB 261122A GRM spectrum.",
+          "url": "https://gcn.nasa.gov/circulars/46368"
+        },
+        {
+          "id": 46369,
+          "reported_utc": "2026-11-25T20:43:00Z",
+          "development": "GRB 261122B GRM spectrum.",
+          "url": "https://gcn.nasa.gov/circulars/46369"
+        },
+        {
+          "id": 46370,
+          "reported_utc": "2026-11-25T21:38:29Z",
+          "development": "ZTF candidate in the IceCube localization.",
+          "url": "https://gcn.nasa.gov/circulars/46370"
+        },
+        {
+          "id": 46371,
+          "reported_utc": "2026-11-26T08:17:32Z",
+          "development": "SOAR afterglow epoch for GRB 261122B.",
+          "url": "https://gcn.nasa.gov/circulars/46371"
+        }
+      ],
+      "earlier_context": [
+        46329,
+        46331,
+        46332,
+        46336,
+        46338,
+        46339,
+        46345,
+        46350,
+        46351,
+        46352,
+        46353,
+        46358,
+        46359,
+        46362
+      ],
+      "revisions": "Screened editedOn in 46,246 JSON records in the daily archive (Last-Modified 25 November 19:38:12 UTC, highest ID 46367). Within that snapshot, the one in-window edit was 46353 v2 at 14:01:12 UTC on 25 November. Compared the March date in v1 with November in v2. Checked the sb26112202 designation correction (46339) and the later revised localization for EP261122a (46366).",
+      "versions": [
+        "https://gcn.nasa.gov/circulars/46353/1",
+        "https://gcn.nasa.gov/circulars/46353",
+        "https://gcn.nasa.gov/circulars/46339",
+        "https://gcn.nasa.gov/circulars/46366"
+      ]
     },
     {
-      "name": "IceCube-261123A event page",
-      "url": "https://gcn.nasa.gov/circulars/events/icecube-261123a"
+      "name": "The Astronomer’s Telegram",
+      "urls": [
+        "https://www.astronomerstelegram.org/",
+        "https://www.astronomerstelegram.org/?read=18169",
+        "https://www.astronomerstelegram.org/?read=18168"
+      ],
+      "last_index_check_utc": "2026-11-26T09:56:41Z",
+      "range": "18168 at 20:25 UTC on 24 November is the preceding boundary. Read 18169, issued 26 November at 09:03 UTC, which concerns polarization of comet 10P/Tempel. No selected astroparticle telegram in this interval."
     },
     {
-      "name": "Astronomer's Telegram index",
-      "range": "through 18169",
-      "url": "https://www.astronomerstelegram.org/?displayall="
+      "name": "IceCube, AMON, SNEWS, Super-K and KM3NeT",
+      "urls": [
+        "https://gcn.gsfc.nasa.gov/amon_icecube_gold_bronze_events.html",
+        "https://gcn.gsfc.nasa.gov/notices_amon_g_b/143530_34667334.amon",
+        "https://gcn.gsfc.nasa.gov/amon_icecube_cascade_events.html",
+        "https://gcn.gsfc.nasa.gov/amon_nu_em_coinc_events.html",
+        "https://gcn.gsfc.nasa.gov/snews_trans.html",
+        "https://www.km3net.org/",
+        "https://gcn.nasa.gov/docs/schema/v7.2.3/gcn/notices/km3net/alert.schema.json"
+      ],
+      "last_track_index_check_utc": "2026-11-26T09:56:40Z",
+      "scope": "Latest Gold/Bronze track was 143530_34667334, revisions 0 and 1, 23 November 06:54:16.99 UTC. Latest cascade 24 August 2026 01:40:08.90 UTC. Latest IceCube–HAWC coincidence 17 January 2026 09:38:48 UTC. Latest displayed SNEWS row was a test on 24 November at 17:00:01 UTC and latest Super-K row a test on 31 October at 23:27:10.21 UTC. KM3NeT collaboration and GCN schema/mission resources checked, with public stream coverage incomplete."
     },
     {
-      "name": "Fermi public transient resources",
-      "url": "https://fermi.gsfc.nasa.gov/ssc/multimessenger.html"
+      "name": "Fermi GBM/LAT and Swift/BAT GUANO",
+      "urls": [
+        "https://gcn.gsfc.nasa.gov/fermi_grbs.html",
+        "https://gcn.gsfc.nasa.gov/other/817283234.fermi",
+        "https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2026/bn261125297/current/glg_tcat_all_bn261125297_v01.fit",
+        "https://guano.swift.psu.edu/",
+        "https://fermi.gsfc.nasa.gov/ssc/multimessenger.html"
+      ],
+      "last_gbm_index_check_utc": "2026-11-26T09:57:02Z",
+      "last_guano_index_check_utc": "2026-11-26T09:56:40Z",
+      "scope": "GBM trigger 817283234 (bn261125297) at 25 November 07:07:09.23 UTC. Notices at 07:07:18 and 07:07:38, flight significance 4.2 sigma, 0.512 s at 47–291 keV, unreliable flight position. HEASARC TCAT v01 FITS lists CLASS=UNCERT. GUANO target 817283268 listed waiting products. No GRB classification or counterpart result inferred. Latest rows on the legacy LAT and subthreshold pages were 20 April 2025 and 5 July 2026 respectively."
     },
     {
-      "name": "Public GraceDB superevents",
-      "url": "https://gracedb.ligo.org/api/superevents/?query=created%3A+2026-11-25+..+2026-11-27",
-      "numRows": 0
+      "name": "SVOM, Einstein Probe and other high-energy networks",
+      "urls": [
+        "https://fsc.svom.org/home",
+        "https://gcn.nasa.gov/missions/einstein-probe",
+        "https://gcn.nasa.gov/circulars/46366",
+        "https://gcn.nasa.gov/circulars/46365",
+        "https://gcn.nasa.gov/circulars/46368",
+        "https://gcn.nasa.gov/circulars/46369",
+        "https://gcn.gsfc.nasa.gov/ipn/gcn_ipn_raw.html"
+      ],
+      "scope": "Mission-team circulars, optical/radio follow-ups, and notice resources checked. Latest accessible CALET/CGBM entry was 24 November 22:21:19.74 UTC, MAXI 19 November 14:51:18 UTC, GECAM 23 July 2024 and the IPN/Konus-Wind timestamp 22 November 22:46:55.69 UTC. These are the table endpoints, not mission-wide cutoffs."
     },
     {
-      "name": "SOAR afterglow epoch",
-      "url": "https://gcn.nasa.gov/circulars/46371"
+      "name": "LVK GraceDB",
+      "urls": [
+        "https://gracedb.ligo.org/api/superevents/?count=65&sort=-created",
+        "https://gracedb.ligo.org/api/superevents/?query=category%3A+Production&count=65&sort=-created",
+        "https://gracedb.ligo.org/latest/"
+      ],
+      "last_index_check_utc": "2026-11-26T09:56:41Z",
+      "scope": "Inspected the latest 65 public superevents in creation order. All 65 were MDC (mock data challenge), spanning MS261123s, 23 November 18:30:13 UTC, to MS261126j, 26 November 09:35:53 UTC, and bracketing the window start. The latest Production-category creation was S251118cm on 18 November 2025 at 12:41:31 UTC. No public production superevent was created in the checked interval. Circulars/telegrams and their retractions were screened separately."
     },
     {
-      "name": "KAIT stellar flare",
-      "url": "https://gcn.nasa.gov/circulars/46363"
+      "name": "Ground gamma-ray arrays and cosmic-ray facilities",
+      "urls": [
+        "https://gcn.gsfc.nasa.gov/amon_hawc_events.html",
+        "https://gcn.gsfc.nasa.gov/amon_nu_em_coinc_events.html",
+        "https://english.ihep.cas.cn/lhaaso/",
+        "https://veritas.sao.arizona.edu/",
+        "https://www.mpi-hd.mpg.de/hfm/HESS/",
+        "https://auger.org/",
+        "https://www.telescopearray.org/"
+      ],
+      "scope": "Checked public collaboration and event searches for LHAASO, HAWC, MAGIC, VERITAS, H.E.S.S., Pierre Auger and Telescope Array alongside GCN/ATel. The latest legacy HAWC burst-table entry was 27 May 2023 11:19:48 UTC. No new event was selected from these sources. Coverage of individual air-shower triggers remains partial."
+    },
+    {
+      "name": "Transient Name Server",
+      "urls": [
+        "https://www.wis-tns.org/object/2026ahvn",
+        "https://www.wis-tns.org/index.php/object/2026acxa/discovery-cert",
+        "https://www.wis-tns.org/object/2026acxa/classification-cert"
+      ],
+      "scope": "Optical transient and supernova identities cross-checked against indexed TNS records as available. The ATCA circular independently identifies SN 2026acxa as broad-lined Type Ic."
     }
   ],
-  "selected_events": [
-    "IceCube-261123A",
-    "GRB 261122B",
-    "GRB 261122A",
-    "EP261122a",
-    "EP-WXT trigger 01709322890"
-  ],
   "access_gaps": [
-    "Kafka and proprietary/streaming alert paths not exhaustively available",
-    "No complete public current KM3NeT or cosmic-ray alert ledger"
-  ],
-  "previous_cutoff": "2026-11-26T07:55:00+01:00"
+    "Historical JSON/Kafka notices, retractions and sky maps could not be replayed exhaustively for LVK, neutrino and gamma-ray streams. GraceDB creation-order coverage does not enumerate every log update to older events.",
+    "The daily GCN edit archive ends at 2026-11-25T19:38:12Z. Current records and versions were checked for the selected events. Edits after the snapshot to unrelated older circulars are not fully enumerable.",
+    "Einstein Probe’s direct VHF, BeiDou and FXT listings returned HTTP 403, including a repeated VHF request. The SVOM French Science Center returned a client-rendered shell. Mission-team GCN reports were available.",
+    "No comprehensive public KM3NeT or ultra-high-energy cosmic-ray event ledger was verified. Legacy HAWC/AMON tables are dated. Requests for the HAWC and MAGIC collaboration sites returned HTTP 503, including alternate/retry checks.",
+    "The Swift/BAT GUANO queue contained a pending analysis for the 25 November GBM trigger. Direct TNS certificate requests returned HTTP 403; indexed discovery/classification records and the full ATCA circular were available."
+  ]
 }
