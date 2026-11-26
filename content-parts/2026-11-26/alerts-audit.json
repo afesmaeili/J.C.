@@ -1,11 +1,11 @@
 {
   "date": "2026-11-26",
   "part": "alerts",
-  "cutoff": "2026-11-26T07:55:00+01:00",
+  "cutoff": "2026-11-26T10:44:11+01:00",
   "checked_sources": [
     {
       "name": "GCN Circulars",
-      "range": "46363–46370",
+      "range": "46363–46371",
       "url": "https://gcn.nasa.gov/circulars"
     },
     {
@@ -14,23 +14,37 @@
     },
     {
       "name": "Astronomer's Telegram index",
-      "range": "through 18168",
+      "range": "through 18169",
       "url": "https://www.astronomerstelegram.org/?displayall="
     },
     {
       "name": "Fermi public transient resources",
       "url": "https://fermi.gsfc.nasa.gov/ssc/multimessenger.html"
+    },
+    {
+      "name": "Public GraceDB superevents",
+      "url": "https://gracedb.ligo.org/api/superevents/?query=created%3A+2026-11-25+..+2026-11-27",
+      "numRows": 0
+    },
+    {
+      "name": "SOAR afterglow epoch",
+      "url": "https://gcn.nasa.gov/circulars/46371"
+    },
+    {
+      "name": "KAIT stellar flare",
+      "url": "https://gcn.nasa.gov/circulars/46363"
     }
   ],
   "selected_events": [
     "IceCube-261123A",
     "GRB 261122B",
     "GRB 261122A",
-    "EP261122a"
+    "EP261122a",
+    "EP-WXT trigger 01709322890"
   ],
   "access_gaps": [
-    "GraceDB current-alert enumeration unavailable through the public retrieval path",
     "Kafka and proprietary/streaming alert paths not exhaustively available",
     "No complete public current KM3NeT or cosmic-ray alert ledger"
-  ]
+  ],
+  "previous_cutoff": "2026-11-26T07:55:00+01:00"
 }
