@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-27",
+  "part": "news",
+  "window_start": "2026-11-26T10:44:11+01:00",
+  "cutoff": "2026-11-27T08:10:06+01:00",
+  "previous_part": "content-parts/2026-11-26/news.json",
+  "checked": {
+    "physics": [
+      "https://www.eso.org/public/news/eso2614/",
+      "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf",
+      "https://doi.org/10.1051/0004-6361/202660006",
+      "https://aas.org/press/spacex-data-center-fcc-approval",
+      "https://www.esa.int/news-media/news"
+    ],
+    "mathematics": [
+      "https://math.mit.edu/~drew/grh/",
+      "https://math.mit.edu/~drew/shortgrh/",
+      "https://github.com/lsernau/grh-lean",
+      "https://github.com/AndrewVSutherland/schoenfeld-rh-lean"
+    ],
+    "ai_and_genetics": [
+      "https://doi.org/10.1038/s42256-026-01332-7",
+      "Nature Genetics research index"
+    ],
+    "earth_and_palaeontology": [
+      "ESA Sentinel-5P 26 November 2026",
+      "NOAA/NASA 4 November 2026",
+      "Nature Earth Sciences, solid Earth and prehistoric archaeology indexes"
+    ],
+    "chemistry": [
+      "Nature Chemistry materials chemistry and electrocatalysis indexes",
+      "Nature materials for energy and catalysis listings"
+    ],
+    "neuroscience": [
+      "https://doi.org/10.1038/s41593-026-02515-6"
+    ],
+    "medicine": [
+      "NEJM current issue, NEJM and Lancet online searches, PubMed date comparisons"
+    ]
+  },
+  "source_access": {
+    "orbital_data_centres": [
+      "https://eu-assets.contentstack.com/v3/assets/blt23eb5bbc4124baa6/bltf4cdf2af47159e12/6b071c5f5506bb38bca5b0ec/FCC_report_and_order_on_SpaceX_Starmind_AI_constellation_11-25-2026.pdf",
+      "https://www.researchgate.net/publication/408290920_Large_or_bright_satellite_constellations_Effects_on_observations_including_background_sky_brightness"
+    ],
+    "mathematics": "Inspected proof repositories and independent verifier's public logs. No in-house rebuild or human proof review.",
+    "earth": "Mission and independent monitoring reports. The September point estimate and September–October seasonal average are kept separate.",
+    "ai": "Full methods, scaling curves, model comparisons and discussion. The test of real correlated batch effects remains outstanding."
+  }
+}
