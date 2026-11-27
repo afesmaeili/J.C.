@@ -1,0 +1,392 @@
+{
+  "date": "2026-11-27",
+  "part": "alerts",
+  "status": "partial",
+  "cutoff": "2026-11-27T08:04:25+01:00",
+  "previous_cutoff": "2026-11-26T10:57:26+01:00",
+  "window_start_utc": "2026-11-26T09:57:26Z",
+  "window_end_utc": "2026-11-27T07:04:25Z",
+  "previous_part": "content-parts/2026-11-26/alerts.json",
+  "selected_story_count": 4,
+  "selected_events": [
+    "EP261122a (substantive correction)",
+    "GRB 261126A / sb26112602",
+    "EP261126a / WXT 01709322957",
+    "GRB 261127A / bn261127280"
+  ],
+  "checked_sources": [
+    {
+      "name": "GCN index",
+      "url": "https://gcn.nasa.gov/circulars?limit=30",
+      "checked_utc": "2026-11-27T07:04:18+00:00",
+      "range": "46372–46379 inclusive. Boundary 46371 was published 26 November 08:17:32 UTC, before the opening cutoff.",
+      "circulars": [
+        {
+          "id": 46372,
+          "posted_utc": "2026-11-26T20:14:31Z",
+          "event": "GRB 261126A",
+          "subject": "SVOM GRB261126.79: Global MASTER-Net observations report",
+          "url": "https://gcn.nasa.gov/circulars/46372"
+        },
+        {
+          "id": 46373,
+          "posted_utc": "2026-11-26T20:20:10Z",
+          "event": "GRB 261126A",
+          "subject": "GRB 261126A: SVOM detection of a possible X-ray transient",
+          "url": "https://gcn.nasa.gov/circulars/46373"
+        },
+        {
+          "id": 46374,
+          "posted_utc": "2026-11-26T22:23:05Z",
+          "event": "GRB 261126A",
+          "subject": "GRB 261126A: LCO optical upper limits",
+          "url": "https://gcn.nasa.gov/circulars/46374"
+        },
+        {
+          "id": 46375,
+          "posted_utc": "2026-11-26T22:27:47Z",
+          "event": "EP261126a",
+          "subject": "EP Alert 261126.92: Global MASTER-Net observations report",
+          "url": "https://gcn.nasa.gov/circulars/46375"
+        },
+        {
+          "id": 46376,
+          "posted_utc": "2026-11-26T23:03:41Z",
+          "event": "GRB 261126A",
+          "subject": "GRB 261126A: NOT optical upper limit",
+          "url": "https://gcn.nasa.gov/circulars/46376"
+        },
+        {
+          "id": 46377,
+          "posted_utc": "2026-11-27T00:23:59Z",
+          "event": "EP261126a",
+          "subject": "EP261126a? (WXT 01709322957): NOT optical upper limits",
+          "url": "https://gcn.nasa.gov/circulars/46377"
+        },
+        {
+          "id": 46378,
+          "posted_utc": "2026-11-27T02:06:27Z",
+          "event": "EP261126a",
+          "subject": "EP261126a: Einstein Probe detection of an X-ray transient",
+          "url": "https://gcn.nasa.gov/circulars/46378"
+        },
+        {
+          "id": 46379,
+          "posted_utc": "2026-11-27T06:50:29Z",
+          "event": "GRB 261127A",
+          "subject": "GRB 261127A: Fermi GBM Final Real-time Localization",
+          "url": "https://gcn.nasa.gov/circulars/46379"
+        }
+      ],
+      "edits": {
+        "daily_archive": "https://gcn.nasa.gov/circulars/archive.json.tar.gz",
+        "daily_archive_snapshot_utc": "2026-11-26T19:38:08Z",
+        "json_records": 46250,
+        "highest_id": 46371,
+        "carry_forward": "Screened the preceding archive gap from 25 November 19:38:12 UTC through the 26 November opening cutoff. No editedOn timestamps fell in that gap or between the opening cutoff and the new snapshot.",
+        "individual_range": "All 62 current records 46318–46379 checked for editedOn after the opening cutoff. Two edits. Both v1s compared with v2. No retraction of a selected event found in the checked records.",
+        "revisions": [
+          {
+            "id": 46366,
+            "issued_utc": "2026-11-25T11:13:45Z",
+            "edited_utc": "2026-11-27T05:32:29Z",
+            "original": "https://gcn.nasa.gov/circulars/46366/1",
+            "revised": "https://gcn.nasa.gov/circulars/46366",
+            "change": "First FXT epoch photon index 1.54 to 1.10 and central flux 3.88 to 6.02 in units of 10^-13 erg cm^-2 s^-1. Later 90% upper limit 1.2 to 4.0 in units of 10^-14. Minimum inferred decline 32 to 15."
+          },
+          {
+            "id": 46373,
+            "issued_utc": "2026-11-26T20:20:10Z",
+            "edited_utc": "2026-11-27T05:33:55Z",
+            "original": "https://gcn.nasa.gov/circulars/46373/1",
+            "revised": "https://gcn.nasa.gov/circulars/46373",
+            "change": "MXT offset from adopted ECLAIRs position corrected from 12.41 to 0.35 arcmin. The original value matches the offset from the displaced wake-up localization."
+          }
+        ]
+      },
+      "duplicate_check": [
+        "content-parts/2026-11-25/alerts.json",
+        "content-parts/2026-11-26/alerts.json"
+      ]
+    },
+    {
+      "name": "ATel",
+      "url": "https://www.astronomerstelegram.org/",
+      "checked_utc": "2026-11-27T07:04:19+00:00",
+      "coverage": "Index still ends at ATel 18169, issued 26 November 09:03 UTC before the window. No newly numbered telegram between the opening and closing checks."
+    },
+    {
+      "name": "Neutrino and AMON notice tables",
+      "tables": [
+        {
+          "name": "IceCube tracks",
+          "url": "https://gcn.gsfc.nasa.gov/amon_icecube_gold_bronze_events.html",
+          "checked_utc": "2026-11-27T07:04:19+00:00",
+          "latest_displayed": "143530_34667334 1 26/11/23 06:54:16.99 BRONZE 320.4499 +24.5799 88.30 48.01 1.4504e+02 4.5677e-01 1.2048 IceCube Bronze event. The position error is statistical only, the"
+        },
+        {
+          "name": "IceCube cascades",
+          "url": "https://gcn.gsfc.nasa.gov/amon_icecube_cascade_events.html",
+          "checked_utc": "2026-11-27T06:58:33+00:00",
+          "latest_displayed": "143029_33795562 26/08/24 01:40:08.90 0 26 Cascade 299.1020 +42.9807 7.54 4.14 50.58 0.3228 FITS PNG IceCube Cascade event. The position error is the combined statistical "
+        },
+        {
+          "name": "IceCube–HAWC coincidences",
+          "url": "https://gcn.gsfc.nasa.gov/amon_nu_em_coinc_events.html",
+          "checked_utc": "2026-11-27T06:58:32+00:00",
+          "latest_displayed": "0_195643 26/01/17 09:38:48.00 1 1 IC-HAWC 116.8400 +15.0299 13.69 7.80 22447.25 2.1498e+00 AMON NEUTRINO-EM Coincidence."
+        },
+        {
+          "name": "HAWC bursts",
+          "url": "https://gcn.gsfc.nasa.gov/amon_hawc_events.html",
+          "checked_utc": "2026-11-27T06:58:33+00:00",
+          "latest_displayed": "10011394_3758 23/05/27 11:19:48.00 HAWC 272.2656 +26.7145 24.00 9.7881 0.0073 100.00 N/A HAWC burst monitor event. The position error is statistical only, there is no sys"
+        },
+        {
+          "name": "SuperK",
+          "url": "https://gcn.gsfc.nasa.gov/sk_sn_events.html",
+          "checked_utc": "2026-11-27T06:59:47+00:00",
+          "latest_displayed": "10092 26/10/31 23:27:10.21 TEST 64176 270.8199 +31.4600 0.64 10.0 2.16- 2.95 The position error is statistical only, there is no systematic added. All numbers are prelimi"
+        },
+        {
+          "name": "SNEWS",
+          "url": "https://gcn.gsfc.nasa.gov/snews_trans.html",
+          "checked_utc": "2026-11-27T06:58:33+00:00",
+          "latest_displayed": "1000596 26/11/24 17:00:01.00 test Undefined Undefined 360.0 0 Detector_A Good, Detector_B Good, Detector_D Possible, Detector_E Good, Detector_F Possible, SNEWS Event wit"
+        }
+      ],
+      "other_sources": [
+        {
+          "name": "IceCube public alerts",
+          "url": "https://gcn.nasa.gov/circulars/events/icecube-261123a",
+          "checked_utc": "2026-11-27T06:59:48+00:00"
+        },
+        {
+          "name": "KM3NeT",
+          "url": "https://www.km3net.org/",
+          "checked_utc": "2026-11-27T06:58:38+00:00"
+        },
+        {
+          "name": "KM3NeT schema",
+          "url": "https://gcn.nasa.gov/docs/schema/v7.2.3/gcn/notices/km3net/alert.schema.json",
+          "checked_utc": "2026-11-27T06:59:50+00:00"
+        }
+      ],
+      "coverage": "Track revision 1 for IceCube-261123A still latest. Previous IceCube event chain reviewed for follow-up. Latest Super-K and SNEWS entries are explicitly tests. No additional event selected."
+    },
+    {
+      "name": "Fermi GBM, LAT and Swift",
+      "tables": [
+        {
+          "name": "Fermi GBM",
+          "url": "https://gcn.gsfc.nasa.gov/fermi_grbs.html",
+          "checked_utc": "2026-11-27T07:04:25+00:00",
+          "latest_displayed": "817454564 26/11/27 06:42:39.34 GBM Final Position 348.330 -74.590 16.47 Fermi-GBM Final Position. This Notice was ground-generated -- not flight-generated. The LC_URL fil"
+        },
+        {
+          "name": "Fermi LAT",
+          "url": "https://gcn.gsfc.nasa.gov/fermi_lat_mon_trans.html",
+          "checked_utc": "2026-11-27T06:59:47+00:00",
+          "latest_displayed": "1745247231 25/04/20 12:00:00.00 Monitor 83.633 +22.014 n/a 5.00e-06 LAT Monitor flare alert. This Notice was ground-generated -- not flight-generated."
+        },
+        {
+          "name": "Fermi GBM subthreshold",
+          "url": "https://gcn.gsfc.nasa.gov/fermi_gbm_subthresh_archive.html",
+          "checked_utc": "2026-11-27T06:58:38+00:00",
+          "latest_displayed": "804952743 26/07/05 13:58:58.98 266.140 +66.990 12.60 0.192 1 0 8 HEALPIX MAP LC Fermi-GBM Subthreshold. This Notice was ground-generated -- not flight-generated."
+        },
+        {
+          "name": "Swift notices",
+          "url": "https://gcn.gsfc.nasa.gov/swift_grbs.html",
+          "checked_utc": "2026-11-27T06:59:50+00:00",
+          "latest_displayed": "1519536 26/10/17 16:05:05.47 139.900 +12.644 3.00 139.9046 +12.6377 4.9 FITS JPEG GIF PDF PS FITS JPEG GIF PDF PS FITS JPEG GIF PDF PS FITS JPEG GIF PDF PS FITS JPEG GIF "
+        }
+      ],
+      "other_sources": [
+        {
+          "name": "GBM trigger 817454564",
+          "url": "https://gcn.gsfc.nasa.gov/other/817454564.fermi",
+          "checked_utc": "2026-11-27T06:58:36+00:00"
+        },
+        {
+          "name": "Fermi trigger archive",
+          "url": "https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2026/bn261127280/current/",
+          "checked_utc": "2026-11-27T06:58:40+00:00"
+        },
+        {
+          "name": "Fermi LAT monitored sources",
+          "url": "https://fermi.gsfc.nasa.gov/ssc/data/access/lat/msl_lc/",
+          "checked_utc": "2026-11-27T06:58:39+00:00"
+        },
+        {
+          "name": "Swift GUANO",
+          "url": "https://guano.swift.psu.edu/",
+          "checked_utc": "2026-11-27T07:04:18+00:00"
+        }
+      ],
+      "coverage": "Three GBM trigger IDs in interval. For 817454564, compared initial alert, flight, two ground localizations and final real-time notice with 46379. GUANO pending for it and for the EP/SVOM fields. No analysis result inferred.",
+      "classified_but_unselected": [
+        {
+          "trigger": "817405554 / bn261126712",
+          "trigger_utc": "2026-11-26T17:05:49.59Z",
+          "tcat": "UNCERT",
+          "source": "https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2026/bn261126712/current/glg_tcat_all_bn261126712_v00.fit"
+        },
+        {
+          "trigger": "817424747 / bn261126935",
+          "trigger_utc": "2026-11-26T22:25:42.28Z",
+          "tcat": "TGF (terrestrial gamma-ray flash)",
+          "source": "https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2026/bn261126935/current/glg_tcat_all_bn261126935_v00.fit"
+        }
+      ],
+      "previous_open_trigger": {
+        "trigger": "817283234 / bn261125297",
+        "tcat": "Still UNCERT in v01",
+        "source": "https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2026/bn261125297/current/glg_tcat_all_bn261125297_v01.fit"
+      }
+    },
+    {
+      "name": "SVOM and Einstein Probe",
+      "public_svom": {
+        "url": "https://fsc.svom.org/alerts/manager/export/public?size=80&page=1&outputs=notice_broadcast.id%2Cburst_id%2Cnotice_type%2Cauthor_datetime%2Civorn%2Crole%2Cra%2Cdec%2Cerror%2Cevent_time&role=observation&order=author_datetime%3Adesc",
+        "checked_utc": "2026-11-27T07:02:18+00:00",
+        "notice_ids": [
+          59040,
+          59079
+        ],
+        "records": "Public observation notices sorted by author time. Only sb26112602 wake-up and MXT initial_qf1 were in the interval. The previous record for sb26112601 predates the opening cutoff. Both original VOEvent XMLs inspected. The wake-up position was 27.5179°, +9.6616°. The machine MXT notice quotes 12.41 arcmin from that position. Adopt the slew-request ECLAIRs position and v2 separation supplied by the mission team."
+      },
+      "ep_sources": [
+        "https://ep.bao.ac.cn/ep/",
+        "https://ep.bao.ac.cn/ep/data_center/vhf_detection_list",
+        "https://ep.bao.ac.cn/ep/data_center/beidou_detection_list",
+        "https://ep.bao.ac.cn/ep/data_center/fxt_alert",
+        "https://gcn.nasa.gov/circulars/46378",
+        "https://gcn.nasa.gov/circulars/46366"
+      ],
+      "other_missions": [
+        {
+          "name": "CALET",
+          "url": "https://gcn.gsfc.nasa.gov/calet_triggers.html",
+          "checked_utc": "2026-11-27T06:58:33+00:00",
+          "latest_displayed": "1479593935 26/11/24 22:21:19.74 37.00 40-230 1 1 1 LC CALET-GBM Flight Lightcurve. The LC_URL file will not be created until ~15 min after the trigger."
+        },
+        {
+          "name": "MAXI",
+          "url": "https://gcn.gsfc.nasa.gov/maxi_grbs.html",
+          "checked_utc": "2026-11-27T06:58:33+00:00",
+          "latest_displayed": "1363487956 26/11/19 14:51:18.00 Known 82.54 -66.33 0.5 MAXI Known Source detection."
+        },
+        {
+          "name": "GECAM",
+          "url": "https://gcn.gsfc.nasa.gov/gecam_events.html",
+          "checked_utc": "2026-11-27T06:58:33+00:00",
+          "latest_displayed": "410 24/07/23 10:24:50.55 FLT B 316.0600 -20.4299 31.00 508 4.4 1.000 30- 140 GECAM In-flight report."
+        },
+        {
+          "name": "Konus/IPN",
+          "url": "https://gcn.gsfc.nasa.gov/ipn/gcn_ipn_raw.html",
+          "checked_utc": "2026-11-27T06:58:34+00:00",
+          "latest_displayed": "26/11/22 22:46:55.69 n/a n/a n/a n/a IPN_RAW timestamp-only notice. The KONUS-Wind instrument contributed to this notice."
+        }
+      ],
+      "maxi_json": {
+        "name": "MAXI JSON",
+        "url": "https://maxi.riken.jp/alert/novae/json_notices/",
+        "checked_utc": "2026-11-27T06:59:48+00:00"
+      }
+    },
+    {
+      "name": "LVK public GraceDB",
+      "sources": [
+        {
+          "name": "GraceDB all",
+          "url": "https://gracedb.ligo.org/api/superevents/?count=65&sort=-created",
+          "checked_utc": "2026-11-27T07:04:19+00:00"
+        },
+        {
+          "name": "GraceDB production",
+          "url": "https://gracedb.ligo.org/api/superevents/?query=category%3A+Production&count=20&sort=-created",
+          "checked_utc": "2026-11-27T07:04:19+00:00"
+        }
+      ],
+      "public_latest": "https://gracedb.ligo.org/latest/",
+      "coverage": "Latest 65 superevents in creation order, MS261127g (27 November 06:35:53 UTC) back to MS261124p (24 November 15:30:13 UTC), all MDC simulations. 21 were created in-window. Latest public production creation was S251118cm (18 November 2025 12:41:31 UTC).",
+      "log_check": {
+        "checked_utc": "2026-11-27T07:04:11+00:00",
+        "event_ids": [
+          "S251118cm",
+          "S251118bq",
+          "S251118bo",
+          "S251118aj",
+          "S251118ac",
+          "S251118ab",
+          "S251118m",
+          "S251118c",
+          "S251117du",
+          "S251117dq",
+          "S251117dn",
+          "S251117dj",
+          "S251117cw",
+          "S251117cv",
+          "S251117cq",
+          "S251117bw",
+          "S251117bs",
+          "S251117bq",
+          "S251117bn",
+          "S251117bc"
+        ],
+        "records_read": 424,
+        "coverage": "All public log entries for the latest 20 production creations. No in-window entry, including retractions or updated localizations. Endpoint pattern https://gracedb.ligo.org/api/superevents/{id}/logs/."
+      }
+    },
+    {
+      "name": "Ground-based very-high-energy gamma rays and cosmic rays",
+      "observatories": [
+        {
+          "name": "HESS observing log",
+          "url": "https://hess-experiment.eu/science/hess-grb-obs/",
+          "checked_utc": "2026-11-27T06:58:39+00:00"
+        },
+        {
+          "name": "LHAASO",
+          "url": "https://english.ihep.cas.cn/lhaaso/",
+          "checked_utc": "2026-11-27T06:58:39+00:00"
+        },
+        {
+          "name": "Auger",
+          "url": "https://www.auger.org/",
+          "checked_utc": "2026-11-27T06:58:38+00:00"
+        },
+        {
+          "name": "Telescope Array",
+          "url": "https://www.telescopearray.org/",
+          "checked_utc": "2026-11-27T06:58:44+00:00"
+        }
+      ],
+      "targeted_searches": [
+        "HAWC",
+        "MAGIC",
+        "VERITAS",
+        "LHAASO",
+        "H.E.S.S.",
+        "Pierre Auger Observatory",
+        "Telescope Array"
+      ],
+      "coverage": "H.E.S.S. public GRB table lists a future window for sb26112602 beginning 27 November 18:40:42 UTC. It had not started by this cutoff. No VHE measurement is claimed. Checked GCN and ATel and screened targeted collaboration sources for air-shower and transient alerts. HAWC/AMON legacy timestamps given above."
+    },
+    {
+      "name": "NASA HEASARC GCN Viewer",
+      "url": "https://heasarc.gsfc.nasa.gov/wsgi-scripts/tach/gcn_v2/tach.wsgi/",
+      "checked_utc": "2026-11-27T07:02:22+00:00",
+      "coverage": "The dated query returned zero. The latest unfiltered record visible from the Viewer was dated 2026-11-13. Used primary mission data and did not infer a quiet interval from this index."
+    }
+  ],
+  "access_gaps": [
+    "The daily GCN archive ends on 26 November at 19:38:08 UTC. Later edits were checked individually for Circulars 46318–46379. Edits to still older circulars after that snapshot may be missing.",
+    "Modern Kafka notices and sky-map revisions were not replayed across every mission. The HEASARC GCN Viewer returned zero rows for the queried dates, while its unfiltered notice response topped out on 13 November despite newer records in the primary mission archives.",
+    "The Einstein Probe Science Center’s WXT VHF, BeiDou and FXT alert pages returned HTTP 403 on repeat attempts. Mission-team GCN reports and optical follow-ups were available. Swift/BAT GUANO listed pending results for the new triggers.",
+    "KM3NeT and ultra-high-energy cosmic-ray facilities lacked a verified, complete public event-by-event ledger. The HAWC, MAGIC and VERITAS homepages returned HTTP 503 on repeated direct requests. Public GCN/ATel, AMON and collaboration sources were screened as available.",
+    "GraceDB public logs were checked for the 20 most recently created production superevents. Updates to older production events and private alerts remain outside that log check."
+  ]
+}
