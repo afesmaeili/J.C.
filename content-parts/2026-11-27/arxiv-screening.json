@@ -1,0 +1,190 @@
+{
+  "date": "2026-11-27",
+  "part": "arxiv",
+  "status": "complete",
+  "cutoff": "2026-11-27T08:04:01+01:00",
+  "coverage": "All seven requested dated arXiv listings and the HE and CO subcategory pages explicitly showed zero entries on 27 November 2026 UTC. The arXiv Thanksgiving notice independently confirms the deferred announcement. Unique title/abstract records screened, selected papers, full texts read and unresolved high-priority candidates were all zero. No access gaps. The second topic pass had an empty inventory.",
+  "listing_pages": {
+    "astro-ph": {
+      "url": "https://arxiv.org/catchup/astro-ph/2026-11-27?abs=True",
+      "resolved_url": "https://arxiv.org/catchup/astro-ph/2026-11-27?abs=True",
+      "verified_at": "2026-11-27T08:02:19+01:00",
+      "http_status": 200,
+      "listing_date": "2026-11-27",
+      "reported_total_entries": 0,
+      "new_primary_submissions": 0,
+      "cross_listings": 0,
+      "replacements": 0,
+      "unique_ids": [],
+      "evidence": "Dated heading and explicit zero-entry total with no article rows.",
+      "content_sha256": "3c56d9a6cf36e890cbc09cee04a8dd8013c0d5dc42c3c0ddb4fd380c623f0d43"
+    },
+    "astro-ph.HE": {
+      "url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-27?abs=True",
+      "resolved_url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-27?abs=True",
+      "verified_at": "2026-11-27T08:02:19+01:00",
+      "http_status": 200,
+      "listing_date": "2026-11-27",
+      "reported_total_entries": 0,
+      "new_primary_submissions": 0,
+      "cross_listings": 0,
+      "replacements": 0,
+      "unique_ids": [],
+      "evidence": "Dated heading and explicit zero-entry total with no article rows.",
+      "content_sha256": "ffaf5586cb0fc942986c46b9d7af77de06327d8882f7d4de5b73fc36f8ef4581"
+    },
+    "astro-ph.CO": {
+      "url": "https://arxiv.org/catchup/astro-ph.CO/2026-11-27?abs=True",
+      "resolved_url": "https://arxiv.org/catchup/astro-ph.CO/2026-11-27?abs=True",
+      "verified_at": "2026-11-27T08:02:19+01:00",
+      "http_status": 200,
+      "listing_date": "2026-11-27",
+      "reported_total_entries": 0,
+      "new_primary_submissions": 0,
+      "cross_listings": 0,
+      "replacements": 0,
+      "unique_ids": [],
+      "evidence": "Dated heading and explicit zero-entry total with no article rows.",
+      "content_sha256": "2c019002f503f925189d321e955f1f7341a95a28b67c3eecd3d6df3cc9ad4637"
+    },
+    "hep-ph": {
+      "url": "https://arxiv.org/catchup/hep-ph/2026-11-27?abs=True",
+      "resolved_url": "https://arxiv.org/catchup/hep-ph/2026-11-27?abs=True",
+      "verified_at": "2026-11-27T08:02:19+01:00",
+      "http_status": 200,
+      "listing_date": "2026-11-27",
+      "reported_total_entries": 0,
+      "new_primary_submissions": 0,
+      "cross_listings": 0,
+      "replacements": 0,
+      "unique_ids": [],
+      "evidence": "Dated heading and explicit zero-entry total with no article rows.",
+      "content_sha256": "ed153b28a3df8f0bc039e01911ae14bdbb64820707a70172c5015bdcd47dd063"
+    },
+    "hep-ex": {
+      "url": "https://arxiv.org/catchup/hep-ex/2026-11-27?abs=True",
+      "resolved_url": "https://arxiv.org/catchup/hep-ex/2026-11-27?abs=True",
+      "verified_at": "2026-11-27T08:02:23+01:00",
+      "http_status": 200,
+      "listing_date": "2026-11-27",
+      "reported_total_entries": 0,
+      "new_primary_submissions": 0,
+      "cross_listings": 0,
+      "replacements": 0,
+      "unique_ids": [],
+      "evidence": "Dated heading and explicit zero-entry total with no article rows.",
+      "content_sha256": "f8de4ca2aea4589648ae235270ca6a38dca19a7995469ad786d8e558ba203a16"
+    },
+    "hep-th": {
+      "url": "https://arxiv.org/catchup/hep-th/2026-11-27?abs=True",
+      "resolved_url": "https://arxiv.org/catchup/hep-th/2026-11-27?abs=True",
+      "verified_at": "2026-11-27T08:02:23+01:00",
+      "http_status": 200,
+      "listing_date": "2026-11-27",
+      "reported_total_entries": 0,
+      "new_primary_submissions": 0,
+      "cross_listings": 0,
+      "replacements": 0,
+      "unique_ids": [],
+      "evidence": "Dated heading and explicit zero-entry total with no article rows.",
+      "content_sha256": "268d1804a95c5b56e878c7e23d0d8eb6798751c180afafbde92f0677d1d4b3ee"
+    },
+    "gr-qc": {
+      "url": "https://arxiv.org/catchup/gr-qc/2026-11-27?abs=True",
+      "resolved_url": "https://arxiv.org/catchup/gr-qc/2026-11-27?abs=True",
+      "verified_at": "2026-11-27T08:02:23+01:00",
+      "http_status": 200,
+      "listing_date": "2026-11-27",
+      "reported_total_entries": 0,
+      "new_primary_submissions": 0,
+      "cross_listings": 0,
+      "replacements": 0,
+      "unique_ids": [],
+      "evidence": "Dated heading and explicit zero-entry total with no article rows.",
+      "content_sha256": "75a889beeb89009782a929599d101ee0ea718f85789ab8b2021b2a6a754a47b4"
+    },
+    "nucl-ex": {
+      "url": "https://arxiv.org/catchup/nucl-ex/2026-11-27?abs=True",
+      "resolved_url": "https://arxiv.org/catchup/nucl-ex/2026-11-27?abs=True",
+      "verified_at": "2026-11-27T08:02:23+01:00",
+      "http_status": 200,
+      "listing_date": "2026-11-27",
+      "reported_total_entries": 0,
+      "new_primary_submissions": 0,
+      "cross_listings": 0,
+      "replacements": 0,
+      "unique_ids": [],
+      "evidence": "Dated heading and explicit zero-entry total with no article rows.",
+      "content_sha256": "f489835745ef88e8267f9add0c87d2ed112b58dc802d29bfd508a456982f723c"
+    },
+    "nucl-th": {
+      "url": "https://arxiv.org/catchup/nucl-th/2026-11-27?abs=True",
+      "resolved_url": "https://arxiv.org/catchup/nucl-th/2026-11-27?abs=True",
+      "verified_at": "2026-11-27T08:02:28+01:00",
+      "http_status": 200,
+      "listing_date": "2026-11-27",
+      "reported_total_entries": 0,
+      "new_primary_submissions": 0,
+      "cross_listings": 0,
+      "replacements": 0,
+      "unique_ids": [],
+      "evidence": "Dated heading and explicit zero-entry total with no article rows.",
+      "content_sha256": "cbd43c9f06c17fb32bc387f0fedf6644378627398a20fa3e553f7a12c5da5a1c"
+    }
+  },
+  "batch_evidence": {
+    "status": "no_announcement_batch",
+    "holiday": "US Thanksgiving",
+    "notice_url": "https://blog.arxiv.org/2026/11/25/holiday-announcement-schedule/",
+    "notice_publication_utc": "2026-11-25T17:54:03+00:00",
+    "deferred_evening_in_new_york": "2026-11-26",
+    "affected_utc_listing_date": "2026-11-27",
+    "acceptance_window_start_inclusive": {
+      "America/New_York": "2026-11-25T14:00:00-05:00",
+      "UTC": "2026-11-25T19:00:00+00:00",
+      "Europe/Berlin": "2026-11-25T20:00:00+01:00"
+    },
+    "acceptance_window_end_exclusive": {
+      "America/New_York": "2026-11-27T14:00:00-05:00",
+      "UTC": "2026-11-27T19:00:00+00:00",
+      "Europe/Berlin": "2026-11-27T20:00:00+01:00"
+    },
+    "next_scheduled_announcement": {
+      "America/New_York": "2026-11-29T20:00:00-05:00",
+      "UTC": "2026-11-30T01:00:00+00:00",
+      "Europe/Berlin": "2026-11-30T02:00:00+01:00"
+    },
+    "next_scheduled_utc_listing": "2026-11-30",
+    "verified_at": "2026-11-27T08:04:01+01:00"
+  },
+  "supplementary_sources": [
+    "https://info.arxiv.org/help/availability.html",
+    "https://arxiv-org.atlassian.net/servicedesk/customer/portal/1/create/1246"
+  ],
+  "counts": {
+    "screened_unique_title_abstract_records": 0,
+    "selected_unique": 0,
+    "full_text_read": 0,
+    "unresolved_high_priority": 0,
+    "independent_featured_results": 0,
+    "selected_by_primary_category": {}
+  },
+  "unique_candidate_ids": [],
+  "candidates": [],
+  "disposition_counts": {
+    "selected/full-text reviewed": 0,
+    "screened out": 0,
+    "lower ranked": 0,
+    "unresolved": 0
+  },
+  "second_topic_pass": {
+    "input_records": 0,
+    "outcome": "No candidates to rank or check for first announcement."
+  },
+  "access_gaps": [],
+  "revision_provenance": {
+    "kind": "first dated handoff",
+    "retrospective": false,
+    "prior_utc_edition": "2026-11-26"
+  }
+}
