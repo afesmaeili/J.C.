@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-28",
+  "part": "news",
+  "window_start": "2026-11-27T08:10:06+01:00",
+  "cutoff": "2026-11-28T08:10:09+01:00",
+  "starting_part": "content-parts/2026-11-27/news.json",
+  "review_head": "8d39aaa8eb4710347becb0c9b141a6d523a00186",
+  "checks": [
+    [
+      "Physics and astronomy",
+      "ATLAS public-results and 27 November briefing, full referenced analysis including Appendix B and validation regions, H1 electron–proton comparison. No independent replication of the ATLAS excess was verified. KM3NeT’s ORCA Lorentz-invariance paper was published on 4 November, its collaboration announcement in March. The 27 November news article was secondary.",
+      "https://atlas.cern/Updates/Briefing/Vacuum-Tunnelling",
+      "https://arxiv.org/html/2611.22092v1",
+      "https://doi.org/10.1140/epjc/s10052-016-4194-6",
+      "https://www.km3net.org/lorentz-invariance/",
+      "https://doi.org/10.1088/1475-7516/2026/11/012"
+    ],
+    [
+      "Missions and community",
+      "ESA, JAXA, mission-operations reporting, ESO announcements, STScI, Brookhaven news, ICTP and MPI meeting calendars. ESO’s 27 November site visit and routine workshop announcements did not identify a new scientific milestone. The BepiColombo arrival and safe-orbit confirmations predate the newly reported operational constraints.",
+      "https://www.isas.jaxa.jp/en/topics/004702.html",
+      "https://www.esa.int/articles/about-us/directorates/operations/bepicolombo-safely-in-mercury-orbit-despite-unexpected-challenge",
+      "https://www.esa.int/da/media-advisories/media-invitation-briefing-on-bepicolombo-arrival-at-mercury-on-27-november",
+      "https://localnews8.com/social-feeds/2026/11/27/software-glitch-disrupts-spacecrafts-long-awaited-arrival-at-mercury/",
+      "https://www.eso.org/public/announcements/",
+      "https://www.stsci.edu/jwst",
+      "https://www.bnl.gov/newsroom/results.php?y=2026",
+      "https://www.pks.mpg.de/atom26",
+      "https://indico.ictp.it/category/0/overview?day=27&detail=conference&month=11&period=day&year=2026"
+    ],
+    [
+      "Mathematics and AI-assisted science",
+      "ETH number-theory seminar and Sutherland’s original and shorter RH verification logs separated check dates from webpage edits. The project on Tao’s blog was announced 24 November. The 27 November multimodal protein-diffusion paper concerns computationally predicted functions; it was screened as such.",
+      "https://math.ethz.ch/news-and-events/events/research-seminars/number-theory-seminar.leftnav.html?s=hs26",
+      "https://math.mit.edu/~drew/grh/",
+      "https://math.mit.edu/~drew/shortgrh/",
+      "https://terrytao.wordpress.com/2026/11/",
+      "https://doi.org/10.1038/s42256-026-01329-2"
+    ],
+    [
+      "Biology and genetics",
+      "Nature Cell Biology and Nature Genetics listings. Primary screening and structural, imaging and translational follow-up in the Gm10076 study were inspected, including tagged constructs and an alternative noncoding RNA contribution.",
+      "https://doi.org/10.1038/s41556-026-02131-3",
+      "https://www.nature.com/subjects/population-genetics/ng"
+    ],
+    [
+      "Chemistry",
+      "Nature Energy and electrocatalysis listings, lab-hosted full paper and supplement including hydrogen input and process boundary. The paclitaxel headline traces to a 23 November publication.",
+      "https://doi.org/10.1038/s41560-026-02158-8",
+      "https://light.utoronto.ca/wp-content/uploads/2026/11/s41560-026-02158-8.pdf",
+      "https://static-content.springer.com/esm/art%3A10.1038%2Fs41560-026-02158-8/MediaObjects/41560_2026_2158_MOESM1_ESM.pdf",
+      "https://doi.org/10.1038/s41589-026-02376-x"
+    ],
+    [
+      "Geology and palaeontology",
+      "Nature Geoscience and Earth sciences listings. Inspected the published abstract, extended-data waveform and parameter-grid tests, supplementary figures, and the Figure 1 coordinate archive. Denisovan teeth article already appeared in the 26 November edition.",
+      "https://doi.org/10.1038/s41561-026-02151-6",
+      "https://static-content.springer.com/esm/art%3A10.1038%2Fs41561-026-02151-6/MediaObjects/41561_2026_2151_MOESM1_ESM.pdf",
+      "https://www.nature.com/subjects/earth-sciences",
+      "https://doi.org/10.6084/m9.figshare.32967842"
+    ],
+    [
+      "Neuroscience",
+      "Full mouse study including state classification, composite score, closed-loop versus delayed stimulation and limitations. A 27 November Wernicke-area highlight traces to a 19 November paper.",
+      "https://doi.org/10.1038/s41593-026-02519-2",
+      "https://zenodo.org/records/22753351",
+      "https://pubmed.ncbi.nlm.nih.gov/43056455/"
+    ],
+    [
+      "Medicine",
+      "Dated trial-news, Lancet/NEJM/BMJ and PubMed searches. The ONWARD1/2 phase 3 psoriasis report was first published on 26 November. Discovery coverage included a secondary CTIS-derived digest, without exhaustive validation of trial-by-trial amendments.",
+      "https://doi.org/10.1016/S0140-6736(26)01649-1",
+      "https://ctis.eu/news/2026-11-27"
+    ]
+  ],
+  "coverage": "Partial coverage from 2026-11-27T08:10:06+01:00 through 2026-11-28T08:10:09+01:00. The prior saved news cutoff was verified in the 27 November edition. All previous finished sets were assembled and both 28 November companion parts were checked for overlap. Searches covered ATLAS, KM3NeT, Brookhaven, ESA/JAXA, ESO, STScI, physics society and meeting records, ETH mathematics, MIT formal-verification records, AI-assisted science, genetics, chemistry, palaeontology and solid Earth, neuroscience and clinical trial reports. The ATLAS paper and appendices, mouse biology and neuroscience articles, and carbon-electrolysis paper and supplement were inspected. For the mantle study the subscription main text was unavailable; the abstract, extended-data model comparisons, supplementary waveform tests and Figure 1 data record were checked. The exact earthquake dates were not verified. ESA and JAXA confirmed the earlier Mercury insertion. A named mission-operations interview and reporting from the 27 November briefing supplied the new constraints; a complete official briefing transcript was not retrieved. Several publishers provide calendar dates only. Clinical registries, award and obituary feeds and late-indexed reports were not exhaustively verified."
+}
