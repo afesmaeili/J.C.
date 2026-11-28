@@ -1,0 +1,188 @@
+{
+  "date": "2026-11-28",
+  "part": "arxiv",
+  "status": "complete",
+  "cutoff": "2026-11-28T07:58:54+01:00",
+  "coverage": "All seven dated category listings and the astro-ph.HE and astro-ph.CO subcategories explicitly reported zero entries for 28 November 2026 UTC. arXiv’s regular schedule and Thanksgiving notice corroborate the weekend interval. All pages were accessible. Unique records screened, selected papers, full texts read and unresolved high-priority candidates were each zero. No earlier batch was used.",
+  "counts": {
+    "screened_unique_title_abstract_records": 0,
+    "selected_unique": 0,
+    "full_text_read": 0,
+    "unresolved_high_priority": 0,
+    "independent_featured_results": 0,
+    "selected_by_primary_category": {}
+  },
+  "listing_pages": {
+    "astro-ph": {
+      "url": "https://arxiv.org/catchup/astro-ph/2026-11-28?abs=True",
+      "resolved_url": "https://arxiv.org/catchup/astro-ph/2026-11-28?abs=True",
+      "http_status": 200,
+      "verified_at": "2026-11-28T07:58:10+01:00",
+      "sha256": "9fee60f0759cb1c91043dc1720d74d0298d66c9d6c9458d4ecf0f24c2bc67021",
+      "heading": "Catchup results for Astrophysics on Sat, 28 Nov 2026",
+      "total_entries": 0,
+      "article_ids": [],
+      "explicit_no_updates": true,
+      "new_primary_submissions": 0,
+      "cross_listings": 0,
+      "replacements": 0
+    },
+    "hep-ph": {
+      "url": "https://arxiv.org/catchup/hep-ph/2026-11-28?abs=True",
+      "resolved_url": "https://arxiv.org/catchup/hep-ph/2026-11-28?abs=True",
+      "http_status": 200,
+      "verified_at": "2026-11-28T07:58:10+01:00",
+      "sha256": "65f75dd0a29836b9f62bb03c1843a1ed8deee44812a8fe12e9ada0a38801f141",
+      "heading": "Catchup results for High Energy Physics - Phenomenology on Sat, 28 Nov 2026",
+      "total_entries": 0,
+      "article_ids": [],
+      "explicit_no_updates": true,
+      "new_primary_submissions": 0,
+      "cross_listings": 0,
+      "replacements": 0
+    },
+    "hep-ex": {
+      "url": "https://arxiv.org/catchup/hep-ex/2026-11-28?abs=True",
+      "resolved_url": "https://arxiv.org/catchup/hep-ex/2026-11-28?abs=True",
+      "http_status": 200,
+      "verified_at": "2026-11-28T07:58:10+01:00",
+      "sha256": "e921534f5880d6fdd10516229bb7d4404ef00540d4f63d05ae97b0210c5e38de",
+      "heading": "Catchup results for High Energy Physics - Experiment on Sat, 28 Nov 2026",
+      "total_entries": 0,
+      "article_ids": [],
+      "explicit_no_updates": true,
+      "new_primary_submissions": 0,
+      "cross_listings": 0,
+      "replacements": 0
+    },
+    "hep-th": {
+      "url": "https://arxiv.org/catchup/hep-th/2026-11-28?abs=True",
+      "resolved_url": "https://arxiv.org/catchup/hep-th/2026-11-28?abs=True",
+      "http_status": 200,
+      "verified_at": "2026-11-28T07:58:14+01:00",
+      "sha256": "d1e70cfd9811260f519e0f67fe3eadf08785099b2cd1175c74236366c72200a9",
+      "heading": "Catchup results for High Energy Physics - Theory on Sat, 28 Nov 2026",
+      "total_entries": 0,
+      "article_ids": [],
+      "explicit_no_updates": true,
+      "new_primary_submissions": 0,
+      "cross_listings": 0,
+      "replacements": 0
+    },
+    "gr-qc": {
+      "url": "https://arxiv.org/catchup/gr-qc/2026-11-28?abs=True",
+      "resolved_url": "https://arxiv.org/catchup/gr-qc/2026-11-28?abs=True",
+      "http_status": 200,
+      "verified_at": "2026-11-28T07:58:14+01:00",
+      "sha256": "cf273e6cadf17bf3b9431c2de2a149dcf07ef5a8d94227d5911fb40083dbe686",
+      "heading": "Catchup results for General Relativity and Quantum Cosmology on Sat, 28 Nov 2026",
+      "total_entries": 0,
+      "article_ids": [],
+      "explicit_no_updates": true,
+      "new_primary_submissions": 0,
+      "cross_listings": 0,
+      "replacements": 0
+    },
+    "nucl-ex": {
+      "url": "https://arxiv.org/catchup/nucl-ex/2026-11-28?abs=True",
+      "resolved_url": "https://arxiv.org/catchup/nucl-ex/2026-11-28?abs=True",
+      "http_status": 200,
+      "verified_at": "2026-11-28T07:58:14+01:00",
+      "sha256": "bc88509163561318fcd327b734b1fa9e9e28e2626451c659c8cc8a62a65a7fb4",
+      "heading": "Catchup results for Nuclear Experiment on Sat, 28 Nov 2026",
+      "total_entries": 0,
+      "article_ids": [],
+      "explicit_no_updates": true,
+      "new_primary_submissions": 0,
+      "cross_listings": 0,
+      "replacements": 0
+    },
+    "nucl-th": {
+      "url": "https://arxiv.org/catchup/nucl-th/2026-11-28?abs=True",
+      "resolved_url": "https://arxiv.org/catchup/nucl-th/2026-11-28?abs=True",
+      "http_status": 200,
+      "verified_at": "2026-11-28T07:58:17+01:00",
+      "sha256": "f10d322c44e73b0217b32b3fd6688f3c76c9376ddfcf20744d695a901d5a8e21",
+      "heading": "Catchup results for Nuclear Theory on Sat, 28 Nov 2026",
+      "total_entries": 0,
+      "article_ids": [],
+      "explicit_no_updates": true,
+      "new_primary_submissions": 0,
+      "cross_listings": 0,
+      "replacements": 0
+    },
+    "astro-ph.HE": {
+      "url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-28?abs=True",
+      "resolved_url": "https://arxiv.org/catchup/astro-ph.HE/2026-11-28?abs=True",
+      "http_status": 200,
+      "verified_at": "2026-11-28T07:58:20+01:00",
+      "sha256": "24c109427d45243d4200b822d97817dc3af14d389b7569ec9160926a18deea5a",
+      "heading": "Catchup results for High Energy Astrophysical Phenomena on Sat, 28 Nov 2026",
+      "total_entries": 0,
+      "article_ids": [],
+      "explicit_no_updates": true,
+      "new_primary_submissions": 0,
+      "cross_listings": 0,
+      "replacements": 0
+    },
+    "astro-ph.CO": {
+      "url": "https://arxiv.org/catchup/astro-ph.CO/2026-11-28?abs=True",
+      "resolved_url": "https://arxiv.org/catchup/astro-ph.CO/2026-11-28?abs=True",
+      "http_status": 200,
+      "verified_at": "2026-11-28T07:58:20+01:00",
+      "sha256": "40f9ff4781797d852938b726cc6784ca67b6c2a8990efa9fc453c9c2ca8a1ba3",
+      "heading": "Catchup results for Cosmology and Nongalactic Astrophysics on Sat, 28 Nov 2026",
+      "total_entries": 0,
+      "article_ids": [],
+      "explicit_no_updates": true,
+      "new_primary_submissions": 0,
+      "cross_listings": 0,
+      "replacements": 0
+    }
+  },
+  "batch_evidence": {
+    "status": "no_announcement_batch",
+    "listing_date_utc": "2026-11-28",
+    "reason": "Regular weekend interval between arXiv announcements.",
+    "standard_schedule_url": "https://info.arxiv.org/help/availability.html",
+    "holiday_schedule_url": "https://blog.arxiv.org/2026/11/25/holiday-announcement-schedule/",
+    "next_scheduled_announcement_eastern": "2026-11-29T20:00:00-05:00",
+    "next_scheduled_announcement_utc": "2026-11-30T01:00:00+00:00",
+    "next_scheduled_announcement_berlin": "2026-11-30T02:00:00+01:00"
+  },
+  "schedule_sources": {
+    "schedule": {
+      "url": "https://info.arxiv.org/help/availability.html",
+      "resolved_url": "https://info.arxiv.org/help/availability.html",
+      "http_status": 200,
+      "verified_at": "2026-11-28T07:58:21+01:00",
+      "sha256": "e054afc2f04462318839cc5eca7d42843dbb5161ce7a791dde2e1f586d29a990"
+    },
+    "holiday": {
+      "url": "https://blog.arxiv.org/2026/11/25/holiday-announcement-schedule/",
+      "resolved_url": "https://blog.arxiv.org/2026/11/25/holiday-announcement-schedule/",
+      "http_status": 200,
+      "verified_at": "2026-11-28T07:58:24+01:00",
+      "sha256": "e4e37d7e641bcb8b481899e5051cdf9538a48a810a913384a28a1c0abeb2a09e"
+    }
+  },
+  "unique_candidate_ids": [],
+  "candidates": [],
+  "disposition_counts": {
+    "selected/full-text reviewed": 0,
+    "screened out": 0,
+    "lower ranked under the cap": 0,
+    "unresolved": 0
+  },
+  "second_topic_pass": {
+    "records": 0,
+    "result": "The dated inventory contains no titles or abstracts for a second topic pass or ranking."
+  },
+  "full_text_access_status": "No eligible records required version or full-text retrieval.",
+  "access_gaps": [],
+  "revision_provenance": {
+    "kind": "first dated handoff",
+    "edition_date_berlin": "2026-11-28",
+    "retrospective": false
+  }
+}
